@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Awesome Claude Fable 5 High Use Cases</title>
+  <desc id="desc">Repository banner for curated high-signal Claude Fable 5 use cases.</desc>
+  <rect width="1200" height="360" fill="#101214"/>
+  <rect x="36" y="36" width="1128" height="288" rx="28" fill="#f4efe7"/>
+  <path d="M112 226c72-96 126-134 205-134 59 0 104 24 151 51 48 28 99 59 171 59 91 0 154-49 223-122" fill="none" stroke="#101214" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="300" cy="113" r="18" fill="#d94b2b"/>
+  <circle cx="877" cy="83" r="18" fill="#2c7a7b"/>
+  <text x="112" y="180" fill="#101214" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Awesome Claude Fable 5</text>
+  <text x="112" y="244" fill="#3f4448" font-family="Arial, Helvetica, sans-serif" font-size="30">60 high-signal use cases, tutorials, integrations, and evaluations</text>
+</svg>
