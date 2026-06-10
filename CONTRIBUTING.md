@@ -4,6 +4,8 @@ This repository curates high-signal Claude Fable 5 use cases from public sources
 
 For the current custom usecase format and maintainer validation commands, see [docs/maintenance.md](docs/maintenance.md).
 
+Pull requests should use the repository PR template: [.github/PULL_REQUEST_TEMPLATE.md](.github/PULL_REQUEST_TEMPLATE.md).
+
 ## Case Requirements
 
 New public README cases should match the current case format:
