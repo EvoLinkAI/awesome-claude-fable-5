@@ -1,10 +1,10 @@
 <div align="center">
 
-<a href="https://evolink.ai"><img src="images/zh.png" alt="Claude Fable 5 high usecase repository logo" width="760"></a>
+<a href="https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5"><img src="images/zh.png" alt="Claude Fable 5 high usecase repository logo" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai)
-[![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai)
+[![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
+[![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 [![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://docs.evolink.ai)
 
 [![English](https://img.shields.io/badge/English-Default_Source-111111)](README.md)
@@ -32,7 +32,7 @@
 
 大多数案例整理自 X/Twitter 帖子和公开演示。每个案例标题都链接回原始来源，每个作者用户名都链接到创作者主页。
 
-在 Evolink 上试用：[Claude Fable 5](https://evolink.ai)
+在 Evolink 上试用：[Claude Fable 5](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 
 <a id="-overview"></a>
 ## 📊 概览
@@ -45,10 +45,29 @@
 > [!NOTE]
 > 本集合优先选择具体证据，而不是热度叙事：可复现提示词、已发布演示、基准方法、集成说明、成本数据和明确说明的注意事项。
 
-<a id="-news"></a>
-## 📰 新闻
+<a id="-quick-api-access"></a>
+## ⚡ 快速 API 接入
 
-- **2026-06-10：** 首次发布用例仓库，包含 60 个精选 Claude Fable 5 案例。
+通过兼容 Evolink 的 Messages API 使用 Claude Fable 5。先在 [Evolink](https://evolink.ai/login?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5) 获取 API token，然后将 `<token>` 替换为你的 token。
+
+```bash
+curl --request POST \
+  --url https://direct.evolink.ai/v1/messages \
+  --header 'Authorization: Bearer <token>' \
+  --header 'Content-Type: application/json' \
+  --data '
+{
+  "model": "claude-fable-5",
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello, world"
+    }
+  ]
+}
+'
+```
 
 <a id="-menu"></a>
 ## 📑 目录

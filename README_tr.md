@@ -1,10 +1,10 @@
 <div align="center">
 
-<a href="https://evolink.ai"><img src="images/tr.png" alt="Claude Fable 5 high usecase repository logo" width="760"></a>
+<a href="https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5"><img src="images/tr.png" alt="Claude Fable 5 high usecase repository logo" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai)
-[![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai)
+[![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
+[![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 [![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://docs.evolink.ai)
 
 [![English](https://img.shields.io/badge/English-Default_Source-111111)](README.md)
@@ -31,7 +31,7 @@ Bu Türkçe README, somut iş akışları, promptlar, demolar, entegrasyonlar, b
 
 Çoğu örnek X/Twitter gönderilerinden ve herkese açık demolardan derlenmiştir. Her örnek başlığı özgün kaynağa, her yazar kullanıcı adı da üretici profiline bağlantı verir.
 
-Evolink'te deneyin: [Claude Fable 5](https://evolink.ai)
+Evolink'te deneyin: [Claude Fable 5](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 
 ## 📊 Genel Bakış
 
@@ -43,9 +43,29 @@ Evolink'te deneyin: [Claude Fable 5](https://evolink.ai)
 > [!NOTE]
 > Bu koleksiyon abartıdan çok somut kanıtları öne çıkarır: yeniden üretilebilir promptlar, yayınlanmış demolar, benchmark yöntemleri, entegrasyon notları, maliyet verileri ve açıkça belirtilmiş uyarılar.
 
-## 📰 Haberler
+<a id="-quick-api-access"></a>
+## ⚡ Hızlı API erişimi
 
-- **2026-06-10:** 60 seçilmiş Claude Fable 5 örneğiyle ilk kullanım örnekleri deposu yayını.
+Claude Fable 5'i Evolink uyumlu Messages API üzerinden kullanın. [Evolink](https://evolink.ai/login?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5) üzerinden API token alın, ardından `<token>` değerini kendi tokenınızla değiştirin.
+
+```bash
+curl --request POST \
+  --url https://direct.evolink.ai/v1/messages \
+  --header 'Authorization: Bearer <token>' \
+  --header 'Content-Type: application/json' \
+  --data '
+{
+  "model": "claude-fable-5",
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello, world"
+    }
+  ]
+}
+'
+```
 
 ## 📑 Menü
 
@@ -2333,4 +2353,3 @@ Burada temsil edilen yüksek seviye kaynak üreticilere teşekkürler: [@ai_for_
 Paylaşmak istediğiniz daha ilginç kullanım örnekleri varsa, issue veya pull request açmaktan çekinmeyin ve Evolink kullanım örnekleri kütüphanesini büyütmeye yardım edin.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-claude-fable-5&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-claude-fable-5&Date)
-

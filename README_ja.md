@@ -1,10 +1,10 @@
 <div align="center">
 
-<a href="https://evolink.ai"><img src="images/ja.png" alt="Claude Fable 5 high usecase repository logo" width="760"></a>
+<a href="https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5"><img src="images/ja.png" alt="Claude Fable 5 high usecase repository logo" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai)
-[![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai)
+[![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
+[![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 [![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://docs.evolink.ai)
 
 [![English](https://img.shields.io/badge/English-Default_Source-111111)](README.md)
@@ -32,7 +32,7 @@ Claude Fable 5 の高シグナルなユースケースを集めたリポジト�
 
 ほとんどの事例は X/Twitter の投稿と公開デモからキュレーションされています。各ケースタイトルは元のソースへ、各著者ハンドルは作成者プロフィールへリンクしています。
 
-Evolink で試す: [Claude Fable 5](https://evolink.ai)
+Evolink で試す: [Claude Fable 5](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 
 <a id="-overview"></a>
 ## 📊 概要
@@ -45,10 +45,29 @@ Evolink で試す: [Claude Fable 5](https://evolink.ai)
 > [!NOTE]
 > このコレクションは、誇張よりも具体的な証拠を優先します。再現可能なプロンプト、出荷済みデモ、ベンチマーク手法、連携メモ、コストデータ、明確に述べられた注意点を重視しています。
 
-<a id="-news"></a>
-## 📰 ニュース
+<a id="-quick-api-access"></a>
+## ⚡ API クイックアクセス
 
-- **2026-06-10:** Claude Fable 5 の厳選 60 ケースを収録した初回ユースケースリポジトリを公開。
+Evolink 互換の Messages API から Claude Fable 5 を利用できます。[Evolink](https://evolink.ai/login?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5) で API トークンを取得し、`<token>` をそのトークンに置き換えてください。
+
+```bash
+curl --request POST \
+  --url https://direct.evolink.ai/v1/messages \
+  --header 'Authorization: Bearer <token>' \
+  --header 'Content-Type: application/json' \
+  --data '
+{
+  "model": "claude-fable-5",
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello, world"
+    }
+  ]
+}
+'
+```
 
 <a id="-menu"></a>
 ## 📑 メニュー

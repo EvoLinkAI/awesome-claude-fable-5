@@ -1,10 +1,10 @@
 <div align="center">
 
-<a href="https://evolink.ai"><img src="images/zh-tw.png" alt="Claude Fable 5 high usecase repository logo" width="760"></a>
+<a href="https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5"><img src="images/zh-tw.png" alt="Claude Fable 5 high usecase repository logo" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai)
-[![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai)
+[![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
+[![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 [![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://docs.evolink.ai)
 
 [![English](https://img.shields.io/badge/English-Default_Source-111111)](README.md)
@@ -32,7 +32,7 @@
 
 大多數案例整理自 X/Twitter 貼文與公開 demo。每個案例標題都連回原始來源，每個作者帳號都連到創作者個人頁面。
 
-在 Evolink 上試用：[Claude Fable 5](https://evolink.ai)
+在 Evolink 上試用：[Claude Fable 5](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 
 <a id="-overview"></a>
 ## 📊 概覽
@@ -45,10 +45,29 @@
 > [!NOTE]
 > 這個收藏偏重具體證據而非炒作：可重現提示詞、已發布 demo、基準測試方法、整合說明、成本資料，以及清楚標出的注意事項。
 
-<a id="-news"></a>
-## 📰 最新消息
+<a id="-quick-api-access"></a>
+## ⚡ 快速 API 接入
 
-- **2026-06-10:** 初始使用案例 repo 發布，包含 60 個精選 Claude Fable 5 案例。
+透過相容 Evolink 的 Messages API 使用 Claude Fable 5。先在 [Evolink](https://evolink.ai/login?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5) 取得 API token，然後將 `<token>` 替換為你的 token。
+
+```bash
+curl --request POST \
+  --url https://direct.evolink.ai/v1/messages \
+  --header 'Authorization: Bearer <token>' \
+  --header 'Content-Type: application/json' \
+  --data '
+{
+  "model": "claude-fable-5",
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello, world"
+    }
+  ]
+}
+'
+```
 
 <a id="-menu"></a>
 ## 📑 目錄

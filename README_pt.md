@@ -1,10 +1,10 @@
 <div align="center">
 
-<a href="https://evolink.ai"><img src="images/pt.png" alt="Claude Fable 5 high usecase repository logo" width="760"></a>
+<a href="https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5"><img src="images/pt.png" alt="Claude Fable 5 high usecase repository logo" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai)
-[![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai)
+[![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
+[![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 [![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://docs.evolink.ai)
 
 [![English](https://img.shields.io/badge/English-Default_Source-111111)](README.md)
@@ -32,7 +32,7 @@ Este README-fonte em inglês foca em casos de alto sinal com fluxos de trabalho 
 
 A maioria dos casos é selecionada a partir de publicações no X/Twitter e demos públicas. Cada título de caso aponta para a fonte original, e cada handle de autor aponta para o perfil do criador.
 
-Experimente no Evolink: [Claude Fable 5](https://evolink.ai)
+Experimente no Evolink: [Claude Fable 5](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 
 <a id="-overview"></a>
 ## 📊 Visão Geral
@@ -45,10 +45,29 @@ Experimente no Evolink: [Claude Fable 5](https://evolink.ai)
 > [!NOTE]
 > A coleção favorece evidências concretas em vez de hype: prompts reproduzíveis, demos entregues, métodos de benchmark, notas de integração, dados de custo e ressalvas claramente declaradas.
 
-<a id="-news"></a>
-## 📰 Notícias
+<a id="-quick-api-access"></a>
+## ⚡ Acesso rápido à API
 
-- **2026-06-10:** Lançamento inicial do repositório de casos de uso com 60 casos selecionados do Claude Fable 5.
+Use Claude Fable 5 pela API Messages compatível com Evolink. Obtenha um token de API em [Evolink](https://evolink.ai/login?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5) e substitua `<token>` pelo seu token.
+
+```bash
+curl --request POST \
+  --url https://direct.evolink.ai/v1/messages \
+  --header 'Authorization: Bearer <token>' \
+  --header 'Content-Type: application/json' \
+  --data '
+{
+  "model": "claude-fable-5",
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello, world"
+    }
+  ]
+}
+'
+```
 
 <a id="-menu"></a>
 ## 📑 Menu

@@ -1,10 +1,10 @@
 <div align="center">
 
-<a href="https://evolink.ai"><img src="images/ko.png" alt="Claude Fable 5 high usecase repository logo" width="760"></a>
+<a href="https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5"><img src="images/ko.png" alt="Claude Fable 5 high usecase repository logo" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai)
-[![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai)
+[![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
+[![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 [![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://docs.evolink.ai)
 
 [![English](https://img.shields.io/badge/English-Default_Source-111111)](README.md)
@@ -31,7 +31,7 @@ Claude Fable 5의 고신호 활용 사례 저장소에 오신 것을 환영합�
 
 대부분의 사례는 X/Twitter 게시물과 공개 데모에서 큐레이션되었습니다. 각 사례 제목은 원본 소스로 연결되며, 각 작성자 핸들은 크리에이터 프로필로 연결됩니다.
 
-Evolink에서 사용해 보기: [Claude Fable 5](https://evolink.ai)
+Evolink에서 사용해 보기: [Claude Fable 5](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 
 ## 📊 개요
 
@@ -43,9 +43,29 @@ Evolink에서 사용해 보기: [Claude Fable 5](https://evolink.ai)
 > [!NOTE]
 > 이 컬렉션은 과장보다 구체적 근거를 우선합니다: 재현 가능한 프롬프트, 출시된 데모, 벤치마크 방법, 통합 노트, 비용 데이터, 명확히 제시된 주의사항.
 
-## 📰 뉴스
+<a id="-quick-api-access"></a>
+## ⚡ 빠른 API 접속
 
-- **2026-06-10:** 선별된 Claude Fable 5 활용 사례 60개로 초기 usecase 저장소를 공개했습니다.
+Evolink 호환 Messages API를 통해 Claude Fable 5를 사용할 수 있습니다. [Evolink](https://evolink.ai/login?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)에서 API 토큰을 받은 뒤 `<token>`을 해당 토큰으로 바꾸세요.
+
+```bash
+curl --request POST \
+  --url https://direct.evolink.ai/v1/messages \
+  --header 'Authorization: Bearer <token>' \
+  --header 'Content-Type: application/json' \
+  --data '
+{
+  "model": "claude-fable-5",
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello, world"
+    }
+  ]
+}
+'
+```
 
 ## 📑 메뉴
 
@@ -2333,4 +2353,3 @@ Type: 평가 | Date: 2026-06-09
 공유할 더 흥미로운 사용 사례가 있다면 issue 또는 pull request를 열어 Evolink usecase library 확장에 도움을 주세요.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-claude-fable-5&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-claude-fable-5&Date)
-
