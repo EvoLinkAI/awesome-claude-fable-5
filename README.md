@@ -129,7 +129,7 @@ Try it on Evolink: [Claude Fable 5](https://evolink.ai)
 <a id="case-1"></a>
 ### Case 1: [Cursor Multi-Stage Workflow](https://x.com/AlicanKiraz0/status/2064487347605918180) (by [@AlicanKiraz0](https://x.com/AlicanKiraz0))
 
-**How to use it:** Use Fable 5 as the plan-review and critique step inside a multi-model Cursor workflow, then hand implementation and revision back to cheaper or specialized models.
+**Use Fable 5 as the plan-review and critique step inside a multi-model Cursor workflow, then hand implementation and revision back to cheaper or specialized models.**
 
 If we look at the final scoring between Fable 5 and GPT 5.5, the gap is very small. My humble usage recommendation is this: in IDE platforms such as Cursor that support hybrid models, use a staged workflow.
 
@@ -150,7 +150,7 @@ Type: Evaluation | Date: 2026-06-09
 <a id="case-2"></a>
 ### Case 2: [Recreating GitHub from a Screenshot](https://x.com/coldopn/status/2064435234465087638) (by [@coldopn](https://x.com/coldopn))
 
-**How to use it:** Paste a product screenshot into an agentic coding tool and ask Fable 5 to recreate the interface with working functionality.
+**Paste a product screenshot into an agentic coding tool and ask Fable 5 to recreate the interface with working functionality.**
 
 🚨 Anthropic Fable 5 just replicated GITHUB from a SCREENSHOT!!
 
@@ -167,7 +167,7 @@ Type: Demo | Date: 2026-06-09
 <a id="case-3"></a>
 ### Case 3: [One-Prompt Black Hole Simulation](https://x.com/deveshcodes_/status/2064437742189379745) (by [@deveshcodes_](https://x.com/deveshcodes_))
 
-**How to use it:** Give Fable 5 one detailed creative-coding prompt and ask it to produce a self-contained Three.js physics visualization.
+**Give Fable 5 one detailed creative-coding prompt and ask it to produce a self-contained Three.js physics visualization.**
 
 @claudeai one-shotted a real-time black hole lensing sim in Three.js with Claude Fable 5.
 
@@ -184,7 +184,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-4"></a>
 ### Case 4: [One-Shot macOS-Style Web OS](https://x.com/intheworldofai/status/2064421915347812672) (by [@intheworldofai](https://x.com/intheworldofai))
 
-**How to use it:** Ask Fable 5 for a complete single-file web OS and let it build the UI shell, apps, interactions, audio, and embedded game behavior in one pass.
+**Ask Fable 5 for a complete single-file web OS and let it build the UI shell, apps, interactions, audio, and embedded game behavior in one pass.**
 
 🚨 Claude Fable 5 just built a full macOS-style web OS in one shot and went further than most models.
 
@@ -212,7 +212,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-5"></a>
 ### Case 5: [Building Spawn 5.0 with 1,687 Prompts](https://x.com/jsnnsa/status/2064420561078693941) (by [@jsnnsa](https://x.com/jsnnsa))
 
-**How to use it:** Use Fable 5 as a long-session engineering partner across many prompts, with the human shifting from architecture to judging output quality.
+**Use Fable 5 as a long-session engineering partner across many prompts, with the human shifting from architecture to judging output quality.**
 
 claude fable 5 is live.
 
@@ -242,7 +242,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-6"></a>
 ### Case 6: [Large Pull Request Review with Findings](https://x.com/ryanrhughes/status/2064411147076534705) (by [@ryanrhughes](https://x.com/ryanrhughes))
 
-**How to use it:** Point Fable 5 at a large pull request and ask it to review correctness, false positives, real bugs, and polish issues.
+**Point Fable 5 at a large pull request and ask it to review correctness, false positives, real bugs, and polish issues.**
 
 I turned Fable 5 loose reviewing a single PR (74 files / +3,705 / -1,246) to see how it'd do. It ran for 34 min, chewed through 42% of my 5hr session, produced 16 “correctness” findings, and found:
 
@@ -263,7 +263,7 @@ Type: Demo | Date: 2026-06-09
 <a id="case-7"></a>
 ### Case 7: [Long-Horizon Relay Workflow Review](https://x.com/JJEnglert/status/2064469635190170105) (by [@JJEnglert](https://x.com/JJEnglert))
 
-**How to use it:** Use Fable 5 for ambitious long-horizon work: site rebuilds, programmatic content pipelines, voice matching, security review, and final quality checks.
+**Use Fable 5 for ambitious long-horizon work: site rebuilds, programmatic content pipelines, voice matching, security review, and final quality checks.**
 
 The short version of my Claude Fable 5 review: I spent a billion tokens testing Claude Fable 5 and it felt like having an unfair advantage.
 
@@ -303,7 +303,7 @@ Type: Evaluation | Date: 2026-06-09
 <a id="case-8"></a>
 ### Case 8: [Diagnosing an Infrastructure Outage and Opening a Fix PR](https://x.com/ayushagarwal/status/2064422467557564862) (by [@ayushagarwal](https://x.com/ayushagarwal))
 
-**How to use it:** Give Fable 5 access to infra clues such as logs, database errors, and image digests, then ask it to diagnose the outage and prepare the fix.
+**Give Fable 5 access to infra clues such as logs, database errors, and image digests, then ask it to diagnose the outage and prepare the fix.**
 
 claude fable 5 is damn damn good!!!!
 
@@ -325,7 +325,7 @@ Type: Evaluation | Date: 2026-06-09
 <a id="case-9"></a>
 ### Case 9: [Finger-Tracking Dino Runner](https://x.com/ai_for_success/status/2064413182396108932) (by [@ai_for_success](https://x.com/ai_for_success))
 
-**How to use it:** Ask Fable 5 to build a browser game that uses finger tracking as the input mechanic.
+**Ask Fable 5 to build a browser game that uses finger tracking as the input mechanic.**
 
 Asked Fable 5 to build a Dino runner game with finger tracking.
 
@@ -340,7 +340,7 @@ Type: Demo | Date: 2026-06-09
 <a id="case-10"></a>
 ### Case 10: [Two-Sentence Racing Game Build](https://x.com/kieradev/status/2064482704763085202) (by [@kieradev](https://x.com/kieradev))
 
-**How to use it:** Give Fable 5 a very short game prompt and let it generate maps, modes, music, UI, and game assets in one run.
+**Give Fable 5 a very short game prompt and let it generate maps, modes, music, UI, and game assets in one run.**
 
 Claude Fable 5, 40% of Max 5x usage.
 
@@ -357,7 +357,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-11"></a>
 ### Case 11: [Installable Terminal Minecraft in Rust](https://x.com/vikvang1/status/2064500731848319303) (by [@vikvang1](https://x.com/vikvang1))
 
-**How to use it:** Run Fable 5 through a terminal coding harness and ask it to build an installable Rust terminal game.
+**Run Fable 5 through a terminal coding harness and ask it to build an installable Rust terminal game.**
 
 I let Claude Fable 5 with Warp's harness cook for an hour.
 
@@ -374,7 +374,7 @@ Type: Demo | Date: 2026-06-10
 <a id="case-12"></a>
 ### Case 12: [Minecraft Clone with Time and Cost](https://x.com/ydamitcodes/status/2064536076518363353) (by [@ydamitcodes](https://x.com/ydamitcodes))
 
-**How to use it:** Use one prompt to ask Fable 5 for a playable Minecraft-style clone, then evaluate time, cost, code volume, and feature coverage.
+**Use one prompt to ask Fable 5 for a playable Minecraft-style clone, then evaluate time, cost, code volume, and feature coverage.**
 
 @claudeai Fable 5 built me a Minecraft clone in 37 minutes.
 
@@ -396,7 +396,7 @@ Type: Tutorial | Date: 2026-06-10
 <a id="case-13"></a>
 ### Case 13: [Full Reproducible Ecommerce Email Prompt](https://x.com/ecomchasedimond/status/2064454139225297091) (by [@ecomchasedimond](https://x.com/ecomchasedimond))
 
-**How to use it:** Give Fable 5 a complete creative brief for a brand email mockup, including exact sections, product requirements, visual direction, and constraints.
+**Give Fable 5 a complete creative brief for a brand email mockup, including exact sections, product requirements, visual direction, and constraints.**
 
 Claude Fable 5 made this with a single prompt and no edits.
 
@@ -538,7 +538,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-14"></a>
 ### Case 14: [Swiss Lever Watchmaker Benchmark](https://x.com/quanghuynt14/status/2064509430650065278) (by [@quanghuynt14](https://x.com/quanghuynt14))
 
-**How to use it:** Use Fable 5 on a mechanical simulation benchmark and ask it to implement, verify, and iterate on physical correctness.
+**Use Fable 5 on a mechanical simulation benchmark and ask it to implement, verify, and iterate on physical correctness.**
 
 So I gave Fable 5 the watchmaker benchmark: a full Swiss lever movement in Three.js.
 
@@ -555,7 +555,7 @@ Type: Evaluation | Date: 2026-06-10
 <a id="case-15"></a>
 ### Case 15: [Three.js Friends Apartment Scene](https://x.com/scottstts/status/2064464351906673029) (by [@scottstts](https://x.com/scottstts))
 
-**How to use it:** Prompt Fable 5 to turn a floor plan and scene reference into a navigable Three.js environment.
+**Prompt Fable 5 to turn a floor plan and scene reference into a navigable Three.js environment.**
 
 Holy Crap!!!
 
@@ -574,7 +574,7 @@ Type: Evaluation | Date: 2026-06-09
 <a id="case-16"></a>
 ### Case 16: [Solar System Simulation with Prompt and URL](https://x.com/tetumemo/status/2064477582930989357) (by [@tetumemo](https://x.com/tetumemo))
 
-**How to use it:** Use Fable 5 to build an astronomy simulation from physics principles, iterating until the simulation and public output are ready.
+**Use Fable 5 to build an astronomy simulation from physics principles, iterating until the simulation and public output are ready.**
 
 Claude Fable 5 is intense.
 
@@ -598,7 +598,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-17"></a>
 ### Case 17: [Stripe and Scientific Workflow Evidence](https://x.com/AndrewCurran_/status/2064413892378546418) (by [@AndrewCurran_](https://x.com/AndrewCurran_))
 
-**How to use it:** Use this as evidence for enterprise migration and scientific workflow claims, not as a copy-paste prompt.
+**Use this as evidence for enterprise migration and scientific workflow claims, not as a copy-paste prompt.**
 
 Quotes from the release today:
 
@@ -629,7 +629,7 @@ Type: Evaluation | Date: 2026-06-09
 <a id="case-18"></a>
 ### Case 18: [Policy Memo and Track-Changes Workflows](https://x.com/manaltdan/status/2064414129440608427) (by [@manaltdan](https://x.com/manaltdan))
 
-**How to use it:** Use Fable 5 for long-form qualitative document work: track changes, comment triage, and transcript-driven edits.
+**Use Fable 5 for long-form qualitative document work: track changes, comment triage, and transcript-driven edits.**
 
 Fable 5 is the first model that I have found consistently helpful for longer-duration qualitative work, such as drafting policy analysis.
 
@@ -648,7 +648,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-19"></a>
 ### Case 19: [Deep Research Prompt and Output](https://x.com/naoyafujiwara/status/2064470780373811637) (by [@naoyafujiwara](https://x.com/naoyafujiwara))
 
-**How to use it:** Ask Fable 5 a research-style question and evaluate whether it can produce a structured, historically grounded long answer.
+**Ask Fable 5 a research-style question and evaluate whether it can produce a structured, historically grounded long answer.**
 
 Claude Fable 5 Max became available this morning, so I tried it. It looks very deep underneath, while the surface output is highly polished.
 
@@ -699,7 +699,7 @@ Type: Demo | Date: 2026-06-09
 <a id="case-20"></a>
 ### Case 20: [How Fable 5 Changes Claude Code Workflows](https://x.com/AI_masaou/status/2064448218038223206) (by [@AI_masaou](https://x.com/AI_masaou))
 
-**How to use it:** Use Fable 5 by setting direction, context, goals, and verification criteria instead of micromanaging every step.
+**Use Fable 5 by setting direction, context, goals, and verification criteria instead of micromanaging every step.**
 
 What changed in the Claude Code team's day-to-day work after Claude Fable 5 is interesting.
 
@@ -736,7 +736,7 @@ Type: Demo | Date: 2026-06-09
 <a id="case-21"></a>
 ### Case 21: [One-Billion-Token Review and Routing Strategy](https://x.com/JJEnglert/status/2064420538798260388) (by [@JJEnglert](https://x.com/JJEnglert))
 
-**How to use it:** Use Fable 5 for frontier planning and review, then route high-volume implementation to cheaper models.
+**Use Fable 5 for frontier planning and review, then route high-volume implementation to cheaper models.**
 
 The Claude Fable 5 Review: One Billion Tokens, Judged by a Non-Engineer.
 
@@ -842,7 +842,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-22"></a>
 ### Case 22: [Defensive Device Hardening Prompt](https://x.com/Truunik/status/2064399110384292077) (by [@Truunik](https://x.com/Truunik))
 
-**How to use it:** Run a step-by-step defensive hardening prompt where Fable 5 inventories devices, gives exact checks, and waits for verification.
+**Run a step-by-step defensive hardening prompt where Fable 5 inventories devices, gives exact checks, and waits for verification.**
 
 "Safe for general use" here's a prompt to secure your devices. It works with Opus 4.8 and Fable 5.
 
@@ -927,7 +927,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-23"></a>
 ### Case 23: [Full-Site Design Audit Goal Prompt](https://x.com/Voxyz_ai/status/2064441201084825921) (by [@Voxyz_ai](https://x.com/Voxyz_ai))
 
-**How to use it:** Use `/goal` to make Fable 5 boot a site, screenshot pages, audit UX, write a report, and fix safe small issues.
+**Use `/goal` to make Fable 5 boot a site, screenshot pages, audit UX, write a report, and fix safe small issues.**
 
 quick impressions after a few hours with fable 5:
 
@@ -965,7 +965,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-24"></a>
 ### Case 24: [Long-Form Creative Workflow Division](https://x.com/aianimesyokunin/status/2064409545620017531) (by [@aianimesyokunin](https://x.com/aianimesyokunin))
 
-**How to use it:** Use Fable 5 to design stable formats and examples, then hand that structure to another generation system for domain-specific output.
+**Use Fable 5 to design stable formats and examples, then hand that structure to another generation system for domain-specific output.**
 
 After Claude moved from Opus to the new model, Fable 5, division of labor for doujin production became clearly easier, so I am sharing the workflow.
 
@@ -1006,7 +1006,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-25"></a>
 ### Case 25: [Beginner Guide to Using Fable 5](https://x.com/bielzinn/status/2064451064594608567) (by [@bielzinn](https://x.com/bielzinn))
 
-**How to use it:** Use Fable 5 with goal-oriented prompts, verification loops, and effort settings instead of small step-by-step instructions.
+**Use Fable 5 with goal-oriented prompts, verification loops, and effort settings instead of small step-by-step instructions.**
 
 Claude for Beginners: what you need to know about Fable 5.
 
@@ -1051,7 +1051,7 @@ Type: Evaluation | Date: 2026-06-09
 <a id="case-26"></a>
 ### Case 26: [Copy-Paste Repository Audit Prompt](https://x.com/meta_alchemist/status/2064431279383433646) (by [@meta_alchemist](https://x.com/meta_alchemist))
 
-**How to use it:** Paste the repository audit prompt into Fable 5 and ask for file-backed discovery, findings, strategy, and a milestone task plan.
+**Paste the repository audit prompt into Fable 5 and ask for file-backed discovery, findings, strategy, and a milestone task plan.**
 
 Got your hands on Claude Fable 5?
 
@@ -1249,7 +1249,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-27"></a>
 ### Case 27: [Limited-Window Usage Strategy](https://x.com/meta_alchemist/status/2064423360428490911) (by [@meta_alchemist](https://x.com/meta_alchemist))
 
-**How to use it:** Spend Fable 5 usage on audit, architecture, and planning while the access window is favorable, then use cheaper models for execution.
+**Spend Fable 5 usage on audit, architecture, and planning while the access window is favorable, then use cheaper models for execution.**
 
 A tip for Claude users who are excited about Fable 5:
 
@@ -1272,7 +1272,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-28"></a>
 ### Case 28: [Using Goals and Workflows in Claude Code](https://x.com/oikon48/status/2064402696124453157) (by [@oikon48](https://x.com/oikon48))
 
-**How to use it:** Use Fable 5 as a thought partner before implementation, then combine `/goal` and workflows to execute and verify the plan.
+**Use Fable 5 as a thought partner before implementation, then combine `/goal` and workflows to execute and verify the plan.**
 
 Thariq from the Claude Code team explains that after Claude Fable 5 came out, the way work is done fundamentally changed.
 
@@ -1320,7 +1320,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-29"></a>
 ### Case 29: [Hermes Agent Integration Setup](https://x.com/IBuzovskyi/status/2064427654942740608) (by [@IBuzovskyi](https://x.com/IBuzovskyi))
 
-**How to use it:** Configure Hermes to use `anthropic/claude-fable-5` for complex `/goal` runs and cached long-horizon tasks.
+**Configure Hermes to use `anthropic/claude-fable-5` for complex `/goal` runs and cached long-horizon tasks.**
 
 HERMES AGENT NOW RUNS ON CLAUDE FABLE 5, Anthropic's first public Mythos-class model.
 
@@ -1361,7 +1361,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-30"></a>
 ### Case 30: [Capabilities, Pricing, and Subscription Notes](https://x.com/btibor91/status/2064441061079134598) (by [@btibor91](https://x.com/btibor91))
 
-**How to use it:** Use this case to understand when Fable 5 is available, what it costs, and which guarded domains may fall back to another model.
+**Use this case to understand when Fable 5 is available, what it costs, and which guarded domains may fall back to another model.**
 
 Anthropic released Claude Fable 5 and Claude Mythos 5, two versions of their most capable model yet.
 
@@ -1398,7 +1398,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-31"></a>
 ### Case 31: [Launch, Access, Pricing, and Safety Summary](https://x.com/ctgptlb/status/2064410460963934479) (by [@ctgptlb](https://x.com/ctgptlb))
 
-**How to use it:** Use this launch summary to choose access route, API model name, context window, caching strategy, and subscription timing.
+**Use this launch summary to choose access route, API model name, context window, caching strategy, and subscription timing.**
 
 A summary of what you should know about Claude Fable 5, the Mythos-class model that is finally generally available.
 
@@ -1457,7 +1457,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-32"></a>
 ### Case 32: [Advisor-Based Cost Reduction Strategy](https://x.com/grapeot/status/2064460026996219992) (by [@grapeot](https://x.com/grapeot))
 
-**How to use it:** Use Fable 5 as an advisor or reviewer in a cheaper-model workflow when marginal intelligence is worth the cost.
+**Use Fable 5 as an advisor or reviewer in a cheaper-model workflow when marginal intelligence is worth the cost.**
 
 Fable 5 is expensive, but Anthropic published the cost-saving answer two months ago.
 
@@ -1498,7 +1498,7 @@ Type: Integration | Date: 2026-06-09
 <a id="case-33"></a>
 ### Case 33: [Pricing, Access, and Safety Guardrails](https://x.com/op7418/status/2064399444523782377) (by [@op7418](https://x.com/op7418))
 
-**How to use it:** Use this case to understand Fable 5 access, API pricing, and safety fallback behavior before planning workloads.
+**Use this case to understand Fable 5 access, API pricing, and safety fallback behavior before planning workloads.**
 
 I did not expect Anthropic's Mythos model to actually launch today.
 
@@ -1539,7 +1539,7 @@ Type: Integration | Date: 2026-06-09
 <a id="case-34"></a>
 ### Case 34: [One-Line Swarms Integration](https://x.com/swarms_corp/status/2064420238553186343) (by [@swarms_corp](https://x.com/swarms_corp))
 
-**How to use it:** Set the Swarms model name to `anthropic/claude-fable-5` and run Fable 5 through the Swarms framework or API.
+**Set the Swarms model name to `anthropic/claude-fable-5` and run Fable 5 through the Swarms framework or API.**
 
 Fable 5 and Mythos are now live on Swarms 👾🦀
 
@@ -1562,7 +1562,7 @@ Type: Integration | Date: 2026-06-09
 <a id="case-35"></a>
 ### Case 35: [Fable 5 vs GPT-5.5 Cost and Quality Comparison](https://x.com/AlicanKiraz0/status/2064424400494186867) (by [@AlicanKiraz0](https://x.com/AlicanKiraz0))
 
-**How to use it:** Compare Fable 5 and GPT-5.5 on the same coding task to judge output quality, runtime, and tool cost.
+**Compare Fable 5 and GPT-5.5 on the same coding task to judge output quality, runtime, and tool cost.**
 
 Cursor Fable 5 Max vs Codex GPT 5.5 Very High.
 
@@ -1599,7 +1599,7 @@ Type: Evaluation | Date: 2026-06-09
 <a id="case-36"></a>
 ### Case 36: [AA-Omniscience Benchmark Result](https://x.com/ArtificialAnlys/status/2064500154959618084) (by [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
-**How to use it:** Use this benchmark case to evaluate Fable 5 on knowledge accuracy and hallucination behavior.
+**Use this benchmark case to evaluate Fable 5 on knowledge accuracy and hallucination behavior.**
 
 Claude Fable 5 achieves the highest score to date on our knowledge and hallucination benchmark, AA-Omniscience.
 
@@ -1614,7 +1614,7 @@ Type: Evaluation | Date: 2026-06-10
 <a id="case-37"></a>
 ### Case 37: [Artificial Analysis Intelligence Index Result](https://x.com/ArtificialAnlys/status/2064500150069030992) (by [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
-**How to use it:** Use this case to benchmark Fable 5's overall intelligence ranking against other frontier models.
+**Use this case to benchmark Fable 5's overall intelligence ranking against other frontier models.**
 
 Claude Fable 5 launched at #1 on the Artificial Analysis Intelligence Index, putting Anthropic nearly 5 points ahead of any other lab's best model.
 
@@ -1673,7 +1673,7 @@ Type: Evaluation | Date: 2026-06-10
 <a id="case-38"></a>
 ### Case 38: [GDPval-AA Agentic Knowledge Work Benchmark](https://x.com/ArtificialAnlys/status/2064414308289937869) (by [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
-**How to use it:** Use this case to evaluate Fable 5 on agentic real-world knowledge work.
+**Use this case to evaluate Fable 5 on agentic real-world knowledge work.**
 
 Anthropic has released Claude Fable 5, the first publicly available Mythos-class model that ranks #1 in our agentic real-world knowledge work benchmark, GDPval-AA.
 
@@ -1703,7 +1703,7 @@ Type: Evaluation | Date: 2026-06-09
 <a id="case-39"></a>
 ### Case 39: [One-Week First Impressions and Pricing Mechanics](https://x.com/Conor_D_Dart/status/2064424882977243526) (by [@Conor_D_Dart](https://x.com/Conor_D_Dart))
 
-**How to use it:** Use this first-impressions case to decide where Fable 5 is strongest, especially game design and systems planning.
+**Use this first-impressions case to decide where Fable 5 is strongest, especially game design and systems planning.**
 
 My first impressions of Fable 5:
 
@@ -1736,7 +1736,7 @@ Type: Integration | Date: 2026-06-09
 <a id="case-40"></a>
 ### Case 40: [Cost and Speed Comparison](https://x.com/HKrackDev/status/2064435392649306546) (by [@HKrackDev](https://x.com/HKrackDev))
 
-**How to use it:** Use this comparison to decide whether the quality gain justifies higher cost and slower long-horizon runs.
+**Use this comparison to decide whether the quality gain justifies higher cost and slower long-horizon runs.**
 
 Is @AnthropicAI's Fable 5 actually worth the upgrade?
 
