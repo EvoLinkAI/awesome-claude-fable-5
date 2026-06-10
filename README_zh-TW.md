@@ -7,17 +7,17 @@
 [![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 [![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://docs.evolink.ai)
 
-[![英文](https://img.shields.io/badge/%E8%8B%B1%E6%96%87-%E5%8E%9F%E6%96%87-111111)](README.md)
-[![西班牙文](https://img.shields.io/badge/%E8%A5%BF%E7%8F%AD%E7%89%99%E6%96%87-%E6%9F%A5%E7%9C%8B-ffb703)](README_es.md)
-[![葡萄牙文](https://img.shields.io/badge/%E8%91%A1%E8%90%84%E7%89%99%E6%96%87-%E6%9F%A5%E7%9C%8B-2a9d8f)](README_pt.md)
-[![日文](https://img.shields.io/badge/%E6%97%A5%E6%96%87-%E6%9F%A5%E7%9C%8B-52b788)](README_ja.md)
-[![韓文](https://img.shields.io/badge/%E9%9F%93%E6%96%87-%E6%9F%A5%E7%9C%8B-4ea8de)](README_ko.md)
-[![德文](https://img.shields.io/badge/%E5%BE%B7%E6%96%87-%E6%9F%A5%E7%9C%8B-f4a261)](README_de.md)
-[![法文](https://img.shields.io/badge/%E6%B3%95%E6%96%87-%E6%9F%A5%E7%9C%8B-e76f51)](README_fr.md)
-[![土耳其文](https://img.shields.io/badge/%E5%9C%9F%E8%80%B3%E5%85%B6%E6%96%87-%E6%9F%A5%E7%9C%8B-d62828)](README_tr.md)
-[![繁體中文](https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-%E6%9F%A5%E7%9C%8B-8338ec)](README_zh-TW.md)
-[![簡體中文](https://img.shields.io/badge/%E7%B0%A1%E9%AB%94%E4%B8%AD%E6%96%87-%E6%9F%A5%E7%9C%8B-ef476f)](README_zh-CN.md)
-[![俄文](https://img.shields.io/badge/%E4%BF%84%E6%96%87-%E6%9F%A5%E7%9C%8B-577590)](README_ru.md)
+[![English](https://img.shields.io/badge/English-Read-111111)](README.md)
+[![Español](https://img.shields.io/badge/Espa%C3%B1ol-Read-ffb703)](README_es.md)
+[![Português](https://img.shields.io/badge/Portugu%C3%AAs-Read-2a9d8f)](README_pt.md)
+[![日本語](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-Read-52b788)](README_ja.md)
+[![한국어](https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-Read-4ea8de)](README_ko.md)
+[![Deutsch](https://img.shields.io/badge/Deutsch-Read-f4a261)](README_de.md)
+[![Français](https://img.shields.io/badge/Fran%C3%A7ais-Read-e76f51)](README_fr.md)
+[![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-Read-d62828)](README_tr.md)
+[![繁體中文](https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-Read-8338ec)](README_zh-TW.md)
+[![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-Read-ef476f)](README_zh-CN.md)
+[![Русский](https://img.shields.io/badge/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-Read-577590)](README_ru.md)
 
 </div>
 
