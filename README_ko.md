@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://evolink.ai"><img src="images/logo.svg" alt="Claude Fable 5 high usecase repository logo" width="760"></a>
+<a href="https://evolink.ai"><img src="images/ko.png" alt="Claude Fable 5 high usecase repository logo" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 [![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai)
