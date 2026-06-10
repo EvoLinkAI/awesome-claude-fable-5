@@ -1757,7 +1757,7 @@ Type: Evaluation | Date: 2026-06-09
 <a id="case-41"></a>
 ### Case 41: [Claude Code Hands-On Notes](https://x.com/Hi_Noguchi/status/2064419241068319079) (by [@Hi_Noguchi](https://x.com/Hi_Noguchi))
 
-**How to use it:** Use this case to evaluate Fable 5 inside Claude Code, including tool use, personality, and remaining rough edges.
+**Use this case to evaluate Fable 5 inside Claude Code, including tool use, personality, and remaining rough edges.**
 
 I tried Claude Fable 5 with Claude Code 2.1.170.
 
@@ -1782,7 +1782,7 @@ Type: Demo | Date: 2026-06-09
 <a id="case-42"></a>
 ### Case 42: [Creative Writing Benchmark Result](https://x.com/LechMazur/status/2064503575577821458) (by [@LechMazur](https://x.com/LechMazur))
 
-**How to use it:** Use this benchmark case to judge Fable 5's short-fiction writing quality and refusal behavior.
+**Use this benchmark case to judge Fable 5's short-fiction writing quality and refusal behavior.**
 
 Claude Fable 5 (high) is a step up in short-fiction writing.
 
@@ -1799,7 +1799,7 @@ Type: Evaluation | Date: 2026-06-10
 <a id="case-43"></a>
 ### Case 43: [Multi-Benchmark Launch Summary](https://x.com/MTSlive/status/2064430633800319436) (by [@MTSlive](https://x.com/MTSlive))
 
-**How to use it:** Use this launch benchmark summary to understand the headline scores most relevant to coding agents and complex tasks.
+**Use this launch benchmark summary to understand the headline scores most relevant to coding agents and complex tasks.**
 
 SITUATION EXPLAINED: Claude Fable 5 just dropped.
 • Anthropic launched Claude Fable 5 today, "a Mythos class model made safe for general use"
@@ -1817,7 +1817,7 @@ Type: Evaluation | Date: 2026-06-09
 <a id="case-44"></a>
 ### Case 44: [Benchmark and Pricing Comparison with GPT-5.5](https://x.com/VaibhavSisinty/status/2064459064810361271) (by [@VaibhavSisinty](https://x.com/VaibhavSisinty))
 
-**How to use it:** Use this comparison to evaluate Fable 5 against GPT-5.5 on price and benchmark categories.
+**Use this comparison to evaluate Fable 5 against GPT-5.5 on price and benchmark categories.**
 
 Anthropic's new Mythos-class model is 3x cheaper than OpenAI's best model. And it beats it on nearly every benchmark. 🤯
 
@@ -1847,7 +1847,7 @@ Type: Evaluation | Date: 2026-06-09
 <a id="case-45"></a>
 ### Case 45: [Field Notes with Practical Limitations](https://x.com/alliekmiller/status/2064451731325415446) (by [@alliekmiller](https://x.com/alliekmiller))
 
-**How to use it:** Use this field report to understand where Fable 5 feels meaningfully better and where it still has practical limits.
+**Use this field report to understand where Fable 5 feels meaningfully better and where it still has practical limits.**
 
 🚨 Fable 5 is something to pay attention to.
 
@@ -1882,7 +1882,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-46"></a>
 ### Case 46: [Physics Simulation Comparison](https://x.com/atomic_chat_hq/status/2064488894398161377) (by [@atomic_chat_hq](https://x.com/atomic_chat_hq))
 
-**How to use it:** Run identical physics simulation prompts against Fable 5 and Opus 4.8 to compare output quality, cost, and speed.
+**Run identical physics simulation prompts against Fable 5 and Opus 4.8 to compare output quality, cost, and speed.**
 
 New Fable 5 beats Opus 4.8 on real-world physics simulations.
 
@@ -1906,7 +1906,7 @@ Type: Demo | Date: 2026-06-09
 <a id="case-47"></a>
 ### Case 47: [Debugging Experience and Design Judgment](https://x.com/bcherny/status/2064431111154053187) (by [@bcherny](https://x.com/bcherny))
 
-**How to use it:** Use Fable 5 for debugging by asking it to measure, log, verify, and patch rather than simply guess.
+**Use Fable 5 for debugging by asking it to measure, log, verify, and patch rather than simply guess.**
 
 Fable 5 is the biggest step up I have felt in our models since Opus 4.5 back in November.
 
@@ -1927,7 +1927,7 @@ Type: Demo | Date: 2026-06-09
 <a id="case-48"></a>
 ### Case 48: [Multi-Dimensional Pros and Cons](https://x.com/clairevo/status/2064416978685874333) (by [@clairevo](https://x.com/clairevo))
 
-**How to use it:** Use this case to understand practical strengths and weaknesses before making Fable 5 a daily driver.
+**Use this case to understand practical strengths and weaknesses before making Fable 5 a daily driver.**
 
 Fable 5 (aka baby Mythos) just dropped. Is it as scary (or scary good) as they claim? My thoughts after some early testing:
 - smart smart smart (crushed SWE bench)
@@ -1949,7 +1949,7 @@ Type: Demo | Date: 2026-06-09
 <a id="case-49"></a>
 ### Case 49: [Legal S-1 Drafting Test](https://x.com/gabepereyra/status/2064436570720284879) (by [@gabepereyra](https://x.com/gabepereyra))
 
-**How to use it:** Use an S-1 drafting prompt as a legal-agent capability test and compare structure, formatting, and length.
+**Use an S-1 drafting prompt as a legal-agent capability test and compare structure, formatting, and length.**
 
 The first prompt I always run on a new model to test legal capabilities is: “Draft an S-1”.
 
@@ -1970,7 +1970,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-50"></a>
 ### Case 50: [Healthcare Benchmark Details](https://x.com/iScienceLuvr/status/2064411823445774554) (by [@iScienceLuvr](https://x.com/iScienceLuvr))
 
-**How to use it:** Use this benchmark note to evaluate Fable 5 on healthcare-related tasks and identify missing hard medical evals.
+**Use this benchmark note to evaluate Fable 5 on healthcare-related tasks and identify missing hard medical evals.**
 
 I appreciate Anthropic providing healthcare-related evals. Let's quickly go over them.
 
@@ -1999,7 +1999,7 @@ Type: Evaluation | Date: 2026-06-09
 <a id="case-51"></a>
 ### Case 51: [ParseBench Document Parsing Evaluation](https://x.com/jerryjliu0/status/2064519456966205905) (by [@jerryjliu0](https://x.com/jerryjliu0))
 
-**How to use it:** Use this case to decide whether Fable 5 is cost-effective for document parsing versus specialized OCR systems.
+**Use this case to decide whether Fable 5 is cost-effective for document parsing versus specialized OCR systems.**
 
 Claude Fable 5 thinks document parsing is beneath it.
 
@@ -2022,7 +2022,7 @@ Type: Evaluation | Date: 2026-06-10
 <a id="case-52"></a>
 ### Case 52: [SWE-Bench Pro and FrontierCode Comparison](https://x.com/jumperz/status/2064402965461406044) (by [@jumperz](https://x.com/jumperz))
 
-**How to use it:** Use this benchmark case to evaluate Fable 5 for migrations, complex implementations, autonomous sessions, tests, and visual verification.
+**Use this benchmark case to evaluate Fable 5 for migrations, complex implementations, autonomous sessions, tests, and visual verification.**
 
 Fable 5 is here and it honestly destroys GPT 5.5 in SWE-Bench Pro, the agentic coding benchmark:
 
@@ -2046,7 +2046,7 @@ Type: Evaluation | Date: 2026-06-09
 <a id="case-53"></a>
 ### Case 53: [Qualitative Review of Long Problem Solving](https://x.com/karpathy/status/2064409694761054332) (by [@karpathy](https://x.com/karpathy))
 
-**How to use it:** Use this qualitative review to understand why Fable 5 is suited to longer, harder tasks while still requiring production review.
+**Use this qualitative review to understand why Fable 5 is suited to longer, harder tasks while still requiring production review.**
 
 This is a super exciting release.
 
@@ -2082,7 +2082,7 @@ Type: Evaluation | Date: 2026-06-09
 <a id="case-54"></a>
 ### Case 54: [ParseBench Faithfulness and Formatting Results](https://x.com/llama_index/status/2064502330800615903) (by [@llama_index](https://x.com/llama_index))
 
-**How to use it:** Use this ParseBench result to judge document faithfulness and formatting performance.
+**Use this ParseBench result to judge document faithfulness and formatting performance.**
 
 Day 0 Anthropic Fable 5 in ParseBench.
 
@@ -2107,7 +2107,7 @@ Type: Evaluation | Date: 2026-06-10
 <a id="case-55"></a>
 ### Case 55: [Benchmarks, Pricing, Access, and Safeguards](https://x.com/lucas_flatwhite/status/2064483645184979183) (by [@lucas_flatwhite](https://x.com/lucas_flatwhite))
 
-**How to use it:** Use this case as a broad checklist for benchmarks, pricing, access, safeguards, and strategic implications.
+**Use this case as a broad checklist for benchmarks, pricing, access, safeguards, and strategic implications.**
 
 Claude Fable 5 and Mythos 5 have launched. They are the most powerful models Anthropic has made so far.
 
@@ -2166,7 +2166,7 @@ Type: Evaluation | Date: 2026-06-09
 <a id="case-56"></a>
 ### Case 56: [Official Benchmark Score List](https://x.com/mark_k/status/2064401429234905279) (by [@mark_k](https://x.com/mark_k))
 
-**How to use it:** Use this benchmark list to understand Fable 5's official scores across coding, computer use, and security tasks.
+**Use this benchmark list to understand Fable 5's official scores across coding, computer use, and security tasks.**
 
 The official Claude Fable 5 benchmarks are seriously impressive.
 
@@ -2193,7 +2193,7 @@ Type: Evaluation | Date: 2026-06-09
 <a id="case-57"></a>
 ### Case 57: [APEX-SWE Benchmark Methodology](https://x.com/mercor_ai/status/2064399133075796446) (by [@mercor_ai](https://x.com/mercor_ai))
 
-**How to use it:** Use this case to evaluate Fable 5 on APEX-SWE, especially observability and integration work.
+**Use this case to evaluate Fable 5 on APEX-SWE, especially observability and integration work.**
 
 Claude Fable 5 takes #1 on APEX-SWE: 65.5% Pass@1 overall. It scores ~18pp higher than Opus 4.8. We tested @claudeai Fable 5 on APEX-SWE which measures whether AI models can do real software engineering work. Fable 5 tops our two APEX-SWE categories:
 - Integration: 61.3%
@@ -2212,7 +2212,7 @@ Type: Evaluation | Date: 2026-06-09
 <a id="case-58"></a>
 ### Case 58: [ProofBench Formal Math Result](https://x.com/nicbstme/status/2064443782255554960) (by [@nicbstme](https://x.com/nicbstme))
 
-**How to use it:** Use this case to evaluate Fable 5 on formal math against specialized theorem-proving systems.
+**Use this case to evaluate Fable 5 on formal math against specialized theorem-proving systems.**
 
 What I find fascinating with Claude Fable 5 is that it proves once again that large generalist models will outperform vertical ones.
 
@@ -2238,7 +2238,7 @@ Type: Tutorial | Date: 2026-06-09
 <a id="case-59"></a>
 ### Case 59: [VirtueBench Preliminary Analysis](https://x.com/timhwang/status/2064446028997423180) (by [@timhwang](https://x.com/timhwang))
 
-**How to use it:** Use this case to inspect Fable 5's moral-reasoning behavior across virtue categories.
+**Use this case to inspect Fable 5's moral-reasoning behavior across virtue categories.**
 
 Fascinating results will be published in fuller detail by ICMI in the coming days, but here is a preliminary review that runs Fable 5 against VirtueBench.
 
@@ -2265,7 +2265,7 @@ Type: Evaluation | Date: 2026-06-09
 <a id="case-60"></a>
 ### Case 60: [API Empty-Response Safety Overfit Test](https://x.com/xw33bttv/status/2064421048565789087) (by [@xw33bttv](https://x.com/xw33bttv))
 
-**How to use it:** Use this case to understand launch-time safety overfit risk and empty-response behavior in API testing.
+**Use this case to understand launch-time safety overfit risk and empty-response behavior in API testing.**
 
 Claude Fable 5 is heavily censored.
 
@@ -2287,18 +2287,7 @@ Type: Evaluation | Date: 2026-06-09
 
 This repository was inspired by the creators, developers, benchmark teams, and communities who shared real Claude Fable 5 usage cases publicly.
 
-Thanks to the high-tier source creators represented here:
-
-- [@ai_for_success](https://x.com/ai_for_success), [@AI_masaou](https://x.com/AI_masaou), [@aianimesyokunin](https://x.com/aianimesyokunin), [@AlicanKiraz0](https://x.com/AlicanKiraz0)
-- [@alliekmiller](https://x.com/alliekmiller), [@AndrewCurran_](https://x.com/AndrewCurran_), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq)
-- [@ayushagarwal](https://x.com/ayushagarwal), [@bcherny](https://x.com/bcherny), [@bielzinn](https://x.com/bielzinn), [@btibor91](https://x.com/btibor91)
-- [@clairevo](https://x.com/clairevo), [@coldopn](https://x.com/coldopn), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@ctgptlb](https://x.com/ctgptlb)
-- [@deveshcodes_](https://x.com/deveshcodes_), [@ecomchasedimond](https://x.com/ecomchasedimond), [@gabepereyra](https://x.com/gabepereyra), [@grapeot](https://x.com/grapeot)
-- [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@HKrackDev](https://x.com/HKrackDev), [@IBuzovskyi](https://x.com/IBuzovskyi), [@intheworldofai](https://x.com/intheworldofai)
-- [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@JJEnglert](https://x.com/JJEnglert), [@jsnnsa](https://x.com/jsnnsa)
-- [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@kieradev](https://x.com/kieradev), [@LechMazur](https://x.com/LechMazur)
-- [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@manaltdan](https://x.com/manaltdan), [@mark_k](https://x.com/mark_k)
-- 19 more creators in the dataset.
+Thanks to the high-tier source creators represented here: [@ai_for_success](https://x.com/ai_for_success), [@AI_masaou](https://x.com/AI_masaou), [@aianimesyokunin](https://x.com/aianimesyokunin), [@AlicanKiraz0](https://x.com/AlicanKiraz0), [@alliekmiller](https://x.com/alliekmiller), [@AndrewCurran_](https://x.com/AndrewCurran_), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@ayushagarwal](https://x.com/ayushagarwal), [@bcherny](https://x.com/bcherny), [@bielzinn](https://x.com/bielzinn), [@btibor91](https://x.com/btibor91), [@clairevo](https://x.com/clairevo), [@coldopn](https://x.com/coldopn), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@ctgptlb](https://x.com/ctgptlb), [@deveshcodes_](https://x.com/deveshcodes_), [@ecomchasedimond](https://x.com/ecomchasedimond), [@gabepereyra](https://x.com/gabepereyra), [@grapeot](https://x.com/grapeot), [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@HKrackDev](https://x.com/HKrackDev), [@IBuzovskyi](https://x.com/IBuzovskyi), [@intheworldofai](https://x.com/intheworldofai), [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@JJEnglert](https://x.com/JJEnglert), [@jsnnsa](https://x.com/jsnnsa), [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@kieradev](https://x.com/kieradev), [@LechMazur](https://x.com/LechMazur), [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@manaltdan](https://x.com/manaltdan), [@mark_k](https://x.com/mark_k), [@mercor_ai](https://x.com/mercor_ai), [@meta_alchemist](https://x.com/meta_alchemist), [@MTSlive](https://x.com/MTSlive), [@naoyafujiwara](https://x.com/naoyafujiwara), [@nicbstme](https://x.com/nicbstme), [@oikon48](https://x.com/oikon48), [@op7418](https://x.com/op7418), [@quanghuynt14](https://x.com/quanghuynt14), [@ryanrhughes](https://x.com/ryanrhughes), [@scottstts](https://x.com/scottstts), [@swarms_corp](https://x.com/swarms_corp), [@tetumemo](https://x.com/tetumemo), [@timhwang](https://x.com/timhwang), [@Truunik](https://x.com/Truunik), [@VaibhavSisinty](https://x.com/VaibhavSisinty), [@vikvang1](https://x.com/vikvang1), [@Voxyz_ai](https://x.com/Voxyz_ai), [@xw33bttv](https://x.com/xw33bttv), and [@ydamitcodes](https://x.com/ydamitcodes).
 
 *We cannot guarantee that every case is attributed to the original creator. If anything needs to be corrected, please contact us and we will update it.*
 
