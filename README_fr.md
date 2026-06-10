@@ -7,17 +7,17 @@
 [![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 [![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://docs.evolink.ai)
 
-[![English](https://img.shields.io/badge/English-Default_Source-111111)](README.md)
-[![Spanish](https://img.shields.io/badge/Spanish-View-ffb703)](README_es.md)
-[![Portuguese](https://img.shields.io/badge/Portuguese-View-2a9d8f)](README_pt.md)
-[![Japanese](https://img.shields.io/badge/Japanese-View-52b788)](README_ja.md)
-[![Korean](https://img.shields.io/badge/Korean-View-4ea8de)](README_ko.md)
-[![German](https://img.shields.io/badge/German-View-f4a261)](README_de.md)
-[![French](https://img.shields.io/badge/French-View-e76f51)](README_fr.md)
-[![Turkish](https://img.shields.io/badge/Turkish-View-d62828)](README_tr.md)
-[![Traditional Chinese](https://img.shields.io/badge/Traditional_Chinese-View-8338ec)](README_zh-TW.md)
-[![Simplified Chinese](https://img.shields.io/badge/Simplified_Chinese-View-ef476f)](README_zh-CN.md)
-[![Russian](https://img.shields.io/badge/Russian-View-577590)](README_ru.md)
+[![Anglais](https://img.shields.io/badge/Anglais-Source-111111)](README.md)
+[![Espagnol](https://img.shields.io/badge/Espagnol-Voir-ffb703)](README_es.md)
+[![Portugais](https://img.shields.io/badge/Portugais-Voir-2a9d8f)](README_pt.md)
+[![Japonais](https://img.shields.io/badge/Japonais-Voir-52b788)](README_ja.md)
+[![Coreen](https://img.shields.io/badge/Coreen-Voir-4ea8de)](README_ko.md)
+[![Allemand](https://img.shields.io/badge/Allemand-Voir-f4a261)](README_de.md)
+[![Francais](https://img.shields.io/badge/Francais-Voir-e76f51)](README_fr.md)
+[![Turc](https://img.shields.io/badge/Turc-Voir-d62828)](README_tr.md)
+[![Chinois traditionnel](https://img.shields.io/badge/Chinois_traditionnel-Voir-8338ec)](README_zh-TW.md)
+[![Chinois simplifie](https://img.shields.io/badge/Chinois_simplifie-Voir-ef476f)](README_zh-CN.md)
+[![Russe](https://img.shields.io/badge/Russe-Voir-577590)](README_ru.md)
 
 </div>
 
@@ -88,101 +88,101 @@ curl --request POST \
 
 | Case | Ce que cela montre | Type |
 |---|---|---|
-| [Case 1: Workflow Cursor en plusieurs étapes](#case-1) | Utilisez Fable 5 comme étape de revue de plan et de critique dans un workflow Cursor multi-modèles, puis confiez l'implémentation et les révisions à des modèles moins chers ou spécialisés. |  |
-| [Case 2: Recréation de GitHub à partir d'une capture d'écran](#case-2) | Collez une capture d'écran produit dans un outil de codage agentique et demandez à Fable 5 de recréer l'interface avec des fonctionnalités opérationnelles. |  |
-| [Case 3: Simulation de trou noir avec un seul prompt](#case-3) | Donnez à Fable 5 un prompt détaillé de creative coding et demandez-lui de produire une visualisation physique Three.js autonome. |  |
-| [Case 4: Web OS façon macOS en one-shot](#case-4) | Demandez à Fable 5 un web OS complet en fichier unique et laissez-le construire en une passe le shell UI, les apps, les interactions, l'audio et le comportement de jeu intégré. |  |
-| [Case 5: Construction de Spawn 5.0 avec 1 687 prompts](#case-5) | Utilisez Fable 5 comme partenaire d'ingénierie sur de longues sessions et de nombreux prompts, avec un humain qui passe de l'architecture au jugement de qualité de sortie. |  |
-| [Case 6: Revue d'une grande pull request avec constats](#case-6) | Pointez Fable 5 vers une grande pull request et demandez-lui d'examiner la justesse, les faux positifs, les vrais bugs et les problèmes de finition. |  |
+| [Workflow Cursor en plusieurs étapes](#case-1) | Utilisez Fable 5 comme étape de revue de plan et de critique dans un workflow Cursor multi-modèles, puis confiez l'implémentation et les révisions à des modèles moins chers ou spécialisés. |  |
+| [Recréation de GitHub à partir d'une capture d'écran](#case-2) | Collez une capture d'écran produit dans un outil de codage agentique et demandez à Fable 5 de recréer l'interface avec des fonctionnalités opérationnelles. |  |
+| [Simulation de trou noir avec un seul prompt](#case-3) | Donnez à Fable 5 un prompt détaillé de creative coding et demandez-lui de produire une visualisation physique Three.js autonome. |  |
+| [Web OS façon macOS en one-shot](#case-4) | Demandez à Fable 5 un web OS complet en fichier unique et laissez-le construire en une passe le shell UI, les apps, les interactions, l'audio et le comportement de jeu intégré. |  |
+| [Construction de Spawn 5.0 avec 1 687 prompts](#case-5) | Utilisez Fable 5 comme partenaire d'ingénierie sur de longues sessions et de nombreux prompts, avec un humain qui passe de l'architecture au jugement de qualité de sortie. |  |
+| [Revue d'une grande pull request avec constats](#case-6) | Pointez Fable 5 vers une grande pull request et demandez-lui d'examiner la justesse, les faux positifs, les vrais bugs et les problèmes de finition. |  |
 
 ### [🤖 Agents et automatisation longue durée](#agents-and-long-running-automation)
 
 | Case | Ce que cela montre | Type |
 |---|---|---|
-| [Case 7: Revue d'un workflow relais sur horizon long](#case-7) | Utilisez Fable 5 pour des travaux ambitieux sur horizon long : refontes de sites, pipelines de contenu programmatiques, adaptation de voix, revue de sécurité et contrôles qualité finaux. |  |
-| [Case 8: Diagnostic d'une panne d'infrastructure et ouverture d'une PR de correction](#case-8) | Donnez à Fable 5 accès à des indices d'infra comme les logs, les erreurs de base de données et les digests d'images, puis demandez-lui de diagnostiquer la panne et de préparer le correctif. |  |
+| [Revue d'un workflow relais sur horizon long](#case-7) | Utilisez Fable 5 pour des travaux ambitieux sur horizon long : refontes de sites, pipelines de contenu programmatiques, adaptation de voix, revue de sécurité et contrôles qualité finaux. |  |
+| [Diagnostic d'une panne d'infrastructure et ouverture d'une PR de correction](#case-8) | Donnez à Fable 5 accès à des indices d'infra comme les logs, les erreurs de base de données et les digests d'images, puis demandez-lui de diagnostiquer la panne et de préparer le correctif. |  |
 
 ### [🎮 Jeux et démos interactives](#games-and-interactive-demos)
 
 | Case | Ce que cela montre | Type |
 |---|---|---|
-| [Case 9: Dino Runner avec suivi du doigt](#case-9) | Demandez à Fable 5 de construire un jeu navigateur qui utilise le suivi du doigt comme mécanique d'entrée. |  |
-| [Case 10: Jeu de course construit avec deux phrases](#case-10) | Donnez à Fable 5 un prompt de jeu très court et laissez-le générer cartes, modes, musique, UI et assets de jeu en une seule exécution. |  |
-| [Case 11: Minecraft terminal installable en Rust](#case-11) | Exécutez Fable 5 via un harness de codage terminal et demandez-lui de construire un jeu terminal Rust installable. |  |
-| [Case 12: Clone de Minecraft avec temps et coût](#case-12) | Utilisez un prompt pour demander à Fable 5 un clone jouable façon Minecraft, puis évaluez le temps, le coût, le volume de code et la couverture fonctionnelle. |  |
+| [Dino Runner avec suivi du doigt](#case-9) | Demandez à Fable 5 de construire un jeu navigateur qui utilise le suivi du doigt comme mécanique d'entrée. |  |
+| [Jeu de course construit avec deux phrases](#case-10) | Donnez à Fable 5 un prompt de jeu très court et laissez-le générer cartes, modes, musique, UI et assets de jeu en une seule exécution. |  |
+| [Minecraft terminal installable en Rust](#case-11) | Exécutez Fable 5 via un harness de codage terminal et demandez-lui de construire un jeu terminal Rust installable. |  |
+| [Clone de Minecraft avec temps et coût](#case-12) | Utilisez un prompt pour demander à Fable 5 un clone jouable façon Minecraft, puis évaluez le temps, le coût, le volume de code et la couverture fonctionnelle. |  |
 
 ### [🎨 Visuel, design, vidéo et 3D](#visual-design-video-and-3d)
 
 | Case | Ce que cela montre | Type |
 |---|---|---|
-| [Case 13: Prompt complet reproductible pour un email ecommerce](#case-13) | Donnez à Fable 5 un brief créatif complet pour une maquette d'email de marque, incluant les sections exactes, exigences produit, direction visuelle et contraintes. |  |
-| [Case 14: Benchmark d'horloger avec échappement à ancre suisse](#case-14) | Utilisez Fable 5 sur un benchmark de simulation mécanique et demandez-lui d'implémenter, vérifier et itérer sur la justesse physique. |  |
-| [Case 15: Scène Three.js de l'appartement de Friends](#case-15) | Demandez à Fable 5 de transformer un plan d'étage et une référence de scène en environnement Three.js navigable. |  |
-| [Case 16: Simulation du système solaire avec prompt et URL](#case-16) | Utilisez Fable 5 pour construire une simulation astronomique à partir des principes physiques, en itérant jusqu'à ce que la simulation et la sortie publique soient prêtes. |  |
+| [Prompt complet reproductible pour un email ecommerce](#case-13) | Donnez à Fable 5 un brief créatif complet pour une maquette d'email de marque, incluant les sections exactes, exigences produit, direction visuelle et contraintes. |  |
+| [Benchmark d'horloger avec échappement à ancre suisse](#case-14) | Utilisez Fable 5 sur un benchmark de simulation mécanique et demandez-lui d'implémenter, vérifier et itérer sur la justesse physique. |  |
+| [Scène Three.js de l'appartement de Friends](#case-15) | Demandez à Fable 5 de transformer un plan d'étage et une référence de scène en environnement Three.js navigable. |  |
+| [Simulation du système solaire avec prompt et URL](#case-16) | Utilisez Fable 5 pour construire une simulation astronomique à partir des principes physiques, en itérant jusqu'à ce que la simulation et la sortie publique soient prêtes. |  |
 
 ### [📚 Documents, travail de connaissance et recherche](#documents-knowledge-work-and-research)
 
 | Case | Ce que cela montre | Type |
 |---|---|---|
-| [Case 17: Preuves Stripe et workflows scientifiques](#case-17) | Utilisez ceci comme preuve pour les affirmations sur la migration d'entreprise et les workflows scientifiques, pas comme prompt à copier-coller. |  |
-| [Case 18: Mémo de politique publique et workflows de suivi des modifications](#case-18) | Utilisez Fable 5 pour le travail qualitatif long format sur documents : suivi des modifications, tri de commentaires et éditions guidées par transcription. |  |
-| [Case 19: Prompt de recherche approfondie et résultat](#case-19) | Posez à Fable 5 une question de type recherche et évaluez s'il peut produire une longue réponse structurée et historiquement fondée. |  |
+| [Preuves Stripe et workflows scientifiques](#case-17) | Utilisez ceci comme preuve pour les affirmations sur la migration d'entreprise et les workflows scientifiques, pas comme prompt à copier-coller. |  |
+| [Mémo de politique publique et workflows de suivi des modifications](#case-18) | Utilisez Fable 5 pour le travail qualitatif long format sur documents : suivi des modifications, tri de commentaires et éditions guidées par transcription. |  |
+| [Prompt de recherche approfondie et résultat](#case-19) | Posez à Fable 5 une question de type recherche et évaluez s'il peut produire une longue réponse structurée et historiquement fondée. |  |
 
 ### [🧭 Tutoriels, cours et ressources de prompts](#tutorials-courses-and-prompt-resources)
 
 | Case | Ce que cela montre | Type |
 |---|---|---|
-| [Case 20: Comment Fable 5 change les workflows Claude Code](#case-20) | Utilisez Fable 5 en définissant direction, contexte, objectifs et critères de vérification au lieu de microgérer chaque étape. |  |
-| [Case 21: Revue d'un milliard de tokens et stratégie de routage](#case-21) | Utilisez Fable 5 pour la planification et la revue frontier, puis routez l'implémentation à fort volume vers des modèles moins chers. |  |
-| [Case 22: Prompt défensif de durcissement d'appareils](#case-22) | Exécutez un prompt de durcissement défensif étape par étape où Fable 5 inventorie les appareils, donne des vérifications exactes et attend validation. |  |
-| [Case 23: Prompt `/goal` d'audit design d'un site complet](#case-23) | Utilisez `/goal` pour faire démarrer un site par Fable 5, capturer les pages, auditer l'UX, écrire un rapport et corriger les petits problèmes sûrs. |  |
-| [Case 24: Répartition du travail créatif long format](#case-24) | Utilisez Fable 5 pour concevoir des formats et exemples stables, puis transmettez cette structure à un autre système de génération pour la sortie spécifique au domaine. |  |
-| [Case 25: Guide débutant pour utiliser Fable 5](#case-25) | Utilisez Fable 5 avec des prompts orientés objectif, des boucles de vérification et des réglages d'effort plutôt qu'avec de petites instructions pas à pas. |  |
-| [Case 26: Prompt copier-coller d'audit de dépôt](#case-26) | Collez le prompt d'audit de dépôt dans Fable 5 et demandez-lui une découverte appuyée par fichiers, des constats, une stratégie et un plan de tâches par jalons. |  |
-| [Case 27: Stratégie d'utilisation pendant une fenêtre limitée](#case-27) | Dépensez l'usage Fable 5 sur l'audit, l'architecture et la planification tant que la fenêtre d'accès est favorable, puis utilisez des modèles moins chers pour l'exécution. |  |
-| [Case 28: Utilisation des objectifs et workflows dans Claude Code](#case-28) | Utilisez Fable 5 comme partenaire de réflexion avant l'implémentation, puis combinez `/goal` et workflows pour exécuter et vérifier le plan. |  |
+| [Comment Fable 5 change les workflows Claude Code](#case-20) | Utilisez Fable 5 en définissant direction, contexte, objectifs et critères de vérification au lieu de microgérer chaque étape. |  |
+| [Revue d'un milliard de tokens et stratégie de routage](#case-21) | Utilisez Fable 5 pour la planification et la revue frontier, puis routez l'implémentation à fort volume vers des modèles moins chers. |  |
+| [Prompt défensif de durcissement d'appareils](#case-22) | Exécutez un prompt de durcissement défensif étape par étape où Fable 5 inventorie les appareils, donne des vérifications exactes et attend validation. |  |
+| [Prompt `/goal` d'audit design d'un site complet](#case-23) | Utilisez `/goal` pour faire démarrer un site par Fable 5, capturer les pages, auditer l'UX, écrire un rapport et corriger les petits problèmes sûrs. |  |
+| [Répartition du travail créatif long format](#case-24) | Utilisez Fable 5 pour concevoir des formats et exemples stables, puis transmettez cette structure à un autre système de génération pour la sortie spécifique au domaine. |  |
+| [Guide débutant pour utiliser Fable 5](#case-25) | Utilisez Fable 5 avec des prompts orientés objectif, des boucles de vérification et des réglages d'effort plutôt qu'avec de petites instructions pas à pas. |  |
+| [Prompt copier-coller d'audit de dépôt](#case-26) | Collez le prompt d'audit de dépôt dans Fable 5 et demandez-lui une découverte appuyée par fichiers, des constats, une stratégie et un plan de tâches par jalons. |  |
+| [Stratégie d'utilisation pendant une fenêtre limitée](#case-27) | Dépensez l'usage Fable 5 sur l'audit, l'architecture et la planification tant que la fenêtre d'accès est favorable, puis utilisez des modèles moins chers pour l'exécution. |  |
+| [Utilisation des objectifs et workflows dans Claude Code](#case-28) | Utilisez Fable 5 comme partenaire de réflexion avant l'implémentation, puis combinez `/goal` et workflows pour exécuter et vérifier le plan. |  |
 
 ### [🔌 Plateforme, API et intégration d'outils](#platform-api-and-tool-integration)
 
 | Case | Ce que cela montre | Type |
 |---|---|---|
-| [Case 29: Configuration de l'intégration Hermes Agent](#case-29) | Configurez Hermes pour utiliser `anthropic/claude-fable-5` sur les runs `/goal` complexes et les tâches longues avec cache. |  |
-| [Case 30: Capacités, prix et notes d'abonnement](#case-30) | Utilisez ce cas pour comprendre quand Fable 5 est disponible, ce qu'il coûte et quels domaines protégés peuvent basculer vers un autre modèle. |  |
-| [Case 31: Synthèse lancement, accès, prix et sécurité](#case-31) | Utilisez cette synthèse de lancement pour choisir la voie d'accès, le nom de modèle API, la fenêtre de contexte, la stratégie de cache et le timing d'abonnement. |  |
-| [Case 32: Stratégie de réduction des coûts avec advisor](#case-32) | Utilisez Fable 5 comme advisor ou reviewer dans un workflow avec modèle moins cher lorsque l'intelligence marginale vaut le coût. |  |
-| [Case 33: Prix, accès et garde-fous de sécurité](#case-33) | Utilisez ce cas pour comprendre l'accès à Fable 5, les prix API et le comportement de fallback de sécurité avant de planifier des charges de travail. |  |
-| [Case 34: Intégration Swarms en une ligne](#case-34) | Définissez le nom de modèle Swarms sur `anthropic/claude-fable-5` et exécutez Fable 5 via le framework ou l'API Swarms. |  |
+| [Configuration de l'intégration Hermes Agent](#case-29) | Configurez Hermes pour utiliser `anthropic/claude-fable-5` sur les runs `/goal` complexes et les tâches longues avec cache. |  |
+| [Capacités, prix et notes d'abonnement](#case-30) | Utilisez ce cas pour comprendre quand Fable 5 est disponible, ce qu'il coûte et quels domaines protégés peuvent basculer vers un autre modèle. |  |
+| [Synthèse lancement, accès, prix et sécurité](#case-31) | Utilisez cette synthèse de lancement pour choisir la voie d'accès, le nom de modèle API, la fenêtre de contexte, la stratégie de cache et le timing d'abonnement. |  |
+| [Stratégie de réduction des coûts avec advisor](#case-32) | Utilisez Fable 5 comme advisor ou reviewer dans un workflow avec modèle moins cher lorsque l'intelligence marginale vaut le coût. |  |
+| [Prix, accès et garde-fous de sécurité](#case-33) | Utilisez ce cas pour comprendre l'accès à Fable 5, les prix API et le comportement de fallback de sécurité avant de planifier des charges de travail. |  |
+| [Intégration Swarms en une ligne](#case-34) | Définissez le nom de modèle Swarms sur `anthropic/claude-fable-5` et exécutez Fable 5 via le framework ou l'API Swarms. |  |
 
 ### [📏 Évaluations, comparaisons et limites](#evaluations-comparisons-and-limits)
 
 | Case | Ce que cela montre | Type |
 |---|---|---|
-| [Case 35: Comparaison coût et qualité entre Fable 5 et GPT-5.5](#case-35) | Comparez Fable 5 et GPT-5.5 sur la même tâche de codage pour juger qualité de sortie, durée d'exécution et coût d'outil. |  |
-| [Case 36: Résultat du benchmark AA-Omniscience](#case-36) | Utilisez ce cas de benchmark pour évaluer Fable 5 sur la précision des connaissances et le comportement d'hallucination. |  |
-| [Case 37: Résultat de l'Artificial Analysis Intelligence Index](#case-37) | Utilisez ce cas pour benchmarker le classement d'intelligence global de Fable 5 face aux autres modèles frontier. |  |
-| [Case 38: Benchmark GDPval-AA de travail de connaissance agentique](#case-38) | Utilisez ce cas pour évaluer Fable 5 sur le travail de connaissance agentique en conditions réelles. |  |
-| [Case 39: Premières impressions après une semaine et mécanique de prix](#case-39) | Utilisez ce cas de premières impressions pour décider où Fable 5 est le plus fort, notamment en game design et planification de systèmes. |  |
-| [Case 40: Comparaison de coût et de vitesse](#case-40) | Utilisez cette comparaison pour décider si le gain de qualité justifie le coût plus élevé et les runs longs plus lents. |  |
-| [Case 41: Notes pratiques sur Claude Code](#case-41) | Utilisez ce cas pour évaluer Fable 5 dans Claude Code, y compris l'usage d'outils, la personnalité et les aspérités restantes. |  |
-| [Case 42: Résultat du benchmark d'écriture créative](#case-42) | Utilisez ce cas de benchmark pour juger la qualité d'écriture de nouvelles courtes de Fable 5 et son comportement de refus. |  |
-| [Case 43: Synthèse de lancement multi-benchmarks](#case-43) | Utilisez cette synthèse de benchmarks de lancement pour comprendre les scores principaux les plus pertinents pour les agents de code et les tâches complexes. |  |
-| [Case 44: Comparaison benchmark et prix avec GPT-5.5](#case-44) | Utilisez cette comparaison pour évaluer Fable 5 face à GPT-5.5 sur le prix et les catégories de benchmark. |  |
-| [Case 45: Notes de terrain avec limites pratiques](#case-45) | Utilisez ce retour terrain pour comprendre où Fable 5 semble nettement meilleur et où il conserve des limites pratiques. |  |
-| [Case 46: Comparaison de simulations physiques](#case-46) | Exécutez des prompts identiques de simulation physique contre Fable 5 et Opus 4.8 pour comparer qualité de sortie, coût et vitesse. |  |
-| [Case 47: Expérience de débogage et jugement design](#case-47) | Utilisez Fable 5 pour le débogage en lui demandant de mesurer, logger, vérifier et patcher plutôt que simplement deviner. |  |
-| [Case 48: Avantages et inconvénients multidimensionnels](#case-48) | Utilisez ce cas pour comprendre les forces et faiblesses pratiques avant de faire de Fable 5 votre modèle quotidien. |  |
-| [Case 49: Test de rédaction juridique S-1](#case-49) | Utilisez un prompt de rédaction S-1 comme test de capacité d'agent juridique et comparez structure, formatage et longueur. |  |
-| [Case 50: Détails de benchmarks santé](#case-50) | Utilisez cette note de benchmark pour évaluer Fable 5 sur les tâches liées à la santé et identifier les évaluations médicales difficiles manquantes. |  |
-| [Case 51: Évaluation ParseBench de parsing de documents](#case-51) | Utilisez ce cas pour décider si Fable 5 est rentable pour le parsing de documents face à des systèmes OCR spécialisés. |  |
-| [Case 52: Comparaison SWE-Bench Pro et FrontierCode](#case-52) | Utilisez ce cas de benchmark pour évaluer Fable 5 pour migrations, implémentations complexes, sessions autonomes, tests et vérification visuelle. |  |
-| [Case 53: Revue qualitative de résolution de problèmes longs](#case-53) | Utilisez cette revue qualitative pour comprendre pourquoi Fable 5 convient aux tâches plus longues et plus difficiles tout en exigeant encore une revue de production. |  |
-| [Case 54: Résultats ParseBench de fidélité et de formatage](#case-54) | Utilisez ce résultat ParseBench pour juger les performances de fidélité documentaire et de formatage. |  |
-| [Case 55: Benchmarks, prix, accès et garde-fous](#case-55) | Utilisez ce cas comme checklist large pour benchmarks, prix, accès, garde-fous et implications stratégiques. |  |
-| [Case 56: Liste officielle des scores de benchmark](#case-56) | Utilisez cette liste de benchmarks pour comprendre les scores officiels de Fable 5 sur code, usage ordinateur et tâches de sécurité. |  |
-| [Case 57: Méthodologie du benchmark APEX-SWE](#case-57) | Utilisez ce cas pour évaluer Fable 5 sur APEX-SWE, notamment observability et travail d'intégration. |  |
-| [Case 58: Résultat ProofBench en mathématiques formelles](#case-58) | Utilisez ce cas pour évaluer Fable 5 en mathématiques formelles face à des systèmes spécialisés de preuve de théorèmes. |  |
-| [Case 59: Analyse préliminaire VirtueBench](#case-59) | Utilisez ce cas pour inspecter le comportement de raisonnement moral de Fable 5 à travers les catégories de vertus. |  |
-| [Case 60: Test d'overfit de sécurité avec réponse API vide](#case-60) | Utilisez ce cas pour comprendre le risque d'overfit de sécurité au lancement et le comportement de réponse vide en test API. |  |
+| [Comparaison coût et qualité entre Fable 5 et GPT-5.5](#case-35) | Comparez Fable 5 et GPT-5.5 sur la même tâche de codage pour juger qualité de sortie, durée d'exécution et coût d'outil. |  |
+| [Résultat du benchmark AA-Omniscience](#case-36) | Utilisez ce cas de benchmark pour évaluer Fable 5 sur la précision des connaissances et le comportement d'hallucination. |  |
+| [Résultat de l'Artificial Analysis Intelligence Index](#case-37) | Utilisez ce cas pour benchmarker le classement d'intelligence global de Fable 5 face aux autres modèles frontier. |  |
+| [Benchmark GDPval-AA de travail de connaissance agentique](#case-38) | Utilisez ce cas pour évaluer Fable 5 sur le travail de connaissance agentique en conditions réelles. |  |
+| [Premières impressions après une semaine et mécanique de prix](#case-39) | Utilisez ce cas de premières impressions pour décider où Fable 5 est le plus fort, notamment en game design et planification de systèmes. |  |
+| [Comparaison de coût et de vitesse](#case-40) | Utilisez cette comparaison pour décider si le gain de qualité justifie le coût plus élevé et les runs longs plus lents. |  |
+| [Notes pratiques sur Claude Code](#case-41) | Utilisez ce cas pour évaluer Fable 5 dans Claude Code, y compris l'usage d'outils, la personnalité et les aspérités restantes. |  |
+| [Résultat du benchmark d'écriture créative](#case-42) | Utilisez ce cas de benchmark pour juger la qualité d'écriture de nouvelles courtes de Fable 5 et son comportement de refus. |  |
+| [Synthèse de lancement multi-benchmarks](#case-43) | Utilisez cette synthèse de benchmarks de lancement pour comprendre les scores principaux les plus pertinents pour les agents de code et les tâches complexes. |  |
+| [Comparaison benchmark et prix avec GPT-5.5](#case-44) | Utilisez cette comparaison pour évaluer Fable 5 face à GPT-5.5 sur le prix et les catégories de benchmark. |  |
+| [Notes de terrain avec limites pratiques](#case-45) | Utilisez ce retour terrain pour comprendre où Fable 5 semble nettement meilleur et où il conserve des limites pratiques. |  |
+| [Comparaison de simulations physiques](#case-46) | Exécutez des prompts identiques de simulation physique contre Fable 5 et Opus 4.8 pour comparer qualité de sortie, coût et vitesse. |  |
+| [Expérience de débogage et jugement design](#case-47) | Utilisez Fable 5 pour le débogage en lui demandant de mesurer, logger, vérifier et patcher plutôt que simplement deviner. |  |
+| [Avantages et inconvénients multidimensionnels](#case-48) | Utilisez ce cas pour comprendre les forces et faiblesses pratiques avant de faire de Fable 5 votre modèle quotidien. |  |
+| [Test de rédaction juridique S-1](#case-49) | Utilisez un prompt de rédaction S-1 comme test de capacité d'agent juridique et comparez structure, formatage et longueur. |  |
+| [Détails de benchmarks santé](#case-50) | Utilisez cette note de benchmark pour évaluer Fable 5 sur les tâches liées à la santé et identifier les évaluations médicales difficiles manquantes. |  |
+| [Évaluation ParseBench de parsing de documents](#case-51) | Utilisez ce cas pour décider si Fable 5 est rentable pour le parsing de documents face à des systèmes OCR spécialisés. |  |
+| [Comparaison SWE-Bench Pro et FrontierCode](#case-52) | Utilisez ce cas de benchmark pour évaluer Fable 5 pour migrations, implémentations complexes, sessions autonomes, tests et vérification visuelle. |  |
+| [Revue qualitative de résolution de problèmes longs](#case-53) | Utilisez cette revue qualitative pour comprendre pourquoi Fable 5 convient aux tâches plus longues et plus difficiles tout en exigeant encore une revue de production. |  |
+| [Résultats ParseBench de fidélité et de formatage](#case-54) | Utilisez ce résultat ParseBench pour juger les performances de fidélité documentaire et de formatage. |  |
+| [Benchmarks, prix, accès et garde-fous](#case-55) | Utilisez ce cas comme checklist large pour benchmarks, prix, accès, garde-fous et implications stratégiques. |  |
+| [Liste officielle des scores de benchmark](#case-56) | Utilisez cette liste de benchmarks pour comprendre les scores officiels de Fable 5 sur code, usage ordinateur et tâches de sécurité. |  |
+| [Méthodologie du benchmark APEX-SWE](#case-57) | Utilisez ce cas pour évaluer Fable 5 sur APEX-SWE, notamment observability et travail d'intégration. |  |
+| [Résultat ProofBench en mathématiques formelles](#case-58) | Utilisez ce cas pour évaluer Fable 5 en mathématiques formelles face à des systèmes spécialisés de preuve de théorèmes. |  |
+| [Analyse préliminaire VirtueBench](#case-59) | Utilisez ce cas pour inspecter le comportement de raisonnement moral de Fable 5 à travers les catégories de vertus. |  |
+| [Test d'overfit de sécurité avec réponse API vide](#case-60) | Utilisez ce cas pour comprendre le risque d'overfit de sécurité au lancement et le comportement de réponse vide en test API. |  |
 
 
 <a id="coding-and-code-generation"></a>

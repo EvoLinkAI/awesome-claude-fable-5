@@ -7,17 +7,17 @@
 [![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 [![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://docs.evolink.ai)
 
-[![English](https://img.shields.io/badge/English-Default_Source-111111)](README.md)
-[![Spanish](https://img.shields.io/badge/Spanish-View-ffb703)](README_es.md)
-[![Portuguese](https://img.shields.io/badge/Portuguese-View-2a9d8f)](README_pt.md)
-[![Japanese](https://img.shields.io/badge/Japanese-View-52b788)](README_ja.md)
-[![Korean](https://img.shields.io/badge/Korean-View-4ea8de)](README_ko.md)
-[![German](https://img.shields.io/badge/German-View-f4a261)](README_de.md)
-[![French](https://img.shields.io/badge/French-View-e76f51)](README_fr.md)
-[![Turkish](https://img.shields.io/badge/Turkish-View-d62828)](README_tr.md)
-[![Traditional Chinese](https://img.shields.io/badge/Traditional_Chinese-View-8338ec)](README_zh-TW.md)
-[![Simplified Chinese](https://img.shields.io/badge/Simplified_Chinese-View-ef476f)](README_zh-CN.md)
-[![Russian](https://img.shields.io/badge/Russian-View-577590)](README_ru.md)
+[![英文](https://img.shields.io/badge/%E8%8B%B1%E6%96%87-%E5%8E%9F%E6%96%87-111111)](README.md)
+[![西班牙文](https://img.shields.io/badge/%E8%A5%BF%E7%8F%AD%E7%89%99%E6%96%87-%E6%9F%A5%E7%9C%8B-ffb703)](README_es.md)
+[![葡萄牙文](https://img.shields.io/badge/%E8%91%A1%E8%90%84%E7%89%99%E6%96%87-%E6%9F%A5%E7%9C%8B-2a9d8f)](README_pt.md)
+[![日文](https://img.shields.io/badge/%E6%97%A5%E6%96%87-%E6%9F%A5%E7%9C%8B-52b788)](README_ja.md)
+[![韓文](https://img.shields.io/badge/%E9%9F%93%E6%96%87-%E6%9F%A5%E7%9C%8B-4ea8de)](README_ko.md)
+[![德文](https://img.shields.io/badge/%E5%BE%B7%E6%96%87-%E6%9F%A5%E7%9C%8B-f4a261)](README_de.md)
+[![法文](https://img.shields.io/badge/%E6%B3%95%E6%96%87-%E6%9F%A5%E7%9C%8B-e76f51)](README_fr.md)
+[![土耳其文](https://img.shields.io/badge/%E5%9C%9F%E8%80%B3%E5%85%B6%E6%96%87-%E6%9F%A5%E7%9C%8B-d62828)](README_tr.md)
+[![繁體中文](https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-%E6%9F%A5%E7%9C%8B-8338ec)](README_zh-TW.md)
+[![簡體中文](https://img.shields.io/badge/%E7%B0%A1%E9%AB%94%E4%B8%AD%E6%96%87-%E6%9F%A5%E7%9C%8B-ef476f)](README_zh-CN.md)
+[![俄文](https://img.shields.io/badge/%E4%BF%84%E6%96%87-%E6%9F%A5%E7%9C%8B-577590)](README_ru.md)
 
 </div>
 
@@ -88,101 +88,101 @@ curl --request POST \
 
 | Case | 展示內容 | 類型 |
 |---|---|---|
-| [Case 1: Cursor 多階段工作流程](#case-1) | 在多模型 Cursor 工作流程中，把 Fable 5 作為規劃審查與批判步驟，然後把實作與修訂交回較便宜或專門化的模型。 | 評測 |
-| [Case 2: 從截圖重建 GitHub](#case-2) | 把產品截圖貼進代理式程式設計工具，要求 Fable 5 以可運作功能重建介面。 | 展示 |
-| [Case 3: 單一提示詞黑洞模擬](#case-3) | 給 Fable 5 一個詳細的創意程式提示詞，要求它產生一個自包含的 Three.js 物理視覺化。 | 教學 |
-| [Case 4: 一次生成 macOS 風格 Web OS](#case-4) | 要求 Fable 5 建立完整的單檔 Web OS，讓它一次建出 UI shell、app、互動、音訊與內嵌遊戲行為。 | 教學 |
-| [Case 5: 用 1,687 個提示詞打造 Spawn 5.0](#case-5) | 把 Fable 5 作為長 session 工程夥伴跨越大量提示詞使用，人類角色則從架構轉向判斷輸出品質。 | 教學 |
-| [Case 6: 大型 Pull Request Review 與發現](#case-6) | 把大型 pull request 交給 Fable 5，要求它 review 正確性、誤報、真實 bug 與打磨問題。 | 展示 |
+| [Cursor 多階段工作流程](#case-1) | 在多模型 Cursor 工作流程中，把 Fable 5 作為規劃審查與批判步驟，然後把實作與修訂交回較便宜或專門化的模型。 | 評測 |
+| [從截圖重建 GitHub](#case-2) | 把產品截圖貼進代理式程式設計工具，要求 Fable 5 以可運作功能重建介面。 | 展示 |
+| [單一提示詞黑洞模擬](#case-3) | 給 Fable 5 一個詳細的創意程式提示詞，要求它產生一個自包含的 Three.js 物理視覺化。 | 教學 |
+| [一次生成 macOS 風格 Web OS](#case-4) | 要求 Fable 5 建立完整的單檔 Web OS，讓它一次建出 UI shell、app、互動、音訊與內嵌遊戲行為。 | 教學 |
+| [用 1,687 個提示詞打造 Spawn 5.0](#case-5) | 把 Fable 5 作為長 session 工程夥伴跨越大量提示詞使用，人類角色則從架構轉向判斷輸出品質。 | 教學 |
+| [大型 Pull Request Review 與發現](#case-6) | 把大型 pull request 交給 Fable 5，要求它 review 正確性、誤報、真實 bug 與打磨問題。 | 展示 |
 
 ### [🤖 代理與長時間自動化](#agents-and-long-running-automation)
 
 | Case | 展示內容 | 類型 |
 |---|---|---|
-| [Case 7: 長時程接力工作流程評測](#case-7) | 把 Fable 5 用於有野心的長時程工作：網站重建、程式化內容管線、語氣匹配、安全 review 與最終品質檢查。 | 評測 |
-| [Case 8: 診斷基礎設施故障並開出修復 PR](#case-8) | 給 Fable 5 存取 logs、database errors、image digests 等 infra 線索，然後要求它診斷故障並準備修復。 | 評測 |
+| [長時程接力工作流程評測](#case-7) | 把 Fable 5 用於有野心的長時程工作：網站重建、程式化內容管線、語氣匹配、安全 review 與最終品質檢查。 | 評測 |
+| [診斷基礎設施故障並開出修復 PR](#case-8) | 給 Fable 5 存取 logs、database errors、image digests 等 infra 線索，然後要求它診斷故障並準備修復。 | 評測 |
 
 ### [🎮 遊戲與互動 Demo](#games-and-interactive-demos)
 
 | Case | 展示內容 | 類型 |
 |---|---|---|
-| [Case 9: 手指追蹤 Dino Runner](#case-9) | 要求 Fable 5 建立一個以手指追蹤作為輸入機制的瀏覽器遊戲。 | 展示 |
-| [Case 10: 兩句話打造賽車遊戲](#case-10) | 給 Fable 5 一個很短的遊戲提示詞，讓它一次生成地圖、模式、音樂、UI 與遊戲素材。 | 教學 |
-| [Case 11: Rust 可安裝終端版 Minecraft](#case-11) | 透過終端機程式設計 harness 執行 Fable 5，要求它建立一個可安裝的 Rust 終端機遊戲。 | 展示 |
-| [Case 12: 附時間與成本的 Minecraft 複製版](#case-12) | 用一個提示詞要求 Fable 5 產生可玩的 Minecraft 風格複製版，然後評估時間、成本、程式碼量與功能覆蓋。 | 教學 |
+| [手指追蹤 Dino Runner](#case-9) | 要求 Fable 5 建立一個以手指追蹤作為輸入機制的瀏覽器遊戲。 | 展示 |
+| [兩句話打造賽車遊戲](#case-10) | 給 Fable 5 一個很短的遊戲提示詞，讓它一次生成地圖、模式、音樂、UI 與遊戲素材。 | 教學 |
+| [Rust 可安裝終端版 Minecraft](#case-11) | 透過終端機程式設計 harness 執行 Fable 5，要求它建立一個可安裝的 Rust 終端機遊戲。 | 展示 |
+| [附時間與成本的 Minecraft 複製版](#case-12) | 用一個提示詞要求 Fable 5 產生可玩的 Minecraft 風格複製版，然後評估時間、成本、程式碼量與功能覆蓋。 | 教學 |
 
 ### [🎨 視覺、設計、影片與 3D](#visual-design-video-and-3d)
 
 | Case | 展示內容 | 類型 |
 |---|---|---|
-| [Case 13: 完整可重現的電商 Email 提示詞](#case-13) | 給 Fable 5 一份完整的品牌 email mockup 創意 brief，包含精確 section、產品需求、視覺方向與限制。 | 教學 |
-| [Case 14: 瑞士槓桿鐘錶匠基準測試](#case-14) | 把 Fable 5 用於機械模擬基準測試，要求它實作、驗證並迭代物理正確性。 | 評測 |
-| [Case 15: Three.js Friends 公寓場景](#case-15) | 提示 Fable 5 把平面圖與場景參考轉成可瀏覽的 Three.js 環境。 | 評測 |
-| [Case 16: 含提示詞與 URL 的太陽系模擬](#case-16) | 使用 Fable 5 從物理原理建立天文模擬，反覆迭代直到模擬與公開輸出準備完成。 | 教學 |
+| [完整可重現的電商 Email 提示詞](#case-13) | 給 Fable 5 一份完整的品牌 email mockup 創意 brief，包含精確 section、產品需求、視覺方向與限制。 | 教學 |
+| [瑞士槓桿鐘錶匠基準測試](#case-14) | 把 Fable 5 用於機械模擬基準測試，要求它實作、驗證並迭代物理正確性。 | 評測 |
+| [Three.js Friends 公寓場景](#case-15) | 提示 Fable 5 把平面圖與場景參考轉成可瀏覽的 Three.js 環境。 | 評測 |
+| [含提示詞與 URL 的太陽系模擬](#case-16) | 使用 Fable 5 從物理原理建立天文模擬，反覆迭代直到模擬與公開輸出準備完成。 | 教學 |
 
 ### [📚 文件、知識工作與研究](#documents-knowledge-work-and-research)
 
 | Case | 展示內容 | 類型 |
 |---|---|---|
-| [Case 17: Stripe 與科學工作流程證據](#case-17) | 把這當作企業遷移與科學工作流程主張的證據，而不是可複製貼上的提示詞。 | 評測 |
-| [Case 18: 政策備忘錄與修訂追蹤工作流程](#case-18) | 把 Fable 5 用於長篇質性文件工作：修訂追蹤、評論 triage，以及由逐字稿驅動的編輯。 | 教學 |
-| [Case 19: Deep Research 提示詞與輸出](#case-19) | 向 Fable 5 提出研究風格問題，評估它是否能產生結構化、具歷史脈絡的長答案。 | 展示 |
+| [Stripe 與科學工作流程證據](#case-17) | 把這當作企業遷移與科學工作流程主張的證據，而不是可複製貼上的提示詞。 | 評測 |
+| [政策備忘錄與修訂追蹤工作流程](#case-18) | 把 Fable 5 用於長篇質性文件工作：修訂追蹤、評論 triage，以及由逐字稿驅動的編輯。 | 教學 |
+| [Deep Research 提示詞與輸出](#case-19) | 向 Fable 5 提出研究風格問題，評估它是否能產生結構化、具歷史脈絡的長答案。 | 展示 |
 
 ### [🧭 教學、課程與提示詞資源](#tutorials-courses-and-prompt-resources)
 
 | Case | 展示內容 | 類型 |
 |---|---|---|
-| [Case 20: Fable 5 如何改變 Claude Code 工作流程](#case-20) | 使用 Fable 5 時，設定方向、context、goals 與驗證標準，而不是微管理每一步。 | 展示 |
-| [Case 21: 十億 token 評測與路由策略](#case-21) | 把 Fable 5 用於 frontier planning 與 review，再把高量實作路由給較便宜的模型。 | 教學 |
-| [Case 22: 防禦式裝置強化提示詞](#case-22) | 執行逐步防禦式強化提示詞，讓 Fable 5 盤點裝置、給出精確檢查，並等待驗證。 | 教學 |
-| [Case 23: 全站設計稽核 Goal 提示詞](#case-23) | 使用 `/goal` 讓 Fable 5 啟動網站、截圖頁面、稽核 UX、撰寫報告，並修復安全的小問題。 | 教學 |
-| [Case 24: 長篇創作工作流程分工](#case-24) | 使用 Fable 5 設計穩定格式與範例，再把該結構交給另一個生成系統產生特定領域輸出。 | 教學 |
-| [Case 25: Fable 5 入門使用指南](#case-25) | 使用 Fable 5 時採用目標導向提示詞、驗證 loop 與 effort settings，而不是小步驟指令。 | 評測 |
-| [Case 26: 可直接複製貼上的 repo 稽核提示詞](#case-26) | 把 repository audit prompt 貼進 Fable 5，要求它做 file-backed discovery、findings、strategy 與 milestone task plan。 | 教學 |
-| [Case 27: 有限使用視窗策略](#case-27) | 在 access window 有利時，把 Fable 5 用量花在 audit、architecture 與 planning，再用較便宜模型執行。 | 教學 |
-| [Case 28: 在 Claude Code 中使用 Goals 與 Workflows](#case-28) | 在實作前把 Fable 5 當作 thought partner，然後結合 `/goal` 與 workflows 執行並驗證計畫。 | 教學 |
+| [Fable 5 如何改變 Claude Code 工作流程](#case-20) | 使用 Fable 5 時，設定方向、context、goals 與驗證標準，而不是微管理每一步。 | 展示 |
+| [十億 token 評測與路由策略](#case-21) | 把 Fable 5 用於 frontier planning 與 review，再把高量實作路由給較便宜的模型。 | 教學 |
+| [防禦式裝置強化提示詞](#case-22) | 執行逐步防禦式強化提示詞，讓 Fable 5 盤點裝置、給出精確檢查，並等待驗證。 | 教學 |
+| [全站設計稽核 Goal 提示詞](#case-23) | 使用 `/goal` 讓 Fable 5 啟動網站、截圖頁面、稽核 UX、撰寫報告，並修復安全的小問題。 | 教學 |
+| [長篇創作工作流程分工](#case-24) | 使用 Fable 5 設計穩定格式與範例，再把該結構交給另一個生成系統產生特定領域輸出。 | 教學 |
+| [Fable 5 入門使用指南](#case-25) | 使用 Fable 5 時採用目標導向提示詞、驗證 loop 與 effort settings，而不是小步驟指令。 | 評測 |
+| [可直接複製貼上的 repo 稽核提示詞](#case-26) | 把 repository audit prompt 貼進 Fable 5，要求它做 file-backed discovery、findings、strategy 與 milestone task plan。 | 教學 |
+| [有限使用視窗策略](#case-27) | 在 access window 有利時，把 Fable 5 用量花在 audit、architecture 與 planning，再用較便宜模型執行。 | 教學 |
+| [在 Claude Code 中使用 Goals 與 Workflows](#case-28) | 在實作前把 Fable 5 當作 thought partner，然後結合 `/goal` 與 workflows 執行並驗證計畫。 | 教學 |
 
 ### [🔌 平台、API 與工具整合](#platform-api-and-tool-integration)
 
 | Case | 展示內容 | 類型 |
 |---|---|---|
-| [Case 29: Hermes Agent 整合設定](#case-29) | 設定 Hermes 使用 `anthropic/claude-fable-5` 來執行複雜 `/goal` runs 與快取的長時程任務。 | 教學 |
-| [Case 30: 能力、定價與訂閱注意事項](#case-30) | 用此案例了解 Fable 5 何時可用、成本多少，以及哪些受防護 domain 可能 fallback 到另一個模型。 | 教學 |
-| [Case 31: 發布、存取、定價與安全摘要](#case-31) | 用此發布摘要選擇 access route、API model name、context window、caching strategy 與 subscription timing。 | 教學 |
-| [Case 32: 基於 Advisor 的成本降低策略](#case-32) | 當邊際智慧值得成本時，把 Fable 5 作為較便宜模型工作流程中的 advisor 或 reviewer。 | 整合 |
-| [Case 33: 定價、存取與安全防護欄](#case-33) | 在規劃 workloads 前，用此案例了解 Fable 5 access、API pricing 與 safety fallback behavior。 | 整合 |
-| [Case 34: Swarms 一行整合](#case-34) | 把 Swarms model name 設為 `anthropic/claude-fable-5`，並透過 Swarms framework 或 API 執行 Fable 5。 | 整合 |
+| [Hermes Agent 整合設定](#case-29) | 設定 Hermes 使用 `anthropic/claude-fable-5` 來執行複雜 `/goal` runs 與快取的長時程任務。 | 教學 |
+| [能力、定價與訂閱注意事項](#case-30) | 用此案例了解 Fable 5 何時可用、成本多少，以及哪些受防護 domain 可能 fallback 到另一個模型。 | 教學 |
+| [發布、存取、定價與安全摘要](#case-31) | 用此發布摘要選擇 access route、API model name、context window、caching strategy 與 subscription timing。 | 教學 |
+| [基於 Advisor 的成本降低策略](#case-32) | 當邊際智慧值得成本時，把 Fable 5 作為較便宜模型工作流程中的 advisor 或 reviewer。 | 整合 |
+| [定價、存取與安全防護欄](#case-33) | 在規劃 workloads 前，用此案例了解 Fable 5 access、API pricing 與 safety fallback behavior。 | 整合 |
+| [Swarms 一行整合](#case-34) | 把 Swarms model name 設為 `anthropic/claude-fable-5`，並透過 Swarms framework 或 API 執行 Fable 5。 | 整合 |
 
 ### [📏 評測、比較與限制](#evaluations-comparisons-and-limits)
 
 | Case | 展示內容 | 類型 |
 |---|---|---|
-| [Case 35: Fable 5 vs GPT-5.5 成本與品質比較](#case-35) | 在相同 coding task 上比較 Fable 5 與 GPT-5.5，以判斷 output quality、runtime 與 tool cost。 | 評測 |
-| [Case 36: AA-Omniscience 基準測試結果](#case-36) | 用此 benchmark case 評估 Fable 5 的知識準確度與 hallucination behavior。 | 評測 |
-| [Case 37: Artificial Analysis Intelligence Index 結果](#case-37) | 用此案例將 Fable 5 的整體 intelligence ranking 與其他 frontier models 做 benchmark。 | 評測 |
-| [Case 38: GDPval-AA 代理式知識工作基準測試](#case-38) | 用此案例評估 Fable 5 在 agentic real-world knowledge work 上的表現。 | 評測 |
-| [Case 39: 一週初步印象與定價機制](#case-39) | 用這個初步印象案例決定 Fable 5 最強在哪裡，尤其是 game design 與 systems planning。 | 整合 |
-| [Case 40: 成本與速度比較](#case-40) | 用此比較決定品質增益是否值得更高成本與更慢的長時程 runs。 | 評測 |
-| [Case 41: Claude Code 實測筆記](#case-41) | 用此案例評估 Fable 5 在 Claude Code 內的表現，包括 tool use、personality 與仍存在的 rough edges。 | 展示 |
-| [Case 42: 創意寫作基準測試結果](#case-42) | 用此 benchmark case 判斷 Fable 5 的短篇小說寫作品質與 refusal behavior。 | 評測 |
-| [Case 43: 多基準測試發布摘要](#case-43) | 用此發布 benchmark summary 了解與 coding agents 與 complex tasks 最相關的 headline scores。 | 評測 |
-| [Case 44: 與 GPT-5.5 的基準測試與定價比較](#case-44) | 用此比較依 price 與 benchmark categories 評估 Fable 5 對 GPT-5.5。 | 評測 |
-| [Case 45: 含實務限制的一線筆記](#case-45) | 用這份 field report 了解 Fable 5 在哪些地方明顯更好，以及它仍有哪些實務限制。 | 教學 |
-| [Case 46: 物理模擬比較](#case-46) | 對 Fable 5 與 Opus 4.8 執行相同 physics simulation prompts，比較 output quality、cost 與 speed。 | 展示 |
-| [Case 47: 除錯體驗與設計判斷](#case-47) | 把 Fable 5 用於 debugging，要求它 measure、log、verify 與 patch，而不是單純猜測。 | 展示 |
-| [Case 48: 多維度優缺點](#case-48) | 在把 Fable 5 當作 daily driver 前，用此案例了解實務 strengths 與 weaknesses。 | 展示 |
-| [Case 49: 法律 S-1 起草測試](#case-49) | 用 S-1 drafting prompt 作為 legal-agent capability test，並比較 structure、formatting 與 length。 | 教學 |
-| [Case 50: 醫療保健基準測試細節](#case-50) | 用此 benchmark note 評估 Fable 5 在 healthcare-related tasks 上的表現，並識別缺失的 hard medical evals。 | 評測 |
-| [Case 51: ParseBench 文件解析評測](#case-51) | 用此案例判斷 Fable 5 對 document parsing 是否比 specialized OCR systems 更具成本效益。 | 評測 |
-| [Case 52: SWE-Bench Pro 與 FrontierCode 比較](#case-52) | 用此 benchmark case 評估 Fable 5 是否適合 migrations、complex implementations、autonomous sessions、tests 與 visual verification。 | 評測 |
-| [Case 53: 長問題解決能力的質性評測](#case-53) | 用此 qualitative review 了解為什麼 Fable 5 適合更長、更難的 tasks，同時仍需要 production review。 | 評測 |
-| [Case 54: ParseBench 忠實度與格式結果](#case-54) | 用此 ParseBench result 判斷 document faithfulness 與 formatting performance。 | 評測 |
-| [Case 55: 基準測試、定價、存取與防護措施](#case-55) | 把此案例當作 benchmarks、pricing、access、safeguards 與 strategic implications 的廣泛 checklist。 | 評測 |
-| [Case 56: 官方基準測試分數列表](#case-56) | 用此 benchmark list 了解 Fable 5 在 coding、computer use 與 security tasks 上的官方分數。 | 評測 |
-| [Case 57: APEX-SWE 基準測試方法論](#case-57) | 用此案例評估 Fable 5 在 APEX-SWE 上的表現，尤其是 observability 與 integration work。 | 評測 |
-| [Case 58: ProofBench 形式化數學結果](#case-58) | 用此案例評估 Fable 5 在 formal math 上相對 specialized theorem-proving systems 的表現。 | 教學 |
-| [Case 59: VirtueBench 初步分析](#case-59) | 用此案例檢視 Fable 5 在 virtue categories 中的 moral-reasoning behavior。 | 評測 |
-| [Case 60: API 空回應安全過度擬合測試](#case-60) | 用此案例了解 launch-time safety overfit risk 與 API testing 中的 empty-response behavior。 | 評測 |
+| [Fable 5 vs GPT-5.5 成本與品質比較](#case-35) | 在相同 coding task 上比較 Fable 5 與 GPT-5.5，以判斷 output quality、runtime 與 tool cost。 | 評測 |
+| [AA-Omniscience 基準測試結果](#case-36) | 用此 benchmark case 評估 Fable 5 的知識準確度與 hallucination behavior。 | 評測 |
+| [Artificial Analysis Intelligence Index 結果](#case-37) | 用此案例將 Fable 5 的整體 intelligence ranking 與其他 frontier models 做 benchmark。 | 評測 |
+| [GDPval-AA 代理式知識工作基準測試](#case-38) | 用此案例評估 Fable 5 在 agentic real-world knowledge work 上的表現。 | 評測 |
+| [一週初步印象與定價機制](#case-39) | 用這個初步印象案例決定 Fable 5 最強在哪裡，尤其是 game design 與 systems planning。 | 整合 |
+| [成本與速度比較](#case-40) | 用此比較決定品質增益是否值得更高成本與更慢的長時程 runs。 | 評測 |
+| [Claude Code 實測筆記](#case-41) | 用此案例評估 Fable 5 在 Claude Code 內的表現，包括 tool use、personality 與仍存在的 rough edges。 | 展示 |
+| [創意寫作基準測試結果](#case-42) | 用此 benchmark case 判斷 Fable 5 的短篇小說寫作品質與 refusal behavior。 | 評測 |
+| [多基準測試發布摘要](#case-43) | 用此發布 benchmark summary 了解與 coding agents 與 complex tasks 最相關的 headline scores。 | 評測 |
+| [與 GPT-5.5 的基準測試與定價比較](#case-44) | 用此比較依 price 與 benchmark categories 評估 Fable 5 對 GPT-5.5。 | 評測 |
+| [含實務限制的一線筆記](#case-45) | 用這份 field report 了解 Fable 5 在哪些地方明顯更好，以及它仍有哪些實務限制。 | 教學 |
+| [物理模擬比較](#case-46) | 對 Fable 5 與 Opus 4.8 執行相同 physics simulation prompts，比較 output quality、cost 與 speed。 | 展示 |
+| [除錯體驗與設計判斷](#case-47) | 把 Fable 5 用於 debugging，要求它 measure、log、verify 與 patch，而不是單純猜測。 | 展示 |
+| [多維度優缺點](#case-48) | 在把 Fable 5 當作 daily driver 前，用此案例了解實務 strengths 與 weaknesses。 | 展示 |
+| [法律 S-1 起草測試](#case-49) | 用 S-1 drafting prompt 作為 legal-agent capability test，並比較 structure、formatting 與 length。 | 教學 |
+| [醫療保健基準測試細節](#case-50) | 用此 benchmark note 評估 Fable 5 在 healthcare-related tasks 上的表現，並識別缺失的 hard medical evals。 | 評測 |
+| [ParseBench 文件解析評測](#case-51) | 用此案例判斷 Fable 5 對 document parsing 是否比 specialized OCR systems 更具成本效益。 | 評測 |
+| [SWE-Bench Pro 與 FrontierCode 比較](#case-52) | 用此 benchmark case 評估 Fable 5 是否適合 migrations、complex implementations、autonomous sessions、tests 與 visual verification。 | 評測 |
+| [長問題解決能力的質性評測](#case-53) | 用此 qualitative review 了解為什麼 Fable 5 適合更長、更難的 tasks，同時仍需要 production review。 | 評測 |
+| [ParseBench 忠實度與格式結果](#case-54) | 用此 ParseBench result 判斷 document faithfulness 與 formatting performance。 | 評測 |
+| [基準測試、定價、存取與防護措施](#case-55) | 把此案例當作 benchmarks、pricing、access、safeguards 與 strategic implications 的廣泛 checklist。 | 評測 |
+| [官方基準測試分數列表](#case-56) | 用此 benchmark list 了解 Fable 5 在 coding、computer use 與 security tasks 上的官方分數。 | 評測 |
+| [APEX-SWE 基準測試方法論](#case-57) | 用此案例評估 Fable 5 在 APEX-SWE 上的表現，尤其是 observability 與 integration work。 | 評測 |
+| [ProofBench 形式化數學結果](#case-58) | 用此案例評估 Fable 5 在 formal math 上相對 specialized theorem-proving systems 的表現。 | 教學 |
+| [VirtueBench 初步分析](#case-59) | 用此案例檢視 Fable 5 在 virtue categories 中的 moral-reasoning behavior。 | 評測 |
+| [API 空回應安全過度擬合測試](#case-60) | 用此案例了解 launch-time safety overfit risk 與 API testing 中的 empty-response behavior。 | 評測 |
 
 
 <a id="coding-and-code-generation"></a>

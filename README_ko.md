@@ -7,17 +7,17 @@
 [![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 [![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://docs.evolink.ai)
 
-[![English](https://img.shields.io/badge/English-Default_Source-111111)](README.md)
-[![Spanish](https://img.shields.io/badge/Spanish-View-ffb703)](README_es.md)
-[![Portuguese](https://img.shields.io/badge/Portuguese-View-2a9d8f)](README_pt.md)
-[![Japanese](https://img.shields.io/badge/Japanese-View-52b788)](README_ja.md)
-[![Korean](https://img.shields.io/badge/Korean-View-4ea8de)](README_ko.md)
-[![German](https://img.shields.io/badge/German-View-f4a261)](README_de.md)
-[![French](https://img.shields.io/badge/French-View-e76f51)](README_fr.md)
-[![Turkish](https://img.shields.io/badge/Turkish-View-d62828)](README_tr.md)
-[![Traditional Chinese](https://img.shields.io/badge/Traditional_Chinese-View-8338ec)](README_zh-TW.md)
-[![Simplified Chinese](https://img.shields.io/badge/Simplified_Chinese-View-ef476f)](README_zh-CN.md)
-[![Russian](https://img.shields.io/badge/Russian-View-577590)](README_ru.md)
+[![영어](https://img.shields.io/badge/%EC%98%81%EC%96%B4-%EC%9B%90%EB%AC%B8-111111)](README.md)
+[![스페인어](https://img.shields.io/badge/%EC%8A%A4%ED%8E%98%EC%9D%B8%EC%96%B4-%EB%B3%B4%EA%B8%B0-ffb703)](README_es.md)
+[![포르투갈어](https://img.shields.io/badge/%ED%8F%AC%EB%A5%B4%ED%88%AC%EA%B0%88%EC%96%B4-%EB%B3%B4%EA%B8%B0-2a9d8f)](README_pt.md)
+[![일본어](https://img.shields.io/badge/%EC%9D%BC%EB%B3%B8%EC%96%B4-%EB%B3%B4%EA%B8%B0-52b788)](README_ja.md)
+[![한국어](https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-%EB%B3%B4%EA%B8%B0-4ea8de)](README_ko.md)
+[![독일어](https://img.shields.io/badge/%EB%8F%85%EC%9D%BC%EC%96%B4-%EB%B3%B4%EA%B8%B0-f4a261)](README_de.md)
+[![프랑스어](https://img.shields.io/badge/%ED%94%84%EB%9E%91%EC%8A%A4%EC%96%B4-%EB%B3%B4%EA%B8%B0-e76f51)](README_fr.md)
+[![터키어](https://img.shields.io/badge/%ED%84%B0%ED%82%A4%EC%96%B4-%EB%B3%B4%EA%B8%B0-d62828)](README_tr.md)
+[![번체 중국어](https://img.shields.io/badge/%EB%B2%88%EC%B2%B4_%EC%A4%91%EA%B5%AD%EC%96%B4-%EB%B3%B4%EA%B8%B0-8338ec)](README_zh-TW.md)
+[![간체 중국어](https://img.shields.io/badge/%EA%B0%84%EC%B2%B4_%EC%A4%91%EA%B5%AD%EC%96%B4-%EB%B3%B4%EA%B8%B0-ef476f)](README_zh-CN.md)
+[![러시아어](https://img.shields.io/badge/%EB%9F%AC%EC%8B%9C%EC%95%84%EC%96%B4-%EB%B3%B4%EA%B8%B0-577590)](README_ru.md)
 
 </div>
 
@@ -85,101 +85,101 @@ curl --request POST \
 
 | Case | 무엇을 보여주는가 | 유형 |
 |---|---|---|
-| [Case 1: Cursor 다단계 워크플로](#case-1) | Fable 5를 다중 모델 Cursor 워크플로 안에서 계획 리뷰와 비평 단계로 사용한 뒤, 구현과 수정은 더 저렴하거나 특화된 모델에 다시 넘기세요. | 평가 |
-| [Case 2: 스크린샷에서 GitHub 재현하기](#case-2) | 제품 스크린샷을 에이전트형 코딩 도구에 붙여넣고, Fable 5에게 실제로 작동하는 기능이 있는 인터페이스를 재현하게 하세요. | 데모 |
-| [Case 3: 단일 프롬프트 블랙홀 시뮬레이션](#case-3) | Fable 5에 상세한 크리에이티브 코딩 프롬프트 하나를 주고, 자체 완결형 Three.js 물리 시각화를 만들게 하세요. | 튜토리얼 |
-| [Case 4: 원샷 macOS 스타일 웹 OS](#case-4) | Fable 5에 완전한 단일 파일 웹 OS를 요청하고, UI 셸, 앱, 상호작용, 오디오, 내장 게임 동작을 한 번에 만들게 하세요. | 튜토리얼 |
-| [Case 5: 1,687개 프롬프트로 Spawn 5.0 구축](#case-5) | Fable 5를 긴 세션의 엔지니어링 파트너로 여러 프롬프트에 걸쳐 사용하고, 사람의 역할을 아키텍처에서 출력 품질 판단으로 이동시키세요. | 튜토리얼 |
-| [Case 6: 발견 사항이 포함된 대형 Pull Request 리뷰](#case-6) | Fable 5에 대형 pull request를 맡기고 정확성, false positive, 실제 버그, polish 문제를 리뷰하게 하세요. | 데모 |
+| [Cursor 다단계 워크플로](#case-1) | Fable 5를 다중 모델 Cursor 워크플로 안에서 계획 리뷰와 비평 단계로 사용한 뒤, 구현과 수정은 더 저렴하거나 특화된 모델에 다시 넘기세요. | 평가 |
+| [스크린샷에서 GitHub 재현하기](#case-2) | 제품 스크린샷을 에이전트형 코딩 도구에 붙여넣고, Fable 5에게 실제로 작동하는 기능이 있는 인터페이스를 재현하게 하세요. | 데모 |
+| [단일 프롬프트 블랙홀 시뮬레이션](#case-3) | Fable 5에 상세한 크리에이티브 코딩 프롬프트 하나를 주고, 자체 완결형 Three.js 물리 시각화를 만들게 하세요. | 튜토리얼 |
+| [원샷 macOS 스타일 웹 OS](#case-4) | Fable 5에 완전한 단일 파일 웹 OS를 요청하고, UI 셸, 앱, 상호작용, 오디오, 내장 게임 동작을 한 번에 만들게 하세요. | 튜토리얼 |
+| [1,687개 프롬프트로 Spawn 5.0 구축](#case-5) | Fable 5를 긴 세션의 엔지니어링 파트너로 여러 프롬프트에 걸쳐 사용하고, 사람의 역할을 아키텍처에서 출력 품질 판단으로 이동시키세요. | 튜토리얼 |
+| [발견 사항이 포함된 대형 Pull Request 리뷰](#case-6) | Fable 5에 대형 pull request를 맡기고 정확성, false positive, 실제 버그, polish 문제를 리뷰하게 하세요. | 데모 |
 
 ### [🤖 에이전트 및 장시간 자동화](#agents-and-long-running-automation)
 
 | Case | 무엇을 보여주는가 | 유형 |
 |---|---|---|
-| [Case 7: 장기 Relay 워크플로 리뷰](#case-7) | 사이트 재구축, 프로그래매틱 콘텐츠 파이프라인, 보이스 매칭, 보안 리뷰, 최종 품질 점검처럼 야심 찬 장기 작업에 Fable 5를 사용하세요. | 평가 |
-| [Case 8: 인프라 장애 진단 및 수정 PR 생성](#case-8) | 로그, 데이터베이스 오류, 이미지 digest 같은 인프라 단서를 Fable 5에 제공하고, 장애를 진단하고 수정안을 준비하게 하세요. | 평가 |
+| [장기 Relay 워크플로 리뷰](#case-7) | 사이트 재구축, 프로그래매틱 콘텐츠 파이프라인, 보이스 매칭, 보안 리뷰, 최종 품질 점검처럼 야심 찬 장기 작업에 Fable 5를 사용하세요. | 평가 |
+| [인프라 장애 진단 및 수정 PR 생성](#case-8) | 로그, 데이터베이스 오류, 이미지 digest 같은 인프라 단서를 Fable 5에 제공하고, 장애를 진단하고 수정안을 준비하게 하세요. | 평가 |
 
 ### [🎮 게임 및 인터랙티브 데모](#games-and-interactive-demos)
 
 | Case | 무엇을 보여주는가 | 유형 |
 |---|---|---|
-| [Case 9: 손가락 추적 Dino Runner](#case-9) | Fable 5에게 손가락 추적을 입력 메커니즘으로 사용하는 브라우저 게임을 만들게 하세요. | 데모 |
-| [Case 10: 두 문장으로 만든 레이싱 게임](#case-10) | Fable 5에 매우 짧은 게임 프롬프트를 주고, 지도, 모드, 음악, UI, 게임 asset을 한 번에 생성하게 하세요. | 튜토리얼 |
-| [Case 11: Rust로 만든 설치 가능한 터미널 Minecraft](#case-11) | 터미널 코딩 harness를 통해 Fable 5를 실행하고, 설치 가능한 Rust 터미널 게임을 만들게 하세요. | 데모 |
-| [Case 12: 시간과 비용을 포함한 Minecraft 클론](#case-12) | 하나의 프롬프트로 Fable 5에게 플레이 가능한 Minecraft 스타일 클론을 요청한 뒤, 시간, 비용, 코드량, 기능 범위를 평가하세요. | 튜토리얼 |
+| [손가락 추적 Dino Runner](#case-9) | Fable 5에게 손가락 추적을 입력 메커니즘으로 사용하는 브라우저 게임을 만들게 하세요. | 데모 |
+| [두 문장으로 만든 레이싱 게임](#case-10) | Fable 5에 매우 짧은 게임 프롬프트를 주고, 지도, 모드, 음악, UI, 게임 asset을 한 번에 생성하게 하세요. | 튜토리얼 |
+| [Rust로 만든 설치 가능한 터미널 Minecraft](#case-11) | 터미널 코딩 harness를 통해 Fable 5를 실행하고, 설치 가능한 Rust 터미널 게임을 만들게 하세요. | 데모 |
+| [시간과 비용을 포함한 Minecraft 클론](#case-12) | 하나의 프롬프트로 Fable 5에게 플레이 가능한 Minecraft 스타일 클론을 요청한 뒤, 시간, 비용, 코드량, 기능 범위를 평가하세요. | 튜토리얼 |
 
 ### [🎨 비주얼, 디자인, 비디오 및 3D](#visual-design-video-and-3d)
 
 | Case | 무엇을 보여주는가 | 유형 |
 |---|---|---|
-| [Case 13: 완전 재현 가능한 이커머스 이메일 프롬프트](#case-13) | 정확한 섹션, 제품 요구사항, 비주얼 방향, 제약을 포함한 완전한 크리에이티브 브리프를 Fable 5에 제공해 브랜드 이메일 목업을 만들게 하세요. | 튜토리얼 |
-| [Case 14: Swiss Lever 시계 제작자 벤치마크](#case-14) | Fable 5를 기계식 시뮬레이션 벤치마크에 사용하고, 물리적 정확성을 구현, 검증, 반복하게 하세요. | 평가 |
-| [Case 15: Three.js Friends 아파트 장면](#case-15) | Fable 5에게 floor plan과 scene reference를 navigable Three.js 환경으로 바꾸게 프롬프트하세요. | 평가 |
-| [Case 16: 프롬프트와 URL이 포함된 태양계 시뮬레이션](#case-16) | Fable 5를 사용해 물리 원리에서 천문 시뮬레이션을 만들고, 시뮬레이션과 공개 출력물이 준비될 때까지 반복하세요. | 튜토리얼 |
+| [완전 재현 가능한 이커머스 이메일 프롬프트](#case-13) | 정확한 섹션, 제품 요구사항, 비주얼 방향, 제약을 포함한 완전한 크리에이티브 브리프를 Fable 5에 제공해 브랜드 이메일 목업을 만들게 하세요. | 튜토리얼 |
+| [Swiss Lever 시계 제작자 벤치마크](#case-14) | Fable 5를 기계식 시뮬레이션 벤치마크에 사용하고, 물리적 정확성을 구현, 검증, 반복하게 하세요. | 평가 |
+| [Three.js Friends 아파트 장면](#case-15) | Fable 5에게 floor plan과 scene reference를 navigable Three.js 환경으로 바꾸게 프롬프트하세요. | 평가 |
+| [프롬프트와 URL이 포함된 태양계 시뮬레이션](#case-16) | Fable 5를 사용해 물리 원리에서 천문 시뮬레이션을 만들고, 시뮬레이션과 공개 출력물이 준비될 때까지 반복하세요. | 튜토리얼 |
 
 ### [📚 문서, 지식 작업 및 리서치](#documents-knowledge-work-and-research)
 
 | Case | 무엇을 보여주는가 | 유형 |
 |---|---|---|
-| [Case 17: Stripe 및 과학 워크플로 근거](#case-17) | 이 사례는 복사-붙여넣기용 프롬프트가 아니라, 엔터프라이즈 마이그레이션과 과학 워크플로 주장에 대한 근거로 사용하세요. | 평가 |
-| [Case 18: 정책 메모 및 변경 내용 추적 워크플로](#case-18) | 정책 분석 초안 작성 같은 장문 정성 문서 작업, 즉 변경 내용 추적, 댓글 triage, transcript 기반 편집에 Fable 5를 사용하세요. | 튜토리얼 |
-| [Case 19: Deep Research 프롬프트와 출력](#case-19) | Fable 5에 연구 스타일 질문을 던지고, 구조적이며 역사적 근거가 있는 긴 답변을 만들 수 있는지 평가하세요. | 데모 |
+| [Stripe 및 과학 워크플로 근거](#case-17) | 이 사례는 복사-붙여넣기용 프롬프트가 아니라, 엔터프라이즈 마이그레이션과 과학 워크플로 주장에 대한 근거로 사용하세요. | 평가 |
+| [정책 메모 및 변경 내용 추적 워크플로](#case-18) | 정책 분석 초안 작성 같은 장문 정성 문서 작업, 즉 변경 내용 추적, 댓글 triage, transcript 기반 편집에 Fable 5를 사용하세요. | 튜토리얼 |
+| [Deep Research 프롬프트와 출력](#case-19) | Fable 5에 연구 스타일 질문을 던지고, 구조적이며 역사적 근거가 있는 긴 답변을 만들 수 있는지 평가하세요. | 데모 |
 
 ### [🧭 튜토리얼, 강좌 및 프롬프트 리소스](#tutorials-courses-and-prompt-resources)
 
 | Case | 무엇을 보여주는가 | 유형 |
 |---|---|---|
-| [Case 20: Fable 5가 Claude Code 워크플로를 바꾸는 방식](#case-20) | 모든 단계를 세세하게 지시하는 대신 방향, 맥락, 목표, 검증 기준을 설정해 Fable 5를 사용하세요. | 데모 |
-| [Case 21: 10억 토큰 리뷰와 라우팅 전략](#case-21) | Fable 5를 frontier planning과 review에 사용한 뒤, 고볼륨 구현은 더 저렴한 모델로 라우팅하세요. | 튜토리얼 |
-| [Case 22: 방어적 디바이스 하드닝 프롬프트](#case-22) | Fable 5가 디바이스를 inventory하고, 정확한 점검을 제공하며, 검증을 기다리는 단계별 방어적 hardening 프롬프트를 실행하세요. | 튜토리얼 |
-| [Case 23: 전체 사이트 디자인 감사 Goal 프롬프트](#case-23) | `/goal`을 사용해 Fable 5가 사이트를 부팅하고, 페이지를 스크린샷으로 찍고, UX를 감사하고, 보고서를 쓰고, 안전한 작은 문제를 수정하게 하세요. | 튜토리얼 |
-| [Case 24: 장문 창작 워크플로 분업](#case-24) | Fable 5가 안정적인 format과 examples를 설계하게 한 뒤, 그 구조를 다른 generation system에 넘겨 domain-specific output을 만들게 하세요. | 튜토리얼 |
-| [Case 25: Fable 5 사용 초보자 가이드](#case-25) | 작은 단계별 지시 대신 goal-oriented prompts, verification loops, effort settings와 함께 Fable 5를 사용하세요. | 평가 |
-| [Case 26: 복사-붙여넣기 저장소 감사 프롬프트](#case-26) | 저장소 감사 프롬프트를 Fable 5에 붙여넣고, file-backed discovery, findings, strategy, milestone task plan을 요청하세요. | 튜토리얼 |
-| [Case 27: 제한된 기간의 사용 전략](#case-27) | 접근 창이 유리할 때 Fable 5 사용량을 audit, architecture, planning에 쓰고, execution에는 더 저렴한 모델을 사용하세요. | 튜토리얼 |
-| [Case 28: Claude Code에서 Goals와 Workflows 사용하기](#case-28) | 구현 전에 Fable 5를 thought partner로 사용한 뒤, `/goal`과 workflows를 결합해 계획을 실행하고 검증하세요. | 튜토리얼 |
+| [Fable 5가 Claude Code 워크플로를 바꾸는 방식](#case-20) | 모든 단계를 세세하게 지시하는 대신 방향, 맥락, 목표, 검증 기준을 설정해 Fable 5를 사용하세요. | 데모 |
+| [10억 토큰 리뷰와 라우팅 전략](#case-21) | Fable 5를 frontier planning과 review에 사용한 뒤, 고볼륨 구현은 더 저렴한 모델로 라우팅하세요. | 튜토리얼 |
+| [방어적 디바이스 하드닝 프롬프트](#case-22) | Fable 5가 디바이스를 inventory하고, 정확한 점검을 제공하며, 검증을 기다리는 단계별 방어적 hardening 프롬프트를 실행하세요. | 튜토리얼 |
+| [전체 사이트 디자인 감사 Goal 프롬프트](#case-23) | `/goal`을 사용해 Fable 5가 사이트를 부팅하고, 페이지를 스크린샷으로 찍고, UX를 감사하고, 보고서를 쓰고, 안전한 작은 문제를 수정하게 하세요. | 튜토리얼 |
+| [장문 창작 워크플로 분업](#case-24) | Fable 5가 안정적인 format과 examples를 설계하게 한 뒤, 그 구조를 다른 generation system에 넘겨 domain-specific output을 만들게 하세요. | 튜토리얼 |
+| [Fable 5 사용 초보자 가이드](#case-25) | 작은 단계별 지시 대신 goal-oriented prompts, verification loops, effort settings와 함께 Fable 5를 사용하세요. | 평가 |
+| [복사-붙여넣기 저장소 감사 프롬프트](#case-26) | 저장소 감사 프롬프트를 Fable 5에 붙여넣고, file-backed discovery, findings, strategy, milestone task plan을 요청하세요. | 튜토리얼 |
+| [제한된 기간의 사용 전략](#case-27) | 접근 창이 유리할 때 Fable 5 사용량을 audit, architecture, planning에 쓰고, execution에는 더 저렴한 모델을 사용하세요. | 튜토리얼 |
+| [Claude Code에서 Goals와 Workflows 사용하기](#case-28) | 구현 전에 Fable 5를 thought partner로 사용한 뒤, `/goal`과 workflows를 결합해 계획을 실행하고 검증하세요. | 튜토리얼 |
 
 ### [🔌 플랫폼, API 및 도구 통합](#platform-api-and-tool-integration)
 
 | Case | 무엇을 보여주는가 | 유형 |
 |---|---|---|
-| [Case 29: Hermes Agent 통합 설정](#case-29) | 복잡한 `/goal` 실행과 cached long-horizon tasks에 `anthropic/claude-fable-5`를 사용하도록 Hermes를 설정하세요. | 튜토리얼 |
-| [Case 30: 기능, 가격 및 구독 관련 노트](#case-30) | Fable 5가 언제 사용 가능하고, 비용이 얼마이며, 어떤 guarded domains가 다른 모델로 fallback될 수 있는지 이해하는 데 이 사례를 사용하세요. | 튜토리얼 |
-| [Case 31: 출시, 접근, 가격 및 안전 요약](#case-31) | 이 출시 요약을 사용해 access route, API model name, context window, caching strategy, subscription timing을 선택하세요. | 튜토리얼 |
-| [Case 32: Advisor 기반 비용 절감 전략](#case-32) | 추가 지능이 비용을 감당할 가치가 있을 때, 더 저렴한 모델 워크플로에서 Fable 5를 advisor 또는 reviewer로 사용하세요. | 통합 |
-| [Case 33: 가격, 접근 및 안전 가드레일](#case-33) | workload를 계획하기 전에 Fable 5 access, API pricing, safety fallback behavior를 이해하는 데 이 사례를 사용하세요. | 통합 |
-| [Case 34: 한 줄 Swarms 통합](#case-34) | Swarms model name을 `anthropic/claude-fable-5`로 설정하고 Swarms framework 또는 API를 통해 Fable 5를 실행하세요. | 통합 |
+| [Hermes Agent 통합 설정](#case-29) | 복잡한 `/goal` 실행과 cached long-horizon tasks에 `anthropic/claude-fable-5`를 사용하도록 Hermes를 설정하세요. | 튜토리얼 |
+| [기능, 가격 및 구독 관련 노트](#case-30) | Fable 5가 언제 사용 가능하고, 비용이 얼마이며, 어떤 guarded domains가 다른 모델로 fallback될 수 있는지 이해하는 데 이 사례를 사용하세요. | 튜토리얼 |
+| [출시, 접근, 가격 및 안전 요약](#case-31) | 이 출시 요약을 사용해 access route, API model name, context window, caching strategy, subscription timing을 선택하세요. | 튜토리얼 |
+| [Advisor 기반 비용 절감 전략](#case-32) | 추가 지능이 비용을 감당할 가치가 있을 때, 더 저렴한 모델 워크플로에서 Fable 5를 advisor 또는 reviewer로 사용하세요. | 통합 |
+| [가격, 접근 및 안전 가드레일](#case-33) | workload를 계획하기 전에 Fable 5 access, API pricing, safety fallback behavior를 이해하는 데 이 사례를 사용하세요. | 통합 |
+| [한 줄 Swarms 통합](#case-34) | Swarms model name을 `anthropic/claude-fable-5`로 설정하고 Swarms framework 또는 API를 통해 Fable 5를 실행하세요. | 통합 |
 
 ### [📏 평가, 비교 및 한계](#evaluations-comparisons-and-limits)
 
 | Case | 무엇을 보여주는가 | 유형 |
 |---|---|---|
-| [Case 35: Fable 5 vs GPT-5.5 비용 및 품질 비교](#case-35) | 같은 코딩 작업에서 Fable 5와 GPT-5.5를 비교해 출력 품질, 실행 시간, 도구 비용을 판단하세요. | 평가 |
-| [Case 36: AA-Omniscience 벤치마크 결과](#case-36) | 이 벤치마크 사례를 사용해 Fable 5의 knowledge accuracy와 hallucination behavior를 평가하세요. | 평가 |
-| [Case 37: Artificial Analysis Intelligence Index 결과](#case-37) | 이 사례를 사용해 Fable 5의 전체 intelligence ranking을 다른 frontier models와 비교해 벤치마크하세요. | 평가 |
-| [Case 38: GDPval-AA 에이전트형 지식 작업 벤치마크](#case-38) | 이 사례를 사용해 agentic real-world knowledge work에서 Fable 5를 평가하세요. | 평가 |
-| [Case 39: 1주일 첫인상과 가격 메커니즘](#case-39) | 이 첫인상 사례를 사용해 Fable 5가 특히 game design과 systems planning에서 어디에 강한지 결정하세요. | 통합 |
-| [Case 40: 비용 및 속도 비교](#case-40) | 이 비교를 사용해 quality gain이 더 높은 cost와 느린 long-horizon runs를 정당화하는지 판단하세요. | 평가 |
-| [Case 41: Claude Code 실사용 노트](#case-41) | tool use, personality, remaining rough edges를 포함해 Claude Code 안에서 Fable 5를 평가하는 데 이 사례를 사용하세요. | 데모 |
-| [Case 42: 창작 글쓰기 벤치마크 결과](#case-42) | 이 벤치마크 사례를 사용해 Fable 5의 short-fiction writing quality와 refusal behavior를 판단하세요. | 평가 |
-| [Case 43: 다중 벤치마크 출시 요약](#case-43) | 이 출시 벤치마크 요약을 사용해 coding agents와 complex tasks에 가장 관련 있는 headline scores를 이해하세요. | 평가 |
-| [Case 44: GPT-5.5와의 벤치마크 및 가격 비교](#case-44) | 이 비교를 사용해 price와 benchmark categories에서 Fable 5를 GPT-5.5와 비교 평가하세요. | 평가 |
-| [Case 45: 실전 노트와 실용적 한계](#case-45) | 이 field report를 사용해 Fable 5가 어디에서 의미 있게 더 좋게 느껴지고, 어디에 여전히 실용적 한계가 있는지 이해하세요. | 튜토리얼 |
-| [Case 46: 물리 시뮬레이션 비교](#case-46) | Fable 5와 Opus 4.8에 동일한 물리 시뮬레이션 프롬프트를 실행해 output quality, cost, speed를 비교하세요. | 데모 |
-| [Case 47: 디버깅 경험과 디자인 판단력](#case-47) | 단순히 추측하게 하지 말고, measure, log, verify, patch하도록 요청해 Fable 5를 debugging에 사용하세요. | 데모 |
-| [Case 48: 다차원 장단점](#case-48) | Fable 5를 daily driver로 만들기 전에 practical strengths and weaknesses를 이해하는 데 이 사례를 사용하세요. | 데모 |
-| [Case 49: 법률 S-1 작성 테스트](#case-49) | S-1 drafting prompt를 legal-agent capability test로 사용하고 structure, formatting, length를 비교하세요. | 튜토리얼 |
-| [Case 50: 헬스케어 벤치마크 세부 정보](#case-50) | 이 benchmark note를 사용해 healthcare-related tasks에서 Fable 5를 평가하고, 빠진 hard medical evals를 식별하세요. | 평가 |
-| [Case 51: ParseBench 문서 파싱 평가](#case-51) | 전문 OCR 시스템과 비교해 Fable 5가 document parsing에 cost-effective한지 결정하는 데 이 사례를 사용하세요. | 평가 |
-| [Case 52: SWE-Bench Pro 및 FrontierCode 비교](#case-52) | 이 벤치마크 사례를 사용해 migrations, complex implementations, autonomous sessions, tests, visual verification에서 Fable 5를 평가하세요. | 평가 |
-| [Case 53: 장시간 문제 해결에 대한 정성 리뷰](#case-53) | 이 정성 리뷰를 사용해 Fable 5가 왜 longer, harder tasks에 적합한지 이해하되, production review는 여전히 필요하다는 점을 기억하세요. | 평가 |
-| [Case 54: ParseBench 충실도 및 서식 결과](#case-54) | 이 ParseBench 결과를 사용해 document faithfulness와 formatting performance를 판단하세요. | 평가 |
-| [Case 55: 벤치마크, 가격, 접근 및 안전장치](#case-55) | 이 사례를 benchmarks, pricing, access, safeguards, strategic implications에 대한 넓은 checklist로 사용하세요. | 평가 |
-| [Case 56: 공식 벤치마크 점수 목록](#case-56) | 이 benchmark list를 사용해 coding, computer use, security tasks 전반의 Fable 5 공식 점수를 이해하세요. | 평가 |
-| [Case 57: APEX-SWE 벤치마크 방법론](#case-57) | 이 사례를 사용해 APEX-SWE, 특히 observability와 integration work에서 Fable 5를 평가하세요. | 평가 |
-| [Case 58: ProofBench 형식 수학 결과](#case-58) | 이 사례를 사용해 specialized theorem-proving systems와 비교해 formal math에서 Fable 5를 평가하세요. | 튜토리얼 |
-| [Case 59: VirtueBench 예비 분석](#case-59) | 이 사례를 사용해 virtue categories 전반에서 Fable 5의 moral-reasoning behavior를 살펴보세요. | 평가 |
-| [Case 60: API 빈 응답 안전 과적합 테스트](#case-60) | 이 사례를 사용해 launch-time safety overfit risk와 API testing의 empty-response behavior를 이해하세요. | 평가 |
+| [Fable 5 vs GPT-5.5 비용 및 품질 비교](#case-35) | 같은 코딩 작업에서 Fable 5와 GPT-5.5를 비교해 출력 품질, 실행 시간, 도구 비용을 판단하세요. | 평가 |
+| [AA-Omniscience 벤치마크 결과](#case-36) | 이 벤치마크 사례를 사용해 Fable 5의 knowledge accuracy와 hallucination behavior를 평가하세요. | 평가 |
+| [Artificial Analysis Intelligence Index 결과](#case-37) | 이 사례를 사용해 Fable 5의 전체 intelligence ranking을 다른 frontier models와 비교해 벤치마크하세요. | 평가 |
+| [GDPval-AA 에이전트형 지식 작업 벤치마크](#case-38) | 이 사례를 사용해 agentic real-world knowledge work에서 Fable 5를 평가하세요. | 평가 |
+| [1주일 첫인상과 가격 메커니즘](#case-39) | 이 첫인상 사례를 사용해 Fable 5가 특히 game design과 systems planning에서 어디에 강한지 결정하세요. | 통합 |
+| [비용 및 속도 비교](#case-40) | 이 비교를 사용해 quality gain이 더 높은 cost와 느린 long-horizon runs를 정당화하는지 판단하세요. | 평가 |
+| [Claude Code 실사용 노트](#case-41) | tool use, personality, remaining rough edges를 포함해 Claude Code 안에서 Fable 5를 평가하는 데 이 사례를 사용하세요. | 데모 |
+| [창작 글쓰기 벤치마크 결과](#case-42) | 이 벤치마크 사례를 사용해 Fable 5의 short-fiction writing quality와 refusal behavior를 판단하세요. | 평가 |
+| [다중 벤치마크 출시 요약](#case-43) | 이 출시 벤치마크 요약을 사용해 coding agents와 complex tasks에 가장 관련 있는 headline scores를 이해하세요. | 평가 |
+| [GPT-5.5와의 벤치마크 및 가격 비교](#case-44) | 이 비교를 사용해 price와 benchmark categories에서 Fable 5를 GPT-5.5와 비교 평가하세요. | 평가 |
+| [실전 노트와 실용적 한계](#case-45) | 이 field report를 사용해 Fable 5가 어디에서 의미 있게 더 좋게 느껴지고, 어디에 여전히 실용적 한계가 있는지 이해하세요. | 튜토리얼 |
+| [물리 시뮬레이션 비교](#case-46) | Fable 5와 Opus 4.8에 동일한 물리 시뮬레이션 프롬프트를 실행해 output quality, cost, speed를 비교하세요. | 데모 |
+| [디버깅 경험과 디자인 판단력](#case-47) | 단순히 추측하게 하지 말고, measure, log, verify, patch하도록 요청해 Fable 5를 debugging에 사용하세요. | 데모 |
+| [다차원 장단점](#case-48) | Fable 5를 daily driver로 만들기 전에 practical strengths and weaknesses를 이해하는 데 이 사례를 사용하세요. | 데모 |
+| [법률 S-1 작성 테스트](#case-49) | S-1 drafting prompt를 legal-agent capability test로 사용하고 structure, formatting, length를 비교하세요. | 튜토리얼 |
+| [헬스케어 벤치마크 세부 정보](#case-50) | 이 benchmark note를 사용해 healthcare-related tasks에서 Fable 5를 평가하고, 빠진 hard medical evals를 식별하세요. | 평가 |
+| [ParseBench 문서 파싱 평가](#case-51) | 전문 OCR 시스템과 비교해 Fable 5가 document parsing에 cost-effective한지 결정하는 데 이 사례를 사용하세요. | 평가 |
+| [SWE-Bench Pro 및 FrontierCode 비교](#case-52) | 이 벤치마크 사례를 사용해 migrations, complex implementations, autonomous sessions, tests, visual verification에서 Fable 5를 평가하세요. | 평가 |
+| [장시간 문제 해결에 대한 정성 리뷰](#case-53) | 이 정성 리뷰를 사용해 Fable 5가 왜 longer, harder tasks에 적합한지 이해하되, production review는 여전히 필요하다는 점을 기억하세요. | 평가 |
+| [ParseBench 충실도 및 서식 결과](#case-54) | 이 ParseBench 결과를 사용해 document faithfulness와 formatting performance를 판단하세요. | 평가 |
+| [벤치마크, 가격, 접근 및 안전장치](#case-55) | 이 사례를 benchmarks, pricing, access, safeguards, strategic implications에 대한 넓은 checklist로 사용하세요. | 평가 |
+| [공식 벤치마크 점수 목록](#case-56) | 이 benchmark list를 사용해 coding, computer use, security tasks 전반의 Fable 5 공식 점수를 이해하세요. | 평가 |
+| [APEX-SWE 벤치마크 방법론](#case-57) | 이 사례를 사용해 APEX-SWE, 특히 observability와 integration work에서 Fable 5를 평가하세요. | 평가 |
+| [ProofBench 형식 수학 결과](#case-58) | 이 사례를 사용해 specialized theorem-proving systems와 비교해 formal math에서 Fable 5를 평가하세요. | 튜토리얼 |
+| [VirtueBench 예비 분석](#case-59) | 이 사례를 사용해 virtue categories 전반에서 Fable 5의 moral-reasoning behavior를 살펴보세요. | 평가 |
+| [API 빈 응답 안전 과적합 테스트](#case-60) | 이 사례를 사용해 launch-time safety overfit risk와 API testing의 empty-response behavior를 이해하세요. | 평가 |
 
 
 <a id="coding-and-code-generation"></a>

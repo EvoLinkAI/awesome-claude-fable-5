@@ -7,17 +7,17 @@
 [![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 [![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://docs.evolink.ai)
 
-[![English](https://img.shields.io/badge/English-Default_Source-111111)](README.md)
-[![Spanish](https://img.shields.io/badge/Spanish-View-ffb703)](README_es.md)
-[![Portuguese](https://img.shields.io/badge/Portuguese-View-2a9d8f)](README_pt.md)
-[![Japanese](https://img.shields.io/badge/Japanese-View-52b788)](README_ja.md)
-[![Korean](https://img.shields.io/badge/Korean-View-4ea8de)](README_ko.md)
-[![German](https://img.shields.io/badge/German-View-f4a261)](README_de.md)
-[![French](https://img.shields.io/badge/French-View-e76f51)](README_fr.md)
-[![Turkish](https://img.shields.io/badge/Turkish-View-d62828)](README_tr.md)
-[![Traditional Chinese](https://img.shields.io/badge/Traditional_Chinese-View-8338ec)](README_zh-TW.md)
-[![Simplified Chinese](https://img.shields.io/badge/Simplified_Chinese-View-ef476f)](README_zh-CN.md)
-[![Russian](https://img.shields.io/badge/Russian-View-577590)](README_ru.md)
+[![Ingilizce](https://img.shields.io/badge/Ingilizce-Kaynak-111111)](README.md)
+[![Ispanyolca](https://img.shields.io/badge/Ispanyolca-Gor-ffb703)](README_es.md)
+[![Portekizce](https://img.shields.io/badge/Portekizce-Gor-2a9d8f)](README_pt.md)
+[![Japonca](https://img.shields.io/badge/Japonca-Gor-52b788)](README_ja.md)
+[![Korece](https://img.shields.io/badge/Korece-Gor-4ea8de)](README_ko.md)
+[![Almanca](https://img.shields.io/badge/Almanca-Gor-f4a261)](README_de.md)
+[![Fransizca](https://img.shields.io/badge/Fransizca-Gor-e76f51)](README_fr.md)
+[![Turkce](https://img.shields.io/badge/Turkce-Gor-d62828)](README_tr.md)
+[![Geleneksel Cince](https://img.shields.io/badge/Geleneksel_Cince-Gor-8338ec)](README_zh-TW.md)
+[![Basitlestirilmis Cince](https://img.shields.io/badge/Basitlestirilmis_Cince-Gor-ef476f)](README_zh-CN.md)
+[![Rusca](https://img.shields.io/badge/Rusca-Gor-577590)](README_ru.md)
 
 </div>
 
@@ -85,101 +85,101 @@ curl --request POST \
 
 | Case | Ne gösteriyor | Tür |
 |---|---|---|
-| [Case 1: Cursor Çok Aşamalı İş Akışı](#case-1) | Fable 5'i çok modelli bir Cursor iş akışında plan inceleme ve eleştiri adımı olarak kullanın; ardından uygulama ve revizyonu daha ucuz veya uzmanlaşmış modellere devredin. | Değerlendirme |
-| [Case 2: Bir Ekran Görüntüsünden GitHub'ı Yeniden Oluşturma](#case-2) | Bir ürün ekran görüntüsünü ajanik kodlama aracına yapıştırın ve Fable 5'ten arayüzü çalışan işlevsellikle yeniden oluşturmasını isteyin. | Demo |
-| [Case 3: Tek Promptla Kara Delik Simülasyonu](#case-3) | Fable 5'e ayrıntılı bir yaratıcı kodlama promptu verin ve kendi kendine yeten bir Three.js fizik görselleştirmesi üretmesini isteyin. | Öğretici |
-| [Case 4: Tek Denemede macOS Tarzı Web OS](#case-4) | Fable 5'ten eksiksiz tek dosyalık bir web OS isteyin; UI kabuğunu, uygulamaları, etkileşimleri, sesi ve gömülü oyun davranışını tek geçişte inşa etmesine izin verin. | Öğretici |
-| [Case 5: Spawn 5.0'ı 1.687 Promptla İnşa Etme](#case-5) | Fable 5'i birçok prompt boyunca uzun oturumlu bir mühendislik ortağı olarak kullanın; insan rolü mimariden çıktı kalitesini yargılamaya kayar. | Öğretici |
-| [Case 6: Bulgularla Büyük Pull Request İncelemesi](#case-6) | Fable 5'i büyük bir pull request'e yönlendirin ve doğruluk, yanlış pozitifler, gerçek buglar ve cilalama sorunları açısından incelemesini isteyin. | Demo |
+| [Cursor Çok Aşamalı İş Akışı](#case-1) | Fable 5'i çok modelli bir Cursor iş akışında plan inceleme ve eleştiri adımı olarak kullanın; ardından uygulama ve revizyonu daha ucuz veya uzmanlaşmış modellere devredin. | Değerlendirme |
+| [Bir Ekran Görüntüsünden GitHub'ı Yeniden Oluşturma](#case-2) | Bir ürün ekran görüntüsünü ajanik kodlama aracına yapıştırın ve Fable 5'ten arayüzü çalışan işlevsellikle yeniden oluşturmasını isteyin. | Demo |
+| [Tek Promptla Kara Delik Simülasyonu](#case-3) | Fable 5'e ayrıntılı bir yaratıcı kodlama promptu verin ve kendi kendine yeten bir Three.js fizik görselleştirmesi üretmesini isteyin. | Öğretici |
+| [Tek Denemede macOS Tarzı Web OS](#case-4) | Fable 5'ten eksiksiz tek dosyalık bir web OS isteyin; UI kabuğunu, uygulamaları, etkileşimleri, sesi ve gömülü oyun davranışını tek geçişte inşa etmesine izin verin. | Öğretici |
+| [Spawn 5.0'ı 1.687 Promptla İnşa Etme](#case-5) | Fable 5'i birçok prompt boyunca uzun oturumlu bir mühendislik ortağı olarak kullanın; insan rolü mimariden çıktı kalitesini yargılamaya kayar. | Öğretici |
+| [Bulgularla Büyük Pull Request İncelemesi](#case-6) | Fable 5'i büyük bir pull request'e yönlendirin ve doğruluk, yanlış pozitifler, gerçek buglar ve cilalama sorunları açısından incelemesini isteyin. | Demo |
 
 ### [🤖 Ajanlar ve Uzun Süreli Otomasyon](#agents-and-long-running-automation)
 
 | Case | Ne gösteriyor | Tür |
 |---|---|---|
-| [Case 7: Uzun Ufuklu Relay İş Akışı İncelemesi](#case-7) | Fable 5'i iddialı uzun ufuklu işler için kullanın: site yeniden inşaları, programatik içerik hatları, ses eşleştirme, güvenlik incelemesi ve son kalite kontrolleri. | Değerlendirme |
-| [Case 8: Altyapı Kesintisini Teşhis Etme ve Düzeltme PR'ı Açma](#case-8) | Fable 5'e loglar, veritabanı hataları ve image digest'leri gibi altyapı ipuçlarına erişim verin; ardından kesintiyi teşhis edip düzeltmeyi hazırlamasını isteyin. | Değerlendirme |
+| [Uzun Ufuklu Relay İş Akışı İncelemesi](#case-7) | Fable 5'i iddialı uzun ufuklu işler için kullanın: site yeniden inşaları, programatik içerik hatları, ses eşleştirme, güvenlik incelemesi ve son kalite kontrolleri. | Değerlendirme |
+| [Altyapı Kesintisini Teşhis Etme ve Düzeltme PR'ı Açma](#case-8) | Fable 5'e loglar, veritabanı hataları ve image digest'leri gibi altyapı ipuçlarına erişim verin; ardından kesintiyi teşhis edip düzeltmeyi hazırlamasını isteyin. | Değerlendirme |
 
 ### [🎮 Oyunlar ve Etkileşimli Demolar](#games-and-interactive-demos)
 
 | Case | Ne gösteriyor | Tür |
 |---|---|---|
-| [Case 9: Parmak Takipli Dino Runner](#case-9) | Fable 5'ten giriş mekaniği olarak parmak takibi kullanan bir tarayıcı oyunu yapmasını isteyin. | Demo |
-| [Case 10: İki Cümleyle Yarış Oyunu İnşası](#case-10) | Fable 5'e çok kısa bir oyun promptu verin; haritaları, modları, müziği, UI'ı ve oyun varlıklarını tek çalıştırmada üretmesine izin verin. | Öğretici |
-| [Case 11: Rust ile Kurulabilir Terminal Minecraft](#case-11) | Fable 5'i bir terminal kodlama harness'i içinde çalıştırın ve kurulabilir bir Rust terminal oyunu yapmasını isteyin. | Demo |
-| [Case 12: Zaman ve Maliyetle Minecraft Klonu](#case-12) | Tek promptla Fable 5'ten oynanabilir Minecraft tarzı bir klon isteyin; ardından zamanı, maliyeti, kod hacmini ve özellik kapsamını değerlendirin. | Öğretici |
+| [Parmak Takipli Dino Runner](#case-9) | Fable 5'ten giriş mekaniği olarak parmak takibi kullanan bir tarayıcı oyunu yapmasını isteyin. | Demo |
+| [İki Cümleyle Yarış Oyunu İnşası](#case-10) | Fable 5'e çok kısa bir oyun promptu verin; haritaları, modları, müziği, UI'ı ve oyun varlıklarını tek çalıştırmada üretmesine izin verin. | Öğretici |
+| [Rust ile Kurulabilir Terminal Minecraft](#case-11) | Fable 5'i bir terminal kodlama harness'i içinde çalıştırın ve kurulabilir bir Rust terminal oyunu yapmasını isteyin. | Demo |
+| [Zaman ve Maliyetle Minecraft Klonu](#case-12) | Tek promptla Fable 5'ten oynanabilir Minecraft tarzı bir klon isteyin; ardından zamanı, maliyeti, kod hacmini ve özellik kapsamını değerlendirin. | Öğretici |
 
 ### [🎨 Görsel, Tasarım, Video ve 3D](#visual-design-video-and-3d)
 
 | Case | Ne gösteriyor | Tür |
 |---|---|---|
-| [Case 13: Tam Yeniden Üretilebilir E-ticaret E-postası Promptu](#case-13) | Fable 5'e marka e-posta maketi için tam bir yaratıcı brief verin: kesin bölümler, ürün gereksinimleri, görsel yön ve kısıtlar dahil. | Öğretici |
-| [Case 14: Swiss Lever Saatçi Benchmarkı](#case-14) | Fable 5'i mekanik simülasyon benchmarkında kullanın; fiziksel doğruluğu uygulamasını, doğrulamasını ve yinelemesini isteyin. | Değerlendirme |
-| [Case 15: Three.js Friends Apartmanı Sahnesi](#case-15) | Fable 5'e bir kat planını ve sahne referansını gezilebilir bir Three.js ortamına dönüştürmesini promptlayın. | Değerlendirme |
-| [Case 16: Prompt ve URL ile Güneş Sistemi Simülasyonu](#case-16) | Fable 5'i fizik ilkelerinden bir astronomi simülasyonu inşa etmek için kullanın; simülasyon ve herkese açık çıktı hazır olana kadar yineleyin. | Öğretici |
+| [Tam Yeniden Üretilebilir E-ticaret E-postası Promptu](#case-13) | Fable 5'e marka e-posta maketi için tam bir yaratıcı brief verin: kesin bölümler, ürün gereksinimleri, görsel yön ve kısıtlar dahil. | Öğretici |
+| [Swiss Lever Saatçi Benchmarkı](#case-14) | Fable 5'i mekanik simülasyon benchmarkında kullanın; fiziksel doğruluğu uygulamasını, doğrulamasını ve yinelemesini isteyin. | Değerlendirme |
+| [Three.js Friends Apartmanı Sahnesi](#case-15) | Fable 5'e bir kat planını ve sahne referansını gezilebilir bir Three.js ortamına dönüştürmesini promptlayın. | Değerlendirme |
+| [Prompt ve URL ile Güneş Sistemi Simülasyonu](#case-16) | Fable 5'i fizik ilkelerinden bir astronomi simülasyonu inşa etmek için kullanın; simülasyon ve herkese açık çıktı hazır olana kadar yineleyin. | Öğretici |
 
 ### [📚 Belgeler, Bilgi Çalışması ve Araştırma](#documents-knowledge-work-and-research)
 
 | Case | Ne gösteriyor | Tür |
 |---|---|---|
-| [Case 17: Stripe ve Bilimsel İş Akışı Kanıtı](#case-17) | Bunu kopyala-yapıştır promptu olarak değil, kurumsal geçiş ve bilimsel iş akışı iddiaları için kanıt olarak kullanın. | Değerlendirme |
-| [Case 18: Politika Notu ve Değişiklik İzleme İş Akışları](#case-18) | Fable 5'i uzun form nitel belge çalışması için kullanın: değişiklik izleme, yorum triage'ı ve transkript odaklı düzenlemeler. | Öğretici |
-| [Case 19: Derin Araştırma Promptu ve Çıktısı](#case-19) | Fable 5'e araştırma tarzı bir soru sorun ve yapılandırılmış, tarihsel temelli uzun bir yanıt üretip üretemediğini değerlendirin. | Demo |
+| [Stripe ve Bilimsel İş Akışı Kanıtı](#case-17) | Bunu kopyala-yapıştır promptu olarak değil, kurumsal geçiş ve bilimsel iş akışı iddiaları için kanıt olarak kullanın. | Değerlendirme |
+| [Politika Notu ve Değişiklik İzleme İş Akışları](#case-18) | Fable 5'i uzun form nitel belge çalışması için kullanın: değişiklik izleme, yorum triage'ı ve transkript odaklı düzenlemeler. | Öğretici |
+| [Derin Araştırma Promptu ve Çıktısı](#case-19) | Fable 5'e araştırma tarzı bir soru sorun ve yapılandırılmış, tarihsel temelli uzun bir yanıt üretip üretemediğini değerlendirin. | Demo |
 
 ### [🧭 Öğreticiler, Kurslar ve Prompt Kaynakları](#tutorials-courses-and-prompt-resources)
 
 | Case | Ne gösteriyor | Tür |
 |---|---|---|
-| [Case 20: Fable 5'in Claude Code İş Akışlarını Nasıl Değiştirdiği](#case-20) | Fable 5'i her adımı mikro yönetmek yerine yön, bağlam, hedefler ve doğrulama kriterleri belirleyerek kullanın. | Demo |
-| [Case 21: Bir Milyar Token İncelemesi ve Yönlendirme Stratejisi](#case-21) | Fable 5'i frontier planlama ve inceleme için kullanın, sonra yüksek hacimli uygulamayı daha ucuz modellere yönlendirin. | Öğretici |
-| [Case 22: Savunmacı Cihaz Sertleştirme Promptu](#case-22) | Fable 5'in cihazları envantere aldığı, kesin kontroller verdiği ve doğrulama beklediği adım adım savunmacı sertleştirme promptunu çalıştırın. | Öğretici |
-| [Case 23: Tam Site Tasarım Denetimi Goal Promptu](#case-23) | Fable 5'in siteyi başlatması, sayfaların ekran görüntüsünü alması, UX denetimi yapması, rapor yazması ve güvenli küçük sorunları düzeltmesi için `/goal` kullanın. | Öğretici |
-| [Case 24: Uzun Form Yaratıcı İş Akışı Bölüşümü](#case-24) | Fable 5'i kararlı formatlar ve örnekler tasarlamak için kullanın; sonra bu yapıyı alana özgü çıktı için başka bir üretim sistemine devredin. | Öğretici |
-| [Case 25: Fable 5 Kullanımı İçin Başlangıç Rehberi](#case-25) | Fable 5'i küçük adım adım talimatlar yerine hedef odaklı promptlar, doğrulama döngüleri ve effort ayarlarıyla kullanın. | Değerlendirme |
-| [Case 26: Kopyala-Yapıştır Depo Denetimi Promptu](#case-26) | Depo denetimi promptunu Fable 5'e yapıştırın ve dosya destekli keşif, bulgular, strateji ve milestone görev planı isteyin. | Öğretici |
-| [Case 27: Sınırlı Pencere Kullanım Stratejisi](#case-27) | Erişim penceresi avantajlıyken Fable 5 kullanımını denetim, mimari ve planlamaya harcayın; yürütme için daha ucuz modeller kullanın. | Öğretici |
-| [Case 28: Claude Code'da Goals ve Workflows Kullanımı](#case-28) | Fable 5'i uygulamadan önce düşünce ortağı olarak kullanın, ardından planı yürütmek ve doğrulamak için `/goal` ve workflows'u birleştirin. | Öğretici |
+| [Fable 5'in Claude Code İş Akışlarını Nasıl Değiştirdiği](#case-20) | Fable 5'i her adımı mikro yönetmek yerine yön, bağlam, hedefler ve doğrulama kriterleri belirleyerek kullanın. | Demo |
+| [Bir Milyar Token İncelemesi ve Yönlendirme Stratejisi](#case-21) | Fable 5'i frontier planlama ve inceleme için kullanın, sonra yüksek hacimli uygulamayı daha ucuz modellere yönlendirin. | Öğretici |
+| [Savunmacı Cihaz Sertleştirme Promptu](#case-22) | Fable 5'in cihazları envantere aldığı, kesin kontroller verdiği ve doğrulama beklediği adım adım savunmacı sertleştirme promptunu çalıştırın. | Öğretici |
+| [Tam Site Tasarım Denetimi Goal Promptu](#case-23) | Fable 5'in siteyi başlatması, sayfaların ekran görüntüsünü alması, UX denetimi yapması, rapor yazması ve güvenli küçük sorunları düzeltmesi için `/goal` kullanın. | Öğretici |
+| [Uzun Form Yaratıcı İş Akışı Bölüşümü](#case-24) | Fable 5'i kararlı formatlar ve örnekler tasarlamak için kullanın; sonra bu yapıyı alana özgü çıktı için başka bir üretim sistemine devredin. | Öğretici |
+| [Fable 5 Kullanımı İçin Başlangıç Rehberi](#case-25) | Fable 5'i küçük adım adım talimatlar yerine hedef odaklı promptlar, doğrulama döngüleri ve effort ayarlarıyla kullanın. | Değerlendirme |
+| [Kopyala-Yapıştır Depo Denetimi Promptu](#case-26) | Depo denetimi promptunu Fable 5'e yapıştırın ve dosya destekli keşif, bulgular, strateji ve milestone görev planı isteyin. | Öğretici |
+| [Sınırlı Pencere Kullanım Stratejisi](#case-27) | Erişim penceresi avantajlıyken Fable 5 kullanımını denetim, mimari ve planlamaya harcayın; yürütme için daha ucuz modeller kullanın. | Öğretici |
+| [Claude Code'da Goals ve Workflows Kullanımı](#case-28) | Fable 5'i uygulamadan önce düşünce ortağı olarak kullanın, ardından planı yürütmek ve doğrulamak için `/goal` ve workflows'u birleştirin. | Öğretici |
 
 ### [🔌 Platform, API ve Araç Entegrasyonu](#platform-api-and-tool-integration)
 
 | Case | Ne gösteriyor | Tür |
 |---|---|---|
-| [Case 29: Hermes Ajan Entegrasyonu Kurulumu](#case-29) | Hermes'i `anthropic/claude-fable-5` kullanacak şekilde, karmaşık `/goal` çalışmaları ve cache'li uzun ufuklu görevler için yapılandırın. | Öğretici |
-| [Case 30: Yetenekler, Fiyatlandırma ve Abonelik Notları](#case-30) | Fable 5'in ne zaman erişilebilir olduğunu, maliyetini ve hangi korumalı alanların başka modele fallback edebileceğini anlamak için bu örneği kullanın. | Öğretici |
-| [Case 31: Lansman, Erişim, Fiyatlandırma ve Güvenlik Özeti](#case-31) | Erişim yolunu, API model adını, context window'u, caching stratejisini ve abonelik zamanlamasını seçmek için bu lansman özetini kullanın. | Öğretici |
-| [Case 32: Danışman Tabanlı Maliyet Azaltma Stratejisi](#case-32) | Marjinal zeka maliyete değdiğinde, Fable 5'i daha ucuz model iş akışında danışman veya inceleyici olarak kullanın. | Entegrasyon |
-| [Case 33: Fiyatlandırma, Erişim ve Güvenlik Korkulukları](#case-33) | İş yüklerini planlamadan önce Fable 5 erişimini, API fiyatlandırmasını ve güvenlik fallback davranışını anlamak için bu örneği kullanın. | Entegrasyon |
-| [Case 34: Tek Satırlık Swarms Entegrasyonu](#case-34) | Swarms model adını `anthropic/claude-fable-5` olarak ayarlayın ve Fable 5'i Swarms framework'ü veya API üzerinden çalıştırın. | Entegrasyon |
+| [Hermes Ajan Entegrasyonu Kurulumu](#case-29) | Hermes'i `anthropic/claude-fable-5` kullanacak şekilde, karmaşık `/goal` çalışmaları ve cache'li uzun ufuklu görevler için yapılandırın. | Öğretici |
+| [Yetenekler, Fiyatlandırma ve Abonelik Notları](#case-30) | Fable 5'in ne zaman erişilebilir olduğunu, maliyetini ve hangi korumalı alanların başka modele fallback edebileceğini anlamak için bu örneği kullanın. | Öğretici |
+| [Lansman, Erişim, Fiyatlandırma ve Güvenlik Özeti](#case-31) | Erişim yolunu, API model adını, context window'u, caching stratejisini ve abonelik zamanlamasını seçmek için bu lansman özetini kullanın. | Öğretici |
+| [Danışman Tabanlı Maliyet Azaltma Stratejisi](#case-32) | Marjinal zeka maliyete değdiğinde, Fable 5'i daha ucuz model iş akışında danışman veya inceleyici olarak kullanın. | Entegrasyon |
+| [Fiyatlandırma, Erişim ve Güvenlik Korkulukları](#case-33) | İş yüklerini planlamadan önce Fable 5 erişimini, API fiyatlandırmasını ve güvenlik fallback davranışını anlamak için bu örneği kullanın. | Entegrasyon |
+| [Tek Satırlık Swarms Entegrasyonu](#case-34) | Swarms model adını `anthropic/claude-fable-5` olarak ayarlayın ve Fable 5'i Swarms framework'ü veya API üzerinden çalıştırın. | Entegrasyon |
 
 ### [📏 Değerlendirmeler, Karşılaştırmalar ve Sınırlar](#evaluations-comparisons-and-limits)
 
 | Case | Ne gösteriyor | Tür |
 |---|---|---|
-| [Case 35: Fable 5 ve GPT-5.5 Maliyet ve Kalite Karşılaştırması](#case-35) | Çıktı kalitesini, çalışma süresini ve araç maliyetini değerlendirmek için Fable 5 ve GPT-5.5'i aynı kodlama görevinde karşılaştırın. | Değerlendirme |
-| [Case 36: AA-Omniscience Benchmark Sonucu](#case-36) | Fable 5'i bilgi doğruluğu ve halüsinasyon davranışı açısından değerlendirmek için bu benchmark örneğini kullanın. | Değerlendirme |
-| [Case 37: Artificial Analysis Intelligence Index Sonucu](#case-37) | Fable 5'in genel zeka sıralamasını diğer frontier modellerle benchmark etmek için bu örneği kullanın. | Değerlendirme |
-| [Case 38: GDPval-AA Ajanik Bilgi Çalışması Benchmarkı](#case-38) | Fable 5'i ajanik gerçek dünya bilgi çalışmasında değerlendirmek için bu örneği kullanın. | Değerlendirme |
-| [Case 39: Bir Haftalık İlk İzlenimler ve Fiyatlandırma Mekaniği](#case-39) | Fable 5'in en güçlü olduğu yerleri, özellikle oyun tasarımı ve sistem planlamasını belirlemek için bu ilk izlenim örneğini kullanın. | Entegrasyon |
-| [Case 40: Maliyet ve Hız Karşılaştırması](#case-40) | Kalite kazancının daha yüksek maliyeti ve daha yavaş uzun ufuklu çalışmaları haklı çıkarıp çıkarmadığını belirlemek için bu karşılaştırmayı kullanın. | Değerlendirme |
-| [Case 41: Claude Code Uygulamalı Notları](#case-41) | Araç kullanımı, kişilik ve kalan pürüzler dahil Fable 5'i Claude Code içinde değerlendirmek için bu örneği kullanın. | Demo |
-| [Case 42: Yaratıcı Yazarlık Benchmark Sonucu](#case-42) | Fable 5'in kısa kurgu yazım kalitesini ve refusal davranışını yargılamak için bu benchmark örneğini kullanın. | Değerlendirme |
-| [Case 43: Çoklu Benchmark Lansman Özeti](#case-43) | Kodlama ajanları ve karmaşık görevler için en ilgili headline skorları anlamak üzere bu lansman benchmark özetini kullanın. | Değerlendirme |
-| [Case 44: GPT-5.5 ile Benchmark ve Fiyat Karşılaştırması](#case-44) | Fable 5'i GPT-5.5'e karşı fiyat ve benchmark kategorileri açısından değerlendirmek için bu karşılaştırmayı kullanın. | Değerlendirme |
-| [Case 45: Pratik Sınırlamalarla Saha Notları](#case-45) | Fable 5'in nerede anlamlı biçimde daha iyi hissettirdiğini ve nerede hâlâ pratik sınırları olduğunu anlamak için bu saha raporunu kullanın. | Öğretici |
-| [Case 46: Fizik Simülasyonu Karşılaştırması](#case-46) | Çıktı kalitesini, maliyeti ve hızı karşılaştırmak için aynı fizik simülasyonu promptlarını Fable 5 ve Opus 4.8'e karşı çalıştırın. | Demo |
-| [Case 47: Hata Ayıklama Deneyimi ve Tasarım Yargısı](#case-47) | Fable 5'i hata ayıklama için kullanırken sadece tahmin etmesini değil, ölçmesini, log eklemesini, doğrulamasını ve yama yapmasını isteyin. | Demo |
-| [Case 48: Çok Boyutlu Artılar ve Eksiler](#case-48) | Fable 5'i günlük sürücü yapmadan önce pratik güçlü ve zayıf yönleri anlamak için bu örneği kullanın. | Demo |
-| [Case 49: Hukuki S-1 Taslak Testi](#case-49) | S-1 taslak promptunu hukuki ajan kabiliyet testi olarak kullanın ve yapı, biçimlendirme ve uzunluğu karşılaştırın. | Öğretici |
-| [Case 50: Sağlık Benchmark Ayrıntıları](#case-50) | Fable 5'i sağlıkla ilgili görevlerde değerlendirmek ve eksik zor tıbbi eval'leri belirlemek için bu benchmark notunu kullanın. | Değerlendirme |
-| [Case 51: ParseBench Belge Ayrıştırma Değerlendirmesi](#case-51) | Fable 5'in belge ayrıştırma için uzman OCR sistemlerine kıyasla maliyet etkin olup olmadığını belirlemek için bu örneği kullanın. | Değerlendirme |
-| [Case 52: SWE-Bench Pro ve FrontierCode Karşılaştırması](#case-52) | Fable 5'i migration'lar, karmaşık uygulamalar, otonom oturumlar, testler ve görsel doğrulama için değerlendirmek üzere bu benchmark örneğini kullanın. | Değerlendirme |
-| [Case 53: Uzun Problem Çözmeye Nitel İnceleme](#case-53) | Fable 5'in neden daha uzun ve daha zor görevlere uygun olduğunu, üretim incelemesinin hâlâ gerektiğini anlamak için bu nitel incelemeyi kullanın. | Değerlendirme |
-| [Case 54: ParseBench Sadakat ve Biçimlendirme Sonuçları](#case-54) | Belge sadakati ve biçimlendirme performansını yargılamak için bu ParseBench sonucunu kullanın. | Değerlendirme |
-| [Case 55: Benchmarklar, Fiyatlandırma, Erişim ve Koruma Önlemleri](#case-55) | Bu örneği benchmarklar, fiyatlandırma, erişim, koruma önlemleri ve stratejik sonuçlar için geniş bir checklist olarak kullanın. | Değerlendirme |
-| [Case 56: Resmi Benchmark Skor Listesi](#case-56) | Fable 5'in kodlama, bilgisayar kullanımı ve güvenlik görevlerindeki resmi skorlarını anlamak için bu benchmark listesini kullanın. | Değerlendirme |
-| [Case 57: APEX-SWE Benchmark Metodolojisi](#case-57) | Fable 5'i APEX-SWE üzerinde, özellikle observability ve integration işi açısından değerlendirmek için bu örneği kullanın. | Değerlendirme |
-| [Case 58: ProofBench Formel Matematik Sonucu](#case-58) | Fable 5'i uzman theorem-proving sistemlerine karşı formel matematikte değerlendirmek için bu örneği kullanın. | Öğretici |
-| [Case 59: VirtueBench Ön Analizi](#case-59) | Fable 5'in erdem kategorileri genelindeki ahlaki akıl yürütme davranışını incelemek için bu örneği kullanın. | Değerlendirme |
-| [Case 60: API Boş Yanıt Güvenlik Overfit Testi](#case-60) | Lansman zamanı güvenlik overfit riskini ve API testindeki boş yanıt davranışını anlamak için bu örneği kullanın. | Değerlendirme |
+| [Fable 5 ve GPT-5.5 Maliyet ve Kalite Karşılaştırması](#case-35) | Çıktı kalitesini, çalışma süresini ve araç maliyetini değerlendirmek için Fable 5 ve GPT-5.5'i aynı kodlama görevinde karşılaştırın. | Değerlendirme |
+| [AA-Omniscience Benchmark Sonucu](#case-36) | Fable 5'i bilgi doğruluğu ve halüsinasyon davranışı açısından değerlendirmek için bu benchmark örneğini kullanın. | Değerlendirme |
+| [Artificial Analysis Intelligence Index Sonucu](#case-37) | Fable 5'in genel zeka sıralamasını diğer frontier modellerle benchmark etmek için bu örneği kullanın. | Değerlendirme |
+| [GDPval-AA Ajanik Bilgi Çalışması Benchmarkı](#case-38) | Fable 5'i ajanik gerçek dünya bilgi çalışmasında değerlendirmek için bu örneği kullanın. | Değerlendirme |
+| [Bir Haftalık İlk İzlenimler ve Fiyatlandırma Mekaniği](#case-39) | Fable 5'in en güçlü olduğu yerleri, özellikle oyun tasarımı ve sistem planlamasını belirlemek için bu ilk izlenim örneğini kullanın. | Entegrasyon |
+| [Maliyet ve Hız Karşılaştırması](#case-40) | Kalite kazancının daha yüksek maliyeti ve daha yavaş uzun ufuklu çalışmaları haklı çıkarıp çıkarmadığını belirlemek için bu karşılaştırmayı kullanın. | Değerlendirme |
+| [Claude Code Uygulamalı Notları](#case-41) | Araç kullanımı, kişilik ve kalan pürüzler dahil Fable 5'i Claude Code içinde değerlendirmek için bu örneği kullanın. | Demo |
+| [Yaratıcı Yazarlık Benchmark Sonucu](#case-42) | Fable 5'in kısa kurgu yazım kalitesini ve refusal davranışını yargılamak için bu benchmark örneğini kullanın. | Değerlendirme |
+| [Çoklu Benchmark Lansman Özeti](#case-43) | Kodlama ajanları ve karmaşık görevler için en ilgili headline skorları anlamak üzere bu lansman benchmark özetini kullanın. | Değerlendirme |
+| [GPT-5.5 ile Benchmark ve Fiyat Karşılaştırması](#case-44) | Fable 5'i GPT-5.5'e karşı fiyat ve benchmark kategorileri açısından değerlendirmek için bu karşılaştırmayı kullanın. | Değerlendirme |
+| [Pratik Sınırlamalarla Saha Notları](#case-45) | Fable 5'in nerede anlamlı biçimde daha iyi hissettirdiğini ve nerede hâlâ pratik sınırları olduğunu anlamak için bu saha raporunu kullanın. | Öğretici |
+| [Fizik Simülasyonu Karşılaştırması](#case-46) | Çıktı kalitesini, maliyeti ve hızı karşılaştırmak için aynı fizik simülasyonu promptlarını Fable 5 ve Opus 4.8'e karşı çalıştırın. | Demo |
+| [Hata Ayıklama Deneyimi ve Tasarım Yargısı](#case-47) | Fable 5'i hata ayıklama için kullanırken sadece tahmin etmesini değil, ölçmesini, log eklemesini, doğrulamasını ve yama yapmasını isteyin. | Demo |
+| [Çok Boyutlu Artılar ve Eksiler](#case-48) | Fable 5'i günlük sürücü yapmadan önce pratik güçlü ve zayıf yönleri anlamak için bu örneği kullanın. | Demo |
+| [Hukuki S-1 Taslak Testi](#case-49) | S-1 taslak promptunu hukuki ajan kabiliyet testi olarak kullanın ve yapı, biçimlendirme ve uzunluğu karşılaştırın. | Öğretici |
+| [Sağlık Benchmark Ayrıntıları](#case-50) | Fable 5'i sağlıkla ilgili görevlerde değerlendirmek ve eksik zor tıbbi eval'leri belirlemek için bu benchmark notunu kullanın. | Değerlendirme |
+| [ParseBench Belge Ayrıştırma Değerlendirmesi](#case-51) | Fable 5'in belge ayrıştırma için uzman OCR sistemlerine kıyasla maliyet etkin olup olmadığını belirlemek için bu örneği kullanın. | Değerlendirme |
+| [SWE-Bench Pro ve FrontierCode Karşılaştırması](#case-52) | Fable 5'i migration'lar, karmaşık uygulamalar, otonom oturumlar, testler ve görsel doğrulama için değerlendirmek üzere bu benchmark örneğini kullanın. | Değerlendirme |
+| [Uzun Problem Çözmeye Nitel İnceleme](#case-53) | Fable 5'in neden daha uzun ve daha zor görevlere uygun olduğunu, üretim incelemesinin hâlâ gerektiğini anlamak için bu nitel incelemeyi kullanın. | Değerlendirme |
+| [ParseBench Sadakat ve Biçimlendirme Sonuçları](#case-54) | Belge sadakati ve biçimlendirme performansını yargılamak için bu ParseBench sonucunu kullanın. | Değerlendirme |
+| [Benchmarklar, Fiyatlandırma, Erişim ve Koruma Önlemleri](#case-55) | Bu örneği benchmarklar, fiyatlandırma, erişim, koruma önlemleri ve stratejik sonuçlar için geniş bir checklist olarak kullanın. | Değerlendirme |
+| [Resmi Benchmark Skor Listesi](#case-56) | Fable 5'in kodlama, bilgisayar kullanımı ve güvenlik görevlerindeki resmi skorlarını anlamak için bu benchmark listesini kullanın. | Değerlendirme |
+| [APEX-SWE Benchmark Metodolojisi](#case-57) | Fable 5'i APEX-SWE üzerinde, özellikle observability ve integration işi açısından değerlendirmek için bu örneği kullanın. | Değerlendirme |
+| [ProofBench Formel Matematik Sonucu](#case-58) | Fable 5'i uzman theorem-proving sistemlerine karşı formel matematikte değerlendirmek için bu örneği kullanın. | Öğretici |
+| [VirtueBench Ön Analizi](#case-59) | Fable 5'in erdem kategorileri genelindeki ahlaki akıl yürütme davranışını incelemek için bu örneği kullanın. | Değerlendirme |
+| [API Boş Yanıt Güvenlik Overfit Testi](#case-60) | Lansman zamanı güvenlik overfit riskini ve API testindeki boş yanıt davranışını anlamak için bu örneği kullanın. | Değerlendirme |
 
 
 <a id="coding-and-code-generation"></a>

@@ -7,17 +7,17 @@
 [![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 [![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://docs.evolink.ai)
 
-[![English](https://img.shields.io/badge/English-Default_Source-111111)](README.md)
-[![Spanish](https://img.shields.io/badge/Spanish-View-ffb703)](README_es.md)
-[![Portuguese](https://img.shields.io/badge/Portuguese-View-2a9d8f)](README_pt.md)
-[![Japanese](https://img.shields.io/badge/Japanese-View-52b788)](README_ja.md)
-[![Korean](https://img.shields.io/badge/Korean-View-4ea8de)](README_ko.md)
-[![German](https://img.shields.io/badge/German-View-f4a261)](README_de.md)
-[![French](https://img.shields.io/badge/French-View-e76f51)](README_fr.md)
-[![Turkish](https://img.shields.io/badge/Turkish-View-d62828)](README_tr.md)
-[![Traditional Chinese](https://img.shields.io/badge/Traditional_Chinese-View-8338ec)](README_zh-TW.md)
-[![Simplified Chinese](https://img.shields.io/badge/Simplified_Chinese-View-ef476f)](README_zh-CN.md)
-[![Russian](https://img.shields.io/badge/Russian-View-577590)](README_ru.md)
+[![英語](https://img.shields.io/badge/%E8%8B%B1%E8%AA%9E-%E5%8E%9F%E6%96%87-111111)](README.md)
+[![スペイン語](https://img.shields.io/badge/%E3%82%B9%E3%83%9A%E3%82%A4%E3%83%B3%E8%AA%9E-%E8%A1%A8%E7%A4%BA-ffb703)](README_es.md)
+[![ポルトガル語](https://img.shields.io/badge/%E3%83%9D%E3%83%AB%E3%83%88%E3%82%AC%E3%83%AB%E8%AA%9E-%E8%A1%A8%E7%A4%BA-2a9d8f)](README_pt.md)
+[![日本語](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-%E8%A1%A8%E7%A4%BA-52b788)](README_ja.md)
+[![韓国語](https://img.shields.io/badge/%E9%9F%93%E5%9B%BD%E8%AA%9E-%E8%A1%A8%E7%A4%BA-4ea8de)](README_ko.md)
+[![ドイツ語](https://img.shields.io/badge/%E3%83%89%E3%82%A4%E3%83%84%E8%AA%9E-%E8%A1%A8%E7%A4%BA-f4a261)](README_de.md)
+[![フランス語](https://img.shields.io/badge/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E8%AA%9E-%E8%A1%A8%E7%A4%BA-e76f51)](README_fr.md)
+[![トルコ語](https://img.shields.io/badge/%E3%83%88%E3%83%AB%E3%82%B3%E8%AA%9E-%E8%A1%A8%E7%A4%BA-d62828)](README_tr.md)
+[![繁体字中国語](https://img.shields.io/badge/%E7%B9%81%E4%BD%93%E5%AD%97%E4%B8%AD%E5%9B%BD%E8%AA%9E-%E8%A1%A8%E7%A4%BA-8338ec)](README_zh-TW.md)
+[![簡体字中国語](https://img.shields.io/badge/%E7%B0%A1%E4%BD%93%E5%AD%97%E4%B8%AD%E5%9B%BD%E8%AA%9E-%E8%A1%A8%E7%A4%BA-ef476f)](README_zh-CN.md)
+[![ロシア語](https://img.shields.io/badge/%E3%83%AD%E3%82%B7%E3%82%A2%E8%AA%9E-%E8%A1%A8%E7%A4%BA-577590)](README_ru.md)
 
 </div>
 
@@ -88,101 +88,101 @@ curl --request POST \
 
 | Case | 何がわかるか | 種類 |
 |---|---|---|
-| [Case 1: Cursor のマルチステージワークフロー](#case-1) | マルチモデルの Cursor ワークフロー内で、Fable 5 を計画レビューと批評のステップとして使い、その後の実装と修正をより安価なモデルや専門モデルに戻す。 | 評価 |
-| [Case 2: スクリーンショットから GitHub を再現](#case-2) | プロダクトのスクリーンショットをエージェント型コーディングツールに貼り付け、Fable 5 に動作する機能付きでインターフェースを再現させる。 | デモ |
-| [Case 3: 1 プロンプトのブラックホールシミュレーション](#case-3) | Fable 5 に詳細なクリエイティブコーディング用プロンプトを 1 つ与え、自己完結した Three.js の物理可視化を作らせる。 | チュートリアル |
-| [Case 4: ワンショットの macOS 風 Web OS](#case-4) | Fable 5 に完全な単一ファイル Web OS を依頼し、UI シェル、アプリ、インタラクション、音声、埋め込みゲーム挙動まで 1 回で構築させる。 | チュートリアル |
-| [Case 5: 1,687 個のプロンプトで Spawn 5.0 を構築](#case-5) | Fable 5 を長時間セッションのエンジニアリングパートナーとして多数のプロンプトにまたがって使い、人間の役割をアーキテクチャ設計から出力品質の判断へ移す。 | チュートリアル |
-| [Case 6: 大規模 Pull Request の所見付きレビュー](#case-6) | Fable 5 に大きな Pull Request を向け、正しさ、偽陽性、本当のバグ、仕上げ上の問題をレビューさせる。 | デモ |
+| [Cursor のマルチステージワークフロー](#case-1) | マルチモデルの Cursor ワークフロー内で、Fable 5 を計画レビューと批評のステップとして使い、その後の実装と修正をより安価なモデルや専門モデルに戻す。 | 評価 |
+| [スクリーンショットから GitHub を再現](#case-2) | プロダクトのスクリーンショットをエージェント型コーディングツールに貼り付け、Fable 5 に動作する機能付きでインターフェースを再現させる。 | デモ |
+| [1 プロンプトのブラックホールシミュレーション](#case-3) | Fable 5 に詳細なクリエイティブコーディング用プロンプトを 1 つ与え、自己完結した Three.js の物理可視化を作らせる。 | チュートリアル |
+| [ワンショットの macOS 風 Web OS](#case-4) | Fable 5 に完全な単一ファイル Web OS を依頼し、UI シェル、アプリ、インタラクション、音声、埋め込みゲーム挙動まで 1 回で構築させる。 | チュートリアル |
+| [1,687 個のプロンプトで Spawn 5.0 を構築](#case-5) | Fable 5 を長時間セッションのエンジニアリングパートナーとして多数のプロンプトにまたがって使い、人間の役割をアーキテクチャ設計から出力品質の判断へ移す。 | チュートリアル |
+| [大規模 Pull Request の所見付きレビュー](#case-6) | Fable 5 に大きな Pull Request を向け、正しさ、偽陽性、本当のバグ、仕上げ上の問題をレビューさせる。 | デモ |
 
 ### [🤖 エージェントと長時間自動化](#agents-and-long-running-automation)
 
 | Case | 何がわかるか | 種類 |
 |---|---|---|
-| [Case 7: 長期リレー型ワークフローのレビュー](#case-7) | サイト再構築、プログラム型コンテンツパイプライン、音声の一致、セキュリティレビュー、最終品質チェックなど、野心的で長期的な作業に Fable 5 を使う。 | 評価 |
-| [Case 8: インフラ障害を診断して修正 PR を作成](#case-8) | ログ、データベースエラー、イメージ digest などのインフラ手掛かりへのアクセスを Fable 5 に与え、障害を診断して修正を準備させる。 | 評価 |
+| [長期リレー型ワークフローのレビュー](#case-7) | サイト再構築、プログラム型コンテンツパイプライン、音声の一致、セキュリティレビュー、最終品質チェックなど、野心的で長期的な作業に Fable 5 を使う。 | 評価 |
+| [インフラ障害を診断して修正 PR を作成](#case-8) | ログ、データベースエラー、イメージ digest などのインフラ手掛かりへのアクセスを Fable 5 に与え、障害を診断して修正を準備させる。 | 評価 |
 
 ### [🎮 ゲームとインタラクティブデモ](#games-and-interactive-demos)
 
 | Case | 何がわかるか | 種類 |
 |---|---|---|
-| [Case 9: 指トラッキング Dino Runner](#case-9) | 入力メカニクスとして指トラッキングを使うブラウザゲームを Fable 5 に作らせる。 | デモ |
-| [Case 10: 2 文で作るレーシングゲーム](#case-10) | Fable 5 に非常に短いゲームプロンプトを与え、マップ、モード、音楽、UI、ゲームアセットを 1 回で生成させる。 | チュートリアル |
-| [Case 11: Rust 製のインストール可能なターミナル Minecraft](#case-11) | ターミナル用コーディングハーネス経由で Fable 5 を実行し、インストール可能な Rust 製ターミナルゲームを作らせる。 | デモ |
-| [Case 12: 時間とコスト付きの Minecraft クローン](#case-12) | 1 つのプロンプトで Fable 5 にプレイ可能な Minecraft 風クローンを依頼し、時間、コスト、コード量、機能範囲を評価する。 | チュートリアル |
+| [指トラッキング Dino Runner](#case-9) | 入力メカニクスとして指トラッキングを使うブラウザゲームを Fable 5 に作らせる。 | デモ |
+| [2 文で作るレーシングゲーム](#case-10) | Fable 5 に非常に短いゲームプロンプトを与え、マップ、モード、音楽、UI、ゲームアセットを 1 回で生成させる。 | チュートリアル |
+| [Rust 製のインストール可能なターミナル Minecraft](#case-11) | ターミナル用コーディングハーネス経由で Fable 5 を実行し、インストール可能な Rust 製ターミナルゲームを作らせる。 | デモ |
+| [時間とコスト付きの Minecraft クローン](#case-12) | 1 つのプロンプトで Fable 5 にプレイ可能な Minecraft 風クローンを依頼し、時間、コスト、コード量、機能範囲を評価する。 | チュートリアル |
 
 ### [🎨 ビジュアル、デザイン、動画、3D](#visual-design-video-and-3d)
 
 | Case | 何がわかるか | 種類 |
 |---|---|---|
-| [Case 13: 再現可能な Ecommerce メール用フルプロンプト](#case-13) | 正確なセクション、商品要件、ビジュアル方向性、制約を含む、ブランドメールモックアップ用の完全なクリエイティブブリーフを Fable 5 に与える。 | チュートリアル |
-| [Case 14: Swiss Lever Watchmaker ベンチマーク](#case-14) | 機械シミュレーションベンチマークに Fable 5 を使い、物理的正しさを実装、検証、反復させる。 | 評価 |
-| [Case 15: Three.js の Friends アパートシーン](#case-15) | Fable 5 に、間取り図とシーン参照をナビゲート可能な Three.js 環境へ変換するよう促す。 | 評価 |
-| [Case 16: プロンプトと URL 付きの太陽系シミュレーション](#case-16) | 物理原理から天文学シミュレーションを構築するために Fable 5 を使い、シミュレーションと公開出力が準備できるまで反復する。 | チュートリアル |
+| [再現可能な Ecommerce メール用フルプロンプト](#case-13) | 正確なセクション、商品要件、ビジュアル方向性、制約を含む、ブランドメールモックアップ用の完全なクリエイティブブリーフを Fable 5 に与える。 | チュートリアル |
+| [Swiss Lever Watchmaker ベンチマーク](#case-14) | 機械シミュレーションベンチマークに Fable 5 を使い、物理的正しさを実装、検証、反復させる。 | 評価 |
+| [Three.js の Friends アパートシーン](#case-15) | Fable 5 に、間取り図とシーン参照をナビゲート可能な Three.js 環境へ変換するよう促す。 | 評価 |
+| [プロンプトと URL 付きの太陽系シミュレーション](#case-16) | 物理原理から天文学シミュレーションを構築するために Fable 5 を使い、シミュレーションと公開出力が準備できるまで反復する。 | チュートリアル |
 
 ### [📚 ドキュメント、ナレッジワーク、リサーチ](#documents-knowledge-work-and-research)
 
 | Case | 何がわかるか | 種類 |
 |---|---|---|
-| [Case 17: Stripe と科学ワークフローの証拠](#case-17) | コピー＆ペースト用プロンプトではなく、エンタープライズ移行や科学ワークフローの主張を支える証拠として使う。 | 評価 |
-| [Case 18: 政策メモと変更履歴ワークフロー](#case-18) | 変更履歴、コメントのトリアージ、文字起こしに基づく編集など、長文の定性的ドキュメント作業に Fable 5 を使う。 | チュートリアル |
-| [Case 19: Deep Research プロンプトと出力](#case-19) | Fable 5 にリサーチ形式の質問を投げ、構造化され歴史的根拠のある長文回答を生成できるか評価する。 | デモ |
+| [Stripe と科学ワークフローの証拠](#case-17) | コピー＆ペースト用プロンプトではなく、エンタープライズ移行や科学ワークフローの主張を支える証拠として使う。 | 評価 |
+| [政策メモと変更履歴ワークフロー](#case-18) | 変更履歴、コメントのトリアージ、文字起こしに基づく編集など、長文の定性的ドキュメント作業に Fable 5 を使う。 | チュートリアル |
+| [Deep Research プロンプトと出力](#case-19) | Fable 5 にリサーチ形式の質問を投げ、構造化され歴史的根拠のある長文回答を生成できるか評価する。 | デモ |
 
 ### [🧭 チュートリアル、コース、プロンプトリソース](#tutorials-courses-and-prompt-resources)
 
 | Case | 何がわかるか | 種類 |
 |---|---|---|
-| [Case 20: Fable 5 が Claude Code ワークフローをどう変えるか](#case-20) | すべての手順を細かく管理するのではなく、方向性、コンテキスト、目標、検証基準を設定して Fable 5 を使う。 | デモ |
-| [Case 21: 10 億トークンレビューとルーティング戦略](#case-21) | Fable 5 をフロンティア級の計画とレビューに使い、大量の実装はより安いモデルへルーティングする。 | チュートリアル |
-| [Case 22: 防御的デバイス強化プロンプト](#case-22) | Fable 5 がデバイスを棚卸しし、正確な確認を提示し、検証を待つ、段階的な防御的 hardening プロンプトを実行する。 | チュートリアル |
-| [Case 23: サイト全体デザイン監査の Goal プロンプト](#case-23) | `/goal` を使って Fable 5 にサイトを起動させ、ページをスクリーンショットし、UX を監査し、レポートを書き、安全な小修正を実施させる。 | チュートリアル |
-| [Case 24: 長文クリエイティブワークフローの分業](#case-24) | Fable 5 に安定した形式と例を設計させ、その構造を別の生成システムへ渡してドメイン固有の出力を作る。 | チュートリアル |
-| [Case 25: Fable 5 利用の初心者ガイド](#case-25) | 細かいステップごとの指示ではなく、目標志向のプロンプト、検証ループ、effort 設定で Fable 5 を使う。 | 評価 |
-| [Case 26: コピー＆ペーストできるリポジトリ監査プロンプト](#case-26) | リポジトリ監査プロンプトを Fable 5 に貼り付け、ファイルに基づく探索、所見、戦略、マイルストーン型タスク計画を依頼する。 | チュートリアル |
-| [Case 27: 限定ウィンドウでの利用戦略](#case-27) | アクセス条件が有利な期間に、Fable 5 の利用枠を監査、アーキテクチャ、計画に使い、実行にはより安いモデルを使う。 | チュートリアル |
-| [Case 28: Claude Code で Goals と Workflows を使う](#case-28) | 実装前に Fable 5 を思考パートナーとして使い、その後 `/goal` と workflows を組み合わせて計画を実行・検証する。 | チュートリアル |
+| [Fable 5 が Claude Code ワークフローをどう変えるか](#case-20) | すべての手順を細かく管理するのではなく、方向性、コンテキスト、目標、検証基準を設定して Fable 5 を使う。 | デモ |
+| [10 億トークンレビューとルーティング戦略](#case-21) | Fable 5 をフロンティア級の計画とレビューに使い、大量の実装はより安いモデルへルーティングする。 | チュートリアル |
+| [防御的デバイス強化プロンプト](#case-22) | Fable 5 がデバイスを棚卸しし、正確な確認を提示し、検証を待つ、段階的な防御的 hardening プロンプトを実行する。 | チュートリアル |
+| [サイト全体デザイン監査の Goal プロンプト](#case-23) | `/goal` を使って Fable 5 にサイトを起動させ、ページをスクリーンショットし、UX を監査し、レポートを書き、安全な小修正を実施させる。 | チュートリアル |
+| [長文クリエイティブワークフローの分業](#case-24) | Fable 5 に安定した形式と例を設計させ、その構造を別の生成システムへ渡してドメイン固有の出力を作る。 | チュートリアル |
+| [Fable 5 利用の初心者ガイド](#case-25) | 細かいステップごとの指示ではなく、目標志向のプロンプト、検証ループ、effort 設定で Fable 5 を使う。 | 評価 |
+| [コピー＆ペーストできるリポジトリ監査プロンプト](#case-26) | リポジトリ監査プロンプトを Fable 5 に貼り付け、ファイルに基づく探索、所見、戦略、マイルストーン型タスク計画を依頼する。 | チュートリアル |
+| [限定ウィンドウでの利用戦略](#case-27) | アクセス条件が有利な期間に、Fable 5 の利用枠を監査、アーキテクチャ、計画に使い、実行にはより安いモデルを使う。 | チュートリアル |
+| [Claude Code で Goals と Workflows を使う](#case-28) | 実装前に Fable 5 を思考パートナーとして使い、その後 `/goal` と workflows を組み合わせて計画を実行・検証する。 | チュートリアル |
 
 ### [🔌 プラットフォーム、API、ツール連携](#platform-api-and-tool-integration)
 
 | Case | 何がわかるか | 種類 |
 |---|---|---|
-| [Case 29: Hermes Agent 連携セットアップ](#case-29) | 複雑な `/goal` 実行やキャッシュ付きの長期タスクに `anthropic/claude-fable-5` を使うよう Hermes を設定する。 | チュートリアル |
-| [Case 30: 機能、価格、サブスクリプションメモ](#case-30) | Fable 5 がいつ利用可能か、費用はいくらか、どの guarded domains が別モデルへ fallback する可能性があるかを理解するためにこのケースを使う。 | チュートリアル |
-| [Case 31: ローンチ、アクセス、価格、安全性の要約](#case-31) | アクセス経路、API model name、context window、caching strategy、subscription timing を選ぶためにこのローンチ要約を使う。 | チュートリアル |
-| [Case 32: Advisor ベースのコスト削減戦略](#case-32) | 追加の知能がコストに見合う場合、より安いモデルのワークフロー内で Fable 5 を advisor または reviewer として使う。 | 連携 |
-| [Case 33: 価格、アクセス、安全ガードレール](#case-33) | ワークロードを計画する前に、Fable 5 のアクセス、API 価格、安全 fallback 挙動を理解するためにこのケースを使う。 | 連携 |
-| [Case 34: 1 行の Swarms 連携](#case-34) | Swarms の model name を `anthropic/claude-fable-5` に設定し、Swarms framework または API 経由で Fable 5 を実行する。 | 連携 |
+| [Hermes Agent 連携セットアップ](#case-29) | 複雑な `/goal` 実行やキャッシュ付きの長期タスクに `anthropic/claude-fable-5` を使うよう Hermes を設定する。 | チュートリアル |
+| [機能、価格、サブスクリプションメモ](#case-30) | Fable 5 がいつ利用可能か、費用はいくらか、どの guarded domains が別モデルへ fallback する可能性があるかを理解するためにこのケースを使う。 | チュートリアル |
+| [ローンチ、アクセス、価格、安全性の要約](#case-31) | アクセス経路、API model name、context window、caching strategy、subscription timing を選ぶためにこのローンチ要約を使う。 | チュートリアル |
+| [Advisor ベースのコスト削減戦略](#case-32) | 追加の知能がコストに見合う場合、より安いモデルのワークフロー内で Fable 5 を advisor または reviewer として使う。 | 連携 |
+| [価格、アクセス、安全ガードレール](#case-33) | ワークロードを計画する前に、Fable 5 のアクセス、API 価格、安全 fallback 挙動を理解するためにこのケースを使う。 | 連携 |
+| [1 行の Swarms 連携](#case-34) | Swarms の model name を `anthropic/claude-fable-5` に設定し、Swarms framework または API 経由で Fable 5 を実行する。 | 連携 |
 
 ### [📏 評価、比較、限界](#evaluations-comparisons-and-limits)
 
 | Case | 何がわかるか | 種類 |
 |---|---|---|
-| [Case 35: Fable 5 vs GPT-5.5 のコストと品質比較](#case-35) | 同じ coding task で Fable 5 と GPT-5.5 を比較し、output quality、runtime、tool cost を判断する。 | 評価 |
-| [Case 36: AA-Omniscience ベンチマーク結果](#case-36) | 知識の正確性と hallucination behavior で Fable 5 を評価するために、この benchmark case を使う。 | 評価 |
-| [Case 37: Artificial Analysis Intelligence Index 結果](#case-37) | 他の frontier models に対する Fable 5 の overall intelligence ranking を benchmark するためにこのケースを使う。 | 評価 |
-| [Case 38: GDPval-AA Agentic Knowledge Work ベンチマーク](#case-38) | agentic real-world knowledge work で Fable 5 を評価するためにこのケースを使う。 | 評価 |
-| [Case 39: 1 週間の第一印象と価格メカニズム](#case-39) | Fable 5 がどこで最も強いか、特に game design と systems planning を判断するために、この first-impressions case を使う。 | 連携 |
-| [Case 40: コストと速度の比較](#case-40) | 品質向上が、より高いコストと遅い long-horizon runs に見合うか判断するためにこの比較を使う。 | 評価 |
-| [Case 41: Claude Code 実使用メモ](#case-41) | tool use、personality、残る rough edges を含め、Claude Code 内で Fable 5 を評価するためにこのケースを使う。 | デモ |
-| [Case 42: Creative Writing ベンチマーク結果](#case-42) | Fable 5 の short-fiction writing quality と refusal behavior を判断するために、この benchmark case を使う。 | 評価 |
-| [Case 43: 複数ベンチマークのローンチ要約](#case-43) | coding agents と complex tasks に最も関連する headline scores を理解するために、この launch benchmark summary を使う。 | 評価 |
-| [Case 44: GPT-5.5 とのベンチマークと価格比較](#case-44) | 価格と benchmark categories で Fable 5 を GPT-5.5 と比較評価するためにこの比較を使う。 | 評価 |
-| [Case 45: 実地メモと実用上の制約](#case-45) | Fable 5 がどこで意味のある改善に感じられ、どこにまだ実用上の限界があるかを理解するために、この field report を使う。 | チュートリアル |
-| [Case 46: 物理シミュレーション比較](#case-46) | 同一の physics simulation prompts を Fable 5 と Opus 4.8 に対して実行し、output quality、cost、speed を比較する。 | デモ |
-| [Case 47: デバッグ体験と設計判断](#case-47) | 単に推測させるのではなく、測定、ログ追加、検証、パッチを依頼して Fable 5 を debugging に使う。 | デモ |
-| [Case 48: 多面的な長所と短所](#case-48) | Fable 5 を daily driver にする前に、実用上の強みと弱みを理解するためにこのケースを使う。 | デモ |
-| [Case 49: 法務 S-1 ドラフトテスト](#case-49) | S-1 drafting prompt を legal-agent capability test として使い、structure、formatting、length を比較する。 | チュートリアル |
-| [Case 50: ヘルスケアベンチマーク詳細](#case-50) | healthcare-related tasks で Fable 5 を評価し、不足している hard medical evals を特定するためにこの benchmark note を使う。 | 評価 |
-| [Case 51: ParseBench ドキュメント解析評価](#case-51) | specialized OCR systems と比べて、Fable 5 が document parsing に cost-effective かを判断するためにこのケースを使う。 | 評価 |
-| [Case 52: SWE-Bench Pro と FrontierCode の比較](#case-52) | migrations、complex implementations、autonomous sessions、tests、visual verification に Fable 5 を評価するために、この benchmark case を使う。 | 評価 |
-| [Case 53: 長い問題解決の定性的レビュー](#case-53) | production review はなお必要だが、Fable 5 がより長く難しい tasks に向いている理由を理解するために、この qualitative review を使う。 | 評価 |
-| [Case 54: ParseBench の忠実性とフォーマット結果](#case-54) | document faithfulness と formatting performance を判断するために、この ParseBench result を使う。 | 評価 |
-| [Case 55: ベンチマーク、価格、アクセス、セーフガード](#case-55) | benchmarks、pricing、access、safeguards、strategic implications の幅広い checklist としてこのケースを使う。 | 評価 |
-| [Case 56: 公式ベンチマークスコア一覧](#case-56) | coding、computer use、security tasks 全体における Fable 5 の公式スコアを理解するために、この benchmark list を使う。 | 評価 |
-| [Case 57: APEX-SWE ベンチマーク手法](#case-57) | 特に observability と integration work において、APEX-SWE 上で Fable 5 を評価するためにこのケースを使う。 | 評価 |
-| [Case 58: ProofBench 形式数学結果](#case-58) | specialized theorem-proving systems と比較して、formal math における Fable 5 を評価するためにこのケースを使う。 | チュートリアル |
-| [Case 59: VirtueBench 予備分析](#case-59) | virtue categories 全体にわたる Fable 5 の moral-reasoning behavior を調べるためにこのケースを使う。 | 評価 |
-| [Case 60: API 空レスポンス安全性過適合テスト](#case-60) | launch-time safety overfit risk と API testing における empty-response behavior を理解するためにこのケースを使う。 | 評価 |
+| [Fable 5 vs GPT-5.5 のコストと品質比較](#case-35) | 同じ coding task で Fable 5 と GPT-5.5 を比較し、output quality、runtime、tool cost を判断する。 | 評価 |
+| [AA-Omniscience ベンチマーク結果](#case-36) | 知識の正確性と hallucination behavior で Fable 5 を評価するために、この benchmark case を使う。 | 評価 |
+| [Artificial Analysis Intelligence Index 結果](#case-37) | 他の frontier models に対する Fable 5 の overall intelligence ranking を benchmark するためにこのケースを使う。 | 評価 |
+| [GDPval-AA Agentic Knowledge Work ベンチマーク](#case-38) | agentic real-world knowledge work で Fable 5 を評価するためにこのケースを使う。 | 評価 |
+| [1 週間の第一印象と価格メカニズム](#case-39) | Fable 5 がどこで最も強いか、特に game design と systems planning を判断するために、この first-impressions case を使う。 | 連携 |
+| [コストと速度の比較](#case-40) | 品質向上が、より高いコストと遅い long-horizon runs に見合うか判断するためにこの比較を使う。 | 評価 |
+| [Claude Code 実使用メモ](#case-41) | tool use、personality、残る rough edges を含め、Claude Code 内で Fable 5 を評価するためにこのケースを使う。 | デモ |
+| [Creative Writing ベンチマーク結果](#case-42) | Fable 5 の short-fiction writing quality と refusal behavior を判断するために、この benchmark case を使う。 | 評価 |
+| [複数ベンチマークのローンチ要約](#case-43) | coding agents と complex tasks に最も関連する headline scores を理解するために、この launch benchmark summary を使う。 | 評価 |
+| [GPT-5.5 とのベンチマークと価格比較](#case-44) | 価格と benchmark categories で Fable 5 を GPT-5.5 と比較評価するためにこの比較を使う。 | 評価 |
+| [実地メモと実用上の制約](#case-45) | Fable 5 がどこで意味のある改善に感じられ、どこにまだ実用上の限界があるかを理解するために、この field report を使う。 | チュートリアル |
+| [物理シミュレーション比較](#case-46) | 同一の physics simulation prompts を Fable 5 と Opus 4.8 に対して実行し、output quality、cost、speed を比較する。 | デモ |
+| [デバッグ体験と設計判断](#case-47) | 単に推測させるのではなく、測定、ログ追加、検証、パッチを依頼して Fable 5 を debugging に使う。 | デモ |
+| [多面的な長所と短所](#case-48) | Fable 5 を daily driver にする前に、実用上の強みと弱みを理解するためにこのケースを使う。 | デモ |
+| [法務 S-1 ドラフトテスト](#case-49) | S-1 drafting prompt を legal-agent capability test として使い、structure、formatting、length を比較する。 | チュートリアル |
+| [ヘルスケアベンチマーク詳細](#case-50) | healthcare-related tasks で Fable 5 を評価し、不足している hard medical evals を特定するためにこの benchmark note を使う。 | 評価 |
+| [ParseBench ドキュメント解析評価](#case-51) | specialized OCR systems と比べて、Fable 5 が document parsing に cost-effective かを判断するためにこのケースを使う。 | 評価 |
+| [SWE-Bench Pro と FrontierCode の比較](#case-52) | migrations、complex implementations、autonomous sessions、tests、visual verification に Fable 5 を評価するために、この benchmark case を使う。 | 評価 |
+| [長い問題解決の定性的レビュー](#case-53) | production review はなお必要だが、Fable 5 がより長く難しい tasks に向いている理由を理解するために、この qualitative review を使う。 | 評価 |
+| [ParseBench の忠実性とフォーマット結果](#case-54) | document faithfulness と formatting performance を判断するために、この ParseBench result を使う。 | 評価 |
+| [ベンチマーク、価格、アクセス、セーフガード](#case-55) | benchmarks、pricing、access、safeguards、strategic implications の幅広い checklist としてこのケースを使う。 | 評価 |
+| [公式ベンチマークスコア一覧](#case-56) | coding、computer use、security tasks 全体における Fable 5 の公式スコアを理解するために、この benchmark list を使う。 | 評価 |
+| [APEX-SWE ベンチマーク手法](#case-57) | 特に observability と integration work において、APEX-SWE 上で Fable 5 を評価するためにこのケースを使う。 | 評価 |
+| [ProofBench 形式数学結果](#case-58) | specialized theorem-proving systems と比較して、formal math における Fable 5 を評価するためにこのケースを使う。 | チュートリアル |
+| [VirtueBench 予備分析](#case-59) | virtue categories 全体にわたる Fable 5 の moral-reasoning behavior を調べるためにこのケースを使う。 | 評価 |
+| [API 空レスポンス安全性過適合テスト](#case-60) | launch-time safety overfit risk と API testing における empty-response behavior を理解するためにこのケースを使う。 | 評価 |
 
 
 <a id="coding-and-code-generation"></a>

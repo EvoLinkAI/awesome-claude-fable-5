@@ -7,17 +7,17 @@
 [![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 [![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://docs.evolink.ai)
 
-[![English](https://img.shields.io/badge/English-Default_Source-111111)](README.md)
-[![Spanish](https://img.shields.io/badge/Spanish-View-ffb703)](README_es.md)
-[![Portuguese](https://img.shields.io/badge/Portuguese-View-2a9d8f)](README_pt.md)
-[![Japanese](https://img.shields.io/badge/Japanese-View-52b788)](README_ja.md)
-[![Korean](https://img.shields.io/badge/Korean-View-4ea8de)](README_ko.md)
-[![German](https://img.shields.io/badge/German-View-f4a261)](README_de.md)
-[![French](https://img.shields.io/badge/French-View-e76f51)](README_fr.md)
-[![Turkish](https://img.shields.io/badge/Turkish-View-d62828)](README_tr.md)
-[![Traditional Chinese](https://img.shields.io/badge/Traditional_Chinese-View-8338ec)](README_zh-TW.md)
-[![Simplified Chinese](https://img.shields.io/badge/Simplified_Chinese-View-ef476f)](README_zh-CN.md)
-[![Russian](https://img.shields.io/badge/Russian-View-577590)](README_ru.md)
+[![英文](https://img.shields.io/badge/%E8%8B%B1%E6%96%87-%E5%8E%9F%E6%96%87-111111)](README.md)
+[![西班牙文](https://img.shields.io/badge/%E8%A5%BF%E7%8F%AD%E7%89%99%E6%96%87-%E6%9F%A5%E7%9C%8B-ffb703)](README_es.md)
+[![葡萄牙文](https://img.shields.io/badge/%E8%91%A1%E8%90%84%E7%89%99%E6%96%87-%E6%9F%A5%E7%9C%8B-2a9d8f)](README_pt.md)
+[![日文](https://img.shields.io/badge/%E6%97%A5%E6%96%87-%E6%9F%A5%E7%9C%8B-52b788)](README_ja.md)
+[![韩文](https://img.shields.io/badge/%E9%9F%A9%E6%96%87-%E6%9F%A5%E7%9C%8B-4ea8de)](README_ko.md)
+[![德文](https://img.shields.io/badge/%E5%BE%B7%E6%96%87-%E6%9F%A5%E7%9C%8B-f4a261)](README_de.md)
+[![法文](https://img.shields.io/badge/%E6%B3%95%E6%96%87-%E6%9F%A5%E7%9C%8B-e76f51)](README_fr.md)
+[![土耳其文](https://img.shields.io/badge/%E5%9C%9F%E8%80%B3%E5%85%B6%E6%96%87-%E6%9F%A5%E7%9C%8B-d62828)](README_tr.md)
+[![繁体中文](https://img.shields.io/badge/%E7%B9%81%E4%BD%93%E4%B8%AD%E6%96%87-%E6%9F%A5%E7%9C%8B-8338ec)](README_zh-TW.md)
+[![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-%E6%9F%A5%E7%9C%8B-ef476f)](README_zh-CN.md)
+[![俄文](https://img.shields.io/badge/%E4%BF%84%E6%96%87-%E6%9F%A5%E7%9C%8B-577590)](README_ru.md)
 
 </div>
 
@@ -88,101 +88,101 @@ curl --request POST \
 
 | Case | 展示内容 | 类型 |
 |---|---|---|
-| [Case 1: Cursor 多阶段工作流](#case-1) | 把 Fable 5 用作多模型 Cursor 工作流中的计划审查和批判步骤，然后把实现和修订交还给更便宜或更专用的模型。 | 评测 |
-| [Case 2: 从截图重建 GitHub](#case-2) | 把产品截图粘贴到代理式编码工具中，并要求 Fable 5 复刻带真实功能的界面。 | 演示 |
-| [Case 3: 单提示词黑洞模拟](#case-3) | 给 Fable 5 一条详细的创意编程提示词，让它生成一个自包含的 Three.js 物理可视化。 | 教程 |
-| [Case 4: 一次生成 macOS 风格 Web OS](#case-4) | 让 Fable 5 生成一个完整的单文件 Web OS，并让它一次性构建 UI 外壳、应用、交互、音频和内嵌游戏行为。 | 教程 |
-| [Case 5: 用 1,687 条提示词构建 Spawn 5.0](#case-5) | 把 Fable 5 当作长会话工程伙伴，在大量提示词中协作，人类角色从架构转向判断输出质量。 | 教程 |
-| [Case 6: 带发现项的大型 Pull Request 审查](#case-6) | 让 Fable 5 面向一个大型 Pull Request，要求它审查正确性、误报、真实 bug 和打磨问题。 | 演示 |
+| [Cursor 多阶段工作流](#case-1) | 把 Fable 5 用作多模型 Cursor 工作流中的计划审查和批判步骤，然后把实现和修订交还给更便宜或更专用的模型。 | 评测 |
+| [从截图重建 GitHub](#case-2) | 把产品截图粘贴到代理式编码工具中，并要求 Fable 5 复刻带真实功能的界面。 | 演示 |
+| [单提示词黑洞模拟](#case-3) | 给 Fable 5 一条详细的创意编程提示词，让它生成一个自包含的 Three.js 物理可视化。 | 教程 |
+| [一次生成 macOS 风格 Web OS](#case-4) | 让 Fable 5 生成一个完整的单文件 Web OS，并让它一次性构建 UI 外壳、应用、交互、音频和内嵌游戏行为。 | 教程 |
+| [用 1,687 条提示词构建 Spawn 5.0](#case-5) | 把 Fable 5 当作长会话工程伙伴，在大量提示词中协作，人类角色从架构转向判断输出质量。 | 教程 |
+| [带发现项的大型 Pull Request 审查](#case-6) | 让 Fable 5 面向一个大型 Pull Request，要求它审查正确性、误报、真实 bug 和打磨问题。 | 演示 |
 
 ### [🤖 代理与长时间自动化](#agents-and-long-running-automation)
 
 | Case | 展示内容 | 类型 |
 |---|---|---|
-| [Case 7: 长周期接力工作流评测](#case-7) | 把 Fable 5 用于雄心更大的长周期工作：网站重建、程序化内容流水线、语气匹配、安全审查和最终质量检查。 | 评测 |
-| [Case 8: 诊断基础设施故障并打开修复 PR](#case-8) | 给 Fable 5 提供日志、数据库错误和镜像摘要等基础设施线索，然后让它诊断故障并准备修复。 | 评测 |
+| [长周期接力工作流评测](#case-7) | 把 Fable 5 用于雄心更大的长周期工作：网站重建、程序化内容流水线、语气匹配、安全审查和最终质量检查。 | 评测 |
+| [诊断基础设施故障并打开修复 PR](#case-8) | 给 Fable 5 提供日志、数据库错误和镜像摘要等基础设施线索，然后让它诊断故障并准备修复。 | 评测 |
 
 ### [🎮 游戏与交互演示](#games-and-interactive-demos)
 
 | Case | 展示内容 | 类型 |
 |---|---|---|
-| [Case 9: 手指追踪 Dino Runner](#case-9) | 让 Fable 5 构建一个以手指追踪作为输入机制的浏览器游戏。 | 演示 |
-| [Case 10: 两句话生成赛车游戏](#case-10) | 给 Fable 5 一个很短的游戏提示词，让它一次生成地图、模式、音乐、UI 和游戏资产。 | 教程 |
-| [Case 11: Rust 可安装终端版 Minecraft](#case-11) | 通过终端编码 harness 运行 Fable 5，并要求它构建一个可安装的 Rust 终端游戏。 | 演示 |
-| [Case 12: 带时间和成本记录的 Minecraft 克隆](#case-12) | 用一条提示词要求 Fable 5 生成可玩的 Minecraft 风格克隆，然后评估时间、成本、代码量和功能覆盖。 | 教程 |
+| [手指追踪 Dino Runner](#case-9) | 让 Fable 5 构建一个以手指追踪作为输入机制的浏览器游戏。 | 演示 |
+| [两句话生成赛车游戏](#case-10) | 给 Fable 5 一个很短的游戏提示词，让它一次生成地图、模式、音乐、UI 和游戏资产。 | 教程 |
+| [Rust 可安装终端版 Minecraft](#case-11) | 通过终端编码 harness 运行 Fable 5，并要求它构建一个可安装的 Rust 终端游戏。 | 演示 |
+| [带时间和成本记录的 Minecraft 克隆](#case-12) | 用一条提示词要求 Fable 5 生成可玩的 Minecraft 风格克隆，然后评估时间、成本、代码量和功能覆盖。 | 教程 |
 
 ### [🎨 视觉、设计、视频与 3D](#visual-design-video-and-3d)
 
 | Case | 展示内容 | 类型 |
 |---|---|---|
-| [Case 13: 完整可复现电商邮件提示词](#case-13) | 给 Fable 5 一份完整的品牌邮件 mockup 创意简报，包括精确分区、产品要求、视觉方向和约束。 | 教程 |
-| [Case 14: 瑞士杠杆擒纵制表基准](#case-14) | 在机械模拟基准上使用 Fable 5，要求它实现、验证并迭代物理正确性。 | 评测 |
-| [Case 15: Three.js《Friends》公寓场景](#case-15) | 提示 Fable 5 将平面图和场景参考转换为可导航的 Three.js 环境。 | 评测 |
-| [Case 16: 带提示词和 URL 的太阳系模拟](#case-16) | 使用 Fable 5 从物理原理构建天文模拟，持续迭代直到模拟和公开输出都准备好。 | 教程 |
+| [完整可复现电商邮件提示词](#case-13) | 给 Fable 5 一份完整的品牌邮件 mockup 创意简报，包括精确分区、产品要求、视觉方向和约束。 | 教程 |
+| [瑞士杠杆擒纵制表基准](#case-14) | 在机械模拟基准上使用 Fable 5，要求它实现、验证并迭代物理正确性。 | 评测 |
+| [Three.js《Friends》公寓场景](#case-15) | 提示 Fable 5 将平面图和场景参考转换为可导航的 Three.js 环境。 | 评测 |
+| [带提示词和 URL 的太阳系模拟](#case-16) | 使用 Fable 5 从物理原理构建天文模拟，持续迭代直到模拟和公开输出都准备好。 | 教程 |
 
 ### [📚 文档、知识工作与研究](#documents-knowledge-work-and-research)
 
 | Case | 展示内容 | 类型 |
 |---|---|---|
-| [Case 17: Stripe 与科研工作流证据](#case-17) | 把这个案例作为企业迁移和科研工作流主张的证据，而不是可复制粘贴的提示词。 | 评测 |
-| [Case 18: 政策备忘录与修订模式工作流](#case-18) | 将 Fable 5 用于长篇定性文档工作：修订模式、评论分流和基于逐字稿的编辑。 | 教程 |
-| [Case 19: 深度研究提示词与输出](#case-19) | 向 Fable 5 提出研究式问题，并评估它是否能产出结构化、有历史依据的长答案。 | 演示 |
+| [Stripe 与科研工作流证据](#case-17) | 把这个案例作为企业迁移和科研工作流主张的证据，而不是可复制粘贴的提示词。 | 评测 |
+| [政策备忘录与修订模式工作流](#case-18) | 将 Fable 5 用于长篇定性文档工作：修订模式、评论分流和基于逐字稿的编辑。 | 教程 |
+| [深度研究提示词与输出](#case-19) | 向 Fable 5 提出研究式问题，并评估它是否能产出结构化、有历史依据的长答案。 | 演示 |
 
 ### [🧭 教程、课程与提示词资源](#tutorials-courses-and-prompt-resources)
 
 | Case | 展示内容 | 类型 |
 |---|---|---|
-| [Case 20: Fable 5 如何改变 Claude Code 工作流](#case-20) | 使用 Fable 5 时，应设置方向、上下文、目标和验证标准，而不是微管理每个步骤。 | 演示 |
-| [Case 21: 十亿 Token 评测与路由策略](#case-21) | 将 Fable 5 用于 frontier 级规划和审查，然后把高容量实现路由给更便宜的模型。 | 教程 |
-| [Case 22: 防御性设备加固提示词](#case-22) | 运行一步步的防御性加固提示词，让 Fable 5 盘点设备、给出精确检查并等待验证。 | 教程 |
-| [Case 23: 全站设计审计 Goal 提示词](#case-23) | 使用 `/goal` 让 Fable 5 启动网站、截图页面、审计 UX、撰写报告并修复安全的小问题。 | 教程 |
-| [Case 24: 长篇创作工作流分工](#case-24) | 使用 Fable 5 设计稳定格式和示例，再把该结构交给另一个生成系统做领域特定输出。 | 教程 |
-| [Case 25: Fable 5 初学者使用指南](#case-25) | 使用 Fable 5 时采用目标导向提示、验证循环和 effort 设置，而不是细碎的逐步指令。 | 评测 |
-| [Case 26: 可复制粘贴的仓库审计提示词](#case-26) | 把仓库审计提示词粘贴进 Fable 5，要求基于文件的探索、发现项、策略和里程碑任务计划。 | 教程 |
-| [Case 27: 限时窗口使用策略](#case-27) | 在访问窗口有利时，把 Fable 5 用量花在审计、架构和规划上，然后使用更便宜的模型执行。 | 教程 |
-| [Case 28: 在 Claude Code 中使用 Goals 和 Workflows](#case-28) | 在实现前把 Fable 5 当作思考伙伴，然后结合 `/goal` 和 workflows 执行并验证计划。 | 教程 |
+| [Fable 5 如何改变 Claude Code 工作流](#case-20) | 使用 Fable 5 时，应设置方向、上下文、目标和验证标准，而不是微管理每个步骤。 | 演示 |
+| [十亿 Token 评测与路由策略](#case-21) | 将 Fable 5 用于 frontier 级规划和审查，然后把高容量实现路由给更便宜的模型。 | 教程 |
+| [防御性设备加固提示词](#case-22) | 运行一步步的防御性加固提示词，让 Fable 5 盘点设备、给出精确检查并等待验证。 | 教程 |
+| [全站设计审计 Goal 提示词](#case-23) | 使用 `/goal` 让 Fable 5 启动网站、截图页面、审计 UX、撰写报告并修复安全的小问题。 | 教程 |
+| [长篇创作工作流分工](#case-24) | 使用 Fable 5 设计稳定格式和示例，再把该结构交给另一个生成系统做领域特定输出。 | 教程 |
+| [Fable 5 初学者使用指南](#case-25) | 使用 Fable 5 时采用目标导向提示、验证循环和 effort 设置，而不是细碎的逐步指令。 | 评测 |
+| [可复制粘贴的仓库审计提示词](#case-26) | 把仓库审计提示词粘贴进 Fable 5，要求基于文件的探索、发现项、策略和里程碑任务计划。 | 教程 |
+| [限时窗口使用策略](#case-27) | 在访问窗口有利时，把 Fable 5 用量花在审计、架构和规划上，然后使用更便宜的模型执行。 | 教程 |
+| [在 Claude Code 中使用 Goals 和 Workflows](#case-28) | 在实现前把 Fable 5 当作思考伙伴，然后结合 `/goal` 和 workflows 执行并验证计划。 | 教程 |
 
 ### [🔌 平台、API 与工具集成](#platform-api-and-tool-integration)
 
 | Case | 展示内容 | 类型 |
 |---|---|---|
-| [Case 29: Hermes Agent 集成配置](#case-29) | 配置 Hermes 使用 `anthropic/claude-fable-5` 运行复杂 `/goal` 和缓存的长周期任务。 | 教程 |
-| [Case 30: 能力、定价与订阅说明](#case-30) | 使用本案例理解 Fable 5 何时可用、成本多少，以及哪些受保护领域可能回退到另一个模型。 | 教程 |
-| [Case 31: 发布、访问、定价与安全摘要](#case-31) | 使用这份发布摘要选择访问路径、API 模型名、上下文窗口、缓存策略和订阅时机。 | 教程 |
-| [Case 32: 基于 Advisor 的降本策略](#case-32) | 当边际智能值得付费时，在便宜模型工作流中把 Fable 5 用作 advisor 或 reviewer。 | 集成 |
-| [Case 33: 定价、访问与安全护栏](#case-33) | 在规划工作负载前，使用本案例理解 Fable 5 访问、API 定价和安全回退行为。 | 集成 |
-| [Case 34: 一行代码集成 Swarms](#case-34) | 将 Swarms 模型名设置为 `anthropic/claude-fable-5`，并通过 Swarms 框架或 API 运行 Fable 5。 | 集成 |
+| [Hermes Agent 集成配置](#case-29) | 配置 Hermes 使用 `anthropic/claude-fable-5` 运行复杂 `/goal` 和缓存的长周期任务。 | 教程 |
+| [能力、定价与订阅说明](#case-30) | 使用本案例理解 Fable 5 何时可用、成本多少，以及哪些受保护领域可能回退到另一个模型。 | 教程 |
+| [发布、访问、定价与安全摘要](#case-31) | 使用这份发布摘要选择访问路径、API 模型名、上下文窗口、缓存策略和订阅时机。 | 教程 |
+| [基于 Advisor 的降本策略](#case-32) | 当边际智能值得付费时，在便宜模型工作流中把 Fable 5 用作 advisor 或 reviewer。 | 集成 |
+| [定价、访问与安全护栏](#case-33) | 在规划工作负载前，使用本案例理解 Fable 5 访问、API 定价和安全回退行为。 | 集成 |
+| [一行代码集成 Swarms](#case-34) | 将 Swarms 模型名设置为 `anthropic/claude-fable-5`，并通过 Swarms 框架或 API 运行 Fable 5。 | 集成 |
 
 ### [📏 评测、对比与限制](#evaluations-comparisons-and-limits)
 
 | Case | 展示内容 | 类型 |
 |---|---|---|
-| [Case 35: Fable 5 vs GPT-5.5 成本与质量对比](#case-35) | 在同一个编码任务上比较 Fable 5 和 GPT-5.5，判断输出质量、运行时间和工具成本。 | 评测 |
-| [Case 36: AA-Omniscience 基准结果](#case-36) | 使用这个基准案例评估 Fable 5 的知识准确性和幻觉行为。 | 评测 |
-| [Case 37: Artificial Analysis 智能指数结果](#case-37) | 使用本案例对照其他 frontier 模型，衡量 Fable 5 的整体智能排名。 | 评测 |
-| [Case 38: GDPval-AA 代理式知识工作基准](#case-38) | 使用本案例评估 Fable 5 在代理式真实世界知识工作上的表现。 | 评测 |
-| [Case 39: 一周初印象与定价机制](#case-39) | 使用这个初印象案例判断 Fable 5 最强之处，尤其是游戏设计和系统规划。 | 集成 |
-| [Case 40: 成本与速度对比](#case-40) | 使用本对比判断质量提升是否值得更高成本和更慢的长周期运行。 | 评测 |
-| [Case 41: Claude Code 上手笔记](#case-41) | 使用本案例评估 Claude Code 中的 Fable 5，包括工具使用、性格和剩余粗糙点。 | 演示 |
-| [Case 42: 创意写作基准结果](#case-42) | 使用这个基准案例判断 Fable 5 的短篇小说写作质量和拒答行为。 | 评测 |
-| [Case 43: 多基准发布摘要](#case-43) | 使用这份发布基准摘要理解与编码代理和复杂任务最相关的头部分数。 | 评测 |
-| [Case 44: 与 GPT-5.5 的基准和定价对比](#case-44) | 使用本对比从价格和基准类别上评估 Fable 5 与 GPT-5.5。 | 评测 |
-| [Case 45: 带实际限制的一线笔记](#case-45) | 使用这份现场报告理解 Fable 5 哪里有实质提升，以及哪里仍有实际限制。 | 教程 |
-| [Case 46: 物理模拟对比](#case-46) | 用相同物理模拟提示词分别测试 Fable 5 和 Opus 4.8，对比输出质量、成本和速度。 | 演示 |
-| [Case 47: 调试体验与设计判断力](#case-47) | 用 Fable 5 调试时，要求它测量、加日志、验证和修补，而不是简单猜测。 | 演示 |
-| [Case 48: 多维度优缺点](#case-48) | 在把 Fable 5 作为日常主力前，使用本案例理解实际优缺点。 | 演示 |
-| [Case 49: 法律 S-1 起草测试](#case-49) | 将 S-1 起草提示词作为法律代理能力测试，并比较结构、格式和长度。 | 教程 |
-| [Case 50: 医疗健康基准细节](#case-50) | 使用这条基准笔记评估 Fable 5 在医疗健康相关任务上的表现，并识别缺失的高难医学评测。 | 评测 |
-| [Case 51: ParseBench 文档解析评测](#case-51) | 使用本案例判断相较专用 OCR 系统，Fable 5 用于文档解析是否具备成本效率。 | 评测 |
-| [Case 52: SWE-Bench Pro 与 FrontierCode 对比](#case-52) | 使用这个基准案例评估 Fable 5 在迁移、复杂实现、自主会话、测试和视觉验证方面的能力。 | 评测 |
-| [Case 53: 长问题求解的定性评测](#case-53) | 使用这条定性评测理解为什么 Fable 5 适合更长、更难的任务，同时仍需生产审查。 | 评测 |
-| [Case 54: ParseBench 忠实度与格式结果](#case-54) | 使用这个 ParseBench 结果判断文档忠实度和格式表现。 | 评测 |
-| [Case 55: 基准、定价、访问与安全措施](#case-55) | 把本案例作为基准、定价、访问、安全措施和战略影响的广泛 checklist。 | 评测 |
-| [Case 56: 官方基准分数列表](#case-56) | 使用这个基准列表理解 Fable 5 在编码、计算机使用和安全任务上的官方分数。 | 评测 |
-| [Case 57: APEX-SWE 基准方法论](#case-57) | 使用本案例评估 Fable 5 在 APEX-SWE 上的表现，尤其是 observability 和 integration 工作。 | 评测 |
-| [Case 58: ProofBench 形式化数学结果](#case-58) | 使用本案例评估 Fable 5 在形式化数学上相对专用定理证明系统的表现。 | 教程 |
-| [Case 59: VirtueBench 初步分析](#case-59) | 使用本案例检查 Fable 5 在不同美德类别中的道德推理行为。 | 评测 |
-| [Case 60: API 空响应安全过拟合测试](#case-60) | 使用本案例理解发布期安全过拟合风险，以及 API 测试中的空响应行为。 | 评测 |
+| [Fable 5 vs GPT-5.5 成本与质量对比](#case-35) | 在同一个编码任务上比较 Fable 5 和 GPT-5.5，判断输出质量、运行时间和工具成本。 | 评测 |
+| [AA-Omniscience 基准结果](#case-36) | 使用这个基准案例评估 Fable 5 的知识准确性和幻觉行为。 | 评测 |
+| [Artificial Analysis 智能指数结果](#case-37) | 使用本案例对照其他 frontier 模型，衡量 Fable 5 的整体智能排名。 | 评测 |
+| [GDPval-AA 代理式知识工作基准](#case-38) | 使用本案例评估 Fable 5 在代理式真实世界知识工作上的表现。 | 评测 |
+| [一周初印象与定价机制](#case-39) | 使用这个初印象案例判断 Fable 5 最强之处，尤其是游戏设计和系统规划。 | 集成 |
+| [成本与速度对比](#case-40) | 使用本对比判断质量提升是否值得更高成本和更慢的长周期运行。 | 评测 |
+| [Claude Code 上手笔记](#case-41) | 使用本案例评估 Claude Code 中的 Fable 5，包括工具使用、性格和剩余粗糙点。 | 演示 |
+| [创意写作基准结果](#case-42) | 使用这个基准案例判断 Fable 5 的短篇小说写作质量和拒答行为。 | 评测 |
+| [多基准发布摘要](#case-43) | 使用这份发布基准摘要理解与编码代理和复杂任务最相关的头部分数。 | 评测 |
+| [与 GPT-5.5 的基准和定价对比](#case-44) | 使用本对比从价格和基准类别上评估 Fable 5 与 GPT-5.5。 | 评测 |
+| [带实际限制的一线笔记](#case-45) | 使用这份现场报告理解 Fable 5 哪里有实质提升，以及哪里仍有实际限制。 | 教程 |
+| [物理模拟对比](#case-46) | 用相同物理模拟提示词分别测试 Fable 5 和 Opus 4.8，对比输出质量、成本和速度。 | 演示 |
+| [调试体验与设计判断力](#case-47) | 用 Fable 5 调试时，要求它测量、加日志、验证和修补，而不是简单猜测。 | 演示 |
+| [多维度优缺点](#case-48) | 在把 Fable 5 作为日常主力前，使用本案例理解实际优缺点。 | 演示 |
+| [法律 S-1 起草测试](#case-49) | 将 S-1 起草提示词作为法律代理能力测试，并比较结构、格式和长度。 | 教程 |
+| [医疗健康基准细节](#case-50) | 使用这条基准笔记评估 Fable 5 在医疗健康相关任务上的表现，并识别缺失的高难医学评测。 | 评测 |
+| [ParseBench 文档解析评测](#case-51) | 使用本案例判断相较专用 OCR 系统，Fable 5 用于文档解析是否具备成本效率。 | 评测 |
+| [SWE-Bench Pro 与 FrontierCode 对比](#case-52) | 使用这个基准案例评估 Fable 5 在迁移、复杂实现、自主会话、测试和视觉验证方面的能力。 | 评测 |
+| [长问题求解的定性评测](#case-53) | 使用这条定性评测理解为什么 Fable 5 适合更长、更难的任务，同时仍需生产审查。 | 评测 |
+| [ParseBench 忠实度与格式结果](#case-54) | 使用这个 ParseBench 结果判断文档忠实度和格式表现。 | 评测 |
+| [基准、定价、访问与安全措施](#case-55) | 把本案例作为基准、定价、访问、安全措施和战略影响的广泛 checklist。 | 评测 |
+| [官方基准分数列表](#case-56) | 使用这个基准列表理解 Fable 5 在编码、计算机使用和安全任务上的官方分数。 | 评测 |
+| [APEX-SWE 基准方法论](#case-57) | 使用本案例评估 Fable 5 在 APEX-SWE 上的表现，尤其是 observability 和 integration 工作。 | 评测 |
+| [ProofBench 形式化数学结果](#case-58) | 使用本案例评估 Fable 5 在形式化数学上相对专用定理证明系统的表现。 | 教程 |
+| [VirtueBench 初步分析](#case-59) | 使用本案例检查 Fable 5 在不同美德类别中的道德推理行为。 | 评测 |
+| [API 空响应安全过拟合测试](#case-60) | 使用本案例理解发布期安全过拟合风险，以及 API 测试中的空响应行为。 | 评测 |
 
 
 <a id="coding-and-code-generation"></a>
