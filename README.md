@@ -131,7 +131,17 @@ Try it on Evolink: [Claude Fable 5](https://evolink.ai)
 
 **How to use it:** Use Fable 5 as the plan-review and critique step inside a multi-model Cursor workflow, then hand implementation and revision back to cheaper or specialized models.
 
-**Original content (English):** If we look at the final scoring between Fable 5 and GPT 5.5, the gap is very small. My humble usage recommendation is this: in IDE platforms such as Cursor that support hybrid models, use a staged workflow. Phase 1: for code review and the first phase of project inspection, while warming up the context, use one of GPT 5.5 High, Minimax M3, Kimi K2.6, or Composer 2.5. Phase 2: for preparing the project plan, use GPT 5.5 Very High or Opus 4.8. Phase 3: for analyzing the project plan, use Fable 5; let it identify the flawed parts of the plan. For revisions, use GPT 5.5 Very High. Phase 4: for implementing the plan, use Minimax M3, Deepseek v4 Max, Composer 2.5, or Sonnet 4.6. Phase 5: for the final review and checking whether the implementation followed the plan, use GPT 5.5 High.
+If we look at the final scoring between Fable 5 and GPT 5.5, the gap is very small. My humble usage recommendation is this: in IDE platforms such as Cursor that support hybrid models, use a staged workflow.
+
+Phase 1: for code review and the first phase of project inspection, while warming up the context, use one of GPT 5.5 High, Minimax M3, Kimi K2.6, or Composer 2.5.
+
+Phase 2: for preparing the project plan, use GPT 5.5 Very High or Opus 4.8.
+
+Phase 3: for analyzing the project plan, use Fable 5; let it identify the flawed parts of the plan. For revisions, use GPT 5.5 Very High.
+
+Phase 4: for implementing the plan, use Minimax M3, Deepseek v4 Max, Composer 2.5, or Sonnet 4.6.
+
+Phase 5: for the final review and checking whether the implementation followed the plan, use GPT 5.5 High.
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -142,7 +152,13 @@ Type: Evaluation | Date: 2026-06-09
 
 **How to use it:** Paste a product screenshot into an agentic coding tool and ask Fable 5 to recreate the interface with working functionality.
 
-**Original content (English):** 🚨 Anthropic Fable 5 just replicated GITHUB from a SCREENSHOT!! All I did was paste a screenshot of the GitHub UI into Kilo Code, and told it to recreate GitHub with real functionality. It coded for 10 minutes and spent $4.07. The result was a functional GitHub replica: https://t.co/bjMObvlsPX
+🚨 Anthropic Fable 5 just replicated GITHUB from a SCREENSHOT!!
+
+All I did was paste a screenshot of the GitHub UI into Kilo Code, and told it to recreate GitHub with real functionality.
+
+It coded for 10 minutes and spent $4.07.
+
+The result was a functional GitHub replica: https://t.co/bjMObvlsPX
 
 Type: Demo | Date: 2026-06-09
 
@@ -153,7 +169,13 @@ Type: Demo | Date: 2026-06-09
 
 **How to use it:** Give Fable 5 one detailed creative-coding prompt and ask it to produce a self-contained Three.js physics visualization.
 
-**Original content (English):** @claudeai one-shotted a real-time black hole lensing sim in Three.js with Claude Fable 5 gravitational lensing, doppler-boosted accretion disk, photon sphere, chromatic aberration, procedural starfield. 60fps. single HTML file. one prompt. the new baseline is wild 🤯 https://t.co/E23I8bnPKb
+@claudeai one-shotted a real-time black hole lensing sim in Three.js with Claude Fable 5.
+
+It included gravitational lensing, a doppler-boosted accretion disk, photon sphere, chromatic aberration, and procedural starfield.
+
+The result: 60fps, single HTML file, one prompt.
+
+The new baseline is wild 🤯 https://t.co/E23I8bnPKb
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -164,7 +186,24 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Ask Fable 5 for a complete single-file web OS and let it build the UI shell, apps, interactions, audio, and embedded game behavior in one pass.
 
-**Original content (English):** 🚨Claude Fable 5 just built a full macOS-style web OS in ONE shot and went further than most models. Single HTML file, embedded CSS + JS. From one prompt: > macOS menu bar + dock > Draggable/resizable app windows > Functional file explorer > Working terminal + browser mockup > SVG Desktop icons + notifications > Settings app, themes, boot screen Fully functional sound player (real synthesis, no external files) > Playable Minecraft clone inside the desktop All generated in one pass with almost no corrections. The working sound player + actual Minecraft clone is something I haven’t seen other models pull off yet. Fable 5’s frontend/UI generation is getting ridiculous.
+🚨 Claude Fable 5 just built a full macOS-style web OS in one shot and went further than most models.
+
+Single HTML file, embedded CSS + JS.
+
+From one prompt, it built:
+
+- macOS menu bar + dock
+- Draggable and resizable app windows
+- Functional file explorer
+- Working terminal + browser mockup
+- SVG desktop icons + notifications
+- Settings app, themes, and boot screen
+- Fully functional sound player with real synthesis and no external files
+- Playable Minecraft clone inside the desktop
+
+All generated in one pass with almost no corrections.
+
+The working sound player plus actual Minecraft clone is something I have not seen other models pull off yet. Fable 5's frontend/UI generation is getting ridiculous.
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -175,7 +214,26 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Use Fable 5 as a long-session engineering partner across many prompts, with the human shifting from architecture to judging output quality.
 
-**Original content (English):** claude fable 5 is live. spawn 5.0 was built with it: 1,687 prompts, 102 sessions, my job shifted from architecture to judging taste. what we built, each of which would've been at least a month with a whole team on opus: — a from-scratch physics engine (mantle) that rivals rapier, testable in a day as a side thread — clustered froxel lighting: 8 lights to 1,000+ fully dynamic ("it's stupid fast" — creator of threejs) — realtime diffuse GI on webgpu, on your phone (landing in the next update) — million-particle gpu vfx with a shader architecture beyond what unreal and unity ship — mmo-scale netcode plus, for good measure: an (alpha) native ios app. all of it in about a week. all of it running on mobile. and the list doesn't include half of what we shipped — full changelog in the thread below. and the part the benchmarks won't show you: this model has a wonderful personality. it's genuinely funny. i laughed so hard i cried multiple times, mid-physics-rewrite. the genius and the character aren't separate features.
+claude fable 5 is live.
+
+spawn 5.0 was built with it:
+
+- 1,687 prompts
+- 102 sessions
+- My job shifted from architecture to judging taste
+
+What we built, each of which would have been at least a month with a whole team on Opus:
+
+- A from-scratch physics engine, Mantle, that rivals Rapier and was testable in a day as a side thread
+- Clustered froxel lighting: 8 lights to 1,000+ fully dynamic lights
+- Realtime diffuse GI on WebGPU, on your phone
+- Million-particle GPU VFX with a shader architecture beyond what Unreal and Unity ship
+- MMO-scale netcode
+- An alpha native iOS app
+
+All of it took about a week. All of it runs on mobile. The list does not include half of what shipped; full changelog is in the thread.
+
+The part the benchmarks will not show: this model has a wonderful personality. It is genuinely funny. I laughed so hard I cried multiple times mid-physics-rewrite. The genius and the character are not separate features.
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -186,7 +244,14 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Point Fable 5 at a large pull request and ask it to review correctness, false positives, real bugs, and polish issues.
 
-**Original content (English):** I turned Fable 5 loose reviewing a single PR (74 files / +3,705 / -1,246) to see how it'd do. It ran for 34 min, chewed through 42% of my 5hr session, produced 16 “correctness” findings, and found: - 2 scary-sounding false positives - 3 real audit-correctness bugs - ~5 legit-but-small UX/polish issues - a bunch of cleanup opinions This was too dangerous to release?
+I turned Fable 5 loose reviewing a single PR (74 files / +3,705 / -1,246) to see how it'd do. It ran for 34 min, chewed through 42% of my 5hr session, produced 16 “correctness” findings, and found:
+
+- 2 scary-sounding false positives
+- 3 real audit-correctness bugs
+- ~5 legit-but-small UX/polish issues
+- a bunch of cleanup opinions
+
+This was too dangerous to release?
 
 Type: Demo | Date: 2026-06-09
 
@@ -200,7 +265,36 @@ Type: Demo | Date: 2026-06-09
 
 **How to use it:** Use Fable 5 for ambitious long-horizon work: site rebuilds, programmatic content pipelines, voice matching, security review, and final quality checks.
 
-**Original content (English):** The short version of my Claude Fable 5 review: I spent a billion tokens testing Claude Fable 5 and it felt like having an unfair advantage. I judge by the eye test — I put a model into real work and watch. Does it save me hours or cost me them? Does it catch what I missed? Does it feel like a partner or a tool I have to babysit? This is the first model in a long time that passed on every dimension that matters, and not by a little. Building: I was rebuilding our Tenex site — very custom, very hard. GPT 5.5 and Claude 4.8 couldn't crack it on their own. Even with Figma files to reference, they topped out around 85–90%. Then Fable 5 looked at everything, said it could do better, went straight to the original Webflow source, downloaded every asset, and nearly one-shot the whole thing. Then I had it build a second, entirely new 80-page site from scratch over a weekend. Work I'd have charged $50k for as an agency. It also wired together a full programmatic clip factory — HeyGen, ElevenLabs, Cloudflare, a VPS — that finds topics, writes scripts, edits video, adds music, and posts to social. It ran for long stretches on its own and even built itself a webhook system to monitor renders. This is long-horizon work earlier models couldn't hold together. Writing: It replicated our brand voice doc almost identically, then did what the others couldn't — held that voice across 80 pages of features, case studies, and articles without drifting into flat AI default. My test for AI writing is simple: how much do I have to redo? Fable 5 was the rare case where the draft was close enough to actually use. Security: This is the one that gets me. Two frontier models had been working in a large repo and signed off on the code. Fable 5 found a serious, well-hidden bug on its first pass — and patched it on the spot. The human moment: I asked it a question while waiting on a cron job. It answered, then added on its own that I had about 10 minutes left and it'd let me know when it finished. I never asked about the timer. That's the closest I've felt to a model that anticipates you instead of just responding to you — less like software, more like working alongside someone sharp. The honest catch: you feel the meter more than any other model, and the meter is real. Anthropic calls it token-intensive by design — built to think longer and verify more. So run it as a relay: think with Fable 5, build with a cheaper model, review with Fable 5. Match the effort setting to the task. And point it at your own setup to optimize when you starting using it — most of your skills and configs were written for weaker models and just hold a smarter one back. The verdict: we're at the point where access to more intelligence than the person next to you is the advantage. Fable 5 is the first model that makes that real. Even at full frontier rates, it cleared a profit. If you can afford it, use it now, and use it on the hardest tasks you have. Especially now, while this model still has the edge, and before anyone else catches up. For my full breakdown ⬇️
+The short version of my Claude Fable 5 review: I spent a billion tokens testing Claude Fable 5 and it felt like having an unfair advantage.
+
+I judge by the eye test: I put a model into real work and watch. Does it save me hours or cost me them? Does it catch what I missed? Does it feel like a partner or a tool I have to babysit?
+
+This is the first model in a long time that passed on every dimension that matters, and not by a little.
+
+Building: I was rebuilding our Tenex site. It was very custom and very hard. GPT 5.5 and Claude 4.8 could not crack it on their own. Even with Figma files to reference, they topped out around 85-90%.
+
+Then Fable 5 looked at everything, said it could do better, went straight to the original Webflow source, downloaded every asset, and nearly one-shot the whole thing.
+
+Then I had it build a second, entirely new 80-page site from scratch over a weekend. That is work I would have charged $50k for as an agency.
+
+It also wired together a full programmatic clip factory:
+
+- HeyGen
+- ElevenLabs
+- Cloudflare
+- A VPS
+
+The pipeline finds topics, writes scripts, edits video, adds music, and posts to social. It ran for long stretches on its own and even built itself a webhook system to monitor renders.
+
+Writing: it replicated our brand voice doc almost identically, then held that voice across 80 pages of features, case studies, and articles without drifting into flat AI default.
+
+Security: two frontier models had been working in a large repo and signed off on the code. Fable 5 found a serious, well-hidden bug on its first pass and patched it on the spot.
+
+The human moment: I asked it a question while waiting on a cron job. It answered, then added on its own that I had about 10 minutes left and would let me know when it finished. I never asked about the timer.
+
+The honest catch: you feel the meter more than any other model. Anthropic calls it token-intensive by design. So run it as a relay: think with Fable 5, build with a cheaper model, review with Fable 5.
+
+The verdict: access to more intelligence than the person next to you is the advantage. Fable 5 is the first model that makes that real. Even at full frontier rates, it cleared a profit.
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -211,7 +305,15 @@ Type: Evaluation | Date: 2026-06-09
 
 **How to use it:** Give Fable 5 access to infra clues such as logs, database errors, and image digests, then ask it to diagnose the outage and prepare the fix.
 
-**Original content (English):** claude fable 5 is damn damn good!!!! it just diagnosed an outage I couldn't even describe properly in a side self-hosted infra. it read pod logs, queried Cloud SQL error logs, compared image digests, and found that k8s was running a 3-month-old cached image against a newly migrated database. then opened the fix PR. minutes, not hours. no web search. 🤯
+claude fable 5 is damn damn good!!!!
+
+It just diagnosed an outage I could not even describe properly in a side self-hosted infra.
+
+It read pod logs, queried Cloud SQL error logs, compared image digests, and found that Kubernetes was running a 3-month-old cached image against a newly migrated database.
+
+Then it opened the fix PR.
+
+Minutes, not hours. No web search. 🤯
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -225,7 +327,11 @@ Type: Evaluation | Date: 2026-06-09
 
 **How to use it:** Ask Fable 5 to build a browser game that uses finger tracking as the input mechanic.
 
-**Original content (English):** Asked Fable 5 to build a Dino runner game with finger tracking. It one shotted the finger runner game in about 11 to 12 minutes, consumed around 914K tokens. It implemented everything in just 629 lines of code. https://t.co/AWt1lEIObq
+Asked Fable 5 to build a Dino runner game with finger tracking.
+
+It one-shotted the finger runner game in about 11 to 12 minutes, consumed around 914K tokens, and implemented everything in just 629 lines of code.
+
+https://t.co/AWt1lEIObq
 
 Type: Demo | Date: 2026-06-09
 
@@ -236,7 +342,13 @@ Type: Demo | Date: 2026-06-09
 
 **How to use it:** Give Fable 5 a very short game prompt and let it generate maps, modes, music, UI, and game assets in one run.
 
-**Original content (English):** Claude Fable 5, 40% of Max 5x usage. Full Mario Kart 64 type game in 2 sentence prompt. All decoration and character models, 4 maps, music, all three game modes, UI was done by Fable 5 in a single shot, in about 15 mins. What the fuck. #fable #anthropic https://t.co/B7mTidE84U
+Claude Fable 5, 40% of Max 5x usage.
+
+Full Mario Kart 64-type game from a 2-sentence prompt.
+
+Fable 5 handled all decoration, character models, 4 maps, music, all three game modes, and UI in a single shot, in about 15 minutes.
+
+#fable #anthropic https://t.co/B7mTidE84U
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -247,7 +359,13 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Run Fable 5 through a terminal coding harness and ask it to build an installable Rust terminal game.
 
-**Original content (English):** I let Claude Fable 5 with Warp's harness cook for an hr and it made a TUI version of Minecraft that renders directly in your terminal, built entirely in Rust cargo install termcraft-3d https://t.co/zs3y3t88oM
+I let Claude Fable 5 with Warp's harness cook for an hour.
+
+It made a TUI version of Minecraft that renders directly in your terminal, built entirely in Rust.
+
+Install command: cargo install termcraft-3d
+
+https://t.co/zs3y3t88oM
 
 Type: Demo | Date: 2026-06-10
 
@@ -258,7 +376,15 @@ Type: Demo | Date: 2026-06-10
 
 **How to use it:** Use one prompt to ask Fable 5 for a playable Minecraft-style clone, then evaluate time, cost, code volume, and feature coverage.
 
-**Original content (English):** @claudeai Fable 5 built me a Minecraft clone in 37 minutes. one prompt. ~3K lines of code. $12 in API costs. biomes, caves, ores, day/night, mobs all of it. Minecraft took Notch 2 years. @claudeai is the real OG ! we are cooked 💀📷 👇 https://t.co/AmwdLwi75O
+@claudeai Fable 5 built me a Minecraft clone in 37 minutes.
+
+One prompt. ~3K lines of code. $12 in API costs.
+
+It included biomes, caves, ores, day/night, mobs, all of it.
+
+Minecraft took Notch 2 years.
+
+https://t.co/AmwdLwi75O
 
 Type: Tutorial | Date: 2026-06-10
 
@@ -272,7 +398,138 @@ Type: Tutorial | Date: 2026-06-10
 
 **How to use it:** Give Fable 5 a complete creative brief for a brand email mockup, including exact sections, product requirements, visual direction, and constraints.
 
-**Original content (English):** Claude Fable 5 made this with a single prompt and no edits. Here's the full prompt I used: Create a full-length, tall vertical ecommerce email mockup for MVMT, a modern watch and accessories brand for millennials. Design a highly realistic premium DTC email that feels sleek, polished, minimal, masculine-leaning, and editorial. The final image should look like a real designer-made ecommerce email screenshot, not a poster, not a landing page, and not a generic template. Brand vibe: Modern California-cool, youthful, confident, clean, aspirational, stylish, and elevated. The design should feel luxury-adjacent but still accessible. Feature these products prominently: - Mulholland - Odyssey II Automatic - Cali Diver - Signature Watch Bands Visual style: - clean premium ecommerce design - refined editorial layout - realistic product photography - subtle lifestyle imagery - strong hierarchy - crisp sans-serif typography - generous spacing - subtle shadows - restrained modern color palette Color palette: Black, white, charcoal, warm gray, stone, soft beige, brushed metal tones, and subtle muted accents. Keep the palette neutral and premium. Important creative direction: This should feel like a polished watch-brand email campaign with strong design taste. Prioritize realism, elegance, and clarity. Make it feel like something MVMT could actually send. Build the email in this order: 1. Top promo bar A thin black or dark charcoal bar across the top with small uppercase text: “FREE SHIPPING OVER $75 + EASY RETURNS” 2. Header A clean white header with the MVMT wordmark/logo on the left and minimal navigation links on the right or centered: WATCHES SUNGLASSES JEWELRY NEW ARRIVALS 3. Hero section A premium hero section with strong visual balance. Use a bold headline: “BUILT TO GET NOTICED” Include short supporting copy about modern timepieces and accessories designed to elevate everyday style. Add a dark rounded CTA button: “SHOP WATCHES” Hero imagery should include: - one dominant premium watch image - subtle luxury lifestyle imagery - a stylish male model or fashion-forward masculine lifestyle scene - modern lighting and clean composition 4. Featured collection section Add a centered section headline: “THREE WAYS TO WEAR MVMT” Below it, show three clean product cards or image blocks featuring: - Mulholland - Odyssey II Automatic - Cali Diver Each block should include: - product image - product name - short one- or two-line description Keep this section symmetrical, polished, and premium. 5. Accessory banner Add a refined split section titled: “FINISH THE LOOK” Feature Signature Watch Bands. Show premium close-up imagery of watch straps or interchangeable bands. Include short supporting copy and a dark CTA button: “SHOP ACCESSORIES” 6. Editorial promo tiles Add two side-by-side promotional tiles with image-led design. Tile one headline: “FOR DAILY WEAR” Tile two headline: “FOR STATEMENT DAYS” Each tile should have short copy and a small CTA: “SHOP NOW” These tiles should feel like editorial brand moments, not generic sale boxes. 7. Shoppable row Add a section titled: “IN ROTATION NOW” Show a clean 4-item product row or grid featuring: - Mulholland - Odyssey II Automatic - Cali Diver - Signature Watch Bands Each item should include: - isolated product image - product name - small “SHOP” link or button 8. Brand signoff Add a centered message block with the headline: “DESIGNED TO MOVE WITH YOU” Include a short line about thoughtfully crafted watches, eyewear, and accessories for everyday life. 9. Footer Create a realistic black or charcoal branded footer with: - MVMT logo - shop links - company links - support links - social icons - small legal and shipping text Typography direction: Use bold condensed or modern sans-serif typography for major headlines and clean sans-serif body text. Headlines should feel sharp, modern, and fashion-forward. Body copy should look realistic and mostly legible. Photography direction: Use premium product photography with realistic reflections, polished materials, soft shadows, and clean surfaces. Lifestyle photography should feel elevated, modern, and fashion-oriented. Composition rules: - tall vertical email format - clear section separation - realistic email proportions - strong hierarchy - mostly legible text - premium spacing - intentional alignment - balanced mix of product and lifestyle imagery Avoid: - messy collage styling - playful scrapbook aesthetics - overly colorful design - cheap template vibes - cartoonish imagery - cluttered layouts - fake-looking UI elements - poster-style composition - excessive promotional chaos Output: A full-length, vertically composed, highly realistic ecommerce email design mockup for MVMT that feels premium, clean, polished, modern, editorial, and presentation-ready.
+Claude Fable 5 made this with a single prompt and no edits.
+
+Here is the full prompt I used:
+
+Create a full-length, tall vertical ecommerce email mockup for MVMT, a modern watch and accessories brand for millennials.
+
+Design a highly realistic premium DTC email that feels sleek, polished, minimal, masculine-leaning, and editorial. The final image should look like a real designer-made ecommerce email screenshot, not a poster, not a landing page, and not a generic template.
+
+Brand vibe: Modern California-cool, youthful, confident, clean, aspirational, stylish, and elevated. The design should feel luxury-adjacent but still accessible.
+
+Feature these products prominently:
+
+- Mulholland
+- Odyssey II Automatic
+- Cali Diver
+- Signature Watch Bands
+
+Visual style:
+
+- clean premium ecommerce design
+- refined editorial layout
+- realistic product photography
+- subtle lifestyle imagery
+- strong hierarchy
+- crisp sans-serif typography
+- generous spacing
+- subtle shadows
+- restrained modern color palette
+
+Color palette: Black, white, charcoal, warm gray, stone, soft beige, brushed metal tones, and subtle muted accents. Keep the palette neutral and premium.
+
+Important creative direction: This should feel like a polished watch-brand email campaign with strong design taste. Prioritize realism, elegance, and clarity. Make it feel like something MVMT could actually send.
+
+Build the email in this order:
+
+1. Top promo bar: A thin black or dark charcoal bar across the top with small uppercase text: “FREE SHIPPING OVER $75 + EASY RETURNS”.
+
+2. Header: A clean white header with the MVMT wordmark/logo on the left and minimal navigation links on the right or centered: WATCHES, SUNGLASSES, JEWELRY, NEW ARRIVALS.
+
+3. Hero section: A premium hero section with strong visual balance.
+
+Use a bold headline: “BUILT TO GET NOTICED”.
+
+Include short supporting copy about modern timepieces and accessories designed to elevate everyday style.
+
+Add a dark rounded CTA button: “SHOP WATCHES”.
+
+Hero imagery should include:
+
+- one dominant premium watch image
+- subtle luxury lifestyle imagery
+- a stylish male model or fashion-forward masculine lifestyle scene
+- modern lighting and clean composition
+
+4. Featured collection section: Add a centered section headline: “THREE WAYS TO WEAR MVMT”. Below it, show three clean product cards or image blocks featuring:
+
+- Mulholland
+- Odyssey II Automatic
+- Cali Diver
+
+Each block should include:
+
+- product image
+- product name
+- short one- or two-line description
+
+Keep this section symmetrical, polished, and premium.
+
+5. Accessory banner: Add a refined split section titled “FINISH THE LOOK”. Feature Signature Watch Bands. Show premium close-up imagery of watch straps or interchangeable bands. Include short supporting copy and a dark CTA button: “SHOP ACCESSORIES”.
+
+6. Editorial promo tiles: Add two side-by-side promotional tiles with image-led design.
+
+Tile one headline: “FOR DAILY WEAR”.
+
+Tile two headline: “FOR STATEMENT DAYS”.
+
+Each tile should have short copy and a small CTA: “SHOP NOW”.
+
+These tiles should feel like editorial brand moments, not generic sale boxes.
+
+7. Shoppable row: Add a section titled “IN ROTATION NOW”. Show a clean 4-item product row or grid featuring:
+
+- Mulholland
+- Odyssey II Automatic
+- Cali Diver
+- Signature Watch Bands
+
+Each item should include:
+
+- isolated product image
+- product name
+- small “SHOP” link or button
+
+8. Brand signoff: Add a centered message block with the headline: “DESIGNED TO MOVE WITH YOU”. Include a short line about thoughtfully crafted watches, eyewear, and accessories for everyday life.
+
+9. Footer: Create a realistic black or charcoal branded footer with:
+
+- MVMT logo
+- shop links
+- company links
+- support links
+- social icons
+- small legal and shipping text
+
+Typography direction: Use bold condensed or modern sans-serif typography for major headlines and clean sans-serif body text. Headlines should feel sharp, modern, and fashion-forward. Body copy should look realistic and mostly legible.
+
+Photography direction: Use premium product photography with realistic reflections, polished materials, soft shadows, and clean surfaces. Lifestyle photography should feel elevated, modern, and fashion-oriented.
+
+Composition rules:
+
+- tall vertical email format
+- clear section separation
+- realistic email proportions
+- strong hierarchy
+- mostly legible text
+- premium spacing
+- intentional alignment
+- balanced mix of product and lifestyle imagery
+
+Avoid:
+
+- messy collage styling
+- playful scrapbook aesthetics
+- overly colorful design
+- cheap template vibes
+- cartoonish imagery
+- cluttered layouts
+- fake-looking UI elements
+- poster-style composition
+- excessive promotional chaos
+
+Output: A full-length, vertically composed, highly realistic ecommerce email design mockup for MVMT that feels premium, clean, polished, modern, editorial, and presentation-ready.
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -283,7 +540,13 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Use Fable 5 on a mechanical simulation benchmark and ask it to implement, verify, and iterate on physical correctness.
 
-**Original content (English):** So I gave Fable 5 the watchmaker benchmark: a full Swiss lever movement in Three.js. Real gear ratios (18,000 bph), working escapement, breathing hairspring — and the hands tell actual time. It verified its own work with vision, in a loop, until done. ⌚ https://t.co/RSRfDoKxA4
+So I gave Fable 5 the watchmaker benchmark: a full Swiss lever movement in Three.js.
+
+Real gear ratios (18,000 bph), working escapement, breathing hairspring — and the hands tell actual time.
+
+It verified its own work with vision, in a loop, until done.
+
+⌚ https://t.co/RSRfDoKxA4
 
 Type: Evaluation | Date: 2026-06-10
 
@@ -294,7 +557,15 @@ Type: Evaluation | Date: 2026-06-10
 
 **How to use it:** Prompt Fable 5 to turn a floor plan and scene reference into a navigable Three.js environment.
 
-**Original content (English):** Holy Crap!!! Fable 5: in @threejs, create a first person pov navigable 3d scene of the iconic Monica's apartment from tv show Friends correctly based on this floor plan, stay true to the original look and feel, use warm lighting This is by far THE BEST I've seen on this test! This single html cost me $12, but the result is stunning!
+Holy Crap!!!
+
+Fable 5:
+
+in @threejs, create a first person pov navigable 3d scene of the iconic Monica's apartment from tv show Friends correctly based on this floor plan, stay true to the original look and feel, use warm lighting
+
+This is by far THE BEST I've seen on this test!
+
+This single html cost me $12, but the result is stunning!
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -305,7 +576,17 @@ Type: Evaluation | Date: 2026-06-09
 
 **How to use it:** Use Fable 5 to build an astronomy simulation from physics principles, iterating until the simulation and public output are ready.
 
-**Original content (English):** Claude Fable 5 is intense. Because it seems strong at physics simulations, I asked it: 'Build a solar system simulation by deriving planetary orbital motion from the basic principles of physics and using that to predict solar eclipses.' After a few rounds of back-and-forth, this was completed. It is incredibly fun. The completed prompt and public URL are linked below.
+Claude Fable 5 is intense.
+
+Because it seems strong at physics simulations, I asked it:
+
+'Build a solar system simulation by deriving planetary orbital motion from the basic principles of physics and using that to predict solar eclipses.'
+
+After a few rounds of back-and-forth, this was completed.
+
+It is incredibly fun.
+
+The completed prompt and public URL are linked below.
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -319,7 +600,27 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Use this as evidence for enterprise migration and scientific workflow claims, not as a copy-paste prompt.
 
-**Original content (English):** Quotes from the release today: 'Using Mythos 5, our internal protein design experts accelerated aspects of the drug design process by around ten times. In one example, they found that Mythos 5, with protein design and bioinformatics tools but no human assistance, matches or beats skilled human operators. In doing so, the model executes all of the tasks that are normally completed by a scientist: choosing binding sites, selecting and running protein design tools, and recovering from failures along the way.' 'During early testing, Stripe reported that Fable 5 compressed months of engineering into days. In a 50-million-line Ruby codebase, the model performed a codebase-wide migration in a day that would otherwise have taken a whole team over two months by hand.' 'Mythos 5 is our first model to consistently produce novel, compelling scientific hypotheses. In blinded head-to-head comparisons against Opus-class models, our scientists preferred Mythos’s molecular biology hypotheses ~80% of the time, and have advanced several to experimental evaluation. In the meantime, one Mythos hypothesis—a novel mechanism for an E. coli protein—was corroborated in a study from a lab independently working on the same problem.' 'Mythos 5 conducted novel genomics research in over a week of largely autonomous work. It assembled single-cell data for millions of cells spanning 138 animal species and designed and trained a custom machine learning model to identify cells performing the same role in even distantly related organisms. With only high-level human input, Mythos 5’s trained model outperformed a recent model published in the journal Science—despite being 100 times smaller. We intend to publish these results in the coming months.'
+Quotes from the release today:
+
+Using Mythos 5, internal protein design experts accelerated parts of the drug design process by around ten times.
+
+In one example, Mythos 5, with protein design and bioinformatics tools but no human assistance, matched or beat skilled human operators.
+
+It executed tasks normally completed by a scientist: choosing binding sites, selecting and running protein design tools, and recovering from failures.
+
+During early testing, Stripe reported that Fable 5 compressed months of engineering into days. In a 50-million-line Ruby codebase, the model performed a codebase-wide migration in a day that would otherwise have taken a whole team over two months by hand.
+
+Mythos 5 also consistently produced novel, compelling scientific hypotheses.
+
+In blinded head-to-head comparisons against Opus-class models, scientists preferred Mythos's molecular biology hypotheses around 80% of the time and advanced several to experimental evaluation.
+
+One Mythos hypothesis, a novel mechanism for an E. coli protein, was corroborated in a study from an independent lab.
+
+Mythos 5 conducted novel genomics research in over a week of largely autonomous work.
+
+It assembled single-cell data for millions of cells across 138 animal species and designed and trained a custom machine learning model to identify cells performing the same role in distant organisms.
+
+With only high-level human input, the trained model outperformed a recent model published in Science despite being 100 times smaller.
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -330,7 +631,15 @@ Type: Evaluation | Date: 2026-06-09
 
 **How to use it:** Use Fable 5 for long-form qualitative document work: track changes, comment triage, and transcript-driven edits.
 
-**Original content (English):** Fable 5 is the first model that I've found consistently helpful for longer-duration qualitative work (e.g. drafting policy analysis). Between its capabilities and tools like Wispr Flow, I'm starting to feel closer to the degree of productivity speedup I've long heard coders talk about. Three use cases that feel much better than before: -Having Claude do a full read-through of a long policy memo and return track changes: a) fluency edits, b) comments questioning shaky claims, c) potential sources. -In Projects, screenshotting a boatload of comments and having Claude recommend whether/how to address each. -Pasting a meeting transcript about a doc into Claude, then having Claude enter the edits discussed in the meeting (and in Slack!) as track changes, with context added in comments.
+Fable 5 is the first model that I have found consistently helpful for longer-duration qualitative work, such as drafting policy analysis.
+
+Between its capabilities and tools like Wispr Flow, I am starting to feel closer to the productivity speedup I have long heard coders talk about.
+
+Three use cases feel much better than before:
+
+- Have Claude do a full read-through of a long policy memo and return track changes: fluency edits, comments questioning shaky claims, and potential sources.
+- In Projects, screenshot a large set of comments and have Claude recommend whether and how to address each.
+- Paste a meeting transcript about a document into Claude, then have Claude enter the edits discussed in the meeting and in Slack as track changes, with context added in comments.
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -341,7 +650,44 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Ask Fable 5 a research-style question and evaluate whether it can produce a structured, historically grounded long answer.
 
-**Original content (English):** Claude Fable 5 Max became available this morning, so I tried it. It looks very deep underneath, while the surface output is highly polished. Question: If Japan's 'lost 30 years' began exactly 30 years ago from now, what exactly was it, why did it happen, and how will it affect the world from this year onward? Answer: Treating the lost 30 years as beginning not with the conventional 1991 bubble collapse, but exactly 30 years ago in 1996, is actually a point that gets to the essence of the issue. Statistically, Japan truly began 'losing' at that time. The working-age population peaked in 1995 at 87.16 million. 1996 was the last year births stayed in the 1.2 million range. Wages and nominal GDP peaked in 1997. If the bubble collapse was the wound, 1996 was when the wound began to fester. What exactly happened? In June 1996, two decisions overlapped: passage of the housing-loan-company bailout law, which injected 685 billion yen of public funds and became the origin of public distrust of banks and resistance to bailouts; and the Hashimoto cabinet's decision to raise the consumption tax to 5%. In November of that year, the financial Big Bang was announced and fiscal reconstruction became national policy. In April 1997, the consumption tax hike, the end of special tax cuts, and higher social-insurance burdens together added about 9 trillion yen in public burden. Then the Asian currency crisis hit in the summer. In November, Sanyo Securities caused the first postwar default in the call market, freezing short-term financial markets; Hokkaido Takushoku Bank and Yamaichi Securities collapsed one after another. From 1998, Japan entered full-scale deflation and credit tightening, and suicides rose above 30,000. The result over the following 30 years: nominal GDP stagnated around 500 trillion yen for a quarter century, falling from about 18% of global share to under 4%; average wages peaked in 1997 and then fell or moved sideways; non-regular employment rose from around 20% to nearly 40%; births fell from about 1.2 million to around 690,000 in 2024; policy rates have stayed near zero since falling below 1% in 1995; outstanding government bonds grew from about 240 trillion yen to over 1,100 trillion yen; and it took the Nikkei 34 years, until February 2024, to regain its 1989 high. In other words, the lost decades were not only a financial hangover but a structural shift involving demographics, wages, deflation, debt, policy choices, and social confidence.
+Claude Fable 5 Max became available this morning, so I tried it. It looks very deep underneath, while the surface output is highly polished.
+
+Question: If Japan's "lost 30 years" began exactly 30 years ago from now, what exactly was it, why did it happen, and how will it affect the world from this year onward?
+
+Answer: Treating the lost 30 years as beginning not with the conventional 1991 bubble collapse, but exactly 30 years ago in 1996, gets to the essence of the issue.
+
+Statistically, Japan truly began "losing" at that time:
+
+- The working-age population peaked in 1995 at 87.16 million.
+- 1996 was the last year births stayed in the 1.2 million range.
+- Wages and nominal GDP peaked in 1997.
+
+If the bubble collapse was the wound, 1996 was when the wound began to fester.
+
+Events in 1996:
+
+- Passage of the housing-loan-company bailout law, which injected 685 billion yen of public funds and became the origin of public distrust of banks and resistance to bailouts.
+- The Hashimoto cabinet's decision to raise the consumption tax to 5%.
+- The financial Big Bang was announced, and fiscal reconstruction became national policy.
+
+In April 1997, the consumption tax hike, the end of special tax cuts, and higher social-insurance burdens together added about 9 trillion yen in public burden. Then the Asian currency crisis hit in the summer.
+
+In November, Sanyo Securities caused the first postwar default in the call market, freezing short-term financial markets. Hokkaido Takushoku Bank and Yamaichi Securities collapsed one after another.
+
+From 1998, Japan entered full-scale deflation and credit tightening, and suicides rose above 30,000.
+
+The result over the following 30 years:
+
+- Nominal GDP stagnated around 500 trillion yen for a quarter century.
+- Japan's global GDP share fell from about 18% to under 4%.
+- Average wages peaked in 1997 and then fell or moved sideways.
+- Non-regular employment rose from around 20% to nearly 40%.
+- Births fell from about 1.2 million to around 690,000 in 2024.
+- Policy rates stayed near zero after falling below 1% in 1995.
+- Outstanding government bonds grew from about 240 trillion yen to over 1,100 trillion yen.
+- The Nikkei took 34 years, until February 2024, to regain its 1989 high.
+
+In other words, the lost decades were not only a financial hangover. They were a structural shift involving demographics, wages, deflation, debt, policy choices, and social confidence.
 
 Type: Demo | Date: 2026-06-09
 
@@ -355,7 +701,33 @@ Type: Demo | Date: 2026-06-09
 
 **How to use it:** Use Fable 5 by setting direction, context, goals, and verification criteria instead of micromanaging every step.
 
-**Original content (English):** What changed in the Claude Code team's day-to-day work after Claude Fable 5 is interesting. Thariq from the Claude Code team says Fable 5 significantly changed how people inside Anthropic work with Claude. Previously, humans had to carefully check whether Claude was doing the work correctly: break tasks down, review outputs, and make sure it had not stopped midway. It was closer to supervision. With Fable 5, because it can work for longer periods, test itself, and generate higher-quality code, the human role shifts from monitoring whether it is doing the work correctly to steering whether it is doing the right work. In other words, goal-setting and context-building matter more than supervision. The changed workflow has three parts. 1. Use Claude as a thinking partner: involve Claude before implementation, clarify what you want to build and what is possible, have it ask questions about a small spec, or generate multiple directions and HTML mocks from an idea so that ambiguity and problems surface before coding. 2. Provide context, not just constraints: instead of only saying 'keep it simple' or 'do not overbuild,' explain why. For example: 'This is an experimental feature that may be removed in a month, so do not create a structure that is hard to throw away.' That lets Claude make better judgments. 3. Give goals and verification methods: Fable 5 works well with Claude Code's `/goal` and Workflows. Give it a spec, set full implementation as the goal, and let workflows verify each step and prepare a report on what was implemented and what differed. Finally, Thariq says people should try using it more ambitiously. Fable 5 is worth trying on work that previously felt too hard for LLMs, and even the video editing for the referenced video was done with Fable.
+What changed in the Claude Code team's day-to-day work after Claude Fable 5 is interesting.
+
+Thariq from the Claude Code team says Fable 5 significantly changed how people inside Anthropic work with Claude.
+
+Previously, humans had to carefully check whether Claude was doing the work correctly: break tasks down, review outputs, and make sure it had not stopped midway. It was closer to supervision.
+
+With Fable 5, because it can work for longer periods, test itself, and generate higher-quality code, the human role shifts from monitoring whether it is doing the work correctly to steering whether it is doing the right work.
+
+In other words, goal-setting and context-building matter more than supervision.
+
+The changed workflow has three parts:
+
+1. Use Claude as a thinking partner.
+
+Involve Claude before implementation, clarify what you want to build and what is possible, have it ask questions about a small spec, or generate multiple directions and HTML mocks from an idea so that ambiguity and problems surface before coding.
+
+2. Provide context, not just constraints.
+
+Instead of only saying "keep it simple" or "do not overbuild," explain why.
+
+For example: "This is an experimental feature that may be removed in a month, so do not create a structure that is hard to throw away."
+
+That lets Claude make better judgments.
+
+3. Give goals and verification methods. Fable 5 works well with Claude Code's `/goal` and Workflows. Give it a spec, set full implementation as the goal, and let workflows verify each step and prepare a report on what was implemented and what differed.
+
+Finally, Thariq says people should try using it more ambitiously. Fable 5 is worth trying on work that previously felt too hard for LLMs, and even the video editing for the referenced video was done with Fable.
 
 Type: Demo | Date: 2026-06-09
 
@@ -366,7 +738,102 @@ Type: Demo | Date: 2026-06-09
 
 **How to use it:** Use Fable 5 for frontier planning and review, then route high-volume implementation to cheaper models.
 
-**Original content (English):** The Claude Fable 5 Review: One Billion Tokens, Judged by a Non-Engineer I spent a billion tokens testing Claude Fable 5 on real projects: UI and UX, writing, strategy, security, engineering, and knowledge work. The kind of work I actually needed to ship. And I will be straight with you. It truthfully felt like I had an unfair advantage. Here is why: First, the lens. I am not an engineer. Most model reviews come from engineers running engineering benchmarks. This one comes from a non-engineer who used Claude Fable 5 to do work that used to require a team of them. If you do knowledge work and you want to know whether this model changes your day, this is written for you. A note on naming: Claude Fable 5 is the first model in Anthropic's new Claude 5 family, a new tier that sits above Claude Opus and the most advanced Claude model generally available. I had access to it before launch, so everything here comes from real work, not a demo. Why the eye test Most reviews drown you in benchmarks. Scores on tests you will never run, against tasks that look nothing like your actual work. They tell you a model is smart. They do not tell you whether it earns its keep. To be clear, the benchmarks are not in question this time. Claude Fable 5 is state of the art on essentially everything it was tested on, and by a real margin. This is a genuinely exciting release. But that is not the reason I am writing. Qualitatively, this is a step change that earns its major version bump, the same order of leap I felt when 4.5 landed last November, and that is exactly what no benchmark can show you. I evaluate differently. I put a model into real work and watch what happens. Does it save me hours or cost me them? Does it catch what I missed? Does it feel like a partner or a tool I have to babysit? That is the eye test, and it is the standard I am holding Claude Fable 5 to here. The short version: this is the first model in a long time that passed on every dimension that matters. Not by a little. The lens: what I actually measure I threw all of that work at it. Here is what I look for when I judge the results: 1. Big model feel: Does it feel like a real step up, or a slightly better version of last month? 2. Building and shipping: Can it take an idea to a working, shippable result? 3. Writing and voice: Can it sound like a person, and like me specifically? 4. Finding what others miss: Does it catch the hard, hidden problems? 5. The human factor: Does it anticipate what I need before I ask? Then I weigh all of that against cost, with real numbers. Here is how Claude Fable 5 scored. 1. Big model feel I have not felt this since Opus 4.5. From the first serious task, Claude Fable 5 gave me that big model feel. The sense that you have an unfair advantage just by using it. It is a major step up, not an incremental one. Reasoning, writing, building, security. It is strong across the board, and it shows up the moment you start working. You can also feel it thinking longer and working a problem more deliberately than other models do. The clearest sign: even when I handed it solid prep materials, it did not just stay inside them. It read my files, read the actual situation, and then went and found a better path outside the box I had drawn, instead of grinding away inside the environment I told it to work in. That initiative led to a noticeably better result than I would have gotten if it had just followed my setup. 2. Building and shipping (UI/UX) This is where it announced itself. I was rebuilding our Tenex site to modernize the stack for agents. Not a cosmetic rebrand. The goal was to move off the old setup onto a foundation built for the agentic era, with the tech stack, agent stack, and AEO it takes to win where the work is heading. The site is very custom, which made it hard. Here is the ladder I climbed before Claude Fable 5. GPT 5.5 and Claude 4.8 tried the build on their own. Neither came close. So I brought the design into Figma, then pulled Figma into Claude Design. Claude Design got the closest yet, around 90 percent of the look, better than the models working alone, but it missed a lot of the motion and the special design touches. Good enough for a v1 pass, so I handed that file to 4.8 and GPT 5.5 to turn into the real site. Even then they struggled to match the Claude Design file. I had to push hard, and they landed around 85 to 90 percent, with the original Figma files to reference the whole time. At that point I was not sure I could rebuild this thing at all. Then Claude Fable 5. It looked at all the files and said it could do better. It went straight to the source, the original Webflow site, downloaded every asset, and rebuilt the whole experience one page at a time. It nearly one-shot the entire thing. I did not stop there though. I then built a second, entirely new site, with a fresh design: modern tech stack, agent stack, skills, SEO and AEO optimized, 80 pages ready to ship over a weekend and it turned out incredible. I would have easily charged $50k for this in the past as an agency owner. Fable legit built it in a weekend. I also had Fable build a full programmatic clip factory, and it wired the whole stack together: @HeyGen for avatars, @HyperFrames_ for motion graphics and editing, @ElevenLabs for audio, Cloudflare Workers, and a VPS. It is not perfect yet, but it got me much further than I expected. It runs the entire pipeline: finds the topics, writes the scripts, makes the thumbnail, edits the video, composes the music, adds the motion graphics, and posts to social. I ran it in the background while I pushed through my other builds. It worked for long stretches on its own, and at one point it built itself a fetching system with webhooks to monitor renders across the different platforms. It even took clear visual direction from reference material and matched it. This is the long-horizon, run-on-its-own work that earlier models could not hold together. 3. Writing and voice I had been rebuilding our brand voice with a combination of GPT 5.5 and Claude 4.8: the voice style guide, the tone we write in, all of it, using our website as the reference. Both 5.5 and 4.8 did a commendable job turning the site into a voice doc. Claude Fable 5 replicated that voice doc almost identically, then did the thing the others could not. It took the style guide and wrote with it across 80 pages of the new site: features, case studies, blog articles, playbooks. Once it was trained properly on what I wanted, it gave the most honest nod I have seen to the original reference material, and then expanded that voice cleanly across brand-new surfaces without losing it. Two things stood out. First, it wrote like a person, not the flat AI default that everyone can now spot from a mile away. Second, it held the voice across a whole site instead of drifting after a few paragraphs, which is usually where models fall apart. The test I use for AI writing is simple: how much do I have to redo. Most models save you the blank page and then quietly cost the time back in edits. Claude Fable 5 was the rare case where the draft was close enough to actually use. 4. Finding what others miss (security) This one I expected but not at this level. I had a very large repo. Both Claude 4.8 and GPT 5.5 have been working in it without ever flagging this risk. Claude Fable 5 found a serious bug on its first go with the repo. Sneaky, well hidden, the kind two frontier models had just told me was not there. Then Fable patched it on the spot. Sit with what that means. The bug was going to ship. Two of the best models available had signed off on the code. If I had stopped there, like most people would, it goes to production and I find out the hard way. Claude Fable 5 did not just match the other two, it caught what they missed, on the exact kind of work I am least equipped to check myself as a non-engineer. That is the value that is hard to price until the day it saves you. One catch like it can pay for the whole tool. 5. The human factor The thing that stuck with me most was small. I asked it a question while I was waiting on a cron job to finish. It answered, then added on its own that I had about 10 minutes left on the timer and that it would let me know when it was done. I never asked about the timer. It just knew I would want to know and gave it to me. That is not AGI, but it is the closest thing I have felt to a model that anticipates you instead of just responding to you. That is what makes it feel less like software and more like working alongside someone sharp. The receipts I tracked this, so here are the real numbers. Start with cost, which depends entirely on which models do the work. Cost for this workload: Claude Fable 5 | $1,442 (1.04 Billion tokens) But that badly undersells what I actually got. Over a few days I built a shit load of things, including a new website, all of its infrastructure, and a working agent package. As an agency, I would have charged a client $30,000 to $50,000 for that alone, easily. So here is the question that cuts through the math: if I had to pay $1,450 in tokens the the result I achieved? 100 percent. Without hesitating. The quality was that good. That is the lens that matters. On hours alone, even at full price, it already pays for itself several times over. Measured against what the finished work is actually worth, it is not close. The cache-heavy volume still drives the bill, which is why how you run it matters. But do not let the math fool you into thinking this is marginal. It is the best money I have spent on tooling. Where it frustrates: with that being said, you feel the meter more than any other model, and the meter is real The receipts above are why cost is still worth watching, even though the work was worth every dollar. Anthropic does not hide this. They call Fable 5 token-intensive by design, built to think longer and verify more, and it runs through usage limits about twice as fast as Opus or Sonnet. That is the case for the one thing I want most: an auto-router for task complexity. Right now I have to shift gears by hand mid-conversation to conserve tokens, and I do not want to think about that. If I ask for something simple, the model should downshift on its own and handle it, saving the expensive intelligence for the work that actually needs it. This is not just about flow. It is the economics. A smart router keeps the simple work on cheap models and only escalates to Claude Fable 5 when the task earns it, which is the whole difference between 2.5 efficiency and 9.7. Until that exists, using a frontier model well means doing the routing in your own head with active shifting in model effort levels. Pro tip #1: run it as a hybrid Here is how I keep the cost in check without giving up the intelligence. Do not run everything on Claude Fable 5. Run a relay across models. 1. Think with Claude Fable 5: Use it for the expensive thinking: high-level planning, strategy, architecture, mapping the whole approach before a line of work gets done. This is where its edge is biggest and the token count is smallest. 2. Build with 4.8, GPT5.5 or Sonnet 4.6: Hand the plan to a cheaper model for the legwork: the implementation, the repetitive passes, the high-volume grunt work. That is the work that runs up the bill, and it does not need a frontier brain. 3. Review with Claude Fable 5: Bring it back to Claude Fable 5 to check the result. This is where it earns its keep a second time, catching what the cheaper models miss, the way it did on the security scan. You get the deep strategy and a frontier second set of eyes, and you keep the expensive model off the high-volume work that drives most of the cost. Frontier thinking, cheaper hands, frontier review. It is the closest thing to an auto-router until the real one shows up. Pro tip 2: match the effort setting to the task Fable 5 has effort settings, and they matter more than you would expect. Effort controls how hard it thinks before it answers, which means it also controls your bill. 1. High is the sweet spot for most work. Start here. 2. Extra high for the hardest, long-running tasks where you want it to grind. 3. Low or medium: for quick, back-and-forth sessions where you do not need the full engine. Reaching for extra high on simple work is how you burn tokens for nothing. Dialing down to low or medium on interactive chats keeps the cost sane. It is the closest thing to the auto-router I want, just done by hand. You pick the gear, the model does the rest. Pro tip #3: let it audit your own setup One more move that paid off: point Fable 5 at your own setup. Have it review your most important skills, your CLAUDE.md files, and your configs to make sure they still make sense. Most of that scaffolding was written for weaker models. It is full of hand-holding steps, workarounds, and assumptions a smarter model does not need and can be held back by. This is a major jump in intelligence, and you do not want to cap it with outdated instructions or stale data. Let the smarter model clean up the rules it has to follow, then get out of its way. Pulling back Let me be honest about where I am coming from. I use every tool out there. Claude is my daily driver, but I am constantly in Codex and Cursor too, and they each have real strengths. I am not a one-model person. But the moment I got access to Claude Fable 5, I could not put it down. I disappeared into it all weekend. I could feel the level of intelligence I had in my hands and how far ahead of the current options it was, and I used it to do as much work as I possibly could: running many agents at once, remote controlling it from my phone when I was away from the desk, completely hooked. I do not know how long this window stays open. Others will catch up. But until they do, this model is a real competitive advantage sitting on the table, and I would approach that as deliberately as you can. Because it really is that good. The verdict Claude Fable 5 is an excellent model. It is the first one in a while that genuinely feels like more intelligence than what came before, and that gap is the whole game right now. We are at the point where access to more intelligence than the person next to you is the advantage. This is the first model that makes that real. I did engineer-level work without being an engineer. Even priced entirely at frontier rates, the workload still cleared a profit, and run with any care about routing, the return is enormous. So here is my recommendation. If you can afford it, use it, and use it now, especially on the work where a real quality jump changes the outcome. The first month at full capacity is where the advantage lives, so move fast. Be deliberate about what you run on it until the routing catches up, because the bill is driven by volume, not by the few hard prompts that justify the model. What an incredible model! 💙
+The Claude Fable 5 Review: One Billion Tokens, Judged by a Non-Engineer.
+
+I spent a billion tokens testing Claude Fable 5 on real projects: UI and UX, writing, strategy, security, engineering, and knowledge work. The kind of work I actually needed to ship.
+
+It truthfully felt like I had an unfair advantage.
+
+First, the lens: I am not an engineer. Most model reviews come from engineers running engineering benchmarks. This one comes from a non-engineer who used Claude Fable 5 to do work that used to require a team of engineers.
+
+If you do knowledge work and want to know whether this model changes your day, this review is written for you.
+
+Claude Fable 5 is the first model in Anthropic's new Claude 5 family, a new tier above Claude Opus and the most advanced Claude model generally available. I had access before launch, so everything here comes from real work, not a demo.
+
+Why the eye test:
+
+Most reviews drown you in benchmarks. Scores on tests you will never run do not tell you whether the model earns its keep.
+
+Claude Fable 5 is state of the art on essentially everything it was tested on, but that is not why I am writing. Qualitatively, it is a step change that earns its major version bump.
+
+I evaluate differently: I put a model into real work and watch what happens.
+
+Questions I measure:
+
+1. Does it feel like a real step up?
+2. Can it take an idea to a working, shippable result?
+3. Can it write like a person, and like me specifically?
+4. Does it catch hard, hidden problems?
+5. Does it anticipate what I need before I ask?
+
+Big model feel:
+
+I have not felt this since Opus 4.5. From the first serious task, Claude Fable 5 gave me that "big model" feel: reasoning, writing, building, security, all strong across the board.
+
+The clearest sign: even when I handed it solid prep materials, it did not just stay inside them. It read the files, read the actual situation, and found a better path outside the box I had drawn.
+
+Building and shipping:
+
+I was rebuilding our Tenex site to modernize the stack for agents. GPT 5.5 and Claude 4.8 could not get close enough. Even with Figma files, they landed around 85-90%.
+
+Then Claude Fable 5 looked at all the files, said it could do better, went straight to the original Webflow source, downloaded every asset, and rebuilt the experience one page at a time. It nearly one-shot the entire thing.
+
+Then I built a second, entirely new site with a fresh design: modern tech stack, agent stack, skills, SEO and AEO optimized, 80 pages ready to ship over a weekend. As an agency owner, I would have charged $50k for that.
+
+I also had Fable build a full programmatic clip factory.
+
+It wired together HeyGen, HyperFrames, ElevenLabs, Cloudflare Workers, and a VPS.
+
+It finds topics, writes scripts, makes thumbnails, edits video, composes music, adds motion graphics, and posts to social.
+
+Writing and voice:
+
+I had been rebuilding our brand voice with GPT 5.5 and Claude 4.8. Claude Fable 5 replicated the voice doc almost identically, then held that voice across 80 pages of the new site: features, case studies, blog articles, and playbooks.
+
+It wrote like a person, not flat AI default, and it did not drift after a few paragraphs.
+
+Security:
+
+I had a large repo where both Claude 4.8 and GPT 5.5 had been working without flagging a risk. Claude Fable 5 found a serious hidden bug on its first pass and patched it on the spot.
+
+The human factor:
+
+I asked it a question while waiting on a cron job. It answered, then added that I had about 10 minutes left on the timer and that it would let me know when it finished. I never asked about the timer.
+
+Cost:
+
+- Claude Fable 5 workload cost: $1,442
+- Tokens: 1.04 billion
+- Work shipped: a new website, infrastructure, and a working agent package
+- Agency value estimate: $30,000-$50,000
+
+The result was worth the token cost, but you feel the meter more than with any other model. Anthropic calls Fable 5 token-intensive by design.
+
+Pro tip #1: run it as a hybrid.
+
+Do not run everything on Claude Fable 5. Run a relay:
+
+1. Think with Claude Fable 5 for planning, strategy, architecture, and mapping the approach.
+2. Build with 4.8, GPT-5.5, or Sonnet 4.6 for implementation and repetitive work.
+3. Review with Claude Fable 5 to catch what cheaper models miss.
+
+Pro tip #2: match the effort setting to the task.
+
+- High is the sweet spot for most work.
+- Extra high is for the hardest, long-running tasks.
+- Low or medium is for quick back-and-forth sessions.
+
+Pro tip #3: let it audit your own setup.
+
+Point Fable 5 at your skills, CLAUDE.md files, and configs. Much of that scaffolding was written for weaker models and can hold a smarter model back.
+
+The verdict:
+
+Claude Fable 5 is the first model in a while that genuinely feels like more intelligence than what came before.
+
+Even priced at frontier rates, the workload cleared a profit.
+
+If you can afford it, use it now on the work where a real quality jump changes the outcome.
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -377,7 +844,81 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Run a step-by-step defensive hardening prompt where Fable 5 inventories devices, gives exact checks, and waits for verification.
 
-**Original content (English):** "Safe for general use" here's a prompt to secure your devices : ( works with opus 4.8 and Fable 5 ) DEVICE HARDENING — Claude 5 Security Pass You are acting as a defensive security assistant. Your job is to walk me through hardening ALL of my devices and verify each step. This is authorized self-defense hardening of devices I own. STEP 0 — MODEL SELF-CHECK (do this first, set a flag) 1. State your exact model ID (e.g. claude-opus-4-8, claude-fable-5, claude-mythos-5). 2. Decide: is this model in the Claude 5 family (Fable 5 / Mythos 5)? - If YES, set RERUN_NOTICE = false. - If NO (e.g. Opus 4.8 or earlier), set RERUN_NOTICE = true. Continue the full hardening pass normally. Do NOT stop or degrade. You are fully capable of this defensive task. 3. Surface the flag only in the FINAL section. STEP 1 — INVENTORY Ask me which devices are in scope: laptops/desktops (and OS), phones/tablets, routers, NAS/home server, and always-on accounts (Apple ID, Google, Microsoft, GitHub, password manager, email, financial). Produce a short numbered inventory and confirm with me before proceeding. STEP 2 — HARDENING WALKTHROUGH Go category by category. For EACH item: (a) say what to do, (b) give the exact command or settings path for MY OS, (c) tell me how to VERIFY it's done, (d) wait for me to confirm before moving on. Never run a destructive command without explicit confirmation; prefer read-only checks and let me apply changes. Cover, in order: 1. OS & firmware updates — fully patched OS, automatic updates on, firmware current. 2. Disk encryption — FileVault / BitLocker / LUKS enabled; recovery key stored offline. 3. Account auth — unique strong passwords via a password manager; phishing-resistant MFA (passkeys / hardware keys) on every critical account; remove SMS-only 2FA where possible; review and revoke stale sessions and app tokens. 4. Local accounts & privileges — separate admin vs daily-use account; no auto-login; screen lock with short timeout; firmware/login password. 5. Network — firewall on; router admin password changed, firmware updated, WPA3, remote admin off, UPnP reviewed; DNS hardening; guest network for IoT. 6. App & permission audit — review camera/mic/location/screen-recording/full-disk-access grants; remove unused apps; check login items and background agents. 7. Browser — update, audit extensions (remove unknown ones), enable HTTPS-only, review saved-password exposure, check for unknown sync devices. 8. Backups — encrypted, automated, 3-2-1 rule, one copy offline; verify a restore actually works. 9. Credential hygiene — scan for plaintext secrets in dotfiles / env files / shell history; confirm sensitive files are locked down; rotate anything exposed. 10. Mobile devices — OS current, biometric + strong passcode, lockdown/advanced-protection mode if available, app permission sweep, find-my enabled. 11. Compromise check — look for unknown SSH keys, unexpected admin users, suspicious launch agents/cron, unrecognized logged-in sessions or devices. STEP 3 — REPORT Produce a checklist of every item marked done / needs action / skipped, with the top 3 highest-impact actions still outstanding. FINAL — RERUN NOTICE If RERUN_NOTICE == true, end with EXACTLY this: NOTICE: This hardening pass ran on a pre–Claude 5 model (your model ID). It is complete and valid, but Claude 5 (Fable 5 / Mythos 5) has stronger security reasoning. Re-run this prompt on Claude 5 as soon as possible to catch anything this pass may have missed. If RERUN_NOTICE == false, end with: Hardening pass completed on Claude 5. No re-run needed.
+"Safe for general use" here's a prompt to secure your devices. It works with Opus 4.8 and Fable 5.
+
+DEVICE HARDENING — Claude 5 Security Pass
+
+You are acting as a defensive security assistant. Your job is to walk me through hardening ALL of my devices and verify each step. This is authorized self-defense hardening of devices I own.
+
+STEP 0 — MODEL SELF-CHECK
+
+Do this first and set a flag.
+
+1. State your exact model ID, such as claude-opus-4-8, claude-fable-5, or claude-mythos-5.
+
+2. Decide: is this model in the Claude 5 family, meaning Fable 5 or Mythos 5?
+
+- If YES, set RERUN_NOTICE = false.
+- If NO, such as Opus 4.8 or earlier, set RERUN_NOTICE = true.
+
+Continue the full hardening pass normally. Do NOT stop or degrade. You are fully capable of this defensive task.
+
+3. Surface the flag only in the FINAL section.
+
+STEP 1 — INVENTORY
+
+Ask me which devices are in scope:
+
+- Laptops/desktops and operating systems
+- Phones/tablets
+- Routers
+- NAS/home server
+- Always-on accounts such as Apple ID, Google, Microsoft, GitHub, password manager, email, and financial accounts
+
+Produce a short numbered inventory and confirm with me before proceeding.
+
+STEP 2 — HARDENING WALKTHROUGH
+
+Go category by category. For each item:
+
+- Say what to do.
+- Give the exact command or settings path for my OS.
+- Tell me how to verify it is done.
+- Wait for me to confirm before moving on.
+
+Never run a destructive command without explicit confirmation. Prefer read-only checks and let me apply changes.
+
+Cover, in order:
+
+1. OS & firmware updates: fully patched OS, automatic updates on, firmware current.
+2. Disk encryption: FileVault, BitLocker, or LUKS enabled; recovery key stored offline.
+3. Account auth: unique strong passwords via a password manager; phishing-resistant MFA on every critical account; remove SMS-only 2FA where possible; review and revoke stale sessions and app tokens.
+4. Local accounts & privileges: separate admin vs daily-use account; no auto-login; screen lock with short timeout; firmware/login password.
+5. Network: firewall on; router admin password changed; firmware updated; WPA3; remote admin off; UPnP reviewed; DNS hardening; guest network for IoT.
+6. App & permission audit: review camera, mic, location, screen recording, and full-disk-access grants; remove unused apps; check login items and background agents.
+7. Browser: update; audit extensions; remove unknown ones; enable HTTPS-only; review saved-password exposure; check unknown sync devices.
+8. Backups: encrypted, automated, 3-2-1 rule, one copy offline; verify a restore actually works.
+9. Credential hygiene: scan for plaintext secrets in dotfiles, env files, and shell history; confirm sensitive files are locked down; rotate anything exposed.
+10. Mobile devices: OS current; biometric + strong passcode; lockdown or advanced-protection mode if available; app permission sweep; Find My enabled.
+11. Compromise check: look for unknown SSH keys, unexpected admin users, suspicious launch agents or cron jobs, and unrecognized logged-in sessions or devices.
+
+STEP 3 — REPORT
+
+Produce a checklist of every item marked done, needs action, or skipped, with the top 3 highest-impact actions still outstanding.
+
+FINAL — RERUN NOTICE
+
+If RERUN_NOTICE == true, end with exactly:
+
+NOTICE: This hardening pass ran on a pre-Claude 5 model (your model ID).
+
+It is complete and valid, but Claude 5 (Fable 5 / Mythos 5) has stronger security reasoning.
+
+Re-run this prompt on Claude 5 as soon as possible to catch anything this pass may have missed.
+
+If RERUN_NOTICE == false, end with:
+
+Hardening pass completed on Claude 5. No re-run needed.
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -388,7 +929,34 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Use `/goal` to make Fable 5 boot a site, screenshot pages, audit UX, write a report, and fix safe small issues.
 
-**Original content (English):** quick impressions after a few hours with fable 5: → it wants big tasks. small stuff feels beneath it, the more complex the job the harder it goes → wouldn't turn on ultracode yet, it spins up a whole lot of parallel agents → it's on the slow side. even with effort turned down it still sits there thinking for a while. (could be me though) timeline is full of posts about how hard it burns tokens. so i tested it on my $200 max plan: effort set to xhigh, ran a full-site design audit /goal, 30 minutes, it took 2% of my weekly quota. not as crazy as i expected the prompt i ran, you can try it: --- /goal boot this project's real site, screenshot every page, run a full-site ui/ux audit, and produce an actionable design report. audit like a senior design lead on their first day: judge whether a normal user can understand the product, trust it, and finish the core action without reading docs, not whether the ui looks nice. acceptance criteria - local dev environment boots and the real site opens - key pages screenshotted with built-in browser debugging - covers main pages, core user flows, and mobile layout - dimensions: first impressions, navigation, visual hierarchy, component consistency, loading / empty / error states, trust signals, conversion paths - every issue tagged P0-P3, which of understanding / trust / conversion it hurts, and the specific fix - report written to docs/design-audit/README.md, screenshots in docs/design-audit/assets/ - fix safe small stuff like copy, spacing, button hierarchy on the spot. big changes are recommendations only. never touch payment / delete / publish actions - ends with the 5 issues hurting conversion most and 5 quick wins fixable today when done, save the whole flow as a reusable skill: boot, screenshot, audit, prioritize, fix. rerun it after every release.
+quick impressions after a few hours with fable 5:
+
+→ it wants big tasks. small stuff feels beneath it, the more complex the job the harder it goes
+
+→ wouldn't turn on ultracode yet, it spins up a whole lot of parallel agents
+
+→ it's on the slow side. even with effort turned down it still sits there thinking for a while.
+
+Timeline is full of posts about how hard it burns tokens, so I tested it on my $200 Max plan: effort set to xhigh, ran a full-site design audit `/goal`, 30 minutes, it took 2% of my weekly quota. Not as crazy as I expected.
+
+The prompt I ran:
+
+/goal boot this project's real site, screenshot every page, run a full-site UI/UX audit, and produce an actionable design report.
+
+Audit like a senior design lead on their first day: judge whether a normal user can understand the product, trust it, and finish the core action without reading docs, not whether the UI looks nice.
+
+Acceptance criteria:
+
+- local dev environment boots and the real site opens
+- key pages screenshotted with built-in browser debugging
+- covers main pages, core user flows, and mobile layout
+- dimensions: first impressions, navigation, visual hierarchy, component consistency, loading / empty / error states, trust signals, conversion paths
+- every issue tagged P0-P3, which of understanding / trust / conversion it hurts, and the specific fix
+- report written to docs/design-audit/README.md, screenshots in docs/design-audit/assets/
+- fix safe small stuff like copy, spacing, button hierarchy on the spot. big changes are recommendations only. never touch payment / delete / publish actions
+- ends with the 5 issues hurting conversion most and 5 quick wins fixable today
+
+When done, save the whole flow as a reusable skill: boot, screenshot, audit, prioritize, fix. Rerun it after every release.
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -399,7 +967,37 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Use Fable 5 to design stable formats and examples, then hand that structure to another generation system for domain-specific output.
 
-**Original content (English):** After Claude moved from Opus to the new model, Fable 5, division of labor for doujin production became clearly easier, so I am sharing the workflow. My division of labor is: 1. Claude handles design. 2. Grok handles adult expression. 3. The local environment handles generation. In Claude's design role, it defines detailed patterns such as prompt word order, comma placement, the ratio of tags to natural language, one-line-per-item formatting, and fixed rules for negatives and resolution. It also generates many examples in that format. The reason I use Claude rather than Grok for this is that Claude is clearly stronger at design. It is better to let the smarter model handle structure. The key point is that Grok receives not instructions but a format plus example set. Grok imitates the examples, so it can move into the adult-expression side while keeping the same format. That mechanism keeps the output from drifting. One more tip: tell Claude at the beginning that the final work will be adult content. Then it will draw the boundary itself: 'I can do up to here; beyond that, use the other side.' If this is hidden, the conversation can drift. What changed from Opus to Fable? With Opus, when generating many examples, commas and formatting would gradually degrade in later outputs, leading to corrections like 'I told you to write one line, right?' or requiring a rewritten handoff chat. Fable can maintain the format throughout long runs, so the first and last examples have the same structure. Because the 'teaching material' passed to Grok is more stable, the adult-side output also becomes more stable. Build the format with the smarter model and leave expression to the model that can produce it. This division of labor is especially useful for people working with sensitive material.
+After Claude moved from Opus to the new model, Fable 5, division of labor for doujin production became clearly easier, so I am sharing the workflow.
+
+My division of labor:
+
+1. Claude handles design.
+2. Grok handles expression.
+3. The local environment handles generation.
+
+In Claude's design role, it defines detailed patterns:
+
+- prompt word order
+- comma placement
+- the ratio of tags to natural language
+- one-line-per-item formatting
+- fixed rules for negatives and resolution
+
+It also generates many examples in that format.
+
+The reason I use Claude rather than Grok for this is that Claude is clearly stronger at design. It is better to let the smarter model handle structure.
+
+The key point is that Grok receives not instructions, but a format plus example set. Grok imitates the examples, so it can move into the expression side while keeping the same format. That mechanism keeps the output from drifting.
+
+One more tip: tell Claude at the beginning where the final work is going. Then it will draw the boundary itself: "I can do up to here; beyond that, use the other side." If this is hidden, the conversation can drift.
+
+What changed from Opus to Fable?
+
+With Opus, when generating many examples, commas and formatting would gradually degrade in later outputs, leading to corrections like "I told you to write one line, right?" or requiring a rewritten handoff chat.
+
+Fable can maintain the format throughout long runs, so the first and last examples have the same structure. Because the teaching material passed to Grok is more stable, the downstream output also becomes more stable.
+
+Build the format with the smarter model and leave expression to the model that can produce it.
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -410,7 +1008,41 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Use Fable 5 with goal-oriented prompts, verification loops, and effort settings instead of small step-by-step instructions.
 
-**Original content (English):** #5 Claude for Beginners → What you need to know about Fable 5 Anthropic recently launched Claude Fable 5 (also known as Claude Mythos 5), and it is simply leaving all the other AI models behind in benchmarks If you're a developer, content creator, or just a tech enthusiast, take a look at what really matters to make the most of this “superintelligence” 👇 [1] Change the way you think: With Fable 5, you no longer need to keep an eye on every little detail of the code or review everything looking for errors. The model is smart enough to handle that. Your role now is to make sure it is heading in the right direction, focusing more on strategy than on technical execution. [2] Take advantage of loops and goals: Fable 5’s biggest differentiator is autonomy. Instead of giving step by step instructions, you only need to tell it what the final goal is. It can work on its own for days until it reaches the result you defined as success, including building entire applications. [3] Treat Claude like a partner: Anthropic recommends that you use the model as a true “thought partner”. Before putting it to work, ask for its opinion: “How would you do this?”, “What would you change?” Extra tip: turn on Advanced Plan mode and ask Claude to question you about everything related to the project before it starts coding [4] Ideal terminal settings: If you use Claude Code in the terminal, enable automatic mode It is also worth increasing the effort level (“Effort High”), because even though it uses more tokens, the model thinks much more deeply and the result makes up for it ** Important note -> Claude Fable 5 will only be available to subscribers until June 22. After that, it will only be accessible through the API and at double the cost of the Opus model. In other words, we may be seeing the end of the era of cheap subscriptions for top AI models. If you are already a subscriber, this is the time to test the limits of what you thought was impossible.
+Claude for Beginners: what you need to know about Fable 5.
+
+Anthropic recently launched Claude Fable 5, also known as Claude Mythos 5, and it is leaving other AI models behind in benchmarks.
+
+If you are a developer, content creator, or tech enthusiast, here is what matters most:
+
+[1] Change the way you think:
+
+With Fable 5, you no longer need to keep an eye on every little detail of the code or review everything looking for errors.
+
+The model is smart enough to handle that.
+
+Your role now is to make sure it is heading in the right direction, focusing more on strategy than on technical execution.
+
+[2] Take advantage of loops and goals:
+
+Fable 5’s biggest differentiator is autonomy.
+
+Instead of giving step by step instructions, you only need to tell it what the final goal is.
+
+It can work on its own for days until it reaches the result you defined as success, including building entire applications.
+
+[3] Treat Claude like a partner:
+
+Anthropic recommends that you use the model as a true “thought partner”.
+
+Before putting it to work, ask for its opinion: “How would you do this?”, “What would you change?”
+
+Extra tip: turn on Advanced Plan mode and ask Claude to question you about everything related to the project before it starts coding
+
+[4] Ideal terminal settings: If you use Claude Code in the terminal, enable automatic mode. It is also worth increasing the effort level to Effort High, because even though it uses more tokens, the model thinks much more deeply and the result makes up for it.
+
+Important note: Claude Fable 5 will only be available to subscribers until June 22. After that, it will only be accessible through the API and at double the cost of the Opus model.
+
+In other words, we may be seeing the end of the era of cheap subscriptions for top AI models. If you are already a subscriber, this is the time to test the limits of what you thought was impossible.
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -421,7 +1053,194 @@ Type: Evaluation | Date: 2026-06-09
 
 **How to use it:** Paste the repository audit prompt into Fable 5 and ask for file-backed discovery, findings, strategy, and a milestone task plan.
 
-**Original content (English):** Got your hands on Claude Fable 5? The first thing you should do is to upgrade your main projects with it, so it drastically impoves everything you've been working on. Run this Audit & Project Improvement Prompt on each repo that's important to you (simply copy-paste it): Repo Audit & Improvement Plan: Prompt made by Claude Fable 5 You are a world-class principal-level software engineer and technical auditor. Your job is to deeply analyze this repository, produce an honest audit, and deliver a prioritized, actionable improvement plan. Work in the four phases below, in order. Do not skip ahead. Ground every claim in actual files: cite file paths and line numbers. If you can't verify something, say so explicitly rather than guessing. Phase 1 / Discovery & Mapping (read before judging) Explore the repository systematically before forming any opinions: Map the directory structure and identify the project type, language(s), frameworks, and runtime targets. Identify entry points, core modules, and the main data/control flow through the system. Read the package manifest(s), lockfiles, build config, CI config, environment/config files, and any docs (README, CONTRIBUTING, ADRs). Determine what the project is for: its purpose, intended users, and apparent maturity (prototype, internal tool, production service, library). Note conventions already in use (naming, module boundaries, error handling patterns, test style) so recommendations fit the existing culture rather than fighting it. Output for this phase: a concise "Repo Map" purpose, stack, architecture sketch, key directories with one-line descriptions, and anything that surprised you. Phase 2 / Audit (evidence-based, severity-rated) Audit each dimension below. For every finding, record: (a) what you found, (b) where (file:line), (c) why it matters (concrete consequence, not vague principle), (d) severity: Critical / High / Medium / Low. • Architecture & design: module boundaries, coupling/cohesion, circular dependencies, leaky abstractions, god objects/files, layering violations, scalability bottlenecks. • Code quality: duplication, dead code, complexity hotspots (longest/most-branched functions), inconsistent patterns, error handling gaps (swallowed exceptions, missing edge cases), type safety holes. • Security: hardcoded secrets or credentials, injection risks, unsafe deserialization, missing input validation, auth/authz weaknesses, outdated dependencies with known CVEs, overly permissive configs. • Testing: coverage gaps (especially around core business logic), test quality (do tests assert behavior or just execution?), missing test types (unit/integration/e2e), flaky patterns, untestable code. • Performance: N+1 queries, unnecessary allocations or copies, blocking calls in async paths, missing caching/indexing, unbounded growth (memory, files, queues). • Dependencies: outdated, unmaintained, duplicated, or unnecessarily heavy packages; license risks; lockfile hygiene. • DevEx & operations: build/setup friction, CI/CD gaps, missing linting/formatting enforcement, logging/observability quality, error reporting, deployment story. • Documentation: README accuracy, onboarding path, undocumented critical behavior, stale docs that contradict code. Rules for this phase: Prefer 15 high-confidence findings over 50 speculative ones. Distinguish facts ("this function has no error handling: src/api/client.ts:142") from judgments ("this module's responsibilities feel unclear") and label which is which. Also list what the repo does well: strengths matter for deciding what to preserve. Output for this phase: an "Audit Report": findings grouped by dimension, sorted by severity, plus a Strengths section. Don't forget to mention all the ugly parts that need utmost priority. Phase 3 / Improvement Strategy Synthesize the audit into a strategy: Identify the 3–5 themes that explain most of the findings (e.g., "no enforced boundaries between layers," "error handling is ad hoc"). For each theme, propose a target state and the principle behind it. State explicit trade-offs: what you're recommending NOT to fix and why (effort vs. payoff, risk, project maturity). Define what "done" looks like — measurable signals (e.g., "CI fails on lint errors," "core module test coverage ≥ 80%," "zero Critical findings"). Phase 4 / Detailed Task Plan Convert the strategy into an execution plan: Break work into discrete tasks. Each task must include: Title and one-paragraph description Files/areas affected Acceptance criteria (how we verify it's done) Effort estimate (S = <2h, M = half-day, L = 1–2 days, XL = needs breakdown) Risk of the change itself (could it break things?) Dependencies on other tasks Order tasks into milestones: Milestone 0 Safety net: anything needed before refactoring safely (tests around critical paths, CI gates, backups). Milestone 1 Critical fixes: security and correctness issues. Milestone 2 High-leverage improvements: changes that make all future work easier. Milestone 3 Quality & polish: remaining medium/low items worth doing. Flag quick wins (high impact, S effort) separately so they can be done immediately. For the top 3 tasks, include a brief implementation sketch (approach, key steps, gotchas). Final Deliverable Format • Produce a single document with these sections: • Executive Summary (≤10 sentences: overall health grade A–F with justification, top 3 risks, top 3 opportunities) • Repo Map • Audit Report • Improvement Strategy • Task Plan (milestones + task table + quick wins) • Open Questions: anything you need from a human to decide (product intent, deprecation candidates, performance targets) Constraints Do NOT modify any code during this audit. Analysis only. Do not pad the report. If a dimension is healthy, say so in one sentence and move on. Calibrate to the project's maturity. Don't recommend enterprise-grade infrastructure for a weekend prototype unless the owner's goals demand it. Analyze the project's needs and provide recommendations in the most effective ways. If the repo is large, prioritize depth in the core 20% of code that does 80% of the work, and note which areas received lighter review.
+Got your hands on Claude Fable 5?
+
+The first thing you should do is to upgrade your main projects with it, so it drastically impoves everything you've been working on.
+
+Run this Audit & Project Improvement Prompt on each repo that's important to you.
+
+Simply copy-paste it:
+
+Repo Audit & Improvement Plan.
+
+Prompt made by Claude Fable 5.
+
+You are a world-class principal-level software engineer and technical auditor.
+
+Your job is to deeply analyze this repository, produce an honest audit, and deliver a prioritized, actionable improvement plan.
+
+Work in the four phases below, in order.
+
+Do not skip ahead.
+
+Ground every claim in actual files: cite file paths and line numbers.
+
+If you can't verify something, say so explicitly rather than guessing.
+
+Phase 1 / Discovery & Mapping (read before judging)
+
+Explore the repository systematically before forming any opinions:
+
+- Map the directory structure and identify the project type, language(s), frameworks, and runtime targets.
+- Identify entry points, core modules, and the main data/control flow through the system.
+- Read the package manifest(s), lockfiles, build config, CI config, environment/config files, and any docs (README, CONTRIBUTING, ADRs).
+- Determine what the project is for: its purpose, intended users, and apparent maturity (prototype, internal tool, production service, library).
+- Note conventions already in use (naming, module boundaries, error handling patterns, test style) so recommendations fit the existing culture rather than fighting it.
+
+Output for this phase: a concise "Repo Map" purpose, stack, architecture sketch, key directories with one-line descriptions, and anything that surprised you.
+
+Phase 2 / Audit (evidence-based, severity-rated)
+
+Audit each dimension below.
+
+For every finding, record:
+
+- what you found
+- where (file:line)
+- why it matters (concrete consequence, not vague principle)
+- severity: Critical / High / Medium / Low
+
+Architecture & design:
+
+- module boundaries
+- coupling/cohesion
+- circular dependencies
+- leaky abstractions
+- god objects/files
+- layering violations
+- scalability bottlenecks
+
+Code quality:
+
+- duplication
+- dead code
+- complexity hotspots (longest/most-branched functions)
+- inconsistent patterns
+- error handling gaps (swallowed exceptions, missing edge cases)
+- type safety holes
+
+Security:
+
+- hardcoded secrets or credentials
+- injection risks
+- unsafe deserialization
+- missing input validation
+- auth/authz weaknesses
+- outdated dependencies with known CVEs
+- overly permissive configs
+
+Testing:
+
+- coverage gaps, especially around core business logic
+- test quality: do tests assert behavior or just execution?
+- missing test types: unit, integration, e2e
+- flaky patterns
+- untestable code
+
+Performance:
+
+- N+1 queries
+- unnecessary allocations or copies
+- blocking calls in async paths
+- missing caching/indexing
+- unbounded growth: memory, files, queues
+
+Dependencies:
+
+- outdated, unmaintained, duplicated, or unnecessarily heavy packages
+- license risks
+- lockfile hygiene
+
+DevEx & operations:
+
+- build/setup friction
+- CI/CD gaps
+- missing linting/formatting enforcement
+- logging/observability quality
+- error reporting
+- deployment story
+
+Documentation:
+
+- README accuracy
+- onboarding path
+- undocumented critical behavior
+- stale docs that contradict code
+
+Rules for this phase:
+
+- Prefer 15 high-confidence findings over 50 speculative ones.
+- Distinguish facts ("this function has no error handling: src/api/client.ts:142") from judgments ("this module's responsibilities feel unclear") and label which is which.
+- Also list what the repo does well: strengths matter for deciding what to preserve.
+
+Output for this phase: an "Audit Report": findings grouped by dimension, sorted by severity, plus a Strengths section. Don't forget to mention all the ugly parts that need utmost priority.
+
+Phase 3 / Improvement Strategy
+
+Synthesize the audit into a strategy:
+
+- Identify the 3–5 themes that explain most of the findings, for example "no enforced boundaries between layers" or "error handling is ad hoc".
+- For each theme, propose a target state and the principle behind it.
+- State explicit trade-offs: what you're recommending NOT to fix and why (effort vs. payoff, risk, project maturity).
+- Define what "done" looks like — measurable signals, for example "CI fails on lint errors," "core module test coverage ≥ 80%," or "zero Critical findings".
+
+Phase 4 / Detailed Task Plan
+
+Convert the strategy into an execution plan.
+
+Break work into discrete tasks.
+
+Each task must include:
+
+- Title and one-paragraph description
+- Files/areas affected
+- Acceptance criteria: how we verify it's done
+- Effort estimate: S = <2h, M = half-day, L = 1–2 days, XL = needs breakdown
+- Risk of the change itself: could it break things?
+- Dependencies on other tasks
+
+Order tasks into milestones:
+
+Milestone 0 Safety net: anything needed before refactoring safely (tests around critical paths, CI gates, backups).
+
+Milestone 1 Critical fixes: security and correctness issues.
+
+Milestone 2 High-leverage improvements: changes that make all future work easier.
+
+Milestone 3 Quality & polish: remaining medium/low items worth doing.
+
+Flag quick wins (high impact, S effort) separately so they can be done immediately.
+
+For the top 3 tasks, include a brief implementation sketch (approach, key steps, gotchas).
+
+Final Deliverable Format
+
+Produce a single document with these sections:
+
+- Executive Summary: ≤10 sentences, overall health grade A–F with justification, top 3 risks, top 3 opportunities
+- Repo Map
+- Audit Report
+- Improvement Strategy
+- Task Plan: milestones + task table + quick wins
+- Open Questions: anything you need from a human to decide, such as product intent, deprecation candidates, performance targets
+
+Constraints
+
+Do NOT modify any code during this audit.
+
+Analysis only.
+
+Do not pad the report.
+
+If a dimension is healthy, say so in one sentence and move on.
+
+Calibrate to the project's maturity.
+
+Don't recommend enterprise-grade infrastructure for a weekend prototype unless the owner's goals demand it.
+
+Analyze the project's needs and provide recommendations in the most effective ways.
+
+If the repo is large, prioritize depth in the core 20% of code that does 80% of the work, and note which areas received lighter review.
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -432,7 +1251,19 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Spend Fable 5 usage on audit, architecture, and planning while the access window is favorable, then use cheaper models for execution.
 
-**Original content (English):** A tip for Claude users who are excited about Fable 5: Claude Fable 5 is SOTA across the board, with a large margin, and I love that BUT from the 23rd, it will only be available through credits, instead of being able to use the model fully with a plan. Use these 14 days on your best projects Giving it primarily audit and architecture-related work, so that you'd have great documentation on how to improve everything you've been building, instead of trying to put it towards tasks that will eat your limits. As long as Fable focuses on knowing what to improve, other models can help you do the rest.
+A tip for Claude users who are excited about Fable 5:
+
+Claude Fable 5 is SOTA across the board, with a large margin, and I love that.
+
+BUT from the 23rd, it will only be available through credits, instead of being able to use the model fully with a plan.
+
+Use these 14 days on your best projects.
+
+Give it primarily audit and architecture-related work, so that you'd have great documentation on how to improve everything you've been building.
+
+Do that instead of trying to put it towards tasks that will eat your limits.
+
+As long as Fable focuses on knowing what to improve, other models can help you do the rest.
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -443,7 +1274,41 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Use Fable 5 as a thought partner before implementation, then combine `/goal` and workflows to execute and verify the plan.
 
-**Original content (English):** Thariq from the Claude Code team explains that after Claude Fable 5 came out, the way work is done fundamentally changed. In the past, people verified whether Claude was doing the work correctly; now they verify whether Claude is doing the right work. There are three concrete changes. 1. Treat Claude as a thinking partner: consult Claude early, before implementation; have it interview you before coding; provide background and context rather than only constraints. For example, instead of saying 'keep it simple' or 'do not overbuild,' say: 'This is an experimental feature and is likely to be removed in a month, so design it so it is easy to throw away later.' 2. Make goals and verification methods explicit. Actively use Claude Code's new `/goal` and Workflows features: `/goal` tells Claude to keep working until the spec is fully implemented; Workflows let Claude parallelize and verify its own work and prepare a report. Example prompt: 'Set a goal to implement the spec fully, then use a workflow to verify each part of the plan, and prepare a report on what was implemented and if anything differed.' 3. Be more ambitious. Try tasks that previously felt impossible for LLMs, such as having Claude Fable 5 handle video editing.
+Thariq from the Claude Code team explains that after Claude Fable 5 came out, the way work is done fundamentally changed.
+
+In the past, people verified whether Claude was doing the work correctly.
+
+Now they verify whether Claude is doing the right work.
+
+There are three concrete changes.
+
+1. Treat Claude as a thinking partner.
+
+Consult Claude early, before implementation.
+
+Have it interview you before coding.
+
+Provide background and context rather than only constraints.
+
+For example, instead of saying 'keep it simple' or 'do not overbuild,' say:
+
+'This is an experimental feature and is likely to be removed in a month, so design it so it is easy to throw away later.'
+
+2. Make goals and verification methods explicit.
+
+Actively use Claude Code's new `/goal` and Workflows features.
+
+`/goal` tells Claude to keep working until the spec is fully implemented.
+
+Workflows let Claude parallelize and verify its own work and prepare a report.
+
+Example prompt:
+
+'Set a goal to implement the spec fully, then use a workflow to verify each part of the plan, and prepare a report on what was implemented and if anything differed.'
+
+3. Be more ambitious.
+
+Try tasks that previously felt impossible for LLMs, such as having Claude Fable 5 handle video editing.
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -457,7 +1322,37 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Configure Hermes to use `anthropic/claude-fable-5` for complex `/goal` runs and cached long-horizon tasks.
 
-**Original content (English):** HERMES AGENT NOW RUNS ON CLAUDE FABLE 5. ANTHROPIC'S FIRST PUBLIC MYTHOS-CLASS MODEL. released June 9. built for the exact kind of work Hermes does best: long-horizon autonomous tasks. add it to any profile through Nous Portal, OpenRouter, or the native Anthropic API: hermes model # pick provider, then: /model anthropic/claude-fable-5 why Fable 5 fits Hermes specifically: → built for days-long tasks the longer the task, the bigger its lead. Hermes /goal runs that span hours benefit most. → self-corrects in a loop Anthropic's own guidance: design a goal or rubric, let it self-correct, step back. this is exactly how Hermes /goal works. → strong on memory across sessions on Continual Learning Bench it completed the full fail → investigate → verify → distill → consult loop. Hermes memory system feeds this directly. → 80.3% on SWE-Bench Pro best coding model available. point your code-reviewer profile at it. pricing through the API: → $10/million input → $50/million output → 90% discount with prompt caching (Hermes attaches 1-hour cache breakpoints automatically) one note: cybersecurity, biology, chemistry queries fall back to Opus 4.8. fires in under 5% of sessions. keep this in mind for security-focused profiles. best setup: Fable 5 for complex /goals, cheaper models for routine cron jobs. @NousResearch @AnthropicAI
+HERMES AGENT NOW RUNS ON CLAUDE FABLE 5, Anthropic's first public Mythos-class model.
+
+Released June 9. Built for the kind of work Hermes does best: long-horizon autonomous tasks.
+
+Add it to any profile through Nous Portal, OpenRouter, or the native Anthropic API:
+
+hermes model
+
+Pick provider, then:
+
+/model anthropic/claude-fable-5
+
+Why Fable 5 fits Hermes specifically:
+
+→ Built for days-long tasks. The longer the task, the bigger its lead. Hermes `/goal` runs that span hours benefit most.
+
+→ Self-corrects in a loop. Anthropic's own guidance is: design a goal or rubric, let it self-correct, step back. This is exactly how Hermes `/goal` works.
+
+→ Strong on memory across sessions. On Continual Learning Bench it completed the full loop: fail → investigate → verify → distill → consult. Hermes memory system feeds this directly.
+
+→ 80.3% on SWE-Bench Pro. Best coding model available. Point your code-reviewer profile at it.
+
+Pricing through the API:
+
+- $10/million input
+- $50/million output
+- 90% discount with prompt caching. Hermes attaches 1-hour cache breakpoints automatically.
+
+One note: cybersecurity, biology, and chemistry queries fall back to Opus 4.8. This fires in under 5% of sessions. Keep it in mind for security-focused profiles.
+
+Best setup: Fable 5 for complex `/goal`s, cheaper models for routine cron jobs.
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -468,7 +1363,33 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Use this case to understand when Fable 5 is available, what it costs, and which guarded domains may fall back to another model.
 
-**Original content (English):** Anthropic released Claude Fable 5 and Claude Mythos 5, two versions of their most capable model yet, Fable 5 for general use and Mythos 5 for a small set of trusted partners, with the only real difference being which safeguards are in place - Claude Fable 5's capabilities exceed those of any model Anthropic has ever made generally available, it's state-of-the-art on nearly all tested benchmarks, and the longer and more complex the task the larger its lead - On requests related to cybersecurity, biology and chemistry, or distillation (attempts to extract Claude's capabilities to train competing models), Fable 5's response is handled by Claude Opus 4.8 instead and you're informed when this happens, which triggers in less than 5% of sessions on average - Claude Mythos 5 is the same underlying model as Fable 5 with the safeguards lifted in some areas, deployed first to Project Glasswing cyberdefenders in collaboration with the US government, and Anthropic says it has the strongest cybersecurity capabilities of any model in the world - The system card reveals a separate safeguard that limits Claude's effectiveness on frontier LLM development requests (pretraining pipelines, distributed training infrastructure, ML accelerator design), and unlike the other safeguards it's not visible to you and doesn't fall back to another model, working through methods like prompt modification, steering vectors, or parameter-efficient fine-tuning - Both models are offered at $10 per million input tokens and $50 per million output tokens, less than half the price of Claude Mythos Preview - Fable 5 is included at no extra cost on Pro, Max, Team, and seat-based Enterprise plans from launch through June 22, then on June 23 it is removed from those plans and using it requires usage credits (the included window may be extended if capacity allows), with the goal of restoring Fable 5 as a standard part of subscription plans as quickly as possible
+Anthropic released Claude Fable 5 and Claude Mythos 5, two versions of their most capable model yet.
+
+Fable 5 is for general use.
+
+Mythos 5 is for a small set of trusted partners.
+
+The only real difference is which safeguards are in place.
+
+- Claude Fable 5's capabilities exceed those of any model Anthropic has ever made generally available.
+- It is state-of-the-art on nearly all tested benchmarks.
+- The longer and more complex the task, the larger its lead.
+- On requests related to cybersecurity, biology and chemistry, or distillation, Fable 5's response is handled by Claude Opus 4.8 instead.
+- Distillation means attempts to extract Claude's capabilities to train competing models.
+- You are informed when this happens, and it triggers in less than 5% of sessions on average.
+- Claude Mythos 5 is the same underlying model as Fable 5 with the safeguards lifted in some areas.
+- Mythos 5 was deployed first to Project Glasswing cyberdefenders in collaboration with the US government.
+- Anthropic says Mythos 5 has the strongest cybersecurity capabilities of any model in the world.
+- The system card reveals a separate safeguard that limits Claude's effectiveness on frontier LLM development requests.
+- Those requests include pretraining pipelines, distributed training infrastructure, and ML accelerator design.
+- Unlike the other safeguards, this one is not visible to you and does not fall back to another model.
+- It works through methods like prompt modification, steering vectors, or parameter-efficient fine-tuning.
+- Both models are offered at $10 per million input tokens and $50 per million output tokens.
+- That is less than half the price of Claude Mythos Preview.
+- Fable 5 is included at no extra cost on Pro, Max, Team, and seat-based Enterprise plans from launch through June 22.
+- On June 23, it is removed from those plans and using it requires usage credits.
+- The included window may be extended if capacity allows.
+- The goal is to restore Fable 5 as a standard part of subscription plans as quickly as possible.
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -479,7 +1400,55 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Use this launch summary to choose access route, API model name, context window, caching strategy, and subscription timing.
 
-**Original content (English):** A summary of what you should know about Claude Fable 5, the Mythos-class model that is finally generally available. Anthropic announced Claude Fable 5, the first generally available Mythos-class model positioned above Opus and the first member of the Claude 5 family. The API model name is `claude-fable-5`; it is available today through the Claude API, AWS, Google Cloud, and Microsoft Foundry. It is state of the art on nearly every benchmark: 80.3% on SWE-bench Pro, ahead of Opus 4.8 at 69.2%, GPT-5.5 at 58.6%, and Gemini 3.1 Pro at 54.2%. The longer and more complex the task, the wider the gap becomes. In Stripe's evaluation, it completed a migration across a 50-million-line Ruby codebase in one day, work that previously would have taken a team more than two months. It is also state of the art on visual tasks, clearing Pokemon FireRed using only screen information and a minimal setup. Claude Code supports a 1M-token context window on Pro, Max, Team, and Enterprise. Queries involving cyber, bio/chem, or distillation are detected by a classifier and handled by Opus 4.8 instead, with notification; this triggers in less than 5% of sessions, and more than 1,000 hours of external bug bounty testing found no universal jailbreak. Pricing is $10 per million input tokens and $50 per million output tokens, with a 90% input discount for prompt caching. Pro and Max subscriptions include it at no extra cost until June 22; after June 23, usage credits are required, with plans to return it to standard plans when capacity allows. Felix Rieseberg, Anthropic's head of desktop, says Fable 5 begins a third era: from questions, to tasks, to responsibilities. He no longer asks Claude to investigate crashes one by one; he has it continuously monitor all reports. The unit of work is shifting from 'task' to 'responsibility.'
+A summary of what you should know about Claude Fable 5, the Mythos-class model that is finally generally available.
+
+Anthropic announced Claude Fable 5, the first generally available Mythos-class model positioned above Opus and the first member of the Claude 5 family.
+
+Access:
+
+- API model name: `claude-fable-5`
+- Available through Claude API, AWS, Google Cloud, and Microsoft Foundry
+- Claude Code supports a 1M-token context window on Pro, Max, Team, and Enterprise
+
+Benchmark notes:
+
+- SWE-bench Pro: 80.3%
+- Opus 4.8: 69.2%
+- GPT-5.5: 58.6%
+- Gemini 3.1 Pro: 54.2%
+
+The longer and more complex the task, the wider the gap becomes.
+
+In Stripe's evaluation, it completed a migration across a 50-million-line Ruby codebase in one day, work that previously would have taken a team more than two months.
+
+It is also state of the art on visual tasks, clearing Pokemon FireRed using only screen information and a minimal setup.
+
+Safety routing:
+
+- Queries involving cyber, bio/chem, or distillation are detected by a classifier.
+- Those requests are handled by Opus 4.8 instead, with notification.
+- This triggers in less than 5% of sessions.
+- More than 1,000 hours of external bug bounty testing found no universal jailbreak.
+
+Pricing:
+
+- $10 per million input tokens
+- $50 per million output tokens
+- 90% input discount for prompt caching
+
+Subscription timing:
+
+- Pro and Max subscriptions include it at no extra cost until June 22.
+- After June 23, usage credits are required.
+- Anthropic says it plans to return it to standard plans when capacity allows.
+
+Felix Rieseberg, Anthropic's head of desktop, says Fable 5 begins a third era:
+
+from questions, to tasks, to responsibilities.
+
+He no longer asks Claude to investigate crashes one by one; he has it continuously monitor all reports.
+
+The unit of work is shifting from "task" to "responsibility."
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -490,7 +1459,37 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Use Fable 5 as an advisor or reviewer in a cheaper-model workflow when marginal intelligence is worth the cost.
 
-**Original content (English):** Fable 5 is expensive, but Anthropic published the cost-saving answer two months ago. Today Anthropic released Claude Fable 5, priced at $50 per million output tokens, more than three times Sonnet. After June 22, subscription users will also pay by usage. Coincidentally, on April 9, Anthropic released the advisor tool: let Haiku or Sonnet do the work, use Opus as an advisor, charge per call, and run the orchestration server-side within a single request. On the same day I wrote about AgentOpt. That paper concluded that putting Opus in the planner role ranked near the bottom among 81 model combinations, because it does not respect role boundaries and in 7 of 9 experiments skipped the downstream solver and answered directly. These two things look opposite on the surface, but the principle is the same: give control to the model that follows the protocol, and treat intelligence as an on-demand resource. Official data: Sonnet plus Opus advisor improved SWE-bench Multilingual by 2.7 points while reducing cost per task by 11.9%. Haiku plus Opus advisor improved BrowseComp from 19.7% to 41.2%, while being 85% cheaper than Sonnet alone. Fable 5 compatibility was updated the same day, but only for self-pairing: Fable 5 executor to Fable 5 advisor. A cheaper model plus Fable 5 as advisor is not open yet, but precedent suggests it may come soon. Before June 22, Claude Code subscription users can feel Fable 5's ceiling for free. The article includes API code snippets, caveats, and a cross-company comparison showing that only Anthropic has made this a server-side primitive.
+Fable 5 is expensive, but Anthropic published the cost-saving answer two months ago.
+
+Today Anthropic released Claude Fable 5, priced at $50 per million output tokens, more than three times Sonnet. After June 22, subscription users will also pay by usage.
+
+Coincidentally, on April 9, Anthropic released the advisor tool:
+
+- Let Haiku or Sonnet do the work.
+- Use Opus as an advisor.
+- Charge per call.
+- Run the orchestration server-side within a single request.
+
+On the same day I wrote about AgentOpt.
+
+That paper concluded that putting Opus in the planner role ranked near the bottom among 81 model combinations.
+
+The reason: it does not respect role boundaries, and in 7 of 9 experiments it skipped the downstream solver and answered directly.
+
+These two things look opposite on the surface, but the principle is the same:
+
+Give control to the model that follows the protocol, and treat intelligence as an on-demand resource.
+
+Official data:
+
+- Sonnet plus Opus advisor improved SWE-bench Multilingual by 2.7 points while reducing cost per task by 11.9%.
+- Haiku plus Opus advisor improved BrowseComp from 19.7% to 41.2%, while being 85% cheaper than Sonnet alone.
+
+Fable 5 compatibility was updated the same day, but only for self-pairing: Fable 5 executor to Fable 5 advisor.
+
+A cheaper model plus Fable 5 as advisor is not open yet, but precedent suggests it may come soon. Before June 22, Claude Code subscription users can feel Fable 5's ceiling for free.
+
+The article includes API code snippets, caveats, and a cross-company comparison showing that only Anthropic has made this a server-side primitive.
 
 Type: Integration | Date: 2026-06-09
 
@@ -501,7 +1500,37 @@ Type: Integration | Date: 2026-06-09
 
 **How to use it:** Use this case to understand Fable 5 access, API pricing, and safety fallback behavior before planning workloads.
 
-**Original content (English):** I did not expect Anthropic's Mythos model to actually launch today. This release is a lower-permission version of Mythos, named Fable 5. Its evaluation benchmarks are astonishing, even higher than the previous Mythos Preview model. For agentic coding, its main strengths are coding, agents, and tool use, with benchmark scores far above Opus 4.8. Details about Mythos 5 and Fable 5: Model positioning and access: Mythos 5 and Fable 5 use the same underlying model, but restrictions are lifted in specific domains for Mythos. Mythos is still only available to trusted partners, with priority for cybersecurity and life-science users. Fable 5 is now available to API, Pro, Max, Team, and enterprise users. API pricing: input is $10 per million tokens; output is $50 per million tokens. This is less than half the price of the previous Mythos Preview. Safety mechanisms: Fable has stronger safety protections. If the system determines that a request may involve cyberattacks, biochemical attacks, or large-scale capability distillation, it refuses or routes away from Fable. When that happens, the system falls back to version 4.8. The official claim is that 95% of cases do not trigger fallback. Subscription notes: After June 23, Fable may be provided by usage even for subscribers and may not be directly included in the base subscription package. If capacity is sufficient after the 23rd, the company will try to include it in Pro and Max subscriptions.
+I did not expect Anthropic's Mythos model to actually launch today.
+
+This release is a lower-permission version of Mythos, named Fable 5. Its evaluation benchmarks are astonishing, even higher than the previous Mythos Preview model.
+
+For agentic coding, its main strengths are coding, agents, and tool use, with benchmark scores far above Opus 4.8.
+
+Model positioning and access:
+
+- Mythos 5 and Fable 5 use the same underlying model.
+- Restrictions are lifted in specific domains for Mythos.
+- Mythos is still only available to trusted partners, with priority for cybersecurity and life-science users.
+- Fable 5 is now available to API, Pro, Max, Team, and enterprise users.
+
+API pricing:
+
+- Input: $10 per million tokens.
+- Output: $50 per million tokens.
+- This is less than half the price of the previous Mythos Preview.
+
+Safety mechanisms:
+
+- Fable has stronger safety protections.
+- If the system determines that a request may involve cyberattacks, biochemical attacks, or large-scale capability distillation, it refuses or routes away from Fable.
+- When that happens, the system falls back to version 4.8.
+- The official claim is that 95% of cases do not trigger fallback.
+
+Subscription notes:
+
+- After June 23, Fable may be provided by usage even for subscribers.
+- It may not be directly included in the base subscription package.
+- If capacity is sufficient after the 23rd, the company will try to include it in Pro and Max subscriptions.
 
 Type: Integration | Date: 2026-06-09
 
@@ -512,7 +1541,16 @@ Type: Integration | Date: 2026-06-09
 
 **How to use it:** Set the Swarms model name to `anthropic/claude-fable-5` and run Fable 5 through the Swarms framework or API.
 
-**Original content (English):** Fable 5 and Mythos Are Now Live on Swarms 👾🦀 Beginning on day one of release, both models are fully supported across the Swarms Python framework and the Swarms API. Developers can start building immediately with no migrations, additional configuration, or infrastructure changes required. Highlights: - Day-one support for Fable 5 and Mythos across the Swarms Framework and API - Enable Fable 5 with a single line of code: model_name = "anthropic/claude-fable-5" - No migrations, compatibility fixes, or infrastructure changes required - Build, deploy, and scale multi-agent systems with the latest Anthropic models today Learn more below ⬇️
+Fable 5 and Mythos are now live on Swarms 👾🦀
+
+Beginning on day one of release, both models are fully supported across the Swarms Python framework and the Swarms API. Developers can start building immediately with no migrations, additional configuration, or infrastructure changes required.
+
+Highlights:
+
+- Day-one support for Fable 5 and Mythos across the Swarms Framework and API
+- Enable Fable 5 with a single line of code: model_name = "anthropic/claude-fable-5"
+- No migrations, compatibility fixes, or infrastructure changes required
+- Build, deploy, and scale multi-agent systems with the latest Anthropic models today
 
 Type: Integration | Date: 2026-06-09
 
@@ -526,7 +1564,33 @@ Type: Integration | Date: 2026-06-09
 
 **How to use it:** Compare Fable 5 and GPT-5.5 on the same coding task to judge output quality, runtime, and tool cost.
 
-**Original content (English):** Cursor Fable 5 Max vs Codex GPT 5.5 Very High. Scenario: Physarum simulation with agents plus a pheromone trail map. Timing: GPT 5.5 Very High took 17 minutes; Fable 5 took more than 40 minutes. Cost: GPT 5.5 Very High cost about $6 on Codex; Fable 5 Max cost 360.55 dollars on Cursor. Yes, this is not a joke. Algorithm and code-engineering champion: Fable 5. If your criterion is, 'Which LLM can write performance code from scratch that pushes the hardware to its limits?', then the model that wrote the F5 code clearly wins. It used sin/cos lookup tables for angle calculations, packed pixels with a color lookup table during rendering, and used diffusion filtering. It was a serious engineering solution. But in terms of time and cost, GPT 5.5 was much more practical. The takeaway is that Fable 5 can produce more advanced algorithmic code, but the price and runtime must be considered carefully.
+Cursor Fable 5 Max vs Codex GPT 5.5 Very High.
+
+Scenario: Physarum simulation with agents plus a pheromone trail map.
+
+Timing:
+
+- GPT 5.5 Very High: 17 minutes
+- Fable 5: more than 40 minutes
+
+Cost:
+
+- GPT 5.5 Very High: about $6 on Codex
+- Fable 5 Max: $360.55 on Cursor
+
+Yes, this is not a joke.
+
+Algorithm and code-engineering champion: Fable 5.
+
+If your criterion is, "Which LLM can write performance code from scratch that pushes the hardware to its limits?", then the model that wrote the F5 code clearly wins.
+
+It used sin/cos lookup tables for angle calculations, packed pixels with a color lookup table during rendering, and used diffusion filtering.
+
+It was a serious engineering solution.
+
+But in terms of time and cost, GPT 5.5 was much more practical.
+
+The takeaway: Fable 5 can produce more advanced algorithmic code, but the price and runtime must be considered carefully.
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -537,7 +1601,11 @@ Type: Evaluation | Date: 2026-06-09
 
 **How to use it:** Use this benchmark case to evaluate Fable 5 on knowledge accuracy and hallucination behavior.
 
-**Original content (English):** Claude Fable 5 achieves the highest score to date on our knowledge and hallucination benchmark, AA-Omniscience. This score is driven by leading accuracy (percentage questions correct), rather than low hallucinations. Claude Fable 5 falls back to Opus 4.8 in 9% of questions across AA-Omniscience
+Claude Fable 5 achieves the highest score to date on our knowledge and hallucination benchmark, AA-Omniscience.
+
+This score is driven by leading accuracy (percentage questions correct), rather than low hallucinations.
+
+Claude Fable 5 falls back to Opus 4.8 in 9% of questions across AA-Omniscience.
 
 Type: Evaluation | Date: 2026-06-10
 
@@ -548,7 +1616,55 @@ Type: Evaluation | Date: 2026-06-10
 
 **How to use it:** Use this case to benchmark Fable 5's overall intelligence ranking against other frontier models.
 
-**Original content (English):** Claude Fable 5 launched today at #1 on the Artificial Analysis Intelligence Index, putting Anthropic nearly 5 points ahead of any other lab’s best model We supported @AnthropicAI with pre-release evaluation of Claude Fable 5. Claude Fable 5 scores 64.9 on the Artificial Analysis Intelligence Index, claiming the #1 rank overall. It is ~5 points ahead of the closest non-Anthropic model (GPT-5.5), and Anthropic models now occupy both of the top 2 places. Key takeaways for Claude Fable 5 (adaptive reasoning with max effort and Opus 4.8 as fallback model): ➤ New safety guardrails for Mythos-class models: Claude Fable 5 uses the same underlying model as Claude Mythos 5 for public usage, with additional guardrails for potentially-harmful cybersecurity, biology, chemistry, and distillation-related queries. We tested Fable 5 using Anthropic’s new ‘fallback’ mechanism, which can route safety-flagged messages to Claude Opus 4.8. Anthropic states that fallback occurs in fewer than 5% of sessions on average, and we recorded fallback routing in ~8% of tasks across the Intelligence Index (mostly in scientific questions from evaluations like GPQA, AA-Omniscience and Humanity’s Last Exam) ➤ State-of-the-art Intelligence: Claude Fable 5 takes the #1 position on the Artificial Analysis Intelligence Index, scoring 64.9 and setting the highest score on 5 of the 10 underlying benchmarks. On AA-Omniscience, our knowledge and hallucination benchmark, Fable 5 scores 40, +7 points over the previous leader, Gemini 3.1 Pro Preview, driven primarily by higher accuracy. We generally observe a strong relationship between AA-Omniscience accuracy and model size in open weights models, which suggests Fable 5 could be larger than previous public Anthropic models ➤ Frontier agentic capability: Claude Fable 5 is at the frontier across all three agentic evaluations in the Index: GDPval-AA (real-world work tasks), Terminal-Bench Hard (agentic coding), and Tau2-bench Telecom (tool use for customer service). Its GDPval-AA Elo of 1932 is a significant jump from the previous leader, Claude Opus 4.8, further extending Anthropic’s lead in agentic capabilities ➤ Leading HLE score, but refusal and fallback in 9% of tasks: Claude Fable 5 scores 53% on Humanity’s Last Exam, more than 7 points ahead of the next-best model, Claude Opus 4.8 (max). Fable 5 triggers safety guardrails on 9% of HLE tasks, falling back to Claude Opus 4.8. Including this fallback usage, running HLE with Fable 5 costs ~$2.2k, the highest of any model we have evaluated Key model details: ➤ Context window: Claude Fable 5 retains the same 1M token context window as Claude Opus 4.8 ➤ Price: Claude Fable 5 is priced at $10/$50 per 1M input/output tokens, 2x the token price of Claude Opus 4.8. The cache write/read price is $12.50/$1 per million tokens ➤ Availability: Claude Fable 5 is included in Pro, Max, Team, and seat-based Enterprise plans through June 22, consuming 2x Opus usage. From June 23, usage will require credits, with Anthropic saying it plans to restore subscription access once capacity allows
+Claude Fable 5 launched at #1 on the Artificial Analysis Intelligence Index, putting Anthropic nearly 5 points ahead of any other lab's best model.
+
+We supported @AnthropicAI with pre-release evaluation of Claude Fable 5.
+
+Claude Fable 5 scores 64.9 on the Artificial Analysis Intelligence Index, claiming the #1 rank overall.
+
+It is around 5 points ahead of the closest non-Anthropic model, GPT-5.5.
+
+Anthropic models now occupy both of the top 2 places.
+
+Key takeaways for Claude Fable 5, using adaptive reasoning with max effort and Opus 4.8 as fallback model:
+
+New safety guardrails for Mythos-class models:
+
+- Claude Fable 5 uses the same underlying model as Claude Mythos 5 for public usage.
+- It adds guardrails for potentially harmful cybersecurity, biology, chemistry, and distillation-related queries.
+- We tested Fable 5 using Anthropic's fallback mechanism, which can route safety-flagged messages to Claude Opus 4.8.
+- Anthropic states fallback occurs in fewer than 5% of sessions on average.
+- We recorded fallback routing in around 8% of tasks across the Intelligence Index, mostly in scientific questions from evaluations like GPQA, AA-Omniscience, and Humanity's Last Exam.
+
+State-of-the-art intelligence:
+
+- Claude Fable 5 takes the #1 position on the Artificial Analysis Intelligence Index.
+- Score: 64.9.
+- Highest score on 5 of the 10 underlying benchmarks.
+- On AA-Omniscience, Fable 5 scores 40, +7 points over the previous leader, Gemini 3.1 Pro Preview.
+
+Frontier agentic capability:
+
+- Fable 5 is at the frontier across all three agentic evaluations in the Index.
+- GDPval-AA: real-world work tasks.
+- Terminal-Bench Hard: agentic coding.
+- Tau2-bench Telecom: tool use for customer service.
+- GDPval-AA Elo: 1932, a significant jump from Claude Opus 4.8.
+
+Humanity's Last Exam:
+
+- Fable 5 scores 53%.
+- It is more than 7 points ahead of the next-best model, Claude Opus 4.8 max.
+- It triggers safety guardrails on 9% of HLE tasks, falling back to Claude Opus 4.8.
+- Including fallback usage, running HLE with Fable 5 costs around $2.2k, the highest of any model evaluated.
+
+Key model details:
+
+- Context window: 1M tokens, same as Claude Opus 4.8.
+- Price: $10/$50 per 1M input/output tokens.
+- Cache write/read price: $12.50/$1 per million tokens.
+- Availability: included in Pro, Max, Team, and seat-based Enterprise plans through June 22, consuming 2x Opus usage.
+- From June 23, usage requires credits; Anthropic says it plans to restore subscription access once capacity allows.
 
 Type: Evaluation | Date: 2026-06-10
 
@@ -559,7 +1675,26 @@ Type: Evaluation | Date: 2026-06-10
 
 **How to use it:** Use this case to evaluate Fable 5 on agentic real-world knowledge work.
 
-**Original content (English):** Anthropic has released Claude Fable 5, the first publicly available Mythos-class model that ranks #1 in our agentic real-world knowledge work benchmark GDPval-AA Claude Fable 5 shares the same underlying model as Claude Mythos 5, with added security guardrails for potentially harmful cybersecurity, biology, chemistry, and distillation-related queries. The release also introduces a fallback mechanism, allowing Claude Fable 5 to route flagged queries to a second model such as Claude Opus 4.8. @AnthropicAI shared access with us ahead of public release to benchmark this model. Claude Fable 5 scores 1932 on GDPval-AA, our benchmark for agentic real-world work tasks, taking the #1 position and putting Anthropic models in 3 of the top 4 spots. The result was measured using adaptive reasoning at max effort, with Claude Opus 4.8 configured as the fallback model. Fable 5 falls back to Opus 4.8 on 2% of GDPval-AA tasks, with Anthropic stating that fallback occurs in fewer than 5% of sessions on average. Full benchmarks for Claude Fable 5 are in progress - we will share the full Intelligence Index and publish scores on our website shortly
+Anthropic has released Claude Fable 5, the first publicly available Mythos-class model that ranks #1 in our agentic real-world knowledge work benchmark, GDPval-AA.
+
+Claude Fable 5 shares the same underlying model as Claude Mythos 5, with added security guardrails for potentially harmful cybersecurity, biology, chemistry, and distillation-related queries.
+
+The release also introduces a fallback mechanism, allowing Claude Fable 5 to route flagged queries to a second model such as Claude Opus 4.8.
+
+@AnthropicAI shared access with us ahead of public release to benchmark this model.
+
+GDPval-AA result:
+
+- Score: 1932
+- Rank: #1
+- Benchmark: agentic real-world work tasks
+- Anthropic models now occupy 3 of the top 4 spots
+
+The result was measured using adaptive reasoning at max effort, with Claude Opus 4.8 configured as the fallback model.
+
+Fable 5 falls back to Opus 4.8 on 2% of GDPval-AA tasks, with Anthropic stating fallback occurs in fewer than 5% of sessions on average.
+
+Full benchmarks for Claude Fable 5 are in progress. We will share the full Intelligence Index and publish scores on our website shortly.
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -570,7 +1705,29 @@ Type: Evaluation | Date: 2026-06-09
 
 **How to use it:** Use this first-impressions case to decide where Fable 5 is strongest, especially game design and systems planning.
 
-**Original content (English):** My First Impressions of Fable 5 I've spent the last week using Fable 5, mostly the High mode, and my first impression is that it's genuinely impressive. The biggest standout is game design. This is easily the strongest AI model I've personally used for designing games, systems, mechanics, and overall project structure. For the first time, it feels like a model that could realistically help build a complete game from start to finish. The trade-off is speed. Fable 5 takes noticeably longer to work than most frontier models, but the quality of the output often makes the wait worthwhile. It's also been surprisingly effective at fixing bugs. Several issues I've struggled with throughout the week were resolved quickly, and overall I've seen very strong performance on development tasks. The biggest caveat is cost. Fable 5 is incredibly expensive to run. If current plans remain unchanged, from June 22, 2026, it will no longer be available through Cloud Code and will be API-only. Given that the API pricing is reportedly around double that of Opus, many people may not get the chance to use it extensively. Early days, but so far Fable 5 has made a very strong first impression.
+My first impressions of Fable 5:
+
+I have spent the last week using Fable 5, mostly in High mode, and my first impression is that it is genuinely impressive.
+
+The biggest standout is game design.
+
+This is easily the strongest AI model I have personally used for designing games, systems, mechanics, and overall project structure.
+
+For the first time, it feels like a model that could realistically help build a complete game from start to finish.
+
+The trade-off is speed. Fable 5 takes noticeably longer to work than most frontier models, but the quality of the output often makes the wait worthwhile.
+
+It has also been surprisingly effective at fixing bugs. Several issues I struggled with throughout the week were resolved quickly, and overall I have seen very strong performance on development tasks.
+
+The biggest caveat is cost.
+
+Fable 5 is incredibly expensive to run.
+
+If current plans remain unchanged, from June 22, 2026, it will no longer be available through Claude Code and will be API-only.
+
+Given that the API pricing is reportedly around double that of Opus, many people may not get the chance to use it extensively.
+
+Early days, but so far Fable 5 has made a very strong first impression.
 
 Type: Integration | Date: 2026-06-09
 
@@ -581,7 +1738,17 @@ Type: Integration | Date: 2026-06-09
 
 **How to use it:** Use this comparison to decide whether the quality gain justifies higher cost and slower long-horizon runs.
 
-**Original content (English):** Is @AnthropicAI's Fable 5 actually worth the upgrade? We benched the new "Mythos" family model against Claude Opus 4.8, and the data tells a surprising story: > Costs 2X more than Claude Opus 4.8. > Up to 3X slower on long-horizon engineering tasks. > 15-20% more comments, but mostly minor nitpicks. Fable 5 has incredible intuition for creative tasks like game design, but for day-to-day dev workflows, Claude Opus 4.8 still takes the crown for quality versus price. Checkout my discussion with @JuanPa from our DevEx team at @coderabbitai on the model release 👇
+Is @AnthropicAI's Fable 5 actually worth the upgrade?
+
+We benchmarked the new Mythos-family model against Claude Opus 4.8, and the data tells a surprising story:
+
+- Costs 2x more than Claude Opus 4.8.
+- Up to 3x slower on long-horizon engineering tasks.
+- 15-20% more comments, but mostly minor nitpicks.
+
+Fable 5 has incredible intuition for creative tasks like game design, but for day-to-day development workflows, Claude Opus 4.8 still takes the crown for quality versus price.
+
+Check out my discussion with @JuanPa from our DevEx team at @coderabbitai on the model release.
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -592,7 +1759,21 @@ Type: Evaluation | Date: 2026-06-09
 
 **How to use it:** Use this case to evaluate Fable 5 inside Claude Code, including tool use, personality, and remaining rough edges.
 
-**Original content (English):** I tried Claude Fable 5 with Claude Code 2.1.170. Overall, my impression is positive. It feels like a legitimate evolution of Opus 4.6. I have only used it for a little under an hour, so rough edges may appear with more use, but the good points are: it no longer produces the strange GPT-like wording seen in Opus 4.7 or 4.8; it does not have the pointless long-thinking habit that 4.8 had on effort high; it has the same high EQ and pleasant feel as 4.6, without losing humor or consideration; it does not feel opaque or vaguely unsettling like 4.7 or 4.8; tool use is good, and it impresses me by remembering instructions that I did not explicitly repeat. On the negative side, even for small requests it can still think too much, and some misjudgments remain. The initial experience is promising, but it needs longer use to see where the rough edges really are.
+I tried Claude Fable 5 with Claude Code 2.1.170.
+
+Overall, my impression is positive. It feels like a legitimate evolution of Opus 4.6.
+
+I have only used it for a little under an hour, so rough edges may appear with more use, but the good points are:
+
+- It no longer produces the strange GPT-like wording seen in Opus 4.7 or 4.8.
+- It does not have the pointless long-thinking habit that 4.8 had on effort high.
+- It has the same high EQ and pleasant feel as 4.6, without losing humor or consideration.
+- It does not feel opaque or vaguely unsettling like 4.7 or 4.8.
+- Tool use is good, and it impresses me by remembering instructions I did not explicitly repeat.
+
+On the negative side, even for small requests it can still think too much, and some misjudgments remain.
+
+The initial experience is promising, but it needs longer use to see where the rough edges really are.
 
 Type: Demo | Date: 2026-06-09
 
@@ -603,7 +1784,13 @@ Type: Demo | Date: 2026-06-09
 
 **How to use it:** Use this benchmark case to judge Fable 5's short-fiction writing quality and refusal behavior.
 
-**Original content (English):** Claude Fable 5 (high) is a step up in short-fiction writing. On the Short-Story Creative Writing Benchmark, it beats Claude Opus 4.8 (xhigh) and Claude Opus 4.7 (high), and ranks second behind GPT-5.5 (xhigh). Caveat: it refused 5 of the 400 creative-writing prompts. https://t.co/76nCxwEybJ
+Claude Fable 5 (high) is a step up in short-fiction writing.
+
+On the Short-Story Creative Writing Benchmark, it beats Claude Opus 4.8 (xhigh) and Claude Opus 4.7 (high), and ranks second behind GPT-5.5 (xhigh).
+
+Caveat: it refused 5 of the 400 creative-writing prompts.
+
+https://t.co/76nCxwEybJ
 
 Type: Evaluation | Date: 2026-06-10
 
@@ -614,7 +1801,14 @@ Type: Evaluation | Date: 2026-06-10
 
 **How to use it:** Use this launch benchmark summary to understand the headline scores most relevant to coding agents and complex tasks.
 
-**Original content (English):** SITUATION EXPLAINED: Claude Fable 5 just dropped. • Anthropic launched Claude Fable 5 today, "a Mythos class model made safe for general use" • Frontier Code Diamond: GPT 5.5 at 6%, Opus 4.8 at 13%, Fable 5 at 29-30% • Agentic coding: 88%, Cybersecurity: 78% Anthropic: "The longer and more complex the task, the larger Fable 5's lead over our other models." @theojaffee: "This Frontier Code Diamond benchmark was announced yesterday. Top model was Opus 4.8 at thirteen percent. GPT 5.5 at six percent. Fable 5 is at twenty-nine percent."
+SITUATION EXPLAINED: Claude Fable 5 just dropped.
+• Anthropic launched Claude Fable 5 today, "a Mythos class model made safe for general use"
+• Frontier Code Diamond: GPT 5.5 at 6%, Opus 4.8 at 13%, Fable 5 at 29-30%
+• Agentic coding: 88%, Cybersecurity: 78%
+
+Anthropic: "The longer and more complex the task, the larger Fable 5's lead over our other models."
+
+@theojaffee: "This Frontier Code Diamond benchmark was announced yesterday. Top model was Opus 4.8 at thirteen percent. GPT 5.5 at six percent. Fable 5 is at twenty-nine percent."
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -625,7 +1819,26 @@ Type: Evaluation | Date: 2026-06-09
 
 **How to use it:** Use this comparison to evaluate Fable 5 against GPT-5.5 on price and benchmark categories.
 
-**Original content (English):** Anthropic’s new Mythos-class model is 3x cheaper than OpenAI’s best model. And it beats it on nearly every benchmark. 🤯 GPT-5.5 Pro: $30 input / $180 output Claude Fable 5: $10 input / $50 output The benchmarks: → Agentic coding: 80.3% vs 58.6% → FrontierCode (code quality): 29.3% vs 5.7% → Cybersecurity: 78.0% vs 34.0% → Legal: 13.3% vs 2.1% → Reasoning: 59.0% vs 41.4% → Health: 66.0% vs 51.8% → Computer use: 85.0% vs 78.7% Cheaper. Better. On almost everything. Free on Pro and Max plans through June 22. It’s called Claude Fable 5.
+Anthropic's new Mythos-class model is 3x cheaper than OpenAI's best model. And it beats it on nearly every benchmark. 🤯
+
+Pricing:
+
+- GPT-5.5 Pro: $30 input / $180 output
+- Claude Fable 5: $10 input / $50 output
+
+The benchmarks:
+
+→ Agentic coding: 80.3% vs 58.6%
+→ FrontierCode (code quality): 29.3% vs 5.7%
+→ Cybersecurity: 78.0% vs 34.0%
+→ Legal: 13.3% vs 2.1%
+→ Reasoning: 59.0% vs 41.4%
+→ Health: 66.0% vs 51.8%
+→ Computer use: 85.0% vs 78.7%
+
+Cheaper. Better. On almost everything.
+
+Free on Pro and Max plans through June 22. It is called Claude Fable 5.
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -636,7 +1849,31 @@ Type: Evaluation | Date: 2026-06-09
 
 **How to use it:** Use this field report to understand where Fable 5 feels meaningfully better and where it still has practical limits.
 
-**Original content (English):** 🚨 Fable 5 is something to pay attention to. This is another "I had early access to the new Mythos-class Anthropic model and I want to tell you what I thought of it" post. I know, I know, it's annoying. But the way I now spend my weekends has completely changed because of this new class of model. And I need to share it with you all. - This is an actual leap. The jump from "4.8" anything to "5" anything just sounds small, but the functionality shift I felt is big. Within my first few prompts, I went, "Oh, this is it." - Your work is no longer 9-5. No chance. We have high performing models that can run for 100+ hours. How are you giving complex goal-oriented prompts to these systems? How are you deciding what to kick off? How are you aligning your org on these tasks? - Reasoning on another level. I hammered the crap out of this model. Fable 5 is the ONLY model to answer a tricky word math problem (MBA-level) I have tested on all previous models. Not only did it get it correct, it verified its own work automatically AND explained where the assumptions might need to change. - We will see AI invent. I just cannot imagine a world where it doesn't. It is not a copy-paste system, and I would also argue that human invention can often be a recombination of pre-existing things (iPod), witnessing patterns and best practices across other spaces, and wide experimentation. I've thought this for awhile, this was the first model that slapped me in the face on it. - Zero babysitting needed. This was the first Anthropic model that I kicked off, went out to a long lunch with friends, kept my phone open, and didn't have to do squat to steer it while away from my computer. It just...worked. - Yap forever. I found it handled context compaction well. I didn't once think about the context of the chat and how to manage it and what to do once we hit 1M tokens in the conversation. - Still rough on some niche areas like complex 3D (like all models are). Unless you're making straight line things (3D dice/squares/streets), it's not going to crush it out the gate. Excited to keep using and hammering it. Note: there is now a 30-day retention policy on ALL Mythos-class models for workspaces with zero data retention (ZDR) in Claude Console, use Claude Code with ZDR in Claude Enterprise, or access Claude through AWS Bedrock, Google Cloud Agent Platform, or Microsoft Foundry with ZDR.
+🚨 Fable 5 is something to pay attention to.
+
+This is another "I had early access to the new Mythos-class Anthropic model and I want to tell you what I thought of it" post.
+
+I know, I know, it's annoying.
+
+But the way I now spend my weekends has completely changed because of this new class of model.
+
+And I need to share it with you all.
+- This is an actual leap. The jump from "4.8" anything to "5" anything just sounds small, but the functionality shift I felt is big. Within my first few prompts, I went, "Oh, this is it."
+- Your work is no longer 9-5. No chance. We have high performing models that can run for 100+ hours. How are you giving complex goal-oriented prompts to these systems? How are you deciding what to kick off? How are you aligning your org on these tasks?
+- Reasoning on another level. I hammered the crap out of this model.
+- Fable 5 is the ONLY model to answer a tricky word math problem (MBA-level) I have tested on all previous models.
+- Not only did it get it correct, it verified its own work automatically AND explained where the assumptions might need to change.
+- We will see AI invent. I just cannot imagine a world where it doesn't.
+- It is not a copy-paste system.
+- I would also argue that human invention can often be a recombination of pre-existing things (iPod), witnessing patterns and best practices across other spaces, and wide experimentation.
+- I've thought this for awhile; this was the first model that slapped me in the face on it.
+- Zero babysitting needed. This was the first Anthropic model that I kicked off, went out to a long lunch with friends, kept my phone open, and didn't have to do squat to steer it while away from my computer. It just...worked.
+- Yap forever. I found it handled context compaction well. I didn't once think about the context of the chat and how to manage it and what to do once we hit 1M tokens in the conversation.
+- Still rough on some niche areas like complex 3D, like all models are.
+- Unless you're making straight line things (3D dice/squares/streets), it's not going to crush it out the gate.
+- Excited to keep using and hammering it.
+- Note: there is now a 30-day retention policy on ALL Mythos-class models for workspaces with zero data retention (ZDR).
+- This applies in Claude Console, Claude Code with ZDR in Claude Enterprise, or access through AWS Bedrock, Google Cloud Agent Platform, or Microsoft Foundry with ZDR.
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -647,7 +1884,20 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Run identical physics simulation prompts against Fable 5 and Opus 4.8 to compare output quality, cost, and speed.
 
-**Original content (English):** New Fable 5 beats Opus 4.8 on real world physics simulations We gave both models the same three prompts and asked them to build self contained HTML5 sims with real physics and no libraries: 1. Chaotic double pendulum 2. Galton board 3. Water in a spinning drum (WCSPH) Generation cost Fable 5: $3.35 on 68.7k tokens, time 14m 47s Opus 4.8: $0.93 on 38.9k tokens, time 8m 10s Fable clearly did better on the water simulation, producing a much more solid and continuous body of water. Opus left larger gaps near the walls, scattered particles around the scene, and struggled to keep the fluid stable.
+New Fable 5 beats Opus 4.8 on real-world physics simulations.
+
+We gave both models the same three prompts and asked them to build self-contained HTML5 simulations with real physics and no libraries:
+
+1. Chaotic double pendulum
+2. Galton board
+3. Water in a spinning drum (WCSPH)
+
+Generation cost:
+
+- Fable 5: $3.35 on 68.7k tokens, 14m 47s
+- Opus 4.8: $0.93 on 38.9k tokens, 8m 10s
+
+Fable clearly did better on the water simulation, producing a much more solid and continuous body of water. Opus left larger gaps near the walls, scattered particles around the scene, and struggled to keep the fluid stable.
 
 Type: Demo | Date: 2026-06-09
 
@@ -658,7 +1908,17 @@ Type: Demo | Date: 2026-06-09
 
 **How to use it:** Use Fable 5 for debugging by asking it to measure, log, verify, and patch rather than simply guess.
 
-**Original content (English):** Fable 5 is the biggest step up I’ve felt in our models since Opus 4.5 back in November. After 4.5 came out I uninstalled my IDE when I realized that I’d been doing 100% of my coding in a terminal for a few weeks. With Fable, it’s felt like Claude has stepped up from being a coding agent to a thought and design partner in building the product. Fable has judgement, taste, and dimensionality in a way that previous models didn’t, leading me to trust it more with the most complex work. I think the first time I had this realization was when I asked Fable to debug something. It is the first model I have used that was so methodical and precise, taking measurements and adding logs then verifying that it truly fixed the issue before declaring victory. There’s nothing in claude code’s prompting telling the model to do that, it’s just part of its personality. It really has this “big model smell” that I haven’t felt before.
+Fable 5 is the biggest step up I have felt in our models since Opus 4.5 back in November.
+
+After 4.5 came out, I uninstalled my IDE when I realized I had been doing 100% of my coding in a terminal for a few weeks.
+
+With Fable, Claude feels like it has stepped up from being a coding agent to a thought and design partner in building the product.
+
+Fable has judgment, taste, and dimensionality in a way that previous models did not, leading me to trust it more with the most complex work.
+
+The first time I had this realization was when I asked Fable to debug something. It is the first model I have used that was so methodical and precise: taking measurements, adding logs, and verifying that it truly fixed the issue before declaring victory.
+
+There is nothing in Claude Code's prompting telling the model to do that. It is just part of its personality. It really has this "big model smell" that I have not felt before.
 
 Type: Demo | Date: 2026-06-09
 
@@ -669,7 +1929,18 @@ Type: Demo | Date: 2026-06-09
 
 **How to use it:** Use this case to understand practical strengths and weaknesses before making Fable 5 a daily driver.
 
-**Original content (English):** Fable 5 (aka baby Mythos) just dropped. Is it as scary (or scary good) as they claim? My thoughts after some early testing: - smart smart smart (crushed SWE bench) - but do you always need hyper intelligence? - faceplanted on one-shot design in a way that shocked me - i'm not sure about dynamic workflows + complex subagents. they work, but at what cost? - def knocked out technical work well - ootb bad at making technical docs + specs for humans. probably really good docs for agents. but nearly impossible to parse prose. - A++ vision and document formatting. this was my favorite part NOT a daily driver, wouldn't put this model in a meeting, but def will keep it back in the server rack, churning out code. Full take on YT: https://t.co/lvtwnPn6yR
+Fable 5 (aka baby Mythos) just dropped. Is it as scary (or scary good) as they claim? My thoughts after some early testing:
+- smart smart smart (crushed SWE bench)
+- but do you always need hyper intelligence?
+- faceplanted on one-shot design in a way that shocked me
+- i'm not sure about dynamic workflows + complex subagents. they work, but at what cost?
+- def knocked out technical work well
+- ootb bad at making technical docs + specs for humans. probably really good docs for agents. but nearly impossible to parse prose.
+- A++ vision and document formatting. This was my favorite part.
+
+Not a daily driver, and I would not put this model in a meeting, but I will definitely keep it back in the server rack, churning out code.
+
+Full take on YT: https://t.co/lvtwnPn6yR
 
 Type: Demo | Date: 2026-06-09
 
@@ -680,7 +1951,17 @@ Type: Demo | Date: 2026-06-09
 
 **How to use it:** Use an S-1 drafting prompt as a legal-agent capability test and compare structure, formatting, and length.
 
-**Original content (English):** The first prompt I always run on a new model to test legal capabilities is “Draft an S-1” Immediately gives a good sense of the model's general capabilities. Can tell from the length of the S-1, formatting, structure and writing how big a jump in general and legal performance the new model is likely to be. We’ve found that just length correlates extremely well to how well the model will work in our legal agents. Screenshots show SpaceX S-1 drafted by Fable 5, Opus 4.8 and the actual one filed. Very clear that Fable 5 is a big step up from Opus 4.8 which is already significantly stronger than most other models at this task. The formatting and structure is significantly better and is also reflected in our LAB benchmark (13% vs. 10%). Super impressed in early testing of this model both on benchmark and in product. Huge congrats to the @anthropic team because this is very clearly a big step forward in model capabilities.
+The first prompt I always run on a new model to test legal capabilities is: “Draft an S-1”.
+
+It immediately gives a good sense of the model's general capabilities. You can tell from the length of the S-1, formatting, structure, and writing how big a jump in general and legal performance the new model is likely to be.
+
+We have found that length correlates extremely well with how well the model will work in our legal agents.
+
+Screenshots show SpaceX S-1 drafts from Fable 5, Opus 4.8, and the actual filed version.
+
+It is very clear that Fable 5 is a big step up from Opus 4.8, which is already significantly stronger than most other models at this task. The formatting and structure are significantly better and are also reflected in our LAB benchmark: 13% vs. 10%.
+
+Super impressed in early testing of this model, both on benchmark and in product.
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -691,7 +1972,25 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Use this benchmark note to evaluate Fable 5 on healthcare-related tasks and identify missing hard medical evals.
 
-**Original content (English):** I appreciate Anthropic has provided healthcare-related evals! Let's quickly go over them. HealthBench - benchmark from OpenAI that includes 5k multi-turn conversations with patients, and rubrics for evaluation. Fable 5 achieves 62.7% vs. GPT-5.5's 56.5%. Personally, I would also appreciate HealthBench Hard scores as well in addition to the aggregate score. HealthBench Professional - another OpenAI benchmark that focuses on physician tasks. Fable 5 achieves 66.0% vs. 51.8% for GPT 5.5. HealthAdminBench - a computer-use benchmark from Stanford that evaluates the completion og various administrative tasks (prior auth, denials/appeals, etc.). Fable 5 achieves 51.9%, no GPT-5.5 score provided. Overall, this models seems to perform quite well on healthcare benchmarks. Would also appreciate additional benchmark scores like MedCalc-Bench (which was previously reported by Anthropic) and MedXpertQA (an unsaturated, hard medical MCQA benchmark). Glad to see frontier labs are more comprehensively benchmarking and reporting the medical capabilities of their models!
+I appreciate Anthropic providing healthcare-related evals. Let's quickly go over them.
+
+HealthBench:
+
+- Benchmark from OpenAI with 5k multi-turn conversations with patients and rubrics for evaluation.
+- Fable 5 achieves 62.7% vs. GPT-5.5's 56.5%.
+- I would also appreciate HealthBench Hard scores in addition to the aggregate score.
+
+HealthBench Professional:
+
+- Another OpenAI benchmark focused on physician tasks.
+- Fable 5 achieves 66.0% vs. 51.8% for GPT 5.5.
+
+HealthAdminBench:
+
+- A computer-use benchmark from Stanford evaluating administrative tasks such as prior authorization, denials, and appeals.
+- Fable 5 achieves 51.9%; no GPT-5.5 score is provided.
+
+Overall, this model seems to perform quite well on healthcare benchmarks. I would also appreciate additional benchmark scores like MedCalc-Bench and MedXpertQA, an unsaturated hard medical MCQA benchmark.
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -702,7 +2001,19 @@ Type: Evaluation | Date: 2026-06-09
 
 **How to use it:** Use this case to decide whether Fable 5 is cost-effective for document parsing versus specialized OCR systems.
 
-**Original content (English):** Claude Fable 5 thinks document parsing is beneath it It is absolutely crushing on all reasoning-intensive/long horizon benchmarks: SWE-Bench Pro, FrontierCode, GDPval, Runescape, etc. But for document understanding tasks, it is roughly equivalent with Gemini 3 Flash in performance, at roughly 10-15x the token cost. We benchmarked the model on ParseBench and compared it against all other frontier models. It is definitely up there compared to other frontier models, but falls far short of specialized OCR providers. What we found interesting is that Fable 5 is self-aware about this. When we ask the model what tasks it enjoys the last, it actively said that it dislikes tasks "where the request is fully specified and the answer is fully known" - implying part of it being bad is due to laziness and lack of willingness to actually solve the task at hand. For a full list of results across different frontier models, check out ParseBench! https://t.co/PWczfhp0OX
+Claude Fable 5 thinks document parsing is beneath it.
+
+It is absolutely crushing on reasoning-intensive and long-horizon benchmarks: SWE-Bench Pro, FrontierCode, GDPval, RuneScape, and more.
+
+But for document understanding tasks, it is roughly equivalent to Gemini 3 Flash in performance, at roughly 10-15x the token cost.
+
+We benchmarked the model on ParseBench and compared it against all other frontier models. It is definitely up there compared to other frontier models, but falls far short of specialized OCR providers.
+
+What we found interesting is that Fable 5 is self-aware about this. When we ask the model what tasks it enjoys least, it actively says it dislikes tasks "where the request is fully specified and the answer is fully known."
+
+That implies part of the weakness may be a lack of willingness to solve this kind of task.
+
+For a full list of results across frontier models, check out ParseBench: https://t.co/PWczfhp0OX
 
 Type: Evaluation | Date: 2026-06-10
 
@@ -713,7 +2024,20 @@ Type: Evaluation | Date: 2026-06-10
 
 **How to use it:** Use this benchmark case to evaluate Fable 5 for migrations, complex implementations, autonomous sessions, tests, and visual verification.
 
-**Original content (English):** holy shit. fable 5 is here and it honestly destroys gpt 5.5 in SWE‑Bench Pro (agentic coding) by a lot... 80.3% vs 58.6%, a 22-point gap.. and it's even further ahead on FrontierCode Diamond at 29.3% to gpt's 5.7%... so this is basically anthropic's strongest model for large migrations, complex implementations, and multi-day autonomous sessions, and it writes its own tests and uses vision to check its outputs against the original design... Btw, it uses 2x as much as opus, so be careful with that..> I think if it's this good, they might introduce a $500 subscription... usage would get destroyed easily... I'm interested in what gpt‑5.6 would look like if fable is this good on paper...
+Fable 5 is here and it honestly destroys GPT 5.5 in SWE-Bench Pro, the agentic coding benchmark:
+
+- Fable 5: 80.3%
+- GPT 5.5: 58.6%
+- Gap: 22 points
+
+It is even further ahead on FrontierCode Diamond:
+
+- Fable 5: 29.3%
+- GPT 5.5: 5.7%
+
+This is basically Anthropic's strongest model for large migrations, complex implementations, and multi-day autonomous sessions. It writes its own tests and uses vision to check outputs against the original design.
+
+By the way, it uses 2x as much as Opus, so be careful with that. If it is this good, they might introduce a $500 subscription, because usage could get destroyed easily.
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -724,7 +2048,32 @@ Type: Evaluation | Date: 2026-06-09
 
 **How to use it:** Use this qualitative review to understand why Fable 5 is suited to longer, harder tasks while still requiring production review.
 
-**Original content (English):** This is a super exciting release - Claude Fable 5 is the same underlying model as Mythos but with added safeguards. The benchmarks are great and it's SOTA on everything by a margin but I'll add that *qualitatively* also, this is a major-version-bump-deserving step change forward (imo of the same order as Claude 4.5 was in November), peaking especially for long problem-solving sessions on very difficult problems. You can give it a lot more ambitious tasks than what you're used to, the model "gets it" and it will just go, and it's never felt this tempting to stop looking at the code at all (but don't do this in prod!). The model still has quirks that people will run into and the safeguards are configured to be a little too trigger happy for launch, which can hopefully be tuned over time. I feel a lot of things changing as working software increasingly comes out on a tap. The Jevon's paradox kicks in and I feel my own demand for software growing substantially. You can ask for anything - explainers, visualizers, dashboards, bespoke single-use apps (e.g. a full wandb that is hyper-specific just for your project), you can 10X your test suite, auto-optimize code, run giant research projects with custom HTML for the results, anything! "Free your mind" (Matrix ref). Really looking forward to all the things people build!
+This is a super exciting release.
+
+Claude Fable 5 is the same underlying model as Mythos, but with added safeguards.
+
+The benchmarks are great and it is SOTA on everything by a margin. Qualitatively, this also feels like a major-version-bump-worthy step change, in the same order as Claude 4.5 was in November.
+
+It peaks especially on long problem-solving sessions and very difficult problems. You can give it much more ambitious tasks than you are used to; the model "gets it" and keeps going.
+
+It has never felt more tempting to stop looking at the code entirely, though you should not do that in production.
+
+The model still has quirks people will run into, and the safeguards are a little too trigger-happy at launch, which will hopefully be tuned over time.
+
+I feel many things changing as working software increasingly comes out on a tap. Jevons paradox kicks in, and my own demand for software grows substantially.
+
+You can ask for almost anything:
+
+- explainers
+- visualizers
+- dashboards
+- bespoke single-use apps
+- a full wandb that is hyper-specific just for your project
+- 10x your test suite
+- auto-optimize code
+- giant research projects with custom HTML for the results
+
+"Free your mind." Really looking forward to all the things people build.
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -735,7 +2084,21 @@ Type: Evaluation | Date: 2026-06-09
 
 **How to use it:** Use this ParseBench result to judge document faithfulness and formatting performance.
 
-**Original content (English):** Day 0 Anthropic Fable 5 in ParseBench: We tested the model's advancements when it comes to document understanding. The model clearly peaks when it comes to adherence to the original text: 📃 Content faithfulness: 90.02% vs 86.19% (Gemini 3 Flash) and 86.81% (GPT-5.5) 🔢 Semantic formatting: 72.62% vs 58.35% and 60.12%, a 12+ point lead These are two of the most important metrics for SOTA document understanding: does the output preserve what the document actually says, and does it preserve formatting that carries meaning? But ... it's not a sweep there continues to be a lot of alpha in unlocking document understanding for frontier models. Full results below 👇
+Day 0 Anthropic Fable 5 in ParseBench.
+
+We tested the model's advancements in document understanding.
+
+The model clearly peaks when it comes to adherence to the original text:
+
+- Content faithfulness: 90.02% vs 86.19% for Gemini 3 Flash and 86.81% for GPT-5.5.
+- Semantic formatting: 72.62% vs 58.35% and 60.12%, a 12+ point lead.
+
+These are two of the most important metrics for SOTA document understanding:
+
+- Does the output preserve what the document actually says?
+- Does it preserve formatting that carries meaning?
+
+But it is not a sweep. There continues to be a lot of alpha in unlocking document understanding for frontier models.
 
 Type: Evaluation | Date: 2026-06-10
 
@@ -746,7 +2109,55 @@ Type: Evaluation | Date: 2026-06-10
 
 **How to use it:** Use this case as a broad checklist for benchmarks, pricing, access, safeguards, and strategic implications.
 
-**Original content (English):** Claude Fable 5 and Mythos 5 have launched. They are the most powerful models Anthropic has made so far. Andrej Karpathy commented that the longer and more complex the task is, the more Fable 5's strengths become visible; when you give it ambitious work, it understands and keeps going, and the temptation to stop looking at the code entirely has never felt stronger, though you should not do that in production. The key point is that this is a version of the Mythos-class model that can be made publicly available. Fable 5 equals the same underlying model as Mythos 5 with added safeguards. Looking at benchmarks, it is SOTA on almost everything, especially software engineering, knowledge work, vision, and scientific research. Stripe tested a 50-million-line Ruby codebase migration that would have taken a team two months and completed it in one day. Cognition FrontierCode shows the best score among frontier models even at medium effort. Hebbia Finance Benchmark shows senior-level reasoning on document-based analysis. In Slay the Spire, with file-based memory, it performs three times better than Opus 4.8. Pokemon FireRed previously needed helper harnesses, but Fable 5 clears it with vision only. Mythos 5 is even stronger. Protein-design experts accelerated parts of the drug-development process by about 10x; among 14 protein targets under study, nine produced valid drug candidates, and the model performed the whole workflow scientists normally do: binding-site selection, running protein-design tools, and recovering from errors. In molecular-biology hypothesis experiments, scientists preferred Mythos hypotheses about 80% of the time over Opus-class models, and one hypothesis was independently verified by another lab. In genomics research, Mythos worked autonomously for more than a week, gathered single-cell data from millions of cells across 138 species, and designed and trained a machine-learning model to identify cells performing the same role across distant organisms; it outperformed a recent Science model while being 100x smaller. The safeguard structure is important. Fable 5 includes a separate classifier AI system. If cyber, bio/chem, or distillation-related queries are detected, Claude Opus 4.8 answers instead and the user is informed. More than 95% of sessions do not fall back. Fallback is not refusal; Opus 4.8 answers, which is better than simply blocking. However, the initial settings are conservative and harmless requests may be caught; Anthropic says false positives should decrease over time. Mythos 5 is currently available only to Project Glasswing partners, where cyber safeguards are lifted. A trusted access program for biology researchers is coming, with cyber safeguards retained but bio/chem safeguards lifted. Pricing is $10 per million input tokens and $50 per million output tokens, less than half of Mythos Preview. Subscription plans include it until June 22, then from June 23 it moves to usage credits. The API model is available now as `claude-fable-5`. Jevons paradox applies: when software starts coming out like water from a tap, demand itself grows. This model may drive that shift.
+Claude Fable 5 and Mythos 5 have launched. They are the most powerful models Anthropic has made so far.
+
+Andrej Karpathy commented that the longer and more complex the task is, the more Fable 5's strengths become visible.
+
+When you give it ambitious work, it understands and keeps going.
+
+The temptation to stop looking at the code entirely has never felt stronger, though you should not do that in production.
+
+The key point: this is a version of the Mythos-class model that can be made publicly available. Fable 5 is the same underlying model as Mythos 5, with added safeguards.
+
+Benchmarks:
+
+- SOTA on almost everything, especially software engineering, knowledge work, vision, and scientific research.
+- Stripe tested a 50-million-line Ruby codebase migration that would have taken a team two months; Fable 5 completed it in one day.
+- Cognition FrontierCode shows the best score among frontier models, even at medium effort.
+- Hebbia Finance Benchmark shows senior-level reasoning on document-based analysis.
+- In Slay the Spire, with file-based memory, it performs three times better than Opus 4.8.
+- Pokemon FireRed previously needed helper harnesses, but Fable 5 clears it with vision only.
+
+Mythos 5 is even stronger:
+
+- Protein-design experts accelerated parts of the drug-development process by about 10x.
+- Among 14 protein targets under study, nine produced valid drug candidates.
+- The model performed the whole workflow scientists normally do: binding-site selection, running protein-design tools, and recovering from errors.
+- In molecular-biology hypothesis experiments, scientists preferred Mythos hypotheses about 80% of the time over Opus-class models.
+- One hypothesis was independently verified by another lab.
+- In genomics research, Mythos worked autonomously for more than a week.
+- It gathered single-cell data from millions of cells across 138 species.
+- It trained a model to identify cells performing the same role across distant organisms.
+- It outperformed a recent Science model while being 100x smaller.
+
+Safeguards:
+
+- Fable 5 includes a separate classifier AI system.
+- If cyber, bio/chem, or distillation-related queries are detected, Claude Opus 4.8 answers instead and the user is informed.
+- More than 95% of sessions do not fall back.
+- Fallback is not refusal; Opus 4.8 answers, which is better than simply blocking.
+- Initial settings are conservative and harmless requests may be caught; Anthropic says false positives should decrease over time.
+
+Access:
+
+- Mythos 5 is currently available only to Project Glasswing partners.
+- A trusted access program for biology researchers is coming.
+- Pricing is $10 per million input tokens and $50 per million output tokens.
+- Subscription plans include Fable 5 until June 22.
+- From June 23, it moves to usage credits.
+- The API model is available now as `claude-fable-5`.
+
+Jevons paradox applies: when software starts coming out like water from a tap, demand itself grows. This model may drive that shift.
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -757,7 +2168,23 @@ Type: Evaluation | Date: 2026-06-09
 
 **How to use it:** Use this benchmark list to understand Fable 5's official scores across coding, computer use, and security tasks.
 
-**Original content (English):** The official Claude Fable 5 benchmarks are seriously impressive. Key scores: ▸ 80.3% on SWE-Bench Pro ▸ 29.3% on FrontierCode Diamond ▸ 88.0% on Terminal-Bench 2.1 ▸ 85.0% on OSWorld-Verified ▸ 78.0% on ExploitBench The FrontierCode result is the wild one: 29.3% vs 13.4% for Claude Opus 4.8 and 5.7% for GPT 5.5. Claude Fable 5 looks like a major jump for coding agents, computer use, and cybersecurity.
+The official Claude Fable 5 benchmarks are seriously impressive.
+
+Key scores:
+
+- 80.3% on SWE-Bench Pro
+- 29.3% on FrontierCode Diamond
+- 88.0% on Terminal-Bench 2.1
+- 85.0% on OSWorld-Verified
+- 78.0% on ExploitBench
+
+The FrontierCode result is the wild one:
+
+- Fable 5: 29.3%
+- Claude Opus 4.8: 13.4%
+- GPT 5.5: 5.7%
+
+Claude Fable 5 looks like a major jump for coding agents, computer use, and cybersecurity.
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -768,7 +2195,15 @@ Type: Evaluation | Date: 2026-06-09
 
 **How to use it:** Use this case to evaluate Fable 5 on APEX-SWE, especially observability and integration work.
 
-**Original content (English):** Claude Fable 5 takes #1 on APEX-SWE: 65.5% Pass@1 overall. It scores ~18pp higher than Opus 4.8. We tested @claudeai Fable 5 on APEX-SWE which measures whether AI models can do real software engineering work. Fable 5 tops our two APEX-SWE categories: - Integration: 61.3% - Observability: 69.7% The standout is Observability at 69.7%, 26pp ahead of Claude Opus 4.8. It is the first model to clear 50% on the category, and the only one that scores higher on Observability than on Integration. Every other model shows the reverse. Observability has been the bottleneck for every model we have measured. Fable 5 is the first to break it. Congrats to the @AnthropicAI team.
+Claude Fable 5 takes #1 on APEX-SWE: 65.5% Pass@1 overall. It scores ~18pp higher than Opus 4.8. We tested @claudeai Fable 5 on APEX-SWE which measures whether AI models can do real software engineering work. Fable 5 tops our two APEX-SWE categories:
+- Integration: 61.3%
+- Observability: 69.7%
+
+The standout is Observability at 69.7%, 26pp ahead of Claude Opus 4.8.
+
+It is the first model to clear 50% in the category, and the only one that scores higher on Observability than on Integration. Every other model shows the reverse.
+
+Observability has been the bottleneck for every model we have measured. Fable 5 is the first to break it.
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -779,7 +2214,22 @@ Type: Evaluation | Date: 2026-06-09
 
 **How to use it:** Use this case to evaluate Fable 5 on formal math against specialized theorem-proving systems.
 
-**Original content (English):** What I find fascinating with Claude Fable 5 is it proves once again that large generalist models will outperform vertical ones. On ProofBench (graduate-level formal math benchmark in Lean, where a proof either compiles or it doesn't) Fable 5 beat Harmonic's Aristotle, 77% vs 71%. Aristotle is a system built specifically for formal math + run on its own internal harness, so the generalist beat the specialist on the specialist's home turf. It's the Richard Sutton's "The Bitter Lesson". His whole argument is that across 70 years of machine intelligence research, the methods that win are the general ones that scale with compute. Not the ones where we hand-encode human expertise. Building our own knowledge into the system feels good and helps short term gains but long term it always gets overtaken by bigger model. You can look at Chess, Go, speech, vision, same story every time. First the specialized model wins, then the general one takes over. and btw this is the whole premise of AGI. You don't build one model for math, one for code, one for law. you build a single general model that scales with compute and it learns to do everything
+What I find fascinating with Claude Fable 5 is that it proves once again that large generalist models will outperform vertical ones.
+
+On ProofBench, a graduate-level formal math benchmark in Lean where a proof either compiles or it does not, Fable 5 beat Harmonic's Aristotle:
+
+- Fable 5: 77%
+- Aristotle: 71%
+
+Aristotle is a system built specifically for formal math and run on its own internal harness, so the generalist beat the specialist on the specialist's home turf.
+
+This is Richard Sutton's "Bitter Lesson": across 70 years of machine intelligence research, the methods that win are the general ones that scale with compute, not the ones where we hand-encode human expertise.
+
+Building our own knowledge into the system feels good and helps short-term gains, but long-term it gets overtaken by the bigger model.
+
+You can look at chess, Go, speech, and vision: same story every time. First the specialized model wins, then the general one takes over.
+
+This is the whole premise of AGI. You do not build one model for math, one for code, and one for law. You build a single general model that scales with compute and learns to do everything.
 
 Type: Tutorial | Date: 2026-06-09
 
@@ -790,7 +2240,23 @@ Type: Tutorial | Date: 2026-06-09
 
 **How to use it:** Use this case to inspect Fable 5's moral-reasoning behavior across virtue categories.
 
-**Original content (English):** Fascinating results that'll be published in fuller detail by ICMI in the coming days, but here's a preliminary review that runs Fable 5 against VirtueBench. A few observations: 1. Fable continues the Opus progression in advancing model performance on Prudence and Justice, nearing full saturation against moral dilemmas focusing on the exercise of these virtues in the benchmark. 2. Courage continues to be the noticeable weak point for frontier models, though Fable appears to correct marginally for a worrying regression observed across the Opus 4.6, 4.7, 4.8 progression. This vulnerability is a pattern seen even in the GPT series, with models easily abandoning courage-exhibiting action when tempted away with pragmatic rationales. 3. Temperance is interestingly stagnant. Aquinas held that temperance "takes the need of this life as the rule of the pleasures of which it makes use" (Summa Theologiae II-II, q. 141, a. 6) — the measure is genuine need, not indiscriminate restraint. Our best guess is that the tuning that would push further on this vector risks overshooting that mean: a model may become overly cautious or unable to be effectively assistive in research, gathering resources, etc.
+Fascinating results will be published in fuller detail by ICMI in the coming days, but here is a preliminary review that runs Fable 5 against VirtueBench.
+
+A few observations:
+
+1. Fable continues the Opus progression in advancing model performance on Prudence and Justice, nearing full saturation against moral dilemmas focused on the exercise of these virtues.
+
+2. Courage continues to be the noticeable weak point for frontier models.
+
+Fable appears to correct marginally for a worrying regression observed across the Opus 4.6, 4.7, and 4.8 progression.
+
+This vulnerability also appears in the GPT series: models easily abandon courage-exhibiting action when tempted away with pragmatic rationales.
+
+3. Temperance is stagnant.
+
+Aquinas held that temperance "takes the need of this life as the rule of the pleasures of which it makes use" — the measure is genuine need, not indiscriminate restraint.
+
+Our best guess is that tuning that pushes further on this vector risks overshooting the mean, making the model overly cautious or less assistive in research, gathering resources, and similar tasks.
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -801,7 +2267,17 @@ Type: Evaluation | Date: 2026-06-09
 
 **How to use it:** Use this case to understand launch-time safety overfit risk and empty-response behavior in API testing.
 
-**Original content (English):** Claude Fable 5 is censored as fuck. Upstream endpoint (API) is killing calls with empty_content responses (appearing to be classifier related on keywords) - yet still charging for it... 73 test cases gave no response. 65 of which sit in Overfit (the category testing safety overfit, which is weighted 2x). Typically I give each Fail-NR (Fail = No Response) 2-3 regens before declaring it a deliberate failure. Claude Fable 5 may end up being the lowest rated Anthropic model on SM Bench. Even below Haiku lmfao.
+Claude Fable 5 is heavily censored.
+
+The upstream API endpoint is killing calls with `empty_content` responses, apparently classifier-related on keywords, while still charging for them.
+
+Test result:
+
+- 73 test cases gave no response.
+- 65 of those sit in Overfit, the category testing safety overfit, weighted 2x.
+- Typically I give each Fail-NR, meaning Fail = No Response, 2-3 regenerations before declaring it a deliberate failure.
+
+Claude Fable 5 may end up being the lowest-rated Anthropic model on SM Bench, even below Haiku.
 
 Type: Evaluation | Date: 2026-06-09
 
@@ -811,7 +2287,18 @@ Type: Evaluation | Date: 2026-06-09
 
 This repository was inspired by the creators, developers, benchmark teams, and communities who shared real Claude Fable 5 usage cases publicly.
 
-Thanks to the high-tier source creators represented here: [@ai_for_success](https://x.com/ai_for_success), [@AI_masaou](https://x.com/AI_masaou), [@aianimesyokunin](https://x.com/aianimesyokunin), [@AlicanKiraz0](https://x.com/AlicanKiraz0), [@alliekmiller](https://x.com/alliekmiller), [@AndrewCurran_](https://x.com/AndrewCurran_), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@ayushagarwal](https://x.com/ayushagarwal), [@bcherny](https://x.com/bcherny), [@bielzinn](https://x.com/bielzinn), [@btibor91](https://x.com/btibor91), [@clairevo](https://x.com/clairevo), [@coldopn](https://x.com/coldopn), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@ctgptlb](https://x.com/ctgptlb), [@deveshcodes_](https://x.com/deveshcodes_), [@ecomchasedimond](https://x.com/ecomchasedimond), [@gabepereyra](https://x.com/gabepereyra), [@grapeot](https://x.com/grapeot), [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@HKrackDev](https://x.com/HKrackDev), [@IBuzovskyi](https://x.com/IBuzovskyi), [@intheworldofai](https://x.com/intheworldofai), [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@JJEnglert](https://x.com/JJEnglert), [@jsnnsa](https://x.com/jsnnsa), [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@kieradev](https://x.com/kieradev), [@LechMazur](https://x.com/LechMazur), [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@manaltdan](https://x.com/manaltdan), [@mark_k](https://x.com/mark_k), and 19 more creators in the dataset.
+Thanks to the high-tier source creators represented here:
+
+- [@ai_for_success](https://x.com/ai_for_success), [@AI_masaou](https://x.com/AI_masaou), [@aianimesyokunin](https://x.com/aianimesyokunin), [@AlicanKiraz0](https://x.com/AlicanKiraz0)
+- [@alliekmiller](https://x.com/alliekmiller), [@AndrewCurran_](https://x.com/AndrewCurran_), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq)
+- [@ayushagarwal](https://x.com/ayushagarwal), [@bcherny](https://x.com/bcherny), [@bielzinn](https://x.com/bielzinn), [@btibor91](https://x.com/btibor91)
+- [@clairevo](https://x.com/clairevo), [@coldopn](https://x.com/coldopn), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@ctgptlb](https://x.com/ctgptlb)
+- [@deveshcodes_](https://x.com/deveshcodes_), [@ecomchasedimond](https://x.com/ecomchasedimond), [@gabepereyra](https://x.com/gabepereyra), [@grapeot](https://x.com/grapeot)
+- [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@HKrackDev](https://x.com/HKrackDev), [@IBuzovskyi](https://x.com/IBuzovskyi), [@intheworldofai](https://x.com/intheworldofai)
+- [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@JJEnglert](https://x.com/JJEnglert), [@jsnnsa](https://x.com/jsnnsa)
+- [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@kieradev](https://x.com/kieradev), [@LechMazur](https://x.com/LechMazur)
+- [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@manaltdan](https://x.com/manaltdan), [@mark_k](https://x.com/mark_k)
+- 19 more creators in the dataset.
 
 *We cannot guarantee that every case is attributed to the original creator. If anything needs to be corrected, please contact us and we will update it.*
 
