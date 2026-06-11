@@ -37,6 +37,32 @@ Before adding or changing a case:
 - Confirm no placeholder translation text remains.
 - Confirm every banner image path referenced by a README exists in `images/`.
 
+## Daily Update Intake Workflow
+
+The repository has a scheduled GitHub Actions workflow at `.github/workflows/daily-update-intake.yml`.
+
+It runs every day at 01:00 UTC / 09:00 Asia-Shanghai and can also be started manually from the Actions tab.
+
+Required repository secret:
+
+- `TWITTERAPI_API_KEY` — twitterapi.io read API key used to search recent X/Twitter posts.
+
+What the workflow does:
+
+- Searches recent public posts for Claude Fable 5 / Fable 5 candidates.
+- Deduplicates against links already present in `README*.md` and the curated JSON file.
+- Runs lightweight README consistency checks.
+- Uploads `daily_update_candidates.json`, `daily_update_issue.md`, and `validation_summary.md` as an artifact.
+- Opens or updates one issue named `Daily Fable 5 update intake` with reviewer-ready candidates.
+
+What the workflow intentionally does not do:
+
+- It does not edit README files.
+- It does not add cases automatically.
+- It does not sync localized READMEs.
+
+This follows the curation boundary used by the local prompt intake skills: collect and deduplicate first, then require human approval before repository content changes.
+
 ## Validation Commands
 
 Run these checks before publishing:
