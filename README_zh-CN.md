@@ -37,7 +37,7 @@
 <a id="-overview"></a>
 ## 📊 概览
 
-- **78 个精选 Claude Fable 5 案例**，来自公开创作者、开发者、基准测试团队和工具构建者。
+- **88 个精选 Claude Fable 5 案例**，来自公开创作者、开发者、基准测试团队和工具构建者。
 - 覆盖编码代理、长时间自动化、游戏、视觉设计、3D 模拟、知识工作、教程、API 集成、基准、定价和发布限制。
 - 每个案例都包含原始来源、创作者署名、简明要点、证据类型和发布日期。
 - 使用本仓库查找实用工作流、比较优势与限制、发现可复现提示词，并跟踪集成示例。
@@ -81,7 +81,7 @@ curl --request POST \
 | [📚 文档、知识工作与研究](#documents-knowledge-work-and-research) | Case 17-19 |
 | [🧭 教程、课程与提示词资源](#tutorials-courses-and-prompt-resources) | Case 20-28 |
 | [🔌 平台、API 与工具集成](#platform-api-and-tool-integration) | Case 29-34 |
-| [📏 评测、对比与限制](#evaluations-comparisons-and-limits) | Case 35-78 |
+| [📏 评测、对比与限制](#evaluations-comparisons-and-limits) | Case 35-88 |
 | [🙏 Acknowledge](#acknowledge) | 致谢与更正说明 |
 
 ### [💻 编码与代码生成](#coding-and-code-generation)
@@ -183,24 +183,34 @@ curl --request POST \
 | [ProofBench 形式化数学结果](#case-58) | 使用本案例评估 Fable 5 在形式化数学上相对专用定理证明系统的表现。 | 教程 |
 | [VirtueBench 初步分析](#case-59) | 使用本案例检查 Fable 5 在不同美德类别中的道德推理行为。 | 评测 |
 | [API 空响应安全过拟合测试](#case-60) | 使用本案例理解发布期安全过拟合风险，以及 API 测试中的空响应行为。 | 评测 |
-| [Fable Prompting Verification Guide](#case-61) | Use this prompting guide to shift from longer prompt hacks toward goal, context, constraints, tools, and verification loops. | 教程 |
-| [Istanbul Platform Game Reference Build](#case-62) | Use a reference sprite sheet plus one conversion instruction to test Fable 5 on a playable platform game. | 演示 |
-| [Business 3D City Dashboard](#case-63) | Use Fable 5 to turn a business workflow into a live 3D city dashboard concept. | 演示 |
-| [Three.js Hole Game One-Shot](#case-64) | Use Fable 5 to one-shot a 3D browser game prototype in Three.js. | 演示 |
-| [DeepSWE Score Comparison](#case-65) | Use this DeepSWE note to compare Fable 5 xHigh with GPT-5.5 xHigh on software-engineering benchmark performance. | 评测 |
-| [Repository Cost Comparison](#case-66) | Use this repository-analysis comparison to judge token price against human rework cost. | 评测 |
-| [Super Mario Game Token Cost](#case-67) | Use this single-shot game build to estimate Fable 5 output quality and token consumption. | 演示 |
-| [Claude Code Fallback Setting](#case-68) | Use this case to understand the Claude Code setting for switching models when a Fable 5 message is flagged. | 集成 |
-| [Namma Metro Simulator Build](#case-69) | Use this demo as a compact example of vibe-coding a public-transit simulator with Fable 5. | 演示 |
-| [Dusk Drive One-Prompt Game](#case-70) | Use this one-prompt driving-game case to evaluate Fable 5 on low-poly game prototyping without human edits. | 演示 |
-| [APEX-Agents Pass@1 Ranking](#case-71) | Use this APEX-Agents result to compare Fable 5 Max on multi-step autonomous tasks. | 评测 |
-| [Claude Model Selection Playbook](#case-72) | Use this model-selection playbook to reserve Fable 5 for the hardest Claude Code jobs. | 教程 |
-| [HermesWorld Automated Agent Loop](#case-73) | Use this case to study a hands-free Fable 5 loop that builds, tests, plays, and smoke-tests over days. | 集成 |
-| [McKinsey-Style Report Prompt Test](#case-74) | Use this document-generation prompt to evaluate consulting-report structure, charts, narrative, and risk analysis. | 教程 |
-| [Visible Safeguards Rollout](#case-75) | Use this official note to understand Fable 5 safeguard visibility, API refusal reasons, and Opus fallback behavior. | 集成 |
-| [Claude Code Model Matching Fix](#case-76) | Use this Claude Code changelog note to avoid Fable 5 model-name and context matching issues. | 集成 |
-| [Three Web Apps in Claude Code](#case-77) | Use this beginner coding demo to inspect Fable 5 inside Claude Code across multiple generated web apps. | 演示 |
-| [Rilable Open Source App Builder](#case-78) | Use this open-source app-builder case to study Fable 5 across iOS, web apps, sandboxes, and API-token cost. | 集成 |
+| [Fable 提示词验证指南](#case-61) | 用这份提示词指南，把重点从拉长提示词技巧转向目标、上下文、约束、工具和验证循环。 | 教程 |
+| [伊斯坦布尔平台游戏参考构建](#case-62) | 用一张参考 sprite sheet 加上一条转换指令，测试 Fable 5 是否能生成可玩的平台游戏。 | 演示 |
+| [商业 3D 城市仪表板](#case-63) | 用 Fable 5 把业务工作流转成一个实时 3D 城市仪表板概念。 | 演示 |
+| [Three.js Hole 游戏一次生成](#case-64) | 用 Fable 5 一次生成一个基于 Three.js 的 3D 浏览器游戏原型。 | 演示 |
+| [DeepSWE 评分对比](#case-65) | 用这条 DeepSWE 记录，对比 Fable 5 xHigh 和 GPT-5.5 xHigh 在软件工程基准上的表现。 | 评测 |
+| [仓库成本对比](#case-66) | 用这个仓库分析对比，判断 token 价格和人工返工成本之间的关系。 | 评测 |
+| [Super Mario 游戏 Token 成本](#case-67) | 用这个单次生成的游戏案例估算 Fable 5 的输出质量和 token 消耗。 | 演示 |
+| [Claude Code Fallback 设置](#case-68) | 用这个案例了解 Claude Code 在 Fable 5 消息被标记时如何切换模型。 | 集成 |
+| [Namma Metro 模拟器构建](#case-69) | 用这个 demo 作为 Fable 5 为公共交通模拟器进行 vibe coding 的紧凑示例。 | 演示 |
+| [Dusk Drive 单提示词游戏](#case-70) | 用这个单提示词驾驶游戏案例，评估 Fable 5 在无需人工编辑时进行 low-poly 游戏原型开发的能力。 | 演示 |
+| [APEX-Agents Pass@1 排名](#case-71) | 用这个 APEX-Agents 结果，对比 Fable 5 Max 在多步骤自主任务上的表现。 | 评测 |
+| [Claude 模型选择手册](#case-72) | 用这份模型选型手册，把 Fable 5 留给 Claude Code 中最难的任务。 | 教程 |
+| [HermesWorld 自动代理循环](#case-73) | 用这个案例研究一个免手动干预的 Fable 5 循环，它会持续构建、测试、游玩和做 smoke test。 | 集成 |
+| [麦肯锡风格报告提示词测试](#case-74) | 用这条文档生成提示词，评估咨询报告的结构、图表、叙事和风险分析。 | 教程 |
+| [可见防护措施上线](#case-75) | 用这条官方说明了解 Fable 5 防护机制的可见性、API 拒答原因和回退到 Opus 的行为。 | 集成 |
+| [Claude Code 模型匹配修复](#case-76) | 用这条 Claude Code 更新说明，避免 Fable 5 的模型名和上下文匹配问题。 | 集成 |
+| [Claude Code 中的三个 Web App](#case-77) | 用这个新手编码 demo，观察 Fable 5 在 Claude Code 中生成多个 Web App 的表现。 | 演示 |
+| [Rilable 开源 App 构建器](#case-78) | 用这个开源 App 构建器案例研究 Fable 5 在 iOS、Web App、沙盒和 API token 成本上的应用。 | 集成 |
+| [DeepSWE 编码代理指数首秀](#case-79) | 用更新后的 Artificial Analysis 指数，对比 Fable 5 在更难的代理式编码任务上的表现，这些任务避免复用公开 GitHub 修复。 | 评测 |
+| [DataEmpire 网站分析游戏](#case-80) | 让 Claude Fable 5 把访客和里程碑映射成游戏实体，把原始网站分析数据变成可重玩的游戏。 | 集成 |
+| [FrontierSWE 20 小时任务信号](#case-81) | 用 FrontierSWE 证明 Fable 5 不只适合短期修 bug，也能在超长工程任务中持续保持产出。 | 评测 |
+| [KernelBench-Hard CUDA 记录](#case-82) | 当你需要低层优化而不只是现有库封装时，用 Fable 5 处理高级 CUDA kernel 生成。 | 评测 |
+| [Figma Capture 落地页克隆](#case-83) | 把竞品页面抓进 Figma 图层后，让 Claude Code 配合 Fable 5 重建结构、文案和品牌系统，而不是靠截图猜测。 | 集成 |
+| [两小时做出 GTA 2 克隆](#case-84) | 把 Fable 5 的代码生成和独立素材工具结合起来，快速做出可玩的 3D 游戏，而不必手写整个技术栈。 | 教程 |
+| [CloudWatch 日志分诊代理](#case-85) | 让 Fable 5 驱动的代理消化超大规模服务日志上下文，先推断架构，再收敛到具体故障。 | 集成 |
+| [沙盒中的世界杯预测器](#case-86) | 把多个 frontier 模型放进隔离沙盒，让它们为公开预测应用研究实时新闻、伤病和黄牌背景。 | 集成 |
+| [WolfBench 拒答成本案例](#case-87) | 在为 Fable 5 的长自主运行定价时，把拒答行为视为真实的基准变量。 | 评测 |
+| [API 访问截止追踪器](#case-88) | 如果你的工作流依赖持续访问某个可能被限流或撤下的 frontier 模型，就用脚本监控可用性。 | 集成 |
 
 
 <a id="coding-and-code-generation"></a>
@@ -2363,202 +2373,311 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 ---
 
-<a id="-acknowledge"></a>
 <a id="case-61"></a>
-### Case 61: [Fable Prompting Verification Guide](https://x.com/aashatwt/status/2064973740354818074) (by [@aashatwt](https://x.com/aashatwt))
+### Case 61: [Fable 提示词验证指南](https://x.com/aashatwt/status/2064973740354818074)（作者 [@aashatwt](https://x.com/aashatwt)）
 
-**Use this prompting guide to shift from longer prompt hacks toward goal, context, constraints, tools, and verification loops.**
+**用这份提示词指南，把重点从拉长提示词技巧转向目标、上下文、约束、工具和验证循环。**
 
-Treat Fable 5 prompting as context and environment design rather than a long list of step-by-step instructions. The post summarizes a practical pattern: provide a clear goal, relevant context, constraints, tool access, and a way to verify success. It also argues that verification, evaluation, and feedback matter more than micromanaging the model's reasoning.
+把 Fable 5 的提示词设计看成上下文与环境设计，而不是冗长的逐步指令列表。这条帖子总结了一个实用模式：提供清晰目标、相关上下文、约束、工具访问方式，以及验证成功的方法。它还认为，验证、评估和反馈，比微观管理模型的推理过程更重要。
 
 类型：教程 | 日期：2026-06-11
 
 ---
 
 <a id="case-62"></a>
-### Case 62: [Istanbul Platform Game Reference Build](https://x.com/ozansihay/status/2064973170780545535) (by [@ozansihay](https://x.com/ozansihay))
+### Case 62: [伊斯坦布尔平台游戏参考构建](https://x.com/ozansihay/status/2064973170780545535)（作者 [@ozansihay](https://x.com/ozansihay)）
 
-**Use a reference sprite sheet plus one conversion instruction to test Fable 5 on a playable platform game.**
+**用一张参考 sprite sheet 加上一条转换指令，测试 Fable 5 是否能生成可玩的平台游戏。**
 
-The creator first generated a retro Istanbul platform-game sprite sheet with GPT Image 2, then gave that reference image to Claude Fable 5 High and asked it to turn the image into a game. The reported result was produced in a single pass.
+创作者先用 GPT Image 2 生成了一张复古风格的伊斯坦布尔平台游戏 sprite sheet，然后把这张参考图交给 Claude Fable 5 High，并要求它把图片变成游戏。帖文称，结果是在单次运行中产出的。
 
 类型：演示 | 日期：2026-06-11
 
 ---
 
 <a id="case-63"></a>
-### Case 63: [Business 3D City Dashboard](https://x.com/noisyb0y1/status/2064970594118967756) (by [@noisyb0y1](https://x.com/noisyb0y1))
+### Case 63: [商业 3D 城市仪表板](https://x.com/noisyb0y1/status/2064970594118967756)（作者 [@noisyb0y1](https://x.com/noisyb0y1)）
 
-**Use Fable 5 to turn a business workflow into a live 3D city dashboard concept.**
+**用 Fable 5 把业务工作流转成一个实时 3D 城市仪表板概念。**
 
-The post describes a one-prompt business visualization where warehouses, packing, drones, orders, departments, customers, and AI assistants become a live 3D city. It frames the output as a client-facing alternative to static slides, with operational figures such as 42 deliveries, 12-minute average time, and $651 in revenue shown on screen.
+这条帖子描述了一个单提示词商业可视化案例：仓库、打包、无人机、订单、部门、客户和 AI 助手都被映射成一个实时 3D 城市。它把这个输出定位为静态幻灯片的面向客户替代方案，画面上还展示了 42 次配送、12 分钟平均时长和 651 美元收入等运营数据。
 
 类型：演示 | 日期：2026-06-11
 
 ---
 
 <a id="case-64"></a>
-### Case 64: [Three.js Hole Game One-Shot](https://x.com/thebuggeddev/status/2064968106104275008) (by [@thebuggeddev](https://x.com/thebuggeddev))
+### Case 64: [Three.js Hole 游戏一次生成](https://x.com/thebuggeddev/status/2064968106104275008)（作者 [@thebuggeddev](https://x.com/thebuggeddev)）
 
-**Use Fable 5 to one-shot a 3D browser game prototype in Three.js.**
+**用 Fable 5 一次生成一个基于 Three.js 的 3D 浏览器游戏原型。**
 
-The creator says Fable 5 built an entire 3D HOLE IT-style game using Three.js in one shot. This is a lightweight but concrete game-generation demo for testing whether the model can produce a playable 3D interaction from a compact request.
+创作者表示，Fable 5 用 Three.js 一次性构建了一个完整的 3D HOLE IT 风格游戏。这是一个轻量但具体的游戏生成 demo，可用来测试模型是否能从紧凑请求中产出可玩的 3D 交互。
 
 类型：演示 | 日期：2026-06-11
 
 ---
 
 <a id="case-65"></a>
-### Case 65: [DeepSWE Score Comparison](https://x.com/AiBattle_/status/2064964335957348462) (by [@AiBattle_](https://x.com/AiBattle_))
+### Case 65: [DeepSWE 评分对比](https://x.com/AiBattle_/status/2064964335957348462)（作者 [@AiBattle_](https://x.com/AiBattle_)）
 
-**Use this DeepSWE note to compare Fable 5 xHigh with GPT-5.5 xHigh on software-engineering benchmark performance.**
+**用这条 DeepSWE 记录，对比 Fable 5 xHigh 和 GPT-5.5 xHigh 在软件工程基准上的表现。**
 
-The post reports Claude Fable 5 xHigh scoring 70% on DeepSWE, matching GPT-5.5 xHigh, and points to Theo's recent video as the source context. Treat this as a benchmark lead that should be checked against the underlying video before making stronger claims.
+这条帖子称 Claude Fable 5 xHigh 在 DeepSWE 上拿到 70%，与 GPT-5.5 xHigh 持平，并把 Theo 最近的视频作为来源上下文。应把它视为一个基准线索，在作出更强判断前，仍需回头核对底层视频内容。
 
 类型：评测 | 日期：2026-06-11
 
 ---
 
 <a id="case-66"></a>
-### Case 66: [Repository Cost Comparison](https://x.com/Pilgrim6938/status/2064946766278210038) (by [@Pilgrim6938](https://x.com/Pilgrim6938))
+### Case 66: [仓库成本对比](https://x.com/Pilgrim6938/status/2064946766278210038)（作者 [@Pilgrim6938](https://x.com/Pilgrim6938)）
 
-**Use this repository-analysis comparison to judge token price against human rework cost.**
+**用这个仓库分析对比，判断 token 价格和人工返工成本之间的关系。**
 
-The post compares Claude Fable 5, Opus 4.8, GPT-5.5, and Gemini 3.1 Pro on the same task: analyzing a roughly 90,000-line repository, locating a cache invalidation issue, and proposing a full fix plan. The author argues that raw token price and actual task cost diverge once developer correction time is counted, and recommends using Fable 5 selectively for complex refactors, cross-module migrations, and long-chain agent work.
+这条帖子比较了 Claude Fable 5、Opus 4.8、GPT-5.5 和 Gemini 3.1 Pro 在同一任务上的表现：分析一个约 9 万行代码的仓库、定位缓存失效问题，并提出完整修复计划。作者认为，一旦把开发者修正时间算进去，原始 token 单价和真实任务成本就会出现明显偏差，并建议只在复杂重构、跨模块迁移和长链代理任务中选择性使用 Fable 5。
 
 类型：评测 | 日期：2026-06-11
 
 ---
 
 <a id="case-67"></a>
-### Case 67: [Super Mario Game Token Cost](https://x.com/pankajkumar_dev/status/2064941888990593416) (by [@pankajkumar_dev](https://x.com/pankajkumar_dev))
+### Case 67: [Super Mario 游戏 Token 成本](https://x.com/pankajkumar_dev/status/2064941888990593416)（作者 [@pankajkumar_dev](https://x.com/pankajkumar_dev)）
 
-**Use this single-shot game build to estimate Fable 5 output quality and token consumption.**
+**用这个单次生成的游戏案例估算 Fable 5 的输出质量和 token 消耗。**
 
-The creator asked Claude Fable 5 to build a Super Mario Nintendo-style game. The post reports that the task used around 2 million tokens and produced a strong single-shot result, making it useful for judging both game-building quality and cost.
+创作者让 Claude Fable 5 构建一个 Super Mario 任天堂风格游戏。帖子称，这个任务大约用了 200 万 token，并产出了一个很强的单次生成结果，因此适合同时评估游戏构建质量和成本。
 
 类型：演示 | 日期：2026-06-11
 
 ---
 
 <a id="case-68"></a>
-### Case 68: [Claude Code Fallback Setting](https://x.com/oikon48/status/2064937790010503347) (by [@oikon48](https://x.com/oikon48))
+### Case 68: [Claude Code Fallback 设置](https://x.com/oikon48/status/2064937790010503347)（作者 [@oikon48](https://x.com/oikon48)）
 
-**Use this case to understand the Claude Code setting for switching models when a Fable 5 message is flagged.**
+**用这个案例了解 Claude Code 在 Fable 5 消息被标记时如何切换模型。**
 
-The post identifies a Claude Code `/config` setting named "Switch models when a message is flagged." It describes how Fable 5 can fall back to an Opus model for flagged areas such as offensive cybersecurity techniques, biology/life-science experimental methods, molecular mechanisms, or requests to extract model thinking processes.
+这条帖子指出，Claude Code 的 `/config` 中有一个名为 “Switch models when a message is flagged.” 的设置。它说明，对于攻击性网络安全技术、生物或生命科学实验方法、分子机制，或要求提取模型思维过程等被标记领域，Fable 5 可以回退到 Opus 模型。
 
 类型：集成 | 日期：2026-06-11
 
 ---
 
 <a id="case-69"></a>
-### Case 69: [Namma Metro Simulator Build](https://x.com/anilbpai/status/2064927784833790091) (by [@anilbpai](https://x.com/anilbpai))
+### Case 69: [Namma Metro 模拟器构建](https://x.com/anilbpai/status/2064927784833790091)（作者 [@anilbpai](https://x.com/anilbpai)）
 
-**Use this demo as a compact example of vibe-coding a public-transit simulator with Fable 5.**
+**用这个 demo 作为 Fable 5 为公共交通模拟器进行 vibe coding 的紧凑示例。**
 
-The creator reports building a Namma Metro simulator while riding the Bengaluru Metro, using Claude Fable 5 as the coding partner. The post is brief, but it links to a visual demo and shows Fable 5 applied to a location-specific simulation idea.
+创作者称，他在乘坐 Bengaluru Metro 时，把 Claude Fable 5 当作编码伙伴，构建了一个 Namma Metro 模拟器。这条帖子很简短，但它链接到了可视化 demo，也展示了 Fable 5 被用于一个带有地域特定背景的模拟想法。
 
 类型：演示 | 日期：2026-06-11
 
 ---
 
 <a id="case-70"></a>
-### Case 70: [Dusk Drive One-Prompt Game](https://x.com/VincentLogic/status/2064921358359011684) (by [@VincentLogic](https://x.com/VincentLogic))
+### Case 70: [Dusk Drive 单提示词游戏](https://x.com/VincentLogic/status/2064921358359011684)（作者 [@VincentLogic](https://x.com/VincentLogic)）
 
-**Use this one-prompt driving-game case to evaluate Fable 5 on low-poly game prototyping without human edits.**
+**用这个单提示词驾驶游戏案例，评估 Fable 5 在无需人工编辑时进行 low-poly 游戏原型开发的能力。**
 
-The post describes Claude Fable 5 creating a complete driving game, Dusk Drive, from one prompt. The creator highlights the low-poly visual style, aurora snow drifting scene, and the claim that there was zero human editing between idea and playable version.
+这条帖子描述 Claude Fable 5 仅凭一个提示词，就创建了完整的驾驶游戏 Dusk Drive。创作者强调了 low-poly 视觉风格、极光与飘雪场景，以及从想法到可玩版本之间零人工编辑的说法。
 
 类型：演示 | 日期：2026-06-11
 
 ---
 
 <a id="case-71"></a>
-### Case 71: [APEX-Agents Pass@1 Ranking](https://x.com/GratomicAi/status/2064970797978911102) (by [@GratomicAi](https://x.com/GratomicAi))
+### Case 71: [APEX-Agents Pass@1 排名](https://x.com/GratomicAi/status/2064970797978911102)（作者 [@GratomicAi](https://x.com/GratomicAi)）
 
-**Use this APEX-Agents result to compare Fable 5 Max on multi-step autonomous tasks.**
+**用这个 APEX-Agents 结果，对比 Fable 5 Max 在多步骤自主任务上的表现。**
 
-The post reports Fable 5 Max placing second on the APEX-Agents leaderboard with 45% Pass@1, behind Gemini 3.5 Flash and above Opus. It describes APEX-Agents as a benchmark for how well AI can independently perform complex multi-step tasks.
+这条帖子称，Fable 5 Max 以 45% Pass@1 排在 APEX-Agents 排行榜第二，位于 Gemini 3.5 Flash 之后、Opus 之前。它还把 APEX-Agents 描述为一个衡量 AI 能否独立完成复杂多步骤任务的基准。
 
 类型：评测 | 日期：2026-06-11
 
 ---
 
 <a id="case-72"></a>
-### Case 72: [Claude Model Selection Playbook](https://x.com/charliejhills/status/2064957428211536212) (by [@charliejhills](https://x.com/charliejhills))
+### Case 72: [Claude 模型选择手册](https://x.com/charliejhills/status/2064957428211536212)（作者 [@charliejhills](https://x.com/charliejhills)）
 
-**Use this model-selection playbook to reserve Fable 5 for the hardest Claude Code jobs.**
+**用这份模型选型手册，把 Fable 5 留给 Claude Code 中最难的任务。**
 
-The post compares Haiku 4.5, Sonnet 4.6, Opus 4.8, and Fable 5 across model effort and limit usage. Its practical advice is to run Sonnet for everyday work, switch to Opus for harder problems, and save Fable 5 for the toughest Claude Code tasks where planning, building, and testing depth matter.
+这条帖子比较了 Haiku 4.5、Sonnet 4.6、Opus 4.8 和 Fable 5 在模型强度和额度使用上的差异。它给出的实用建议是：日常工作跑 Sonnet，较难问题切到 Opus，而 Fable 5 留给那些最棘手、真正需要规划、构建和测试深度的 Claude Code 任务。
 
 类型：教程 | 日期：2026-06-11
 
 ---
 
 <a id="case-73"></a>
-### Case 73: [HermesWorld Automated Agent Loop](https://x.com/outsource_/status/2064954350187778366) (by [@outsource_](https://x.com/outsource_))
+### Case 73: [HermesWorld 自动代理循环](https://x.com/outsource_/status/2064954350187778366)（作者 [@outsource_](https://x.com/outsource_)）
 
-**Use this case to study a hands-free Fable 5 loop that builds, tests, plays, and smoke-tests over days.**
+**用这个案例研究一个免手动干预的 Fable 5 循环，它会持续构建、测试、游玩和做 smoke test。**
 
-The creator describes using Fable 5 to build HermesWorld v2 through a fully automated loop. The agent reportedly runs for days, builds features, tests them, plays through the result, and smoke-tests everything while continuing toward completion.
+创作者描述了用 Fable 5 通过全自动循环构建 HermesWorld v2。这个代理据称会持续运行数天，不断构建功能、测试功能、亲自游玩结果，并对整体做 smoke test，一路推进到完成。
 
 类型：集成 | 日期：2026-06-11
 
 ---
 
 <a id="case-74"></a>
-### Case 74: [McKinsey-Style Report Prompt Test](https://x.com/smtgpt/status/2064953210335588758) (by [@smtgpt](https://x.com/smtgpt))
+### Case 74: [麦肯锡风格报告提示词测试](https://x.com/smtgpt/status/2064953210335588758)（作者 [@smtgpt](https://x.com/smtgpt)）
 
-**Use this document-generation prompt to evaluate consulting-report structure, charts, narrative, and risk analysis.**
+**用这条文档生成提示词，评估咨询报告的结构、图表、叙事和风险分析。**
 
-The creator gave Fable 5 a prompt asking for a McKinsey-style detailed report on Bitcoin as an asset class and blockchain technology, with charts and visuals as needed. The reported output was a 19-page document with data, charts, an investment thesis, and risk analysis; the critique notes strong structure but room for crisper visuals and tighter explanations.
+创作者给了 Fable 5 一条提示词，要求它围绕比特币作为资产类别和区块链技术，生成一份麦肯锡风格的详细报告，并在需要时加入图表和可视化。帖文称输出是一份 19 页文档，包含数据、图表、投资论点和风险分析；评价则认为其结构很强，但视觉仍可更利落，解释也还能更紧凑。
 
 类型：教程 | 日期：2026-06-11
 
 ---
 
 <a id="case-75"></a>
-### Case 75: [Visible Safeguards Rollout](https://x.com/ClaudeDevs/status/2064949876463645026) (by [@ClaudeDevs](https://x.com/ClaudeDevs))
+### Case 75: [可见防护措施上线](https://x.com/ClaudeDevs/status/2064949876463645026)（作者 [@ClaudeDevs](https://x.com/ClaudeDevs)）
 
-**Use this official note to understand Fable 5 safeguard visibility, API refusal reasons, and Opus fallback behavior.**
+**用这条官方说明了解 Fable 5 防护机制的可见性、API 拒答原因和回退到 Opus 的行为。**
 
-ClaudeDevs announced changes making Fable 5 safeguards for frontier LLM development visible. Flagged requests will visibly fall back to Opus 4.8, and API flagged requests are expected to return a refusal reason. The post also explains why invisible safeguards shipped first and why Anthropic now describes that as the wrong tradeoff.
+ClaudeDevs 宣布了一项改动，让面向 frontier LLM 开发的 Fable 5 防护机制变得可见。被标记的请求会明确回退到 Opus 4.8，而 API 中被标记的请求预计会返回拒答原因。帖子还解释了为什么一开始会上线不可见防护，以及 Anthropic 现在为什么认为那是错误的权衡。
 
 类型：集成 | 日期：2026-06-11
 
 ---
 
 <a id="case-76"></a>
-### Case 76: [Claude Code Model Matching Fix](https://x.com/ClaudeCodeLog/status/2064948584907153576) (by [@ClaudeCodeLog](https://x.com/ClaudeCodeLog))
+### Case 76: [Claude Code 模型匹配修复](https://x.com/ClaudeCodeLog/status/2064948584907153576)（作者 [@ClaudeCodeLog](https://x.com/ClaudeCodeLog)）
 
-**Use this Claude Code changelog note to avoid Fable 5 model-name and context matching issues.**
+**用这条 Claude Code 更新说明，避免 Fable 5 的模型名和上下文匹配问题。**
 
-Claude Code 2.1.173 includes a fix that strips the `[1m]` suffix from Fable 5 model names to prevent default 1M context from breaking model matching. The same release also suppresses a spurious Windows sandbox dependency warning and clarifies grep help output modes.
+Claude Code 2.1.173 包含一个修复：会从 Fable 5 的模型名中去掉 `[1m]` 后缀，以避免默认 1M 上下文破坏模型匹配。同一版本还抑制了一个多余的 Windows 沙盒依赖警告，并澄清了 grep 帮助输出模式。
 
 类型：集成 | 日期：2026-06-11
 
 ---
 
 <a id="case-77"></a>
-### Case 77: [Three Web Apps in Claude Code](https://x.com/0x3b33/status/2064948399300825439) (by [@0x3b33](https://x.com/0x3b33))
+### Case 77: [Claude Code 中的三个 Web App](https://x.com/0x3b33/status/2064948399300825439)（作者 [@0x3b33](https://x.com/0x3b33)）
 
-**Use this beginner coding demo to inspect Fable 5 inside Claude Code across multiple generated web apps.**
+**用这个新手编码 demo，观察 Fable 5 在 Claude Code 中生成多个 Web App 的表现。**
 
-The creator says they had no coding background and used Claude Code with Fable 5 to build three functioning web apps in 30 minutes, exposed locally on ports 3000, 3001, and 3002. Treat this as a lightweight beginner workflow demo rather than a benchmark.
+创作者表示，自己没有编程背景，却借助 Claude Code 和 Fable 5 在 30 分钟内做出了三个可运行的 Web App，分别本地暴露在 3000、3001 和 3002 端口上。更适合把它当作一个轻量的新手工作流 demo，而不是严格基准。
 
 类型：演示 | 日期：2026-06-11
 
 ---
 
 <a id="case-78"></a>
-### Case 78: [Rilable Open Source App Builder](https://x.com/rileybrown/status/2064931283403178354) (by [@rileybrown](https://x.com/rileybrown))
+### Case 78: [Rilable 开源 App 构建器](https://x.com/rileybrown/status/2064931283403178354)（作者 [@rileybrown](https://x.com/rileybrown)）
 
-**Use this open-source app-builder case to study Fable 5 across iOS, web apps, sandboxes, and API-token cost.**
+**用这个开源 App 构建器案例研究 Fable 5 在 iOS、Web App、沙盒和 API token 成本上的应用。**
 
-The creator open sourced Rilable, an iOS app that builds web apps and iOS apps. The post says it was built with Fable 5 in 10 prompts, cost about $210 in API tokens, uses Claude models for app generation, spins up sandboxes through Daytona, uses Convex for the database, Vercel AI Gateway for AI features, and a Chorus agent iOS skill for iOS apps.
+创作者开源了 Rilable，这是一款能构建 Web App 和 iOS App 的 iOS 应用。帖子称，它用 Fable 5 在 10 条提示词内完成，API token 成本约 210 美元，使用 Claude 模型生成应用，通过 Daytona 拉起沙盒，用 Convex 做数据库，用 Vercel AI Gateway 提供 AI 功能，并借助 Chorus agent iOS skill 处理 iOS App。
 
 类型：集成 | 日期：2026-06-11
+
+---
+
+<a id="case-79"></a>
+### Case 79: [DeepSWE 编码代理指数首秀](https://x.com/ArtificialAnlys/status/2065328920514515037)（作者 [@ArtificialAnlys](https://x.com/ArtificialAnlys)）
+
+**用更新后的 Artificial Analysis 指数，对比 Fable 5 在更难的代理式编码任务上的表现，这些任务避免复用公开 GitHub 修复。**
+
+Artificial Analysis 在其 Coding Agent Index 中用 Datacurve 的 DeepSWE 替换了 SWE-Bench Pro。帖子称，DeepSWE 会从零编写任务，而不是改写公开 GitHub issue 或 pull request，从而减少基准污染。在更新后的排名中，搭配 Fable 5 Max 的 Claude Code 以 77 分首秀，领先于搭配 GPT-5.5 xhigh 的 Codex 的 76 分，以及搭配 Opus 4.8 Max 的 Claude Code 的 73 分。
+
+类型：评测 | 日期：2026-06-12
+
+---
+
+<a id="case-80"></a>
+### Case 80: [DataEmpire 网站分析游戏](https://x.com/marclou/status/2065029898243318093)（作者 [@marclou](https://x.com/marclou)）
+
+**让 Claude Fable 5 把访客和里程碑映射成游戏实体，把原始网站分析数据变成可重玩的游戏。**
+
+Marc Lou 表示，Claude Fable 5 基于他的 DataFast 网站分析 API 构建了 DataEmpire。每位访客都会变成村民，流量增长会扩展聚落，而当访客达到 100 万时会解锁 Age of Legends。公开 demo 允许 DataFast 用户通过游戏层重放自己网站的历史，因此这更像一个有 API 支撑的产品化案例，而不是静态游戏片段。
+
+类型：集成 | 日期：2026-06-11
+
+---
+
+<a id="case-81"></a>
+### Case 81: [FrontierSWE 20 小时任务信号](https://x.com/ProximalHQ/status/2065184730279223410)（作者 [@ProximalHQ](https://x.com/ProximalHQ)）
+
+**用 FrontierSWE 证明 Fable 5 不只适合短期修 bug，也能在超长工程任务中持续保持产出。**
+
+ProximalHQ 表示，Claude Fable 5 在 FrontierSWE 上排名第一，并称这是自他们发布该基准以来见过的最大能力跃迁。他们的说明称，Fable 5 在很多任务上可以持续高效工作接近 20 小时，并能把早期模型实际上难以企及的任务真正做满。
+
+类型：评测 | 日期：2026-06-11
+
+---
+
+<a id="case-82"></a>
+### Case 82: [KernelBench-Hard CUDA 记录](https://x.com/elliotarledge/status/2065109393142849932)（作者 [@elliotarledge](https://x.com/elliotarledge)）
+
+**当你需要低层优化而不只是现有库封装时，用 Fable 5 处理高级 CUDA kernel 生成。**
+
+Elliot Arledge 在 KernelBench-Hard 上让 13 个 frontier 编码代理各跑了 45 分钟，并基于 RTX PRO 6000 做 roofline 评分。Claude Fable 5 在 top-k、sonic-MoE 和 W4A16 int4 GEMM 上创下历史记录，在 6 个问题里拿下 5 个第一，作者还公开了运行结果、排行榜和代码。同一串帖子也提到一次 FP8 GEMM 失手：Fable 5 尝试写了真正的 tensor-core kernel，但因为尾部对齐边界情况拿了 0 分。
+
+类型：评测 | 日期：2026-06-11
+
+---
+
+<a id="case-83"></a>
+### Case 83: [Figma Capture 落地页克隆](https://x.com/mikefutia/status/2065537778516205856)（作者 [@mikefutia](https://x.com/mikefutia)）
+
+**把竞品页面抓进 Figma 图层后，让 Claude Code 配合 Fable 5 重建结构、文案和品牌系统，而不是靠截图猜测。**
+
+Mike Futia 描述了一个工作流：先用 Figma 的 Chrome 扩展把网站复制成可编辑图层，再让 Claude Code 通过 Figma MCP 读取这些图层，用用户自己的品牌语气重写页面，并由 GPT Image 2 生成符合品牌的摄影图。声称的端到端结果是，大约 15 分钟就能做出一个可上线的落地页，而 16 张图片的生成 API 成本大约只有 2 美元。
+
+类型：集成 | 日期：2026-06-12
+
+---
+
+<a id="case-84"></a>
+### Case 84: [两小时做出 GTA 2 克隆](https://x.com/techhalla/status/2064682080445898957)（作者 [@techhalla](https://x.com/techhalla)）
+
+**把 Fable 5 的代码生成和独立素材工具结合起来，快速做出可玩的 3D 游戏，而不必手写整个技术栈。**
+
+TechHalla 表示，Claude Fable 5 High 在大约两小时内做出了一个 GTA 2 风格克隆，而创作者则在 Tripo 中生成自定义 3D 模型。帖子还指向一个带提示词的教程线程，因此这更像是一个多工具游戏生产的紧凑示例，而不是单纯的基准预告。
+
+类型：教程 | 日期：2026-06-10
+
+---
+
+<a id="case-85"></a>
+### Case 85: [CloudWatch 日志分诊代理](https://x.com/diblacksmith/status/2066230084273344698)（作者 [@diblacksmith](https://x.com/diblacksmith)）
+
+**让 Fable 5 驱动的代理消化超大规模服务日志上下文，先推断架构，再收敛到具体故障。**
+
+diblacksmith 表示，一个 RLM 代理在单次运行中处理了大约 8 万行 CloudWatch 日志，走到 53 步时，当前只消耗了约 3.2 万活跃 token。他说，这个代理从日志中推断出了系统架构，还标出了团队之前漏掉的问题，包括 AgentCore 限流和 Slack `user_not_found` 失败。
+
+类型：集成 | 日期：2026-06-14
+
+---
+
+<a id="case-86"></a>
+### Case 86: [沙盒中的世界杯预测器](https://x.com/upstash/status/2064702195333820846)（作者 [@upstash](https://x.com/upstash)）
+
+**把多个 frontier 模型放进隔离沙盒，让它们为公开预测应用研究实时新闻、伤病和黄牌背景。**
+
+Upstash 表示，它在隔离的 Upstash 沙盒中运行 Claude Fable 5、GPT-5.5 和 Gemini，构建了一个世界杯预测器。这个 demo 和开源发布把 Fable 5 放在一个多模型研究与编排栈中的其中一环，而不只是单独的聊天演示。
+
+类型：集成 | 日期：2026-06-10
+
+---
+
+<a id="case-87"></a>
+### Case 87: [WolfBench 拒答成本案例](https://x.com/WolfBenchAI/status/2065582716054376921)（作者 [@WolfBenchAI](https://x.com/WolfBenchAI)）
+
+**在为 Fable 5 的长自主运行定价时，把拒答行为视为真实的基准变量。**
+
+WolfBenchAI 表示，它对 Claude Fable 5 的评测花费了 11,081.12 美元，是该套基准中迄今最昂贵的一次，但依然没能登顶，因为重复拒答降低了有效任务完成量。对于需要给代理评测或其他高自主工作负载做预算的团队，这是一个很具体的限制案例。
+
+类型：评测 | 日期：2026-06-12
+
+---
+
+<a id="case-88"></a>
+### Case 88: [API 访问截止追踪器](https://x.com/simonw/status/2065618703480414666)（作者 [@simonw](https://x.com/simonw)）
+
+**如果你的工作流依赖持续访问某个可能被限流或撤下的 frontier 模型，就用脚本监控可用性。**
+
+Simon Willison 表示，他每分钟 ping 一次 `claude-fable-5` API，以观察访问能持续多久，并报告了它对自己停止响应的精确时间点。这条帖子在应用细节上比较薄，但它具体证明了：访问连续性本身已经成了用户必须测量、而不能默认存在的运维限制。
+
+类型：集成 | 日期：2026-06-13
 
 ---
 
@@ -2569,10 +2688,10 @@ The creator open sourced Rilable, an iOS app that builds web apps and iOS apps. 
 
 感谢这里收录的高质量来源创作者：[@ai_for_success](https://x.com/ai_for_success), [@AI_masaou](https://x.com/AI_masaou), [@aianimesyokunin](https://x.com/aianimesyokunin), [@AlicanKiraz0](https://x.com/AlicanKiraz0), [@alliekmiller](https://x.com/alliekmiller), [@AndrewCurran_](https://x.com/AndrewCurran_), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@ayushagarwal](https://x.com/ayushagarwal), [@bcherny](https://x.com/bcherny), [@bielzinn](https://x.com/bielzinn), [@btibor91](https://x.com/btibor91), [@clairevo](https://x.com/clairevo), [@coldopn](https://x.com/coldopn), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@ctgptlb](https://x.com/ctgptlb), [@deveshcodes_](https://x.com/deveshcodes_), [@ecomchasedimond](https://x.com/ecomchasedimond), [@gabepereyra](https://x.com/gabepereyra), [@grapeot](https://x.com/grapeot), [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@HKrackDev](https://x.com/HKrackDev), [@IBuzovskyi](https://x.com/IBuzovskyi), [@intheworldofai](https://x.com/intheworldofai), [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@JJEnglert](https://x.com/JJEnglert), [@jsnnsa](https://x.com/jsnnsa), [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@kieradev](https://x.com/kieradev), [@LechMazur](https://x.com/LechMazur), [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@manaltdan](https://x.com/manaltdan), [@mark_k](https://x.com/mark_k), [@mercor_ai](https://x.com/mercor_ai), [@meta_alchemist](https://x.com/meta_alchemist), [@MTSlive](https://x.com/MTSlive), [@naoyafujiwara](https://x.com/naoyafujiwara), [@nicbstme](https://x.com/nicbstme), [@oikon48](https://x.com/oikon48), [@op7418](https://x.com/op7418), [@quanghuynt14](https://x.com/quanghuynt14), [@ryanrhughes](https://x.com/ryanrhughes), [@scottstts](https://x.com/scottstts), [@swarms_corp](https://x.com/swarms_corp), [@tetumemo](https://x.com/tetumemo), [@timhwang](https://x.com/timhwang), [@Truunik](https://x.com/Truunik), [@VaibhavSisinty](https://x.com/VaibhavSisinty), [@vikvang1](https://x.com/vikvang1), [@Voxyz_ai](https://x.com/Voxyz_ai), [@xw33bttv](https://x.com/xw33bttv), 以及 [@ydamitcodes](https://x.com/ydamitcodes)。
 
+也感谢本次已批准更新中的创作者：[@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown), [@marclou](https://x.com/marclou), [@ProximalHQ](https://x.com/ProximalHQ), [@elliotarledge](https://x.com/elliotarledge), [@mikefutia](https://x.com/mikefutia), [@techhalla](https://x.com/techhalla), [@diblacksmith](https://x.com/diblacksmith), [@upstash](https://x.com/upstash), [@WolfBenchAI](https://x.com/WolfBenchAI), 以及 [@simonw](https://x.com/simonw)。
+
 *我们无法保证每个案例都署名给了最初创作者。如果有任何内容需要纠正，请联系我们，我们会更新。*
 
 如果你有更多有趣的使用案例要分享，欢迎打开 issue 或 pull request，帮助扩展 Evolink 用例库。
-
-也感谢本次已批准更新中的创作者：[@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown)。
 
 [![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-claude-fable-5&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-claude-fable-5&Date)

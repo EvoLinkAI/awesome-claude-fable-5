@@ -35,7 +35,7 @@ Evolink에서 사용해 보기: [Claude Fable 5](https://evolink.ai/claude-fable
 
 ## 📊 개요
 
-- 공개 크리에이터, 개발자, 벤치마크 팀, 도구 제작자가 공유한 **선별된 Claude Fable 5 사례 78개**.
+- 공개 크리에이터, 개발자, 벤치마크 팀, 도구 제작자가 공유한 **선별된 Claude Fable 5 사례 88개**.
 - 코딩 에이전트, 장시간 자동화, 게임, 비주얼 디자인, 3D 시뮬레이션, 지식 작업, 튜토리얼, API 통합, 벤치마크, 가격, 출시 시점의 제한을 다룹니다.
 - 각 사례에는 원본 소스, 크리에이터 출처, 간결한 핵심 요약, 근거 유형, 게시 날짜가 포함됩니다.
 - 이 저장소를 활용해 실용적인 워크플로를 찾고, 강점과 한계를 비교하며, 재현 가능한 프롬프트를 발견하고, 통합 예시를 따라가세요.
@@ -78,7 +78,7 @@ curl --request POST \
 | [📚 문서, 지식 작업 및 리서치](#documents-knowledge-work-and-research) | Case 17-19 |
 | [🧭 튜토리얼, 강좌 및 프롬프트 리소스](#tutorials-courses-and-prompt-resources) | Case 20-28 |
 | [🔌 플랫폼, API 및 도구 통합](#platform-api-and-tool-integration) | Case 29-34 |
-| [📏 평가, 비교 및 한계](#evaluations-comparisons-and-limits) | Case 35-78 |
+| [📏 평가, 비교 및 한계](#evaluations-comparisons-and-limits) | Case 35-88 |
 | [🙏 Acknowledge](#acknowledge) | 크레딧 및 정정 정책 |
 
 ### [💻 코딩 및 코드 생성](#coding-and-code-generation)
@@ -198,6 +198,16 @@ curl --request POST \
 | [Claude Code Model Matching Fix](#case-76) | Use this Claude Code changelog note to avoid Fable 5 model-name and context matching issues. | 통합 |
 | [Three Web Apps in Claude Code](#case-77) | Use this beginner coding demo to inspect Fable 5 inside Claude Code across multiple generated web apps. | 데모 |
 | [Rilable Open Source App Builder](#case-78) | Use this open-source app-builder case to study Fable 5 across iOS, web apps, sandboxes, and API-token cost. | 통합 |
+| [DeepSWE 코딩 에이전트 지수 데뷔](#case-79) | 공개 GitHub 수정 재활용을 피한 더 어려운 agentic coding tasks에서 Fable 5를 비교하기 위해 갱신된 Artificial Analysis 지수를 사용하세요. | Evaluation |
+| [DataEmpire 웹 분석 게임](#case-80) | Claude Fable 5가 방문자와 이정표를 게임 엔티티에 매핑하게 해 원시 사이트 분석 데이터를 반복 플레이 가능한 게임으로 바꾸세요. | Integration |
+| [FrontierSWE 20시간 작업 신호](#case-81) | Claude Fable 5가 짧은 버그 수정 루프뿐 아니라 매우 긴 엔지니어링 작업에서도 생산성을 유지할 수 있다는 근거로 FrontierSWE를 사용하세요. | Evaluation |
+| [KernelBench-Hard CUDA 기록](#case-82) | 기존 라이브러리 래퍼가 아니라 저수준 최적화가 필요할 때 Fable 5를 고급 CUDA 커널 생성에 사용하세요. | Evaluation |
+| [Figma Capture 랜딩 페이지 복제](#case-83) | 스크린샷 추측 대신 경쟁사 페이지를 Figma 레이어로 캡처하고, Claude Code와 Fable 5로 구조, 카피, 브랜드 시스템을 다시 구축하세요. | Integration |
+| [두 시간 만의 GTA 2 클론](#case-84) | Claude Fable 5 코드 생성과 별도 asset tooling을 결합해 전체 스택을 손으로 코딩하지 않고도 플레이 가능한 3D 게임을 빠르게 만드세요. | Tutorial |
+| [CloudWatch 로그 트리아지 에이전트](#case-85) | Fable 5 기반 에이전트가 매우 큰 서비스 로그 문맥을 읽고 아키텍처를 추론한 뒤 특정 장애로 범위를 좁히게 하세요. | Integration |
+| [샌드박스 기반 월드컵 예측기](#case-86) | 여러 frontier models를 격리 샌드박스 뒤에 두고 공개 예측 앱을 위해 실시간 뉴스, 부상 정보, 옐로카드 맥락을 조사하게 하세요. | Integration |
+| [WolfBench 거부 비용 사례](#case-87) | Claude Fable 5에서 장시간 자율 실행 비용을 산정할 때 refusal behavior를 실제 benchmark variable로 취급하세요. | Evaluation |
+| [API 접근 중단 추적기](#case-88) | 레이트리밋이나 갑작스러운 중단 가능성이 있는 frontier model 접근에 의존한다면 스크립트로 availability를 모니터링하세요. | Integration |
 
 
 <a id="coding-and-code-generation"></a>
@@ -2557,6 +2567,116 @@ Type: 통합 | Date: 2026-06-11
 
 ---
 
+<a id="case-79"></a>
+### Case 79: [DeepSWE 코딩 에이전트 지수 데뷔](https://x.com/ArtificialAnlys/status/2065328920514515037) (by [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+
+**공개 GitHub 수정 재활용을 피한 더 어려운 agentic coding tasks에서 Fable 5를 비교하기 위해 갱신된 Artificial Analysis 지수를 사용하세요.**
+
+Artificial Analysis는 Coding Agent Index에서 SWE-Bench Pro를 Datacurve의 DeepSWE로 교체했습니다. 게시물에 따르면 DeepSWE는 공개 GitHub issues나 pull requests를 변형하는 대신 작업을 처음부터 작성해 benchmark contamination을 줄입니다. 갱신된 순위에서 Claude Code with Fable 5 Max는 77로 데뷔했고, Codex with GPT-5.5 xhigh의 76과 Claude Code with Opus 4.8 Max의 73을 앞섰습니다.
+
+Type: Evaluation | Date: 2026-06-12
+
+---
+
+<a id="case-80"></a>
+### Case 80: [DataEmpire 웹 분석 게임](https://x.com/marclou/status/2065029898243318093) (by [@marclou](https://x.com/marclou))
+
+**Claude Fable 5가 방문자와 이정표를 게임 엔티티에 매핑하게 해 원시 사이트 분석 데이터를 반복 플레이 가능한 게임으로 바꾸세요.**
+
+Marc Lou에 따르면 Claude Fable 5는 그의 DataFast web analytics API 위에 DataEmpire를 구축했습니다. 각 visitor는 villager가 되고, traffic growth가 settlement를 확장하며, 100만 visitors에서 Age of Legends가 열립니다. 공개 데모는 DataFast users가 자신의 사이트 히스토리를 게임 레이어로 다시 플레이하게 해 주며, 정적인 게임 클립이 아니라 API 기반 productization의 구체적 사례가 됩니다.
+
+Type: Integration | Date: 2026-06-11
+
+---
+
+<a id="case-81"></a>
+### Case 81: [FrontierSWE 20시간 작업 신호](https://x.com/ProximalHQ/status/2065184730279223410) (by [@ProximalHQ](https://x.com/ProximalHQ))
+
+**Claude Fable 5가 짧은 버그 수정 루프뿐 아니라 매우 긴 엔지니어링 작업에서도 생산성을 유지할 수 있다는 근거로 FrontierSWE를 사용하세요.**
+
+ProximalHQ는 Claude Fable 5가 FrontierSWE에서 #1에 올랐으며, 이 benchmark를 출시한 이후 가장 큰 capability jump라고 말합니다. 그들의 메모에 따르면 Fable 5는 많은 작업에서 거의 20시간 동안 생산적으로 일할 수 있고, 이전 모델로는 사실상 도달할 수 없었던 작업을 완전히 포화시킵니다.
+
+Type: Evaluation | Date: 2026-06-11
+
+---
+
+<a id="case-82"></a>
+### Case 82: [KernelBench-Hard CUDA 기록](https://x.com/elliotarledge/status/2065109393142849932) (by [@elliotarledge](https://x.com/elliotarledge))
+
+**기존 라이브러리 래퍼가 아니라 저수준 최적화가 필요할 때 Fable 5를 고급 CUDA 커널 생성에 사용하세요.**
+
+Elliot Arledge는 13개의 frontier coding agents를 KernelBench-Hard에서 각각 45분씩 실행하고 RTX PRO 6000에서 roofline grading을 수행했습니다. Claude Fable 5는 top-k, sonic-MoE, W4A16 int4 GEMM에서 역대 기록을 세웠고 6개 문제 중 5개에서 1위를 차지했으며, 작성자는 runs, leaderboard, code를 공개했습니다. 같은 스레드에는 Fable 5가 실제 tensor-core kernel을 시도했지만 tail-alignment edge case 때문에 0점을 받은 FP8 GEMM miss도 기록되어 있습니다.
+
+Type: Evaluation | Date: 2026-06-11
+
+---
+
+<a id="case-83"></a>
+### Case 83: [Figma Capture 랜딩 페이지 복제](https://x.com/mikefutia/status/2065537778516205856) (by [@mikefutia](https://x.com/mikefutia))
+
+**스크린샷 추측 대신 경쟁사 페이지를 Figma 레이어로 캡처하고, Claude Code와 Fable 5로 구조, 카피, 브랜드 시스템을 다시 구축하세요.**
+
+Mike Futia는 Figma의 Chrome extension이 웹사이트를 editable layers로 복사하고, Claude Code가 Figma MCP를 통해 그 layers를 읽어 사용자의 brand voice에 맞게 페이지를 다시 쓰며, GPT Image 2가 온브랜드 사진을 생성하는 워크플로를 설명합니다. 주장된 end-to-end 결과는 약 15분 만에, 이미지 16장에 대한 image-generation API 비용 약 $2로 출하 가능한 landing page를 만드는 것입니다.
+
+Type: Integration | Date: 2026-06-12
+
+---
+
+<a id="case-84"></a>
+### Case 84: [두 시간 만의 GTA 2 클론](https://x.com/techhalla/status/2064682080445898957) (by [@techhalla](https://x.com/techhalla))
+
+**Claude Fable 5 코드 생성과 별도 asset tooling을 결합해 전체 스택을 손으로 코딩하지 않고도 플레이 가능한 3D 게임을 빠르게 만드세요.**
+
+TechHalla에 따르면 Claude Fable 5 High는 약 두 시간 만에 GTA 2 스타일 클론을 만들었고, 그동안 크리에이터는 Tripo에서 custom 3D models를 생성했습니다. 이 게시물은 prompts가 포함된 tutorial thread를 가리키며, 단순 benchmark teaser가 아니라 multi-tool game production의 압축된 사례가 됩니다.
+
+Type: Tutorial | Date: 2026-06-10
+
+---
+
+<a id="case-85"></a>
+### Case 85: [CloudWatch 로그 트리아지 에이전트](https://x.com/diblacksmith/status/2066230084273344698) (by [@diblacksmith](https://x.com/diblacksmith))
+
+**Fable 5 기반 에이전트가 매우 큰 서비스 로그 문맥을 읽고 아키텍처를 추론한 뒤 특정 장애로 범위를 좁히게 하세요.**
+
+diblacksmith는 RLM agent가 한 번의 실행에서 약 80,000줄의 CloudWatch logs를 처리했고, 지금까지 active tokens는 약 32k만 쓰면서 53 steps에 도달했다고 보고합니다. 그는 그 agent가 logs에서 system architecture를 추론했고, AgentCore throttles와 Slack `user_not_found` failures를 포함해 팀이 놓친 문제를 표시했다고 말합니다.
+
+Type: Integration | Date: 2026-06-14
+
+---
+
+<a id="case-86"></a>
+### Case 86: [샌드박스 기반 월드컵 예측기](https://x.com/upstash/status/2064702195333820846) (by [@upstash](https://x.com/upstash))
+
+**여러 frontier models를 격리 샌드박스 뒤에 두고 공개 예측 앱을 위해 실시간 뉴스, 부상 정보, 옐로카드 맥락을 조사하게 하세요.**
+
+Upstash는 Claude Fable 5, GPT-5.5, Gemini를 격리된 Upstash sandboxes 안에서 실행해 World Cup predictor를 만들었다고 말합니다. 데모와 open-source release는 Fable 5를 단독 chat demo가 아니라 multi-model research 및 orchestration stack 안의 한 모델로 위치시킵니다.
+
+Type: Integration | Date: 2026-06-10
+
+---
+
+<a id="case-87"></a>
+### Case 87: [WolfBench 거부 비용 사례](https://x.com/WolfBenchAI/status/2065582716054376921) (by [@WolfBenchAI](https://x.com/WolfBenchAI))
+
+**Claude Fable 5에서 장시간 자율 실행 비용을 산정할 때 refusal behavior를 실제 benchmark variable로 취급하세요.**
+
+WolfBenchAI는 자사 Claude Fable 5 평가 비용이 지금까지 그 스위트에서 가장 비싼 $11,081.12였지만, 반복된 refusals가 유효한 task completion을 줄여 결국 최고 점수에 오르지 못했다고 말합니다. 이는 agent evaluations나 기타 high-autonomy workloads의 예산을 잡는 팀에게 구체적인 limit case입니다.
+
+Type: Evaluation | Date: 2026-06-12
+
+---
+
+<a id="case-88"></a>
+### Case 88: [API 접근 중단 추적기](https://x.com/simonw/status/2065618703480414666) (by [@simonw](https://x.com/simonw))
+
+**레이트리밋이나 갑작스러운 중단 가능성이 있는 frontier model 접근에 의존한다면 스크립트로 availability를 모니터링하세요.**
+
+Simon Willison은 접근이 얼마나 오래 유지되는지 보기 위해 `claude-fable-5` API를 매분 ping했고, 자신에게 응답이 멈춘 정확한 시점을 보고했습니다. 적용 사례 자체의 디테일은 많지 않지만, 접근 지속성이 더 이상 가정할 수 있는 전제가 아니라 직접 측정해야 할 operational limitation이 되었다는 구체적인 증거입니다.
+
+Type: Integration | Date: 2026-06-13
+
+---
+
 <a id="acknowledge"></a>
 ## 🙏 감사의 말
 
@@ -2568,6 +2688,6 @@ Type: 통합 | Date: 2026-06-11
 
 공유할 더 흥미로운 사용 사례가 있다면 issue 또는 pull request를 열어 Evolink usecase library 확장에 도움을 주세요.
 
-최근 승인된 업데이트의 크리에이터들에게도 감사드립니다: [@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown).
+최근 승인된 업데이트의 크리에이터들에게도 감사드립니다: [@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown), [@marclou](https://x.com/marclou), [@ProximalHQ](https://x.com/ProximalHQ), [@elliotarledge](https://x.com/elliotarledge), [@mikefutia](https://x.com/mikefutia), [@techhalla](https://x.com/techhalla), [@diblacksmith](https://x.com/diblacksmith), [@upstash](https://x.com/upstash), [@WolfBenchAI](https://x.com/WolfBenchAI), and [@simonw](https://x.com/simonw).
 
 [![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-claude-fable-5&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-claude-fable-5&Date)

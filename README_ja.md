@@ -37,7 +37,7 @@ Evolink で試す: [Claude Fable 5](https://evolink.ai/claude-fable-5?utm_source
 <a id="-overview"></a>
 ## 📊 概要
 
-- 公開クリエイター、開発者、ベンチマークチーム、ツールビルダーによる **Claude Fable 5 の厳選 78 ケース**。
+- 公開クリエイター、開発者、ベンチマークチーム、ツールビルダーによる **Claude Fable 5 の厳選 88 ケース**。
 - コーディングエージェント、長時間自動化、ゲーム、ビジュアルデザイン、3D シミュレーション、ナレッジワーク、チュートリアル、API 連携、ベンチマーク、価格、ローンチ時の制限をカバーします。
 - 各ケースには、元ソース、作成者の帰属、簡潔な要点、証拠タイプ、公開日が含まれます。
 - 実用的なワークフローを見つけ、強みと限界を比較し、再現可能なプロンプトを発見し、連携例を追うためにこのリポジトリを活用してください。
@@ -81,7 +81,7 @@ curl --request POST \
 | [📚 ドキュメント、ナレッジワーク、リサーチ](#documents-knowledge-work-and-research) | Case 17-19 |
 | [🧭 チュートリアル、コース、プロンプトリソース](#tutorials-courses-and-prompt-resources) | Case 20-28 |
 | [🔌 プラットフォーム、API、ツール連携](#platform-api-and-tool-integration) | Case 29-34 |
-| [📏 評価、比較、限界](#evaluations-comparisons-and-limits) | Case 35-78 |
+| [📏 評価、比較、限界](#evaluations-comparisons-and-limits) | Case 35-88 |
 | [🙏 Acknowledge](#acknowledge) | クレジットと訂正ポリシー |
 
 ### [💻 コーディングとコード生成](#coding-and-code-generation)
@@ -201,6 +201,16 @@ curl --request POST \
 | [Claude Code Model Matching Fix](#case-76) | Use this Claude Code changelog note to avoid Fable 5 model-name and context matching issues. | 連携 |
 | [Three Web Apps in Claude Code](#case-77) | Use this beginner coding demo to inspect Fable 5 inside Claude Code across multiple generated web apps. | デモ |
 | [Rilable Open Source App Builder](#case-78) | Use this open-source app-builder case to study Fable 5 across iOS, web apps, sandboxes, and API-token cost. | 連携 |
+| [DeepSWE コーディングエージェント指数デビュー](#case-79) | 公開 GitHub 修正の再利用を避けた、より難しい agentic coding tasks での Fable 5 を、更新版 Artificial Analysis 指数で比較する。 | Evaluation |
+| [DataEmpire ウェブ解析ゲーム](#case-80) | Claude Fable 5 に訪問者や節目をゲーム内エンティティへ対応付けさせ、生のサイト解析データを繰り返し遊べるゲームに変える。 | Integration |
+| [FrontierSWE 20時間タスクのシグナル](#case-81) | Claude Fable 5 が短いバグ修正ループだけでなく、非常に長いエンジニアリング作業でも生産性を維持できる証拠として FrontierSWE を使う。 | Evaluation |
+| [KernelBench-Hard CUDA 記録](#case-82) | 既存ライブラリのラッパーではなく低レベル最適化が必要なとき、Fable 5 を高度な CUDA カーネル生成に使う。 | Evaluation |
+| [Figma Capture ランディングページ複製](#case-83) | スクリーンショット推測ではなく、競合ページを Figma レイヤーとして取り込み、Claude Code と Fable 5 で構造、コピー、ブランドシステムを再構築する。 | Integration |
+| [2時間で作る GTA 2 クローン](#case-84) | Claude Fable 5 のコード生成と別系統のアセットツールを組み合わせ、スタック全体を手書きせずにプレイ可能な 3D ゲームを素早く構築する。 | Tutorial |
+| [CloudWatch ログトリアージエージェント](#case-85) | Fable 5 搭載エージェントに巨大なサービスログ文脈を読み込ませ、アーキテクチャを推定したうえで特定の障害へ絞り込ませる。 | Integration |
+| [サンドボックス内のワールドカップ予測アプリ](#case-86) | 複数の frontier models を隔離サンドボックスに載せ、公開予測アプリ向けに最新ニュース、負傷情報、イエローカード状況を調査させる。 | Integration |
+| [WolfBench 拒否コスト事例](#case-87) | Claude Fable 5 で長時間の自律実行を見積もる際、refusal behavior を実際の benchmark variable として扱う。 | Evaluation |
+| [API アクセス停止トラッカー](#case-88) | レート制限や予告の少ない提供停止がありうる frontier model への継続アクセスに依存するなら、スクリプトで可用性を監視する。 | Integration |
 
 
 <a id="coding-and-code-generation"></a>
@@ -2564,6 +2574,116 @@ The creator open sourced Rilable, an iOS app that builds web apps and iOS apps. 
 
 ---
 
+<a id="case-79"></a>
+### Case 79: [DeepSWE コーディングエージェント指数デビュー](https://x.com/ArtificialAnlys/status/2065328920514515037) (by [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+
+**公開 GitHub 修正の再利用を避けた、より難しい agentic coding tasks での Fable 5 を、更新版 Artificial Analysis 指数で比較する。**
+
+Artificial Analysis は Coding Agent Index で SWE-Bench Pro を Datacurve の DeepSWE に置き換えた。投稿によれば、DeepSWE は公開 GitHub issues や pull requests を流用せず、タスクをゼロから作成するため、ベンチマーク汚染を減らせるという。更新後の順位では、Claude Code with Fable 5 Max が 77 で初登場し、Codex with GPT-5.5 xhigh の 76、Claude Code with Opus 4.8 Max の 73 を上回った。
+
+Type: Evaluation | Date: 2026-06-12
+
+---
+
+<a id="case-80"></a>
+### Case 80: [DataEmpire ウェブ解析ゲーム](https://x.com/marclou/status/2065029898243318093) (by [@marclou](https://x.com/marclou))
+
+**Claude Fable 5 に訪問者や節目をゲーム内エンティティへ対応付けさせ、生のサイト解析データを繰り返し遊べるゲームに変える。**
+
+Marc Lou によると、Claude Fable 5 は彼の DataFast web analytics API 上に DataEmpire を構築した。各 visitor は villager になり、traffic growth に応じて settlement が拡張され、100 万 visitors で Age of Legends が解放される。公開デモでは DataFast users が自分のサイト履歴をゲーム層として再生でき、静的なゲーム映像ではなく、API を土台にした具体的なプロダクト化事例になっている。
+
+Type: Integration | Date: 2026-06-11
+
+---
+
+<a id="case-81"></a>
+### Case 81: [FrontierSWE 20時間タスクのシグナル](https://x.com/ProximalHQ/status/2065184730279223410) (by [@ProximalHQ](https://x.com/ProximalHQ))
+
+**Claude Fable 5 が短いバグ修正ループだけでなく、非常に長いエンジニアリング作業でも生産性を維持できる証拠として FrontierSWE を使う。**
+
+ProximalHQ は、Claude Fable 5 が FrontierSWE で #1 になり、このベンチマーク公開以降で最大の capability jump だと述べている。彼らのメモでは、Fable 5 は多くのタスクで 20 時間近く生産的に作業でき、以前のモデルでは実質的に手が届かなかったタスクを完全に飽和させるという。
+
+Type: Evaluation | Date: 2026-06-11
+
+---
+
+<a id="case-82"></a>
+### Case 82: [KernelBench-Hard CUDA 記録](https://x.com/elliotarledge/status/2065109393142849932) (by [@elliotarledge](https://x.com/elliotarledge))
+
+**既存ライブラリのラッパーではなく低レベル最適化が必要なとき、Fable 5 を高度な CUDA カーネル生成に使う。**
+
+Elliot Arledge は 13 の frontier coding agents を KernelBench-Hard 上で各 45 分ずつ実行し、RTX PRO 6000 で roofline grading を行った。Claude Fable 5 は top-k、sonic-MoE、W4A16 int4 GEMM で歴代記録を出し、6 問中 5 問で首位となり、作者は runs、leaderboard、code を公開した。同じスレッドでは、Fable 5 が本物の tensor-core kernel を試しながら tail-alignment edge case で 0 点になった FP8 GEMM の取りこぼしも記されている。
+
+Type: Evaluation | Date: 2026-06-11
+
+---
+
+<a id="case-83"></a>
+### Case 83: [Figma Capture ランディングページ複製](https://x.com/mikefutia/status/2065537778516205856) (by [@mikefutia](https://x.com/mikefutia))
+
+**スクリーンショット推測ではなく、競合ページを Figma レイヤーとして取り込み、Claude Code と Fable 5 で構造、コピー、ブランドシステムを再構築する。**
+
+Mike Futia は、Figma の Chrome extension で website を編集可能な layers としてコピーし、Claude Code が Figma MCP 経由でその layers を読み取り、ユーザーの brand voice に合わせてページを書き換え、GPT Image 2 がブランド適合の写真を生成するワークフローを紹介している。主張されている end-to-end の結果は、約 15 分、16 枚の画像生成 API コスト約 $2 で出荷可能な landing page を作れるというものだ。
+
+Type: Integration | Date: 2026-06-12
+
+---
+
+<a id="case-84"></a>
+### Case 84: [2時間で作る GTA 2 クローン](https://x.com/techhalla/status/2064682080445898957) (by [@techhalla](https://x.com/techhalla))
+
+**Claude Fable 5 のコード生成と別系統のアセットツールを組み合わせ、スタック全体を手書きせずにプレイ可能な 3D ゲームを素早く構築する。**
+
+TechHalla によると、Claude Fable 5 High は約 2 時間で GTA 2 風クローンを構築し、その間クリエイターは Tripo でカスタム 3D models を生成した。投稿は prompts 付きの tutorial thread を指しており、単なる benchmark teaser ではなく、複数ツールを組み合わせたゲーム制作のコンパクトな実例になっている。
+
+Type: Tutorial | Date: 2026-06-10
+
+---
+
+<a id="case-85"></a>
+### Case 85: [CloudWatch ログトリアージエージェント](https://x.com/diblacksmith/status/2066230084273344698) (by [@diblacksmith](https://x.com/diblacksmith))
+
+**Fable 5 搭載エージェントに巨大なサービスログ文脈を読み込ませ、アーキテクチャを推定したうえで特定の障害へ絞り込ませる。**
+
+diblacksmith は、RLM agent が 1 回の実行でおよそ 80,000 行の CloudWatch logs を処理し、ここまでの active tokens を約 32k に抑えながら 53 steps に到達したと報告している。彼によれば、その agent は logs から system architecture を推定し、AgentCore throttles や Slack の `user_not_found` failures など、チームが見落としていた問題を指摘した。
+
+Type: Integration | Date: 2026-06-14
+
+---
+
+<a id="case-86"></a>
+### Case 86: [サンドボックス内のワールドカップ予測アプリ](https://x.com/upstash/status/2064702195333820846) (by [@upstash](https://x.com/upstash))
+
+**複数の frontier models を隔離サンドボックスに載せ、公開予測アプリ向けに最新ニュース、負傷情報、イエローカード状況を調査させる。**
+
+Upstash は、Claude Fable 5、GPT-5.5、Gemini を隔離された Upstash sandboxes 内で動かし、World Cup predictor を構築したと述べている。デモと open-source release により、Fable 5 は単独の chat demo ではなく、複数モデルによる research と orchestration stack の一部として位置付けられている。
+
+Type: Integration | Date: 2026-06-10
+
+---
+
+<a id="case-87"></a>
+### Case 87: [WolfBench 拒否コスト事例](https://x.com/WolfBenchAI/status/2065582716054376921) (by [@WolfBenchAI](https://x.com/WolfBenchAI))
+
+**Claude Fable 5 で長時間の自律実行を見積もる際、refusal behavior を実際の benchmark variable として扱う。**
+
+WolfBenchAI は、Claude Fable 5 の評価コストがこのスイートでこれまで最も高い $11,081.12 に達した一方、繰り返しの refusals により有効な task completion が減り、成績首位にはならなかったと述べている。これは、agent evaluations や高自律 workloads の予算を組むチームにとって、具体的な limit case となる。
+
+Type: Evaluation | Date: 2026-06-12
+
+---
+
+<a id="case-88"></a>
+### Case 88: [API アクセス停止トラッカー](https://x.com/simonw/status/2065618703480414666) (by [@simonw](https://x.com/simonw))
+
+**レート制限や予告の少ない提供停止がありうる frontier model への継続アクセスに依存するなら、スクリプトで可用性を監視する。**
+
+Simon Willison は、アクセスがいつまで続くかを見るために `claude-fable-5` API を毎分 ping し、自分の環境で応答が止まった正確な時点を報告した。アプリケーション面の詳細は薄いが、アクセス継続性そのものが、前提ではなく計測すべき運用上の制約になったことを示す具体的な証拠である。
+
+Type: Integration | Date: 2026-06-13
+
+---
+
 <a id="acknowledge"></a>
 ## 🙏 謝辞
 
@@ -2575,6 +2695,6 @@ The creator open sourced Rilable, an iOS app that builds web apps and iOS apps. 
 
 さらに興味深い利用ケースを共有したい場合は、issue または pull request を開いて、Evolink usecase library の拡充にご協力ください。
 
-今回承認された更新のクリエイターにも感謝します: [@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown).
+今回承認された更新のクリエイターにも感謝します: [@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown), [@marclou](https://x.com/marclou), [@ProximalHQ](https://x.com/ProximalHQ), [@elliotarledge](https://x.com/elliotarledge), [@mikefutia](https://x.com/mikefutia), [@techhalla](https://x.com/techhalla), [@diblacksmith](https://x.com/diblacksmith), [@upstash](https://x.com/upstash), [@WolfBenchAI](https://x.com/WolfBenchAI), and [@simonw](https://x.com/simonw).
 
 [![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-claude-fable-5&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-claude-fable-5&Date)

@@ -35,7 +35,7 @@ Try it on Evolink: [Claude Fable 5](https://evolink.ai/claude-fable-5?utm_source
 
 ## 📊 Overview
 
-- **78 selected Claude Fable 5 cases** from public creators, developers, benchmark teams, and tool builders.
+- **88 selected Claude Fable 5 cases** from public creators, developers, benchmark teams, and tool builders.
 - Covers coding agents, long-running automation, games, visual design, 3D simulations, knowledge work, tutorials, API integrations, benchmarks, pricing, and launch limitations.
 - Each case includes the original source, creator attribution, a concise takeaway, evidence type, and publication date.
 - Use this repo to find practical workflows, compare strengths and limits, discover reproducible prompts, and follow integration examples.
@@ -78,7 +78,7 @@ curl --request POST \
 | [📚 Documents, Knowledge Work, and Research](#documents-knowledge-work-and-research) | Case 17-19 |
 | [🧭 Tutorials, Courses, and Prompt Resources](#tutorials-courses-and-prompt-resources) | Case 20-28 |
 | [🔌 Platform, API, and Tool Integration](#platform-api-and-tool-integration) | Case 29-34 |
-| [📏 Evaluations, Comparisons, and Limits](#evaluations-comparisons-and-limits) | Case 35-78 |
+| [📏 Evaluations, Comparisons, and Limits](#evaluations-comparisons-and-limits) | Case 35-88 |
 | [🙏 Acknowledge](#acknowledge) | Credits and correction policy |
 
 ### [💻 Coding and Code Generation](#coding-and-code-generation)
@@ -198,6 +198,16 @@ curl --request POST \
 | [Claude Code Model Matching Fix](#case-76) | Use this Claude Code changelog note to avoid Fable 5 model-name and context matching issues. | Integration |
 | [Three Web Apps in Claude Code](#case-77) | Use this beginner coding demo to inspect Fable 5 inside Claude Code across multiple generated web apps. | Demo |
 | [Rilable Open Source App Builder](#case-78) | Use this open-source app-builder case to study Fable 5 across iOS, web apps, sandboxes, and API-token cost. | Integration |
+| [DeepSWE Coding Agent Index Debut](#case-79) | Use the refreshed Artificial Analysis index to compare Fable 5 on harder agentic coding tasks that avoid recycled public GitHub fixes. | Evaluation |
+| [DataEmpire Web Analytics Game](#case-80) | Turn raw site analytics into a replayable game by asking Fable 5 to map visitors and milestones onto game entities. | Integration |
+| [FrontierSWE 20-Hour Task Signal](#case-81) | Use FrontierSWE as evidence that Fable 5 can stay productive across very long engineering tasks, not just short bug-fix loops. | Evaluation |
+| [KernelBench-Hard CUDA Records](#case-82) | Use Fable 5 for advanced CUDA kernel generation when you need low-level optimization, not just wrappers around existing libraries. | Evaluation |
+| [Figma Capture Landing Page Clone](#case-83) | Capture a live competitor page into Figma layers and let Claude Code with Fable 5 rebuild the structure, copy, and brand system instead of guessing from screenshots. | Integration |
+| [GTA 2 Clone in Two Hours](#case-84) | Combine Fable 5 code generation with separate asset tooling to build a playable 3D game quickly without hand-coding the whole stack. | Tutorial |
+| [CloudWatch Log Triage Agent](#case-85) | Let a Fable 5-powered agent chew through very large service-log contexts, infer architecture, and then narrow in on specific faults. | Integration |
+| [World Cup Predictor in Sandboxes](#case-86) | Put multiple frontier models behind isolated sandboxes and let them research live news, injuries, and yellow-card context for a public prediction app. | Integration |
+| [WolfBench Refusal Cost Case](#case-87) | Treat refusal behavior as a real benchmark variable when pricing long autonomous runs on Fable 5. | Evaluation |
+| [API Access Cutoff Tracker](#case-88) | Monitor availability with a script if your workflow depends on continued access to a frontier model that may be rate-limited or withdrawn without much notice. | Integration |
 
 
 <a id="coding-and-code-generation"></a>
@@ -2558,6 +2568,116 @@ Type: Integration | Date: 2026-06-11
 
 ---
 
+<a id="case-79"></a>
+### Case 79: [DeepSWE Coding Agent Index Debut](https://x.com/ArtificialAnlys/status/2065328920514515037) (by [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+
+**Use the refreshed Artificial Analysis index to compare Claude Fable 5 on harder agentic coding tasks that avoid recycled public GitHub fixes.**
+
+Artificial Analysis replaced SWE-Bench Pro with Datacurve's DeepSWE in its Coding Agent Index. The post says DeepSWE writes tasks from scratch instead of adapting public GitHub issues or pull requests, reducing benchmark contamination. In the refreshed ranking, Claude Code with Fable 5 Max debuts at 77, ahead of Codex with GPT-5.5 xhigh at 76 and Claude Code with Opus 4.8 Max at 73.
+
+Type: Evaluation | Date: 2026-06-12
+
+---
+
+<a id="case-80"></a>
+### Case 80: [DataEmpire Web Analytics Game](https://x.com/marclou/status/2065029898243318093) (by [@marclou](https://x.com/marclou))
+
+**Turn raw site analytics into a replayable game by asking Claude Fable 5 to map visitors and milestones onto game entities.**
+
+Marc Lou says Claude Fable 5 built DataEmpire on top of his DataFast web analytics API. Each visitor becomes a villager, traffic growth expands the settlement, and the Age of Legends unlocks at 1 million visitors. The public demo lets DataFast users replay their own site history through the game layer, making this a concrete API-backed productization example rather than a static game clip.
+
+Type: Integration | Date: 2026-06-11
+
+---
+
+<a id="case-81"></a>
+### Case 81: [FrontierSWE 20-Hour Task Signal](https://x.com/ProximalHQ/status/2065184730279223410) (by [@ProximalHQ](https://x.com/ProximalHQ))
+
+**Use FrontierSWE as evidence that Claude Fable 5 can stay productive across very long engineering tasks, not just short bug-fix loops.**
+
+ProximalHQ reports Claude Fable 5 ranking #1 on FrontierSWE and calls it the biggest capability jump they have seen since releasing the benchmark. Their note says Fable 5 can work productively for close to 20 hours on many tasks and fully saturates tasks that were effectively out of reach for earlier models.
+
+Type: Evaluation | Date: 2026-06-11
+
+---
+
+<a id="case-82"></a>
+### Case 82: [KernelBench-Hard CUDA Records](https://x.com/elliotarledge/status/2065109393142849932) (by [@elliotarledge](https://x.com/elliotarledge))
+
+**Use Claude Fable 5 for advanced CUDA kernel generation when you need low-level optimization, not just wrappers around existing libraries.**
+
+Elliot Arledge ran 13 frontier coding agents for 45 minutes each on KernelBench-Hard, roofline-graded on an RTX PRO 6000. Claude Fable 5 set all-time records on top-k, sonic-MoE, and W4A16 int4 GEMM, topped 5 of 6 problems, and the author published the runs, leaderboard, and code. The same thread also notes an FP8 GEMM miss where Fable 5 attempted a real tensor-core kernel but scored zero on a tail-alignment edge case.
+
+Type: Evaluation | Date: 2026-06-11
+
+---
+
+<a id="case-83"></a>
+### Case 83: [Figma Capture Landing Page Clone](https://x.com/mikefutia/status/2065537778516205856) (by [@mikefutia](https://x.com/mikefutia))
+
+**Capture a live competitor page into Figma layers and let Claude Code with Claude Fable 5 rebuild the structure, copy, and brand system instead of guessing from screenshots.**
+
+Mike Futia describes a workflow where Figma's Chrome extension copies a website into editable layers, Claude Code reads those layers through the Figma MCP, rewrites the page in the user's brand voice, and GPT Image 2 generates the on-brand photography. The claimed end-to-end result is a shippable landing page in about 15 minutes with roughly $2 in image-generation API costs for 16 images.
+
+Type: Integration | Date: 2026-06-12
+
+---
+
+<a id="case-84"></a>
+### Case 84: [GTA 2 Clone in Two Hours](https://x.com/techhalla/status/2064682080445898957) (by [@techhalla](https://x.com/techhalla))
+
+**Combine Claude Fable 5 code generation with separate asset tooling to build a playable 3D game quickly without hand-coding the whole stack.**
+
+TechHalla says Claude Fable 5 High built a GTA 2-style clone in about two hours while the creator generated custom 3D models in Tripo. The post points to a tutorial thread with prompts, making it a compact example of multi-tool game production instead of a pure benchmark teaser.
+
+Type: Tutorial | Date: 2026-06-10
+
+---
+
+<a id="case-85"></a>
+### Case 85: [CloudWatch Log Triage Agent](https://x.com/diblacksmith/status/2066230084273344698) (by [@diblacksmith](https://x.com/diblacksmith))
+
+**Let a Claude Fable 5-powered agent chew through very large service-log contexts, infer architecture, and then narrow in on specific faults.**
+
+diblacksmith reports an RLM agent processing roughly 80,000 lines of CloudWatch logs in one run, reaching 53 steps while spending only about 32k active tokens so far. He says the agent inferred system architecture from the logs and flagged issues the team had missed, including AgentCore throttles and Slack `user_not_found` failures.
+
+Type: Integration | Date: 2026-06-14
+
+---
+
+<a id="case-86"></a>
+### Case 86: [World Cup Predictor in Sandboxes](https://x.com/upstash/status/2064702195333820846) (by [@upstash](https://x.com/upstash))
+
+**Put multiple frontier models behind isolated sandboxes and let them research live news, injuries, and yellow-card context for a public prediction app.**
+
+Upstash says it built a World Cup predictor with Claude Fable 5, GPT-5.5, and Gemini, running inside isolated Upstash sandboxes. The demo and open-source release position Fable 5 as one model inside a multi-model research and orchestration stack rather than a standalone chat demo.
+
+Type: Integration | Date: 2026-06-10
+
+---
+
+<a id="case-87"></a>
+### Case 87: [WolfBench Refusal Cost Case](https://x.com/WolfBenchAI/status/2065582716054376921) (by [@WolfBenchAI](https://x.com/WolfBenchAI))
+
+**Treat refusal behavior as a real benchmark variable when pricing long autonomous runs on Claude Fable 5.**
+
+WolfBenchAI says its Claude Fable 5 evaluation cost $11,081.12, the most expensive benchmark run in that suite so far, and still did not top the charts because repeated refusals reduced useful task completion. This is a concrete limit case for teams budgeting agent evaluations or other high-autonomy workloads.
+
+Type: Evaluation | Date: 2026-06-12
+
+---
+
+<a id="case-88"></a>
+### Case 88: [API Access Cutoff Tracker](https://x.com/simonw/status/2065618703480414666) (by [@simonw](https://x.com/simonw))
+
+**Monitor availability with a script if your workflow depends on continued access to a frontier model that may be rate-limited or withdrawn without much notice.**
+
+Simon Willison says he pinged the `claude-fable-5` API every minute to see how long access would last and reported the exact point where it stopped responding for him. The post is thin on application detail, but it is concrete evidence that access continuity itself became an operational limitation users had to measure rather than assume.
+
+Type: Integration | Date: 2026-06-13
+
+---
+
 <a id="acknowledge"></a>
 ## 🙏 Acknowledge
 
@@ -2565,7 +2685,7 @@ This repository was inspired by the creators, developers, benchmark teams, and c
 
 Thanks to the high-tier source creators represented here: [@ai_for_success](https://x.com/ai_for_success), [@AI_masaou](https://x.com/AI_masaou), [@aianimesyokunin](https://x.com/aianimesyokunin), [@AlicanKiraz0](https://x.com/AlicanKiraz0), [@alliekmiller](https://x.com/alliekmiller), [@AndrewCurran_](https://x.com/AndrewCurran_), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@ayushagarwal](https://x.com/ayushagarwal), [@bcherny](https://x.com/bcherny), [@bielzinn](https://x.com/bielzinn), [@btibor91](https://x.com/btibor91), [@clairevo](https://x.com/clairevo), [@coldopn](https://x.com/coldopn), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@ctgptlb](https://x.com/ctgptlb), [@deveshcodes_](https://x.com/deveshcodes_), [@ecomchasedimond](https://x.com/ecomchasedimond), [@gabepereyra](https://x.com/gabepereyra), [@grapeot](https://x.com/grapeot), [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@HKrackDev](https://x.com/HKrackDev), [@IBuzovskyi](https://x.com/IBuzovskyi), [@intheworldofai](https://x.com/intheworldofai), [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@JJEnglert](https://x.com/JJEnglert), [@jsnnsa](https://x.com/jsnnsa), [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@kieradev](https://x.com/kieradev), [@LechMazur](https://x.com/LechMazur), [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@manaltdan](https://x.com/manaltdan), [@mark_k](https://x.com/mark_k), [@mercor_ai](https://x.com/mercor_ai), [@meta_alchemist](https://x.com/meta_alchemist), [@MTSlive](https://x.com/MTSlive), [@naoyafujiwara](https://x.com/naoyafujiwara), [@nicbstme](https://x.com/nicbstme), [@oikon48](https://x.com/oikon48), [@op7418](https://x.com/op7418), [@quanghuynt14](https://x.com/quanghuynt14), [@ryanrhughes](https://x.com/ryanrhughes), [@scottstts](https://x.com/scottstts), [@swarms_corp](https://x.com/swarms_corp), [@tetumemo](https://x.com/tetumemo), [@timhwang](https://x.com/timhwang), [@Truunik](https://x.com/Truunik), [@VaibhavSisinty](https://x.com/VaibhavSisinty), [@vikvang1](https://x.com/vikvang1), [@Voxyz_ai](https://x.com/Voxyz_ai), [@xw33bttv](https://x.com/xw33bttv), and [@ydamitcodes](https://x.com/ydamitcodes).
 
-Thanks also to the recent approved update creators: [@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown).
+Thanks also to the recent approved update creators: [@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown), [@marclou](https://x.com/marclou), [@ProximalHQ](https://x.com/ProximalHQ), [@elliotarledge](https://x.com/elliotarledge), [@mikefutia](https://x.com/mikefutia), [@techhalla](https://x.com/techhalla), [@diblacksmith](https://x.com/diblacksmith), [@upstash](https://x.com/upstash), [@WolfBenchAI](https://x.com/WolfBenchAI), and [@simonw](https://x.com/simonw).
 
 *We cannot guarantee that every case is attributed to the original creator. If anything needs to be corrected, please contact us and we will update it.*
 
