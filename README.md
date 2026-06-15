@@ -43,15 +43,16 @@ Try it on Evolink: [Claude Fable 5](https://evolink.ai/claude-fable-5?utm_source
 > [!NOTE]
 > The collection favors concrete evidence over hype: reproducible prompts, shipped demos, benchmark methods, integration notes, cost data, and clearly stated caveats.
 
-## EvoLink Quick Start
+<a id="-quick-api-access"></a>
+## ⚡ Quick API Access
 
-Use Claude Fable 5 through EvoLink for coding agents, review loops, and long-context workflow planning:
+Use Claude Fable 5 through the Evolink-compatible Messages API for coding agents, review loops, and long-context workflow planning.
 
-- Model page: [Claude Fable 5 on EvoLink](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
-- API docs: [EvoLink API docs](https://docs.evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
-- API key: [create an EvoLink API key](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
-- Coding workflow notes: [coding-agent use cases](docs/coding-agent-use-cases.md)
-- API examples: [Python](api-examples/python/messages.py) and [Node.js](api-examples/node/messages.mjs)
+- [Open Claude Fable 5 on EvoLink](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
+- [Read EvoLink API docs](https://docs.evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
+- [Get your EvoLink API key](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
+- [Read coding-agent workflow notes](docs/coding-agent-use-cases.md)
+- [Open Python and Node.js API examples](api-examples)
 
 ```bash
 export EVOLINK_API_KEY="your_key_here"
@@ -70,30 +71,6 @@ curl --request POST \
       }
     ]
   }'
-```
-
-<a id="-quick-api-access"></a>
-## ⚡ Quick API Access
-
-Use Claude Fable 5 through the Evolink-compatible Messages API. Get an API token from [Evolink](https://evolink.ai/login?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5), then replace `<token>` with your token.
-
-```bash
-curl --request POST \
-  --url https://direct.evolink.ai/v1/messages \
-  --header 'Authorization: Bearer <token>' \
-  --header 'Content-Type: application/json' \
-  --data '
-{
-  "model": "claude-fable-5",
-  "max_tokens": 1024,
-  "messages": [
-    {
-      "role": "user",
-      "content": "Hello, world"
-    }
-  ]
-}
-'
 ```
 
 ## 📑 Menu
