@@ -48,13 +48,15 @@ Try it on Evolink: [Claude Fable 5](https://evolink.ai/claude-fable-5?utm_source
 
 Use Claude Fable 5 through the Evolink-compatible Messages API for coding agents, review loops, and long-context workflow planning.
 
-- [Open Claude Fable 5 on EvoLink](https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
-- [Read EvoLink API docs](https://docs.evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
-- [Get your EvoLink API key](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
-- [Read coding-agent workflow notes](docs/coding-agent-use-cases.md)
-- [Open Python and Node.js API examples](api-examples)
-- [Open EvoLink model router examples](https://github.com/EvoLinkAI/evolink-model-router-examples)
-- [Browse OpenClaw use cases](https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook)
+<p align="center">
+  <a href="https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5"><strong>Model Page</strong></a> &nbsp;·&nbsp;
+  <a href="https://docs.evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5"><strong>Docs</strong></a> &nbsp;·&nbsp;
+  <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5"><strong>API Key</strong></a> &nbsp;·&nbsp;
+  <a href="docs/coding-agent-use-cases.md"><strong>Workflow Notes</strong></a> &nbsp;·&nbsp;
+  <a href="api-examples"><strong>API Examples</strong></a> &nbsp;·&nbsp;
+  <a href="https://github.com/EvoLinkAI/evolink-model-router-examples"><strong>Router Examples</strong></a> &nbsp;·&nbsp;
+  <a href="https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook"><strong>Use Cases</strong></a>
+</p>
 
 ```bash
 export EVOLINK_API_KEY="your_key_here"
