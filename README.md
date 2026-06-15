@@ -44,7 +44,7 @@ Try it on Evolink: [Claude Fable 5](https://evolink.ai/claude-fable-5?utm_source
 > The collection favors concrete evidence over hype: reproducible prompts, shipped demos, benchmark methods, integration notes, cost data, and clearly stated caveats.
 
 <a id="-quick-api-access"></a>
-## ⚡ Quick API Access
+## EvoLink Quick Start
 
 Use Claude Fable 5 through the Evolink-compatible Messages API for coding agents, review loops, and long-context workflow planning.
 
@@ -53,6 +53,8 @@ Use Claude Fable 5 through the Evolink-compatible Messages API for coding agents
 - [Get your EvoLink API key](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5)
 - [Read coding-agent workflow notes](docs/coding-agent-use-cases.md)
 - [Open Python and Node.js API examples](api-examples)
+- [Open EvoLink model router examples](https://github.com/EvoLinkAI/evolink-model-router-examples)
+- [Browse OpenClaw use cases](https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook)
 
 ```bash
 export EVOLINK_API_KEY="your_key_here"
