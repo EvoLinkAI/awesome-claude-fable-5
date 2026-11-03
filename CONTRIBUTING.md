@@ -49,7 +49,7 @@ When a case is added or materially changed, update every localized README:
 - `README_zh-CN.md`
 - `README_ru.md`
 
-Each localized README should keep the same 60-case structure, anchors, menu links, source links, creator links, and case numbering.
+Each localized README must preserve the English case count, anchors, menu links, source links, creator links, and case numbering. Update the public source index in `data/use-cases.json` when cases change.
 
 ## Maintainer Checklist
 

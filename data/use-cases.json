@@ -1,0 +1,1114 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-03",
+  "case_count": 97,
+  "scope": "88 original Fable 5 cases and 9 creator-attributed Fable 5.5 demonstrations. This is a curated public source index, not a complete research corpus.",
+  "cases": [
+    {
+      "number": 1,
+      "title": "Cursor Multi-Stage Workflow",
+      "source_url": "https://x.com/AlicanKiraz0/status/2064487347605918180",
+      "author_handle": "@AlicanKiraz0",
+      "author_url": "https://x.com/AlicanKiraz0",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/AlicanKiraz0/status/2064487347605918180"
+    },
+    {
+      "number": 2,
+      "title": "Recreating GitHub from a Screenshot",
+      "source_url": "https://x.com/coldopn/status/2064435234465087638",
+      "author_handle": "@coldopn",
+      "author_url": "https://x.com/coldopn",
+      "type": "Demo",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/coldopn/status/2064435234465087638"
+    },
+    {
+      "number": 3,
+      "title": "One-Prompt Black Hole Simulation",
+      "source_url": "https://x.com/deveshcodes_/status/2064437742189379745",
+      "author_handle": "@deveshcodes_",
+      "author_url": "https://x.com/deveshcodes_",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/deveshcodes_/status/2064437742189379745"
+    },
+    {
+      "number": 4,
+      "title": "One-Shot macOS-Style Web OS",
+      "source_url": "https://x.com/intheworldofai/status/2064421915347812672",
+      "author_handle": "@intheworldofai",
+      "author_url": "https://x.com/intheworldofai",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/intheworldofai/status/2064421915347812672"
+    },
+    {
+      "number": 5,
+      "title": "Building Spawn 5.0 with 1,687 Prompts",
+      "source_url": "https://x.com/jsnnsa/status/2064420561078693941",
+      "author_handle": "@jsnnsa",
+      "author_url": "https://x.com/jsnnsa",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/jsnnsa/status/2064420561078693941"
+    },
+    {
+      "number": 6,
+      "title": "Large Pull Request Review with Findings",
+      "source_url": "https://x.com/ryanrhughes/status/2064411147076534705",
+      "author_handle": "@ryanrhughes",
+      "author_url": "https://x.com/ryanrhughes",
+      "type": "Demo",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/ryanrhughes/status/2064411147076534705"
+    },
+    {
+      "number": 7,
+      "title": "Long-Horizon Relay Workflow Review",
+      "source_url": "https://x.com/JJEnglert/status/2064469635190170105",
+      "author_handle": "@JJEnglert",
+      "author_url": "https://x.com/JJEnglert",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/JJEnglert/status/2064469635190170105"
+    },
+    {
+      "number": 8,
+      "title": "Diagnosing an Infrastructure Outage and Opening a Fix PR",
+      "source_url": "https://x.com/ayushagarwal/status/2064422467557564862",
+      "author_handle": "@ayushagarwal",
+      "author_url": "https://x.com/ayushagarwal",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/ayushagarwal/status/2064422467557564862"
+    },
+    {
+      "number": 9,
+      "title": "Finger-Tracking Dino Runner",
+      "source_url": "https://x.com/ai_for_success/status/2064413182396108932",
+      "author_handle": "@ai_for_success",
+      "author_url": "https://x.com/ai_for_success",
+      "type": "Demo",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/ai_for_success/status/2064413182396108932"
+    },
+    {
+      "number": 10,
+      "title": "Two-Sentence Racing Game Build",
+      "source_url": "https://x.com/kieradev/status/2064482704763085202",
+      "author_handle": "@kieradev",
+      "author_url": "https://x.com/kieradev",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/kieradev/status/2064482704763085202"
+    },
+    {
+      "number": 11,
+      "title": "Installable Terminal Minecraft in Rust",
+      "source_url": "https://x.com/vikvang1/status/2064500731848319303",
+      "author_handle": "@vikvang1",
+      "author_url": "https://x.com/vikvang1",
+      "type": "Demo",
+      "date": "2026-06-10",
+      "dedup_key": "https://x.com/vikvang1/status/2064500731848319303"
+    },
+    {
+      "number": 12,
+      "title": "Minecraft Clone with Time and Cost",
+      "source_url": "https://x.com/ydamitcodes/status/2064536076518363353",
+      "author_handle": "@ydamitcodes",
+      "author_url": "https://x.com/ydamitcodes",
+      "type": "Tutorial",
+      "date": "2026-06-10",
+      "dedup_key": "https://x.com/ydamitcodes/status/2064536076518363353"
+    },
+    {
+      "number": 13,
+      "title": "Full Reproducible Ecommerce Email Prompt",
+      "source_url": "https://x.com/ecomchasedimond/status/2064454139225297091",
+      "author_handle": "@ecomchasedimond",
+      "author_url": "https://x.com/ecomchasedimond",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/ecomchasedimond/status/2064454139225297091"
+    },
+    {
+      "number": 14,
+      "title": "Swiss Lever Watchmaker Benchmark",
+      "source_url": "https://x.com/quanghuynt14/status/2064509430650065278",
+      "author_handle": "@quanghuynt14",
+      "author_url": "https://x.com/quanghuynt14",
+      "type": "Evaluation",
+      "date": "2026-06-10",
+      "dedup_key": "https://x.com/quanghuynt14/status/2064509430650065278"
+    },
+    {
+      "number": 15,
+      "title": "Three.js Friends Apartment Scene",
+      "source_url": "https://x.com/scottstts/status/2064464351906673029",
+      "author_handle": "@scottstts",
+      "author_url": "https://x.com/scottstts",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/scottstts/status/2064464351906673029"
+    },
+    {
+      "number": 16,
+      "title": "Solar System Simulation with Prompt and URL",
+      "source_url": "https://x.com/tetumemo/status/2064477582930989357",
+      "author_handle": "@tetumemo",
+      "author_url": "https://x.com/tetumemo",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/tetumemo/status/2064477582930989357"
+    },
+    {
+      "number": 17,
+      "title": "Stripe and Scientific Workflow Evidence",
+      "source_url": "https://x.com/AndrewCurran_/status/2064413892378546418",
+      "author_handle": "@AndrewCurran_",
+      "author_url": "https://x.com/AndrewCurran_",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/AndrewCurran_/status/2064413892378546418"
+    },
+    {
+      "number": 18,
+      "title": "Policy Memo and Track-Changes Workflows",
+      "source_url": "https://x.com/manaltdan/status/2064414129440608427",
+      "author_handle": "@manaltdan",
+      "author_url": "https://x.com/manaltdan",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/manaltdan/status/2064414129440608427"
+    },
+    {
+      "number": 19,
+      "title": "Deep Research Prompt and Output",
+      "source_url": "https://x.com/naoyafujiwara/status/2064470780373811637",
+      "author_handle": "@naoyafujiwara",
+      "author_url": "https://x.com/naoyafujiwara",
+      "type": "Demo",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/naoyafujiwara/status/2064470780373811637"
+    },
+    {
+      "number": 20,
+      "title": "How Fable 5 Changes Claude Code Workflows",
+      "source_url": "https://x.com/AI_masaou/status/2064448218038223206",
+      "author_handle": "@AI_masaou",
+      "author_url": "https://x.com/AI_masaou",
+      "type": "Demo",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/AI_masaou/status/2064448218038223206"
+    },
+    {
+      "number": 21,
+      "title": "One-Billion-Token Review and Routing Strategy",
+      "source_url": "https://x.com/JJEnglert/status/2064420538798260388",
+      "author_handle": "@JJEnglert",
+      "author_url": "https://x.com/JJEnglert",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/JJEnglert/status/2064420538798260388"
+    },
+    {
+      "number": 22,
+      "title": "Defensive Device Hardening Prompt",
+      "source_url": "https://x.com/Truunik/status/2064399110384292077",
+      "author_handle": "@Truunik",
+      "author_url": "https://x.com/Truunik",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/Truunik/status/2064399110384292077"
+    },
+    {
+      "number": 23,
+      "title": "Full-Site Design Audit Goal Prompt",
+      "source_url": "https://x.com/Voxyz_ai/status/2064441201084825921",
+      "author_handle": "@Voxyz_ai",
+      "author_url": "https://x.com/Voxyz_ai",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/Voxyz_ai/status/2064441201084825921"
+    },
+    {
+      "number": 24,
+      "title": "Long-Form Creative Workflow Division",
+      "source_url": "https://x.com/aianimesyokunin/status/2064409545620017531",
+      "author_handle": "@aianimesyokunin",
+      "author_url": "https://x.com/aianimesyokunin",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/aianimesyokunin/status/2064409545620017531"
+    },
+    {
+      "number": 25,
+      "title": "Beginner Guide to Using Fable 5",
+      "source_url": "https://x.com/bielzinn/status/2064451064594608567",
+      "author_handle": "@bielzinn",
+      "author_url": "https://x.com/bielzinn",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/bielzinn/status/2064451064594608567"
+    },
+    {
+      "number": 26,
+      "title": "Copy-Paste Repository Audit Prompt",
+      "source_url": "https://x.com/meta_alchemist/status/2064431279383433646",
+      "author_handle": "@meta_alchemist",
+      "author_url": "https://x.com/meta_alchemist",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/meta_alchemist/status/2064431279383433646"
+    },
+    {
+      "number": 27,
+      "title": "Limited-Window Usage Strategy",
+      "source_url": "https://x.com/meta_alchemist/status/2064423360428490911",
+      "author_handle": "@meta_alchemist",
+      "author_url": "https://x.com/meta_alchemist",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/meta_alchemist/status/2064423360428490911"
+    },
+    {
+      "number": 28,
+      "title": "Using Goals and Workflows in Claude Code",
+      "source_url": "https://x.com/oikon48/status/2064402696124453157",
+      "author_handle": "@oikon48",
+      "author_url": "https://x.com/oikon48",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/oikon48/status/2064402696124453157"
+    },
+    {
+      "number": 29,
+      "title": "Hermes Agent Integration Setup",
+      "source_url": "https://x.com/IBuzovskyi/status/2064427654942740608",
+      "author_handle": "@IBuzovskyi",
+      "author_url": "https://x.com/IBuzovskyi",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/IBuzovskyi/status/2064427654942740608"
+    },
+    {
+      "number": 30,
+      "title": "Capabilities, Pricing, and Subscription Notes",
+      "source_url": "https://x.com/btibor91/status/2064441061079134598",
+      "author_handle": "@btibor91",
+      "author_url": "https://x.com/btibor91",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/btibor91/status/2064441061079134598"
+    },
+    {
+      "number": 31,
+      "title": "Launch, Access, Pricing, and Safety Summary",
+      "source_url": "https://x.com/ctgptlb/status/2064410460963934479",
+      "author_handle": "@ctgptlb",
+      "author_url": "https://x.com/ctgptlb",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/ctgptlb/status/2064410460963934479"
+    },
+    {
+      "number": 32,
+      "title": "Advisor-Based Cost Reduction Strategy",
+      "source_url": "https://x.com/grapeot/status/2064460026996219992",
+      "author_handle": "@grapeot",
+      "author_url": "https://x.com/grapeot",
+      "type": "Integration",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/grapeot/status/2064460026996219992"
+    },
+    {
+      "number": 33,
+      "title": "Pricing, Access, and Safety Guardrails",
+      "source_url": "https://x.com/op7418/status/2064399444523782377",
+      "author_handle": "@op7418",
+      "author_url": "https://x.com/op7418",
+      "type": "Integration",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/op7418/status/2064399444523782377"
+    },
+    {
+      "number": 34,
+      "title": "One-Line Swarms Integration",
+      "source_url": "https://x.com/swarms_corp/status/2064420238553186343",
+      "author_handle": "@swarms_corp",
+      "author_url": "https://x.com/swarms_corp",
+      "type": "Integration",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/swarms_corp/status/2064420238553186343"
+    },
+    {
+      "number": 35,
+      "title": "Fable 5 vs GPT-5.5 Cost and Quality Comparison",
+      "source_url": "https://x.com/AlicanKiraz0/status/2064424400494186867",
+      "author_handle": "@AlicanKiraz0",
+      "author_url": "https://x.com/AlicanKiraz0",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/AlicanKiraz0/status/2064424400494186867"
+    },
+    {
+      "number": 36,
+      "title": "AA-Omniscience Benchmark Result",
+      "source_url": "https://x.com/ArtificialAnlys/status/2064500154959618084",
+      "author_handle": "@ArtificialAnlys",
+      "author_url": "https://x.com/ArtificialAnlys",
+      "type": "Evaluation",
+      "date": "2026-06-10",
+      "dedup_key": "https://x.com/ArtificialAnlys/status/2064500154959618084"
+    },
+    {
+      "number": 37,
+      "title": "Artificial Analysis Intelligence Index Result",
+      "source_url": "https://x.com/ArtificialAnlys/status/2064500150069030992",
+      "author_handle": "@ArtificialAnlys",
+      "author_url": "https://x.com/ArtificialAnlys",
+      "type": "Evaluation",
+      "date": "2026-06-10",
+      "dedup_key": "https://x.com/ArtificialAnlys/status/2064500150069030992"
+    },
+    {
+      "number": 38,
+      "title": "GDPval-AA Agentic Knowledge Work Benchmark",
+      "source_url": "https://x.com/ArtificialAnlys/status/2064414308289937869",
+      "author_handle": "@ArtificialAnlys",
+      "author_url": "https://x.com/ArtificialAnlys",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/ArtificialAnlys/status/2064414308289937869"
+    },
+    {
+      "number": 39,
+      "title": "One-Week First Impressions and Pricing Mechanics",
+      "source_url": "https://x.com/Conor_D_Dart/status/2064424882977243526",
+      "author_handle": "@Conor_D_Dart",
+      "author_url": "https://x.com/Conor_D_Dart",
+      "type": "Integration",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/Conor_D_Dart/status/2064424882977243526"
+    },
+    {
+      "number": 40,
+      "title": "Cost and Speed Comparison",
+      "source_url": "https://x.com/HKrackDev/status/2064435392649306546",
+      "author_handle": "@HKrackDev",
+      "author_url": "https://x.com/HKrackDev",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/HKrackDev/status/2064435392649306546"
+    },
+    {
+      "number": 41,
+      "title": "Claude Code Hands-On Notes",
+      "source_url": "https://x.com/Hi_Noguchi/status/2064419241068319079",
+      "author_handle": "@Hi_Noguchi",
+      "author_url": "https://x.com/Hi_Noguchi",
+      "type": "Demo",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/Hi_Noguchi/status/2064419241068319079"
+    },
+    {
+      "number": 42,
+      "title": "Creative Writing Benchmark Result",
+      "source_url": "https://x.com/LechMazur/status/2064503575577821458",
+      "author_handle": "@LechMazur",
+      "author_url": "https://x.com/LechMazur",
+      "type": "Evaluation",
+      "date": "2026-06-10",
+      "dedup_key": "https://x.com/LechMazur/status/2064503575577821458"
+    },
+    {
+      "number": 43,
+      "title": "Multi-Benchmark Launch Summary",
+      "source_url": "https://x.com/MTSlive/status/2064430633800319436",
+      "author_handle": "@MTSlive",
+      "author_url": "https://x.com/MTSlive",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/MTSlive/status/2064430633800319436"
+    },
+    {
+      "number": 44,
+      "title": "Benchmark and Pricing Comparison with GPT-5.5",
+      "source_url": "https://x.com/VaibhavSisinty/status/2064459064810361271",
+      "author_handle": "@VaibhavSisinty",
+      "author_url": "https://x.com/VaibhavSisinty",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/VaibhavSisinty/status/2064459064810361271"
+    },
+    {
+      "number": 45,
+      "title": "Field Notes with Practical Limitations",
+      "source_url": "https://x.com/alliekmiller/status/2064451731325415446",
+      "author_handle": "@alliekmiller",
+      "author_url": "https://x.com/alliekmiller",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/alliekmiller/status/2064451731325415446"
+    },
+    {
+      "number": 46,
+      "title": "Physics Simulation Comparison",
+      "source_url": "https://x.com/atomic_chat_hq/status/2064488894398161377",
+      "author_handle": "@atomic_chat_hq",
+      "author_url": "https://x.com/atomic_chat_hq",
+      "type": "Demo",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/atomic_chat_hq/status/2064488894398161377"
+    },
+    {
+      "number": 47,
+      "title": "Debugging Experience and Design Judgment",
+      "source_url": "https://x.com/bcherny/status/2064431111154053187",
+      "author_handle": "@bcherny",
+      "author_url": "https://x.com/bcherny",
+      "type": "Demo",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/bcherny/status/2064431111154053187"
+    },
+    {
+      "number": 48,
+      "title": "Multi-Dimensional Pros and Cons",
+      "source_url": "https://x.com/clairevo/status/2064416978685874333",
+      "author_handle": "@clairevo",
+      "author_url": "https://x.com/clairevo",
+      "type": "Demo",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/clairevo/status/2064416978685874333"
+    },
+    {
+      "number": 49,
+      "title": "Legal S-1 Drafting Test",
+      "source_url": "https://x.com/gabepereyra/status/2064436570720284879",
+      "author_handle": "@gabepereyra",
+      "author_url": "https://x.com/gabepereyra",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/gabepereyra/status/2064436570720284879"
+    },
+    {
+      "number": 50,
+      "title": "Healthcare Benchmark Details",
+      "source_url": "https://x.com/iScienceLuvr/status/2064411823445774554",
+      "author_handle": "@iScienceLuvr",
+      "author_url": "https://x.com/iScienceLuvr",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/iScienceLuvr/status/2064411823445774554"
+    },
+    {
+      "number": 51,
+      "title": "ParseBench Document Parsing Evaluation",
+      "source_url": "https://x.com/jerryjliu0/status/2064519456966205905",
+      "author_handle": "@jerryjliu0",
+      "author_url": "https://x.com/jerryjliu0",
+      "type": "Evaluation",
+      "date": "2026-06-10",
+      "dedup_key": "https://x.com/jerryjliu0/status/2064519456966205905"
+    },
+    {
+      "number": 52,
+      "title": "SWE-Bench Pro and FrontierCode Comparison",
+      "source_url": "https://x.com/jumperz/status/2064402965461406044",
+      "author_handle": "@jumperz",
+      "author_url": "https://x.com/jumperz",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/jumperz/status/2064402965461406044"
+    },
+    {
+      "number": 53,
+      "title": "Qualitative Review of Long Problem Solving",
+      "source_url": "https://x.com/karpathy/status/2064409694761054332",
+      "author_handle": "@karpathy",
+      "author_url": "https://x.com/karpathy",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/karpathy/status/2064409694761054332"
+    },
+    {
+      "number": 54,
+      "title": "ParseBench Faithfulness and Formatting Results",
+      "source_url": "https://x.com/llama_index/status/2064502330800615903",
+      "author_handle": "@llama_index",
+      "author_url": "https://x.com/llama_index",
+      "type": "Evaluation",
+      "date": "2026-06-10",
+      "dedup_key": "https://x.com/llama_index/status/2064502330800615903"
+    },
+    {
+      "number": 55,
+      "title": "Benchmarks, Pricing, Access, and Safeguards",
+      "source_url": "https://x.com/lucas_flatwhite/status/2064483645184979183",
+      "author_handle": "@lucas_flatwhite",
+      "author_url": "https://x.com/lucas_flatwhite",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/lucas_flatwhite/status/2064483645184979183"
+    },
+    {
+      "number": 56,
+      "title": "Official Benchmark Score List",
+      "source_url": "https://x.com/mark_k/status/2064401429234905279",
+      "author_handle": "@mark_k",
+      "author_url": "https://x.com/mark_k",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/mark_k/status/2064401429234905279"
+    },
+    {
+      "number": 57,
+      "title": "APEX-SWE Benchmark Methodology",
+      "source_url": "https://x.com/mercor_ai/status/2064399133075796446",
+      "author_handle": "@mercor_ai",
+      "author_url": "https://x.com/mercor_ai",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/mercor_ai/status/2064399133075796446"
+    },
+    {
+      "number": 58,
+      "title": "ProofBench Formal Math Result",
+      "source_url": "https://x.com/nicbstme/status/2064443782255554960",
+      "author_handle": "@nicbstme",
+      "author_url": "https://x.com/nicbstme",
+      "type": "Tutorial",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/nicbstme/status/2064443782255554960"
+    },
+    {
+      "number": 59,
+      "title": "VirtueBench Preliminary Analysis",
+      "source_url": "https://x.com/timhwang/status/2064446028997423180",
+      "author_handle": "@timhwang",
+      "author_url": "https://x.com/timhwang",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/timhwang/status/2064446028997423180"
+    },
+    {
+      "number": 60,
+      "title": "API Empty-Response Safety Overfit Test",
+      "source_url": "https://x.com/xw33bttv/status/2064421048565789087",
+      "author_handle": "@xw33bttv",
+      "author_url": "https://x.com/xw33bttv",
+      "type": "Evaluation",
+      "date": "2026-06-09",
+      "dedup_key": "https://x.com/xw33bttv/status/2064421048565789087"
+    },
+    {
+      "number": 61,
+      "title": "Fable Prompting Verification Guide",
+      "source_url": "https://x.com/aashatwt/status/2064973740354818074",
+      "author_handle": "@aashatwt",
+      "author_url": "https://x.com/aashatwt",
+      "type": "Tutorial",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/aashatwt/status/2064973740354818074"
+    },
+    {
+      "number": 62,
+      "title": "Istanbul Platform Game Reference Build",
+      "source_url": "https://x.com/ozansihay/status/2064973170780545535",
+      "author_handle": "@ozansihay",
+      "author_url": "https://x.com/ozansihay",
+      "type": "Demo",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/ozansihay/status/2064973170780545535"
+    },
+    {
+      "number": 63,
+      "title": "Business 3D City Dashboard",
+      "source_url": "https://x.com/noisyb0y1/status/2064970594118967756",
+      "author_handle": "@noisyb0y1",
+      "author_url": "https://x.com/noisyb0y1",
+      "type": "Demo",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/noisyb0y1/status/2064970594118967756"
+    },
+    {
+      "number": 64,
+      "title": "Three.js Hole Game One-Shot",
+      "source_url": "https://x.com/thebuggeddev/status/2064968106104275008",
+      "author_handle": "@thebuggeddev",
+      "author_url": "https://x.com/thebuggeddev",
+      "type": "Demo",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/thebuggeddev/status/2064968106104275008"
+    },
+    {
+      "number": 65,
+      "title": "DeepSWE Score Comparison",
+      "source_url": "https://x.com/AiBattle_/status/2064964335957348462",
+      "author_handle": "@AiBattle_",
+      "author_url": "https://x.com/AiBattle_",
+      "type": "Evaluation",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/AiBattle_/status/2064964335957348462"
+    },
+    {
+      "number": 66,
+      "title": "Repository Cost Comparison",
+      "source_url": "https://x.com/Pilgrim6938/status/2064946766278210038",
+      "author_handle": "@Pilgrim6938",
+      "author_url": "https://x.com/Pilgrim6938",
+      "type": "Evaluation",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/Pilgrim6938/status/2064946766278210038"
+    },
+    {
+      "number": 67,
+      "title": "Super Mario Game Token Cost",
+      "source_url": "https://x.com/pankajkumar_dev/status/2064941888990593416",
+      "author_handle": "@pankajkumar_dev",
+      "author_url": "https://x.com/pankajkumar_dev",
+      "type": "Demo",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/pankajkumar_dev/status/2064941888990593416"
+    },
+    {
+      "number": 68,
+      "title": "Claude Code Fallback Setting",
+      "source_url": "https://x.com/oikon48/status/2064937790010503347",
+      "author_handle": "@oikon48",
+      "author_url": "https://x.com/oikon48",
+      "type": "Integration",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/oikon48/status/2064937790010503347"
+    },
+    {
+      "number": 69,
+      "title": "Namma Metro Simulator Build",
+      "source_url": "https://x.com/anilbpai/status/2064927784833790091",
+      "author_handle": "@anilbpai",
+      "author_url": "https://x.com/anilbpai",
+      "type": "Demo",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/anilbpai/status/2064927784833790091"
+    },
+    {
+      "number": 70,
+      "title": "Dusk Drive One-Prompt Game",
+      "source_url": "https://x.com/VincentLogic/status/2064921358359011684",
+      "author_handle": "@VincentLogic",
+      "author_url": "https://x.com/VincentLogic",
+      "type": "Demo",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/VincentLogic/status/2064921358359011684"
+    },
+    {
+      "number": 71,
+      "title": "APEX-Agents Pass@1 Ranking",
+      "source_url": "https://x.com/GratomicAi/status/2064970797978911102",
+      "author_handle": "@GratomicAi",
+      "author_url": "https://x.com/GratomicAi",
+      "type": "Evaluation",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/GratomicAi/status/2064970797978911102"
+    },
+    {
+      "number": 72,
+      "title": "Claude Model Selection Playbook",
+      "source_url": "https://x.com/charliejhills/status/2064957428211536212",
+      "author_handle": "@charliejhills",
+      "author_url": "https://x.com/charliejhills",
+      "type": "Tutorial",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/charliejhills/status/2064957428211536212"
+    },
+    {
+      "number": 73,
+      "title": "HermesWorld Automated Agent Loop",
+      "source_url": "https://x.com/outsource_/status/2064954350187778366",
+      "author_handle": "@outsource_",
+      "author_url": "https://x.com/outsource_",
+      "type": "Integration",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/outsource_/status/2064954350187778366"
+    },
+    {
+      "number": 74,
+      "title": "McKinsey-Style Report Prompt Test",
+      "source_url": "https://x.com/smtgpt/status/2064953210335588758",
+      "author_handle": "@smtgpt",
+      "author_url": "https://x.com/smtgpt",
+      "type": "Tutorial",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/smtgpt/status/2064953210335588758"
+    },
+    {
+      "number": 75,
+      "title": "Visible Safeguards Rollout",
+      "source_url": "https://x.com/ClaudeDevs/status/2064949876463645026",
+      "author_handle": "@ClaudeDevs",
+      "author_url": "https://x.com/ClaudeDevs",
+      "type": "Integration",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/ClaudeDevs/status/2064949876463645026"
+    },
+    {
+      "number": 76,
+      "title": "Claude Code Model Matching Fix",
+      "source_url": "https://x.com/ClaudeCodeLog/status/2064948584907153576",
+      "author_handle": "@ClaudeCodeLog",
+      "author_url": "https://x.com/ClaudeCodeLog",
+      "type": "Integration",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/ClaudeCodeLog/status/2064948584907153576"
+    },
+    {
+      "number": 77,
+      "title": "Three Web Apps in Claude Code",
+      "source_url": "https://x.com/0x3b33/status/2064948399300825439",
+      "author_handle": "@0x3b33",
+      "author_url": "https://x.com/0x3b33",
+      "type": "Demo",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/0x3b33/status/2064948399300825439"
+    },
+    {
+      "number": 78,
+      "title": "Rilable Open Source App Builder",
+      "source_url": "https://x.com/rileybrown/status/2064931283403178354",
+      "author_handle": "@rileybrown",
+      "author_url": "https://x.com/rileybrown",
+      "type": "Integration",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/rileybrown/status/2064931283403178354"
+    },
+    {
+      "number": 79,
+      "title": "DeepSWE Coding Agent Index Debut",
+      "source_url": "https://x.com/ArtificialAnlys/status/2065328920514515037",
+      "author_handle": "@ArtificialAnlys",
+      "author_url": "https://x.com/ArtificialAnlys",
+      "type": "Evaluation",
+      "date": "2026-06-12",
+      "dedup_key": "https://x.com/ArtificialAnlys/status/2065328920514515037"
+    },
+    {
+      "number": 80,
+      "title": "DataEmpire Web Analytics Game",
+      "source_url": "https://x.com/marclou/status/2065029898243318093",
+      "author_handle": "@marclou",
+      "author_url": "https://x.com/marclou",
+      "type": "Integration",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/marclou/status/2065029898243318093"
+    },
+    {
+      "number": 81,
+      "title": "FrontierSWE 20-Hour Task Signal",
+      "source_url": "https://x.com/ProximalHQ/status/2065184730279223410",
+      "author_handle": "@ProximalHQ",
+      "author_url": "https://x.com/ProximalHQ",
+      "type": "Evaluation",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/ProximalHQ/status/2065184730279223410"
+    },
+    {
+      "number": 82,
+      "title": "KernelBench-Hard CUDA Records",
+      "source_url": "https://x.com/elliotarledge/status/2065109393142849932",
+      "author_handle": "@elliotarledge",
+      "author_url": "https://x.com/elliotarledge",
+      "type": "Evaluation",
+      "date": "2026-06-11",
+      "dedup_key": "https://x.com/elliotarledge/status/2065109393142849932"
+    },
+    {
+      "number": 83,
+      "title": "Figma Capture Landing Page Clone",
+      "source_url": "https://x.com/mikefutia/status/2065537778516205856",
+      "author_handle": "@mikefutia",
+      "author_url": "https://x.com/mikefutia",
+      "type": "Integration",
+      "date": "2026-06-12",
+      "dedup_key": "https://x.com/mikefutia/status/2065537778516205856"
+    },
+    {
+      "number": 84,
+      "title": "GTA 2 Clone in Two Hours",
+      "source_url": "https://x.com/techhalla/status/2064682080445898957",
+      "author_handle": "@techhalla",
+      "author_url": "https://x.com/techhalla",
+      "type": "Tutorial",
+      "date": "2026-06-10",
+      "dedup_key": "https://x.com/techhalla/status/2064682080445898957"
+    },
+    {
+      "number": 85,
+      "title": "CloudWatch Log Triage Agent",
+      "source_url": "https://x.com/diblacksmith/status/2066230084273344698",
+      "author_handle": "@diblacksmith",
+      "author_url": "https://x.com/diblacksmith",
+      "type": "Integration",
+      "date": "2026-06-14",
+      "dedup_key": "https://x.com/diblacksmith/status/2066230084273344698"
+    },
+    {
+      "number": 86,
+      "title": "World Cup Predictor in Sandboxes",
+      "source_url": "https://x.com/upstash/status/2064702195333820846",
+      "author_handle": "@upstash",
+      "author_url": "https://x.com/upstash",
+      "type": "Integration",
+      "date": "2026-06-10",
+      "dedup_key": "https://x.com/upstash/status/2064702195333820846"
+    },
+    {
+      "number": 87,
+      "title": "WolfBench Refusal Cost Case",
+      "source_url": "https://x.com/WolfBenchAI/status/2065582716054376921",
+      "author_handle": "@WolfBenchAI",
+      "author_url": "https://x.com/WolfBenchAI",
+      "type": "Evaluation",
+      "date": "2026-06-12",
+      "dedup_key": "https://x.com/WolfBenchAI/status/2065582716054376921"
+    },
+    {
+      "number": 88,
+      "title": "API Access Cutoff Tracker",
+      "source_url": "https://x.com/simonw/status/2065618703480414666",
+      "author_handle": "@simonw",
+      "author_url": "https://x.com/simonw",
+      "type": "Integration",
+      "date": "2026-06-13",
+      "dedup_key": "https://x.com/simonw/status/2065618703480414666"
+    },
+    {
+      "number": 89,
+      "title": "Code-Generated Fox Animation with Sound",
+      "source_url": "https://x.com/chetaslua/status/2117224839010459987",
+      "author_handle": "@chetaslua",
+      "author_url": "https://x.com/chetaslua",
+      "type": "Demo",
+      "date": "2026-11-02",
+      "dedup_key": "https://x.com/chetaslua/status/2117224839010459987",
+      "takeaway": "Use a shot-by-shot brief to specify a self-contained HTML animation and its sound design.",
+      "body_notes": "The creator reports a 66-second fox-and-paper-birds short, with Python-generated frames and audio, delivered as one HTML file after about 2 hours 40 minutes. The accompanying prompt specifies shots, original artwork, sound and frame inspection. The post pairs the film with a detailed creative brief and screenshots of the production discussion.",
+      "category": "visual-design-video-and-3d",
+      "media_type": "video",
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2117224259433242625/vid/avc1/1320x720/LspBzvK63dktMcTe.mp4?tag=29",
+        "https://pbs.twimg.com/media/HWHjVCEbYAAUl7l.jpg",
+        "https://pbs.twimg.com/media/HWHjrfMbAAAh4iY.jpg"
+      ],
+      "source_media_count": 3,
+      "expected_public_visual_count": 3,
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-1-image-4bee9ad0898820c1.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-2-image-b4b62017a03ec393.jpg"
+      ],
+      "prompt_boundary": "Full creator prompt is public in the linked accompanying post; it is linked, not reconstructed or translated.",
+      "collection_snapshot_at": "2026-11-02T14:44:30.914451+00:00",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-0-poster-2ee16a14af881cec.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-0-video-8e1ac3acc5e7cb57.mp4",
+      "prompt_source_url": "https://x.com/chetaslua/status/2117224843661980093",
+      "related_source_urls": [
+        "https://x.com/chetaslua/status/2117224843661980093"
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Animation from an Open Creative Brief",
+      "source_url": "https://x.com/notjazii/status/2117221957104239010",
+      "author_handle": "@notjazii",
+      "author_url": "https://x.com/notjazii",
+      "type": "Demo",
+      "date": "2026-11-02",
+      "dedup_key": "https://x.com/notjazii/status/2117221957104239010",
+      "takeaway": "Compare what a coding model builds from an open animation brief with what a detailed storyboard produces.",
+      "body_notes": "The author shares an animation and reports about one hour of work from a broad creative request, using code without external assets. The post presents the result as a broad creative-coding exercise.",
+      "category": "visual-design-video-and-3d",
+      "media_type": "video",
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2117220360735313921/vid/avc1/1280x720/8sCTjBM0wApHwJcw.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "r2_media_urls": [],
+      "prompt_boundary": "No full prompt is available in the selected root post; no prompt is reconstructed.",
+      "collection_snapshot_at": "2026-11-02T14:44:30.914451+00:00",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-90-0-poster-08a293539c7b465c.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-90-0-video-24243aa4947eafd2.mp4"
+    },
+    {
+      "number": 91,
+      "title": "Animated Construction Company Website",
+      "source_url": "https://x.com/exploraX_/status/2117176904306335864",
+      "author_handle": "@exploraX_",
+      "author_url": "https://x.com/exploraX_",
+      "type": "Demo",
+      "date": "2026-11-02",
+      "dedup_key": "https://x.com/exploraX_/status/2117176904306335864",
+      "takeaway": "Use a construction-company website brief to evaluate animated 3D presentation and page composition.",
+      "body_notes": "The creator shares an animated 3D website built around a construction-company brief and attaches a recording of the result.",
+      "category": "coding-and-code-generation",
+      "media_type": "video",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117172308389289984/vid/avc1/1280x720/w7xHbpv__zWyrxL5.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "r2_media_urls": [],
+      "prompt_boundary": "No full prompt is available in the selected root post; no prompt is reconstructed.",
+      "collection_snapshot_at": "2026-11-02T14:44:30.914451+00:00",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-91-0-poster-c835928f570ad718.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-91-0-video-2b260d32fccecca6.mp4"
+    },
+    {
+      "number": 92,
+      "title": "Three.js Car Presentation",
+      "source_url": "https://x.com/chetaslua/status/2116975056014430419",
+      "author_handle": "@chetaslua",
+      "author_url": "https://x.com/chetaslua",
+      "type": "Demo",
+      "date": "2026-11-01",
+      "dedup_key": "https://x.com/chetaslua/status/2116975056014430419",
+      "takeaway": "Inspect a car scene as a compact test of 3D composition, materials and camera presentation.",
+      "body_notes": "The creator shares a Three.js car presentation. The recording provides a compact reference for evaluating the scene and its visual presentation.",
+      "category": "visual-design-video-and-3d",
+      "media_type": "video",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2116973609541574656/vid/avc1/1112x720/gvieVVdcJsOW3eFB.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "r2_media_urls": [],
+      "prompt_boundary": "No full prompt is available in the selected root post; no prompt is reconstructed.",
+      "collection_snapshot_at": "2026-11-02T14:44:30.914451+00:00",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-92-0-poster-7a9405423aed1224.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-92-0-video-41812e3bdae683b0.mp4"
+    },
+    {
+      "number": 93,
+      "title": "Minecraft-Style Browser Game Demo",
+      "source_url": "https://x.com/notjazii/status/2116919129974411584",
+      "author_handle": "@notjazii",
+      "author_url": "https://x.com/notjazii",
+      "type": "Demo",
+      "date": "2026-11-01",
+      "dedup_key": "https://x.com/notjazii/status/2116919129974411584",
+      "takeaway": "Pair a game recording with the creator's play link when assessing a generated browser game.",
+      "body_notes": "The author shares a Minecraft-style game recording and a play link, describing the build as a one-shot task taking roughly one or two hours. The post pairs the recorded result with a play link for readers to explore.",
+      "category": "games-and-interactive-demos",
+      "media_type": "video",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2116918352845340672/vid/avc1/1280x720/WO83Jt7IDLFQyve2.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "r2_media_urls": [],
+      "prompt_boundary": "No full prompt is available in the selected root post; no prompt is reconstructed.",
+      "collection_snapshot_at": "2026-11-02T14:44:30.914451+00:00",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-93-0-poster-f432ab7cc397d51c.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-93-0-video-903a5b83acef99f5.mp4"
+    },
+    {
+      "number": 94,
+      "title": "Three.js Pelican Cycling Animation",
+      "source_url": "https://x.com/chetaslua/status/2116882694026269148",
+      "author_handle": "@chetaslua",
+      "author_url": "https://x.com/chetaslua",
+      "type": "Demo",
+      "date": "2026-11-01",
+      "dedup_key": "https://x.com/chetaslua/status/2116882694026269148",
+      "takeaway": "Inspect a cycling scene for coordinated character motion, bicycle geometry and environmental detail.",
+      "body_notes": "The creator shares a realistic Three.js animation of a pelican riding a bicycle and describes it as a one-shot result. The clip offers a reference for character motion, bicycle structure and the surrounding scene.",
+      "category": "visual-design-video-and-3d",
+      "media_type": "video",
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2116881970773000192/vid/avc1/1112x720/QtnFkTAcU6BfNisW.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "r2_media_urls": [],
+      "prompt_boundary": "No full prompt is available in the selected root post; no prompt is reconstructed.",
+      "collection_snapshot_at": "2026-11-02T14:44:30.914451+00:00",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-94-0-poster-0b18e5a159c3ec96.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-94-0-video-446b1cb698f14157.mp4"
+    },
+    {
+      "number": 95,
+      "title": "Pelican Bicycle SVG with Exact Prompt",
+      "source_url": "https://x.com/marmaduke091/status/2116233349391962392",
+      "author_handle": "@marmaduke091",
+      "author_url": "https://x.com/marmaduke091",
+      "type": "Demo",
+      "date": "2026-10-30",
+      "dedup_key": "https://x.com/marmaduke091/status/2116233349391962392",
+      "takeaway": "Reuse the creator's short SVG prompt to compare geometry and detail under the same input.",
+      "body_notes": "The author pairs a rendered pelican-on-a-bicycle image with the short SVG request reproduced verbatim below.",
+      "category": "visual-design-video-and-3d",
+      "media_type": "image",
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HV5eqzhWEAEwhwj.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-95-0-image-92e96914a3877a42.jpg"
+      ],
+      "prompt_boundary": "Exact short prompt is public and reproduced verbatim in every language.",
+      "collection_snapshot_at": "2026-11-02T14:44:30.914451+00:00",
+      "exact_prompt": "Generate an SVG of a Pelican riding a bicycle as nicely done as you can"
+    },
+    {
+      "number": 96,
+      "title": "Galloping Zebra Animation Sample",
+      "source_url": "https://x.com/AI_Screening/status/2115845754468356465",
+      "author_handle": "@AI_Screening",
+      "author_url": "https://x.com/AI_Screening",
+      "type": "Demo",
+      "date": "2026-10-29",
+      "dedup_key": "https://x.com/AI_Screening/status/2115845754468356465",
+      "takeaway": "Use a galloping-animal clip to inspect gait consistency and motion continuity.",
+      "body_notes": "The author shares their selected best output for a galloping-zebra task. The clip gives readers a concrete motion sample to inspect.",
+      "category": "visual-design-video-and-3d",
+      "media_type": "video",
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2115845716979646464/vid/avc1/1300x720/M7joYTyxofrZJwG8.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "r2_media_urls": [],
+      "prompt_boundary": "No full prompt is available in the selected root post; no prompt is reconstructed.",
+      "collection_snapshot_at": "2026-11-02T14:44:30.914451+00:00",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-96-0-poster-34e8bfc30f0396ce.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-96-0-video-506044b0159933fe.mp4"
+    },
+    {
+      "number": 97,
+      "title": "TradingView Indicator with Human Execution",
+      "source_url": "https://x.com/waveking1314/status/2114572023204806669",
+      "author_handle": "@waveking1314",
+      "author_url": "https://x.com/waveking1314",
+      "type": "Demo",
+      "date": "2026-10-26",
+      "dedup_key": "https://x.com/waveking1314/status/2114572023204806669",
+      "takeaway": "Keep order execution manual when evaluating an indicator that marks possible entries and adds commentary.",
+      "body_notes": "The creator reports using Claude Fable 5.5 to write a TradingView indicator that marks possible entry points and adds a short comment while the user decides whether to place an order. The post includes a recording and says the indicator will be shared later.",
+      "category": "coding-and-code-generation",
+      "media_type": "video",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2114571721466679296/vid/avc1/720x720/QNusctdE693EShQH.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "r2_media_urls": [],
+      "prompt_boundary": "No full prompt is available in the selected root post; no prompt is reconstructed.",
+      "collection_snapshot_at": "2026-11-02T14:44:30.914451+00:00",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-97-0-poster-4e76b2a3f1cc0732.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-97-0-video-e16da93b5ca229bd.mp4"
+    }
+  ]
+}

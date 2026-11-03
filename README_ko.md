@@ -35,7 +35,7 @@ Evolink에서 사용해 보기: [Claude Fable 5](https://evolink.ai/claude-fable
 
 ## 📊 개요
 
-- 공개 크리에이터, 개발자, 벤치마크 팀, 도구 제작자가 공유한 **선별된 Claude Fable 5 사례 88개**.
+- **기존 Fable 5 사례 88개에 Fable 5.5 커뮤니티 데모 9개를 더해 총 97개 사례를 수록합니다.**
 - 코딩 에이전트, 장시간 자동화, 게임, 비주얼 디자인, 3D 시뮬레이션, 지식 작업, 튜토리얼, API 통합, 벤치마크, 가격, 출시 시점의 제한을 다룹니다.
 - 각 사례에는 원본 소스, 크리에이터 출처, 간결한 핵심 요약, 근거 유형, 게시 날짜가 포함됩니다.
 - 이 저장소를 활용해 실용적인 워크플로를 찾고, 강점과 한계를 비교하며, 재현 가능한 프롬프트를 발견하고, 통합 예시를 따라가세요.
@@ -180,24 +180,24 @@ curl --request POST \
 | [ProofBench 형식 수학 결과](#case-58) | 이 사례를 사용해 specialized theorem-proving systems와 비교해 formal math에서 Fable 5를 평가하세요. | 튜토리얼 |
 | [VirtueBench 예비 분석](#case-59) | 이 사례를 사용해 virtue categories 전반에서 Fable 5의 moral-reasoning behavior를 살펴보세요. | 평가 |
 | [API 빈 응답 안전 과적합 테스트](#case-60) | 이 사례를 사용해 launch-time safety overfit risk와 API testing의 empty-response behavior를 이해하세요. | 평가 |
-| [Fable Prompting Verification Guide](#case-61) | Use this prompting guide to shift from longer prompt hacks toward goal, context, constraints, tools, and verification loops. | 튜토리얼 |
-| [Istanbul Platform Game Reference Build](#case-62) | Use a reference sprite sheet plus one conversion instruction to test Fable 5 on a playable platform game. | 데모 |
-| [Business 3D City Dashboard](#case-63) | Use Fable 5 to turn a business workflow into a live 3D city dashboard concept. | 데모 |
-| [Three.js Hole Game One-Shot](#case-64) | Use Fable 5 to one-shot a 3D browser game prototype in Three.js. | 데모 |
-| [DeepSWE Score Comparison](#case-65) | Use this DeepSWE note to compare Fable 5 xHigh with GPT-5.5 xHigh on software-engineering benchmark performance. | 평가 |
-| [Repository Cost Comparison](#case-66) | Use this repository-analysis comparison to judge token price against human rework cost. | 평가 |
-| [Super Mario Game Token Cost](#case-67) | Use this single-shot game build to estimate Fable 5 output quality and token consumption. | 데모 |
-| [Claude Code Fallback Setting](#case-68) | Use this case to understand the Claude Code setting for switching models when a Fable 5 message is flagged. | 통합 |
-| [Namma Metro Simulator Build](#case-69) | Use this demo as a compact example of vibe-coding a public-transit simulator with Fable 5. | 데모 |
-| [Dusk Drive One-Prompt Game](#case-70) | Use this one-prompt driving-game case to evaluate Fable 5 on low-poly game prototyping without human edits. | 데모 |
-| [APEX-Agents Pass@1 Ranking](#case-71) | Use this APEX-Agents result to compare Fable 5 Max on multi-step autonomous tasks. | 평가 |
-| [Claude Model Selection Playbook](#case-72) | Use this model-selection playbook to reserve Fable 5 for the hardest Claude Code jobs. | 튜토리얼 |
-| [HermesWorld Automated Agent Loop](#case-73) | Use this case to study a hands-free Fable 5 loop that builds, tests, plays, and smoke-tests over days. | 통합 |
-| [McKinsey-Style Report Prompt Test](#case-74) | Use this document-generation prompt to evaluate consulting-report structure, charts, narrative, and risk analysis. | 튜토리얼 |
-| [Visible Safeguards Rollout](#case-75) | Use this official note to understand Fable 5 safeguard visibility, API refusal reasons, and Opus fallback behavior. | 통합 |
-| [Claude Code Model Matching Fix](#case-76) | Use this Claude Code changelog note to avoid Fable 5 model-name and context matching issues. | 통합 |
-| [Three Web Apps in Claude Code](#case-77) | Use this beginner coding demo to inspect Fable 5 inside Claude Code across multiple generated web apps. | 데모 |
-| [Rilable Open Source App Builder](#case-78) | Use this open-source app-builder case to study Fable 5 across iOS, web apps, sandboxes, and API-token cost. | 통합 |
+| [Fable 프롬프트 설계와 검증 가이드](#case-61) | 긴 프롬프트 요령 대신 목표, 맥락, 제약, 도구, 검증 루프를 정리하는 데 이 가이드를 활용하세요. | 튜토리얼 |
+| [참조 이미지로 만드는 이스탄불 플랫폼 게임](#case-62) | 참조용 스프라이트 시트와 변환 지시 하나를 주고 Fable 5가 플레이 가능한 플랫폼 게임을 만드는지 시험하세요. | 데모 |
+| [업무를 시각화하는 3D 도시 대시보드](#case-63) | Fable 5로 업무 흐름을 움직이는 3D 도시 대시보드 구상으로 바꿔 보세요. | 데모 |
+| [Three.js 구멍 게임을 한 번에 제작](#case-64) | Fable 5로 Three.js 기반 3D 브라우저 게임 시제품을 한 번에 만들어 보세요. | 데모 |
+| [DeepSWE 점수 비교](#case-65) | 이 DeepSWE 게시물을 출발점으로 소프트웨어 개발 벤치마크에서 Fable 5 xHigh와 GPT-5.5 xHigh를 비교하세요. | 평가 |
+| [저장소 분석 비용 비교](#case-66) | 저장소 분석 비교를 통해 토큰 단가와 사람이 다시 작업하는 비용을 함께 판단하세요. | 평가 |
+| [슈퍼 마리오 스타일 게임의 토큰 비용](#case-67) | 한 번에 만든 게임으로 Fable 5의 출력 품질과 토큰 소모량을 평가하세요. | 데모 |
+| [Claude Code 대체 모델 전환 설정](#case-68) | Fable 5 메시지가 감지됐을 때 모델을 전환하는 Claude Code 설정을 확인하세요. | 통합 |
+| [Namma Metro 시뮬레이터 제작](#case-69) | Fable 5로 대중교통 시뮬레이터를 만드는 간단한 바이브 코딩 사례로 살펴보세요. | 데모 |
+| [프롬프트 하나로 만든 Dusk Drive](#case-70) | 사람의 수정 없이 로우 폴리 게임을 만드는 작업에서 Fable 5를 평가하세요. | 데모 |
+| [APEX-Agents Pass@1 순위](#case-71) | APEX-Agents 결과를 통해 여러 단계의 자율 작업에서 Fable 5 Max를 비교하세요. | 평가 |
+| [Claude 모델 선택 가이드](#case-72) | Claude Code의 가장 어려운 작업에 Fable 5를 남겨 두는 모델 선택 전략을 검토하세요. | 튜토리얼 |
+| [HermesWorld 자동 에이전트 루프](#case-73) | 며칠 동안 구현, 테스트, 플레이, 기본 동작 확인을 이어가는 수동 조작 없는 Fable 5 루프를 살펴보세요. | 통합 |
+| [McKinsey 스타일 보고서 프롬프트 검증](#case-74) | 문서 생성 프롬프트로 컨설팅 보고서의 구성, 차트, 논지, 위험 분석을 평가하세요. | 튜토리얼 |
+| [안전장치 동작의 가시화](#case-75) | 공식 게시물에서 Fable 5 안전장치 표시, API 거부 사유, Opus 전환 동작을 확인하세요. | 통합 |
+| [Claude Code 모델 이름 매칭 수정](#case-76) | Claude Code 변경 기록을 참고해 Fable 5 모델 이름과 컨텍스트 매칭 문제를 피하세요. | 통합 |
+| [Claude Code로 웹 앱 세 개 제작](#case-77) | 여러 웹 앱을 생성한 초보자의 코딩 데모에서 Claude Code 안의 Fable 5 활용을 확인하세요. | 데모 |
+| [오픈소스 앱 빌더 Rilable](#case-78) | iOS, 웹 앱, 샌드박스, API 토큰 비용을 아우르는 Fable 5 활용을 살펴보세요. | 통합 |
 | [DeepSWE 코딩 에이전트 지수 데뷔](#case-79) | 공개 GitHub 수정 재활용을 피한 더 어려운 agentic coding tasks에서 Fable 5를 비교하기 위해 갱신된 Artificial Analysis 지수를 사용하세요. | Evaluation |
 | [DataEmpire 웹 분석 게임](#case-80) | Claude Fable 5가 방문자와 이정표를 게임 엔티티에 매핑하게 해 원시 사이트 분석 데이터를 반복 플레이 가능한 게임으로 바꾸세요. | Integration |
 | [FrontierSWE 20시간 작업 신호](#case-81) | Claude Fable 5가 짧은 버그 수정 루프뿐 아니라 매우 긴 엔지니어링 작업에서도 생산성을 유지할 수 있다는 근거로 FrontierSWE를 사용하세요. | Evaluation |
@@ -209,6 +209,21 @@ curl --request POST \
 | [WolfBench 거부 비용 사례](#case-87) | Claude Fable 5에서 장시간 자율 실행 비용을 산정할 때 refusal behavior를 실제 benchmark variable로 취급하세요. | Evaluation |
 | [API 접근 중단 추적기](#case-88) | 레이트리밋이나 갑작스러운 중단 가능성이 있는 frontier model 접근에 의존한다면 스크립트로 availability를 모니터링하세요. | Integration |
 
+
+
+### [🆕 Fable 5.5 커뮤니티 데모](#fable-5-5-community-demos)
+
+| 사례 | 보여 주는 내용 | 유형 |
+|---|---|---|
+| [코드로 생성한 소리 있는 여우 애니메이션](#case-89) | 장면별 제작 지시로 자체 완결형 HTML 애니메이션과 음향 설계를 지정하세요. | Demo |
+| [자유로운 창작 지시에서 만든 애니메이션](#case-90) | 자유로운 애니메이션 제작 지시와 상세한 스토리보드에서 코딩 모델이 만드는 결과를 비교하세요. | Demo |
+| [애니메이션이 있는 건설회사 웹사이트](#case-91) | 건설회사 웹사이트 제작 지시로 애니메이션 3D 표현과 페이지 구성을 평가하세요. | Demo |
+| [Three.js 자동차 프레젠테이션](#case-92) | 자동차 장면으로 3D 구도, 재질, 카메라 표현을 간단히 점검하세요. | Demo |
+| [Minecraft 스타일 브라우저 게임 데모](#case-93) | 생성된 브라우저 게임을 평가할 때 플레이 녹화와 제작자의 플레이 링크를 함께 확인하세요. | Demo |
+| [Three.js 펠리컨 자전거 애니메이션](#case-94) | 자전거 장면에서 캐릭터 움직임의 연동, 자전거 형태, 주변 환경의 세부 표현을 점검하세요. | Demo |
+| [정확한 프롬프트가 있는 펠리컨 자전거 SVG](#case-95) | 제작자의 짧은 SVG 프롬프트를 재사용해 같은 입력에서 형태와 세부 표현을 비교하세요. | Demo |
+| [질주하는 얼룩말 애니메이션 예시](#case-96) | 질주하는 동물 영상으로 보행 패턴의 일관성과 움직임의 연속성을 점검하세요. | Demo |
+| [주문은 사람이 실행하는 TradingView 지표](#case-97) | 진입 후보와 짧은 설명을 표시하는 지표를 평가할 때 주문 실행은 수동으로 유지하세요. | Demo |
 
 <a id="coding-and-code-generation"></a>
 ## 💻 코딩 및 코드 생성
@@ -230,7 +245,7 @@ Phase 4: 계획을 구현할 때는 Minimax M3, Deepseek v4 Max, Composer 2.5 �
 
 Phase 5: 최종 리뷰와 구현이 계획을 따랐는지 확인할 때는 GPT 5.5 High를 사용합니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -247,7 +262,7 @@ Type: 평가 | Date: 2026-06-09
 
 결과는 작동하는 GitHub 복제본이었습니다: https://t.co/bjMObvlsPX
 
-Type: 데모 | Date: 2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -264,7 +279,7 @@ Type: 데모 | Date: 2026-06-09
 
 새 기준선이 말도 안 됩니다 🤯 https://t.co/E23I8bnPKb
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -292,7 +307,7 @@ Type: 튜토리얼 | Date: 2026-06-09
 
 작동하는 사운드 플레이어와 실제 Minecraft 클론을 함께 해낸 것은 다른 모델에서 아직 본 적이 없습니다. Fable 5의 frontend/UI 생성 능력이 터무니없이 좋아지고 있습니다.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -322,7 +337,7 @@ spawn 5.0은 이것으로 만들어졌습니다:
 
 벤치마크가 보여주지 못하는 부분: 이 모델은 성격이 훌륭합니다. 정말 웃깁니다. 물리 엔진을 다시 쓰는 도중 여러 번 너무 웃어서 울었습니다. 천재성과 캐릭터는 별개의 기능이 아닙니다.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -340,7 +355,7 @@ Fable 5에게 단일 PR(74 files / +3,705 / -1,246)을 마음껏 리뷰하게 �
 
 이게 출시하기엔 너무 위험했나요?
 
-Type: 데모 | Date: 2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -383,7 +398,7 @@ Type: 데모 | Date: 2026-06-09
 
 판결: 옆 사람보다 더 많은 지능에 접근할 수 있다는 것이 이점입니다. Fable 5는 그것을 현실로 만드는 첫 모델입니다. 풀 frontier 요금으로도 수익이 남았습니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -402,7 +417,7 @@ pod 로그를 읽고, Cloud SQL 오류 로그를 조회하고, 이미지 digest�
 
 몇 시간 아니라 몇 분. 웹 검색 없음. 🤯
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -420,7 +435,7 @@ Fable 5에게 손가락 추적 Dino runner 게임을 만들어 달라고 요청�
 
 https://t.co/AWt1lEIObq
 
-Type: 데모 | Date: 2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -437,7 +452,7 @@ Fable 5는 약 15분 만에 모든 장식, 캐릭터 모델, 4개 맵, 음악, �
 
 #fable #anthropic https://t.co/B7mTidE84U
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -454,7 +469,7 @@ Install command: cargo install termcraft-3d
 
 https://t.co/zs3y3t88oM
 
-Type: 데모 | Date: 2026-06-10
+Type: Demo | Date: 2026-06-10
 
 ---
 
@@ -473,7 +488,7 @@ Minecraft는 Notch가 2년 걸렸습니다.
 
 https://t.co/AmwdLwi75O
 
-Type: 튜토리얼 | Date: 2026-06-10
+Type: Tutorial | Date: 2026-06-10
 
 ---
 
@@ -618,7 +633,7 @@ Avoid:
 
 Output: premium, clean, polished, modern, editorial, presentation-ready하게 느껴지는 MVMT용 전체 길이 세로 구성의 매우 사실적인 ecommerce email design mockup.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -635,7 +650,7 @@ Type: 튜토리얼 | Date: 2026-06-09
 
 ⌚ https://t.co/RSRfDoKxA4
 
-Type: 평가 | Date: 2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -654,7 +669,7 @@ Fable 5:
 
 이 single html은 $12가 들었지만, 결과는 놀랍습니다!
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -675,7 +690,7 @@ Claude Fable 5는 강렬합니다.
 
 완성된 프롬프트와 공개 URL은 아래에 링크되어 있습니다.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 <a id="documents-knowledge-work-and-research"></a>
@@ -708,7 +723,7 @@ Mythos 5는 일주일이 넘는 대체로 자율적인 작업으로 새로운 ge
 
 높은 수준의 인간 입력만으로도, 학습된 모델은 Science에 발표된 최근 모델보다 100배 더 작았음에도 더 나은 성과를 냈습니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -727,7 +742,7 @@ Fable 5는 정책 분석 초안 작성처럼 더 오래 걸리는 정성 작업�
 - Projects에서 많은 댓글 세트를 스크린샷으로 찍고, Claude가 각각을 처리할지와 처리 방법을 추천하게 하기.
 - 문서에 대한 회의 transcript를 Claude에 붙여넣은 뒤, 회의와 Slack에서 논의된 편집 사항을 Claude가 변경 내용 추적으로 반영하고 댓글에 맥락을 추가하게 하기.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -775,7 +790,7 @@ Claude Fable 5 Max가 오늘 아침 사용 가능해져서 시험해 보았습�
 
 다시 말해, 잃어버린 수십 년은 단순한 금융 후유증이 아니었습니다. 인구구조, 임금, 디플레이션, 부채, 정책 선택, 사회적 신뢰가 얽힌 구조적 전환이었습니다.
 
-Type: 데모 | Date: 2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -815,7 +830,7 @@ Fable 5에서는 더 오래 작업하고, 스스로 테스트하고, 더 높은 
 
 마지막으로 Thariq는 사람들이 더 야심차게 사용해 보아야 한다고 말합니다. Fable 5는 이전에는 LLM에게 너무 어렵다고 느꼈던 작업에 시도할 가치가 있으며, 참조된 영상의 video editing도 Fable로 수행되었습니다.
 
-Type: 데모 | Date: 2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -921,7 +936,7 @@ frontier rates 가격에서도 이 workload는 수익을 냈습니다.
 
 감당할 수 있다면, 실제 품질 도약이 결과를 바꾸는 작업에 지금 사용하세요.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1006,7 +1021,7 @@ If RERUN_NOTICE == false, end with:
 
 Hardening pass completed on Claude 5. No re-run needed.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1044,7 +1059,7 @@ Acceptance criteria:
 
 완료되면 전체 flow를 reusable skill로 저장하세요: boot, screenshot, audit, prioritize, fix. 매 release 후 다시 실행하세요.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1085,7 +1100,7 @@ Fable은 긴 실행 내내 format을 유지할 수 있어서 첫 example과 마�
 
 더 똑똑한 모델로 format을 만들고, expression은 그것을 생산할 수 있는 모델에 맡기세요.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1130,7 +1145,7 @@ Anthropic은 이 모델을 진정한 “thought partner”로 사용하라고 �
 
 다시 말해, top AI models의 저렴한 subscription 시대가 끝나는 장면을 보고 있는지도 모릅니다. 이미 subscriber라면, 불가능하다고 생각했던 한계를 테스트할 때입니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1328,7 +1343,7 @@ project의 needs를 분석하고 가장 효과적인 방식으로 recommendation
 
 repo가 크다면 80%의 일을 하는 core 20% code에 깊이를 우선하고, 가볍게 리뷰한 areas를 note하세요.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1351,7 +1366,7 @@ limits를 잡아먹는 task에 투입하려 하기보다 그렇게 하세요.
 
 Fable이 무엇을 개선해야 하는지 아는 데 집중하는 한, 나머지는 다른 모델들이 도와줄 수 있습니다.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1396,7 +1411,7 @@ Example prompt:
 
 Claude Fable 5에게 video editing을 맡기는 것처럼, 이전에는 LLM에게 불가능하다고 느꼈던 task를 시도하세요.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1440,7 +1455,7 @@ API pricing:
 
 Best setup: 복잡한 `/goal`s에는 Fable 5, routine cron jobs에는 더 저렴한 모델.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1477,7 +1492,7 @@ Mythos 5는 소수의 trusted partners용입니다.
 - capacity가 허용되면 포함 기간이 연장될 수 있습니다.
 - 목표는 가능한 한 빨리 Fable 5를 standard subscription plans의 일부로 복원하는 것입니다.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1536,7 +1551,7 @@ questions에서 tasks로, 그리고 responsibilities로.
 
 작업의 단위가 "task"에서 "responsibility"로 이동하고 있습니다.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1577,7 +1592,7 @@ Fable 5 compatibility는 같은 날 업데이트되었지만 self-pairing만 지
 
 이 글에는 API code snippets, caveats, 그리고 Anthropic만이 이것을 server-side primitive로 만들었다는 cross-company comparison이 포함되어 있습니다.
 
-Type: 통합 | Date: 2026-06-09
+Type: Integration | Date: 2026-06-09
 
 ---
 
@@ -1618,7 +1633,7 @@ Subscription notes:
 - base subscription package에 직접 포함되지 않을 수 있습니다.
 - 23일 이후 capacity가 충분하면 회사는 Pro와 Max subscriptions에 포함하려고 할 것입니다.
 
-Type: 통합 | Date: 2026-06-09
+Type: Integration | Date: 2026-06-09
 
 ---
 
@@ -1638,7 +1653,7 @@ Highlights:
 - migrations, compatibility fixes, infrastructure changes 불필요
 - 최신 Anthropic models로 multi-agent systems를 오늘 build, deploy, scale
 
-Type: 통합 | Date: 2026-06-09
+Type: Integration | Date: 2026-06-09
 
 ---
 
@@ -1678,7 +1693,7 @@ angle calculations에는 sin/cos lookup tables를 사용했고, rendering 중에
 
 핵심 요약: Fable 5는 더 고급 algorithmic code를 만들 수 있지만, price와 runtime을 신중히 고려해야 합니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1693,7 +1708,7 @@ Claude Fable 5는 우리의 knowledge and hallucination benchmark인 AA-Omniscie
 
 Claude Fable 5는 AA-Omniscience 전체 질문의 9%에서 Opus 4.8로 fallback합니다.
 
-Type: 평가 | Date: 2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -1752,7 +1767,7 @@ Key model details:
 - Availability: 6월 22일까지 Pro, Max, Team, seat-based Enterprise plans에 포함되며 Opus usage의 2x를 소비.
 - 6월 23일부터 사용에는 credits가 필요합니다. Anthropic은 capacity가 허용되면 subscription access를 복원할 계획이라고 말합니다.
 
-Type: 평가 | Date: 2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -1782,7 +1797,7 @@ Fable 5는 GDPval-AA tasks의 2%에서 Opus 4.8로 fallback하며, Anthropic은 
 
 Claude Fable 5의 full benchmarks는 진행 중입니다. 곧 full Intelligence Index를 공유하고 website에 scores를 게시할 예정입니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1815,7 +1830,7 @@ API pricing이 Opus의 약 두 배로 알려져 있으므로 많은 사람들이
 
 아직 초기지만 지금까지 Fable 5는 매우 강한 첫인상을 남겼습니다.
 
-Type: 통합 | Date: 2026-06-09
+Type: Integration | Date: 2026-06-09
 
 ---
 
@@ -1836,7 +1851,7 @@ Fable 5는 game design 같은 creative tasks에서 놀라운 intuition을 갖고
 
 model release에 대해 @coderabbitai의 DevEx team @JuanPa와 나눈 discussion을 확인하세요.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1861,7 +1876,7 @@ Claude Code 2.1.170으로 Claude Fable 5를 사용해 보았습니다.
 
 초기 경험은 promising하지만, rough edges가 실제로 어디에 있는지 보려면 더 오래 사용해야 합니다.
 
-Type: 데모 | Date: 2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -1878,7 +1893,7 @@ Caveat: 400개의 creative-writing prompts 중 5개를 refused했습니다.
 
 https://t.co/76nCxwEybJ
 
-Type: 평가 | Date: 2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -1896,7 +1911,7 @@ Anthropic: "The longer and more complex the task, the larger Fable 5's lead over
 
 @theojaffee: "This Frontier Code Diamond benchmark was announced yesterday. Top model was Opus 4.8 at thirteen percent. GPT 5.5 at six percent. Fable 5 is at twenty-nine percent."
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1926,7 +1941,7 @@ The benchmarks:
 
 6월 22일까지 Pro와 Max plans에서 무료입니다. 이름은 Claude Fable 5입니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1961,7 +1976,7 @@ Type: 평가 | Date: 2026-06-09
 - Note: 이제 zero data retention(ZDR) workspaces의 모든 Mythos-class models에는 30-day retention policy가 있습니다.
 - 이는 Claude Console, Claude Enterprise에서 ZDR이 적용된 Claude Code, 또는 AWS Bedrock, Google Cloud Agent Platform, Microsoft Foundry에서 ZDR로 접근하는 경우에 적용됩니다.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1985,7 +2000,7 @@ Generation cost:
 
 Fable은 water simulation에서 분명히 더 잘했습니다. 훨씬 더 solid하고 continuous한 물 덩어리를 만들었습니다. Opus는 walls 근처에 더 큰 gaps를 남겼고, particles를 scene 주변에 흩뿌렸으며, fluid를 안정적으로 유지하는 데 어려움을 겪었습니다.
 
-Type: 데모 | Date: 2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -2006,7 +2021,7 @@ Fable은 이전 모델에는 없던 방식으로 judgment, taste, dimensionality
 
 Claude Code의 prompting에는 모델에게 그렇게 하라고 말하는 것이 없습니다. 그냥 성격의 일부입니다. 이전에 느껴보지 못한 "big model smell"이 정말 있습니다.
 
-Type: 데모 | Date: 2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -2028,7 +2043,7 @@ daily driver는 아니고, 이 모델을 meeting에 넣지는 않겠지만, serv
 
 Full take on YT: https://t.co/lvtwnPn6yR
 
-Type: 데모 | Date: 2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -2049,7 +2064,7 @@ Fable 5가 이미 이 task에서 대부분의 다른 모델보다 훨씬 강한 
 
 benchmark와 product 모두의 early testing에서 매우 impressed했습니다.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -2078,7 +2093,7 @@ HealthAdminBench:
 
 전반적으로 이 모델은 healthcare benchmarks에서 꽤 잘 수행하는 것으로 보입니다. MedCalc-Bench와 MedXpertQA 같은 추가 benchmark scores, 특히 포화되지 않은 hard medical MCQA benchmark도 있으면 좋겠습니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2101,7 +2116,7 @@ SWE-Bench Pro, FrontierCode, GDPval, RuneScape 등 reasoning-intensive and long-
 
 frontier models 전체 결과 목록은 ParseBench를 확인하세요: https://t.co/PWczfhp0OX
 
-Type: 평가 | Date: 2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -2125,7 +2140,7 @@ FrontierCode Diamond에서는 더 크게 앞섭니다:
 
 참고로 Opus의 2x만큼 사용하므로 주의하세요. 이 정도로 좋다면 usage가 쉽게 고갈될 수 있기 때문에 $500 subscription을 도입할지도 모릅니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2161,7 +2176,7 @@ working software가 점점 수도꼭지에서 나오듯 만들어지면서 많�
 
 "Free your mind." 사람들이 만들 모든 것들이 정말 기대됩니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2186,7 +2201,7 @@ Day 0 Anthropic Fable 5 in ParseBench.
 
 하지만 sweep은 아닙니다. frontier models의 document understanding을 unlock하는 데에는 여전히 많은 alpha가 있습니다.
 
-Type: 평가 | Date: 2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -2245,7 +2260,7 @@ Access:
 
 Jevons paradox가 적용됩니다: 소프트웨어가 수도꼭지 물처럼 나오기 시작하면 demand 자체가 커집니다. 이 모델이 그 변화를 이끌 수 있습니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2272,7 +2287,7 @@ FrontierCode result가 정말 놀랍습니다:
 
 Claude Fable 5는 coding agents, computer use, cybersecurity에서 major jump처럼 보입니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2291,7 +2306,7 @@ Claude Fable 5가 APEX-SWE에서 #1을 차지했습니다: overall Pass@1 65.5%.
 
 Observability는 우리가 측정한 모든 모델의 bottleneck이었습니다. Fable 5가 그것을 처음으로 깨뜨렸습니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2317,7 +2332,7 @@ chess, Go, speech, vision을 보면 매번 같은 이야기입니다. 처음에�
 
 이것이 AGI의 전체 premise입니다. math용 model, code용 model, law용 model을 따로 만들지 않습니다. compute와 함께 scale하고 모든 것을 배우는 single general model을 만듭니다.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -2344,7 +2359,7 @@ Aquinas는 temperance가 "takes the need of this life as the rule of the pleasur
 
 우리의 best guess는 이 vector를 더 밀어붙이는 tuning이 mean을 overshoot해, 모델이 overly cautious하거나 research, gathering resources, similar tasks에서 less assistive해질 위험이 있다는 것입니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2365,205 +2380,205 @@ Test result:
 
 Claude Fable 5는 Haiku보다도 낮게 평가되는 Anthropic model이 될 수 있습니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
 <a id="case-61"></a>
-### Case 61: [Fable Prompting Verification Guide](https://x.com/aashatwt/status/2064973740354818074) (by [@aashatwt](https://x.com/aashatwt))
+### Case 61: [Fable 프롬프트 설계와 검증 가이드](https://x.com/aashatwt/status/2064973740354818074) (by [@aashatwt](https://x.com/aashatwt))
 
-**Use this prompting guide to shift from longer prompt hacks toward goal, context, constraints, tools, and verification loops.**
+**긴 프롬프트 요령 대신 목표, 맥락, 제약, 도구, 검증 루프를 정리하는 데 이 가이드를 활용하세요.**
 
-Treat Fable 5 prompting as context and environment design rather than a long list of step-by-step instructions. The post summarizes a practical pattern: provide a clear goal, relevant context, constraints, tool access, and a way to verify success. It also argues that verification, evaluation, and feedback matter more than micromanaging the model's reasoning.
+Fable 5 프롬프트를 긴 단계별 지시 목록보다 맥락과 실행 환경을 설계하는 작업으로 보세요. 게시물은 명확한 목표, 관련 맥락, 제약, 도구 접근 권한, 성공을 확인할 방법을 제공하는 실용적인 방식을 정리합니다. 모델의 추론을 세세하게 관리하기보다 검증, 평가, 피드백이 더 중요하다고도 주장합니다.
 
-Type: 튜토리얼 | Date: 2026-06-11
+Type: Tutorial | Date: 2026-06-11
 
 ---
 
 <a id="case-62"></a>
-### Case 62: [Istanbul Platform Game Reference Build](https://x.com/ozansihay/status/2064973170780545535) (by [@ozansihay](https://x.com/ozansihay))
+### Case 62: [참조 이미지로 만드는 이스탄불 플랫폼 게임](https://x.com/ozansihay/status/2064973170780545535) (by [@ozansihay](https://x.com/ozansihay))
 
-**Use a reference sprite sheet plus one conversion instruction to test Fable 5 on a playable platform game.**
+**참조용 스프라이트 시트와 변환 지시 하나를 주고 Fable 5가 플레이 가능한 플랫폼 게임을 만드는지 시험하세요.**
 
-The creator first generated a retro Istanbul platform-game sprite sheet with GPT Image 2, then gave that reference image to Claude Fable 5 High and asked it to turn the image into a game. The reported result was produced in a single pass.
+제작자는 먼저 GPT Image 2로 복고풍 이스탄불 플랫폼 게임의 스프라이트 시트를 생성한 뒤, 그 참조 이미지를 Claude Fable 5 High에 주고 게임으로 바꿔 달라고 요청했습니다. 게시물에 따르면 결과물은 한 번의 실행으로 만들어졌습니다.
 
-Type: 데모 | Date: 2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
 <a id="case-63"></a>
-### Case 63: [Business 3D City Dashboard](https://x.com/noisyb0y1/status/2064970594118967756) (by [@noisyb0y1](https://x.com/noisyb0y1))
+### Case 63: [업무를 시각화하는 3D 도시 대시보드](https://x.com/noisyb0y1/status/2064970594118967756) (by [@noisyb0y1](https://x.com/noisyb0y1))
 
-**Use Fable 5 to turn a business workflow into a live 3D city dashboard concept.**
+**Fable 5로 업무 흐름을 움직이는 3D 도시 대시보드 구상으로 바꿔 보세요.**
 
-The post describes a one-prompt business visualization where warehouses, packing, drones, orders, departments, customers, and AI assistants become a live 3D city. It frames the output as a client-facing alternative to static slides, with operational figures such as 42 deliveries, 12-minute average time, and $651 in revenue shown on screen.
+게시물은 프롬프트 하나로 창고, 포장, 드론, 주문, 부서, 고객, AI 비서를 움직이는 3D 도시로 표현한 업무 시각화를 소개합니다. 정적인 슬라이드를 대신할 고객용 표현으로 제시되며, 화면에는 배송 42건, 평균 12분, 매출 651달러 같은 업무 수치가 표시됩니다.
 
-Type: 데모 | Date: 2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
 <a id="case-64"></a>
-### Case 64: [Three.js Hole Game One-Shot](https://x.com/thebuggeddev/status/2064968106104275008) (by [@thebuggeddev](https://x.com/thebuggeddev))
+### Case 64: [Three.js 구멍 게임을 한 번에 제작](https://x.com/thebuggeddev/status/2064968106104275008) (by [@thebuggeddev](https://x.com/thebuggeddev))
 
-**Use Fable 5 to one-shot a 3D browser game prototype in Three.js.**
+**Fable 5로 Three.js 기반 3D 브라우저 게임 시제품을 한 번에 만들어 보세요.**
 
-The creator says Fable 5 built an entire 3D HOLE IT-style game using Three.js in one shot. This is a lightweight but concrete game-generation demo for testing whether the model can produce a playable 3D interaction from a compact request.
+제작자에 따르면 Fable 5는 Three.js로 3D HOLE IT 스타일 게임 전체를 한 번에 구현했습니다. 간단한 요청에서 플레이 가능한 3D 상호작용을 만들 수 있는지 살펴볼 수 있는 짧고 구체적인 게임 제작 데모입니다.
 
-Type: 데모 | Date: 2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
 <a id="case-65"></a>
-### Case 65: [DeepSWE Score Comparison](https://x.com/AiBattle_/status/2064964335957348462) (by [@AiBattle_](https://x.com/AiBattle_))
+### Case 65: [DeepSWE 점수 비교](https://x.com/AiBattle_/status/2064964335957348462) (by [@AiBattle_](https://x.com/AiBattle_))
 
-**Use this DeepSWE note to compare Fable 5 xHigh with GPT-5.5 xHigh on software-engineering benchmark performance.**
+**이 DeepSWE 게시물을 출발점으로 소프트웨어 개발 벤치마크에서 Fable 5 xHigh와 GPT-5.5 xHigh를 비교하세요.**
 
-The post reports Claude Fable 5 xHigh scoring 70% on DeepSWE, matching GPT-5.5 xHigh, and points to Theo's recent video as the source context. Treat this as a benchmark lead that should be checked against the underlying video before making stronger claims.
+게시물은 Claude Fable 5 xHigh가 DeepSWE에서 70%를 기록해 GPT-5.5 xHigh와 동률이었다고 보고하며, 배경 자료로 Theo의 최근 영상을 제시합니다. 더 강한 결론을 내리기 전에 원본 영상으로 확인해야 할 벤치마크 단서로 다루세요.
 
-Type: 평가 | Date: 2026-06-11
+Type: Evaluation | Date: 2026-06-11
 
 ---
 
 <a id="case-66"></a>
-### Case 66: [Repository Cost Comparison](https://x.com/Pilgrim6938/status/2064946766278210038) (by [@Pilgrim6938](https://x.com/Pilgrim6938))
+### Case 66: [저장소 분석 비용 비교](https://x.com/Pilgrim6938/status/2064946766278210038) (by [@Pilgrim6938](https://x.com/Pilgrim6938))
 
-**Use this repository-analysis comparison to judge token price against human rework cost.**
+**저장소 분석 비교를 통해 토큰 단가와 사람이 다시 작업하는 비용을 함께 판단하세요.**
 
-The post compares Claude Fable 5, Opus 4.8, GPT-5.5, and Gemini 3.1 Pro on the same task: analyzing a roughly 90,000-line repository, locating a cache invalidation issue, and proposing a full fix plan. The author argues that raw token price and actual task cost diverge once developer correction time is counted, and recommends using Fable 5 selectively for complex refactors, cross-module migrations, and long-chain agent work.
+게시물은 약 90,000줄의 저장소를 분석하고 캐시 무효화 문제를 찾아 전체 수정 계획을 제안하는 동일한 과제로 Claude Fable 5, Opus 4.8, GPT-5.5, Gemini 3.1 Pro를 비교합니다. 저자는 개발자의 수정 시간을 포함하면 토큰 단가와 실제 작업 비용이 달라진다고 주장하며, 복잡한 리팩터링, 모듈 간 마이그레이션, 긴 단계의 에이전트 작업에 Fable 5를 선별적으로 사용할 것을 권합니다.
 
-Type: 평가 | Date: 2026-06-11
+Type: Evaluation | Date: 2026-06-11
 
 ---
 
 <a id="case-67"></a>
-### Case 67: [Super Mario Game Token Cost](https://x.com/pankajkumar_dev/status/2064941888990593416) (by [@pankajkumar_dev](https://x.com/pankajkumar_dev))
+### Case 67: [슈퍼 마리오 스타일 게임의 토큰 비용](https://x.com/pankajkumar_dev/status/2064941888990593416) (by [@pankajkumar_dev](https://x.com/pankajkumar_dev))
 
-**Use this single-shot game build to estimate Fable 5 output quality and token consumption.**
+**한 번에 만든 게임으로 Fable 5의 출력 품질과 토큰 소모량을 평가하세요.**
 
-The creator asked Claude Fable 5 to build a Super Mario Nintendo-style game. The post reports that the task used around 2 million tokens and produced a strong single-shot result, making it useful for judging both game-building quality and cost.
+제작자는 Claude Fable 5에 닌텐도 슈퍼 마리오 스타일 게임을 만들어 달라고 요청했습니다. 게시물은 약 200만 토큰을 사용해 한 번의 실행으로 좋은 결과를 얻었다고 보고하며, 게임 제작 품질과 비용을 함께 판단하는 자료가 됩니다.
 
-Type: 데모 | Date: 2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
 <a id="case-68"></a>
-### Case 68: [Claude Code Fallback Setting](https://x.com/oikon48/status/2064937790010503347) (by [@oikon48](https://x.com/oikon48))
+### Case 68: [Claude Code 대체 모델 전환 설정](https://x.com/oikon48/status/2064937790010503347) (by [@oikon48](https://x.com/oikon48))
 
-**Use this case to understand the Claude Code setting for switching models when a Fable 5 message is flagged.**
+**Fable 5 메시지가 감지됐을 때 모델을 전환하는 Claude Code 설정을 확인하세요.**
 
-The post identifies a Claude Code `/config` setting named "Switch models when a message is flagged." It describes how Fable 5 can fall back to an Opus model for flagged areas such as offensive cybersecurity techniques, biology/life-science experimental methods, molecular mechanisms, or requests to extract model thinking processes.
+게시물은 Claude Code의 `/config`에 있는 "Switch models when a message is flagged" 설정을 소개합니다. 공격적인 사이버 보안 기법, 생물학·생명과학 실험 방법, 분자 기전, 모델의 사고 과정을 추출하는 요청 같은 영역에서 메시지가 감지되면 Fable 5에서 Opus 모델로 전환할 수 있다고 설명합니다.
 
-Type: 통합 | Date: 2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
 <a id="case-69"></a>
-### Case 69: [Namma Metro Simulator Build](https://x.com/anilbpai/status/2064927784833790091) (by [@anilbpai](https://x.com/anilbpai))
+### Case 69: [Namma Metro 시뮬레이터 제작](https://x.com/anilbpai/status/2064927784833790091) (by [@anilbpai](https://x.com/anilbpai))
 
-**Use this demo as a compact example of vibe-coding a public-transit simulator with Fable 5.**
+**Fable 5로 대중교통 시뮬레이터를 만드는 간단한 바이브 코딩 사례로 살펴보세요.**
 
-The creator reports building a Namma Metro simulator while riding the Bengaluru Metro, using Claude Fable 5 as the coding partner. The post is brief, but it links to a visual demo and shows Fable 5 applied to a location-specific simulation idea.
+제작자는 벵갈루루 지하철을 타면서 Claude Fable 5를 코딩 파트너로 사용해 Namma Metro 시뮬레이터를 만들었다고 보고합니다. 짧은 게시물이지만 영상 데모에 연결되며, 지역 특화 시뮬레이션 아이디어에 Fable 5를 적용한 사례를 보여 줍니다.
 
-Type: 데모 | Date: 2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
 <a id="case-70"></a>
-### Case 70: [Dusk Drive One-Prompt Game](https://x.com/VincentLogic/status/2064921358359011684) (by [@VincentLogic](https://x.com/VincentLogic))
+### Case 70: [프롬프트 하나로 만든 Dusk Drive](https://x.com/VincentLogic/status/2064921358359011684) (by [@VincentLogic](https://x.com/VincentLogic))
 
-**Use this one-prompt driving-game case to evaluate Fable 5 on low-poly game prototyping without human edits.**
+**사람의 수정 없이 로우 폴리 게임을 만드는 작업에서 Fable 5를 평가하세요.**
 
-The post describes Claude Fable 5 creating a complete driving game, Dusk Drive, from one prompt. The creator highlights the low-poly visual style, aurora snow drifting scene, and the claim that there was zero human editing between idea and playable version.
+게시물은 Claude Fable 5가 프롬프트 하나로 완성된 드라이빙 게임 Dusk Drive를 만들었다고 설명합니다. 제작자는 로우 폴리 그래픽, 오로라가 있는 눈밭 드리프트 장면, 아이디어에서 플레이 가능한 버전까지 사람이 전혀 수정하지 않았다는 점을 강조합니다.
 
-Type: 데모 | Date: 2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
 <a id="case-71"></a>
-### Case 71: [APEX-Agents Pass@1 Ranking](https://x.com/GratomicAi/status/2064970797978911102) (by [@GratomicAi](https://x.com/GratomicAi))
+### Case 71: [APEX-Agents Pass@1 순위](https://x.com/GratomicAi/status/2064970797978911102) (by [@GratomicAi](https://x.com/GratomicAi))
 
-**Use this APEX-Agents result to compare Fable 5 Max on multi-step autonomous tasks.**
+**APEX-Agents 결과를 통해 여러 단계의 자율 작업에서 Fable 5 Max를 비교하세요.**
 
-The post reports Fable 5 Max placing second on the APEX-Agents leaderboard with 45% Pass@1, behind Gemini 3.5 Flash and above Opus. It describes APEX-Agents as a benchmark for how well AI can independently perform complex multi-step tasks.
+게시물은 Fable 5 Max가 APEX-Agents 순위에서 Pass@1 45%를 기록해 Gemini 3.5 Flash에 이어 2위, Opus보다 높은 순위에 올랐다고 보고합니다. APEX-Agents는 AI가 복잡한 다단계 작업을 얼마나 독립적으로 수행하는지 평가하는 벤치마크라고 설명합니다.
 
-Type: 평가 | Date: 2026-06-11
+Type: Evaluation | Date: 2026-06-11
 
 ---
 
 <a id="case-72"></a>
-### Case 72: [Claude Model Selection Playbook](https://x.com/charliejhills/status/2064957428211536212) (by [@charliejhills](https://x.com/charliejhills))
+### Case 72: [Claude 모델 선택 가이드](https://x.com/charliejhills/status/2064957428211536212) (by [@charliejhills](https://x.com/charliejhills))
 
-**Use this model-selection playbook to reserve Fable 5 for the hardest Claude Code jobs.**
+**Claude Code의 가장 어려운 작업에 Fable 5를 남겨 두는 모델 선택 전략을 검토하세요.**
 
-The post compares Haiku 4.5, Sonnet 4.6, Opus 4.8, and Fable 5 across model effort and limit usage. Its practical advice is to run Sonnet for everyday work, switch to Opus for harder problems, and save Fable 5 for the toughest Claude Code tasks where planning, building, and testing depth matter.
+게시물은 모델의 추론 강도와 사용 한도 소모를 기준으로 Haiku 4.5, Sonnet 4.6, Opus 4.8, Fable 5를 비교합니다. 일상 작업에는 Sonnet을 쓰고, 더 어려운 문제에는 Opus로 전환하며, 계획·구현·테스트의 깊이가 중요한 Claude Code의 가장 까다로운 작업에 Fable 5를 아끼라는 실용적인 조언입니다.
 
-Type: 튜토리얼 | Date: 2026-06-11
+Type: Tutorial | Date: 2026-06-11
 
 ---
 
 <a id="case-73"></a>
-### Case 73: [HermesWorld Automated Agent Loop](https://x.com/outsource_/status/2064954350187778366) (by [@outsource_](https://x.com/outsource_))
+### Case 73: [HermesWorld 자동 에이전트 루프](https://x.com/outsource_/status/2064954350187778366) (by [@outsource_](https://x.com/outsource_))
 
-**Use this case to study a hands-free Fable 5 loop that builds, tests, plays, and smoke-tests over days.**
+**며칠 동안 구현, 테스트, 플레이, 기본 동작 확인을 이어가는 수동 조작 없는 Fable 5 루프를 살펴보세요.**
 
-The creator describes using Fable 5 to build HermesWorld v2 through a fully automated loop. The agent reportedly runs for days, builds features, tests them, plays through the result, and smoke-tests everything while continuing toward completion.
+제작자는 완전 자동 루프로 Fable 5를 사용해 HermesWorld v2를 만드는 방법을 설명합니다. 보고에 따르면 에이전트는 며칠 동안 실행되며 기능 구현, 테스트, 결과물 플레이, 전체 기본 동작 확인을 수행하면서 완성을 향해 계속 작업합니다.
 
-Type: 통합 | Date: 2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
 <a id="case-74"></a>
-### Case 74: [McKinsey-Style Report Prompt Test](https://x.com/smtgpt/status/2064953210335588758) (by [@smtgpt](https://x.com/smtgpt))
+### Case 74: [McKinsey 스타일 보고서 프롬프트 검증](https://x.com/smtgpt/status/2064953210335588758) (by [@smtgpt](https://x.com/smtgpt))
 
-**Use this document-generation prompt to evaluate consulting-report structure, charts, narrative, and risk analysis.**
+**문서 생성 프롬프트로 컨설팅 보고서의 구성, 차트, 논지, 위험 분석을 평가하세요.**
 
-The creator gave Fable 5 a prompt asking for a McKinsey-style detailed report on Bitcoin as an asset class and blockchain technology, with charts and visuals as needed. The reported output was a 19-page document with data, charts, an investment thesis, and risk analysis; the critique notes strong structure but room for crisper visuals and tighter explanations.
+제작자는 Fable 5에 필요한 차트와 시각 자료를 포함해 자산군으로서의 Bitcoin과 블록체인 기술을 다루는 McKinsey 스타일의 상세 보고서를 요청했습니다. 보고된 결과물은 데이터, 차트, 투자 논거, 위험 분석을 담은 19쪽 문서였습니다. 평가는 구성이 좋지만 시각 자료의 명료함과 설명의 간결함에는 개선 여지가 있다고 지적합니다.
 
-Type: 튜토리얼 | Date: 2026-06-11
+Type: Tutorial | Date: 2026-06-11
 
 ---
 
 <a id="case-75"></a>
-### Case 75: [Visible Safeguards Rollout](https://x.com/ClaudeDevs/status/2064949876463645026) (by [@ClaudeDevs](https://x.com/ClaudeDevs))
+### Case 75: [안전장치 동작의 가시화](https://x.com/ClaudeDevs/status/2064949876463645026) (by [@ClaudeDevs](https://x.com/ClaudeDevs))
 
-**Use this official note to understand Fable 5 safeguard visibility, API refusal reasons, and Opus fallback behavior.**
+**공식 게시물에서 Fable 5 안전장치 표시, API 거부 사유, Opus 전환 동작을 확인하세요.**
 
-ClaudeDevs announced changes making Fable 5 safeguards for frontier LLM development visible. Flagged requests will visibly fall back to Opus 4.8, and API flagged requests are expected to return a refusal reason. The post also explains why invisible safeguards shipped first and why Anthropic now describes that as the wrong tradeoff.
+ClaudeDevs는 프런티어 LLM 개발에 관한 Fable 5 안전장치를 사용자에게 보이게 하는 변경을 발표했습니다. 감지된 요청은 Opus 4.8로 전환되는 과정이 표시되며, API에서는 거부 사유를 반환할 예정이라고 설명합니다. 게시물은 처음에 안전장치를 보이지 않게 제공한 이유와 Anthropic이 현재 그 선택을 잘못된 절충으로 보는 이유도 설명합니다.
 
-Type: 통합 | Date: 2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
 <a id="case-76"></a>
-### Case 76: [Claude Code Model Matching Fix](https://x.com/ClaudeCodeLog/status/2064948584907153576) (by [@ClaudeCodeLog](https://x.com/ClaudeCodeLog))
+### Case 76: [Claude Code 모델 이름 매칭 수정](https://x.com/ClaudeCodeLog/status/2064948584907153576) (by [@ClaudeCodeLog](https://x.com/ClaudeCodeLog))
 
-**Use this Claude Code changelog note to avoid Fable 5 model-name and context matching issues.**
+**Claude Code 변경 기록을 참고해 Fable 5 모델 이름과 컨텍스트 매칭 문제를 피하세요.**
 
-Claude Code 2.1.173 includes a fix that strips the `[1m]` suffix from Fable 5 model names to prevent default 1M context from breaking model matching. The same release also suppresses a spurious Windows sandbox dependency warning and clarifies grep help output modes.
+Claude Code 2.1.173에는 기본 1M 컨텍스트가 모델 매칭을 방해하지 않도록 Fable 5 모델 이름에서 `[1m]` 접미사를 제거하는 수정이 포함됩니다. 같은 릴리스에서는 Windows 샌드박스의 불필요한 종속성 경고를 억제하고 grep 도움말의 출력 모드도 명확히 했습니다.
 
-Type: 통합 | Date: 2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
 <a id="case-77"></a>
-### Case 77: [Three Web Apps in Claude Code](https://x.com/0x3b33/status/2064948399300825439) (by [@0x3b33](https://x.com/0x3b33))
+### Case 77: [Claude Code로 웹 앱 세 개 제작](https://x.com/0x3b33/status/2064948399300825439) (by [@0x3b33](https://x.com/0x3b33))
 
-**Use this beginner coding demo to inspect Fable 5 inside Claude Code across multiple generated web apps.**
+**여러 웹 앱을 생성한 초보자의 코딩 데모에서 Claude Code 안의 Fable 5 활용을 확인하세요.**
 
-The creator says they had no coding background and used Claude Code with Fable 5 to build three functioning web apps in 30 minutes, exposed locally on ports 3000, 3001, and 3002. Treat this as a lightweight beginner workflow demo rather than a benchmark.
+제작자는 코딩 경험 없이 Claude Code와 Fable 5로 30분 만에 작동하는 웹 앱 세 개를 만들었다고 말합니다. 앱은 로컬 포트 3000, 3001, 3002에 공개됐습니다. 벤치마크보다 간단한 초보자 워크플로 데모로 다루세요.
 
-Type: 데모 | Date: 2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
 <a id="case-78"></a>
-### Case 78: [Rilable Open Source App Builder](https://x.com/rileybrown/status/2064931283403178354) (by [@rileybrown](https://x.com/rileybrown))
+### Case 78: [오픈소스 앱 빌더 Rilable](https://x.com/rileybrown/status/2064931283403178354) (by [@rileybrown](https://x.com/rileybrown))
 
-**Use this open-source app-builder case to study Fable 5 across iOS, web apps, sandboxes, and API-token cost.**
+**iOS, 웹 앱, 샌드박스, API 토큰 비용을 아우르는 Fable 5 활용을 살펴보세요.**
 
-The creator open sourced Rilable, an iOS app that builds web apps and iOS apps. The post says it was built with Fable 5 in 10 prompts, cost about $210 in API tokens, uses Claude models for app generation, spins up sandboxes through Daytona, uses Convex for the database, Vercel AI Gateway for AI features, and a Chorus agent iOS skill for iOS apps.
+제작자는 웹 앱과 iOS 앱을 만드는 iOS 앱 Rilable을 오픈소스로 공개했습니다. 게시물에 따르면 Fable 5에 프롬프트 10개를 입력해 만들었고 API 토큰 비용은 약 210달러였습니다. 앱 생성에 Claude 모델, 샌드박스 실행에 Daytona, 데이터베이스에 Convex, AI 기능에 Vercel AI Gateway, iOS 앱에는 Chorus 에이전트 iOS 스킬을 사용합니다.
 
-Type: 통합 | Date: 2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
@@ -2677,17 +2692,149 @@ Type: Integration | Date: 2026-06-13
 
 ---
 
+
+<a id="fable-5-5-community-demos"></a>
+## 🆕 Fable 5.5 커뮤니티 데모
+
+
+
+<a id="case-89"></a>
+### Case 89: [코드로 생성한 소리 있는 여우 애니메이션](https://x.com/chetaslua/status/2117224839010459987) (제작자 [@chetaslua](https://x.com/chetaslua))
+
+**장면별 제작 지시로 자체 완결형 HTML 애니메이션과 음향 설계를 지정하세요.**
+
+제작자는 여우와 종이 새가 등장하는 66초 단편의 프레임과 음향을 Python으로 생성해 약 2시간 40분 만에 HTML 파일 하나로 완성했다고 보고합니다. 함께 공개한 프롬프트는 장면, 독창적인 그림, 음향, 프레임 점검을 지정합니다. 게시물에는 완성한 단편과 함께 상세한 제작 지시 및 제작 중 대화의 스크린샷이 첨부되어 있습니다.
+
+[제작자의 전체 프롬프트](https://x.com/chetaslua/status/2117224843661980093)
+
+[![코드로 생성한 소리 있는 여우 애니메이션](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-0-poster-2ee16a14af881cec.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-0-video-8e1ac3acc5e7cb57.mp4)
+
+![코드로 생성한 소리 있는 여우 애니메이션](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-1-image-4bee9ad0898820c1.jpg)
+
+![코드로 생성한 소리 있는 여우 애니메이션](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-2-image-b4b62017a03ec393.jpg)
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-90"></a>
+### Case 90: [자유로운 창작 지시에서 만든 애니메이션](https://x.com/notjazii/status/2117221957104239010) (제작자 [@notjazii](https://x.com/notjazii))
+
+**자유로운 애니메이션 제작 지시와 상세한 스토리보드에서 코딩 모델이 만드는 결과를 비교하세요.**
+
+저자는 애니메이션을 공유하며 폭넓은 창작 요청에서 약 한 시간 동안 외부 자산 없이 코드로 제작했다고 보고합니다. 게시물은 결과를 자유도 높은 창작 코딩의 실례로 소개합니다.
+
+[![자유로운 창작 지시에서 만든 애니메이션](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-90-0-poster-08a293539c7b465c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-90-0-video-24243aa4947eafd2.mp4)
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-91"></a>
+### Case 91: [애니메이션이 있는 건설회사 웹사이트](https://x.com/exploraX_/status/2117176904306335864) (제작자 [@exploraX_](https://x.com/exploraX_))
+
+**건설회사 웹사이트 제작 지시로 애니메이션 3D 표현과 페이지 구성을 평가하세요.**
+
+제작자는 건설회사 제작 지시에 맞춰 만든 애니메이션 3D 웹사이트를 공유하고 결과 녹화를 첨부합니다.
+
+[![애니메이션이 있는 건설회사 웹사이트](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-91-0-poster-c835928f570ad718.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-91-0-video-2b260d32fccecca6.mp4)
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-92"></a>
+### Case 92: [Three.js 자동차 프레젠테이션](https://x.com/chetaslua/status/2116975056014430419) (제작자 [@chetaslua](https://x.com/chetaslua))
+
+**자동차 장면으로 3D 구도, 재질, 카메라 표현을 간단히 점검하세요.**
+
+제작자는 Three.js 자동차 프레젠테이션을 공유합니다. 녹화는 장면과 그 시각적 표현을 평가할 수 있는 간단한 참고 자료입니다.
+
+[![Three.js 자동차 프레젠테이션](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-92-0-poster-7a9405423aed1224.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-92-0-video-41812e3bdae683b0.mp4)
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-93"></a>
+### Case 93: [Minecraft 스타일 브라우저 게임 데모](https://x.com/notjazii/status/2116919129974411584) (제작자 [@notjazii](https://x.com/notjazii))
+
+**생성된 브라우저 게임을 평가할 때 플레이 녹화와 제작자의 플레이 링크를 함께 확인하세요.**
+
+저자는 Minecraft 스타일 게임의 녹화와 플레이 링크를 공유하며 약 한두 시간 걸린 원샷 제작이라고 설명합니다. 게시물은 독자가 탐색할 수 있도록 녹화된 결과와 플레이 링크를 함께 제공합니다.
+
+[![Minecraft 스타일 브라우저 게임 데모](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-93-0-poster-f432ab7cc397d51c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-93-0-video-903a5b83acef99f5.mp4)
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-94"></a>
+### Case 94: [Three.js 펠리컨 자전거 애니메이션](https://x.com/chetaslua/status/2116882694026269148) (제작자 [@chetaslua](https://x.com/chetaslua))
+
+**자전거 장면에서 캐릭터 움직임의 연동, 자전거 형태, 주변 환경의 세부 표현을 점검하세요.**
+
+제작자는 자전거를 타는 펠리컨의 사실적인 Three.js 애니메이션을 공유하며 원샷 결과라고 설명합니다. 영상은 캐릭터 움직임, 자전거 구조, 주변 장면을 살펴볼 수 있는 참고 자료입니다.
+
+[![Three.js 펠리컨 자전거 애니메이션](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-94-0-poster-0b18e5a159c3ec96.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-94-0-video-446b1cb698f14157.mp4)
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-95"></a>
+### Case 95: [정확한 프롬프트가 있는 펠리컨 자전거 SVG](https://x.com/marmaduke091/status/2116233349391962392) (제작자 [@marmaduke091](https://x.com/marmaduke091))
+
+**제작자의 짧은 SVG 프롬프트를 재사용해 같은 입력에서 형태와 세부 표현을 비교하세요.**
+
+저자는 자전거를 타는 펠리컨의 렌더링 이미지와 아래에 원문 그대로 옮긴 짧은 SVG 제작 요청을 함께 게시합니다.
+
+```
+Generate an SVG of a Pelican riding a bicycle as nicely done as you can
+```
+
+![정확한 프롬프트가 있는 펠리컨 자전거 SVG](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-95-0-image-92e96914a3877a42.jpg)
+
+Type: Demo | Date: 2026-10-30
+
+---
+
+<a id="case-96"></a>
+### Case 96: [질주하는 얼룩말 애니메이션 예시](https://x.com/AI_Screening/status/2115845754468356465) (제작자 [@AI_Screening](https://x.com/AI_Screening))
+
+**질주하는 동물 영상으로 보행 패턴의 일관성과 움직임의 연속성을 점검하세요.**
+
+저자는 얼룩말 질주 과제의 결과 중 직접 가장 좋다고 고른 출력을 공유합니다. 영상은 독자가 살펴볼 수 있는 구체적인 움직임 샘플을 제공합니다.
+
+[![질주하는 얼룩말 애니메이션 예시](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-96-0-poster-34e8bfc30f0396ce.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-96-0-video-506044b0159933fe.mp4)
+
+Type: Demo | Date: 2026-10-29
+
+---
+
+<a id="case-97"></a>
+### Case 97: [주문은 사람이 실행하는 TradingView 지표](https://x.com/waveking1314/status/2114572023204806669) (제작자 [@waveking1314](https://x.com/waveking1314))
+
+**진입 후보와 짧은 설명을 표시하는 지표를 평가할 때 주문 실행은 수동으로 유지하세요.**
+
+제작자는 Claude Fable 5.5로 진입 후보를 표시하고 짧은 설명을 덧붙이는 TradingView 지표를 작성했으며, 주문 여부는 사용자가 결정한다고 보고합니다. 게시물에는 녹화가 포함되어 있고 지표는 나중에 공유하겠다고 설명합니다.
+
+[![주문은 사람이 실행하는 TradingView 지표](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-97-0-poster-4e76b2a3f1cc0732.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-97-0-video-e16da93b5ca229bd.mp4)
+
+Type: Demo | Date: 2026-10-26
+
+---
+
 <a id="acknowledge"></a>
 ## 🙏 감사의 말
 
 이 저장소는 실제 Claude Fable 5 사용 사례를 공개적으로 공유한 크리에이터, 개발자, 벤치마크 팀, 커뮤니티에서 영감을 받았습니다.
 
-여기에 대표된 high-tier source creators에게 감사드립니다: [@ai_for_success](https://x.com/ai_for_success), [@AI_masaou](https://x.com/AI_masaou), [@aianimesyokunin](https://x.com/aianimesyokunin), [@AlicanKiraz0](https://x.com/AlicanKiraz0), [@alliekmiller](https://x.com/alliekmiller), [@AndrewCurran_](https://x.com/AndrewCurran_), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@ayushagarwal](https://x.com/ayushagarwal), [@bcherny](https://x.com/bcherny), [@bielzinn](https://x.com/bielzinn), [@btibor91](https://x.com/btibor91), [@clairevo](https://x.com/clairevo), [@coldopn](https://x.com/coldopn), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@ctgptlb](https://x.com/ctgptlb), [@deveshcodes_](https://x.com/deveshcodes_), [@ecomchasedimond](https://x.com/ecomchasedimond), [@gabepereyra](https://x.com/gabepereyra), [@grapeot](https://x.com/grapeot), [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@HKrackDev](https://x.com/HKrackDev), [@IBuzovskyi](https://x.com/IBuzovskyi), [@intheworldofai](https://x.com/intheworldofai), [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@JJEnglert](https://x.com/JJEnglert), [@jsnnsa](https://x.com/jsnnsa), [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@kieradev](https://x.com/kieradev), [@LechMazur](https://x.com/LechMazur), [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@manaltdan](https://x.com/manaltdan), [@mark_k](https://x.com/mark_k), [@mercor_ai](https://x.com/mercor_ai), [@meta_alchemist](https://x.com/meta_alchemist), [@MTSlive](https://x.com/MTSlive), [@naoyafujiwara](https://x.com/naoyafujiwara), [@nicbstme](https://x.com/nicbstme), [@oikon48](https://x.com/oikon48), [@op7418](https://x.com/op7418), [@quanghuynt14](https://x.com/quanghuynt14), [@ryanrhughes](https://x.com/ryanrhughes), [@scottstts](https://x.com/scottstts), [@swarms_corp](https://x.com/swarms_corp), [@tetumemo](https://x.com/tetumemo), [@timhwang](https://x.com/timhwang), [@Truunik](https://x.com/Truunik), [@VaibhavSisinty](https://x.com/VaibhavSisinty), [@vikvang1](https://x.com/vikvang1), [@Voxyz_ai](https://x.com/Voxyz_ai), [@xw33bttv](https://x.com/xw33bttv), and [@ydamitcodes](https://x.com/ydamitcodes).
+[@AlicanKiraz0](https://x.com/AlicanKiraz0), [@coldopn](https://x.com/coldopn), [@deveshcodes_](https://x.com/deveshcodes_), [@intheworldofai](https://x.com/intheworldofai), [@jsnnsa](https://x.com/jsnnsa), [@ryanrhughes](https://x.com/ryanrhughes), [@JJEnglert](https://x.com/JJEnglert), [@ayushagarwal](https://x.com/ayushagarwal), [@ai_for_success](https://x.com/ai_for_success), [@kieradev](https://x.com/kieradev), [@vikvang1](https://x.com/vikvang1), [@ydamitcodes](https://x.com/ydamitcodes), [@ecomchasedimond](https://x.com/ecomchasedimond), [@quanghuynt14](https://x.com/quanghuynt14), [@scottstts](https://x.com/scottstts), [@tetumemo](https://x.com/tetumemo), [@AndrewCurran_](https://x.com/AndrewCurran_), [@manaltdan](https://x.com/manaltdan), [@naoyafujiwara](https://x.com/naoyafujiwara), [@AI_masaou](https://x.com/AI_masaou), [@Truunik](https://x.com/Truunik), [@Voxyz_ai](https://x.com/Voxyz_ai), [@aianimesyokunin](https://x.com/aianimesyokunin), [@bielzinn](https://x.com/bielzinn), [@meta_alchemist](https://x.com/meta_alchemist), [@oikon48](https://x.com/oikon48), [@IBuzovskyi](https://x.com/IBuzovskyi), [@btibor91](https://x.com/btibor91), [@ctgptlb](https://x.com/ctgptlb), [@grapeot](https://x.com/grapeot), [@op7418](https://x.com/op7418), [@swarms_corp](https://x.com/swarms_corp), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@HKrackDev](https://x.com/HKrackDev), [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@LechMazur](https://x.com/LechMazur), [@MTSlive](https://x.com/MTSlive), [@VaibhavSisinty](https://x.com/VaibhavSisinty), [@alliekmiller](https://x.com/alliekmiller), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@bcherny](https://x.com/bcherny), [@clairevo](https://x.com/clairevo), [@gabepereyra](https://x.com/gabepereyra), [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@mark_k](https://x.com/mark_k), [@mercor_ai](https://x.com/mercor_ai), [@nicbstme](https://x.com/nicbstme), [@timhwang](https://x.com/timhwang), [@xw33bttv](https://x.com/xw33bttv), [@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown), [@marclou](https://x.com/marclou), [@ProximalHQ](https://x.com/ProximalHQ), [@elliotarledge](https://x.com/elliotarledge), [@mikefutia](https://x.com/mikefutia), [@techhalla](https://x.com/techhalla), [@diblacksmith](https://x.com/diblacksmith), [@upstash](https://x.com/upstash), [@WolfBenchAI](https://x.com/WolfBenchAI), [@simonw](https://x.com/simonw), [@chetaslua](https://x.com/chetaslua), [@notjazii](https://x.com/notjazii), [@exploraX_](https://x.com/exploraX_), [@marmaduke091](https://x.com/marmaduke091), [@AI_Screening](https://x.com/AI_Screening), [@waveking1314](https://x.com/waveking1314)
 
 *모든 사례가 원래 크리에이터에게 정확히 귀속되었다고 보장할 수는 없습니다. 수정이 필요한 부분이 있다면 연락해 주세요. 업데이트하겠습니다.*
 
 공유할 더 흥미로운 사용 사례가 있다면 issue 또는 pull request를 열어 Evolink usecase library 확장에 도움을 주세요.
 
-최근 승인된 업데이트의 크리에이터들에게도 감사드립니다: [@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown), [@marclou](https://x.com/marclou), [@ProximalHQ](https://x.com/ProximalHQ), [@elliotarledge](https://x.com/elliotarledge), [@mikefutia](https://x.com/mikefutia), [@techhalla](https://x.com/techhalla), [@diblacksmith](https://x.com/diblacksmith), [@upstash](https://x.com/upstash), [@WolfBenchAI](https://x.com/WolfBenchAI), and [@simonw](https://x.com/simonw).
 
 [![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-claude-fable-5&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-claude-fable-5&Date)

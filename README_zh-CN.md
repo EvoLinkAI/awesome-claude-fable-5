@@ -37,7 +37,7 @@
 <a id="-overview"></a>
 ## 📊 概览
 
-- **88 个精选 Claude Fable 5 案例**，来自公开创作者、开发者、基准测试团队和工具构建者。
+- **88 个原有 Fable 5 案例，加上 9 个 Fable 5.5 社区演示，共 97 个案例。**
 - 覆盖编码代理、长时间自动化、游戏、视觉设计、3D 模拟、知识工作、教程、API 集成、基准、定价和发布限制。
 - 每个案例都包含原始来源、创作者署名、简明要点、证据类型和发布日期。
 - 使用本仓库查找实用工作流、比较优势与限制、发现可复现提示词，并跟踪集成示例。
@@ -213,6 +213,21 @@ curl --request POST \
 | [API 访问截止追踪器](#case-88) | 如果你的工作流依赖持续访问某个可能被限流或撤下的 frontier 模型，就用脚本监控可用性。 | 集成 |
 
 
+
+### [🆕 Fable 5.5 社区演示](#fable-5-5-community-demos)
+
+| 案例 | 展示内容 | 类型 |
+|---|---|---|
+| [用代码生成带声音的狐狸动画](#case-89) | 用逐镜头创作简报明确单文件 HTML 动画及其声音设计。 | Demo |
+| [从开放式创意要求生成动画](#case-90) | 比较开放式动画要求与详细分镜简报分别能让代码模型做出怎样的作品。 | Demo |
+| [建筑公司的动态 3D 网站](#case-91) | 用建筑公司网站简报评估动态 3D 展示和页面构图。 | Demo |
+| [Three.js 汽车展示场景](#case-92) | 用汽车场景集中观察 3D 构图、材质与镜头展示。 | Demo |
+| [Minecraft 风格浏览器游戏演示](#case-93) | 评估生成式浏览器游戏时，把游戏录屏与作者提供的试玩链接结合起来。 | Demo |
+| [Three.js 鹈鹕骑车动画](#case-94) | 观察骑车场景中的角色运动协调、自行车结构和环境细节。 | Demo |
+| [附完整短提示词的鹈鹕骑车 SVG](#case-95) | 复用作者的简短 SVG 提示词，在相同输入下比较几何结构和细节。 | Demo |
+| [斑马奔跑动画样本](#case-96) | 用动物奔跑视频观察步态一致性和运动连续性。 | Demo |
+| [由人手动执行交易的 TradingView 指标](#case-97) | 评估标记潜在入场点并附简评的指标时，保留人工下单环节。 | Demo |
+
 <a id="coding-and-code-generation"></a>
 ## 💻 编码与代码生成
 
@@ -233,7 +248,7 @@ curl --request POST \
 
 阶段 5：最终审查并检查实现是否遵循计划时，使用 GPT 5.5 High。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -250,7 +265,7 @@ curl --request POST \
 
 结果是一个可用的 GitHub 复刻版：https://t.co/bjMObvlsPX
 
-类型：演示 | 日期：2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -267,7 +282,7 @@ curl --request POST \
 
 新的基线太夸张了 🤯 https://t.co/E23I8bnPKb
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -295,7 +310,7 @@ curl --request POST \
 
 可工作的声音播放器加上真正的 Minecraft 克隆，是我还没见过其他模型做到的东西。Fable 5 的前端/UI 生成能力正在变得离谱。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -325,7 +340,7 @@ spawn 5.0 是用它构建的：
 
 基准测试不会展示的部分是：这个模型的性格很好。它真的很有趣。在一次物理重写过程中，我好几次笑到哭。天才和性格不是两个分离的功能。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -343,7 +358,7 @@ spawn 5.0 是用它构建的：
 
 这也危险到不能发布？
 
-类型：演示 | 日期：2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -386,7 +401,7 @@ spawn 5.0 是用它构建的：
 
 结论：比旁边的人拥有更多智能，就是优势。Fable 5 是第一个让这件事变成现实的模型。即使按完整 frontier 价格计算，它也带来了利润。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -405,7 +420,7 @@ claude fable 5 真的真的很强！！！！
 
 几分钟，不是几小时。没有 web 搜索。🤯
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -423,7 +438,7 @@ claude fable 5 真的真的很强！！！！
 
 https://t.co/AWt1lEIObq
 
-类型：演示 | 日期：2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -440,7 +455,7 @@ Fable 5 在一次运行中处理了所有装饰、角色模型、4 张地图、�
 
 #fable #anthropic https://t.co/B7mTidE84U
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -457,7 +472,7 @@ Fable 5 在一次运行中处理了所有装饰、角色模型、4 张地图、�
 
 https://t.co/zs3y3t88oM
 
-类型：演示 | 日期：2026-06-10
+Type: Demo | Date: 2026-06-10
 
 ---
 
@@ -476,7 +491,7 @@ Minecraft 让 Notch 花了 2 年。
 
 https://t.co/AmwdLwi75O
 
-类型：教程 | 日期：2026-06-10
+Type: Tutorial | Date: 2026-06-10
 
 ---
 
@@ -621,7 +636,7 @@ Hero 图像应包括：
 
 输出：一个完整长度、纵向构图、高度真实的 MVMT 电商邮件设计 mockup，感觉高端、干净、精致、现代、有编辑感且可用于展示。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -638,7 +653,7 @@ Hero 图像应包括：
 
 ⌚ https://t.co/RSRfDoKxA4
 
-类型：评测 | 日期：2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -657,7 +672,7 @@ Fable 5：
 
 这个单 HTML 花了我 $12，但结果非常惊艳！
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -678,7 +693,7 @@ Claude Fable 5 很强烈。
 
 完成版提示词和公开 URL 链接在下方。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -712,7 +727,7 @@ Mythos 5 在超过一周的高度自主工作中开展了新颖的基因组学�
 
 在只有高层级人类输入的情况下，训练出的模型虽然小 100 倍，却优于近期发表在 Science 上的一个模型。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -731,7 +746,7 @@ Fable 5 是我发现的第一个在较长时长定性工作中持续有帮助的
 - 在 Projects 中，对大量评论截图，让 Claude 建议是否以及如何处理每一条。
 - 将关于某个文档的会议逐字稿粘贴进 Claude，然后让 Claude 把会议和 Slack 中讨论过的编辑以修订模式录入，并在评论中补充上下文。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -779,7 +794,7 @@ Claude Fable 5 Max 今天早上开放了，所以我试了一下。它底层看�
 
 换句话说，失去的几十年不仅是金融宿醉。它是涉及人口结构、工资、通缩、债务、政策选择和社会信心的结构性转变。
 
-类型：演示 | 日期：2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -819,7 +834,7 @@ Claude Code 团队的 Thariq 表示，Fable 5 显著改变了 Anthropic 内部�
 
 最后，Thariq 表示人们应该更大胆地使用它。Fable 5 值得尝试那些过去觉得对 LLM 太难的工作，甚至参考视频的视频编辑也是用 Fable 完成的。
 
-类型：演示 | 日期：2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -925,7 +940,7 @@ Claude Fable 5 是一段时间以来第一个真正感觉比之前拥有更多�
 
 如果你负担得起，现在就把它用于那些真正质量跃升会改变结果的工作。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1010,7 +1025,7 @@ Re-run this prompt on Claude 5 as soon as possible to catch anything this pass m
 
 Hardening pass completed on Claude 5. No re-run needed.
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1048,7 +1063,7 @@ Hardening pass completed on Claude 5. No re-run needed.
 
 完成后，将整个流程保存为一个可复用 skill：启动、截图、审计、排序、修复。每次发布后重新运行。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1089,7 +1104,7 @@ Fable 可以在长运行中始终保持格式，因此第一个和最后一个�
 
 用更聪明的模型构建格式，把表达留给能产出表达的模型。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1134,7 +1149,7 @@ Anthropic 建议你把模型当作真正的“思考伙伴”。
 
 换句话说，我们可能正在看到顶级 AI 模型廉价订阅时代的结束。如果你已经是订阅用户，现在就是测试你以为不可能之事边界的时候。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1332,7 +1347,7 @@ Milestone 3 Quality & polish：剩余值得做的中/低优先级项。
 
 如果 repo 很大，优先深入审查承担 80% 工作的核心 20% 代码，并说明哪些区域审查较浅。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1355,7 +1370,7 @@ Claude Fable 5 全面 SOTA，而且领先幅度很大，我很喜欢这一点。
 
 只要 Fable 专注于知道该改进什么，其他模型就能帮你完成剩余部分。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1400,7 +1415,7 @@ Workflows 让 Claude 并行化、验证自己的工作并准备报告。
 
 尝试过去觉得 LLM 不可能完成的任务，例如让 Claude Fable 5 处理视频编辑。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1444,7 +1459,7 @@ API 定价：
 
 最佳配置：复杂 `/goal` 用 Fable 5，常规 cron jobs 用更便宜的模型。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1481,7 +1496,7 @@ Mythos 5 面向少数可信合作伙伴。
 - 如果容量允许，包含窗口可能会延长。
 - 目标是尽快恢复 Fable 5 作为订阅计划标准组成部分。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1540,7 +1555,7 @@ Anthropic 桌面负责人 Felix Rieseberg 表示，Fable 5 开始了第三个时
 
 工作单位正在从“任务”转向“责任”。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1581,7 +1596,7 @@ Fable 5 兼容性在同一天更新，但只支持自配对：Fable 5 executor �
 
 文章包含 API 代码片段、注意事项和跨公司对比，说明只有 Anthropic 把这做成了服务端原语。
 
-类型：集成 | 日期：2026-06-09
+Type: Integration | Date: 2026-06-09
 
 ---
 
@@ -1622,7 +1637,7 @@ API 定价：
 - 它可能不会直接包含在基础订阅包中。
 - 如果 23 日之后容量充足，公司会尝试把它纳入 Pro 和 Max 订阅。
 
-类型：集成 | 日期：2026-06-09
+Type: Integration | Date: 2026-06-09
 
 ---
 
@@ -1642,7 +1657,7 @@ Fable 5 和 Mythos 现在已在 Swarms 上线 👾🦀
 - 不需要迁移、兼容性修复或基础设施更改
 - 立即用最新 Anthropic 模型构建、部署并扩展多代理系统
 
-类型：集成 | 日期：2026-06-09
+Type: Integration | Date: 2026-06-09
 
 ---
 
@@ -1682,7 +1697,7 @@ Cursor Fable 5 Max vs Codex GPT 5.5 Very High。
 
 结论：Fable 5 可以产出更高级的算法代码，但价格和运行时间必须仔细考虑。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1697,7 +1712,7 @@ Claude Fable 5 在我们的知识与幻觉基准 AA-Omniscience 上取得了迄�
 
 在 AA-Omniscience 的问题中，Claude Fable 5 有 9% 回退到 Opus 4.8。
 
-类型：评测 | 日期：2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -1756,7 +1771,7 @@ Humanity's Last Exam：
 - 可用性：到 6 月 22 日前包含在 Pro、Max、Team 和按席位计费的 Enterprise 计划中，消耗 2x Opus usage。
 - 从 6 月 23 日起，使用需要 credits；Anthropic 表示计划在容量允许后恢复订阅访问。
 
-类型：评测 | 日期：2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -1786,7 +1801,7 @@ Fable 5 在 GDPval-AA 任务中有 2% 回退到 Opus 4.8，Anthropic 表示 fall
 
 Claude Fable 5 的完整基准仍在进行中。我们将很快分享完整 Intelligence Index，并在网站上发布分数。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1819,7 +1834,7 @@ Claude Fable 5 的完整基准仍在进行中。我们将很快分享完整 Inte
 
 还很早，但目前为止 Fable 5 给我的第一印象非常强。
 
-类型：集成 | 日期：2026-06-09
+Type: Integration | Date: 2026-06-09
 
 ---
 
@@ -1840,7 +1855,7 @@ Fable 5 在游戏设计等创意任务上有惊人的直觉，但对于日常开
 
 可以查看我与 @coderabbitai DevEx 团队 @JuanPa 关于模型发布的讨论。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1865,7 +1880,7 @@ Fable 5 在游戏设计等创意任务上有惊人的直觉，但对于日常开
 
 初始体验很有前景，但还需要更长时间使用，才能看清真正的粗糙点在哪里。
 
-类型：演示 | 日期：2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -1882,7 +1897,7 @@ Claude Fable 5 (high) 在短篇小说写作上提升了一档。
 
 https://t.co/76nCxwEybJ
 
-类型：评测 | 日期：2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -1900,7 +1915,7 @@ Anthropic：“任务越长、越复杂，Fable 5 相比我们其他模型的领
 
 @theojaffee：“这个 Frontier Code Diamond benchmark 是昨天宣布的。之前顶部模型是 Opus 4.8，13%。GPT 5.5 是 6%。Fable 5 是 29%。”
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1930,7 +1945,7 @@ Anthropic 的新 Mythos-class 模型比 OpenAI 的最佳模型便宜 3 倍。而
 
 到 6 月 22 日前，Pro 和 Max 计划免费可用。它叫 Claude Fable 5。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1965,7 +1980,7 @@ Anthropic 的新 Mythos-class 模型比 OpenAI 的最佳模型便宜 3 倍。而
 - 注意：现在所有 Mythos-class models 对 zero data retention (ZDR) 工作区都有 30-day retention policy。
 - 这适用于 Claude Console、Claude Enterprise 中带 ZDR 的 Claude Code，或通过 AWS Bedrock、Google Cloud Agent Platform、Microsoft Foundry 以 ZDR 访问。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1989,7 +2004,7 @@ Anthropic 的新 Mythos-class 模型比 OpenAI 的最佳模型便宜 3 倍。而
 
 Fable 在水模拟上明显更好，生成了更扎实、更连续的水体。Opus 在墙边留下更大空隙，把粒子散落在场景周围，并且很难保持流体稳定。
 
-类型：演示 | 日期：2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -2010,7 +2025,7 @@ Fable 拥有以往模型没有的判断力、品味和维度感，这让我更�
 
 Claude Code 的 prompting 中没有任何内容告诉模型要这样做。这只是它性格的一部分。它真的有这种我以前没感受过的 “big model smell”。
 
-类型：演示 | 日期：2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -2032,7 +2047,7 @@ Fable 5（也叫 baby Mythos）刚刚发布。它是否像他们声称的那样�
 
 完整观点见 YT：https://t.co/lvtwnPn6yR
 
-类型：演示 | 日期：2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -2053,7 +2068,7 @@ Fable 5（也叫 baby Mythos）刚刚发布。它是否像他们声称的那样�
 
 这个模型在早期测试中让我非常 impressed，无论是基准还是产品里。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -2082,7 +2097,7 @@ HealthAdminBench：
 
 总体来看，这个模型在医疗健康基准上表现相当好。我也希望看到更多基准分数，例如 MedCalc-Bench 和 MedXpertQA，一个未饱和的高难医学 MCQA 基准。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2105,7 +2120,7 @@ Claude Fable 5 觉得文档解析配不上它。
 
 如需查看 frontier models 的完整结果列表，请查看 ParseBench：https://t.co/PWczfhp0OX
 
-类型：评测 | 日期：2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -2129,7 +2144,7 @@ Fable 5 来了，而且它在 agentic coding benchmark SWE-Bench Pro 上真的�
 
 顺便说，它使用量是 Opus 的 2x，所以要小心。如果它这么好，他们可能会推出 $500 订阅，因为用量很容易被打爆。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2165,7 +2180,7 @@ Claude Fable 5 与 Mythos 是同一个底层模型，但增加了安全措施。
 
 "Free your mind." 真的很期待人们会构建的一切。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2190,7 +2205,7 @@ Day 0 Anthropic Fable 5 in ParseBench。
 
 但它不是全面横扫。要解锁 frontier models 的文档理解，仍然有很多 alpha。
 
-类型：评测 | 日期：2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -2249,7 +2264,7 @@ Mythos 5 更强：
 
 Jevons paradox 适用：当软件开始像水龙头里的水一样流出时，需求本身会增长。这个模型可能推动这种转变。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2276,7 +2291,7 @@ FrontierCode 结果最夸张：
 
 Claude Fable 5 看起来是 coding agents、computer use 和 cybersecurity 的一次重大跃升。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2295,7 +2310,7 @@ Claude Fable 5 在 APEX-SWE 上排名 #1：整体 65.5% Pass@1。它比 Opus 4.8
 
 Observability 一直是我们测量过的每个模型的瓶颈。Fable 5 是第一个打破它的模型。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2321,7 +2336,7 @@ Aristotle 是专门为形式化数学构建的系统，并在自己的内部 har
 
 这就是 AGI 的整个前提。你不是为数学构建一个模型、为代码构建一个模型、为法律构建一个模型。你构建一个随 compute 扩展并学会做所有事情的单一通用模型。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -2348,7 +2363,7 @@ Aquinas 认为 temperance “takes the need of this life as the rule of the plea
 
 我们最好的猜测是，进一步推动这个向量的 tuning 有过度越过中庸的风险，使模型过于谨慎，或在研究、收集资源和类似任务中不够有帮助。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2369,7 +2384,7 @@ Claude Fable 5 被重度审查。
 
 Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型，甚至低于 Haiku。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2380,7 +2395,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 把 Fable 5 的提示词设计看成上下文与环境设计，而不是冗长的逐步指令列表。这条帖子总结了一个实用模式：提供清晰目标、相关上下文、约束、工具访问方式，以及验证成功的方法。它还认为，验证、评估和反馈，比微观管理模型的推理过程更重要。
 
-类型：教程 | 日期：2026-06-11
+Type: Tutorial | Date: 2026-06-11
 
 ---
 
@@ -2391,7 +2406,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 创作者先用 GPT Image 2 生成了一张复古风格的伊斯坦布尔平台游戏 sprite sheet，然后把这张参考图交给 Claude Fable 5 High，并要求它把图片变成游戏。帖文称，结果是在单次运行中产出的。
 
-类型：演示 | 日期：2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
@@ -2402,7 +2417,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 这条帖子描述了一个单提示词商业可视化案例：仓库、打包、无人机、订单、部门、客户和 AI 助手都被映射成一个实时 3D 城市。它把这个输出定位为静态幻灯片的面向客户替代方案，画面上还展示了 42 次配送、12 分钟平均时长和 651 美元收入等运营数据。
 
-类型：演示 | 日期：2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
@@ -2413,7 +2428,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 创作者表示，Fable 5 用 Three.js 一次性构建了一个完整的 3D HOLE IT 风格游戏。这是一个轻量但具体的游戏生成 demo，可用来测试模型是否能从紧凑请求中产出可玩的 3D 交互。
 
-类型：演示 | 日期：2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
@@ -2424,7 +2439,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 这条帖子称 Claude Fable 5 xHigh 在 DeepSWE 上拿到 70%，与 GPT-5.5 xHigh 持平，并把 Theo 最近的视频作为来源上下文。应把它视为一个基准线索，在作出更强判断前，仍需回头核对底层视频内容。
 
-类型：评测 | 日期：2026-06-11
+Type: Evaluation | Date: 2026-06-11
 
 ---
 
@@ -2435,7 +2450,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 这条帖子比较了 Claude Fable 5、Opus 4.8、GPT-5.5 和 Gemini 3.1 Pro 在同一任务上的表现：分析一个约 9 万行代码的仓库、定位缓存失效问题，并提出完整修复计划。作者认为，一旦把开发者修正时间算进去，原始 token 单价和真实任务成本就会出现明显偏差，并建议只在复杂重构、跨模块迁移和长链代理任务中选择性使用 Fable 5。
 
-类型：评测 | 日期：2026-06-11
+Type: Evaluation | Date: 2026-06-11
 
 ---
 
@@ -2446,7 +2461,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 创作者让 Claude Fable 5 构建一个 Super Mario 任天堂风格游戏。帖子称，这个任务大约用了 200 万 token，并产出了一个很强的单次生成结果，因此适合同时评估游戏构建质量和成本。
 
-类型：演示 | 日期：2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
@@ -2457,7 +2472,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 这条帖子指出，Claude Code 的 `/config` 中有一个名为 “Switch models when a message is flagged.” 的设置。它说明，对于攻击性网络安全技术、生物或生命科学实验方法、分子机制，或要求提取模型思维过程等被标记领域，Fable 5 可以回退到 Opus 模型。
 
-类型：集成 | 日期：2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
@@ -2468,7 +2483,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 创作者称，他在乘坐 Bengaluru Metro 时，把 Claude Fable 5 当作编码伙伴，构建了一个 Namma Metro 模拟器。这条帖子很简短，但它链接到了可视化 demo，也展示了 Fable 5 被用于一个带有地域特定背景的模拟想法。
 
-类型：演示 | 日期：2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
@@ -2479,7 +2494,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 这条帖子描述 Claude Fable 5 仅凭一个提示词，就创建了完整的驾驶游戏 Dusk Drive。创作者强调了 low-poly 视觉风格、极光与飘雪场景，以及从想法到可玩版本之间零人工编辑的说法。
 
-类型：演示 | 日期：2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
@@ -2490,7 +2505,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 这条帖子称，Fable 5 Max 以 45% Pass@1 排在 APEX-Agents 排行榜第二，位于 Gemini 3.5 Flash 之后、Opus 之前。它还把 APEX-Agents 描述为一个衡量 AI 能否独立完成复杂多步骤任务的基准。
 
-类型：评测 | 日期：2026-06-11
+Type: Evaluation | Date: 2026-06-11
 
 ---
 
@@ -2501,7 +2516,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 这条帖子比较了 Haiku 4.5、Sonnet 4.6、Opus 4.8 和 Fable 5 在模型强度和额度使用上的差异。它给出的实用建议是：日常工作跑 Sonnet，较难问题切到 Opus，而 Fable 5 留给那些最棘手、真正需要规划、构建和测试深度的 Claude Code 任务。
 
-类型：教程 | 日期：2026-06-11
+Type: Tutorial | Date: 2026-06-11
 
 ---
 
@@ -2512,7 +2527,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 创作者描述了用 Fable 5 通过全自动循环构建 HermesWorld v2。这个代理据称会持续运行数天，不断构建功能、测试功能、亲自游玩结果，并对整体做 smoke test，一路推进到完成。
 
-类型：集成 | 日期：2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
@@ -2523,7 +2538,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 创作者给了 Fable 5 一条提示词，要求它围绕比特币作为资产类别和区块链技术，生成一份麦肯锡风格的详细报告，并在需要时加入图表和可视化。帖文称输出是一份 19 页文档，包含数据、图表、投资论点和风险分析；评价则认为其结构很强，但视觉仍可更利落，解释也还能更紧凑。
 
-类型：教程 | 日期：2026-06-11
+Type: Tutorial | Date: 2026-06-11
 
 ---
 
@@ -2534,7 +2549,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 ClaudeDevs 宣布了一项改动，让面向 frontier LLM 开发的 Fable 5 防护机制变得可见。被标记的请求会明确回退到 Opus 4.8，而 API 中被标记的请求预计会返回拒答原因。帖子还解释了为什么一开始会上线不可见防护，以及 Anthropic 现在为什么认为那是错误的权衡。
 
-类型：集成 | 日期：2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
@@ -2545,7 +2560,7 @@ ClaudeDevs 宣布了一项改动，让面向 frontier LLM 开发的 Fable 5 防�
 
 Claude Code 2.1.173 包含一个修复：会从 Fable 5 的模型名中去掉 `[1m]` 后缀，以避免默认 1M 上下文破坏模型匹配。同一版本还抑制了一个多余的 Windows 沙盒依赖警告，并澄清了 grep 帮助输出模式。
 
-类型：集成 | 日期：2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
@@ -2556,7 +2571,7 @@ Claude Code 2.1.173 包含一个修复：会从 Fable 5 的模型名中去掉 `[
 
 创作者表示，自己没有编程背景，却借助 Claude Code 和 Fable 5 在 30 分钟内做出了三个可运行的 Web App，分别本地暴露在 3000、3001 和 3002 端口上。更适合把它当作一个轻量的新手工作流 demo，而不是严格基准。
 
-类型：演示 | 日期：2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
@@ -2567,7 +2582,7 @@ Claude Code 2.1.173 包含一个修复：会从 Fable 5 的模型名中去掉 `[
 
 创作者开源了 Rilable，这是一款能构建 Web App 和 iOS App 的 iOS 应用。帖子称，它用 Fable 5 在 10 条提示词内完成，API token 成本约 210 美元，使用 Claude 模型生成应用，通过 Daytona 拉起沙盒，用 Convex 做数据库，用 Vercel AI Gateway 提供 AI 功能，并借助 Chorus agent iOS skill 处理 iOS App。
 
-类型：集成 | 日期：2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
@@ -2578,7 +2593,7 @@ Claude Code 2.1.173 包含一个修复：会从 Fable 5 的模型名中去掉 `[
 
 Artificial Analysis 在其 Coding Agent Index 中用 Datacurve 的 DeepSWE 替换了 SWE-Bench Pro。帖子称，DeepSWE 会从零编写任务，而不是改写公开 GitHub issue 或 pull request，从而减少基准污染。在更新后的排名中，搭配 Fable 5 Max 的 Claude Code 以 77 分首秀，领先于搭配 GPT-5.5 xhigh 的 Codex 的 76 分，以及搭配 Opus 4.8 Max 的 Claude Code 的 73 分。
 
-类型：评测 | 日期：2026-06-12
+Type: Evaluation | Date: 2026-06-12
 
 ---
 
@@ -2589,7 +2604,7 @@ Artificial Analysis 在其 Coding Agent Index 中用 Datacurve 的 DeepSWE 替�
 
 Marc Lou 表示，Claude Fable 5 基于他的 DataFast 网站分析 API 构建了 DataEmpire。每位访客都会变成村民，流量增长会扩展聚落，而当访客达到 100 万时会解锁 Age of Legends。公开 demo 允许 DataFast 用户通过游戏层重放自己网站的历史，因此这更像一个有 API 支撑的产品化案例，而不是静态游戏片段。
 
-类型：集成 | 日期：2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
@@ -2600,7 +2615,7 @@ Marc Lou 表示，Claude Fable 5 基于他的 DataFast 网站分析 API 构建�
 
 ProximalHQ 表示，Claude Fable 5 在 FrontierSWE 上排名第一，并称这是自他们发布该基准以来见过的最大能力跃迁。他们的说明称，Fable 5 在很多任务上可以持续高效工作接近 20 小时，并能把早期模型实际上难以企及的任务真正做满。
 
-类型：评测 | 日期：2026-06-11
+Type: Evaluation | Date: 2026-06-11
 
 ---
 
@@ -2611,7 +2626,7 @@ ProximalHQ 表示，Claude Fable 5 在 FrontierSWE 上排名第一，并称这�
 
 Elliot Arledge 在 KernelBench-Hard 上让 13 个 frontier 编码代理各跑了 45 分钟，并基于 RTX PRO 6000 做 roofline 评分。Claude Fable 5 在 top-k、sonic-MoE 和 W4A16 int4 GEMM 上创下历史记录，在 6 个问题里拿下 5 个第一，作者还公开了运行结果、排行榜和代码。同一串帖子也提到一次 FP8 GEMM 失手：Fable 5 尝试写了真正的 tensor-core kernel，但因为尾部对齐边界情况拿了 0 分。
 
-类型：评测 | 日期：2026-06-11
+Type: Evaluation | Date: 2026-06-11
 
 ---
 
@@ -2622,7 +2637,7 @@ Elliot Arledge 在 KernelBench-Hard 上让 13 个 frontier 编码代理各跑了
 
 Mike Futia 描述了一个工作流：先用 Figma 的 Chrome 扩展把网站复制成可编辑图层，再让 Claude Code 通过 Figma MCP 读取这些图层，用用户自己的品牌语气重写页面，并由 GPT Image 2 生成符合品牌的摄影图。声称的端到端结果是，大约 15 分钟就能做出一个可上线的落地页，而 16 张图片的生成 API 成本大约只有 2 美元。
 
-类型：集成 | 日期：2026-06-12
+Type: Integration | Date: 2026-06-12
 
 ---
 
@@ -2633,7 +2648,7 @@ Mike Futia 描述了一个工作流：先用 Figma 的 Chrome 扩展把网站复
 
 TechHalla 表示，Claude Fable 5 High 在大约两小时内做出了一个 GTA 2 风格克隆，而创作者则在 Tripo 中生成自定义 3D 模型。帖子还指向一个带提示词的教程线程，因此这更像是一个多工具游戏生产的紧凑示例，而不是单纯的基准预告。
 
-类型：教程 | 日期：2026-06-10
+Type: Tutorial | Date: 2026-06-10
 
 ---
 
@@ -2644,7 +2659,7 @@ TechHalla 表示，Claude Fable 5 High 在大约两小时内做出了一个 GTA 
 
 diblacksmith 表示，一个 RLM 代理在单次运行中处理了大约 8 万行 CloudWatch 日志，走到 53 步时，当前只消耗了约 3.2 万活跃 token。他说，这个代理从日志中推断出了系统架构，还标出了团队之前漏掉的问题，包括 AgentCore 限流和 Slack `user_not_found` 失败。
 
-类型：集成 | 日期：2026-06-14
+Type: Integration | Date: 2026-06-14
 
 ---
 
@@ -2655,7 +2670,7 @@ diblacksmith 表示，一个 RLM 代理在单次运行中处理了大约 8 万�
 
 Upstash 表示，它在隔离的 Upstash 沙盒中运行 Claude Fable 5、GPT-5.5 和 Gemini，构建了一个世界杯预测器。这个 demo 和开源发布把 Fable 5 放在一个多模型研究与编排栈中的其中一环，而不只是单独的聊天演示。
 
-类型：集成 | 日期：2026-06-10
+Type: Integration | Date: 2026-06-10
 
 ---
 
@@ -2666,7 +2681,7 @@ Upstash 表示，它在隔离的 Upstash 沙盒中运行 Claude Fable 5、GPT-5.
 
 WolfBenchAI 表示，它对 Claude Fable 5 的评测花费了 11,081.12 美元，是该套基准中迄今最昂贵的一次，但依然没能登顶，因为重复拒答降低了有效任务完成量。对于需要给代理评测或其他高自主工作负载做预算的团队，这是一个很具体的限制案例。
 
-类型：评测 | 日期：2026-06-12
+Type: Evaluation | Date: 2026-06-12
 
 ---
 
@@ -2677,7 +2692,140 @@ WolfBenchAI 表示，它对 Claude Fable 5 的评测花费了 11,081.12 美元�
 
 Simon Willison 表示，他每分钟 ping 一次 `claude-fable-5` API，以观察访问能持续多久，并报告了它对自己停止响应的精确时间点。这条帖子在应用细节上比较薄，但它具体证明了：访问连续性本身已经成了用户必须测量、而不能默认存在的运维限制。
 
-类型：集成 | 日期：2026-06-13
+Type: Integration | Date: 2026-06-13
+
+---
+
+
+<a id="fable-5-5-community-demos"></a>
+## 🆕 Fable 5.5 社区演示
+
+
+
+<a id="case-89"></a>
+### Case 89: [用代码生成带声音的狐狸动画](https://x.com/chetaslua/status/2117224839010459987) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**用逐镜头创作简报明确单文件 HTML 动画及其声音设计。**
+
+作者展示了一段 66 秒的狐狸与纸鸟短片，并表示画面和音频均由模型编写的 Python 代码生成，经过约 2 小时 40 分钟的自主工作后交付为一个 HTML 文件。配套提示词规定了镜头、原创画面、声音及逐帧检查要求。帖子还附有详细创作简报和制作过程对话截图。
+
+[作者完整提示词](https://x.com/chetaslua/status/2117224843661980093)
+
+[![用代码生成带声音的狐狸动画](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-0-poster-2ee16a14af881cec.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-0-video-8e1ac3acc5e7cb57.mp4)
+
+![用代码生成带声音的狐狸动画](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-1-image-4bee9ad0898820c1.jpg)
+
+![用代码生成带声音的狐狸动画](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-2-image-b4b62017a03ec393.jpg)
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-90"></a>
+### Case 90: [从开放式创意要求生成动画](https://x.com/notjazii/status/2117221957104239010) (作者 [@notjazii](https://x.com/notjazii))
+
+**比较开放式动画要求与详细分镜简报分别能让代码模型做出怎样的作品。**
+
+作者分享了一段动画，表示从一个开放式创意要求出发，花费约一小时以纯代码完成，未使用外部素材。帖子将这次制作呈现为一次开放的创意编程尝试。
+
+[![从开放式创意要求生成动画](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-90-0-poster-08a293539c7b465c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-90-0-video-24243aa4947eafd2.mp4)
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-91"></a>
+### Case 91: [建筑公司的动态 3D 网站](https://x.com/exploraX_/status/2117176904306335864) (作者 [@exploraX_](https://x.com/exploraX_))
+
+**用建筑公司网站简报评估动态 3D 展示和页面构图。**
+
+作者围绕建筑公司网站的要求制作了一个动态 3D 网站，并附上成果录屏。
+
+[![建筑公司的动态 3D 网站](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-91-0-poster-c835928f570ad718.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-91-0-video-2b260d32fccecca6.mp4)
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-92"></a>
+### Case 92: [Three.js 汽车展示场景](https://x.com/chetaslua/status/2116975056014430419) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**用汽车场景集中观察 3D 构图、材质与镜头展示。**
+
+作者分享了一段 Three.js 汽车展示视频。这段录屏可作为评估场景及视觉呈现的简明参考。
+
+[![Three.js 汽车展示场景](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-92-0-poster-7a9405423aed1224.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-92-0-video-41812e3bdae683b0.mp4)
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-93"></a>
+### Case 93: [Minecraft 风格浏览器游戏演示](https://x.com/notjazii/status/2116919129974411584) (作者 [@notjazii](https://x.com/notjazii))
+
+**评估生成式浏览器游戏时，把游戏录屏与作者提供的试玩链接结合起来。**
+
+作者分享了 Minecraft 风格游戏的录屏和试玩链接，并表示这是一次性生成、耗时约一至两小时的作品。帖子把成果录屏与试玩入口放在一起，方便读者继续探索。
+
+[![Minecraft 风格浏览器游戏演示](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-93-0-poster-f432ab7cc397d51c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-93-0-video-903a5b83acef99f5.mp4)
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-94"></a>
+### Case 94: [Three.js 鹈鹕骑车动画](https://x.com/chetaslua/status/2116882694026269148) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**观察骑车场景中的角色运动协调、自行车结构和环境细节。**
+
+作者分享了一段写实风格的 Three.js 鹈鹕骑车动画，并表示它是一次性生成的成果。视频可用于观察角色运动、自行车结构及周围场景。
+
+[![Three.js 鹈鹕骑车动画](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-94-0-poster-0b18e5a159c3ec96.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-94-0-video-446b1cb698f14157.mp4)
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-95"></a>
+### Case 95: [附完整短提示词的鹈鹕骑车 SVG](https://x.com/marmaduke091/status/2116233349391962392) (作者 [@marmaduke091](https://x.com/marmaduke091))
+
+**复用作者的简短 SVG 提示词，在相同输入下比较几何结构和细节。**
+
+作者同时发布了鹈鹕骑车的渲染图和一条简短的 SVG 生成要求；下方逐字保留该提示词。
+
+```
+Generate an SVG of a Pelican riding a bicycle as nicely done as you can
+```
+
+![附完整短提示词的鹈鹕骑车 SVG](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-95-0-image-92e96914a3877a42.jpg)
+
+Type: Demo | Date: 2026-10-30
+
+---
+
+<a id="case-96"></a>
+### Case 96: [斑马奔跑动画样本](https://x.com/AI_Screening/status/2115845754468356465) (作者 [@AI_Screening](https://x.com/AI_Screening))
+
+**用动物奔跑视频观察步态一致性和运动连续性。**
+
+作者分享了自己挑选出的斑马奔跑任务最佳成果，为读者提供了一个可具体观察的运动样本。
+
+[![斑马奔跑动画样本](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-96-0-poster-34e8bfc30f0396ce.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-96-0-video-506044b0159933fe.mp4)
+
+Type: Demo | Date: 2026-10-29
+
+---
+
+<a id="case-97"></a>
+### Case 97: [由人手动执行交易的 TradingView 指标](https://x.com/waveking1314/status/2114572023204806669) (作者 [@waveking1314](https://x.com/waveking1314))
+
+**评估标记潜在入场点并附简评的指标时，保留人工下单环节。**
+
+作者表示用 Claude Fable 5.5 编写了一个 TradingView 指标，用于标记潜在入场点并给出简短评论，由用户决定是否下单。帖子附有录屏，并表示之后会分享该指标。
+
+[![由人手动执行交易的 TradingView 指标](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-97-0-poster-4e76b2a3f1cc0732.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-97-0-video-e16da93b5ca229bd.mp4)
+
+Type: Demo | Date: 2026-10-26
 
 ---
 
@@ -2686,9 +2834,8 @@ Simon Willison 表示，他每分钟 ping 一次 `claude-fable-5` API，以观�
 
 本仓库受到公开分享真实 Claude Fable 5 使用案例的创作者、开发者、基准测试团队和社区启发。
 
-感谢这里收录的高质量来源创作者：[@ai_for_success](https://x.com/ai_for_success), [@AI_masaou](https://x.com/AI_masaou), [@aianimesyokunin](https://x.com/aianimesyokunin), [@AlicanKiraz0](https://x.com/AlicanKiraz0), [@alliekmiller](https://x.com/alliekmiller), [@AndrewCurran_](https://x.com/AndrewCurran_), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@ayushagarwal](https://x.com/ayushagarwal), [@bcherny](https://x.com/bcherny), [@bielzinn](https://x.com/bielzinn), [@btibor91](https://x.com/btibor91), [@clairevo](https://x.com/clairevo), [@coldopn](https://x.com/coldopn), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@ctgptlb](https://x.com/ctgptlb), [@deveshcodes_](https://x.com/deveshcodes_), [@ecomchasedimond](https://x.com/ecomchasedimond), [@gabepereyra](https://x.com/gabepereyra), [@grapeot](https://x.com/grapeot), [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@HKrackDev](https://x.com/HKrackDev), [@IBuzovskyi](https://x.com/IBuzovskyi), [@intheworldofai](https://x.com/intheworldofai), [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@JJEnglert](https://x.com/JJEnglert), [@jsnnsa](https://x.com/jsnnsa), [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@kieradev](https://x.com/kieradev), [@LechMazur](https://x.com/LechMazur), [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@manaltdan](https://x.com/manaltdan), [@mark_k](https://x.com/mark_k), [@mercor_ai](https://x.com/mercor_ai), [@meta_alchemist](https://x.com/meta_alchemist), [@MTSlive](https://x.com/MTSlive), [@naoyafujiwara](https://x.com/naoyafujiwara), [@nicbstme](https://x.com/nicbstme), [@oikon48](https://x.com/oikon48), [@op7418](https://x.com/op7418), [@quanghuynt14](https://x.com/quanghuynt14), [@ryanrhughes](https://x.com/ryanrhughes), [@scottstts](https://x.com/scottstts), [@swarms_corp](https://x.com/swarms_corp), [@tetumemo](https://x.com/tetumemo), [@timhwang](https://x.com/timhwang), [@Truunik](https://x.com/Truunik), [@VaibhavSisinty](https://x.com/VaibhavSisinty), [@vikvang1](https://x.com/vikvang1), [@Voxyz_ai](https://x.com/Voxyz_ai), [@xw33bttv](https://x.com/xw33bttv), 以及 [@ydamitcodes](https://x.com/ydamitcodes)。
+[@AlicanKiraz0](https://x.com/AlicanKiraz0), [@coldopn](https://x.com/coldopn), [@deveshcodes_](https://x.com/deveshcodes_), [@intheworldofai](https://x.com/intheworldofai), [@jsnnsa](https://x.com/jsnnsa), [@ryanrhughes](https://x.com/ryanrhughes), [@JJEnglert](https://x.com/JJEnglert), [@ayushagarwal](https://x.com/ayushagarwal), [@ai_for_success](https://x.com/ai_for_success), [@kieradev](https://x.com/kieradev), [@vikvang1](https://x.com/vikvang1), [@ydamitcodes](https://x.com/ydamitcodes), [@ecomchasedimond](https://x.com/ecomchasedimond), [@quanghuynt14](https://x.com/quanghuynt14), [@scottstts](https://x.com/scottstts), [@tetumemo](https://x.com/tetumemo), [@AndrewCurran_](https://x.com/AndrewCurran_), [@manaltdan](https://x.com/manaltdan), [@naoyafujiwara](https://x.com/naoyafujiwara), [@AI_masaou](https://x.com/AI_masaou), [@Truunik](https://x.com/Truunik), [@Voxyz_ai](https://x.com/Voxyz_ai), [@aianimesyokunin](https://x.com/aianimesyokunin), [@bielzinn](https://x.com/bielzinn), [@meta_alchemist](https://x.com/meta_alchemist), [@oikon48](https://x.com/oikon48), [@IBuzovskyi](https://x.com/IBuzovskyi), [@btibor91](https://x.com/btibor91), [@ctgptlb](https://x.com/ctgptlb), [@grapeot](https://x.com/grapeot), [@op7418](https://x.com/op7418), [@swarms_corp](https://x.com/swarms_corp), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@HKrackDev](https://x.com/HKrackDev), [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@LechMazur](https://x.com/LechMazur), [@MTSlive](https://x.com/MTSlive), [@VaibhavSisinty](https://x.com/VaibhavSisinty), [@alliekmiller](https://x.com/alliekmiller), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@bcherny](https://x.com/bcherny), [@clairevo](https://x.com/clairevo), [@gabepereyra](https://x.com/gabepereyra), [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@mark_k](https://x.com/mark_k), [@mercor_ai](https://x.com/mercor_ai), [@nicbstme](https://x.com/nicbstme), [@timhwang](https://x.com/timhwang), [@xw33bttv](https://x.com/xw33bttv), [@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown), [@marclou](https://x.com/marclou), [@ProximalHQ](https://x.com/ProximalHQ), [@elliotarledge](https://x.com/elliotarledge), [@mikefutia](https://x.com/mikefutia), [@techhalla](https://x.com/techhalla), [@diblacksmith](https://x.com/diblacksmith), [@upstash](https://x.com/upstash), [@WolfBenchAI](https://x.com/WolfBenchAI), [@simonw](https://x.com/simonw), [@chetaslua](https://x.com/chetaslua), [@notjazii](https://x.com/notjazii), [@exploraX_](https://x.com/exploraX_), [@marmaduke091](https://x.com/marmaduke091), [@AI_Screening](https://x.com/AI_Screening), [@waveking1314](https://x.com/waveking1314)
 
-也感谢本次已批准更新中的创作者：[@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown), [@marclou](https://x.com/marclou), [@ProximalHQ](https://x.com/ProximalHQ), [@elliotarledge](https://x.com/elliotarledge), [@mikefutia](https://x.com/mikefutia), [@techhalla](https://x.com/techhalla), [@diblacksmith](https://x.com/diblacksmith), [@upstash](https://x.com/upstash), [@WolfBenchAI](https://x.com/WolfBenchAI), 以及 [@simonw](https://x.com/simonw)。
 
 *我们无法保证每个案例都署名给了最初创作者。如果有任何内容需要纠正，请联系我们，我们会更新。*
 
