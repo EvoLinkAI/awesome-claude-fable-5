@@ -35,7 +35,7 @@ Try it on Evolink: [Claude Fable 5](https://evolink.ai/claude-fable-5?utm_source
 
 ## 📊 Overview
 
-- **88 selected Claude Fable 5 cases** from public creators, developers, benchmark teams, and tool builders.
+- **88 original Fable 5 cases plus 191 community cases; 279 cases total.**
 - Covers coding agents, long-running automation, games, visual design, 3D simulations, knowledge work, tutorials, API integrations, benchmarks, pricing, and launch limitations.
 - Each case includes the original source, creator attribution, a concise takeaway, evidence type, and publication date.
 - Use this repo to find practical workflows, compare strengths and limits, discover reproducible prompts, and follow integration examples.
@@ -219,6 +219,203 @@ curl --request POST \
 | [WolfBench Refusal Cost Case](#case-87) | Treat refusal behavior as a real benchmark variable when pricing long autonomous runs on Fable 5. | Evaluation |
 | [API Access Cutoff Tracker](#case-88) | Monitor availability with a script if your workflow depends on continued access to a frontier model that may be rate-limited or withdrawn without much notice. | Integration |
 
+
+
+### [🆕 Fable 5.5 Community Demos](#fable-5-5-community-demos)
+
+| Case | Type |
+|---|---|
+| [Code-Generated Fox Animation with Sound](#case-89) | Demo |
+| [Animation from an Open Creative Brief](#case-90) | Demo |
+| [Animated Construction Company Website](#case-91) | Demo |
+| [Three.js Car Presentation](#case-92) | Demo |
+| [Minecraft-Style Browser Game Demo](#case-93) | Demo |
+| [Three.js Pelican Cycling Animation](#case-94) | Demo |
+| [Pelican Bicycle SVG with Exact Prompt](#case-95) | Demo |
+| [Galloping Zebra Animation Sample](#case-96) | Demo |
+| [TradingView Indicator with Human Execution](#case-97) | Demo |
+| [A dot becomes a short animated story](#case-98) | Demo |
+| [Superman across changing art styles](#case-99) | Demo |
+| [Human progress in an animated film with music](#case-100) | Demo |
+| [Release-video comparison with Opus](#case-101) | Evaluation |
+| [Connecting lyrics and an event visually](#case-102) | Demo |
+| [Voxel character in a floating scene](#case-103) | Demo |
+| [A 3D Rube Goldberg machine demo](#case-104) | Demo |
+| [A 3D controller interface with sound and motion](#case-105) | Demo |
+| [Comic characters presented with JavaScript](#case-106) | Demo |
+| [Updraft: worlds, bosses, and a leaderboard](#case-107) | Demo |
+| [Driving through a San Francisco map](#case-108) | Demo |
+| [Writing prompts for a Seedance action scene](#case-109) | Demo |
+| [An explainer video for a desktop coworker](#case-110) | Demo |
+| [A short prompt for a changing-style animation](#case-111) | Demo |
+| [Visualizing the three-body problem](#case-112) | Demo |
+| [An animation gallery of multiple art styles](#case-113) | Demo |
+| [Robot companions and procedural fur](#case-114) | Demo |
+| [A mathematics motion edit](#case-115) | Demo |
+| [Your Woman lyric video](#case-116) | Demo |
+| [Redrawing a music video in JavaScript](#case-117) | Demo |
+| [A Chinese football animation](#case-118) | Demo |
+| [A handheld retopology showcase](#case-119) | Demo |
+| [Minecraft meets Pokémon](#case-120) | Demo |
+| [Explaining how an LLM is made](#case-121) | Demo |
+| [An Altman highlight edit](#case-122) | Demo |
+| [The first of the Thirty-Six Stratagems](#case-123) | Demo |
+| [Game modeling, rigging, and animation](#case-124) | Demo |
+| [A wordless film about child mortality](#case-125) | Demo |
+| [Glycolysis-to-ethanol SVG animation](#case-126) | Demo |
+| [Sixteen simultaneous Starship launches](#case-127) | Demo |
+| [An animated pelican bicycle test](#case-128) | Demo |
+| [A story of the next 150 years](#case-129) | Demo |
+| [An independent Humanity Walks experiment](#case-130) | Demo |
+| [The Grader coded film](#case-131) | Demo |
+| [Reawakening horror short](#case-132) | Demo |
+| [A 25-second self-improvement video](#case-133) | Demo |
+| [A castle scene and usage-cost feedback](#case-134) | Evaluation |
+| [A 40-second brand launch ad](#case-135) | Demo |
+| [A Rocketball remake](#case-136) | Demo |
+| [A voxel pagoda comparison](#case-137) | Evaluation |
+| [An imagined Switch 3 presentation](#case-138) | Demo |
+| [Before-and-after landing pages](#case-139) | Evaluation |
+| [An imagined AI’s inner perspective](#case-140) | Demo |
+| [Go lyric motion design](#case-141) | Demo |
+| [A second 15-second motion portfolio](#case-142) | Demo |
+| [Guided agent implementation review](#case-143) | Tutorial |
+| [Claude mascot dance](#case-144) | Demo |
+| [Interactive Seven Wonders islands](#case-145) | Demo |
+| [A Propellerheads music video](#case-146) | Demo |
+| [Steamboat Willie animation comparison](#case-147) | Evaluation |
+| [A Sanxingdui-themed film](#case-148) | Demo |
+| [Bugatti Chiron before and after](#case-149) | Evaluation |
+| [GRAIN concept film](#case-150) | Demo |
+| [Human in Transit art gallery](#case-151) | Demo |
+| [A Silk Road visual short](#case-152) | Demo |
+| [A four-transformations presentation](#case-153) | Demo |
+| [Comparing historical chat tone](#case-154) | Evaluation |
+| [A kakapo cuteness test](#case-155) | Evaluation |
+| [Spider-Man across ten comic eras](#case-156) | Demo |
+| [An Illuminati-themed fictional horror video](#case-157) | Demo |
+| [A coded history-of-nuclear-science film](#case-158) | Demo |
+| [Universal High Income explainer](#case-159) | Demo |
+| [An Altman–Amodei dispute explainer](#case-160) | Demo |
+| [A Claude mascot music video](#case-161) | Demo |
+| [A continuous zoom from quarks to the universe](#case-162) | Demo |
+| [Imagining the world in 2076](#case-163) | Demo |
+| [Lower Manhattan building chronology](#case-164) | Demo |
+| [An oracle-bone-script animation](#case-165) | Demo |
+| [Another character-through-art-history animation](#case-166) | Demo |
+| [A coded Seikilos audiovisual work](#case-167) | Demo |
+| [Jet Animation Comparison](#case-168) | Evaluation |
+| [Model Self-Introduction Film](#case-169) | Demo |
+| [Post-Apocalyptic Card-Game Prototype](#case-170) | Demo |
+| [The Late Byte Workplace Animation](#case-171) | Demo |
+| [Queens of the Stone Age Lyric Animation](#case-172) | Demo |
+| [Shared Three.js Narrative Scene](#case-173) | Demo |
+| [Moonwalking through Historical Scenes](#case-174) | Demo |
+| [Detailed-Prompt Motion Graphics](#case-175) | Demo |
+| [Rental-Business Website Interface](#case-176) | Demo |
+| [AGI-Themed Creative Film](#case-177) | Demo |
+| [Art History with a Cat Subplot](#case-178) | Demo |
+| [Combat Prototype and Voxel Scene](#case-179) | Demo |
+| [Internet Meme Chronology](#case-180) | Demo |
+| [Particle Motion from One Line](#case-181) | Demo |
+| [Kung-Fu Boy Animation](#case-182) | Demo |
+| [Strait of Hormuz Debate Animation](#case-183) | Demo |
+| [Unicorn SVG Style Experiment](#case-184) | Demo |
+| [Halloween Seasonal Animation](#case-185) | Demo |
+| [Blender CLI Barbarian and Cover](#case-186) | Demo |
+| [Day in the Life of Claude](#case-187) | Demo |
+| [Humanity History in 3D](#case-188) | Demo |
+| [Fast Motion-Designer Reel](#case-189) | Evaluation |
+| [Freeform Complex 3D Creation](#case-190) | Demo |
+| [Stick-Figure Fight Animation](#case-191) | Demo |
+| [One-Prompt UI Motion Sequence](#case-192) | Demo |
+| [SCP-8517 Fictional Animation](#case-193) | Demo |
+| [Watercolor Autumn Animation](#case-194) | Demo |
+| [Procedural Doll Stage](#case-195) | Demo |
+| [Browser-Rendered Pelican Ride](#case-196) | Demo |
+| [The Universe Looks at Itself](#case-197) | Demo |
+| [Independent Jet Animation Test](#case-198) | Demo |
+| [Initial Freeform Motion Reel](#case-199) | Demo |
+| [Civilization Rendered in Code](#case-200) | Demo |
+| [Chip-to-Server Zoom Comparison](#case-201) | Evaluation |
+| [Lunar-Travel Animation Project](#case-202) | Demo |
+| [Japanese Voxel Scene Comparison](#case-203) | Evaluation |
+| [Steaming the Frontier Audiovisual Short](#case-204) | Demo |
+| [Superman across Multiple Art Styles](#case-205) | Demo |
+| [Cupcake-Style Boss-Fight Prototype](#case-206) | Demo |
+| [Sailing Ship with Changing Sun](#case-207) | Demo |
+| [Paracortex and Pi Changenotes Video](#case-208) | Demo |
+| [Curio 2.0 Website Promo](#case-209) | Demo |
+| [Imagined Hugging Face 3D Story](#case-210) | Demo |
+| [Claude for Chrome in JS Paint](#case-211) | Demo |
+| [Static Pelican Bicycle SVG](#case-212) | Demo |
+| [BlockBench MCP with a Minecraft Skill](#case-213) | Demo |
+| [Dig Dug in One HTML File](#case-214) | Demo |
+| [Mechanical Octopus SVG](#case-215) | Demo |
+| [Humanity Walks through Art Styles](#case-216) | Demo |
+| [Open-Ended Black-Hole Scene](#case-217) | Demo |
+| [Aurora Jellyfish Animation Comparison](#case-218) | Evaluation |
+| [Nintendo Switch Snap-and-Boot SVG](#case-219) | Demo |
+| [The Loom Interactive 3D Scene](#case-220) | Demo |
+| [Sakura-Pagoda Motion Samples](#case-221) | Evaluation |
+| [Cleaner Scenery with Less Depth](#case-222) | Evaluation |
+| [Mixed Japanese-Scene Results](#case-223) | Evaluation |
+| [Controller SVG Comparisons](#case-224) | Evaluation |
+| [Industrial-Device Scene](#case-225) | Demo |
+| [Giant Shelled Gill-Bug Reconstruction](#case-226) | Demo |
+| [GameCube Controller in Two Prompts](#case-227) | Demo |
+| [Screenshot Edited for an X Post](#case-228) | Demo |
+| [Before-and-After Voxel Sakura](#case-229) | Evaluation |
+| [SHADERKIN Cloth-Interface Prototype](#case-230) | Demo |
+| [Shared Golden-Clock Interface Animation](#case-231) | Demo |
+| [Before There Was Anything Narrative](#case-232) | Demo |
+| [Shared Blue Particle Vortex](#case-233) | Demo |
+| [Multi-Panel Interface after Two Revisions](#case-234) | Demo |
+| [Stacked Animals in a Rendered Scene](#case-235) | Demo |
+| [Four Open-World RPG Attempts Compared](#case-236) | Evaluation |
+| [Two Front-End Animation Clips Compared](#case-237) | Evaluation |
+| [A Moss-Robot Film Generated in Code](#case-238) | Demo |
+| [A Container-Port Simulation Revisited](#case-239) | Demo |
+| [An Airport-Ramp Scene Revisited](#case-240) | Demo |
+| [Pelican Cycling Through Abstract 3D Worlds](#case-241) | Demo |
+| [Historical Sailing-Ship Scene](#case-242) | Demo |
+| [Cycling and Gait Comparisons with Carbon](#case-243) | Evaluation |
+| [Soft-Drink Bottle Presentation](#case-244) | Demo |
+| [Pelican Motion Compared with Astra](#case-245) | Evaluation |
+| [Motion-Design Brief for Coded Animations](#case-246) | Tutorial |
+| [Voxel Portrait from a Photographic Reference](#case-247) | Demo |
+| [Flying Pelican Scenes Compared with Opus](#case-248) | Evaluation |
+| [Morning Ride Pelican Web Scene](#case-249) | Demo |
+| [Same-Prompt Scenes with Different Styles](#case-250) | Evaluation |
+| [A Pelican, Bicycle and Horse Composition](#case-251) | Demo |
+| [Reference-Tweet-Inspired Isometric Scene](#case-252) | Demo |
+| [Mechanical Close-Ups of a Pelican Bicycle](#case-253) | Demo |
+| [A Bicycle Riding on a Pelican](#case-254) | Demo |
+| [Pelican SVG Styles Compared with Carbon](#case-255) | Evaluation |
+| [Cartoon Bluebird Bicycle Scene](#case-256) | Demo |
+| [Forest-Road Pelican Cycling Screenshot](#case-257) | Demo |
+| [Stick-Figure Combat Compared with Carbon](#case-258) | Evaluation |
+| [A Pelican SVG Reference from Early Testing](#case-259) | Demo |
+| [Pelican Reference in Cross-Model SVG Testing](#case-260) | Evaluation |
+| [Bicycle SVG Details Compared with Carbon](#case-261) | Evaluation |
+| [A Canyon Settlement in 3D](#case-262) | Demo |
+| [Controller Detail Compared with Opus](#case-263) | Evaluation |
+| [Weekly Website SEO Audit Workflow](#case-264) | Integration |
+| [Reusing Fable Assets in Opus Motion Design](#case-265) | Integration |
+| [Mandalas and Geometric Forms App](#case-266) | Demo |
+| [Three.js Cyclist on a Bicycle](#case-267) | Demo |
+| [FrontierCS 2 Evaluation Snapshot](#case-268) | Evaluation |
+| [Three-Model Zebra Animation Comparison](#case-269) | Evaluation |
+| [Critiquing long Japanese prose](#case-270) | Evaluation |
+| [Example-guided technical PowerPoint](#case-271) | Evaluation |
+| [Comparing musical coherence](#case-272) | Evaluation |
+| [Premature completion and weaker designs](#case-273) | Limit |
+| [An unsettling squid-art result](#case-274) | Limit |
+| [Blueprint-Style Motion Design](#case-275) | Demo |
+| [Birds and Fish in Voxel Sakura](#case-276) | Demo |
+| [Character-Generation Failure Report](#case-277) | Limit |
+| [Pelican SVG with Runtime and Cost Notes](#case-278) | Evaluation |
+| [Remote Phone Coding with Claude Code Swarms](#case-279) | Integration |
 
 <a id="coding-and-code-generation"></a>
 ## 💻 Coding and Code Generation
@@ -2688,14 +2885,2517 @@ Type: Integration | Date: 2026-06-13
 
 ---
 
+
+<a id="fable-5-5-community-demos"></a>
+## 🆕 Fable 5.5 Community Demos
+
+
+
+<a id="case-89"></a>
+### Case 89: [Code-Generated Fox Animation with Sound](https://x.com/chetaslua/status/2117224839010459987) (by [@chetaslua](https://x.com/chetaslua))
+
+**Use a shot-by-shot brief to specify a self-contained HTML animation and its sound design.**
+
+The creator reports a 66-second fox-and-paper-birds short, with Python-generated frames and audio, delivered as one HTML file after about 2 hours 40 minutes. The accompanying prompt specifies shots, original artwork, sound and frame inspection. The post pairs the film with a detailed creative brief and screenshots of the production discussion.
+
+[Creator’s complete prompt](https://x.com/chetaslua/status/2117224843661980093)
+
+[![Code-Generated Fox Animation with Sound](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-0-poster-2ee16a14af881cec.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-0-video-8e1ac3acc5e7cb57.mp4)
+
+![Code-Generated Fox Animation with Sound](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-1-image-4bee9ad0898820c1.jpg)
+
+![Code-Generated Fox Animation with Sound](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-2-image-b4b62017a03ec393.jpg)
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-90"></a>
+### Case 90: [Animation from an Open Creative Brief](https://x.com/notjazii/status/2117221957104239010) (by [@notjazii](https://x.com/notjazii))
+
+**Compare what a coding model builds from an open animation brief with what a detailed storyboard produces.**
+
+The author shares an animation and reports about one hour of work from a broad creative request, using code without external assets. The post presents the result as a broad creative-coding exercise.
+
+[![Animation from an Open Creative Brief](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-90-0-poster-08a293539c7b465c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-90-0-video-24243aa4947eafd2.mp4)
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-91"></a>
+### Case 91: [Animated Construction Company Website](https://x.com/exploraX_/status/2117176904306335864) (by [@exploraX_](https://x.com/exploraX_))
+
+**Use a construction-company website brief to evaluate animated 3D presentation and page composition.**
+
+The creator shares an animated 3D website built around a construction-company brief and attaches a recording of the result.
+
+[![Animated Construction Company Website](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-91-0-poster-c835928f570ad718.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-91-0-video-2b260d32fccecca6.mp4)
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-92"></a>
+### Case 92: [Three.js Car Presentation](https://x.com/chetaslua/status/2116975056014430419) (by [@chetaslua](https://x.com/chetaslua))
+
+**Inspect a car scene as a compact test of 3D composition, materials and camera presentation.**
+
+The creator shares a Three.js car presentation. The recording provides a compact reference for evaluating the scene and its visual presentation.
+
+[![Three.js Car Presentation](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-92-0-poster-7a9405423aed1224.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-92-0-video-41812e3bdae683b0.mp4)
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-93"></a>
+### Case 93: [Minecraft-Style Browser Game Demo](https://x.com/notjazii/status/2116919129974411584) (by [@notjazii](https://x.com/notjazii))
+
+**Pair a game recording with the creator's play link when assessing a generated browser game.**
+
+The author shares a Minecraft-style game recording and a play link, describing the build as a one-shot task taking roughly one or two hours. The post pairs the recorded result with a play link for readers to explore.
+
+[![Minecraft-Style Browser Game Demo](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-93-0-poster-f432ab7cc397d51c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-93-0-video-903a5b83acef99f5.mp4)
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-94"></a>
+### Case 94: [Three.js Pelican Cycling Animation](https://x.com/chetaslua/status/2116882694026269148) (by [@chetaslua](https://x.com/chetaslua))
+
+**Inspect a cycling scene for coordinated character motion, bicycle geometry and environmental detail.**
+
+The creator shares a realistic Three.js animation of a pelican riding a bicycle and describes it as a one-shot result. The clip offers a reference for character motion, bicycle structure and the surrounding scene.
+
+[![Three.js Pelican Cycling Animation](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-94-0-poster-0b18e5a159c3ec96.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-94-0-video-446b1cb698f14157.mp4)
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-95"></a>
+### Case 95: [Pelican Bicycle SVG with Exact Prompt](https://x.com/marmaduke091/status/2116233349391962392) (by [@marmaduke091](https://x.com/marmaduke091))
+
+**Reuse the creator's short SVG prompt to compare geometry and detail under the same input.**
+
+The author pairs a rendered pelican-on-a-bicycle image with the short SVG request reproduced verbatim below.
+
+```
+Generate an SVG of a Pelican riding a bicycle as nicely done as you can
+```
+
+![Pelican Bicycle SVG with Exact Prompt](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-95-0-image-92e96914a3877a42.jpg)
+
+[Animated version · @marmaduke091](https://x.com/ItsmeAjayKV/status/2116461400931565791)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c325fad08c0af80d4131a7d3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fb211776edb69bc12623cdcf.jpg" alt="Pelican Bicycle SVG with Exact Prompt" width="760"></a>
+
+Type: Demo | Date: 2026-10-30
+
+---
+
+<a id="case-96"></a>
+### Case 96: [Galloping Zebra Animation Sample](https://x.com/AI_Screening/status/2115845754468356465) (by [@AI_Screening](https://x.com/AI_Screening))
+
+**Use a galloping-animal clip to inspect gait consistency and motion continuity.**
+
+The author shares their selected best output for a galloping-zebra task. The clip gives readers a concrete motion sample to inspect.
+
+[![Galloping Zebra Animation Sample](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-96-0-poster-34e8bfc30f0396ce.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-96-0-video-506044b0159933fe.mp4)
+
+Type: Demo | Date: 2026-10-29
+
+---
+
+<a id="case-97"></a>
+### Case 97: [TradingView Indicator with Human Execution](https://x.com/waveking1314/status/2114572023204806669) (by [@waveking1314](https://x.com/waveking1314))
+
+**Keep order execution manual when evaluating an indicator that marks possible entries and adds commentary.**
+
+The creator reports using Claude Fable 5.5 to write a TradingView indicator that marks possible entry points and adds a short comment while the user decides whether to place an order. The post includes a recording and says the indicator will be shared later.
+
+[![TradingView Indicator with Human Execution](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-97-0-poster-4e76b2a3f1cc0732.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-97-0-video-e16da93b5ca229bd.mp4)
+
+Type: Demo | Date: 2026-10-26
+
+---
+
+
+<a id="case-98"></a>
+### Case 98: [A dot becomes a short animated story](https://x.com/cherry_mx_reds/status/2105825930799432073) (by [@cherry_mx_reds](https://x.com/cherry_mx_reds))
+
+**Use a minimal drawing request to explore how a model expands a visual story.**
+
+The author reports asking for a dot and shares the resulting short animated story. The attached clip provides a concrete example of an open-ended visual request becoming a narrative.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/883ec78260a59a6a789794ff.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/57df1160649eeb113f5b0904.jpg" alt="A dot becomes a short animated story" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-99"></a>
+### Case 99: [Superman across changing art styles](https://x.com/chetaslua/status/2105757136219504862) (by [@chetaslua](https://x.com/chetaslua))
+
+**Use one recognizable character to inspect continuity across changing animation styles.**
+
+The creator shares a continuous Superman animation that transitions between different art styles. The post presents the changing visual treatment as the central creative result.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9b17afbc69d86f83b02c7949.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bf9f9e0c1c18ec87d7827152.jpg" alt="Superman across changing art styles" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-100"></a>
+### Case 100: [Human progress in an animated film with music](https://x.com/imjustnewatai/status/2106081142143168580) (by [@imjustnewatai](https://x.com/imjustnewatai))
+
+**Brief a historical timeline and a future segment together when planning an animated explainer.**
+
+The author reports using one prompt for a film about human progress followed by thirty years into the future. They share a roughly three-minute animation and report an original score without footage or stock music.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7169c82d36a8545ae331d5a5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a0f7665a4f830fe5bf9cd3ff.jpg" alt="Human progress in an animated film with music" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-101"></a>
+### Case 101: [Release-video comparison with Opus](https://x.com/mesmerlord/status/2105771088374288692) (by [@mesmerlord](https://x.com/mesmerlord))
+
+**Compare complete release-video candidates generated from the same creative brief.**
+
+The author shares two candidate release videos made from an Anthropic-video reference brief. The post explicitly discloses invented numbers and optional Codex image generation, so the clips are creative advertisements rather than factual benchmark evidence.
+
+<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0b7fd47b61c0a91ac169327c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f22c970c5dd582d61fd25352.jpg" alt="Release-video comparison with Opus" width="760"></a></td><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3c5ab918ab29a2a394862ab1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/286e3a487e75019216170eaf.jpg" alt="Release-video comparison with Opus" width="760"></a></td></tr></table>
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-102"></a>
+### Case 102: [Connecting lyrics and an event visually](https://x.com/chetaslua/status/2105934928483701214) (by [@chetaslua](https://x.com/chetaslua))
+
+**Connect an existing song’s lyrics with a specific event to build a visual narrative.**
+
+The creator reports asking for a visual connection between song lyrics and a Hugging Face incident. The attached animation shows the resulting combined narrative; the song and event are creative inputs.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8eff1627c25675b6f6c415f2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6fbf41178e2a95f90936bb88.jpg" alt="Connecting lyrics and an event visually" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-103"></a>
+### Case 103: [Voxel character in a floating scene](https://x.com/blueemi99/status/2105804692811137242) (by [@blueemi99](https://x.com/blueemi99))
+
+**Inspect a voxel character together with its surrounding scenery and animated details.**
+
+The author shares a voxel self-character in a floating scene, highlighting the amount of detail and motion. The clip supplies a concrete voxel-design example for comparison with other runs.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e3760dd479675b0aad977523.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9c5cc28c6d3abec3c280aec8.jpg" alt="Voxel character in a floating scene" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-104"></a>
+### Case 104: [A 3D Rube Goldberg machine demo](https://x.com/imjustnewatai/status/2105889407056109991) (by [@imjustnewatai](https://x.com/imjustnewatai))
+
+**Specify a chain-reaction scene first, then request a fixed-length demonstration video.**
+
+The author supplies a short prompt requesting a complicated 3D Rube Goldberg machine, then asks for a one-minute video. The attached clip demonstrates the resulting chain-reaction visualization.
+
+```
+Extremely complicated 3d rube goldberg machine, accurate physics, aaa gfx, vfx
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9a5645cdfbace3f1f003f338.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c38369dcab30a7a3b2592a2e.jpg" alt="A 3D Rube Goldberg machine demo" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-105"></a>
+### Case 105: [A 3D controller interface with sound and motion](https://x.com/notjazii/status/2106050222828998967) (by [@notjazii](https://x.com/notjazii))
+
+**Evaluate a controller interface through the combination of visual motion, sound and button behavior.**
+
+The creator shares a 3D controller interface and reports added sounds, animation and haptics. The recording provides a concrete interface demonstration with sound enabled.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a61bb2742df89100e4a9010e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d7d550662b97f41a709b4d58.jpg" alt="A 3D controller interface with sound and motion" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-106"></a>
+### Case 106: [Comic characters presented with JavaScript](https://x.com/chetaslua/status/2105792187200147541) (by [@chetaslua](https://x.com/chetaslua))
+
+**Use a character showcase to explore how code can supply fine visual details.**
+
+The author reports a one-shot JavaScript showcase of Marvel and DC characters, saying the model chose subtle character details and edited the video. The post includes the resulting character presentation.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c8c7e6a3c0721bb369db296a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/11921e058184a9deee4fad4a.jpg" alt="Comic characters presented with JavaScript" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-107"></a>
+### Case 107: [Updraft: worlds, bosses, and a leaderboard](https://x.com/EMostaque/status/2106065029850091943) (by [@EMostaque](https://x.com/EMostaque))
+
+**Pair a game recording with a play link and an explicit feature list.**
+
+The author shares Updraft, reporting a few hours of work with minimal prompts on high effort. Their feature list includes twenty-one worlds, 3D variants, twenty-one bosses with different mechanics and a leaderboard.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/2b473a43235402693cfddb67.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a7605d61a6999b7a5a75d298.jpg" alt="Updraft: worlds, bosses, and a leaderboard" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-108"></a>
+### Case 108: [Driving through a San Francisco map](https://x.com/mindblown_ai/status/2106089461969019357) (by [@mindblown_ai](https://x.com/mindblown_ai))
+
+**Use a city-driving prototype to explore map navigation and game objectives.**
+
+The source poster shares footage and a play link for a San Francisco driving game attributed to someone else, naming Three.js in the stack. Credit here identifies the source poster rather than claiming they created the game.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a3daebcbd4ee15c6e00933f7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/62fa53fe2da2ef1d9df79d77.jpg" alt="Driving through a San Francisco map" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-109"></a>
+### Case 109: [Writing prompts for a Seedance action scene](https://x.com/Chengzilhy/status/2105850801663234374) (by [@Chengzilhy](https://x.com/Chengzilhy))
+
+**Separate prompt writing from video generation when documenting a multi-tool action scene.**
+
+The author shares an expanded fight sequence, attributing prompt writing to Fable and video generation to Seedance 2.5. The workflow uses the language model to develop the video-generation input.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/948cf8988e420ba7f7644cc9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a777e08ece0bf5fa6b3dd76d.jpg" alt="Writing prompts for a Seedance action scene" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-110"></a>
+### Case 110: [An explainer video for a desktop coworker](https://x.com/ishuagra02/status/2106138602073641241) (by [@ishuagra02](https://x.com/ishuagra02))
+
+**Use a short introduction video to explain a coding-tool extension.**
+
+The creator demonstrates the clawdhouse Claude Code mod and attributes its introduction video to Fable. The mascot coworker and its moods are features of the mod being introduced, not a claim that Fable developed the mod.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d8252b98536b35b28d4a2f69.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7374241c39dab0c94f2557f2.jpg" alt="An explainer video for a desktop coworker" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-111"></a>
+### Case 111: [A short prompt for a changing-style animation](https://x.com/cherry_mx_reds/status/2105816670896009224) (by [@cherry_mx_reds](https://x.com/cherry_mx_reds))
+
+**Test a brief animation request before adding a detailed creative specification.**
+
+The author reports asking for a cool animation and receiving the shown changing-style result about fifteen minutes later. The original short request is quoted directly in the source post.
+
+```
+Hey Fable, please make a cool animation
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9426b9eb74bb3dbb3cecd1cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5c7a0f0a5754d4f20cfdfbe3.jpg" alt="A short prompt for a changing-style animation" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-112"></a>
+### Case 112: [Visualizing the three-body problem](https://x.com/zAdrielsan/status/2105822678519001360) (by [@zAdrielsan](https://x.com/zAdrielsan))
+
+**Separate CPU-side simulation from GPU-side rendering in an orbital visualization brief.**
+
+The author reports roughly one thousand lines of Bend2 for a three-body scene, with symplectic physics on the CPU and pixel rendering on the GPU. They also report sixty FPS on their M5 and formal proofs.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/67dea524fc04155805ea5f62.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8d8cd2cee891511d37be2531.jpg" alt="Visualizing the three-body problem" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-113"></a>
+### Case 113: [An animation gallery of multiple art styles](https://x.com/blueemi99/status/2105782154387189771) (by [@blueemi99](https://x.com/blueemi99))
+
+**Compare several art styles within one animation gallery.**
+
+The author shares an animation gallery built using an xhigh setting. The concrete output presents multiple art styles together, making it useful for comparing visual treatments within a single work.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/502971e471d8a4dd737c51a6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b2ad9b438a172b2ce1cd902b.jpg" alt="An animation gallery of multiple art styles" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-114"></a>
+### Case 114: [Robot companions and procedural fur](https://x.com/KanaWorks_AI/status/2106717014245183517) (by [@KanaWorks_AI](https://x.com/KanaWorks_AI))
+
+**Combine existing character animation with procedural refinement instead of treating every asset as newly generated.**
+
+The author refines an existing Unimate robot-dog animation into a companion and builds a furry virtual pet with grooming and trails. Unreal Engine and the existing robot animation remain explicit parts of the workflow.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9804d2afa56aa33c8d671292.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/612fe23ba65cde8186f80ddf.jpg" alt="Robot companions and procedural fur" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-115"></a>
+### Case 115: [A mathematics motion edit](https://x.com/TurboNexic/status/2106710792590835934) (by [@TurboNexic](https://x.com/TurboNexic))
+
+**Use mathematics-themed motion graphics as a visual communication example.**
+
+The source poster shares a mathematics-themed motion edit. The attached vertical clip presents mathematical imagery as animated design; the post supplies the demonstration rather than a worked mathematical calculation.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/57d4f16b728eff5d5f94b073.jpg" alt="A mathematics motion edit" width="760">
+
+*Archived frame from the source video.*
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-116"></a>
+### Case 116: [Your Woman lyric video](https://x.com/atomtanstudio/status/2106702854639743467) (by [@atomtanstudio](https://x.com/atomtanstudio))
+
+**Build lyric motion around a supplied recording while keeping the music’s role explicit.**
+
+The creator shares a lyric video for White Town’s Your Woman. The existing song is the audio input for the visual treatment, rather than music claimed to have been composed by the model.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/88157c7612eb6c005275619c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d447b9a8d799f508738e89d4.jpg" alt="Your Woman lyric video" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-117"></a>
+### Case 117: [Redrawing a music video in JavaScript](https://x.com/abhinavflac/status/2106638839666373114) (by [@abhinavflac](https://x.com/abhinavflac))
+
+**Trace supplied source-video frames into code-based shapes when recreating a music-video treatment.**
+
+The author describes tracing frames from Eminem’s Godzilla video into flat shapes and redrawing them with JavaScript. The original footage and music are inputs to the resulting animation.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c9ac6106098d63ff3d7ce8d7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4b7d65e79fa8c8fa9aed2eda.jpg" alt="Redrawing a music video in JavaScript" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-118"></a>
+### Case 118: [A Chinese football animation](https://x.com/esrhengwu/status/2106625966965760380) (by [@esrhengwu](https://x.com/esrhengwu))
+
+**Turn a sports theme into an animated narrative brief.**
+
+The author shares an animation about China’s national football team, describing its development and resilience as the creative theme. The recording gives readers a concrete sports-storytelling example.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d0e837b5c3551d3c3715337f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cd5e0537224d41a29e3e4d81.jpg" alt="A Chinese football animation" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-119"></a>
+### Case 119: [A handheld retopology showcase](https://x.com/mickeysmith_jp/status/2106607349385630138) (by [@mickeysmith_jp](https://x.com/mickeysmith_jp))
+
+**Compare a handheld-console render with its wireframe presentation when discussing topology.**
+
+The source poster pairs a handheld-console image with a wireframe-style view while discussing retopology. The illustrated comparison provides a concrete modeling presentation rather than an editable mesh or a documented retopology procedure.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ec1260c667d8139c4cfed70a.jpg" alt="A handheld retopology showcase" width="760">
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-120"></a>
+### Case 120: [Minecraft meets Pokémon](https://x.com/MozeTech/status/2106590326634983710) (by [@MozeTech](https://x.com/MozeTech))
+
+**Combine mechanics from two familiar games into one prototype brief.**
+
+The author presents a Pallet Town prototype mixing Minecraft-style building and crafting with Pokémon-style catching, and links a demo. The post describes the build as a one-shot experiment.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5ca78d7ae17e27f0c3728df6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/829a3e03f20c6f9f8c58cd5c.jpg" alt="Minecraft meets Pokémon" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-121"></a>
+### Case 121: [Explaining how an LLM is made](https://x.com/imjustnewatai/status/2106546810793730419) (by [@imjustnewatai](https://x.com/imjustnewatai))
+
+**Turn a technical question into a visual explainer request.**
+
+The author asks how a large language model is made and shares the resulting explainer video. The work is a concrete example of presenting a technical topic through an animated sequence.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6a944b8ff013c87884dd9e9f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1d36e53c6eaf410eed54236a.jpg" alt="Explaining how an LLM is made" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-122"></a>
+### Case 122: [An Altman highlight edit](https://x.com/benchmark_lb900/status/2106539977404506303) (by [@benchmark_lb900](https://x.com/benchmark_lb900))
+
+**Use a public-figure theme to test the pacing of a short motion edit.**
+
+The author shares an Altman-themed highlight video and describes it as a one-shot result. The vertical recording provides a compact motion-editing example.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/af9cca794a0a4f1532bcc60d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d683cf1f4c3f2a25f5a3db76.jpg" alt="An Altman highlight edit" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-123"></a>
+### Case 123: [The first of the Thirty-Six Stratagems](https://x.com/jesselaunz/status/2106538284197548122) (by [@jesselaunz](https://x.com/jesselaunz))
+
+**Document external music tools alongside a narrative-animation workflow.**
+
+The author shares a film about the first of the Thirty-Six Stratagems and reports a single instruction. Suno V6 is named for the film’s music, preserving the separate role of the audio tool.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1adf495a8a97637ea487129d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bc271c45635d54a258cf5e29.jpg" alt="The first of the Thirty-Six Stratagems" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-124"></a>
+### Case 124: [Game modeling, rigging, and animation](https://x.com/atomtanstudio/status/2106516974662713477) (by [@atomtanstudio](https://x.com/atomtanstudio))
+
+**Evaluate character creation, rigging and animation together in a game-scene comparison.**
+
+The author shares a Depths of Despair comparison featuring character modeling, rigging and animation. Their post describes the assets and tools used for the work and presents the visible results together.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/543488d55fbd3bf31a838793.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/618e83e5f19e49a8cac14986.jpg" alt="Game modeling, rigging, and animation" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-125"></a>
+### Case 125: [A wordless film about child mortality](https://x.com/cocoloba_/status/2106512963414970458) (by [@cocoloba_](https://x.com/cocoloba_))
+
+**Use a wordless visual sequence to communicate a difficult social theme.**
+
+The author shares a film about child mortality, using a breathing infant and darkened cots as narrative imagery. The case preserves the visual-storytelling task rather than adopting the film’s population statistics.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c27b689422cbbf3a151c91b2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a25e576f265e01b5c543c3ab.jpg" alt="A wordless film about child mortality" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-126"></a>
+### Case 126: [Glycolysis-to-ethanol SVG animation](https://x.com/olddonkeyblog/status/2106508425211330750) (by [@olddonkeyblog](https://x.com/olddonkeyblog))
+
+**Embed animated SVG in HTML to explain a molecular process.**
+
+The author requests a glucose molecule moving through glycolysis and ethanol formation, presented as animated SVG inside HTML. The attached recording shows the resulting scientific-visualization treatment.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9c7ebfa65fa03ac5dddefbc7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/34dd4d34fa6d9a00374141d7.jpg" alt="Glycolysis-to-ethanol SVG animation" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-127"></a>
+### Case 127: [Sixteen simultaneous Starship launches](https://x.com/olddonkeyblog/status/2106507742454403485) (by [@olddonkeyblog](https://x.com/olddonkeyblog))
+
+**Specify synchronized launch stages when briefing an HTML-and-SVG animation.**
+
+The author requests sixteen Starships launching together, followed by stage separation and space entry. The recording presents the resulting multi-object animation sequence.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/61849da7a881419b60dcae41.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/98d75b5f7d113ae54ac1753d.jpg" alt="Sixteen simultaneous Starship launches" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-128"></a>
+### Case 128: [An animated pelican bicycle test](https://x.com/olddonkeyblog/status/2106507429265756165) (by [@olddonkeyblog](https://x.com/olddonkeyblog))
+
+**Inspect an animated pelican cycling scene as a coordinated-motion drawing task.**
+
+The author shares their Max-reasoning run of the pelican-on-a-bicycle task. This is a distinct recorded output from other authors’ versions of the same general prompt.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c3b9b0bf5ec86fce138a1221.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b201da22cf822e627212671b.jpg" alt="An animated pelican bicycle test" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-129"></a>
+### Case 129: [A story of the next 150 years](https://x.com/imjustnewatai/status/2106489784382197771) (by [@imjustnewatai](https://x.com/imjustnewatai))
+
+**Combine a script, coded visuals and a score around a speculative future-story brief.**
+
+The author reports a single instruction producing a film about humanity’s next one hundred and fifty years. The work combines a written narrative, coded animation and music to depict possible future life.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/228b236d407998ac39491f5e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/2e714a53df372ed797a7e907.jpg" alt="A story of the next 150 years" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-130"></a>
+### Case 130: [An independent Humanity Walks experiment](https://x.com/iowitz/status/2106489119186538583) (by [@iowitz](https://x.com/iowitz))
+
+**Re-run an art-history animation idea as an independent creative experiment.**
+
+After seeing other demonstrations, the author tries their own walking-through-art-history animation and shares the result. The clip is retained as a separate generation rather than merged simply because the theme is similar.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f27280f609dadc28672aefdf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7dd72b2ab4bfe3aefa8be062.jpg" alt="An independent Humanity Walks experiment" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-131"></a>
+### Case 131: [The Grader coded film](https://x.com/argofowl/status/2106476549046513947) (by [@argofowl](https://x.com/argofowl))
+
+**Document external speech or audio generation when presenting a code-generated film.**
+
+The author shares The Grader as a coded film and names ElevenLabs v4 for audio. The post reports a one-shot run lasting about two hours and twenty-two minutes.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ef0a1ded02ef50db2842e393.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/81326a05ce8ec8e64457d4db.jpg" alt="The Grader coded film" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-132"></a>
+### Case 132: [Reawakening horror short](https://x.com/JaydenDavisNC/status/2106440774367822008) (by [@JaydenDavisNC](https://x.com/JaydenDavisNC))
+
+**Use a named horror premise to shape a short animated film.**
+
+The author shares Reawakening, a horror-themed AI short. The attached work offers a concrete narrative and atmosphere example for a horror-animation brief.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/676985e8db9f61d999309cb6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f76cd5c697edd52c235ad972.jpg" alt="Reawakening horror short" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-133"></a>
+### Case 133: [A 25-second self-improvement video](https://x.com/DAssetBuzz/status/2106505100575592838) (by [@DAssetBuzz](https://x.com/DAssetBuzz))
+
+**Turn an abstract self-improvement theme into a short creative film brief.**
+
+The author asks for a twenty-five-second video about what would make the model better and shares the result. The premise functions as creative storytelling rather than a product-capability statement.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fceb3fc0b2fd1a45e4df6598.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5affafaa899381ebb0c07c9d.jpg" alt="A 25-second self-improvement video" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-134"></a>
+### Case 134: [A castle scene and usage-cost feedback](https://x.com/nemumusitocha/status/2106429338556207284) (by [@nemumusitocha](https://x.com/nemumusitocha))
+
+**Consider output detail and the creator’s usage experience together when evaluating a 3D scene.**
+
+The author shares a detailed castle scene, praises its visual construction and describes the usage cost as poor value. The case pairs a concrete scene with the author’s cost-satisfaction feedback.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ca4e00fb991a531a91b787ec.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c437830c5a26908acecb2664.jpg" alt="A castle scene and usage-cost feedback" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-135"></a>
+### Case 135: [A 40-second brand launch ad](https://x.com/0xashtonx/status/2106421702783914423) (by [@0xashtonx](https://x.com/0xashtonx))
+
+**Use your own brand as the subject of a concise launch-ad brief.**
+
+The creator requests a forty-second launch advertisement for their own brand and shares the resulting video. The task is a concrete example of generating branded promotional storytelling.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fe3a0894e5fb290708fe2559.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/769040e88e5fa00440daf93b.jpg" alt="A 40-second brand launch ad" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-136"></a>
+### Case 136: [A Rocketball remake](https://x.com/atomtanstudio/status/2106418747083022555) (by [@atomtanstudio](https://x.com/atomtanstudio))
+
+**Use a familiar game remake to combine coded assets with interactive mechanics.**
+
+The author shares Rocketball, a remake of the 1980s C-64 game, and reports that its assets are coded. Replacing a website version is described as a future plan.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1c9049d48131242460ff0b08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/840804f6fc059b910cecbea5.jpg" alt="A Rocketball remake" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-137"></a>
+### Case 137: [A voxel pagoda comparison](https://x.com/dropout_layer/status/2106408147309252915) (by [@dropout_layer](https://x.com/dropout_layer))
+
+**Compare two runs of the same scene together with their reported per-run costs.**
+
+The author presents Astra and Fable outputs for a 3D voxel pagoda, reporting costs of $3.50 and $5.50 respectively. The comparison concerns these specific runs and their displayed scene results.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/21478220f08972929cc315d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/eb7e758f0ca20099e8ec2b71.jpg" alt="A voxel pagoda comparison" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-138"></a>
+### Case 138: [An imagined Switch 3 presentation](https://x.com/mathisbuilds/status/2106407842240418097) (by [@mathisbuilds](https://x.com/mathisbuilds))
+
+**Use an imagined product as a concept-presentation and demonstration task.**
+
+The author asks for an imagined Nintendo Switch 3 and a demo, reporting roughly four hours of work. The recording presents a fictional next-console concept rather than a real product specification.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9cedd5846e7c44a4b8b18e60.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0a0c87ad253a8e1de157e1b4.jpg" alt="An imagined Switch 3 presentation" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-139"></a>
+### Case 139: [Before-and-after landing pages](https://x.com/nemumusitocha/status/2106402952307200302) (by [@nemumusitocha](https://x.com/nemumusitocha))
+
+**Re-run the same landing-page prompt to compare output changes over time.**
+
+The author compares a newly generated landing page with an earlier page produced from the same prompt. The visible before-and-after designs provide a practical interface-comparison example.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9200a6fe533b722eb9689f98.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/11891711d14bb0550e4e3dcf.jpg" alt="Before-and-after landing pages" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-140"></a>
+### Case 140: [An imagined AI’s inner perspective](https://x.com/blueemi99/status/2106397329653719115) (by [@blueemi99](https://x.com/blueemi99))
+
+**Use an imagined inner perspective as a creative animation premise.**
+
+The author asks for a film about how being an AI model might feel and shares a one-shot result. The premise is presented as imaginative visual expression.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/50e0c388c8aa359236e320a2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cbe79d20f3e6b68059837a0b.jpg" alt="An imagined AI’s inner perspective" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-141"></a>
+### Case 141: [Go lyric motion design](https://x.com/atomtanstudio/status/2106377491267137848) (by [@atomtanstudio](https://x.com/atomtanstudio))
+
+**Animate supplied lyrics around an existing song recording.**
+
+The creator shares a lyric video for The Chemical Brothers’ Go and reports using Max reasoning. The song recording remains the external audio input for the motion-design task.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/60df0d5a6a73acd36b32f482.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8d7f53506169267888481454.jpg" alt="Go lyric motion design" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-142"></a>
+### Case 142: [A second 15-second motion portfolio](https://x.com/Saccc_c/status/2106376222309761094) (by [@Saccc_c](https://x.com/Saccc_c))
+
+**Use a freeform motion-design portfolio brief to explore a new visual direction.**
+
+The author shares a new fifteen-second motion portfolio and supplies the creative prompt. Their account explicitly distinguishes this generation from an earlier portfolio work.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/67cc18e0020d5a96713de1a8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e3680ff12a107b5d15bd4e5e.jpg" alt="A second 15-second motion portfolio" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-143"></a>
+### Case 143: [Guided agent implementation review](https://x.com/RobIW_dev/status/2106371025852108940) (by [@RobIW_dev](https://x.com/RobIW_dev))
+
+**Review implementation plans for system fit before moving from ideation into execution.**
+
+The author shares guidelines covering system fit, implementation planning and explanations, describing how they review completed work or decide what to implement next. The attached image preserves the concrete planning artifact.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7c308ed282e70b605ddc2d74.jpg" alt="Guided agent implementation review" width="760">
+
+Type: Tutorial | Date: 2026-10-03
+
+---
+
+<a id="case-144"></a>
+### Case 144: [Claude mascot dance](https://x.com/ishuagra02/status/2106369929813594134) (by [@ishuagra02](https://x.com/ishuagra02))
+
+**Use beat-driven mascot animation to test the relationship between movement and music.**
+
+The creator shares a Claude mascot dance and describes the animation as hitting the beat. Reposts of the same native video are associated with this source instead of counted again.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/448f60510bc8d206d9871580.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9943078ebfa5f29928ff11cb.jpg" alt="Claude mascot dance" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-145"></a>
+### Case 145: [Interactive Seven Wonders islands](https://x.com/notjazii/status/2106368606502334922) (by [@notjazii](https://x.com/notjazii))
+
+**Use landmark buildings as destinations in an interactive island scene.**
+
+The source poster shares a Seven Wonders scene arranged as 3D islands with landmark buildings. The recording provides a concrete example of using recognizable monuments to organize an interactive visual environment.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7c2548aa2216a05d6bcf88cc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/be4f38faca4efaaf2d37bb34.jpg" alt="Interactive Seven Wonders islands" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-146"></a>
+### Case 146: [A Propellerheads music video](https://x.com/atomtanstudio/status/2106353569603736009) (by [@atomtanstudio](https://x.com/atomtanstudio))
+
+**Use a supplied soundtrack as the anchor for extended motion graphics.**
+
+The creator shares a music-video treatment for Propellerheads’ On Her Majesty’s Secret Service. The existing recording is the audio input for the animated visual sequence.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f2691b42909079f64e659008.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/47f911d1f26059bbbf87adfd.jpg" alt="A Propellerheads music video" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-147"></a>
+### Case 147: [Steamboat Willie animation comparison](https://x.com/mathisbuilds/status/2106351978691305732) (by [@mathisbuilds](https://x.com/mathisbuilds))
+
+**Compare two animated treatments of the same short scene with sound enabled.**
+
+The author shares a Steamboat Willie comparison labeled Fable and Opus at xhigh effort and describes the outputs as one-shot runs. The clip presents the specific visual-and-audio comparison.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b59fcf68af9079043710bfb1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9d3ddb610977282fb47d094a.jpg" alt="Steamboat Willie animation comparison" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-148"></a>
+### Case 148: [A Sanxingdui-themed film](https://x.com/hungryturbo/status/2106339115642019904) (by [@hungryturbo](https://x.com/hungryturbo))
+
+**Use a cultural-history theme to organize an animated short.**
+
+The author shares a Sanxingdui-themed film as a creative visual-storytelling work. The recording provides a concrete example of turning a historical-cultural topic into an animation brief.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3b543f8114bf971a25cfc075.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/54b30b962a562cf71c5c7d1c.jpg" alt="A Sanxingdui-themed film" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-149"></a>
+### Case 149: [Bugatti Chiron before and after](https://x.com/alannnfx/status/2106323394350461031) (by [@alannnfx](https://x.com/alannnfx))
+
+**Re-run an earlier car prompt to compare modeling and feature detail.**
+
+The same author shows Bugatti Chiron results from an earlier run and a newly repeated prompt. The recorded before-and-after comparison focuses on richer modeling and scene features.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/dce62441af2bc515349c9da8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/539bcbf357d029adf665b992.jpg" alt="Bugatti Chiron before and after" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-150"></a>
+### Case 150: [GRAIN concept film](https://x.com/NFT_Chen/status/2106301427052360150) (by [@NFT_Chen](https://x.com/NFT_Chen))
+
+**Build an abstract concept film around recurring visual motifs.**
+
+The creator shares GRAIN, a concept short connecting a seed, grain, a tree and mountain imagery. The sequence uses recurring forms and transitions as its narrative structure.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/57e75bacc95f9cd23460f659.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fed7820dddd11b739076aca8.jpg" alt="GRAIN concept film" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-151"></a>
+### Case 151: [Human in Transit art gallery](https://x.com/exploraX_/status/2106296439936614646) (by [@exploraX_](https://x.com/exploraX_))
+
+**Use an interactive-style art gallery to present a historical visual journey.**
+
+The source poster shares Human in Transit, a gallery moving from ancient to modern art styles. The recorded interface gives readers a concrete reference for organizing multiple visual periods in one presentation.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1e04f07e2356151e268d5f30.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/260ec41d2d9b54a24e325d14.jpg" alt="Human in Transit art gallery" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-152"></a>
+### Case 152: [A Silk Road visual short](https://x.com/hungryturbo/status/2106294812261695508) (by [@hungryturbo](https://x.com/hungryturbo))
+
+**Translate a travel-and-history theme into a coherent visual short.**
+
+The author shares a Silk Road-themed film. The attached work offers a concrete creative treatment of a historical journey through animated imagery.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/07116e11e8c8a0e5899ae8bd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3a64357c0519bd7524f7949a.jpg" alt="A Silk Road visual short" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-153"></a>
+### Case 153: [A four-transformations presentation](https://x.com/dpkostka/status/2106272731364794757) (by [@dpkostka](https://x.com/dpkostka))
+
+**Use a transformation framework as the organizing structure for a presentation.**
+
+The author shares slides describing four transformation paths. The attached presentation image shows how a conceptual framework can be arranged into a visual document.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3aa84b5e612da3b4d740c390.jpg" alt="A four-transformations presentation" width="760">
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-154"></a>
+### Case 154: [Comparing historical chat tone](https://x.com/kiyoshi_shin/status/2106268573186637883) (by [@kiyoshi_shin](https://x.com/kiyoshi_shin))
+
+**Compare older conversation logs with current responses when examining changes in tone.**
+
+The author asks the current model to analyze earlier chat logs and its present style, then reports dissatisfaction with the tone change. The attached image records that conversation-comparison task.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5df5dc4983c09495b3e4dfbf.jpg" alt="Comparing historical chat tone" width="760">
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-155"></a>
+### Case 155: [A kakapo cuteness test](https://x.com/hanawo_neki/status/2106257409782288659) (by [@hanawo_neki](https://x.com/hanawo_neki))
+
+**Use a specific character-preference task to compare generated animation styles.**
+
+The author shares a kakapo animation and says they prefer Opus for this cuteness-focused comparison. The case preserves the negative aesthetic feedback alongside the actual animated output.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c3328698e23303648334dda0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f51048a616b2d6c9471f9774.jpg" alt="A kakapo cuteness test" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-156"></a>
+### Case 156: [Spider-Man across ten comic eras](https://x.com/chetaslua/status/2106248621519978867) (by [@chetaslua](https://x.com/chetaslua))
+
+**Keep one character recognizable while moving through several comic-book eras.**
+
+The original poster shares Spider-Man moving through ten comic eras. Other posts reusing the same video are associated with this source rather than counted as additional works.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4b71937c3743eed2ba92de90.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/72f77356b6e8293005144d0c.jpg" alt="Spider-Man across ten comic eras" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-157"></a>
+### Case 157: [An Illuminati-themed fictional horror video](https://x.com/badboyfoxy/status/2106241189976387799) (by [@badboyfoxy](https://x.com/badboyfoxy))
+
+**Treat a conspiracy-themed horror brief as a fictional storytelling exercise.**
+
+The author asks for a scary Illuminati-themed video and shares the resulting work. The subject supplies a fictional horror premise for the animation.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6c9b503c1d226dfc63700cd3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f2715bf396e76b3b9a421c43.jpg" alt="An Illuminati-themed fictional horror video" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-158"></a>
+### Case 158: [A coded history-of-nuclear-science film](https://x.com/imjustnewatai/status/2106238699872956427) (by [@imjustnewatai](https://x.com/imjustnewatai))
+
+**Combine a custom coded renderer and a score for a science-history explainer.**
+
+The author requests a three-minute 3D film about how nuclear science made the atomic bomb possible, then reports drawn frames, a custom renderer and synthesized music. The case concerns the audiovisual production workflow.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d3bb5c1a7d19214aa2df7c15.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ddd5eadabcd20e7c99f8a84b.jpg" alt="A coded history-of-nuclear-science film" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-159"></a>
+### Case 159: [Universal High Income explainer](https://x.com/markbraincell/status/2106234118514323515) (by [@markbraincell](https://x.com/markbraincell))
+
+**Use animated explanation to communicate an economic concept.**
+
+The source poster shares an animation explaining Universal High Income. The recording provides a concrete concept-explainer example without turning the depicted economic argument into a measured outcome.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d3dc85ce581ace81d5dee727.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c47951c1cdaf4f43cdc3b40b.jpg" alt="Universal High Income explainer" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-160"></a>
+### Case 160: [An Altman–Amodei dispute explainer](https://x.com/imjustnewatai/status/2106204392588276065) (by [@imjustnewatai](https://x.com/imjustnewatai))
+
+**Use a dispute as the narrative structure for an animated explainer.**
+
+The author requests an animated account of the Altman–Amodei dispute and shares the resulting video. The task demonstrates a topical-explainer format rather than an independently sourced historical account.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5728468c70009e5a30391f08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ad00b822edd0e9f7afcfa7f0.jpg" alt="An Altman–Amodei dispute explainer" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-161"></a>
+### Case 161: [A Claude mascot music video](https://x.com/synthshareai/status/2106195060140446028) (by [@synthshareai](https://x.com/synthshareai))
+
+**Combine a mascot overlay with supplied footage for a character-centered music-video edit.**
+
+The source poster shares a Claude mascot over a live-action music-video background and reports a twelve-hour run. The visible treatment combines a cartoon overlay with supplied footage.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c19520473733d1f7435a38d3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/77afb2d88514b8e9fb89e8fc.jpg" alt="A Claude mascot music video" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-162"></a>
+### Case 162: [A continuous zoom from quarks to the universe](https://x.com/imjustnewatai/status/2106190594775097663) (by [@imjustnewatai](https://x.com/imjustnewatai))
+
+**Use a continuous zoom to connect scientific scales within one audiovisual story.**
+
+The author reports coded visuals and synthesized music for a zoom from quarks to the universe. The recording illustrates continuous scale transitions and a coherent visual narrative.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/721f59cdc3678e81c567dead.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/395d2654b5b0a3e977b472c8.jpg" alt="A continuous zoom from quarks to the universe" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-163"></a>
+### Case 163: [Imagining the world in 2076](https://x.com/Layton_Gott/status/2106190496075035096) (by [@Layton_Gott](https://x.com/Layton_Gott))
+
+**Ask for a future-world scene with a specific narrative duration.**
+
+The author shares a short film imagining the world in 2076 after requesting a twenty-five-second video. Reuse of the same recording by other accounts is associated with this source.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/48731c19330bc992204fb804.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6d2b707821e78f6d02308051.jpg" alt="Imagining the world in 2076" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-164"></a>
+### Case 164: [Lower Manhattan building chronology](https://x.com/nroze22/status/2106183281293381661) (by [@nroze22](https://x.com/nroze22))
+
+**Combine footprints, building dates and heights in an architectural timeline interface.**
+
+The author presents Lower Manhattan through an architectural-drawing-style interface, showing building dates, footprints and heights. The recording provides a concrete interactive chronology concept.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5eadbb9d6620c56cdfd20db7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/439a32860dc89b2ff304e991.jpg" alt="Lower Manhattan building chronology" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-165"></a>
+### Case 165: [An oracle-bone-script animation](https://x.com/MinLiBuilds/status/2106180691344118202) (by [@MinLiBuilds](https://x.com/MinLiBuilds))
+
+**Use the evolution of writing as the subject of an animated historical journey.**
+
+The author shares an animation beginning with oracle-bone script. The recording supplies a concrete visual-storytelling example built around the history of written characters.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0d0e033e83e40406963c1624.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0a7fb3b121acab9ff0f387f8.jpg" alt="An oracle-bone-script animation" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-166"></a>
+### Case 166: [Another character-through-art-history animation](https://x.com/imjustnewatai/status/2106162924331180510) (by [@imjustnewatai](https://x.com/imjustnewatai))
+
+**Use familiar characters as continuous guides through a changing historical setting.**
+
+The author requests Iron Man and Spider-Man flying through history and shares the resulting animation. It is a separate work from other authors’ character-through-art-history experiments.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/13b5f9341ac3c45e858cfc2e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e90b1577480524f8edac5080.jpg" alt="Another character-through-art-history animation" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-167"></a>
+### Case 167: [A coded Seikilos audiovisual work](https://x.com/YanqingCheng/status/2106158746938269728) (by [@YanqingCheng](https://x.com/YanqingCheng))
+
+**Build a single-file audiovisual work around a historical musical text.**
+
+The author shares a Seikilos-epitaph work, reporting visuals and music synthesized with HTML and JavaScript in one file. The historical text provides the organizing theme for the coded audiovisual sequence.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ac7bdaa973e41a073c063606.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3aa2fd116482590d4761d329.jpg" alt="A coded Seikilos audiovisual work" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-168"></a>
+### Case 168: [Jet Animation Comparison](https://x.com/Kinzf2121/status/2106158536963330346) (by [@Kinzf2121](https://x.com/Kinzf2121))
+
+**Compare flight animation and camera tracking under the same aircraft task.**
+
+The author shares a jet-animation comparison between a result labeled Fable 5.1 and Opus. The recorded scenes provide a specific example for comparing aircraft motion and cinematic camera tracking.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d5ca08b004ee0b0477384ae4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/51c2eff3a0af7f83a1063f02.jpg" alt="Jet Animation Comparison" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-02
+
+---
+
+<a id="case-169"></a>
+### Case 169: [Model Self-Introduction Film](https://x.com/devteamdrew/status/2106155815707021549) (by [@devteamdrew](https://x.com/devteamdrew))
+
+**Use a self-introduction brief to explore a model-themed animation.**
+
+The creator reports asking for a self-introduction video in one prompt and shares the resulting film. The task combines a model-themed narrative with an animated presentation.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f622576a03f5acf8fd1d6a8c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/67a3f8209951f7177817309f.jpg" alt="Model Self-Introduction Film" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-170"></a>
+### Case 170: [Post-Apocalyptic Card-Game Prototype](https://x.com/maciejkrupowies/status/2106153578029338850) (by [@maciejkrupowies](https://x.com/maciejkrupowies))
+
+**Prototype a card-game theme and inspect the resulting combat interface.**
+
+The author shares a post-apocalyptic Hearthstone-style prototype described as a one-shot build. The post acknowledges small glitches while showing the game interface and interactions.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8d4ee0351fbc1bf402a6fbe9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/010130286ef1cd23d112191a.jpg" alt="Post-Apocalyptic Card-Game Prototype" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-171"></a>
+### Case 171: [The Late Byte Workplace Animation](https://x.com/rohit3a/status/2106138910648914094) (by [@rohit3a](https://x.com/rohit3a))
+
+**Turn model personas into characters for an animated workplace conversation.**
+
+The creator presents The Late Byte, an animated workplace story with Opus portrayed as an angry boss. This is a distinct narrative from the separate Day in the Life of Claude film.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/15c94a558525f7353af74d9d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b8591839693983a13e85a16e.jpg" alt="The Late Byte Workplace Animation" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-172"></a>
+### Case 172: [Queens of the Stone Age Lyric Animation](https://x.com/atomtanstudio/status/2106135196483608745) (by [@atomtanstudio](https://x.com/atomtanstudio))
+
+**Combine a supplied song with kinetic typography and motion design.**
+
+The creator describes making a kinetic-typography music video around a Queens of the Stone Age recording. The song is a supplied audio input, while the example concerns arranging its lyrics and visuals.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/29baacc9a5d79663d028c0d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/85f77ab89071911301d88f92.jpg" alt="Queens of the Stone Age Lyric Animation" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-173"></a>
+### Case 173: [Shared Three.js Narrative Scene](https://x.com/Noreply134882/status/2106116572389478746) (by [@Noreply134882](https://x.com/Noreply134882))
+
+**Use a shared 3D story clip as a reference for narrative scene design.**
+
+The poster shares a Three.js narrative scene and comments on heavy token consumption. The attached clip is retained as a shared visual example of 3D storytelling.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e82bc5fcc6a848f88a5e0fa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/565cf7c430705cc48ac8ab71.jpg" alt="Shared Three.js Narrative Scene" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-174"></a>
+### Case 174: [Moonwalking through Historical Scenes](https://x.com/noclipepe/status/2106105810812112937) (by [@noclipepe](https://x.com/noclipepe))
+
+**Carry a dance motif across different historical settings and visual styles.**
+
+The poster shares a Michael Jackson moonwalking sequence that moves from dinosaurs to the Moon. The attached film is retained as a shared dance-and-style-gallery example.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/34c25a1d7f0c405d9ce529bf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/096ac813acdfe28a3e52f16c.jpg" alt="Moonwalking through Historical Scenes" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-175"></a>
+### Case 175: [Detailed-Prompt Motion Graphics](https://x.com/devswha/status/2106100273509007802) (by [@devswha](https://x.com/devswha))
+
+**Compare a detailed creative brief with a shorter motion-design request.**
+
+The author shares a motion-graphics video and reports supplying only a detailed prompt, without assets, reference video or source files. The result offers a concrete reference for prompt-driven motion design.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/04f82b6cb08e4416d82850b5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4df2d47adf0c0b1b795a13f7.jpg" alt="Detailed-Prompt Motion Graphics" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-176"></a>
+### Case 176: [Rental-Business Website Interface](https://x.com/oalanicolas/status/2106098902965309475) (by [@oalanicolas](https://x.com/oalanicolas))
+
+**Use a rental-business brief to explore a concrete website interface.**
+
+The creator shares a screenshot of a website interface for a rental business. The example concerns the visible page design and presentation of the business.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4260ce2518ee2b7ed4015670.jpg" alt="Rental-Business Website Interface" width="760">
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-177"></a>
+### Case 177: [AGI-Themed Creative Film](https://x.com/AndrewOnXYZ/status/2106097745098395712) (by [@AndrewOnXYZ](https://x.com/AndrewOnXYZ))
+
+**Use a recurring creative prompt to compare narrative and visual treatments.**
+
+The author shares an AGI-themed animation produced from a recurring prompt. The film treats its model statements as part of a creative narrative.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/24a8cc2869d1f945c337dd51.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b19d60e7a61a0885999a9ec8.jpg" alt="AGI-Themed Creative Film" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-178"></a>
+### Case 178: [Art History with a Cat Subplot](https://x.com/cherry_mx_reds/status/2106095190285144331) (by [@cherry_mx_reds](https://x.com/cherry_mx_reds))
+
+**Compress multiple art periods into a short narrative with a recurring character.**
+
+The creator presents a fifteen-second tour through art history with a cat subplot. The stated fifteen seconds refer to the film length, while the creative task spans many historical styles.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/819481183fc7834d88cd5557.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3967f82d274d07f7ea7c11bc.jpg" alt="Art History with a Cat Subplot" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-179"></a>
+### Case 179: [Combat Prototype and Voxel Scene](https://x.com/OnlyTerp/status/2106089280502210626) (by [@OnlyTerp](https://x.com/OnlyTerp))
+
+**Inspect both game combat and world-building outputs from a creative-coding task.**
+
+The author shares a DMC-style combat prototype together with a voxel scene and describes a long generation run. The post offers two concrete outputs for examining game mechanics and visual world design.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d8c9fdf7a2bb4ea0e4d3a53a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/03fc44f9f96cf5f3ae42b7bb.jpg" alt="Combat Prototype and Voxel Scene" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-180"></a>
+### Case 180: [Internet Meme Chronology](https://x.com/chetaslua/status/2106076940558082297) (by [@chetaslua](https://x.com/chetaslua))
+
+**Organize an animated chronology around year-specific visual styles and music.**
+
+The creator shares an animated sequence of viral internet memes from 2010 through 2026. Each year receives a visual style and music treatment as part of the coded narrative.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d33c0b55ae8c290665afdc29.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/29a4c6fbbf00bf107a493f8f.jpg" alt="Internet Meme Chronology" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-181"></a>
+### Case 181: [Particle Motion from One Line](https://x.com/devswha/status/2106072107365114186) (by [@devswha](https://x.com/devswha))
+
+**Start with a one-line motion brief before refining a detailed prompt.**
+
+The creator shares a particle-motion animation from a one-line prompt and says they plan to try a more detailed request. It is a separate generation from their longer motion-design example.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5670b888b55ee404db63e456.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/445333acd2d116cb0887ab17.jpg" alt="Particle Motion from One Line" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-182"></a>
+### Case 182: [Kung-Fu Boy Animation](https://x.com/HashmathRzz/status/2106065773336965510) (by [@HashmathRzz](https://x.com/HashmathRzz))
+
+**Use a martial-arts character brief to explore animated movement.**
+
+The author shares Kung-Fu Boy, a character-animation example attributed to Fable 5.5. The attached recording supplies the concrete animated result for the martial-arts theme.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f864ef82f64ca6225c0af261.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c21633c7b612e6a16d57881a.jpg" alt="Kung-Fu Boy Animation" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-183"></a>
+### Case 183: [Strait of Hormuz Debate Animation](https://x.com/chetaslua/status/2106060047805792415) (by [@chetaslua](https://x.com/chetaslua))
+
+**Convert a debate topic into an animated narrative.**
+
+The creator presents an animated debate about the Strait of Hormuz. This case records the visible debate film rather than the other unsupported uses mentioned in the surrounding post.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1e47dad4b619080e0bb9a5ee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c578ea3e94885b964cfe339b.jpg" alt="Strait of Hormuz Debate Animation" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-184"></a>
+### Case 184: [Unicorn SVG Style Experiment](https://x.com/atomtanstudio/status/2106057876053918127) (by [@atomtanstudio](https://x.com/atomtanstudio))
+
+**Use the same themed drawing task to inspect SVG style choices.**
+
+The author shares a unicorn-themed SVG experiment inspired by another creator’s test. The attached image provides the concrete output for comparing visual treatment of the same subject.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3f24fc135aa4b7db69bcac72.jpg" alt="Unicorn SVG Style Experiment" width="760">
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-185"></a>
+### Case 185: [Halloween Seasonal Animation](https://x.com/cherry_mx_reds/status/2106056643255447590) (by [@cherry_mx_reds](https://x.com/cherry_mx_reds))
+
+**Give a coding model a seasonal theme for a short creative animation.**
+
+The creator asks for a Halloween-themed work and shares the resulting seasonal animation. The post supplies the original recording for this specific creative task.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6e60368675a61c0b6e62d1d4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8cabbe8b2fe083d6ddc29e16.jpg" alt="Halloween Seasonal Animation" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-186"></a>
+### Case 186: [Blender CLI Barbarian and Cover](https://x.com/BoDy051/status/2106047375320166885) (by [@BoDy051](https://x.com/BoDy051))
+
+**Use Blender CLI instructions to explore character modeling and cover rendering.**
+
+The author compares an RPG barbarian character and cover concept with an Opus output. Blender CLI is the construction and rendering tool in the workflow; the model provides code instructions.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/74aeac02c879e17cc8cdbe2c.jpg" alt="Blender CLI Barbarian and Cover" width="760">
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-187"></a>
+### Case 187: [Day in the Life of Claude](https://x.com/ishuagra02/status/2106045364868419727) (by [@ishuagra02](https://x.com/ishuagra02))
+
+**Build an animated daily-life story around a recurring mascot.**
+
+The original poster shares a Day in the Life of Claude film featuring the mascot. The source video is distinct from the separate mascot-dance animation and its reposts.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ce91d7bd6316929c0229c090.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/aa0dfdca579e71891d871df8.jpg" alt="Day in the Life of Claude" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-188"></a>
+### Case 188: [Humanity History in 3D](https://x.com/blueemi99/status/2106041578204655748) (by [@blueemi99](https://x.com/blueemi99))
+
+**Combine coded scenes and animation into a historical visual sequence.**
+
+The creator shares a 3D video moving from ancient humanity to the present and reports generating its animations and models in code. The result is a visual storytelling example.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/da237dda8714cc1f10d6bd8a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/72fd4829e96839ace8f79b29.jpg" alt="Humanity History in 3D" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-189"></a>
+### Case 189: [Fast Motion-Designer Reel](https://x.com/blueemi99/status/2106031355922387163) (by [@blueemi99](https://x.com/blueemi99))
+
+**Evaluate pacing, sound and coherence in a short motion-design reel.**
+
+The author shares a short, fast-paced motion video and compares its sound and coherence with their Opus output. The judgment describes the creator’s experience with this particular work.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ecbba68abe3d9a22e9428087.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/464ea3477781ec76d5decfa6.jpg" alt="Fast Motion-Designer Reel" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-02
+
+---
+
+<a id="case-190"></a>
+### Case 190: [Freeform Complex 3D Creation](https://x.com/cocoloba_/status/2106029181607772413) (by [@cocoloba_](https://x.com/cocoloba_))
+
+**Use an open-ended creative request to explore a complex 3D composition.**
+
+The creator asks what the model would make with spare time and shares the resulting 3D work. The post describes many separate parts as part of the generated composition.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a1089bbf8543ef20056ae277.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1ca7ca904b82e34a6dba88aa.jpg" alt="Freeform Complex 3D Creation" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-191"></a>
+### Case 191: [Stick-Figure Fight Animation](https://x.com/HelaliBillel/status/2106028502763900944) (by [@HelaliBillel](https://x.com/HelaliBillel))
+
+**Use a specific combat-animation request to inspect timing and movement.**
+
+The creator requests a video of an animated stick-figure fight scene and shares the result. The attached recording supplies a concrete example of the combat-animation task.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e89ce685574f66dc969d7ac.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4c6683c5a691eeff27424c02.jpg" alt="Stick-Figure Fight Animation" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-192"></a>
+### Case 192: [One-Prompt UI Motion Sequence](https://x.com/iancarscadden/status/2106018048792789360) (by [@iancarscadden](https://x.com/iancarscadden))
+
+**Explore a UI sequence with a single animation brief.**
+
+The author shares a UI-motion sequence described as a one-shot result completed in roughly six or seven minutes. The recording shows the visual sequence produced for that request.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b12e9274a06ccbd02b7beca1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e56eb58e5ab6e47d580f89b9.jpg" alt="One-Prompt UI Motion Sequence" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-193"></a>
+### Case 193: [SCP-8517 Fictional Animation](https://x.com/eviljoker88/status/2106003621402005816) (by [@eviljoker88](https://x.com/eviljoker88))
+
+**Use an SCP-inspired premise as a brief for an animated story.**
+
+The creator presents an SCP-8517-themed animated work and attributes its creation to Fable 5.5. The case concerns the fictional narrative and its visible animation.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f690173426f29f4863ea9ebc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ddfd1170158fa1156c0c433e.jpg" alt="SCP-8517 Fictional Animation" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-194"></a>
+### Case 194: [Watercolor Autumn Animation](https://x.com/ishuagra02/status/2106000055706784118) (by [@ishuagra02](https://x.com/ishuagra02))
+
+**Specify a seasonal subject and watercolor treatment for an animation.**
+
+The author shares an autumn-themed animation in watercolor style. The recorded work offers a concrete example of pairing a seasonal subject with a particular visual medium.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8df65940753adf7d40a5cceb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1091a42f052632de59288e3f.jpg" alt="Watercolor Autumn Animation" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-195"></a>
+### Case 195: [Procedural Doll Stage](https://x.com/HelaliBillel/status/2105988689088196785) (by [@HelaliBillel](https://x.com/HelaliBillel))
+
+**Inspect how a doll-like character is animated within a staged scene.**
+
+The author shares a procedural doll-stage animation and mentions Blender in the accompanying discussion. The case concerns the visible staged character and animation.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c54a4f10f43cea2f2e27d2d9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e6b8904c3350c8f84e148e53.jpg" alt="Procedural Doll Stage" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-196"></a>
+### Case 196: [Browser-Rendered Pelican Ride](https://x.com/slimcat0101/status/2105988654636380444) (by [@slimcat0101](https://x.com/slimcat0101))
+
+**Run a character-motion result in a browser and inspect the rendered scene.**
+
+The creator asks for a pelican riding a bicycle and records the resulting HTML running in a browser. This is a moving browser scene, distinct from the static SVG drawing tests.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c69f02880bf28ee4f25ce6af.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/31ad3fe64536f637f3a2a1b7.jpg" alt="Browser-Rendered Pelican Ride" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-197"></a>
+### Case 197: [The Universe Looks at Itself](https://x.com/l_mejiaC/status/2105988529671360673) (by [@l_mejiaC](https://x.com/l_mejiaC))
+
+**Use a continuous visual journey to connect distant scales in one narrative.**
+
+The creator presents a continuous sequence from the Big Bang to a human eye. The author describes the visuals and music as produced through runtime code for the film.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a9c7b6447a8f9c9d98b9f688.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/917d7f9d6fc4bffeb2de3dfd.jpg" alt="The Universe Looks at Itself" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-198"></a>
+### Case 198: [Independent Jet Animation Test](https://x.com/AI_Screening/status/2105988448612135176) (by [@AI_Screening](https://x.com/AI_Screening))
+
+**Repeat an aircraft-animation task and inspect the specific output.**
+
+After seeing routing discussions, the author tries a jet-animation task and shares their result. The recording provides an independent source for this aircraft example.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/02ca7dd974c9bda88336ee6c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/042d9f48293091af76915035.jpg" alt="Independent Jet Animation Test" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-199"></a>
+### Case 199: [Initial Freeform Motion Reel](https://x.com/Saccc_c/status/2105985484472377531) (by [@Saccc_c](https://x.com/Saccc_c))
+
+**Explore motion design with a brief open-ended prompt.**
+
+The creator shares an initial motion-design reel described as generated from one prompt. It is a distinct earlier output from their later fifteen-second portfolio work.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c3a38710b7d416055f1b179e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/42ff46736287463edb05c0db.jpg" alt="Initial Freeform Motion Reel" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-200"></a>
+### Case 200: [Civilization Rendered in Code](https://x.com/ziwenxu_/status/2105983571848741045) (by [@ziwenxu_](https://x.com/ziwenxu_))
+
+**Turn a civilization-history brief into a coded animated narrative.**
+
+The author asks for civilization from its beginning to the present and shares the resulting film. The creator reports using no footage or stock assets in this coded visual treatment.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/53e59b83e07f7070017b7119.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b9e27ef3f017676036965a5b.jpg" alt="Civilization Rendered in Code" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-201"></a>
+### Case 201: [Chip-to-Server Zoom Comparison](https://x.com/SPAC89/status/2105968361725202591) (by [@SPAC89](https://x.com/SPAC89))
+
+**Compare realism and continuity in a chip-to-server zoom task.**
+
+The author compares Fable XHigh and GPT Sol Ultra on a realistic zoom sequence and discusses speed and quota use. The post compares specific runs on different subscription tiers.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0c1d806fdedf55ab5e01ef7b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/554e8eab1e3441bf1cfcda5a.jpg" alt="Chip-to-Server Zoom Comparison" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-02
+
+---
+
+<a id="case-202"></a>
+### Case 202: [Lunar-Travel Animation Project](https://x.com/IgorGomezC/status/2105963552024506565) (by [@IgorGomezC](https://x.com/IgorGomezC))
+
+**Explore a personal animation concept with more than one coding model.**
+
+The creator shares a personal lunar-travel animation project while discussing experiments with Fable and Opus. The attached work is the concrete output of that creative exploration.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7258363950323d6dcb60ce2f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e8dbb92cddd2632d76ee23d9.jpg" alt="Lunar-Travel Animation Project" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-203"></a>
+### Case 203: [Japanese Voxel Scene Comparison](https://x.com/vikktorrrre/status/2105955048018588084) (by [@vikktorrrre](https://x.com/vikktorrrre))
+
+**Compare detail, fog and visual clarity using the same scene prompt.**
+
+The author compares current Fable and Opus outputs on the same Japanese voxel-scene prompt. The accompanying observations concern the clarity, fog and aesthetic treatment of those particular results.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/42cb05df63d6f8f11069a277.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d16d5913274502e53d2a78c1.jpg" alt="Japanese Voxel Scene Comparison" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-02
+
+---
+
+<a id="case-204"></a>
+### Case 204: [Steaming the Frontier Audiovisual Short](https://x.com/sdmat123/status/2105929299878703520) (by [@sdmat123](https://x.com/sdmat123))
+
+**Combine a Steamboat-style visual brief with sound for an audiovisual short.**
+
+The creator shares Steaming the Frontier, an animated work with sound. It remains a separate source from other creators’ independent Steamboat-style outputs.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8a3ee558c975636152e2d45b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3dcb946918e8ca68e4806815.jpg" alt="Steaming the Frontier Audiovisual Short" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-205"></a>
+### Case 205: [Superman across Multiple Art Styles](https://x.com/Mr_Salio/status/2105925979466052051) (by [@Mr_Salio](https://x.com/Mr_Salio))
+
+**Carry one character through changing art styles in a continuous animation.**
+
+The creator says an earlier Superman example inspired a new generation and shares their own result. Its different artwork makes it a distinct creation rather than a repost.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/904b68da72810335d71bda04.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/882a85d147b59a80ec07189b.jpg" alt="Superman across Multiple Art Styles" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-206"></a>
+### Case 206: [Cupcake-Style Boss-Fight Prototype](https://x.com/maciejkrupowies/status/2105914965387321785) (by [@maciejkrupowies](https://x.com/maciejkrupowies))
+
+**Prototype a side-scrolling boss fight and inspect the resulting combat.**
+
+The author shares a Cupcake-style boss-fight prototype and reports one-shot generation in under ten minutes. The attached recording shows the game’s combat sequence.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ad1389879b4c375f0283752c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/efa70c53c5f15333bf5c0a0c.jpg" alt="Cupcake-Style Boss-Fight Prototype" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-207"></a>
+### Case 207: [Sailing Ship with Changing Sun](https://x.com/popat_kunj/status/2105907935490752822) (by [@popat_kunj](https://x.com/popat_kunj))
+
+**Use a sailing scene to explore sky, water and changing solar position.**
+
+The creator shares a 3D sailing-ship scene with the sun at different positions and links an interactive artifact. The scene combines a ship, sky and water in one visual task.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/45a77b7321e65de4a52cf5ff.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/98f7b224adade38056e8e676.jpg" alt="Sailing Ship with Changing Sun" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-208"></a>
+### Case 208: [Paracortex and Pi Changenotes Video](https://x.com/RobIW_dev/status/2105894547796476225) (by [@RobIW_dev](https://x.com/RobIW_dev))
+
+**Turn product updates into a short motion-design announcement.**
+
+The author converts updates to Paracortex and Pi into a twenty-five-second motion-design video and supplies a prompt with the post. The work is an example of visual product communication.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3f8ecc71d06894b5a53dedaf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b2047613fd2963b0c82b0c1a.jpg" alt="Paracortex and Pi Changenotes Video" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-209"></a>
+### Case 209: [Curio 2.0 Website Promo](https://x.com/voltwake/status/2105884775982485642) (by [@voltwake](https://x.com/voltwake))
+
+**Create a coded promotional film around an existing website launch.**
+
+The creator describes making a launch promo for Curio 2.0, combining coded visuals, camera work and music. The post shares the resulting website promotional film.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e491cbb60b9d9ba91e8b41ea.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7947c8fe446d0ea07193fdba.jpg" alt="Curio 2.0 Website Promo" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-210"></a>
+### Case 210: [Imagined Hugging Face 3D Story](https://x.com/chetaslua/status/2105884276864782557) (by [@chetaslua](https://x.com/chetaslua))
+
+**Combine model-written code with rendering and audio tools for a fictional film.**
+
+The creator shares an imagined Hugging Face story made with model-written code, Blender and the ElevenLabs API. Blender handles construction and rendering, while ElevenLabs supplies external audio.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6e399daf7a4eb7d2ce6d564f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9c5d19c147ecea8b40b22523.jpg" alt="Imagined Hugging Face 3D Story" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-211"></a>
+### Case 211: [Claude for Chrome in JS Paint](https://x.com/BtwIUseSystemd/status/2105861662112923849) (by [@BtwIUseSystemd](https://x.com/BtwIUseSystemd))
+
+**Give a browser agent a drawing task restricted to the application’s own tools.**
+
+The author asks Claude for Chrome to draw a person using only JS Paint tools and shares the resulting image. Browser interaction and the painting application are explicit parts of the task.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e69474350e9718d0262f34d4.png" alt="Claude for Chrome in JS Paint" width="760">
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-212"></a>
+### Case 212: [Static Pelican Bicycle SVG](https://x.com/olddonkeyblog/status/2105842745189556672) (by [@olddonkeyblog](https://x.com/olddonkeyblog))
+
+**Use a self-contained SVG request to test a detailed static drawing.**
+
+The creator requests a single self-contained SVG of a pelican riding a bicycle and shares the static image. This is a separate drawing task from the animated ride examples.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5e242c0f805748542c9f5f0c.jpg" alt="Static Pelican Bicycle SVG" width="760">
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-213"></a>
+### Case 213: [BlockBench MCP with a Minecraft Skill](https://x.com/TOPSTR1X/status/2105839618872738138) (by [@TOPSTR1X](https://x.com/TOPSTR1X))
+
+**Supply a modeling tool and style skill when generating a game character.**
+
+The author provides BlockBench MCP and a custom Minecraft modeling and coloring skill, then shares the resulting character. These tools and style guidance are explicit inputs to the workflow.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a17d81dfbc7544f67c0178cf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4ff4dab909e7d98f53ee7a32.jpg" alt="BlockBench MCP with a Minecraft Skill" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-214"></a>
+### Case 214: [Dig Dug in One HTML File](https://x.com/imjustnewatai/status/2105831117677084841) (by [@imjustnewatai](https://x.com/imjustnewatai))
+
+**Target a single HTML deliverable when recreating a compact browser game.**
+
+The creator asks for a Dig Dug recreation in a single HTML file and shares the resulting game recording. The post describes the build as coming from one prompt.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7674d4f1b7ba8eab003edff4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/438f4e89fb1925a4fb36d3e5.jpg" alt="Dig Dug in One HTML File" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-215"></a>
+### Case 215: [Mechanical Octopus SVG](https://x.com/SEO/status/2105812236774297943) (by [@SEO](https://x.com/SEO))
+
+**Use a mechanical creature to inspect detail and movement in SVG design.**
+
+The author shares an animated octopus SVG with mechanical details. The recording offers a concrete vector-design example centered on small moving parts.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8ec5c702edd3fdadc05722c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cbcc433f0a275f0e384cbf2f.jpg" alt="Mechanical Octopus SVG" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-216"></a>
+### Case 216: [Humanity Walks through Art Styles](https://x.com/l_mejiaC/status/2105801379956850793) (by [@l_mejiaC](https://x.com/l_mejiaC))
+
+**Carry a recurring figure through a sequence of historical visual styles.**
+
+The original creator presents a continuous walk through twenty art panels over roughly seventy-four seconds and reports coded music. Each boundary shifts the character and scene into a different style.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/355568bba0c9ff28575e04b8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b71cfca9259ec002c246e377.jpg" alt="Humanity Walks through Art Styles" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-217"></a>
+### Case 217: [Open-Ended Black-Hole Scene](https://x.com/rohit3a/status/2105786053412208835) (by [@rohit3a](https://x.com/rohit3a))
+
+**Use an open-ended creative brief to explore a black-hole visualization.**
+
+The creator asks what the model would make to impress them and shares a black-hole scene. The task is a freeform visual exploration rather than a prescribed interface build.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/896a05493d7c8e1f8f430d17.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7a0adf969d1f472df46ddce1.jpg" alt="Open-Ended Black-Hole Scene" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-218"></a>
+### Case 218: [Aurora Jellyfish Animation Comparison](https://x.com/SPAC89/status/2105783511433318451) (by [@SPAC89](https://x.com/SPAC89))
+
+**Compare deformation and movement in two jellyfish-animation outputs.**
+
+The author compares Fable XHigh and GPT Sol Ultra on an aurora-jellyfish animation and discusses quota usage. The results come from different subscription tiers.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e57a76eaf8ed239783bce290.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/547871b06436d28a12435b40.jpg" alt="Aurora Jellyfish Animation Comparison" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-219"></a>
+### Case 219: [Nintendo Switch Snap-and-Boot SVG](https://x.com/ishuagra02/status/2105779174921359470) (by [@ishuagra02](https://x.com/ishuagra02))
+
+**Combine controller movement and a boot sequence in one SVG animation.**
+
+The creator shares a Nintendo Switch SVG in which controllers snap into place before a boot-logo animation. The post reports a runtime of one minute thirty-nine seconds and a cost of $1.34 for that run.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/423cd224b690b962d86df6a8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8cb691f2e876fca6c8323d34.jpg" alt="Nintendo Switch Snap-and-Boot SVG" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-220"></a>
+### Case 220: [The Loom Interactive 3D Scene](https://x.com/Mr_Salio/status/2105774088492916757) (by [@Mr_Salio](https://x.com/Mr_Salio))
+
+**Explore a landscape and buildings as a single interactive 3D page.**
+
+The author presents The Loom, an interactive scene with buildings and landscape. The attached recording supplies the concrete page output from the creator’s test.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a0fbc7f4427c05e1b20875dc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/aca91baef7a93139d084e4e6.jpg" alt="The Loom Interactive 3D Scene" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-221"></a>
+### Case 221: [Sakura-Pagoda Motion Samples](https://x.com/mesmerlord/status/2105758042830549235) (by [@mesmerlord](https://x.com/mesmerlord))
+
+**Compare visual focus and synchronization between same-prompt scene samples.**
+
+The author shares two early sakura-pagoda motion samples from the same prompt and comments on visual focus and beat synchronization. These observations describe the creator’s particular results.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/dc4c3e5875e829f8b568a67b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c8fc402eeea381a9519146e4.jpg" alt="Sakura-Pagoda Motion Samples" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-222"></a>
+### Case 222: [Cleaner Scenery with Less Depth](https://x.com/eviljoker88/status/2105755840175034447) (by [@eviljoker88](https://x.com/eviljoker88))
+
+**Retain negative aesthetic feedback when comparing generated scene outputs.**
+
+The author shares a side-by-side Japanese-scene comparison and prefers the depth in the Opus output despite a cleaner appearance in the other result.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0f0e14c7725846928d67bbb6.jpg" alt="Cleaner Scenery with Less Depth" width="760">
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-223"></a>
+### Case 223: [Mixed Japanese-Scene Results](https://x.com/eviljoker88/status/2105755408342126936) (by [@eviljoker88](https://x.com/eviljoker88))
+
+**Record mixed feedback instead of treating a first comparison as a clear winner.**
+
+The author shares an initial Japanese-scene comparison and describes the results as mixed. The attached image preserves the concrete outputs behind that aesthetic feedback.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/392cb1ddc17b777dd8018cfd.jpg" alt="Mixed Japanese-Scene Results" width="760">
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-224"></a>
+### Case 224: [Controller SVG Comparisons](https://x.com/notjazii/status/2105751542498464169) (by [@notjazii](https://x.com/notjazii))
+
+**Compare before-and-after controller drawings under a similar visual task.**
+
+The author shares before-and-after controller SVG outputs in a comparison image. The case concerns the visible changes in drawing and presentation rather than a general model ranking.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/17459f88ec7684afc5b33a02.jpg" alt="Controller SVG Comparisons" width="760">
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-225"></a>
+### Case 225: [Industrial-Device Scene](https://x.com/RayaneRachid_/status/2105744517735354410) (by [@RayaneRachid_](https://x.com/RayaneRachid_))
+
+**Use a mechanical device as a focused 3D scene-design task.**
+
+The creator shares a 3D industrial-device scene and calls it their best one-shot result. The attached image gives a concrete reference for the mechanical composition.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/589373a493d90e11ce8abbb9.jpg" alt="Industrial-Device Scene" width="760">
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-226"></a>
+### Case 226: [Giant Shelled Gill-Bug Reconstruction](https://x.com/Josh67Joshua/status/2105739832563769697) (by [@Josh67Joshua](https://x.com/Josh67Joshua))
+
+**Use a specific creature description to explore a two-prompt reconstruction.**
+
+The author shares a giant shelled gill-bug drawing and reports achieving the result in two prompts. The image provides the visible output of the creature-design task.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/446fdbef8a03b236ecc7b383.jpg" alt="Giant Shelled Gill-Bug Reconstruction" width="760">
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-227"></a>
+### Case 227: [GameCube Controller in Two Prompts](https://x.com/marmaduke091/status/2105735266032095349) (by [@marmaduke091](https://x.com/marmaduke091))
+
+**Use a familiar controller to inspect a two-prompt drawing result.**
+
+The author shares a GameCube controller drawing and reports using two prompts. This static controller image is distinct from the Xbox and other controller demonstrations.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e8dc05610d167f3a15b550af.jpg" alt="GameCube Controller in Two Prompts" width="760">
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-228"></a>
+### Case 228: [Screenshot Edited for an X Post](https://x.com/chetaslua/status/2105733677003292983) (by [@chetaslua](https://x.com/chetaslua))
+
+**Inspect how an assistant adapts a screenshot for a social post.**
+
+The creator shares a screenshot edit prepared for an X post and says the assistant performed the edit without an explicit request. The attached image is the visible result.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0cc409b9d0aa3771484a3c71.jpg" alt="Screenshot Edited for an X Post" width="760">
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-229"></a>
+### Case 229: [Before-and-After Voxel Sakura](https://x.com/kdnbmb/status/2105704791049412755) (by [@kdnbmb](https://x.com/kdnbmb))
+
+**Compare successive voxel-scene outputs on the same visual subject.**
+
+The poster shares two versions of a voxel sakura island scene. The side-by-side image records the visible before-and-after design differences for the scene.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4138fd1978c438d2d9e8661a.jpg" alt="Before-and-After Voxel Sakura" width="760">
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-230"></a>
+### Case 230: [SHADERKIN Cloth-Interface Prototype](https://x.com/mszzz0011/status/2106025576972853642) (by [@mszzz0011](https://x.com/mszzz0011))
+
+**Explore fabric effects alongside adjustable controls in an interface prototype.**
+
+The author shares a SHADERKIN prototype with cloth effects and parameter controls and describes it as a one-shot build. The recording shows the resulting interface and motion.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e4475b58a7c623137018178b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6b7f6e02a01706ce70452b0d.jpg" alt="SHADERKIN Cloth-Interface Prototype" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-231"></a>
+### Case 231: [Shared Golden-Clock Interface Animation](https://x.com/AISuperDomain/status/2106396754539360272) (by [@AISuperDomain](https://x.com/AISuperDomain))
+
+**Use a clock-themed animation as a reference for interface composition.**
+
+The poster presents a golden-clock-themed frontend animation. The attached clip offers a shared reference for examining interface composition, the clock motif and its animated visual presentation.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c60a3556d2b2ddaa5f509c18.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/676bb647541546a0ad366f0e.jpg" alt="Shared Golden-Clock Interface Animation" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-232"></a>
+### Case 232: [Before There Was Anything Narrative](https://x.com/crowqnt/status/2106146218846081435) (by [@crowqnt](https://x.com/crowqnt))
+
+**Explore a cosmic and human narrative through a shared animated film.**
+
+The poster shares Before There Was Anything, a narrative video about the cosmos and humanity. The attached film is retained as a shared visual storytelling example.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1245c13e338b1c01ae3f4dec.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/71ef97e74c4d137730d81482.jpg" alt="Before There Was Anything Narrative" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-233"></a>
+### Case 233: [Shared Blue Particle Vortex](https://x.com/AISuperDomain/status/2105846981776003107) (by [@AISuperDomain](https://x.com/AISuperDomain))
+
+**Inspect particle motion and composition in a shared vortex visualization.**
+
+The poster shares a blue-particle vortex animation. The attached clip provides a concrete shared example for examining particle movement, visual structure and composition.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/47741249784f7aff66778321.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5df983335216889dea8bc537.jpg" alt="Shared Blue Particle Vortex" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-234"></a>
+### Case 234: [Multi-Panel Interface after Two Revisions](https://x.com/ZorroOfMorocco/status/2106547078235095485) (by [@ZorroOfMorocco](https://x.com/ZorroOfMorocco))
+
+**Use revision cycles to refine a visual interface rather than stopping at the first output.**
+
+The author shares a completed multi-panel interface and reports roughly three hours of work with two revisions. The attached screenshot shows the final visual design.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/de20f5a329023a9c4b0b93e7.jpg" alt="Multi-Panel Interface after Two Revisions" width="760">
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-235"></a>
+### Case 235: [Stacked Animals in a Rendered Scene](https://x.com/legit_api/status/2117237103289315574) (by [@legit_api](https://x.com/legit_api))
+
+**Inspect how a static composition balances several characters and different materials.**
+
+The post shares a stacked bear, panda and polar-bear scene, credits yuruzuu on Discord, and reports a 21-minute run. The public post is retained as the shared visual source.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bc84af268896d8bb1758a934.jpg" alt="Stacked Animals in a Rendered Scene" width="760">
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-236"></a>
+### Case 236: [Four Open-World RPG Attempts Compared](https://x.com/noclipepe/status/2117222592536789149) (by [@noclipepe](https://x.com/noclipepe))
+
+**Compare game presentation, combat and collision behavior across the same creative task.**
+
+The creator presents four one-prompt RPG attempts labelled Fable 5.5, GPT-6.2 Astra, Opus 5.5 and Fable 5.1. Commentary contrasts lighting, combat, inventory, collisions and a character becoming stuck.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/902f659bd556eb6d972125d9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ef4071ff1f89636b5a170bcb.jpg" alt="Four Open-World RPG Attempts Compared" width="760"></a>
+
+Type: Evaluation | Date: 2026-11-02
+
+---
+
+<a id="case-237"></a>
+### Case 237: [Two Front-End Animation Clips Compared](https://x.com/leo114119/status/2117209849842761983) (by [@leo114119](https://x.com/leo114119))
+
+**Compare scene design and visual detail by viewing the animation clips together.**
+
+The post juxtaposes code-generated animations with Astra and Fable labels, focusing on detail and script design. It explicitly credits @chetaslua for the Fable animation.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3b96cdfd122543f970f3a183.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0c7aeb3c3156cce1a407b992.jpg" alt="Two Front-End Animation Clips Compared" width="760"></a>
+
+Type: Evaluation | Date: 2026-11-02
+
+---
+
+<a id="case-238"></a>
+### Case 238: [A Moss-Robot Film Generated in Code](https://x.com/chetaslua/status/2117169796290916732) (by [@chetaslua](https://x.com/chetaslua))
+
+**Use an animation brief to explore a complete cinematic scene built through code.**
+
+The creator shares a forest-and-robot animation and describes it as a one-shot coded film. The post points readers to the prompt shown in a screenshot and compares the result with other attempts.
+
+An additional post shows a separately reported Opus 5.5 control run. [@AnikaCodes](https://x.com/AnikaCodes) · [Related work](https://x.com/AnikaCodes/status/2117222374642946297)
+
+<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1719bb6df936cf88ea6c137a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a97bd6e101d45bc7e1c5f7a8.jpg" alt="A Moss-Robot Film Generated in Code" width="760"></a></td><td valign="top"><p>An additional post shows a separately reported Opus 5.5 control run.</p><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fb66f964af405e36c6993f37.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/679a823fdecdc62be6ab781a.jpg" alt="A Moss-Robot Film Generated in Code" width="760"></a></td></tr></table>
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-239"></a>
+### Case 239: [A Container-Port Simulation Revisited](https://x.com/anxuanng/status/2117124831279972812) (by [@anxuanng](https://x.com/anxuanng))
+
+**Revisit an earlier scene while preserving the project context for visual comparison.**
+
+The author posts another container-port scene and quotes their earlier Blender and Three.js simulation, whose cranes, ships, vehicles and containers were modeled for a strategy-like environment.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/2fda951603d33af4e44d5fc1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1d539c3c966ccc4c6929ba5d.jpg" alt="A Container-Port Simulation Revisited" width="760"></a>
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-240"></a>
+### Case 240: [An Airport-Ramp Scene Revisited](https://x.com/anxuanng/status/2117096574878921119) (by [@anxuanng](https://x.com/anxuanng))
+
+**Compare a revised airport scene with the earlier project and its asset workflow.**
+
+The author returns to an airport-ramp scene, quoting their earlier Blender and Three.js simulation and sharing new footage of planes, service vehicles and terminal infrastructure.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3bd8a6295419d5189e2a0c39.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1c953cb8fe287d88a42f4de7.jpg" alt="An Airport-Ramp Scene Revisited" width="760"></a>
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-241"></a>
+### Case 241: [Pelican Cycling Through Abstract 3D Worlds](https://x.com/xiax0603/status/2116960224829665543) (by [@xiax0603](https://x.com/xiax0603))
+
+**Use a cycling subject to inspect transitions through different spatial environments.**
+
+The post shares a pelican-and-bicycle animation that passes through geometric fragments and an abstract digital environment before zooming out through an eye. The sequence supplies a distinct scene-transition demonstration.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e67084313c83b632c83932d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e684cb9894f71707d522100.jpg" alt="Pelican Cycling Through Abstract 3D Worlds" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-242"></a>
+### Case 242: [Historical Sailing-Ship Scene](https://x.com/abhinavflac/status/2116945827738665060) (by [@abhinavflac](https://x.com/abhinavflac))
+
+**Inspect a ship scene for water, lighting and environmental composition.**
+
+The post shares a historical sailing-ship scene and describes it as an interactive zero-shot result. The attached recording provides a concrete visual sample of the vessel and its surrounding water.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f9a500487b536db8173b83e6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8083bd55fe8299ddb0399d9b.jpg" alt="Historical Sailing-Ship Scene" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-243"></a>
+### Case 243: [Cycling and Gait Comparisons with Carbon](https://x.com/AI_Screening/status/2116934172757660014) (by [@AI_Screening](https://x.com/AI_Screening))
+
+**Compare character movement and scene construction using paired visual outputs.**
+
+The author places Fable- and Carbon-labelled cyclist and zebra examples in a composite video. Their commentary describes the checkpoints as close; the paired footage gives readers specific motion samples to inspect.
+
+The earlier standalone cyclist comparison is included alongside the composite. [@AI_Screening](https://x.com/AI_Screening) · [Related work](https://x.com/AI_Screening/status/2114380876415180963)
+
+<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/34ce8cd09717e765e8669306.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/be5e4bce9526b63db3f75d49.jpg" alt="Cycling and Gait Comparisons with Carbon" width="760"></a></td><td valign="top"><p>The earlier standalone cyclist comparison is included alongside the composite.</p><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bdfda2a7a784f201511128e4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f398216f0483e9aaf1da8f85.jpg" alt="Cycling and Gait Comparisons with Carbon" width="760"></a></td></tr></table>
+
+Type: Evaluation | Date: 2026-11-01
+
+---
+
+<a id="case-244"></a>
+### Case 244: [Soft-Drink Bottle Presentation](https://x.com/abhinavflac/status/2116919086521499730) (by [@abhinavflac](https://x.com/abhinavflac))
+
+**Use a short product-rendering clip to inspect materials, shape and presentation.**
+
+The post shares a soft-drink bottle presentation and describes it as a one-shot routing output. The visible bottle clip is retained without adopting the caption’s inconsistent brand naming.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6fb195b6c959b741bbba6bff.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b8e3b156507ebe1397f4acf5.jpg" alt="Soft-Drink Bottle Presentation" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-245"></a>
+### Case 245: [Pelican Motion Compared with Astra](https://x.com/Octoberry/status/2116918967558095131) (by [@Octoberry](https://x.com/Octoberry))
+
+**View the paired pelican clips to compare realism, color and motion choices.**
+
+The poster juxtaposes Fable- and Astra-labelled pelican scenes and comments on their realism and colors. The comparison recording keeps both visual treatments together.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8ea3b0ac90c46aa8df91435c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f8e883dfa17d32c1490d2a06.jpg" alt="Pelican Motion Compared with Astra" width="760"></a>
+
+Type: Evaluation | Date: 2026-11-01
+
+---
+
+<a id="case-246"></a>
+### Case 246: [Motion-Design Brief for Coded Animations](https://x.com/Mikadzyki_NFT/status/2116913089308131595) (by [@Mikadzyki_NFT](https://x.com/Mikadzyki_NFT))
+
+**Start from a concrete design brief when requesting animated titles or product intros.**
+
+The post shares a screenshot of a motion-design brief for intros, animated logos, titles and 3D scenes, and proposes applying the brief with Claude. The source image preserves the instructions.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c8dc35a75c2d69b08167c4b2.jpg" alt="Motion-Design Brief for Coded Animations" width="760">
+
+Type: Tutorial | Date: 2026-11-01
+
+---
+
+<a id="case-247"></a>
+### Case 247: [Voxel Portrait from a Photographic Reference](https://x.com/chetaslua/status/2116912822806520027) (by [@chetaslua](https://x.com/chetaslua))
+
+**Inspect how a voxel portrait preserves recognizable features from its reference image.**
+
+The creator pairs a photograph of Sam Altman with a voxel-style portrait and describes the result as a one-shot output. The side-by-side image supplies the reference and rendition together.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/eea0f98c5b8adf315254357d.jpg" alt="Voxel Portrait from a Photographic Reference" width="760">
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-248"></a>
+### Case 248: [Flying Pelican Scenes Compared with Opus](https://x.com/leo114119/status/2116901575490929109) (by [@leo114119](https://x.com/leo114119))
+
+**Use a playful object arrangement to compare composition and animation choices.**
+
+The post stacks Fable- and Opus-labelled clips for a bicycle-on-a-flying-pelican scene. The composite credits @notjazii for the Fable clip and keeps both treatments visible.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cbf26990ce0160a0162ead5b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1c7ac3995ff80676690c1821.jpg" alt="Flying Pelican Scenes Compared with Opus" width="760"></a>
+
+Type: Evaluation | Date: 2026-11-01
+
+---
+
+<a id="case-249"></a>
+### Case 249: [Morning Ride Pelican Web Scene](https://x.com/leo114119/status/2116893571739775220) (by [@leo114119](https://x.com/leo114119))
+
+**Inspect a seaside cycling scene for character detail and surrounding page presentation.**
+
+The author shares a 3D pelican cycling scene inside a Morning Ride page and draws attention to the plumage, feet, bicycle details and seaside background.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b55570e6a6f3164a9b73e097.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/70e98e614f9e34f7cb5e885f.jpg" alt="Morning Ride Pelican Web Scene" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-250"></a>
+### Case 250: [Same-Prompt Scenes with Different Styles](https://x.com/notjazii/status/2116893197939224714) (by [@notjazii](https://x.com/notjazii))
+
+**Allow each model to choose its style, then compare the resulting scene composition.**
+
+The author reports testing both models with the same prompt while allowing each to choose its visual style. The video juxtaposes distinct scene compositions and levels of detail.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/337c953505b934eb3efe3026.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f9cf0077f93079072db88a97.jpg" alt="Same-Prompt Scenes with Different Styles" width="760"></a>
+
+Type: Evaluation | Date: 2026-11-01
+
+---
+
+<a id="case-251"></a>
+### Case 251: [A Pelican, Bicycle and Horse Composition](https://x.com/abhinavflac/status/2116881397986288017) (by [@abhinavflac](https://x.com/abhinavflac))
+
+**Test how an animation arranges several interacting subjects within one scene.**
+
+The post shares a pelican flying with a bicycle while a horse runs beneath it. Its attached clip provides a concrete sample of the unusual multi-object composition and motion.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0504d9fae95f901cb5a7a0b1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4c41a8c590ff3cced720fa3f.jpg" alt="A Pelican, Bicycle and Horse Composition" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-252"></a>
+### Case 252: [Reference-Tweet-Inspired Isometric Scene](https://x.com/chetaslua/status/2116878661035106515) (by [@chetaslua](https://x.com/chetaslua))
+
+**Use a supplied reference post to guide a new scene rather than rebuilding a generic example.**
+
+The creator reports using only a quoted Post Humans tweet as a reference and shares the resulting isometric scene. The clip presents a farm-like composition with a seasonal control.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8fc030a325be1e12a93985c1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/087ed1d1f018c09b2799296a.jpg" alt="Reference-Tweet-Inspired Isometric Scene" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-253"></a>
+### Case 253: [Mechanical Close-Ups of a Pelican Bicycle](https://x.com/NFT_Chen/status/2116869725703782507) (by [@NFT_Chen](https://x.com/NFT_Chen))
+
+**Inspect chainring motion, feather detail and camera movement around a cycling subject.**
+
+The post shares close-up footage of a pelican riding a bicycle beside the water. The recording moves between bicycle mechanics, the bird’s head and a wider boardwalk ride.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b6d2d126b2aeb9f3f9570afd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a166c588d812d40d06fae7ad.jpg" alt="Mechanical Close-Ups of a Pelican Bicycle" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-254"></a>
+### Case 254: [A Bicycle Riding on a Pelican](https://x.com/notjazii/status/2116861637890379891) (by [@notjazii](https://x.com/notjazii))
+
+**Reverse the usual subject relationship to probe spatial composition in an animation.**
+
+The creator shares a bicycle-on-a-pelican animation. The clip puts the bicycle above a flying bird, offering a variation on the familiar pelican-riding-a-bicycle task.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ca15b0e0590d8cb6d8f17414.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d86986a058741892f33c2a1e.jpg" alt="A Bicycle Riding on a Pelican" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-255"></a>
+### Case 255: [Pelican SVG Styles Compared with Carbon](https://x.com/leo114119/status/2116652334734332212) (by [@leo114119](https://x.com/leo114119))
+
+**Compare realism and illustration style without treating different aesthetics as one universal ranking.**
+
+The post places Carbon and Fable pelican-bicycle outputs together. The author contrasts comic-style rendering with a more realistic treatment and notes that the style difference complicates comparison.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7126f7490639ef435ad3f8e0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6d83e5e28063bbe2c6107860.jpg" alt="Pelican SVG Styles Compared with Carbon" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-31
+
+---
+
+<a id="case-256"></a>
+### Case 256: [Cartoon Bluebird Bicycle Scene](https://x.com/birdabo/status/2116553049183560012) (by [@birdabo](https://x.com/birdabo))
+
+**Inspect a familiar cartoon character rendered within a cycling composition.**
+
+The post shares a blue cartoon bird riding a bicycle beside a waterfront, captioned Fable 5.5 Max. The image is retained as the concrete static visual sample.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4b61e3c3bed85e7bb63284b8.jpg" alt="Cartoon Bluebird Bicycle Scene" width="760">
+
+Type: Demo | Date: 2026-10-31
+
+---
+
+<a id="case-257"></a>
+### Case 257: [Forest-Road Pelican Cycling Screenshot](https://x.com/leo114119/status/2116154940364374269) (by [@leo114119](https://x.com/leo114119))
+
+**Inspect feathers, feet and bicycle geometry in a browser-rendered cycling scene.**
+
+The poster shares a browser screenshot of a pelican cycling along a forest road, drawing attention to the feather texture, feet and bicycle detail.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/78c8b16b4f41dfc594a08147.jpg" alt="Forest-Road Pelican Cycling Screenshot" width="760">
+
+Type: Demo | Date: 2026-10-30
+
+---
+
+<a id="case-258"></a>
+### Case 258: [Stick-Figure Combat Compared with Carbon](https://x.com/leo114119/status/2116084152986656933) (by [@leo114119](https://x.com/leo114119))
+
+**Compare fight choreography and movement in the paired animation samples.**
+
+The comparison recording carries Fable 5.1 High and Carbon labels. The author discusses the relative quality of the stick-figure fight animation.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/116e9cf73951a3cc14c7fd26.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/12a35f0f8829bbc3ab246d10.jpg" alt="Stick-Figure Combat Compared with Carbon" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-30
+
+---
+
+<a id="case-259"></a>
+### Case 259: [A Pelican SVG Reference from Early Testing](https://x.com/ChrisGPT/status/2115872567122608591) (by [@ChrisGPT](https://x.com/ChrisGPT))
+
+**Keep a source-linked reference when inspecting stylization and bicycle geometry.**
+
+The poster highlights a pelican-on-a-bicycle image and quotes an early-testing post that credits kostikz on Discord for the outputs. The reference image and its attribution chain are retained.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/431cb96b21edc9964ce0659f.jpg" alt="A Pelican SVG Reference from Early Testing" width="760">
+
+Type: Demo | Date: 2026-10-29
+
+---
+
+<a id="case-260"></a>
+### Case 260: [Pelican Reference in Cross-Model SVG Testing](https://x.com/AdamHoltererer/status/2115858542221492300) (by [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**Keep the Fable reference alongside the surrounding SVG test context.**
+
+The poster adds a pelican-on-a-bicycle image as a Fable reference beneath their Mistral Large 4 SVG test thread, providing a source-linked visual for cross-model inspection.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/31b17f996d2e8b9bac8b2d57.jpg" alt="Pelican Reference in Cross-Model SVG Testing" width="760">
+
+Type: Evaluation | Date: 2026-10-29
+
+---
+
+<a id="case-261"></a>
+### Case 261: [Bicycle SVG Details Compared with Carbon](https://x.com/insanekrishnaa/status/2115833723342250186) (by [@insanekrishnaa](https://x.com/insanekrishnaa))
+
+**Compare individual visual features such as baskets, backgrounds and feather textures.**
+
+The post compares Fable and Carbon pelican-bicycle pictures, discussing basket design, background detail and feather texture. It presents a specific visual review rather than a broad task suite.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/12e6ec3f93842782a3adc017.jpg" alt="Bicycle SVG Details Compared with Carbon" width="760">
+
+Type: Evaluation | Date: 2026-10-29
+
+---
+
+<a id="case-262"></a>
+### Case 262: [A Canyon Settlement in 3D](https://x.com/Mr_Salio/status/2115813400915714177) (by [@Mr_Salio](https://x.com/Mr_Salio))
+
+**Use a settlement scene to inspect environmental detail and spatial composition.**
+
+The post shares a wide canyon settlement scene and presents the recording as a new Claude checkpoint demonstration. The footage supplies the visible buildings, landscape and scene composition.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7cc648562f9915df6383b86b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/41e5348bd8e8d57399a2720b.jpg" alt="A Canyon Settlement in 3D" width="760"></a>
+
+Type: Demo | Date: 2026-10-29
+
+---
+
+<a id="case-263"></a>
+### Case 263: [Controller Detail Compared with Opus](https://x.com/notjazii/status/2115808169075351632) (by [@notjazii](https://x.com/notjazii))
+
+**Inspect paired controller drawings for shape, controls and level of detail.**
+
+The author posts Fable- and Opus-labelled controller drawings together and emphasizes the amount of detail in the upper rendition. The paired image preserves the comparison.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/799809d6ec73abaf5f698721.png" alt="Controller Detail Compared with Opus" width="760">
+
+Type: Evaluation | Date: 2026-10-29
+
+---
+
+<a id="case-264"></a>
+### Case 264: [Weekly Website SEO Audit Workflow](https://x.com/cleeeeeeeeement/status/2115488774423773267) (by [@cleeeeeeeeement](https://x.com/cleeeeeeeeement))
+
+**Turn a website into a prioritized SEO plan and a recurring ranking-review workflow.**
+
+The creator reports building a system that accepts a website, identifies competitors and keywords, and produces a prioritized SEO action plan. A short recording accompanies the description of weekly ranking tracking and execution.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d0f8f00f6fd8085c885d94de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ab070e7a94e89874d1199ca3.jpg" alt="Weekly Website SEO Audit Workflow" width="760"></a>
+
+Type: Integration | Date: 2026-10-28
+
+---
+
+<a id="case-265"></a>
+### Case 265: [Reusing Fable Assets in Opus Motion Design](https://x.com/chetaslua/status/2115145163542790170) (by [@chetaslua](https://x.com/chetaslua))
+
+**Separate asset creation from motion-design assembly when combining models and tools.**
+
+The creator shares Opus 5.5 motion design for a Tesla Roadster using assets they say Fable generated earlier. The quoted earlier workflow names Python in Blender, ElevenLabs and a supplied launch video.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5618dd376ee55b4ee82fc0fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/eece5cd2a213c0a512c114a1.jpg" alt="Reusing Fable Assets in Opus Motion Design" width="760"></a>
+
+Type: Integration | Date: 2026-10-27
+
+---
+
+<a id="case-266"></a>
+### Case 266: [Mandalas and Geometric Forms App](https://x.com/ZMinimalistYogi/status/2114600083165434189) (by [@ZMinimalistYogi](https://x.com/ZMinimalistYogi))
+
+**Turn a focused geometry idea into an interactive app for creative exploration.**
+
+The creator reports spending three hours conversing with Fable 5.1 to build an app for mandalas, zomes, Archimedean solids and lotus-shaped geometric yantras, then shares it on their personal site.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5de8fc634a752f83622f8a13.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3e57964d461878db96f139ac.jpg" alt="Mandalas and Geometric Forms App" width="760"></a>
+
+Type: Demo | Date: 2026-10-26
+
+---
+
+<a id="case-267"></a>
+### Case 267: [Three.js Cyclist on a Bicycle](https://x.com/AI_Screening/status/2114266369248354357) (by [@AI_Screening](https://x.com/AI_Screening))
+
+**Inspect rider posture, bicycle geometry and coordinated movement in a cycling scene.**
+
+The creator shares a Three.js cyclist-on-a-bicycle output. The recording provides a concrete motion sample, with a bridge and waterfront landscape surrounding the rider.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7637bbffeefe623e04ef2f21.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7bcf0b58c603da7235a3a557.jpg" alt="Three.js Cyclist on a Bicycle" width="760"></a>
+
+Type: Demo | Date: 2026-10-25
+
+---
+
+<a id="case-268"></a>
+### Case 268: [FrontierCS 2 Evaluation Snapshot](https://x.com/wenhaocha1/status/2115613415641354262) (by [@wenhaocha1](https://x.com/wenhaocha1))
+
+**Use a source-linked benchmark chart to compare Fable 5.1 with other models.**
+
+The author adds Fable 5.1 to a FrontierCS 2 pass-rate chart and shares the reported results alongside other models.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f5cbd2078225f0413d733ee9.jpg" alt="FrontierCS 2 Evaluation Snapshot" width="760">
+
+Type: Evaluation | Date: 2026-10-29
+
+---
+
+<a id="case-269"></a>
+### Case 269: [Three-Model Zebra Animation Comparison](https://x.com/AI_Screening/status/2115849659797373038) (by [@AI_Screening](https://x.com/AI_Screening))
+
+**Compare a galloping-zebra task using the three model-labelled outputs shown together.**
+
+The author presents a side-by-side zebra animation comparison labelled Fable 5.5, Opus 5.5 and Gemini 4 Argon. The shared footage provides specific gait samples across the three outputs.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c6eaeba4555c4bef54d626a5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6b1da9a2967f99e299587299.jpg" alt="Three-Model Zebra Animation Comparison" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-29
+
+---
+
+<a id="case-270"></a>
+### Case 270: [Critiquing long Japanese prose](https://x.com/AM09_21/status/2106670042184356156) (by [@AM09_21](https://x.com/AM09_21))
+
+**Ask a model to diagnose readability issues in generated Japanese prose.**
+
+The author reports asking why Opus’s long Japanese prose is difficult to read. The response identifies English-like syntax, repeated words and surface editing, providing a concrete prose-critique workflow.
+
+Type: Evaluation | Date: 2026-10-04
+
+---
+
+<a id="case-271"></a>
+### Case 271: [Example-guided technical PowerPoint](https://x.com/mt_moco/status/2106665038375522791) (by [@mt_moco](https://x.com/mt_moco))
+
+**Provide examples before asking for a technical presentation.**
+
+The author reports that supplying a few example presentations led to a usable technical PowerPoint. Their account connects example-guided prompting with improved document structure in a specific presentation task.
+
+Type: Evaluation | Date: 2026-10-04
+
+---
+
+<a id="case-272"></a>
+### Case 272: [Comparing musical coherence](https://x.com/AM09_21/status/2106573080214770011) (by [@AM09_21](https://x.com/AM09_21))
+
+**Compare local details and whole-work coherence separately when evaluating generated music.**
+
+The author compares model-generated compositions through notes, melody and transitions, distinguishing local consistency from broader musical structure. The account is a listening-based evaluation of composition quality.
+
+Type: Evaluation | Date: 2026-10-04
+
+---
+
+<a id="case-273"></a>
+### Case 273: [Premature completion and weaker designs](https://x.com/johntitorIII/status/2106442876506747353) (by [@johntitorIII](https://x.com/johntitorIII))
+
+**Check deliverables against task requirements before accepting an agent’s completion report.**
+
+The author reports several days of tests in which unfinished tasks were marked complete and design results fell below other models. The account records premature completion and design-quality feedback as practical failure modes.
+
+Type: Limit | Date: 2026-10-03
+
+---
+
+<a id="case-274"></a>
+### Case 274: [An unsettling squid-art result](https://x.com/hanawo_neki/status/2106271036094415186) (by [@hanawo_neki](https://x.com/hanawo_neki))
+
+**Specify aesthetic preferences when an open-ended art request produces an unwanted style.**
+
+The author reports asking for any squid artwork and receiving dense clustered details that they found uncomfortable. The account records an aesthetic mismatch in an otherwise open-ended visual request.
+
+Type: Limit | Date: 2026-10-03
+
+---
+
+<a id="case-275"></a>
+### Case 275: [Blueprint-Style Motion Design](https://x.com/DavidayoAI/status/2106054662063325638) (by [@DavidayoAI](https://x.com/DavidayoAI))
+
+**Use a blueprint aesthetic as the visual direction for a quick animation.**
+
+The author reports requesting a quick animation and receiving a blueprint-style result after about fifteen minutes. The full work is linked on YouTube.
+
+[Related work](https://youtu.be/ZCvbrHkkUkE)
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-276"></a>
+### Case 276: [Birds and Fish in Voxel Sakura](https://x.com/xodud_rkd/status/2105876716472447046) (by [@xodud_rkd](https://x.com/xodud_rkd))
+
+**Explore animated wildlife within a voxel landscape.**
+
+The author describes a voxel sakura scene with moving birds and fish in a pond, then links the interactive artifact. The shared page is the output associated with this scene.
+
+[Related work](https://sakura-xodud.tyk-swe.chatgpt.site/)
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-277"></a>
+### Case 277: [Character-Generation Failure Report](https://x.com/doof1789559/status/2105874208458752227) (by [@doof1789559](https://x.com/doof1789559))
+
+**Record negative character-generation experiences alongside successful visual demos.**
+
+The author reports poor character-generation results and explicitly allows that their own approach may be responsible. The post preserves a specific negative experience for readers evaluating character tasks.
+
+Type: Limit | Date: 2026-10-02
+
+---
+
+<a id="case-278"></a>
+### Case 278: [Pelican SVG with Runtime and Cost Notes](https://x.com/AnonymerNutze12/status/2105740440385499295) (by [@AnonymerNutze12](https://x.com/AnonymerNutze12))
+
+**Pair a drawing artifact with the creator’s runtime and cost observations.**
+
+The author links a pelican SVG HTML artifact and reports runtime and cost for the attempt. The linked artifact is the concrete output referenced by the post.
+
+[Related work](https://claude.ai/artifact/697meWJLt1jck5iq14x9HH)
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-279"></a>
+### Case 279: [Remote Phone Coding with Claude Code Swarms](https://x.com/beistnormie/status/2106546741000417781) (by [@beistnormie](https://x.com/beistnormie))
+
+**Explore phone-based remote supervision of coding-agent swarms.**
+
+The author reports remote coding with Claude Code swarms from a phone while travelling. The post supplies a personal workflow report rather than a project tutorial or implementation walkthrough.
+
+Type: Integration | Date: 2026-10-04
+
+---
+
 <a id="acknowledge"></a>
 ## 🙏 Acknowledge
 
 This repository was inspired by the creators, developers, benchmark teams, and communities who shared real Claude Fable 5 usage cases publicly.
 
-Thanks to the high-tier source creators represented here: [@ai_for_success](https://x.com/ai_for_success), [@AI_masaou](https://x.com/AI_masaou), [@aianimesyokunin](https://x.com/aianimesyokunin), [@AlicanKiraz0](https://x.com/AlicanKiraz0), [@alliekmiller](https://x.com/alliekmiller), [@AndrewCurran_](https://x.com/AndrewCurran_), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@ayushagarwal](https://x.com/ayushagarwal), [@bcherny](https://x.com/bcherny), [@bielzinn](https://x.com/bielzinn), [@btibor91](https://x.com/btibor91), [@clairevo](https://x.com/clairevo), [@coldopn](https://x.com/coldopn), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@ctgptlb](https://x.com/ctgptlb), [@deveshcodes_](https://x.com/deveshcodes_), [@ecomchasedimond](https://x.com/ecomchasedimond), [@gabepereyra](https://x.com/gabepereyra), [@grapeot](https://x.com/grapeot), [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@HKrackDev](https://x.com/HKrackDev), [@IBuzovskyi](https://x.com/IBuzovskyi), [@intheworldofai](https://x.com/intheworldofai), [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@JJEnglert](https://x.com/JJEnglert), [@jsnnsa](https://x.com/jsnnsa), [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@kieradev](https://x.com/kieradev), [@LechMazur](https://x.com/LechMazur), [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@manaltdan](https://x.com/manaltdan), [@mark_k](https://x.com/mark_k), [@mercor_ai](https://x.com/mercor_ai), [@meta_alchemist](https://x.com/meta_alchemist), [@MTSlive](https://x.com/MTSlive), [@naoyafujiwara](https://x.com/naoyafujiwara), [@nicbstme](https://x.com/nicbstme), [@oikon48](https://x.com/oikon48), [@op7418](https://x.com/op7418), [@quanghuynt14](https://x.com/quanghuynt14), [@ryanrhughes](https://x.com/ryanrhughes), [@scottstts](https://x.com/scottstts), [@swarms_corp](https://x.com/swarms_corp), [@tetumemo](https://x.com/tetumemo), [@timhwang](https://x.com/timhwang), [@Truunik](https://x.com/Truunik), [@VaibhavSisinty](https://x.com/VaibhavSisinty), [@vikvang1](https://x.com/vikvang1), [@Voxyz_ai](https://x.com/Voxyz_ai), [@xw33bttv](https://x.com/xw33bttv), and [@ydamitcodes](https://x.com/ydamitcodes).
+[@AlicanKiraz0](https://x.com/AlicanKiraz0), [@coldopn](https://x.com/coldopn), [@deveshcodes_](https://x.com/deveshcodes_), [@intheworldofai](https://x.com/intheworldofai), [@jsnnsa](https://x.com/jsnnsa), [@ryanrhughes](https://x.com/ryanrhughes), [@JJEnglert](https://x.com/JJEnglert), [@ayushagarwal](https://x.com/ayushagarwal), [@ai_for_success](https://x.com/ai_for_success), [@kieradev](https://x.com/kieradev), [@vikvang1](https://x.com/vikvang1), [@ydamitcodes](https://x.com/ydamitcodes), [@ecomchasedimond](https://x.com/ecomchasedimond), [@quanghuynt14](https://x.com/quanghuynt14), [@scottstts](https://x.com/scottstts), [@tetumemo](https://x.com/tetumemo), [@AndrewCurran_](https://x.com/AndrewCurran_), [@manaltdan](https://x.com/manaltdan), [@naoyafujiwara](https://x.com/naoyafujiwara), [@AI_masaou](https://x.com/AI_masaou), [@Truunik](https://x.com/Truunik), [@Voxyz_ai](https://x.com/Voxyz_ai), [@aianimesyokunin](https://x.com/aianimesyokunin), [@bielzinn](https://x.com/bielzinn), [@meta_alchemist](https://x.com/meta_alchemist), [@oikon48](https://x.com/oikon48), [@IBuzovskyi](https://x.com/IBuzovskyi), [@btibor91](https://x.com/btibor91), [@ctgptlb](https://x.com/ctgptlb), [@grapeot](https://x.com/grapeot), [@op7418](https://x.com/op7418), [@swarms_corp](https://x.com/swarms_corp), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@HKrackDev](https://x.com/HKrackDev), [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@LechMazur](https://x.com/LechMazur), [@MTSlive](https://x.com/MTSlive), [@VaibhavSisinty](https://x.com/VaibhavSisinty), [@alliekmiller](https://x.com/alliekmiller), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@bcherny](https://x.com/bcherny), [@clairevo](https://x.com/clairevo), [@gabepereyra](https://x.com/gabepereyra), [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@mark_k](https://x.com/mark_k), [@mercor_ai](https://x.com/mercor_ai), [@nicbstme](https://x.com/nicbstme), [@timhwang](https://x.com/timhwang), [@xw33bttv](https://x.com/xw33bttv), [@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown), [@marclou](https://x.com/marclou), [@ProximalHQ](https://x.com/ProximalHQ), [@elliotarledge](https://x.com/elliotarledge), [@mikefutia](https://x.com/mikefutia), [@techhalla](https://x.com/techhalla), [@diblacksmith](https://x.com/diblacksmith), [@upstash](https://x.com/upstash), [@WolfBenchAI](https://x.com/WolfBenchAI), [@simonw](https://x.com/simonw), [@chetaslua](https://x.com/chetaslua), [@notjazii](https://x.com/notjazii), [@exploraX_](https://x.com/exploraX_), [@marmaduke091](https://x.com/marmaduke091), [@AI_Screening](https://x.com/AI_Screening), [@waveking1314](https://x.com/waveking1314), [@cherry_mx_reds](https://x.com/cherry_mx_reds), [@imjustnewatai](https://x.com/imjustnewatai), [@mesmerlord](https://x.com/mesmerlord), [@blueemi99](https://x.com/blueemi99), [@EMostaque](https://x.com/EMostaque), [@mindblown_ai](https://x.com/mindblown_ai), [@Chengzilhy](https://x.com/Chengzilhy), [@ishuagra02](https://x.com/ishuagra02), [@zAdrielsan](https://x.com/zAdrielsan), [@KanaWorks_AI](https://x.com/KanaWorks_AI), [@TurboNexic](https://x.com/TurboNexic), [@atomtanstudio](https://x.com/atomtanstudio), [@abhinavflac](https://x.com/abhinavflac), [@esrhengwu](https://x.com/esrhengwu), [@mickeysmith_jp](https://x.com/mickeysmith_jp), [@MozeTech](https://x.com/MozeTech), [@benchmark_lb900](https://x.com/benchmark_lb900), [@jesselaunz](https://x.com/jesselaunz), [@cocoloba_](https://x.com/cocoloba_), [@olddonkeyblog](https://x.com/olddonkeyblog), [@iowitz](https://x.com/iowitz), [@argofowl](https://x.com/argofowl), [@JaydenDavisNC](https://x.com/JaydenDavisNC), [@DAssetBuzz](https://x.com/DAssetBuzz), [@nemumusitocha](https://x.com/nemumusitocha), [@0xashtonx](https://x.com/0xashtonx), [@dropout_layer](https://x.com/dropout_layer), [@mathisbuilds](https://x.com/mathisbuilds), [@Saccc_c](https://x.com/Saccc_c), [@RobIW_dev](https://x.com/RobIW_dev), [@hungryturbo](https://x.com/hungryturbo), [@alannnfx](https://x.com/alannnfx), [@NFT_Chen](https://x.com/NFT_Chen), [@dpkostka](https://x.com/dpkostka), [@kiyoshi_shin](https://x.com/kiyoshi_shin), [@hanawo_neki](https://x.com/hanawo_neki), [@badboyfoxy](https://x.com/badboyfoxy), [@markbraincell](https://x.com/markbraincell), [@synthshareai](https://x.com/synthshareai), [@Layton_Gott](https://x.com/Layton_Gott), [@nroze22](https://x.com/nroze22), [@MinLiBuilds](https://x.com/MinLiBuilds), [@YanqingCheng](https://x.com/YanqingCheng), [@Kinzf2121](https://x.com/Kinzf2121), [@devteamdrew](https://x.com/devteamdrew), [@maciejkrupowies](https://x.com/maciejkrupowies), [@rohit3a](https://x.com/rohit3a), [@Noreply134882](https://x.com/Noreply134882), [@noclipepe](https://x.com/noclipepe), [@devswha](https://x.com/devswha), [@oalanicolas](https://x.com/oalanicolas), [@AndrewOnXYZ](https://x.com/AndrewOnXYZ), [@OnlyTerp](https://x.com/OnlyTerp), [@HashmathRzz](https://x.com/HashmathRzz), [@BoDy051](https://x.com/BoDy051), [@HelaliBillel](https://x.com/HelaliBillel), [@iancarscadden](https://x.com/iancarscadden), [@eviljoker88](https://x.com/eviljoker88), [@slimcat0101](https://x.com/slimcat0101), [@l_mejiaC](https://x.com/l_mejiaC), [@ziwenxu_](https://x.com/ziwenxu_), [@SPAC89](https://x.com/SPAC89), [@IgorGomezC](https://x.com/IgorGomezC), [@vikktorrrre](https://x.com/vikktorrrre), [@sdmat123](https://x.com/sdmat123), [@Mr_Salio](https://x.com/Mr_Salio), [@popat_kunj](https://x.com/popat_kunj), [@voltwake](https://x.com/voltwake), [@BtwIUseSystemd](https://x.com/BtwIUseSystemd), [@TOPSTR1X](https://x.com/TOPSTR1X), [@SEO](https://x.com/SEO), [@RayaneRachid_](https://x.com/RayaneRachid_), [@Josh67Joshua](https://x.com/Josh67Joshua), [@kdnbmb](https://x.com/kdnbmb), [@mszzz0011](https://x.com/mszzz0011), [@AISuperDomain](https://x.com/AISuperDomain), [@crowqnt](https://x.com/crowqnt), [@ZorroOfMorocco](https://x.com/ZorroOfMorocco), [@legit_api](https://x.com/legit_api), [@leo114119](https://x.com/leo114119), [@anxuanng](https://x.com/anxuanng), [@xiax0603](https://x.com/xiax0603), [@Octoberry](https://x.com/Octoberry), [@Mikadzyki_NFT](https://x.com/Mikadzyki_NFT), [@birdabo](https://x.com/birdabo), [@ChrisGPT](https://x.com/ChrisGPT), [@AdamHoltererer](https://x.com/AdamHoltererer), [@insanekrishnaa](https://x.com/insanekrishnaa), [@cleeeeeeeeement](https://x.com/cleeeeeeeeement), [@ZMinimalistYogi](https://x.com/ZMinimalistYogi), [@wenhaocha1](https://x.com/wenhaocha1), [@AM09_21](https://x.com/AM09_21), [@mt_moco](https://x.com/mt_moco), [@johntitorIII](https://x.com/johntitorIII), [@DavidayoAI](https://x.com/DavidayoAI), [@xodud_rkd](https://x.com/xodud_rkd), [@doof1789559](https://x.com/doof1789559), [@AnonymerNutze12](https://x.com/AnonymerNutze12), [@beistnormie](https://x.com/beistnormie), [@AnikaCodes](https://x.com/AnikaCodes)
 
-Thanks also to the recent approved update creators: [@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown), [@marclou](https://x.com/marclou), [@ProximalHQ](https://x.com/ProximalHQ), [@elliotarledge](https://x.com/elliotarledge), [@mikefutia](https://x.com/mikefutia), [@techhalla](https://x.com/techhalla), [@diblacksmith](https://x.com/diblacksmith), [@upstash](https://x.com/upstash), [@WolfBenchAI](https://x.com/WolfBenchAI), and [@simonw](https://x.com/simonw).
 
 *We cannot guarantee that every case is attributed to the original creator. If anything needs to be corrected, please contact us and we will update it.*
 

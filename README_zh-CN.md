@@ -37,7 +37,7 @@
 <a id="-overview"></a>
 ## 📊 概览
 
-- **88 个精选 Claude Fable 5 案例**，来自公开创作者、开发者、基准测试团队和工具构建者。
+- **88 个原有 Fable 5 案例，加上 191 个社区案例，共 279 个案例。**
 - 覆盖编码代理、长时间自动化、游戏、视觉设计、3D 模拟、知识工作、教程、API 集成、基准、定价和发布限制。
 - 每个案例都包含原始来源、创作者署名、简明要点、证据类型和发布日期。
 - 使用本仓库查找实用工作流、比较优势与限制、发现可复现提示词，并跟踪集成示例。
@@ -213,6 +213,203 @@ curl --request POST \
 | [API 访问截止追踪器](#case-88) | 如果你的工作流依赖持续访问某个可能被限流或撤下的 frontier 模型，就用脚本监控可用性。 | 集成 |
 
 
+
+### [🆕 Fable 5.5 社区演示](#fable-5-5-community-demos)
+
+| 案例 | 类型 |
+|---|---|
+| [用代码生成带声音的狐狸动画](#case-89) | Demo |
+| [从开放式创意要求生成动画](#case-90) | Demo |
+| [建筑公司的动态 3D 网站](#case-91) | Demo |
+| [Three.js 汽车展示场景](#case-92) | Demo |
+| [Minecraft 风格浏览器游戏演示](#case-93) | Demo |
+| [Three.js 鹈鹕骑车动画](#case-94) | Demo |
+| [附完整短提示词的鹈鹕骑车 SVG](#case-95) | Demo |
+| [斑马奔跑动画样本](#case-96) | Demo |
+| [由人手动执行交易的 TradingView 指标](#case-97) | Demo |
+| [从一个点展开的动画故事](#case-98) | Demo |
+| [在不同画风间切换的超人](#case-99) | Demo |
+| [配有音乐的人类进步动画](#case-100) | Demo |
+| [与 Opus 对比的发布视频](#case-101) | Evaluation |
+| [把歌词与事件连接成画面](#case-102) | Demo |
+| [漂浮场景中的体素角色](#case-103) | Demo |
+| [3D 鲁布·戈德堡机械演示](#case-104) | Demo |
+| [带声音与运动的 3D 手柄界面](#case-105) | Demo |
+| [用 JavaScript 展示漫画角色](#case-106) | Demo |
+| [包含世界、首领和榜单的 Updraft](#case-107) | Demo |
+| [在旧金山地图中驾驶](#case-108) | Demo |
+| [为 Seedance 动作场景写提示词](#case-109) | Demo |
+| [桌面协作助手的介绍视频](#case-110) | Demo |
+| [简短要求生成变换画风的动画](#case-111) | Demo |
+| [三体问题可视化](#case-112) | Demo |
+| [多种画风的动画画廊](#case-113) | Demo |
+| [机器人伙伴与程序化毛发](#case-114) | Demo |
+| [数学主题动态剪辑](#case-115) | Demo |
+| [Your Woman 歌词视频](#case-116) | Demo |
+| [用 JavaScript 重绘音乐视频](#case-117) | Demo |
+| [中国足球主题动画](#case-118) | Demo |
+| [掌机模型的重拓扑展示](#case-119) | Demo |
+| [Minecraft 与 Pokémon 的结合](#case-120) | Demo |
+| [解释大语言模型如何制作](#case-121) | Demo |
+| [Altman 主题精彩剪辑](#case-122) | Demo |
+| [《三十六计》第一计动画](#case-123) | Demo |
+| [游戏建模、绑定与动画](#case-124) | Demo |
+| [关于儿童死亡的无对白影片](#case-125) | Demo |
+| [从糖酵解到乙醇的 SVG 动画](#case-126) | Demo |
+| [十六艘 Starship 同步发射](#case-127) | Demo |
+| [鹈鹕骑车动画测试](#case-128) | Demo |
+| [未来一百五十年的故事](#case-129) | Demo |
+| [独立尝试 Humanity Walks](#case-130) | Demo |
+| [代码制作的 The Grader 影片](#case-131) | Demo |
+| [恐怖短片 Reawakening](#case-132) | Demo |
+| [二十五秒的自我改进视频](#case-133) | Demo |
+| [城堡场景与使用费用反馈](#case-134) | Evaluation |
+| [四十秒品牌发布广告](#case-135) | Demo |
+| [Rocketball 游戏重制](#case-136) | Demo |
+| [体素宝塔场景对比](#case-137) | Evaluation |
+| [想象中的 Switch 3 发布展示](#case-138) | Demo |
+| [着陆页的前后对比](#case-139) | Evaluation |
+| [想象中的 AI 内在视角](#case-140) | Demo |
+| [Go 歌词动态设计](#case-141) | Demo |
+| [第二支十五秒动态作品集](#case-142) | Demo |
+| [引导式代理实施审查](#case-143) | Tutorial |
+| [Claude 吉祥物舞蹈](#case-144) | Demo |
+| [可交互的世界七大奇迹群岛](#case-145) | Demo |
+| [Propellerheads 音乐视频](#case-146) | Demo |
+| [Steamboat Willie 动画对比](#case-147) | Evaluation |
+| [三星堆主题影片](#case-148) | Demo |
+| [Bugatti Chiron 的前后对比](#case-149) | Evaluation |
+| [GRAIN 概念短片](#case-150) | Demo |
+| [Human in Transit 艺术画廊](#case-151) | Demo |
+| [丝绸之路视觉短片](#case-152) | Demo |
+| [四种转型路径的演示文稿](#case-153) | Demo |
+| [比较历史对话的语气](#case-154) | Evaluation |
+| [鸮鹦鹉可爱度测试](#case-155) | Evaluation |
+| [蜘蛛侠穿越十个漫画时代](#case-156) | Demo |
+| [光明会题材的虚构恐怖视频](#case-157) | Demo |
+| [代码制作的核科学史影片](#case-158) | Demo |
+| [全民高收入概念解说](#case-159) | Demo |
+| [Altman 与 Amodei 争论的动画解说](#case-160) | Demo |
+| [Claude 吉祥物音乐视频](#case-161) | Demo |
+| [从夸克到宇宙的连续缩放](#case-162) | Demo |
+| [想象 2076 年的世界](#case-163) | Demo |
+| [曼哈顿下城建筑时间线](#case-164) | Demo |
+| [甲骨文主题动画](#case-165) | Demo |
+| [角色穿越艺术史的另一种尝试](#case-166) | Demo |
+| [代码制作的塞基洛斯视听作品](#case-167) | Demo |
+| [喷气飞机动画对比](#case-168) | Evaluation |
+| [模型自我介绍影片](#case-169) | Demo |
+| [末日风格卡牌游戏原型](#case-170) | Demo |
+| [The Late Byte 职场动画](#case-171) | Demo |
+| [Queens of the Stone Age 歌词动画](#case-172) | Demo |
+| [分享的 Three.js 叙事场景](#case-173) | Demo |
+| [穿越历史场景的月球步](#case-174) | Demo |
+| [详细提示词生成的动态图形](#case-175) | Demo |
+| [租赁业务网站界面](#case-176) | Demo |
+| [AGI 主题创意影片](#case-177) | Demo |
+| [带猫咪支线的艺术史动画](#case-178) | Demo |
+| [战斗原型与体素场景](#case-179) | Demo |
+| [互联网迷因时间线](#case-180) | Demo |
+| [一行提示生成的粒子运动](#case-181) | Demo |
+| [Kung-Fu Boy 动画](#case-182) | Demo |
+| [霍尔木兹海峡辩论动画](#case-183) | Demo |
+| [独角兽 SVG 风格实验](#case-184) | Demo |
+| [万圣节主题动画](#case-185) | Demo |
+| [Blender CLI 野蛮人角色与封面](#case-186) | Demo |
+| [Claude 的一天](#case-187) | Demo |
+| [3D 人类历史](#case-188) | Demo |
+| [快节奏动态设计作品](#case-189) | Evaluation |
+| [自由发挥的复杂 3D 创作](#case-190) | Demo |
+| [火柴人格斗动画](#case-191) | Demo |
+| [一次提示生成 UI 动效序列](#case-192) | Demo |
+| [SCP-8517 虚构动画](#case-193) | Demo |
+| [水彩秋日动画](#case-194) | Demo |
+| [程序化玩偶舞台](#case-195) | Demo |
+| [浏览器渲染的鹈鹕骑行](#case-196) | Demo |
+| [宇宙凝视自身](#case-197) | Demo |
+| [独立喷气飞机动画测试](#case-198) | Demo |
+| [最初的自由动效作品](#case-199) | Demo |
+| [用代码呈现文明史](#case-200) | Demo |
+| [芯片到服务器的缩放对比](#case-201) | Evaluation |
+| [月球旅行个人动画项目](#case-202) | Demo |
+| [日式体素场景对比](#case-203) | Evaluation |
+| [Steaming the Frontier 视听短片](#case-204) | Demo |
+| [超人穿越多种美术风格](#case-205) | Demo |
+| [Cupcake 风格首领战原型](#case-206) | Demo |
+| [太阳位置变化的帆船场景](#case-207) | Demo |
+| [Paracortex 与 Pi 更新说明视频](#case-208) | Demo |
+| [Curio 2.0 网站宣传片](#case-209) | Demo |
+| [想象中的 Hugging Face 3D 故事](#case-210) | Demo |
+| [Claude for Chrome 操作 JS Paint](#case-211) | Demo |
+| [静态鹈鹕骑车 SVG](#case-212) | Demo |
+| [BlockBench MCP 与 Minecraft 技能](#case-213) | Demo |
+| [单个 HTML 文件中的 Dig Dug](#case-214) | Demo |
+| [机械章鱼 SVG](#case-215) | Demo |
+| [Humanity Walks 穿越艺术风格](#case-216) | Demo |
+| [开放式黑洞场景](#case-217) | Demo |
+| [极光水母动画对比](#case-218) | Evaluation |
+| [Nintendo Switch 拼合与开机 SVG](#case-219) | Demo |
+| [The Loom 交互式 3D 场景](#case-220) | Demo |
+| [樱花宝塔动态样本](#case-221) | Evaluation |
+| [更干净但纵深更弱的场景](#case-222) | Evaluation |
+| [表现有好有坏的日式场景](#case-223) | Evaluation |
+| [手柄 SVG 对比](#case-224) | Evaluation |
+| [工业设备 3D 场景](#case-225) | Demo |
+| [巨大带壳鳃虫重建](#case-226) | Demo |
+| [两轮提示绘制 GameCube 手柄](#case-227) | Demo |
+| [为 X 帖子编辑截图](#case-228) | Demo |
+| [体素樱花的前后对比](#case-229) | Evaluation |
+| [SHADERKIN 布料界面原型](#case-230) | Demo |
+| [分享的金色钟表界面动画](#case-231) | Demo |
+| [Before There Was Anything 叙事影片](#case-232) | Demo |
+| [分享的蓝色粒子涡旋](#case-233) | Demo |
+| [经过两轮修改的多面板界面](#case-234) | Demo |
+| [叠放动物的渲染场景](#case-235) | Demo |
+| [四次开放世界 RPG 尝试对比](#case-236) | Evaluation |
+| [两段前端代码动画对比](#case-237) | Evaluation |
+| [代码生成的苔藓机器人影片](#case-238) | Demo |
+| [重新制作集装箱港口模拟](#case-239) | Demo |
+| [重新制作机场机坪场景](#case-240) | Demo |
+| [鹈鹕骑车穿越抽象 3D 世界](#case-241) | Demo |
+| [历史帆船场景](#case-242) | Demo |
+| [与 Carbon 比较骑行和步态](#case-243) | Evaluation |
+| [软饮瓶产品展示](#case-244) | Demo |
+| [与 Astra 对比的鹈鹕运动](#case-245) | Evaluation |
+| [代码动画的动态设计简报](#case-246) | Tutorial |
+| [照片参考生成的体素肖像](#case-247) | Demo |
+| [与 Opus 对比的飞行鹈鹕场景](#case-248) | Evaluation |
+| [Morning Ride 鹈鹕网页场景](#case-249) | Demo |
+| [同提示下的不同画风场景](#case-250) | Evaluation |
+| [鹈鹕、自行车与马的组合](#case-251) | Demo |
+| [由参考帖子启发的等距场景](#case-252) | Demo |
+| [鹈鹕自行车的机械特写](#case-253) | Demo |
+| [骑在鹈鹕上的自行车](#case-254) | Demo |
+| [与 Carbon 对比的鹈鹕 SVG 画风](#case-255) | Evaluation |
+| [卡通蓝鸟骑车场景](#case-256) | Demo |
+| [林间公路鹈鹕骑车截图](#case-257) | Demo |
+| [与 Carbon 对比的火柴人格斗](#case-258) | Evaluation |
+| [早期测试的鹈鹕 SVG 参考](#case-259) | Demo |
+| [跨模型 SVG 测试中的鹈鹕参考](#case-260) | Evaluation |
+| [与 Carbon 对比的自行车 SVG 细节](#case-261) | Evaluation |
+| [3D 峡谷聚落](#case-262) | Demo |
+| [与 Opus 对比的手柄细节](#case-263) | Evaluation |
+| [每周网站 SEO 审计流程](#case-264) | Integration |
+| [在 Opus 动效中复用 Fable 素材](#case-265) | Integration |
+| [曼荼罗与几何形体应用](#case-266) | Demo |
+| [Three.js 自行车骑手](#case-267) | Demo |
+| [FrontierCS 2 评测快照](#case-268) | Evaluation |
+| [三模型斑马动画对比](#case-269) | Evaluation |
+| [批评日语长文的可读性](#case-270) | Evaluation |
+| [用示例引导技术 PowerPoint](#case-271) | Evaluation |
+| [比较音乐的整体连贯性](#case-272) | Evaluation |
+| [过早宣布完成与设计退步](#case-273) | Limit |
+| [令人不适的鱿鱼艺术成果](#case-274) | Limit |
+| [蓝图风格动态设计](#case-275) | Demo |
+| [体素樱花场景中的鸟和鱼](#case-276) | Demo |
+| [角色生成失败反馈](#case-277) | Limit |
+| [附耗时与费用记录的鹈鹕 SVG](#case-278) | Evaluation |
+| [用手机远程监督 Claude Code 群体编程](#case-279) | Integration |
+
 <a id="coding-and-code-generation"></a>
 ## 💻 编码与代码生成
 
@@ -233,7 +430,7 @@ curl --request POST \
 
 阶段 5：最终审查并检查实现是否遵循计划时，使用 GPT 5.5 High。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -250,7 +447,7 @@ curl --request POST \
 
 结果是一个可用的 GitHub 复刻版：https://t.co/bjMObvlsPX
 
-类型：演示 | 日期：2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -267,7 +464,7 @@ curl --request POST \
 
 新的基线太夸张了 🤯 https://t.co/E23I8bnPKb
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -295,7 +492,7 @@ curl --request POST \
 
 可工作的声音播放器加上真正的 Minecraft 克隆，是我还没见过其他模型做到的东西。Fable 5 的前端/UI 生成能力正在变得离谱。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -325,7 +522,7 @@ spawn 5.0 是用它构建的：
 
 基准测试不会展示的部分是：这个模型的性格很好。它真的很有趣。在一次物理重写过程中，我好几次笑到哭。天才和性格不是两个分离的功能。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -343,7 +540,7 @@ spawn 5.0 是用它构建的：
 
 这也危险到不能发布？
 
-类型：演示 | 日期：2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -386,7 +583,7 @@ spawn 5.0 是用它构建的：
 
 结论：比旁边的人拥有更多智能，就是优势。Fable 5 是第一个让这件事变成现实的模型。即使按完整 frontier 价格计算，它也带来了利润。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -405,7 +602,7 @@ claude fable 5 真的真的很强！！！！
 
 几分钟，不是几小时。没有 web 搜索。🤯
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -423,7 +620,7 @@ claude fable 5 真的真的很强！！！！
 
 https://t.co/AWt1lEIObq
 
-类型：演示 | 日期：2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -440,7 +637,7 @@ Fable 5 在一次运行中处理了所有装饰、角色模型、4 张地图、�
 
 #fable #anthropic https://t.co/B7mTidE84U
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -457,7 +654,7 @@ Fable 5 在一次运行中处理了所有装饰、角色模型、4 张地图、�
 
 https://t.co/zs3y3t88oM
 
-类型：演示 | 日期：2026-06-10
+Type: Demo | Date: 2026-06-10
 
 ---
 
@@ -476,7 +673,7 @@ Minecraft 让 Notch 花了 2 年。
 
 https://t.co/AmwdLwi75O
 
-类型：教程 | 日期：2026-06-10
+Type: Tutorial | Date: 2026-06-10
 
 ---
 
@@ -621,7 +818,7 @@ Hero 图像应包括：
 
 输出：一个完整长度、纵向构图、高度真实的 MVMT 电商邮件设计 mockup，感觉高端、干净、精致、现代、有编辑感且可用于展示。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -638,7 +835,7 @@ Hero 图像应包括：
 
 ⌚ https://t.co/RSRfDoKxA4
 
-类型：评测 | 日期：2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -657,7 +854,7 @@ Fable 5：
 
 这个单 HTML 花了我 $12，但结果非常惊艳！
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -678,7 +875,7 @@ Claude Fable 5 很强烈。
 
 完成版提示词和公开 URL 链接在下方。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -712,7 +909,7 @@ Mythos 5 在超过一周的高度自主工作中开展了新颖的基因组学�
 
 在只有高层级人类输入的情况下，训练出的模型虽然小 100 倍，却优于近期发表在 Science 上的一个模型。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -731,7 +928,7 @@ Fable 5 是我发现的第一个在较长时长定性工作中持续有帮助的
 - 在 Projects 中，对大量评论截图，让 Claude 建议是否以及如何处理每一条。
 - 将关于某个文档的会议逐字稿粘贴进 Claude，然后让 Claude 把会议和 Slack 中讨论过的编辑以修订模式录入，并在评论中补充上下文。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -779,7 +976,7 @@ Claude Fable 5 Max 今天早上开放了，所以我试了一下。它底层看�
 
 换句话说，失去的几十年不仅是金融宿醉。它是涉及人口结构、工资、通缩、债务、政策选择和社会信心的结构性转变。
 
-类型：演示 | 日期：2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -819,7 +1016,7 @@ Claude Code 团队的 Thariq 表示，Fable 5 显著改变了 Anthropic 内部�
 
 最后，Thariq 表示人们应该更大胆地使用它。Fable 5 值得尝试那些过去觉得对 LLM 太难的工作，甚至参考视频的视频编辑也是用 Fable 完成的。
 
-类型：演示 | 日期：2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -925,7 +1122,7 @@ Claude Fable 5 是一段时间以来第一个真正感觉比之前拥有更多�
 
 如果你负担得起，现在就把它用于那些真正质量跃升会改变结果的工作。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1010,7 +1207,7 @@ Re-run this prompt on Claude 5 as soon as possible to catch anything this pass m
 
 Hardening pass completed on Claude 5. No re-run needed.
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1048,7 +1245,7 @@ Hardening pass completed on Claude 5. No re-run needed.
 
 完成后，将整个流程保存为一个可复用 skill：启动、截图、审计、排序、修复。每次发布后重新运行。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1089,7 +1286,7 @@ Fable 可以在长运行中始终保持格式，因此第一个和最后一个�
 
 用更聪明的模型构建格式，把表达留给能产出表达的模型。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1134,7 +1331,7 @@ Anthropic 建议你把模型当作真正的“思考伙伴”。
 
 换句话说，我们可能正在看到顶级 AI 模型廉价订阅时代的结束。如果你已经是订阅用户，现在就是测试你以为不可能之事边界的时候。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1332,7 +1529,7 @@ Milestone 3 Quality & polish：剩余值得做的中/低优先级项。
 
 如果 repo 很大，优先深入审查承担 80% 工作的核心 20% 代码，并说明哪些区域审查较浅。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1355,7 +1552,7 @@ Claude Fable 5 全面 SOTA，而且领先幅度很大，我很喜欢这一点。
 
 只要 Fable 专注于知道该改进什么，其他模型就能帮你完成剩余部分。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1400,7 +1597,7 @@ Workflows 让 Claude 并行化、验证自己的工作并准备报告。
 
 尝试过去觉得 LLM 不可能完成的任务，例如让 Claude Fable 5 处理视频编辑。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1444,7 +1641,7 @@ API 定价：
 
 最佳配置：复杂 `/goal` 用 Fable 5，常规 cron jobs 用更便宜的模型。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1481,7 +1678,7 @@ Mythos 5 面向少数可信合作伙伴。
 - 如果容量允许，包含窗口可能会延长。
 - 目标是尽快恢复 Fable 5 作为订阅计划标准组成部分。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1540,7 +1737,7 @@ Anthropic 桌面负责人 Felix Rieseberg 表示，Fable 5 开始了第三个时
 
 工作单位正在从“任务”转向“责任”。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1581,7 +1778,7 @@ Fable 5 兼容性在同一天更新，但只支持自配对：Fable 5 executor �
 
 文章包含 API 代码片段、注意事项和跨公司对比，说明只有 Anthropic 把这做成了服务端原语。
 
-类型：集成 | 日期：2026-06-09
+Type: Integration | Date: 2026-06-09
 
 ---
 
@@ -1622,7 +1819,7 @@ API 定价：
 - 它可能不会直接包含在基础订阅包中。
 - 如果 23 日之后容量充足，公司会尝试把它纳入 Pro 和 Max 订阅。
 
-类型：集成 | 日期：2026-06-09
+Type: Integration | Date: 2026-06-09
 
 ---
 
@@ -1642,7 +1839,7 @@ Fable 5 和 Mythos 现在已在 Swarms 上线 👾🦀
 - 不需要迁移、兼容性修复或基础设施更改
 - 立即用最新 Anthropic 模型构建、部署并扩展多代理系统
 
-类型：集成 | 日期：2026-06-09
+Type: Integration | Date: 2026-06-09
 
 ---
 
@@ -1682,7 +1879,7 @@ Cursor Fable 5 Max vs Codex GPT 5.5 Very High。
 
 结论：Fable 5 可以产出更高级的算法代码，但价格和运行时间必须仔细考虑。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1697,7 +1894,7 @@ Claude Fable 5 在我们的知识与幻觉基准 AA-Omniscience 上取得了迄�
 
 在 AA-Omniscience 的问题中，Claude Fable 5 有 9% 回退到 Opus 4.8。
 
-类型：评测 | 日期：2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -1756,7 +1953,7 @@ Humanity's Last Exam：
 - 可用性：到 6 月 22 日前包含在 Pro、Max、Team 和按席位计费的 Enterprise 计划中，消耗 2x Opus usage。
 - 从 6 月 23 日起，使用需要 credits；Anthropic 表示计划在容量允许后恢复订阅访问。
 
-类型：评测 | 日期：2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -1786,7 +1983,7 @@ Fable 5 在 GDPval-AA 任务中有 2% 回退到 Opus 4.8，Anthropic 表示 fall
 
 Claude Fable 5 的完整基准仍在进行中。我们将很快分享完整 Intelligence Index，并在网站上发布分数。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1819,7 +2016,7 @@ Claude Fable 5 的完整基准仍在进行中。我们将很快分享完整 Inte
 
 还很早，但目前为止 Fable 5 给我的第一印象非常强。
 
-类型：集成 | 日期：2026-06-09
+Type: Integration | Date: 2026-06-09
 
 ---
 
@@ -1840,7 +2037,7 @@ Fable 5 在游戏设计等创意任务上有惊人的直觉，但对于日常开
 
 可以查看我与 @coderabbitai DevEx 团队 @JuanPa 关于模型发布的讨论。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1865,7 +2062,7 @@ Fable 5 在游戏设计等创意任务上有惊人的直觉，但对于日常开
 
 初始体验很有前景，但还需要更长时间使用，才能看清真正的粗糙点在哪里。
 
-类型：演示 | 日期：2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -1882,7 +2079,7 @@ Claude Fable 5 (high) 在短篇小说写作上提升了一档。
 
 https://t.co/76nCxwEybJ
 
-类型：评测 | 日期：2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -1900,7 +2097,7 @@ Anthropic：“任务越长、越复杂，Fable 5 相比我们其他模型的领
 
 @theojaffee：“这个 Frontier Code Diamond benchmark 是昨天宣布的。之前顶部模型是 Opus 4.8，13%。GPT 5.5 是 6%。Fable 5 是 29%。”
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1930,7 +2127,7 @@ Anthropic 的新 Mythos-class 模型比 OpenAI 的最佳模型便宜 3 倍。而
 
 到 6 月 22 日前，Pro 和 Max 计划免费可用。它叫 Claude Fable 5。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1965,7 +2162,7 @@ Anthropic 的新 Mythos-class 模型比 OpenAI 的最佳模型便宜 3 倍。而
 - 注意：现在所有 Mythos-class models 对 zero data retention (ZDR) 工作区都有 30-day retention policy。
 - 这适用于 Claude Console、Claude Enterprise 中带 ZDR 的 Claude Code，或通过 AWS Bedrock、Google Cloud Agent Platform、Microsoft Foundry 以 ZDR 访问。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1989,7 +2186,7 @@ Anthropic 的新 Mythos-class 模型比 OpenAI 的最佳模型便宜 3 倍。而
 
 Fable 在水模拟上明显更好，生成了更扎实、更连续的水体。Opus 在墙边留下更大空隙，把粒子散落在场景周围，并且很难保持流体稳定。
 
-类型：演示 | 日期：2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -2010,7 +2207,7 @@ Fable 拥有以往模型没有的判断力、品味和维度感，这让我更�
 
 Claude Code 的 prompting 中没有任何内容告诉模型要这样做。这只是它性格的一部分。它真的有这种我以前没感受过的 “big model smell”。
 
-类型：演示 | 日期：2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -2032,7 +2229,7 @@ Fable 5（也叫 baby Mythos）刚刚发布。它是否像他们声称的那样�
 
 完整观点见 YT：https://t.co/lvtwnPn6yR
 
-类型：演示 | 日期：2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -2053,7 +2250,7 @@ Fable 5（也叫 baby Mythos）刚刚发布。它是否像他们声称的那样�
 
 这个模型在早期测试中让我非常 impressed，无论是基准还是产品里。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -2082,7 +2279,7 @@ HealthAdminBench：
 
 总体来看，这个模型在医疗健康基准上表现相当好。我也希望看到更多基准分数，例如 MedCalc-Bench 和 MedXpertQA，一个未饱和的高难医学 MCQA 基准。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2105,7 +2302,7 @@ Claude Fable 5 觉得文档解析配不上它。
 
 如需查看 frontier models 的完整结果列表，请查看 ParseBench：https://t.co/PWczfhp0OX
 
-类型：评测 | 日期：2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -2129,7 +2326,7 @@ Fable 5 来了，而且它在 agentic coding benchmark SWE-Bench Pro 上真的�
 
 顺便说，它使用量是 Opus 的 2x，所以要小心。如果它这么好，他们可能会推出 $500 订阅，因为用量很容易被打爆。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2165,7 +2362,7 @@ Claude Fable 5 与 Mythos 是同一个底层模型，但增加了安全措施。
 
 "Free your mind." 真的很期待人们会构建的一切。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2190,7 +2387,7 @@ Day 0 Anthropic Fable 5 in ParseBench。
 
 但它不是全面横扫。要解锁 frontier models 的文档理解，仍然有很多 alpha。
 
-类型：评测 | 日期：2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -2249,7 +2446,7 @@ Mythos 5 更强：
 
 Jevons paradox 适用：当软件开始像水龙头里的水一样流出时，需求本身会增长。这个模型可能推动这种转变。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2276,7 +2473,7 @@ FrontierCode 结果最夸张：
 
 Claude Fable 5 看起来是 coding agents、computer use 和 cybersecurity 的一次重大跃升。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2295,7 +2492,7 @@ Claude Fable 5 在 APEX-SWE 上排名 #1：整体 65.5% Pass@1。它比 Opus 4.8
 
 Observability 一直是我们测量过的每个模型的瓶颈。Fable 5 是第一个打破它的模型。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2321,7 +2518,7 @@ Aristotle 是专门为形式化数学构建的系统，并在自己的内部 har
 
 这就是 AGI 的整个前提。你不是为数学构建一个模型、为代码构建一个模型、为法律构建一个模型。你构建一个随 compute 扩展并学会做所有事情的单一通用模型。
 
-类型：教程 | 日期：2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -2348,7 +2545,7 @@ Aquinas 认为 temperance “takes the need of this life as the rule of the plea
 
 我们最好的猜测是，进一步推动这个向量的 tuning 有过度越过中庸的风险，使模型过于谨慎，或在研究、收集资源和类似任务中不够有帮助。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2369,7 +2566,7 @@ Claude Fable 5 被重度审查。
 
 Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型，甚至低于 Haiku。
 
-类型：评测 | 日期：2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2380,7 +2577,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 把 Fable 5 的提示词设计看成上下文与环境设计，而不是冗长的逐步指令列表。这条帖子总结了一个实用模式：提供清晰目标、相关上下文、约束、工具访问方式，以及验证成功的方法。它还认为，验证、评估和反馈，比微观管理模型的推理过程更重要。
 
-类型：教程 | 日期：2026-06-11
+Type: Tutorial | Date: 2026-06-11
 
 ---
 
@@ -2391,7 +2588,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 创作者先用 GPT Image 2 生成了一张复古风格的伊斯坦布尔平台游戏 sprite sheet，然后把这张参考图交给 Claude Fable 5 High，并要求它把图片变成游戏。帖文称，结果是在单次运行中产出的。
 
-类型：演示 | 日期：2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
@@ -2402,7 +2599,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 这条帖子描述了一个单提示词商业可视化案例：仓库、打包、无人机、订单、部门、客户和 AI 助手都被映射成一个实时 3D 城市。它把这个输出定位为静态幻灯片的面向客户替代方案，画面上还展示了 42 次配送、12 分钟平均时长和 651 美元收入等运营数据。
 
-类型：演示 | 日期：2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
@@ -2413,7 +2610,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 创作者表示，Fable 5 用 Three.js 一次性构建了一个完整的 3D HOLE IT 风格游戏。这是一个轻量但具体的游戏生成 demo，可用来测试模型是否能从紧凑请求中产出可玩的 3D 交互。
 
-类型：演示 | 日期：2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
@@ -2424,7 +2621,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 这条帖子称 Claude Fable 5 xHigh 在 DeepSWE 上拿到 70%，与 GPT-5.5 xHigh 持平，并把 Theo 最近的视频作为来源上下文。应把它视为一个基准线索，在作出更强判断前，仍需回头核对底层视频内容。
 
-类型：评测 | 日期：2026-06-11
+Type: Evaluation | Date: 2026-06-11
 
 ---
 
@@ -2435,7 +2632,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 这条帖子比较了 Claude Fable 5、Opus 4.8、GPT-5.5 和 Gemini 3.1 Pro 在同一任务上的表现：分析一个约 9 万行代码的仓库、定位缓存失效问题，并提出完整修复计划。作者认为，一旦把开发者修正时间算进去，原始 token 单价和真实任务成本就会出现明显偏差，并建议只在复杂重构、跨模块迁移和长链代理任务中选择性使用 Fable 5。
 
-类型：评测 | 日期：2026-06-11
+Type: Evaluation | Date: 2026-06-11
 
 ---
 
@@ -2446,7 +2643,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 创作者让 Claude Fable 5 构建一个 Super Mario 任天堂风格游戏。帖子称，这个任务大约用了 200 万 token，并产出了一个很强的单次生成结果，因此适合同时评估游戏构建质量和成本。
 
-类型：演示 | 日期：2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
@@ -2457,7 +2654,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 这条帖子指出，Claude Code 的 `/config` 中有一个名为 “Switch models when a message is flagged.” 的设置。它说明，对于攻击性网络安全技术、生物或生命科学实验方法、分子机制，或要求提取模型思维过程等被标记领域，Fable 5 可以回退到 Opus 模型。
 
-类型：集成 | 日期：2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
@@ -2468,7 +2665,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 创作者称，他在乘坐 Bengaluru Metro 时，把 Claude Fable 5 当作编码伙伴，构建了一个 Namma Metro 模拟器。这条帖子很简短，但它链接到了可视化 demo，也展示了 Fable 5 被用于一个带有地域特定背景的模拟想法。
 
-类型：演示 | 日期：2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
@@ -2479,7 +2676,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 这条帖子描述 Claude Fable 5 仅凭一个提示词，就创建了完整的驾驶游戏 Dusk Drive。创作者强调了 low-poly 视觉风格、极光与飘雪场景，以及从想法到可玩版本之间零人工编辑的说法。
 
-类型：演示 | 日期：2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
@@ -2490,7 +2687,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 这条帖子称，Fable 5 Max 以 45% Pass@1 排在 APEX-Agents 排行榜第二，位于 Gemini 3.5 Flash 之后、Opus 之前。它还把 APEX-Agents 描述为一个衡量 AI 能否独立完成复杂多步骤任务的基准。
 
-类型：评测 | 日期：2026-06-11
+Type: Evaluation | Date: 2026-06-11
 
 ---
 
@@ -2501,7 +2698,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 这条帖子比较了 Haiku 4.5、Sonnet 4.6、Opus 4.8 和 Fable 5 在模型强度和额度使用上的差异。它给出的实用建议是：日常工作跑 Sonnet，较难问题切到 Opus，而 Fable 5 留给那些最棘手、真正需要规划、构建和测试深度的 Claude Code 任务。
 
-类型：教程 | 日期：2026-06-11
+Type: Tutorial | Date: 2026-06-11
 
 ---
 
@@ -2512,7 +2709,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 创作者描述了用 Fable 5 通过全自动循环构建 HermesWorld v2。这个代理据称会持续运行数天，不断构建功能、测试功能、亲自游玩结果，并对整体做 smoke test，一路推进到完成。
 
-类型：集成 | 日期：2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
@@ -2523,7 +2720,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 创作者给了 Fable 5 一条提示词，要求它围绕比特币作为资产类别和区块链技术，生成一份麦肯锡风格的详细报告，并在需要时加入图表和可视化。帖文称输出是一份 19 页文档，包含数据、图表、投资论点和风险分析；评价则认为其结构很强，但视觉仍可更利落，解释也还能更紧凑。
 
-类型：教程 | 日期：2026-06-11
+Type: Tutorial | Date: 2026-06-11
 
 ---
 
@@ -2534,7 +2731,7 @@ Claude Fable 5 最终可能成为 SM Bench 上评分最低的 Anthropic 模型�
 
 ClaudeDevs 宣布了一项改动，让面向 frontier LLM 开发的 Fable 5 防护机制变得可见。被标记的请求会明确回退到 Opus 4.8，而 API 中被标记的请求预计会返回拒答原因。帖子还解释了为什么一开始会上线不可见防护，以及 Anthropic 现在为什么认为那是错误的权衡。
 
-类型：集成 | 日期：2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
@@ -2545,7 +2742,7 @@ ClaudeDevs 宣布了一项改动，让面向 frontier LLM 开发的 Fable 5 防�
 
 Claude Code 2.1.173 包含一个修复：会从 Fable 5 的模型名中去掉 `[1m]` 后缀，以避免默认 1M 上下文破坏模型匹配。同一版本还抑制了一个多余的 Windows 沙盒依赖警告，并澄清了 grep 帮助输出模式。
 
-类型：集成 | 日期：2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
@@ -2556,7 +2753,7 @@ Claude Code 2.1.173 包含一个修复：会从 Fable 5 的模型名中去掉 `[
 
 创作者表示，自己没有编程背景，却借助 Claude Code 和 Fable 5 在 30 分钟内做出了三个可运行的 Web App，分别本地暴露在 3000、3001 和 3002 端口上。更适合把它当作一个轻量的新手工作流 demo，而不是严格基准。
 
-类型：演示 | 日期：2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
@@ -2567,7 +2764,7 @@ Claude Code 2.1.173 包含一个修复：会从 Fable 5 的模型名中去掉 `[
 
 创作者开源了 Rilable，这是一款能构建 Web App 和 iOS App 的 iOS 应用。帖子称，它用 Fable 5 在 10 条提示词内完成，API token 成本约 210 美元，使用 Claude 模型生成应用，通过 Daytona 拉起沙盒，用 Convex 做数据库，用 Vercel AI Gateway 提供 AI 功能，并借助 Chorus agent iOS skill 处理 iOS App。
 
-类型：集成 | 日期：2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
@@ -2578,7 +2775,7 @@ Claude Code 2.1.173 包含一个修复：会从 Fable 5 的模型名中去掉 `[
 
 Artificial Analysis 在其 Coding Agent Index 中用 Datacurve 的 DeepSWE 替换了 SWE-Bench Pro。帖子称，DeepSWE 会从零编写任务，而不是改写公开 GitHub issue 或 pull request，从而减少基准污染。在更新后的排名中，搭配 Fable 5 Max 的 Claude Code 以 77 分首秀，领先于搭配 GPT-5.5 xhigh 的 Codex 的 76 分，以及搭配 Opus 4.8 Max 的 Claude Code 的 73 分。
 
-类型：评测 | 日期：2026-06-12
+Type: Evaluation | Date: 2026-06-12
 
 ---
 
@@ -2589,7 +2786,7 @@ Artificial Analysis 在其 Coding Agent Index 中用 Datacurve 的 DeepSWE 替�
 
 Marc Lou 表示，Claude Fable 5 基于他的 DataFast 网站分析 API 构建了 DataEmpire。每位访客都会变成村民，流量增长会扩展聚落，而当访客达到 100 万时会解锁 Age of Legends。公开 demo 允许 DataFast 用户通过游戏层重放自己网站的历史，因此这更像一个有 API 支撑的产品化案例，而不是静态游戏片段。
 
-类型：集成 | 日期：2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
@@ -2600,7 +2797,7 @@ Marc Lou 表示，Claude Fable 5 基于他的 DataFast 网站分析 API 构建�
 
 ProximalHQ 表示，Claude Fable 5 在 FrontierSWE 上排名第一，并称这是自他们发布该基准以来见过的最大能力跃迁。他们的说明称，Fable 5 在很多任务上可以持续高效工作接近 20 小时，并能把早期模型实际上难以企及的任务真正做满。
 
-类型：评测 | 日期：2026-06-11
+Type: Evaluation | Date: 2026-06-11
 
 ---
 
@@ -2611,7 +2808,7 @@ ProximalHQ 表示，Claude Fable 5 在 FrontierSWE 上排名第一，并称这�
 
 Elliot Arledge 在 KernelBench-Hard 上让 13 个 frontier 编码代理各跑了 45 分钟，并基于 RTX PRO 6000 做 roofline 评分。Claude Fable 5 在 top-k、sonic-MoE 和 W4A16 int4 GEMM 上创下历史记录，在 6 个问题里拿下 5 个第一，作者还公开了运行结果、排行榜和代码。同一串帖子也提到一次 FP8 GEMM 失手：Fable 5 尝试写了真正的 tensor-core kernel，但因为尾部对齐边界情况拿了 0 分。
 
-类型：评测 | 日期：2026-06-11
+Type: Evaluation | Date: 2026-06-11
 
 ---
 
@@ -2622,7 +2819,7 @@ Elliot Arledge 在 KernelBench-Hard 上让 13 个 frontier 编码代理各跑了
 
 Mike Futia 描述了一个工作流：先用 Figma 的 Chrome 扩展把网站复制成可编辑图层，再让 Claude Code 通过 Figma MCP 读取这些图层，用用户自己的品牌语气重写页面，并由 GPT Image 2 生成符合品牌的摄影图。声称的端到端结果是，大约 15 分钟就能做出一个可上线的落地页，而 16 张图片的生成 API 成本大约只有 2 美元。
 
-类型：集成 | 日期：2026-06-12
+Type: Integration | Date: 2026-06-12
 
 ---
 
@@ -2633,7 +2830,7 @@ Mike Futia 描述了一个工作流：先用 Figma 的 Chrome 扩展把网站复
 
 TechHalla 表示，Claude Fable 5 High 在大约两小时内做出了一个 GTA 2 风格克隆，而创作者则在 Tripo 中生成自定义 3D 模型。帖子还指向一个带提示词的教程线程，因此这更像是一个多工具游戏生产的紧凑示例，而不是单纯的基准预告。
 
-类型：教程 | 日期：2026-06-10
+Type: Tutorial | Date: 2026-06-10
 
 ---
 
@@ -2644,7 +2841,7 @@ TechHalla 表示，Claude Fable 5 High 在大约两小时内做出了一个 GTA 
 
 diblacksmith 表示，一个 RLM 代理在单次运行中处理了大约 8 万行 CloudWatch 日志，走到 53 步时，当前只消耗了约 3.2 万活跃 token。他说，这个代理从日志中推断出了系统架构，还标出了团队之前漏掉的问题，包括 AgentCore 限流和 Slack `user_not_found` 失败。
 
-类型：集成 | 日期：2026-06-14
+Type: Integration | Date: 2026-06-14
 
 ---
 
@@ -2655,7 +2852,7 @@ diblacksmith 表示，一个 RLM 代理在单次运行中处理了大约 8 万�
 
 Upstash 表示，它在隔离的 Upstash 沙盒中运行 Claude Fable 5、GPT-5.5 和 Gemini，构建了一个世界杯预测器。这个 demo 和开源发布把 Fable 5 放在一个多模型研究与编排栈中的其中一环，而不只是单独的聊天演示。
 
-类型：集成 | 日期：2026-06-10
+Type: Integration | Date: 2026-06-10
 
 ---
 
@@ -2666,7 +2863,7 @@ Upstash 表示，它在隔离的 Upstash 沙盒中运行 Claude Fable 5、GPT-5.
 
 WolfBenchAI 表示，它对 Claude Fable 5 的评测花费了 11,081.12 美元，是该套基准中迄今最昂贵的一次，但依然没能登顶，因为重复拒答降低了有效任务完成量。对于需要给代理评测或其他高自主工作负载做预算的团队，这是一个很具体的限制案例。
 
-类型：评测 | 日期：2026-06-12
+Type: Evaluation | Date: 2026-06-12
 
 ---
 
@@ -2677,7 +2874,2511 @@ WolfBenchAI 表示，它对 Claude Fable 5 的评测花费了 11,081.12 美元�
 
 Simon Willison 表示，他每分钟 ping 一次 `claude-fable-5` API，以观察访问能持续多久，并报告了它对自己停止响应的精确时间点。这条帖子在应用细节上比较薄，但它具体证明了：访问连续性本身已经成了用户必须测量、而不能默认存在的运维限制。
 
-类型：集成 | 日期：2026-06-13
+Type: Integration | Date: 2026-06-13
+
+---
+
+
+<a id="fable-5-5-community-demos"></a>
+## 🆕 Fable 5.5 社区演示
+
+
+
+<a id="case-89"></a>
+### Case 89: [用代码生成带声音的狐狸动画](https://x.com/chetaslua/status/2117224839010459987) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**用逐镜头创作简报明确单文件 HTML 动画及其声音设计。**
+
+作者展示了一段 66 秒的狐狸与纸鸟短片，并表示画面和音频均由模型编写的 Python 代码生成，经过约 2 小时 40 分钟的自主工作后交付为一个 HTML 文件。配套提示词规定了镜头、原创画面、声音及逐帧检查要求。帖子还附有详细创作简报和制作过程对话截图。
+
+[作者完整提示词](https://x.com/chetaslua/status/2117224843661980093)
+
+[![用代码生成带声音的狐狸动画](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-0-poster-2ee16a14af881cec.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-0-video-8e1ac3acc5e7cb57.mp4)
+
+![用代码生成带声音的狐狸动画](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-1-image-4bee9ad0898820c1.jpg)
+
+![用代码生成带声音的狐狸动画](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-2-image-b4b62017a03ec393.jpg)
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-90"></a>
+### Case 90: [从开放式创意要求生成动画](https://x.com/notjazii/status/2117221957104239010) (作者 [@notjazii](https://x.com/notjazii))
+
+**比较开放式动画要求与详细分镜简报分别能让代码模型做出怎样的作品。**
+
+作者分享了一段动画，表示从一个开放式创意要求出发，花费约一小时以纯代码完成，未使用外部素材。帖子将这次制作呈现为一次开放的创意编程尝试。
+
+[![从开放式创意要求生成动画](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-90-0-poster-08a293539c7b465c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-90-0-video-24243aa4947eafd2.mp4)
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-91"></a>
+### Case 91: [建筑公司的动态 3D 网站](https://x.com/exploraX_/status/2117176904306335864) (作者 [@exploraX_](https://x.com/exploraX_))
+
+**用建筑公司网站简报评估动态 3D 展示和页面构图。**
+
+作者围绕建筑公司网站的要求制作了一个动态 3D 网站，并附上成果录屏。
+
+[![建筑公司的动态 3D 网站](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-91-0-poster-c835928f570ad718.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-91-0-video-2b260d32fccecca6.mp4)
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-92"></a>
+### Case 92: [Three.js 汽车展示场景](https://x.com/chetaslua/status/2116975056014430419) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**用汽车场景集中观察 3D 构图、材质与镜头展示。**
+
+作者分享了一段 Three.js 汽车展示视频。这段录屏可作为评估场景及视觉呈现的简明参考。
+
+[![Three.js 汽车展示场景](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-92-0-poster-7a9405423aed1224.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-92-0-video-41812e3bdae683b0.mp4)
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-93"></a>
+### Case 93: [Minecraft 风格浏览器游戏演示](https://x.com/notjazii/status/2116919129974411584) (作者 [@notjazii](https://x.com/notjazii))
+
+**评估生成式浏览器游戏时，把游戏录屏与作者提供的试玩链接结合起来。**
+
+作者分享了 Minecraft 风格游戏的录屏和试玩链接，并表示这是一次性生成、耗时约一至两小时的作品。帖子把成果录屏与试玩入口放在一起，方便读者继续探索。
+
+[![Minecraft 风格浏览器游戏演示](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-93-0-poster-f432ab7cc397d51c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-93-0-video-903a5b83acef99f5.mp4)
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-94"></a>
+### Case 94: [Three.js 鹈鹕骑车动画](https://x.com/chetaslua/status/2116882694026269148) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**观察骑车场景中的角色运动协调、自行车结构和环境细节。**
+
+作者分享了一段写实风格的 Three.js 鹈鹕骑车动画，并表示它是一次性生成的成果。视频可用于观察角色运动、自行车结构及周围场景。
+
+[![Three.js 鹈鹕骑车动画](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-94-0-poster-0b18e5a159c3ec96.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-94-0-video-446b1cb698f14157.mp4)
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-95"></a>
+### Case 95: [附完整短提示词的鹈鹕骑车 SVG](https://x.com/marmaduke091/status/2116233349391962392) (作者 [@marmaduke091](https://x.com/marmaduke091))
+
+**复用作者的简短 SVG 提示词，在相同输入下比较几何结构和细节。**
+
+作者同时发布了鹈鹕骑车的渲染图和一条简短的 SVG 生成要求；下方逐字保留该提示词。
+
+```
+Generate an SVG of a Pelican riding a bicycle as nicely done as you can
+```
+
+![附完整短提示词的鹈鹕骑车 SVG](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-95-0-image-92e96914a3877a42.jpg)
+
+[动画版本 · @marmaduke091](https://x.com/ItsmeAjayKV/status/2116461400931565791)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c325fad08c0af80d4131a7d3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fb211776edb69bc12623cdcf.jpg" alt="附完整短提示词的鹈鹕骑车 SVG" width="760"></a>
+
+Type: Demo | Date: 2026-10-30
+
+---
+
+<a id="case-96"></a>
+### Case 96: [斑马奔跑动画样本](https://x.com/AI_Screening/status/2115845754468356465) (作者 [@AI_Screening](https://x.com/AI_Screening))
+
+**用动物奔跑视频观察步态一致性和运动连续性。**
+
+作者分享了自己挑选出的斑马奔跑任务最佳成果，为读者提供了一个可具体观察的运动样本。
+
+[![斑马奔跑动画样本](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-96-0-poster-34e8bfc30f0396ce.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-96-0-video-506044b0159933fe.mp4)
+
+Type: Demo | Date: 2026-10-29
+
+---
+
+<a id="case-97"></a>
+### Case 97: [由人手动执行交易的 TradingView 指标](https://x.com/waveking1314/status/2114572023204806669) (作者 [@waveking1314](https://x.com/waveking1314))
+
+**评估标记潜在入场点并附简评的指标时，保留人工下单环节。**
+
+作者表示用 Claude Fable 5.5 编写了一个 TradingView 指标，用于标记潜在入场点并给出简短评论，由用户决定是否下单。帖子附有录屏，并表示之后会分享该指标。
+
+[![由人手动执行交易的 TradingView 指标](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-97-0-poster-4e76b2a3f1cc0732.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-97-0-video-e16da93b5ca229bd.mp4)
+
+Type: Demo | Date: 2026-10-26
+
+---
+
+
+<a id="case-98"></a>
+### Case 98: [从一个点展开的动画故事](https://x.com/cherry_mx_reds/status/2105825930799432073) (作者 [@cherry_mx_reds](https://x.com/cherry_mx_reds))
+
+**用最简单的绘图要求，观察模型如何展开视觉故事。**
+
+作者表示只要求画一个点，随后分享了生成的动画短篇。附带视频展示了一个开放式视觉要求如何发展为叙事作品。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/883ec78260a59a6a789794ff.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/57df1160649eeb113f5b0904.jpg" alt="从一个点展开的动画故事" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-99"></a>
+### Case 99: [在不同画风间切换的超人](https://x.com/chetaslua/status/2105757136219504862) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**用同一个熟悉角色观察不同动画画风之间的连续性。**
+
+作者分享了一段连续的超人动画，画面在多种美术风格之间转换。不断变化的视觉处理是这次创作的主要成果。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9b17afbc69d86f83b02c7949.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bf9f9e0c1c18ec87d7827152.jpg" alt="在不同画风间切换的超人" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-100"></a>
+### Case 100: [配有音乐的人类进步动画](https://x.com/imjustnewatai/status/2106081142143168580) (作者 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**把历史时间线与未来片段放在同一份动画解说简报中。**
+
+作者表示用一条提示词制作了人类进步及未来三十年的影片。作品约三分钟；作者称配乐为原创，未使用现成影像或库存音乐。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7169c82d36a8545ae331d5a5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a0f7665a4f830fe5bf9cd3ff.jpg" alt="配有音乐的人类进步动画" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-101"></a>
+### Case 101: [与 Opus 对比的发布视频](https://x.com/mesmerlord/status/2105771088374288692) (作者 [@mesmerlord](https://x.com/mesmerlord))
+
+**用同一份创意简报比较完整的发布视频方案。**
+
+作者基于 Anthropic 视频参考简报制作并分享了两段候选发布片。帖子明确说明数字是虚构的，并可选用 Codex 生图，因此这些片段属于创意广告，而非事实性基准证据。
+
+<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0b7fd47b61c0a91ac169327c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f22c970c5dd582d61fd25352.jpg" alt="与 Opus 对比的发布视频" width="760"></a></td><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3c5ab918ab29a2a394862ab1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/286e3a487e75019216170eaf.jpg" alt="与 Opus 对比的发布视频" width="760"></a></td></tr></table>
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-102"></a>
+### Case 102: [把歌词与事件连接成画面](https://x.com/chetaslua/status/2105934928483701214) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**把既有歌曲的歌词与具体事件结合，构建视觉叙事。**
+
+作者表示要求把歌词与一次 Hugging Face 事件联系起来，并分享了合成叙事的动画。歌曲和事件在此作为创作输入。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8eff1627c25675b6f6c415f2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6fbf41178e2a95f90936bb88.jpg" alt="把歌词与事件连接成画面" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-103"></a>
+### Case 103: [漂浮场景中的体素角色](https://x.com/blueemi99/status/2105804692811137242) (作者 [@blueemi99](https://x.com/blueemi99))
+
+**同时观察体素角色、周围环境和动画细节。**
+
+作者展示了漂浮场景中的体素化自身角色，并强调细节和运动量。视频提供了可与其他生成结果比较的具体体素设计样本。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e3760dd479675b0aad977523.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9c5cc28c6d3abec3c280aec8.jpg" alt="漂浮场景中的体素角色" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-104"></a>
+### Case 104: [3D 鲁布·戈德堡机械演示](https://x.com/imjustnewatai/status/2105889407056109991) (作者 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**先规定连锁反应场景，再要求固定时长的演示视频。**
+
+作者先用简短提示要求制作复杂的 3D 鲁布·戈德堡机械，再要求生成一分钟视频。附带片段展示了最终的连锁反应可视化。
+
+```
+Extremely complicated 3d rube goldberg machine, accurate physics, aaa gfx, vfx
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9a5645cdfbace3f1f003f338.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c38369dcab30a7a3b2592a2e.jpg" alt="3D 鲁布·戈德堡机械演示" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-105"></a>
+### Case 105: [带声音与运动的 3D 手柄界面](https://x.com/notjazii/status/2106050222828998967) (作者 [@notjazii](https://x.com/notjazii))
+
+**结合视觉运动、声音和按键行为评估手柄界面。**
+
+作者分享了一个 3D 手柄界面，并报告加入声音、动画和触觉反馈。开启声音的录屏提供了具体的界面演示。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a61bb2742df89100e4a9010e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d7d550662b97f41a709b4d58.jpg" alt="带声音与运动的 3D 手柄界面" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-106"></a>
+### Case 106: [用 JavaScript 展示漫画角色](https://x.com/chetaslua/status/2105792187200147541) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**用角色展示任务探索代码能够呈现的精细视觉细节。**
+
+作者表示用一次请求制作了漫威与 DC 角色的 JavaScript 展示，由模型挑选细微角色特征并剪辑视频。帖子附有最终角色展示。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c8c7e6a3c0721bb369db296a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/11921e058184a9deee4fad4a.jpg" alt="用 JavaScript 展示漫画角色" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-107"></a>
+### Case 107: [包含世界、首领和榜单的 Updraft](https://x.com/EMostaque/status/2106065029850091943) (作者 [@EMostaque](https://x.com/EMostaque))
+
+**把游戏录屏、试玩入口和明确的功能清单放在一起。**
+
+作者分享了 Updraft，表示以高推理强度、少量提示工作数小时。其功能清单包括二十一个世界、3D 变体、机制各异的二十一个首领及排行榜。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/2b473a43235402693cfddb67.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a7605d61a6999b7a5a75d298.jpg" alt="包含世界、首领和榜单的 Updraft" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-108"></a>
+### Case 108: [在旧金山地图中驾驶](https://x.com/mindblown_ai/status/2106089461969019357) (作者 [@mindblown_ai](https://x.com/mindblown_ai))
+
+**用城市驾驶原型探索地图导航和游戏目标。**
+
+发布者分享了他人制作的旧金山驾驶游戏录屏与试玩链接，并提到技术栈中的 Three.js。这里署名的是来源发布者，不表示游戏由其制作。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a3daebcbd4ee15c6e00933f7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/62fa53fe2da2ef1d9df79d77.jpg" alt="在旧金山地图中驾驶" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-109"></a>
+### Case 109: [为 Seedance 动作场景写提示词](https://x.com/Chengzilhy/status/2105850801663234374) (作者 [@Chengzilhy](https://x.com/Chengzilhy))
+
+**记录多工具动作场景时，区分提示词编写和视频生成。**
+
+作者分享了扩展后的打斗片段，将提示词编写归于 Fable，将视频生成归于 Seedance 2.5。语言模型在该流程中负责发展视频生成所需的输入。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/948cf8988e420ba7f7644cc9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a777e08ece0bf5fa6b3dd76d.jpg" alt="为 Seedance 动作场景写提示词" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-110"></a>
+### Case 110: [桌面协作助手的介绍视频](https://x.com/ishuagra02/status/2106138602073641241) (作者 [@ishuagra02](https://x.com/ishuagra02))
+
+**用简短介绍视频说明编程工具扩展的用途。**
+
+作者演示了 clawdhouse 这个 Claude Code 模组，并将介绍视频归于 Fable。桌面吉祥物及其情绪是被介绍模组的功能，并不表示模组由 Fable 开发。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d8252b98536b35b28d4a2f69.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7374241c39dab0c94f2557f2.jpg" alt="桌面协作助手的介绍视频" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-111"></a>
+### Case 111: [简短要求生成变换画风的动画](https://x.com/cherry_mx_reds/status/2105816670896009224) (作者 [@cherry_mx_reds](https://x.com/cherry_mx_reds))
+
+**先尝试简短动画要求，再添加详细创意规范。**
+
+作者表示只要求制作一段很酷的动画，约十五分钟后得到所展示的画风切换成果。原帖直接引用了最初的简短要求。
+
+```
+Hey Fable, please make a cool animation
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9426b9eb74bb3dbb3cecd1cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5c7a0f0a5754d4f20cfdfbe3.jpg" alt="简短要求生成变换画风的动画" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-112"></a>
+### Case 112: [三体问题可视化](https://x.com/zAdrielsan/status/2105822678519001360) (作者 [@zAdrielsan](https://x.com/zAdrielsan))
+
+**在轨道可视化简报中区分 CPU 模拟和 GPU 渲染。**
+
+作者报告使用约一千行 Bend2 制作三体场景，在 CPU 上运行辛物理算法、在 GPU 上逐像素渲染，并称其 M5 可达到每秒六十帧，另有形式化证明。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/67dea524fc04155805ea5f62.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8d8cd2cee891511d37be2531.jpg" alt="三体问题可视化" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-113"></a>
+### Case 113: [多种画风的动画画廊](https://x.com/blueemi99/status/2105782154387189771) (作者 [@blueemi99](https://x.com/blueemi99))
+
+**在同一个动画画廊中比较多种美术风格。**
+
+作者分享了以 xhigh 设置制作的动画画廊。作品把多种画风放在一起，方便比较同一作品中的不同视觉处理。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/502971e471d8a4dd737c51a6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b2ad9b438a172b2ce1cd902b.jpg" alt="多种画风的动画画廊" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-114"></a>
+### Case 114: [机器人伙伴与程序化毛发](https://x.com/KanaWorks_AI/status/2106717014245183517) (作者 [@KanaWorks_AI](https://x.com/KanaWorks_AI))
+
+**结合既有角色动画与程序化优化，避免把所有素材都视作新生成。**
+
+作者将既有 Unimate 机器狗动画优化为伙伴角色，并制作了支持梳理和轨迹的毛茸茸虚拟宠物。Unreal Engine 和原有机器人动画仍是流程中的明确组成部分。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9804d2afa56aa33c8d671292.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/612fe23ba65cde8186f80ddf.jpg" alt="机器人伙伴与程序化毛发" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-115"></a>
+### Case 115: [数学主题动态剪辑](https://x.com/TurboNexic/status/2106710792590835934) (作者 [@TurboNexic](https://x.com/TurboNexic))
+
+**把数学主题动态图形用作视觉传播参考。**
+
+发布者分享了一段数学主题的动态剪辑。竖屏片段把数学意象组织为动画设计，提供的是作品演示，而非逐步展开的数学计算。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/57d4f16b728eff5d5f94b073.jpg" alt="数学主题动态剪辑" width="760">
+
+*原视频的存档帧。*
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-116"></a>
+### Case 116: [Your Woman 歌词视频](https://x.com/atomtanstudio/status/2106702854639743467) (作者 [@atomtanstudio](https://x.com/atomtanstudio))
+
+**围绕现成录音制作歌词动效，并明确音乐的输入角色。**
+
+作者分享了 White Town 的 Your Woman 歌词视频。既有歌曲是视觉处理的音频输入，并未声称音乐由模型创作。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/88157c7612eb6c005275619c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d447b9a8d799f508738e89d4.jpg" alt="Your Woman 歌词视频" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-117"></a>
+### Case 117: [用 JavaScript 重绘音乐视频](https://x.com/abhinavflac/status/2106638839666373114) (作者 [@abhinavflac](https://x.com/abhinavflac))
+
+**重现音乐视频风格时，把原视频帧描成代码形状。**
+
+作者描述了把 Eminem 的 Godzilla 视频逐帧描成平面形状，再以 JavaScript 重绘的流程。原始影像和音乐都是最终动画的输入。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c9ac6106098d63ff3d7ce8d7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4b7d65e79fa8c8fa9aed2eda.jpg" alt="用 JavaScript 重绘音乐视频" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-118"></a>
+### Case 118: [中国足球主题动画](https://x.com/esrhengwu/status/2106625966965760380) (作者 [@esrhengwu](https://x.com/esrhengwu))
+
+**把体育主题转化为动画叙事简报。**
+
+作者分享了一段中国国家足球队主题动画，将发展与韧性作为创作主题。录屏提供了具体的体育故事表达样本。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d0e837b5c3551d3c3715337f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cd5e0537224d41a29e3e4d81.jpg" alt="中国足球主题动画" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-119"></a>
+### Case 119: [掌机模型的重拓扑展示](https://x.com/mickeysmith_jp/status/2106607349385630138) (作者 [@mickeysmith_jp](https://x.com/mickeysmith_jp))
+
+**讨论拓扑时，把掌机渲染图与线框展示对照起来。**
+
+发布者在讨论重拓扑时展示了掌机图像及线框式视图。这是具体的建模展示，而不是可编辑网格或记录完整的重拓扑操作流程。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ec1260c667d8139c4cfed70a.jpg" alt="掌机模型的重拓扑展示" width="760">
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-120"></a>
+### Case 120: [Minecraft 与 Pokémon 的结合](https://x.com/MozeTech/status/2106590326634983710) (作者 [@MozeTech](https://x.com/MozeTech))
+
+**在同一个原型简报中组合两款熟悉游戏的机制。**
+
+作者展示并链接了一个真新镇原型，把 Minecraft 式建造、合成与 Pokémon 式捕捉结合起来。帖子将其描述为一次性生成实验。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5ca78d7ae17e27f0c3728df6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/829a3e03f20c6f9f8c58cd5c.jpg" alt="Minecraft 与 Pokémon 的结合" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-121"></a>
+### Case 121: [解释大语言模型如何制作](https://x.com/imjustnewatai/status/2106546810793730419) (作者 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**把技术问题转化为可视化讲解请求。**
+
+作者询问大语言模型是如何制作的，并分享了得到的解说视频。作品展示了如何用动画序列呈现技术主题。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6a944b8ff013c87884dd9e9f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1d36e53c6eaf410eed54236a.jpg" alt="解释大语言模型如何制作" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-122"></a>
+### Case 122: [Altman 主题精彩剪辑](https://x.com/benchmark_lb900/status/2106539977404506303) (作者 [@benchmark_lb900](https://x.com/benchmark_lb900))
+
+**用公众人物主题测试短动态剪辑的节奏。**
+
+作者分享了 Altman 主题的精彩片段，并表示这是一次性生成的成果。竖屏录屏提供了紧凑的动态剪辑参考。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/af9cca794a0a4f1532bcc60d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d683cf1f4c3f2a25f5a3db76.jpg" alt="Altman 主题精彩剪辑" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-123"></a>
+### Case 123: [《三十六计》第一计动画](https://x.com/jesselaunz/status/2106538284197548122) (作者 [@jesselaunz](https://x.com/jesselaunz))
+
+**记录叙事动画流程时，同时写明外部音乐工具。**
+
+作者分享了《三十六计》第一计主题影片，并表示只用了一条指令。影片音乐使用 Suno V6，保留了音频工具的独立角色。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1adf495a8a97637ea487129d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bc271c45635d54a258cf5e29.jpg" alt="《三十六计》第一计动画" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-124"></a>
+### Case 124: [游戏建模、绑定与动画](https://x.com/atomtanstudio/status/2106516974662713477) (作者 [@atomtanstudio](https://x.com/atomtanstudio))
+
+**在游戏场景比较中一起评估角色创建、绑定和动画。**
+
+作者分享了 Depths of Despair 对比，涉及角色建模、绑定与动画。帖子说明了制作所用素材和工具，并把可见结果放在一起呈现。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/543488d55fbd3bf31a838793.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/618e83e5f19e49a8cac14986.jpg" alt="游戏建模、绑定与动画" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-125"></a>
+### Case 125: [关于儿童死亡的无对白影片](https://x.com/cocoloba_/status/2106512963414970458) (作者 [@cocoloba_](https://x.com/cocoloba_))
+
+**用无对白视觉序列表达困难的社会主题。**
+
+作者分享了一部儿童死亡主题影片，以呼吸中的婴儿和暗下来的婴儿床构成叙事意象。案例保留视觉叙事任务，不采纳片中人口统计数字。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c27b689422cbbf3a151c91b2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a25e576f265e01b5c543c3ab.jpg" alt="关于儿童死亡的无对白影片" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-126"></a>
+### Case 126: [从糖酵解到乙醇的 SVG 动画](https://x.com/olddonkeyblog/status/2106508425211330750) (作者 [@olddonkeyblog](https://x.com/olddonkeyblog))
+
+**把 SVG 动画嵌入 HTML，讲解分子过程。**
+
+作者要求展示葡萄糖分子经过糖酵解并形成乙醇的过程，以 HTML 内的 SVG 动画呈现。附带录屏展示了科学可视化成果。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9c7ebfa65fa03ac5dddefbc7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/34dd4d34fa6d9a00374141d7.jpg" alt="从糖酵解到乙醇的 SVG 动画" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-127"></a>
+### Case 127: [十六艘 Starship 同步发射](https://x.com/olddonkeyblog/status/2106507742454403485) (作者 [@olddonkeyblog](https://x.com/olddonkeyblog))
+
+**为 HTML 与 SVG 动画明确同步发射的阶段。**
+
+作者要求十六艘 Starship 同时发射，随后进行级间分离并进入太空。录屏展示了最终的多对象动画序列。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/61849da7a881419b60dcae41.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/98d75b5f7d113ae54ac1753d.jpg" alt="十六艘 Starship 同步发射" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-128"></a>
+### Case 128: [鹈鹕骑车动画测试](https://x.com/olddonkeyblog/status/2106507429265756165) (作者 [@olddonkeyblog](https://x.com/olddonkeyblog))
+
+**把鹈鹕骑车动画作为协调运动的绘图任务来观察。**
+
+作者分享了以 Max 推理强度执行鹈鹕骑车任务的成果。它与其他作者使用同类提示得到的作品是不同的独立录屏。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c3b9b0bf5ec86fce138a1221.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b201da22cf822e627212671b.jpg" alt="鹈鹕骑车动画测试" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-129"></a>
+### Case 129: [未来一百五十年的故事](https://x.com/imjustnewatai/status/2106489784382197771) (作者 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**围绕未来故事简报，组合脚本、代码画面和配乐。**
+
+作者表示用一条指令制作了描述人类未来一百五十年的影片。作品结合文字叙事、代码动画和音乐，描绘可能的未来生活。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/228b236d407998ac39491f5e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/2e714a53df372ed797a7e907.jpg" alt="未来一百五十年的故事" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-130"></a>
+### Case 130: [独立尝试 Humanity Walks](https://x.com/iowitz/status/2106489119186538583) (作者 [@iowitz](https://x.com/iowitz))
+
+**把艺术史行走动画重新做成一次独立创意实验。**
+
+作者在看过其他演示后，尝试了自己的穿越艺术史行走动画并分享成果。它作为独立生成作品保留，不因主题相同而直接合并。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f27280f609dadc28672aefdf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7dd72b2ab4bfe3aefa8be062.jpg" alt="独立尝试 Humanity Walks" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-131"></a>
+### Case 131: [代码制作的 The Grader 影片](https://x.com/argofowl/status/2106476549046513947) (作者 [@argofowl](https://x.com/argofowl))
+
+**展示代码影片时，记录外部语音或音频生成工具。**
+
+作者分享了代码影片 The Grader，音频使用 ElevenLabs v4。帖子表示一次性运行耗时约两小时二十二分钟。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ef0a1ded02ef50db2842e393.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/81326a05ce8ec8e64457d4db.jpg" alt="代码制作的 The Grader 影片" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-132"></a>
+### Case 132: [恐怖短片 Reawakening](https://x.com/JaydenDavisNC/status/2106440774367822008) (作者 [@JaydenDavisNC](https://x.com/JaydenDavisNC))
+
+**用明确的恐怖设定组织动画短片。**
+
+作者分享了名为 Reawakening 的 AI 恐怖短片。附带作品为恐怖动画简报提供了具体的叙事与氛围参考。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/676985e8db9f61d999309cb6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f76cd5c697edd52c235ad972.jpg" alt="恐怖短片 Reawakening" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-133"></a>
+### Case 133: [二十五秒的自我改进视频](https://x.com/DAssetBuzz/status/2106505100575592838) (作者 [@DAssetBuzz](https://x.com/DAssetBuzz))
+
+**把抽象的自我改进主题转化为简短创意影片。**
+
+作者要求制作一段二十五秒视频，主题是怎样让模型变得更好，并分享了结果。这个设定用于创意叙事，而不是产品能力声明。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fceb3fc0b2fd1a45e4df6598.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5affafaa899381ebb0c07c9d.jpg" alt="二十五秒的自我改进视频" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-134"></a>
+### Case 134: [城堡场景与使用费用反馈](https://x.com/nemumusitocha/status/2106429338556207284) (作者 [@nemumusitocha](https://x.com/nemumusitocha))
+
+**评估 3D 场景时，同时考虑画面细节和作者的使用体验。**
+
+作者展示了精细的城堡场景，称赞视觉构建，但认为使用费用不划算。案例把具体场景与作者对成本的满意度反馈放在一起。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ca4e00fb991a531a91b787ec.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c437830c5a26908acecb2664.jpg" alt="城堡场景与使用费用反馈" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-135"></a>
+### Case 135: [四十秒品牌发布广告](https://x.com/0xashtonx/status/2106421702783914423) (作者 [@0xashtonx](https://x.com/0xashtonx))
+
+**用自己的品牌作为简洁发布广告的创作对象。**
+
+作者要求为自己的品牌制作四十秒发布广告，并分享了结果。该任务提供了生成品牌宣传叙事的具体示例。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fe3a0894e5fb290708fe2559.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/769040e88e5fa00440daf93b.jpg" alt="四十秒品牌发布广告" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-136"></a>
+### Case 136: [Rocketball 游戏重制](https://x.com/atomtanstudio/status/2106418747083022555) (作者 [@atomtanstudio](https://x.com/atomtanstudio))
+
+**通过熟悉游戏的重制任务，组合代码素材和互动机制。**
+
+作者分享了八十年代 C-64 游戏 Rocketball 的重制版，并表示素材以代码制作。替换网站版本仍被描述为后续计划。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1c9049d48131242460ff0b08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/840804f6fc059b910cecbea5.jpg" alt="Rocketball 游戏重制" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-137"></a>
+### Case 137: [体素宝塔场景对比](https://x.com/dropout_layer/status/2106408147309252915) (作者 [@dropout_layer](https://x.com/dropout_layer))
+
+**把同场景的两次成果和各自报告的运行费用一起比较。**
+
+作者展示 Astra 与 Fable 的 3D 体素宝塔成果，并分别报告费用为 3.50 美元和 5.50 美元。比较针对这两次具体运行及其场景结果。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/21478220f08972929cc315d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/eb7e758f0ca20099e8ec2b71.jpg" alt="体素宝塔场景对比" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-138"></a>
+### Case 138: [想象中的 Switch 3 发布展示](https://x.com/mathisbuilds/status/2106407842240418097) (作者 [@mathisbuilds](https://x.com/mathisbuilds))
+
+**把想象产品用作概念发布和演示任务。**
+
+作者要求想象 Nintendo Switch 3 并制作演示，表示工作约耗时四小时。录屏呈现的是虚构下一代主机概念，而非真实产品规格。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9cedd5846e7c44a4b8b18e60.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0a0c87ad253a8e1de157e1b4.jpg" alt="想象中的 Switch 3 发布展示" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-139"></a>
+### Case 139: [着陆页的前后对比](https://x.com/nemumusitocha/status/2106402952307200302) (作者 [@nemumusitocha](https://x.com/nemumusitocha))
+
+**重新执行同一个着陆页提示，比较不同时期的输出。**
+
+作者把新生成的着陆页与此前使用同一提示制作的页面比较。可见的前后设计为界面对比提供了具体样本。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9200a6fe533b722eb9689f98.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/11891711d14bb0550e4e3dcf.jpg" alt="着陆页的前后对比" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-140"></a>
+### Case 140: [想象中的 AI 内在视角](https://x.com/blueemi99/status/2106397329653719115) (作者 [@blueemi99](https://x.com/blueemi99))
+
+**把想象的内在视角作为创意动画设定。**
+
+作者要求制作关于身为 AI 模型可能有何感受的影片，并分享了一次性生成的成果。该设定以想象性的视觉表达呈现。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/50e0c388c8aa359236e320a2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cbe79d20f3e6b68059837a0b.jpg" alt="想象中的 AI 内在视角" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-141"></a>
+### Case 141: [Go 歌词动态设计](https://x.com/atomtanstudio/status/2106377491267137848) (作者 [@atomtanstudio](https://x.com/atomtanstudio))
+
+**围绕既有歌曲录音制作歌词动画。**
+
+作者分享了 The Chemical Brothers 的 Go 歌词视频，并表示使用 Max 推理。歌曲录音仍是这次动态设计的外部音频输入。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/60df0d5a6a73acd36b32f482.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8d7f53506169267888481454.jpg" alt="Go 歌词动态设计" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-142"></a>
+### Case 142: [第二支十五秒动态作品集](https://x.com/Saccc_c/status/2106376222309761094) (作者 [@Saccc_c](https://x.com/Saccc_c))
+
+**用自由发挥的动态作品集简报探索新视觉方向。**
+
+作者分享了一支新的十五秒动态作品集，并附上创意提示。帖子明确把这次生成与更早的作品集区分开来。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/67cc18e0020d5a96713de1a8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e3680ff12a107b5d15bd4e5e.jpg" alt="第二支十五秒动态作品集" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-143"></a>
+### Case 143: [引导式代理实施审查](https://x.com/RobIW_dev/status/2106371025852108940) (作者 [@RobIW_dev](https://x.com/RobIW_dev))
+
+**从构想到执行前，先审查实施计划与系统是否匹配。**
+
+作者分享了涉及系统匹配、实施规划和解释的指引，并描述如何检查已完成工作或决定下一步实施内容。附图保留了具体规划材料。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7c308ed282e70b605ddc2d74.jpg" alt="引导式代理实施审查" width="760">
+
+Type: Tutorial | Date: 2026-10-03
+
+---
+
+<a id="case-144"></a>
+### Case 144: [Claude 吉祥物舞蹈](https://x.com/ishuagra02/status/2106369929813594134) (作者 [@ishuagra02](https://x.com/ishuagra02))
+
+**用踩点吉祥物动画测试动作与音乐的配合。**
+
+作者分享了 Claude 吉祥物舞蹈，并表示动画能够跟上节拍。重复使用同一原生视频的帖子归到这个来源，不重复计为作品。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/448f60510bc8d206d9871580.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9943078ebfa5f29928ff11cb.jpg" alt="Claude 吉祥物舞蹈" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-145"></a>
+### Case 145: [可交互的世界七大奇迹群岛](https://x.com/notjazii/status/2106368606502334922) (作者 [@notjazii](https://x.com/notjazii))
+
+**用地标建筑作为交互岛屿场景中的目的地。**
+
+发布者分享了由 3D 岛屿和地标建筑构成的世界七大奇迹场景。录屏展示了如何用熟悉的古迹组织交互式视觉环境。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7c2548aa2216a05d6bcf88cc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/be4f38faca4efaaf2d37bb34.jpg" alt="可交互的世界七大奇迹群岛" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-146"></a>
+### Case 146: [Propellerheads 音乐视频](https://x.com/atomtanstudio/status/2106353569603736009) (作者 [@atomtanstudio](https://x.com/atomtanstudio))
+
+**以现成配乐为核心组织较长的动态图形。**
+
+作者分享了为 Propellerheads 的 On Her Majesty’s Secret Service 制作的音乐视频。既有录音是动画视觉序列的音频输入。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f2691b42909079f64e659008.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/47f911d1f26059bbbf87adfd.jpg" alt="Propellerheads 音乐视频" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-147"></a>
+### Case 147: [Steamboat Willie 动画对比](https://x.com/mathisbuilds/status/2106351978691305732) (作者 [@mathisbuilds](https://x.com/mathisbuilds))
+
+**开启声音，比较同一短场景的两种动画处理。**
+
+作者分享了标作 Fable 和 Opus、采用 xhigh 强度的 Steamboat Willie 对比，并表示两者都是一次性生成。片段呈现了这次具体的视听对比。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b59fcf68af9079043710bfb1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9d3ddb610977282fb47d094a.jpg" alt="Steamboat Willie 动画对比" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-148"></a>
+### Case 148: [三星堆主题影片](https://x.com/hungryturbo/status/2106339115642019904) (作者 [@hungryturbo](https://x.com/hungryturbo))
+
+**用文化历史主题组织动画短片。**
+
+作者分享了一部三星堆主题影片，作为创意视觉叙事作品。录屏展示了如何把历史文化题材转化为动画简报。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3b543f8114bf971a25cfc075.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/54b30b962a562cf71c5c7d1c.jpg" alt="三星堆主题影片" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-149"></a>
+### Case 149: [Bugatti Chiron 的前后对比](https://x.com/alannnfx/status/2106323394350461031) (作者 [@alannnfx](https://x.com/alannnfx))
+
+**重新执行早先的汽车提示，比较建模与功能细节。**
+
+同一作者展示了早期运行和新近重跑提示得到的 Bugatti Chiron 成果。前后录屏重点呈现更丰富的建模与场景功能。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/dce62441af2bc515349c9da8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/539bcbf357d029adf665b992.jpg" alt="Bugatti Chiron 的前后对比" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-150"></a>
+### Case 150: [GRAIN 概念短片](https://x.com/NFT_Chen/status/2106301427052360150) (作者 [@NFT_Chen](https://x.com/NFT_Chen))
+
+**用反复出现的视觉母题构建抽象概念影片。**
+
+作者分享了 GRAIN 概念短片，把种子、谷粒、树木和山体意象连接起来。序列以反复出现的形态和转场组织叙事。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/57e75bacc95f9cd23460f659.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fed7820dddd11b739076aca8.jpg" alt="GRAIN 概念短片" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-151"></a>
+### Case 151: [Human in Transit 艺术画廊](https://x.com/exploraX_/status/2106296439936614646) (作者 [@exploraX_](https://x.com/exploraX_))
+
+**用交互式画廊形式呈现历史视觉旅程。**
+
+发布者分享了从古代画风延伸到现代画风的 Human in Transit 画廊。录屏为在同一展示中组织多个视觉时期提供了具体参考。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1e04f07e2356151e268d5f30.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/260ec41d2d9b54a24e325d14.jpg" alt="Human in Transit 艺术画廊" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-152"></a>
+### Case 152: [丝绸之路视觉短片](https://x.com/hungryturbo/status/2106294812261695508) (作者 [@hungryturbo](https://x.com/hungryturbo))
+
+**把旅行与历史主题转化为连贯的视觉短片。**
+
+作者分享了一部丝绸之路主题影片。附带作品以动画画面为历史旅程提供了具体的创意处理。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/07116e11e8c8a0e5899ae8bd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3a64357c0519bd7524f7949a.jpg" alt="丝绸之路视觉短片" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-153"></a>
+### Case 153: [四种转型路径的演示文稿](https://x.com/dpkostka/status/2106272731364794757) (作者 [@dpkostka](https://x.com/dpkostka))
+
+**用转型框架组织演示文稿的结构。**
+
+作者分享了描述四种转型路径的幻灯片。附带演示图展示了概念框架如何被安排成视觉文档。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3aa84b5e612da3b4d740c390.jpg" alt="四种转型路径的演示文稿" width="760">
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-154"></a>
+### Case 154: [比较历史对话的语气](https://x.com/kiyoshi_shin/status/2106268573186637883) (作者 [@kiyoshi_shin](https://x.com/kiyoshi_shin))
+
+**检查语气变化时，把旧对话记录与当前回答对照起来。**
+
+作者让当前模型分析更早的聊天记录及其现有风格，随后表示不满意语气变化。附图记录了这项对话对比任务。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5df5dc4983c09495b3e4dfbf.jpg" alt="比较历史对话的语气" width="760">
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-155"></a>
+### Case 155: [鸮鹦鹉可爱度测试](https://x.com/hanawo_neki/status/2106257409782288659) (作者 [@hanawo_neki](https://x.com/hanawo_neki))
+
+**用明确的角色偏好任务比较不同动画风格。**
+
+作者分享了一段鸮鹦鹉动画，并表示在这项以可爱为目标的比较中更喜欢 Opus。案例同时保留实际作品和负面审美反馈。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c3328698e23303648334dda0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f51048a616b2d6c9471f9774.jpg" alt="鸮鹦鹉可爱度测试" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-156"></a>
+### Case 156: [蜘蛛侠穿越十个漫画时代](https://x.com/chetaslua/status/2106248621519978867) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**在多个漫画时代之间切换时，保持角色的可辨识性。**
+
+原发布者展示了蜘蛛侠穿越十个漫画时代的动画。重复使用同一视频的其他帖子关联到此来源，不另计为新作品。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4b71937c3743eed2ba92de90.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/72f77356b6e8293005144d0c.jpg" alt="蜘蛛侠穿越十个漫画时代" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-157"></a>
+### Case 157: [光明会题材的虚构恐怖视频](https://x.com/badboyfoxy/status/2106241189976387799) (作者 [@badboyfoxy](https://x.com/badboyfoxy))
+
+**把阴谋题材的恐怖要求当作虚构叙事练习。**
+
+作者要求制作一段吓人的光明会主题视频，并分享了最终作品。该题材在动画中提供的是虚构恐怖设定。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6c9b503c1d226dfc63700cd3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f2715bf396e76b3b9a421c43.jpg" alt="光明会题材的虚构恐怖视频" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-158"></a>
+### Case 158: [代码制作的核科学史影片](https://x.com/imjustnewatai/status/2106238699872956427) (作者 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**用自定义代码渲染器和配乐制作科学史解说。**
+
+作者要求一部三分钟 3D 影片，解释核科学如何使原子弹成为可能，并报告使用绘制帧、自定义渲染器和合成音乐。案例关注视听制作流程。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d3bb5c1a7d19214aa2df7c15.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ddd5eadabcd20e7c99f8a84b.jpg" alt="代码制作的核科学史影片" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-159"></a>
+### Case 159: [全民高收入概念解说](https://x.com/markbraincell/status/2106234118514323515) (作者 [@markbraincell](https://x.com/markbraincell))
+
+**用动画解释经济概念。**
+
+发布者分享了一段解释全民高收入的动画。录屏提供了具体的概念解说示例，并不把影片中的经济论述当作经过测量的结果。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d3dc85ce581ace81d5dee727.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c47951c1cdaf4f43cdc3b40b.jpg" alt="全民高收入概念解说" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-160"></a>
+### Case 160: [Altman 与 Amodei 争论的动画解说](https://x.com/imjustnewatai/status/2106204392588276065) (作者 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**用一场争论组织动画解说的叙事。**
+
+作者要求以动画讲述 Altman 与 Amodei 的争论，并分享了结果。任务展示的是时事解说形式，而不是独立考据的历史记录。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5728468c70009e5a30391f08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ad00b822edd0e9f7afcfa7f0.jpg" alt="Altman 与 Amodei 争论的动画解说" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-161"></a>
+### Case 161: [Claude 吉祥物音乐视频](https://x.com/synthshareai/status/2106195060140446028) (作者 [@synthshareai](https://x.com/synthshareai))
+
+**把吉祥物叠加到既有影像中，制作角色主题音乐剪辑。**
+
+发布者分享了叠加在真人音乐视频背景上的 Claude 吉祥物，并报告运行十二小时。可见处理结合了卡通叠层和提供的原始影像。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c19520473733d1f7435a38d3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/77afb2d88514b8e9fb89e8fc.jpg" alt="Claude 吉祥物音乐视频" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-162"></a>
+### Case 162: [从夸克到宇宙的连续缩放](https://x.com/imjustnewatai/status/2106190594775097663) (作者 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**用连续缩放把不同科学尺度连接到同一视听故事中。**
+
+作者报告使用代码画面与合成音乐制作从夸克到宇宙的缩放。录屏展示了连续的尺度过渡和连贯的视觉叙事。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/721f59cdc3678e81c567dead.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/395d2654b5b0a3e977b472c8.jpg" alt="从夸克到宇宙的连续缩放" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-163"></a>
+### Case 163: [想象 2076 年的世界](https://x.com/Layton_Gott/status/2106190496075035096) (作者 [@Layton_Gott](https://x.com/Layton_Gott))
+
+**为未来世界场景规定明确的叙事时长。**
+
+作者要求一段二十五秒视频，并分享了想象 2076 年世界的短片。其他账号重复使用同一录屏时，统一关联到这个来源。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/48731c19330bc992204fb804.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6d2b707821e78f6d02308051.jpg" alt="想象 2076 年的世界" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-164"></a>
+### Case 164: [曼哈顿下城建筑时间线](https://x.com/nroze22/status/2106183281293381661) (作者 [@nroze22](https://x.com/nroze22))
+
+**在建筑时间线界面中结合轮廓、建造年份和高度。**
+
+作者用建筑绘图式界面呈现曼哈顿下城，展示建筑年代、平面轮廓和高度。录屏提供了具体的交互式建筑年表概念。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5eadbb9d6620c56cdfd20db7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/439a32860dc89b2ff304e991.jpg" alt="曼哈顿下城建筑时间线" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-165"></a>
+### Case 165: [甲骨文主题动画](https://x.com/MinLiBuilds/status/2106180691344118202) (作者 [@MinLiBuilds](https://x.com/MinLiBuilds))
+
+**用文字的演变组织动画历史旅程。**
+
+作者分享了一段以甲骨文为起点的动画。录屏提供了围绕书写文字历史展开的具体视觉叙事样本。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0d0e033e83e40406963c1624.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0a7fb3b121acab9ff0f387f8.jpg" alt="甲骨文主题动画" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-166"></a>
+### Case 166: [角色穿越艺术史的另一种尝试](https://x.com/imjustnewatai/status/2106162924331180510) (作者 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**在不断变化的历史场景中，用熟悉角色作为连续引导。**
+
+作者要求钢铁侠和蜘蛛侠飞越历史，并分享了生成动画。它与其他作者的角色艺术史实验属于不同作品。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/13b5f9341ac3c45e858cfc2e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e90b1577480524f8edac5080.jpg" alt="角色穿越艺术史的另一种尝试" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-167"></a>
+### Case 167: [代码制作的塞基洛斯视听作品](https://x.com/YanqingCheng/status/2106158746938269728) (作者 [@YanqingCheng](https://x.com/YanqingCheng))
+
+**围绕历史音乐文本制作单文件视听作品。**
+
+作者分享了塞基洛斯墓志铭主题作品，表示画面和音乐均以 HTML 与 JavaScript 在同一文件中合成。历史文本是代码视听序列的组织主题。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ac7bdaa973e41a073c063606.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3aa2fd116482590d4761d329.jpg" alt="代码制作的塞基洛斯视听作品" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-168"></a>
+### Case 168: [喷气飞机动画对比](https://x.com/Kinzf2121/status/2106158536963330346) (作者 [@Kinzf2121](https://x.com/Kinzf2121))
+
+**在同一飞机任务下比较飞行动画与镜头跟随。**
+
+作者分享了一项喷气飞机动画对比，将标为 Fable 5.1 的成果与 Opus 放在一起。录屏为比较飞机运动和电影式镜头跟随提供了具体样本。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d5ca08b004ee0b0477384ae4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/51c2eff3a0af7f83a1063f02.jpg" alt="喷气飞机动画对比" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-02
+
+---
+
+<a id="case-169"></a>
+### Case 169: [模型自我介绍影片](https://x.com/devteamdrew/status/2106155815707021549) (作者 [@devteamdrew](https://x.com/devteamdrew))
+
+**用自我介绍简报探索模型主题动画。**
+
+作者表示用一条提示要求制作自我介绍视频，并分享了最终影片。任务把模型主题叙事与动画展示结合起来。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f622576a03f5acf8fd1d6a8c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/67a3f8209951f7177817309f.jpg" alt="模型自我介绍影片" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-170"></a>
+### Case 170: [末日风格卡牌游戏原型](https://x.com/maciejkrupowies/status/2106153578029338850) (作者 [@maciejkrupowies](https://x.com/maciejkrupowies))
+
+**先制作卡牌游戏主题原型，再观察战斗界面。**
+
+作者分享了一个末日风格的 Hearthstone 类原型，并称其为一次性生成。帖子在展示游戏界面与交互的同时，也承认存在少量故障。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8d4ee0351fbc1bf402a6fbe9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/010130286ef1cd23d112191a.jpg" alt="末日风格卡牌游戏原型" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-171"></a>
+### Case 171: [The Late Byte 职场动画](https://x.com/rohit3a/status/2106138910648914094) (作者 [@rohit3a](https://x.com/rohit3a))
+
+**把模型人格设定变成动画职场对话中的角色。**
+
+作者展示了职场故事 The Late Byte，其中 Opus 被塑造成生气的老板。它与另一部 Day in the Life of Claude 影片是不同叙事。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/15c94a558525f7353af74d9d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b8591839693983a13e85a16e.jpg" alt="The Late Byte 职场动画" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-172"></a>
+### Case 172: [Queens of the Stone Age 歌词动画](https://x.com/atomtanstudio/status/2106135196483608745) (作者 [@atomtanstudio](https://x.com/atomtanstudio))
+
+**把现成歌曲与动态文字和视觉设计结合起来。**
+
+作者描述了围绕 Queens of the Stone Age 录音制作的动态歌词视频。歌曲是提供的音频输入，案例关注歌词与画面的编排。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/29baacc9a5d79663d028c0d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/85f77ab89071911301d88f92.jpg" alt="Queens of the Stone Age 歌词动画" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-173"></a>
+### Case 173: [分享的 Three.js 叙事场景](https://x.com/Noreply134882/status/2106116572389478746) (作者 [@Noreply134882](https://x.com/Noreply134882))
+
+**用分享的 3D 故事视频参考叙事场景设计。**
+
+发布者分享了一个 Three.js 叙事场景，并评论其 Token 消耗量很大。附带片段作为 3D 叙事的具体分享样本保留。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e82bc5fcc6a848f88a5e0fa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/565cf7c430705cc48ac8ab71.jpg" alt="分享的 Three.js 叙事场景" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-174"></a>
+### Case 174: [穿越历史场景的月球步](https://x.com/noclipepe/status/2106105810812112937) (作者 [@noclipepe](https://x.com/noclipepe))
+
+**让舞蹈母题贯穿不同历史场景和美术风格。**
+
+发布者分享了一段从恐龙时代走向月球的 Michael Jackson 月球步序列。影片作为舞蹈与画风画廊的分享样本保留。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/34c25a1d7f0c405d9ce529bf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/096ac813acdfe28a3e52f16c.jpg" alt="穿越历史场景的月球步" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-175"></a>
+### Case 175: [详细提示词生成的动态图形](https://x.com/devswha/status/2106100273509007802) (作者 [@devswha](https://x.com/devswha))
+
+**把详细创意简报与较短的动态设计要求对比。**
+
+作者分享了动态图形视频，并表示只提供详细提示词，没有素材、参考视频或源文件。成果为提示驱动的动态设计提供了具体参考。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/04f82b6cb08e4416d82850b5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4df2d47adf0c0b1b795a13f7.jpg" alt="详细提示词生成的动态图形" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-176"></a>
+### Case 176: [租赁业务网站界面](https://x.com/oalanicolas/status/2106098902965309475) (作者 [@oalanicolas](https://x.com/oalanicolas))
+
+**用租赁业务简报探索具体的网站界面。**
+
+作者分享了一张租赁业务网站界面的截图。案例关注可见的页面设计及其业务呈现方式。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4260ce2518ee2b7ed4015670.jpg" alt="租赁业务网站界面" width="760">
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-177"></a>
+### Case 177: [AGI 主题创意影片](https://x.com/AndrewOnXYZ/status/2106097745098395712) (作者 [@AndrewOnXYZ](https://x.com/AndrewOnXYZ))
+
+**用反复使用的创意提示比较叙事与视觉处理。**
+
+作者分享了通过惯用提示制作的 AGI 主题动画。影片把有关模型的表述作为创意叙事的一部分。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/24a8cc2869d1f945c337dd51.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b19d60e7a61a0885999a9ec8.jpg" alt="AGI 主题创意影片" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-178"></a>
+### Case 178: [带猫咪支线的艺术史动画](https://x.com/cherry_mx_reds/status/2106095190285144331) (作者 [@cherry_mx_reds](https://x.com/cherry_mx_reds))
+
+**用一个持续出现的角色，把多个艺术时期压缩成短篇叙事。**
+
+作者展示了含猫咪支线的十五秒艺术史旅程。十五秒指影片时长，创意任务则跨越多个历史风格。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/819481183fc7834d88cd5557.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3967f82d274d07f7ea7c11bc.jpg" alt="带猫咪支线的艺术史动画" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-179"></a>
+### Case 179: [战斗原型与体素场景](https://x.com/OnlyTerp/status/2106089280502210626) (作者 [@OnlyTerp](https://x.com/OnlyTerp))
+
+**在同一个创意编程任务中观察游戏战斗和世界构建。**
+
+作者分享了 DMC 风格战斗原型与体素场景，并描述了一次较长的生成运行。帖子提供两项具体成果，便于观察游戏机制和视觉世界设计。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d8c9fdf7a2bb4ea0e4d3a53a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/03fc44f9f96cf5f3ae42b7bb.jpg" alt="战斗原型与体素场景" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-180"></a>
+### Case 180: [互联网迷因时间线](https://x.com/chetaslua/status/2106076940558082297) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**按各年份的画风和音乐组织动画年表。**
+
+作者分享了 2010 至 2026 年网络热门迷因的动画序列。每一年都配有视觉风格与音乐处理，构成代码叙事的一部分。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d33c0b55ae8c290665afdc29.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/29a4c6fbbf00bf107a493f8f.jpg" alt="互联网迷因时间线" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-181"></a>
+### Case 181: [一行提示生成的粒子运动](https://x.com/devswha/status/2106072107365114186) (作者 [@devswha](https://x.com/devswha))
+
+**先用一行简短动效要求，再尝试更详细的提示。**
+
+作者分享了由一行提示生成的粒子运动动画，并表示计划尝试更详细的要求。它与作者较长的动态设计作品是不同的一次生成。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5670b888b55ee404db63e456.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/445333acd2d116cb0887ab17.jpg" alt="一行提示生成的粒子运动" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-182"></a>
+### Case 182: [Kung-Fu Boy 动画](https://x.com/HashmathRzz/status/2106065773336965510) (作者 [@HashmathRzz](https://x.com/HashmathRzz))
+
+**用武术角色简报探索动画动作。**
+
+作者分享了 Kung-Fu Boy，将这一角色动画示例归于 Fable 5.5。附带录屏提供了武术主题的具体动画成果。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f864ef82f64ca6225c0af261.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c21633c7b612e6a16d57881a.jpg" alt="Kung-Fu Boy 动画" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-183"></a>
+### Case 183: [霍尔木兹海峡辩论动画](https://x.com/chetaslua/status/2106060047805792415) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**把辩论主题转化为动画叙事。**
+
+作者展示了一段霍尔木兹海峡主题的动画辩论。案例记录的是可见的辩论影片，而非周边帖子提到但未展示的其他用途。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1e47dad4b619080e0bb9a5ee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c578ea3e94885b964cfe339b.jpg" alt="霍尔木兹海峡辩论动画" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-184"></a>
+### Case 184: [独角兽 SVG 风格实验](https://x.com/atomtanstudio/status/2106057876053918127) (作者 [@atomtanstudio](https://x.com/atomtanstudio))
+
+**用同主题绘图任务观察 SVG 的风格选择。**
+
+作者分享了受另一位创作者测试启发的独角兽 SVG 实验。附图提供了比较同一题材视觉处理的具体成果。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3f24fc135aa4b7db69bcac72.jpg" alt="独角兽 SVG 风格实验" width="760">
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-185"></a>
+### Case 185: [万圣节主题动画](https://x.com/cherry_mx_reds/status/2106056643255447590) (作者 [@cherry_mx_reds](https://x.com/cherry_mx_reds))
+
+**为代码模型提供季节主题，制作简短创意动画。**
+
+作者要求制作万圣节主题作品，并分享了生成的季节动画。帖子保留了这一具体创意任务的原始录屏。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6e60368675a61c0b6e62d1d4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8cabbe8b2fe083d6ddc29e16.jpg" alt="万圣节主题动画" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-186"></a>
+### Case 186: [Blender CLI 野蛮人角色与封面](https://x.com/BoDy051/status/2106047375320166885) (作者 [@BoDy051](https://x.com/BoDy051))
+
+**用 Blender CLI 指令探索角色建模和封面渲染。**
+
+作者把 RPG 野蛮人角色及封面概念与 Opus 的成果比较。Blender CLI 是流程中的构建和渲染工具，模型负责提供代码指令。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/74aeac02c879e17cc8cdbe2c.jpg" alt="Blender CLI 野蛮人角色与封面" width="760">
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-187"></a>
+### Case 187: [Claude 的一天](https://x.com/ishuagra02/status/2106045364868419727) (作者 [@ishuagra02](https://x.com/ishuagra02))
+
+**围绕持续出现的吉祥物构建日常生活动画。**
+
+原发布者分享了一部以吉祥物为主角的 Day in the Life of Claude 影片。该来源视频与独立的吉祥物舞蹈及其转载不同。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ce91d7bd6316929c0229c090.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/aa0dfdca579e71891d871df8.jpg" alt="Claude 的一天" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-188"></a>
+### Case 188: [3D 人类历史](https://x.com/blueemi99/status/2106041578204655748) (作者 [@blueemi99](https://x.com/blueemi99))
+
+**把代码场景与动画组合成历史视觉序列。**
+
+作者分享了一段从古代人类延伸至当下的 3D 视频，并表示以代码生成了动画和模型。成果是一项视觉叙事实例。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/da237dda8714cc1f10d6bd8a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/72fd4829e96839ace8f79b29.jpg" alt="3D 人类历史" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-189"></a>
+### Case 189: [快节奏动态设计作品](https://x.com/blueemi99/status/2106031355922387163) (作者 [@blueemi99](https://x.com/blueemi99))
+
+**评估简短动态作品的节奏、声音和连贯性。**
+
+作者分享了一支快节奏动效视频，并把声音与连贯性同自己的 Opus 成果比较。评价针对作者对这件具体作品的体验。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ecbba68abe3d9a22e9428087.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/464ea3477781ec76d5decfa6.jpg" alt="快节奏动态设计作品" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-02
+
+---
+
+<a id="case-190"></a>
+### Case 190: [自由发挥的复杂 3D 创作](https://x.com/cocoloba_/status/2106029181607772413) (作者 [@cocoloba_](https://x.com/cocoloba_))
+
+**用开放式创意要求探索复杂的 3D 构图。**
+
+作者询问模型在有空闲时间时会制作什么，并分享了最终 3D 作品。帖子描述了生成构图中大量独立零件。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a1089bbf8543ef20056ae277.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1ca7ca904b82e34a6dba88aa.jpg" alt="自由发挥的复杂 3D 创作" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-191"></a>
+### Case 191: [火柴人格斗动画](https://x.com/HelaliBillel/status/2106028502763900944) (作者 [@HelaliBillel](https://x.com/HelaliBillel))
+
+**用具体的战斗动画要求观察时序和动作。**
+
+作者要求制作火柴人格斗动画视频，并分享成果。附带录屏提供了该战斗动画任务的具体样本。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e89ce685574f66dc969d7ac.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4c6683c5a691eeff27424c02.jpg" alt="火柴人格斗动画" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-192"></a>
+### Case 192: [一次提示生成 UI 动效序列](https://x.com/iancarscadden/status/2106018048792789360) (作者 [@iancarscadden](https://x.com/iancarscadden))
+
+**用一份动画简报探索完整的 UI 序列。**
+
+作者分享了 UI 动效序列，并表示它由一次请求在约六至七分钟内完成。录屏展示了该请求得到的视觉序列。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b12e9274a06ccbd02b7beca1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e56eb58e5ab6e47d580f89b9.jpg" alt="一次提示生成 UI 动效序列" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-193"></a>
+### Case 193: [SCP-8517 虚构动画](https://x.com/eviljoker88/status/2106003621402005816) (作者 [@eviljoker88](https://x.com/eviljoker88))
+
+**用 SCP 风格设定组织动画故事。**
+
+作者展示了 SCP-8517 主题动画，并将其创作归于 Fable 5.5。案例关注虚构叙事及可见的动画成果。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f690173426f29f4863ea9ebc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ddfd1170158fa1156c0c433e.jpg" alt="SCP-8517 虚构动画" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-194"></a>
+### Case 194: [水彩秋日动画](https://x.com/ishuagra02/status/2106000055706784118) (作者 [@ishuagra02](https://x.com/ishuagra02))
+
+**为动画同时规定季节主题和水彩处理。**
+
+作者分享了一段水彩风格的秋日动画。录屏具体展示了季节主题与特定视觉媒介的结合。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8df65940753adf7d40a5cceb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1091a42f052632de59288e3f.jpg" alt="水彩秋日动画" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-195"></a>
+### Case 195: [程序化玩偶舞台](https://x.com/HelaliBillel/status/2105988689088196785) (作者 [@HelaliBillel](https://x.com/HelaliBillel))
+
+**观察玩偶角色如何在舞台场景中运动。**
+
+作者分享了程序化玩偶舞台动画，并在讨论中提到 Blender。案例关注可见的舞台角色与动画。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c54a4f10f43cea2f2e27d2d9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e6b8904c3350c8f84e148e53.jpg" alt="程序化玩偶舞台" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-196"></a>
+### Case 196: [浏览器渲染的鹈鹕骑行](https://x.com/slimcat0101/status/2105988654636380444) (作者 [@slimcat0101](https://x.com/slimcat0101))
+
+**在浏览器中运行角色运动成果并观察渲染场景。**
+
+作者要求鹈鹕骑自行车，并录下了最终 HTML 在浏览器中的运行画面。这是运动的浏览器场景，与静态 SVG 绘图测试不同。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c69f02880bf28ee4f25ce6af.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/31ad3fe64536f637f3a2a1b7.jpg" alt="浏览器渲染的鹈鹕骑行" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-197"></a>
+### Case 197: [宇宙凝视自身](https://x.com/l_mejiaC/status/2105988529671360673) (作者 [@l_mejiaC](https://x.com/l_mejiaC))
+
+**用连续视觉旅程把遥远尺度连接到同一个故事中。**
+
+作者展示了一段从大爆炸延伸至人眼的连续序列，并表示影片的画面和音乐由运行时代码制作。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a9c7b6447a8f9c9d98b9f688.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/917d7f9d6fc4bffeb2de3dfd.jpg" alt="宇宙凝视自身" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-198"></a>
+### Case 198: [独立喷气飞机动画测试](https://x.com/AI_Screening/status/2105988448612135176) (作者 [@AI_Screening](https://x.com/AI_Screening))
+
+**重复飞机动画任务，观察具体输出。**
+
+作者在看到路由讨论后尝试了喷气飞机动画任务，并分享结果。录屏为这项飞机示例提供了独立来源。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/02ca7dd974c9bda88336ee6c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/042d9f48293091af76915035.jpg" alt="独立喷气飞机动画测试" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-199"></a>
+### Case 199: [最初的自由动效作品](https://x.com/Saccc_c/status/2105985484472377531) (作者 [@Saccc_c](https://x.com/Saccc_c))
+
+**用简短开放式提示探索动态设计。**
+
+作者分享了最初的动态设计视频，并表示由一条提示生成。它与后来十五秒作品集中的成果是不同的早期作品。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c3a38710b7d416055f1b179e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/42ff46736287463edb05c0db.jpg" alt="最初的自由动效作品" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-200"></a>
+### Case 200: [用代码呈现文明史](https://x.com/ziwenxu_/status/2105983571848741045) (作者 [@ziwenxu_](https://x.com/ziwenxu_))
+
+**把文明史简报转化为代码动画叙事。**
+
+作者要求展示文明从起源到现在的历程，并分享影片。作者表示这一代码视觉处理未使用现成影像或库存素材。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/53e59b83e07f7070017b7119.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b9e27ef3f017676036965a5b.jpg" alt="用代码呈现文明史" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-201"></a>
+### Case 201: [芯片到服务器的缩放对比](https://x.com/SPAC89/status/2105968361725202591) (作者 [@SPAC89](https://x.com/SPAC89))
+
+**比较从芯片到服务器缩放过程的真实感与连续性。**
+
+作者比较了 Fable XHigh 与 GPT Sol Ultra 的写实缩放序列，并讨论速度和额度消耗。帖子比较的是不同订阅档位下的具体运行。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0c1d806fdedf55ab5e01ef7b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/554e8eab1e3441bf1cfcda5a.jpg" alt="芯片到服务器的缩放对比" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-02
+
+---
+
+<a id="case-202"></a>
+### Case 202: [月球旅行个人动画项目](https://x.com/IgorGomezC/status/2105963552024506565) (作者 [@IgorGomezC](https://x.com/IgorGomezC))
+
+**用多个代码模型探索个人动画概念。**
+
+作者在讨论 Fable 与 Opus 实验的同时，分享了个人月球旅行动画项目。附带作品是这次创意探索的具体输出。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7258363950323d6dcb60ce2f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e8dbb92cddd2632d76ee23d9.jpg" alt="月球旅行个人动画项目" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-203"></a>
+### Case 203: [日式体素场景对比](https://x.com/vikktorrrre/status/2105955048018588084) (作者 [@vikktorrrre](https://x.com/vikktorrrre))
+
+**用同一个场景提示比较细节、雾效和视觉清晰度。**
+
+作者使用相同的日式体素场景提示比较当前 Fable 与 Opus 的成果。评论针对这些具体结果的清晰度、雾效和美术处理。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/42cb05df63d6f8f11069a277.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d16d5913274502e53d2a78c1.jpg" alt="日式体素场景对比" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-02
+
+---
+
+<a id="case-204"></a>
+### Case 204: [Steaming the Frontier 视听短片](https://x.com/sdmat123/status/2105929299878703520) (作者 [@sdmat123](https://x.com/sdmat123))
+
+**把 Steamboat 风格视觉简报与声音结合成视听短片。**
+
+作者分享了带声音的动画作品 Steaming the Frontier。它与其他作者独立制作的 Steamboat 风格成果保留为不同来源。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8a3ee558c975636152e2d45b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3dcb946918e8ca68e4806815.jpg" alt="Steaming the Frontier 视听短片" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-205"></a>
+### Case 205: [超人穿越多种美术风格](https://x.com/Mr_Salio/status/2105925979466052051) (作者 [@Mr_Salio](https://x.com/Mr_Salio))
+
+**让同一个角色贯穿不断变化画风的连续动画。**
+
+作者表示受较早的超人示例启发，重新生成并分享了自己的作品。不同画面使其成为独立创作，而非转载。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/904b68da72810335d71bda04.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/882a85d147b59a80ec07189b.jpg" alt="超人穿越多种美术风格" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-206"></a>
+### Case 206: [Cupcake 风格首领战原型](https://x.com/maciejkrupowies/status/2105914965387321785) (作者 [@maciejkrupowies](https://x.com/maciejkrupowies))
+
+**制作横版首领战原型并观察战斗过程。**
+
+作者分享了 Cupcake 风格首领战原型，并表示在十分钟内一次性生成。附带录屏展示了游戏战斗序列。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ad1389879b4c375f0283752c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/efa70c53c5f15333bf5c0a0c.jpg" alt="Cupcake 风格首领战原型" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-207"></a>
+### Case 207: [太阳位置变化的帆船场景](https://x.com/popat_kunj/status/2105907935490752822) (作者 [@popat_kunj](https://x.com/popat_kunj))
+
+**用航海场景探索天空、水面和太阳位置变化。**
+
+作者分享了太阳位于不同位置的 3D 帆船场景，并链接交互作品。任务把船、天空和水面组合在同一视觉场景中。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/45a77b7321e65de4a52cf5ff.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/98f7b224adade38056e8e676.jpg" alt="太阳位置变化的帆船场景" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-208"></a>
+### Case 208: [Paracortex 与 Pi 更新说明视频](https://x.com/RobIW_dev/status/2105894547796476225) (作者 [@RobIW_dev](https://x.com/RobIW_dev))
+
+**把产品更新转换成简短动态设计公告。**
+
+作者将 Paracortex 与 Pi 的更新制作成二十五秒动态设计视频，并在帖子中提供提示。作品是一项视觉化产品沟通示例。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3f8ecc71d06894b5a53dedaf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b2047613fd2963b0c82b0c1a.jpg" alt="Paracortex 与 Pi 更新说明视频" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-209"></a>
+### Case 209: [Curio 2.0 网站宣传片](https://x.com/voltwake/status/2105884775982485642) (作者 [@voltwake](https://x.com/voltwake))
+
+**围绕既有网站发布制作代码宣传影片。**
+
+作者描述了为 Curio 2.0 制作发布宣传片的过程，结合代码画面、镜头设计与音乐。帖子分享了最终的网站宣传影片。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e491cbb60b9d9ba91e8b41ea.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7947c8fe446d0ea07193fdba.jpg" alt="Curio 2.0 网站宣传片" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-210"></a>
+### Case 210: [想象中的 Hugging Face 3D 故事](https://x.com/chetaslua/status/2105884276864782557) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**结合模型代码、渲染工具与音频工具制作虚构影片。**
+
+作者分享了通过模型代码、Blender 和 ElevenLabs API 制作的想象版 Hugging Face 故事。Blender 负责构建和渲染，ElevenLabs 提供外部音频。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6e399daf7a4eb7d2ce6d564f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9c5d19c147ecea8b40b22523.jpg" alt="想象中的 Hugging Face 3D 故事" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-211"></a>
+### Case 211: [Claude for Chrome 操作 JS Paint](https://x.com/BtwIUseSystemd/status/2105861662112923849) (作者 [@BtwIUseSystemd](https://x.com/BtwIUseSystemd))
+
+**把浏览器代理的绘图任务限制在应用自身工具内。**
+
+作者要求 Claude for Chrome 仅用 JS Paint 工具绘制人物，并分享结果。浏览器操作与绘图应用都是任务中的明确组成部分。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e69474350e9718d0262f34d4.png" alt="Claude for Chrome 操作 JS Paint" width="760">
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-212"></a>
+### Case 212: [静态鹈鹕骑车 SVG](https://x.com/olddonkeyblog/status/2105842745189556672) (作者 [@olddonkeyblog](https://x.com/olddonkeyblog))
+
+**用自包含 SVG 要求测试细节丰富的静态绘图。**
+
+作者要求用单个自包含 SVG 绘制鹈鹕骑自行车，并分享静态图像。这与骑行动画示例是不同的绘图任务。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5e242c0f805748542c9f5f0c.jpg" alt="静态鹈鹕骑车 SVG" width="760">
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-213"></a>
+### Case 213: [BlockBench MCP 与 Minecraft 技能](https://x.com/TOPSTR1X/status/2105839618872738138) (作者 [@TOPSTR1X](https://x.com/TOPSTR1X))
+
+**生成游戏角色时，同时提供建模工具与风格技能。**
+
+作者提供 BlockBench MCP 及自定义 Minecraft 建模、着色技能，然后分享生成角色。工具与风格指导都是流程中的明确输入。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a17d81dfbc7544f67c0178cf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4ff4dab909e7d98f53ee7a32.jpg" alt="BlockBench MCP 与 Minecraft 技能" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-214"></a>
+### Case 214: [单个 HTML 文件中的 Dig Dug](https://x.com/imjustnewatai/status/2105831117677084841) (作者 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**重现小型浏览器游戏时，以单个 HTML 文件作为交付目标。**
+
+作者要求用单个 HTML 文件重现 Dig Dug，并分享游戏录屏。帖子表示这次构建来自一条提示。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7674d4f1b7ba8eab003edff4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/438f4e89fb1925a4fb36d3e5.jpg" alt="单个 HTML 文件中的 Dig Dug" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-215"></a>
+### Case 215: [机械章鱼 SVG](https://x.com/SEO/status/2105812236774297943) (作者 [@SEO](https://x.com/SEO))
+
+**用机械生物观察 SVG 设计中的细节与运动。**
+
+作者分享了带机械细节的动态章鱼 SVG。录屏提供了围绕小型运动零件展开的具体矢量设计示例。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8ec5c702edd3fdadc05722c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cbcc433f0a275f0e384cbf2f.jpg" alt="机械章鱼 SVG" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-216"></a>
+### Case 216: [Humanity Walks 穿越艺术风格](https://x.com/l_mejiaC/status/2105801379956850793) (作者 [@l_mejiaC](https://x.com/l_mejiaC))
+
+**让持续出现的人物贯穿一系列历史画风。**
+
+原作者展示了人物在约七十四秒内走过二十幅艺术画面的连续动画，并报告使用代码音乐。每次跨越边界时，人物和场景都会切换风格。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/355568bba0c9ff28575e04b8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b71cfca9259ec002c246e377.jpg" alt="Humanity Walks 穿越艺术风格" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-217"></a>
+### Case 217: [开放式黑洞场景](https://x.com/rohit3a/status/2105786053412208835) (作者 [@rohit3a](https://x.com/rohit3a))
+
+**用开放式创意简报探索黑洞可视化。**
+
+作者询问模型会制作什么令人惊艳的作品，并分享了黑洞场景。任务属于自由视觉探索，而不是预先规定的界面构建。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/896a05493d7c8e1f8f430d17.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7a0adf969d1f472df46ddce1.jpg" alt="开放式黑洞场景" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-218"></a>
+### Case 218: [极光水母动画对比](https://x.com/SPAC89/status/2105783511433318451) (作者 [@SPAC89](https://x.com/SPAC89))
+
+**比较两份水母动画中的形变与运动。**
+
+作者比较 Fable XHigh 与 GPT Sol Ultra 的极光水母动画，并讨论额度消耗。成果来自不同订阅档位。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e57a76eaf8ed239783bce290.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/547871b06436d28a12435b40.jpg" alt="极光水母动画对比" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-219"></a>
+### Case 219: [Nintendo Switch 拼合与开机 SVG](https://x.com/ishuagra02/status/2105779174921359470) (作者 [@ishuagra02](https://x.com/ishuagra02))
+
+**在同一个 SVG 动画中组合手柄拼合与开机过程。**
+
+作者分享了 Nintendo Switch SVG，手柄先卡入机身，再出现开机标志动画。帖子报告本次运行耗时一分三十九秒，费用为 1.34 美元。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/423cd224b690b962d86df6a8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8cb691f2e876fca6c8323d34.jpg" alt="Nintendo Switch 拼合与开机 SVG" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-220"></a>
+### Case 220: [The Loom 交互式 3D 场景](https://x.com/Mr_Salio/status/2105774088492916757) (作者 [@Mr_Salio](https://x.com/Mr_Salio))
+
+**把建筑与景观组织成同一个交互式 3D 页面。**
+
+作者展示了含建筑和景观的交互场景 The Loom。附带录屏提供了这次测试所得页面的具体输出。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a0fbc7f4427c05e1b20875dc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/aca91baef7a93139d084e4e6.jpg" alt="The Loom 交互式 3D 场景" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-221"></a>
+### Case 221: [樱花宝塔动态样本](https://x.com/mesmerlord/status/2105758042830549235) (作者 [@mesmerlord](https://x.com/mesmerlord))
+
+**比较同提示场景中的视觉焦点和节拍同步。**
+
+作者分享了使用同一提示制作的两个早期樱花宝塔动效样本，并评论视觉焦点与节拍配合。这些观察针对作者的具体成果。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/dc4c3e5875e829f8b568a67b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c8fc402eeea381a9519146e4.jpg" alt="樱花宝塔动态样本" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-222"></a>
+### Case 222: [更干净但纵深更弱的场景](https://x.com/eviljoker88/status/2105755840175034447) (作者 [@eviljoker88](https://x.com/eviljoker88))
+
+**比较生成场景时，也保留负面的审美反馈。**
+
+作者分享了日式场景的并排比较。尽管另一结果更干净，作者仍更喜欢 Opus 成果的纵深表现。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0f0e14c7725846928d67bbb6.jpg" alt="更干净但纵深更弱的场景" width="760">
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-223"></a>
+### Case 223: [表现有好有坏的日式场景](https://x.com/eviljoker88/status/2105755408342126936) (作者 [@eviljoker88](https://x.com/eviljoker88))
+
+**记录混合反馈，不把首次对比简单定为胜负。**
+
+作者分享了初次日式场景对比，并表示结果有好有坏。附图保留了这些审美评价所依据的具体成果。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/392cb1ddc17b777dd8018cfd.jpg" alt="表现有好有坏的日式场景" width="760">
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-224"></a>
+### Case 224: [手柄 SVG 对比](https://x.com/notjazii/status/2105751542498464169) (作者 [@notjazii](https://x.com/notjazii))
+
+**在类似视觉任务下比较前后的手柄绘图。**
+
+作者用比较图分享了前后手柄 SVG 成果。案例关注可见的绘图和呈现变化，而非通用模型排名。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/17459f88ec7684afc5b33a02.jpg" alt="手柄 SVG 对比" width="760">
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-225"></a>
+### Case 225: [工业设备 3D 场景](https://x.com/RayaneRachid_/status/2105744517735354410) (作者 [@RayaneRachid_](https://x.com/RayaneRachid_))
+
+**把机械设备作为聚焦的 3D 场景设计任务。**
+
+作者分享了工业设备 3D 场景，并称其为自己最佳的一次性生成成果。附图为机械构图提供了具体参考。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/589373a493d90e11ce8abbb9.jpg" alt="工业设备 3D 场景" width="760">
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-226"></a>
+### Case 226: [巨大带壳鳃虫重建](https://x.com/Josh67Joshua/status/2105739832563769697) (作者 [@Josh67Joshua](https://x.com/Josh67Joshua))
+
+**用具体生物描述探索两轮提示的重建效果。**
+
+作者分享了巨大带壳鳃虫的绘图，并表示通过两轮提示得到结果。图像提供了这一生物设计任务的可见成果。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/446fdbef8a03b236ecc7b383.jpg" alt="巨大带壳鳃虫重建" width="760">
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-227"></a>
+### Case 227: [两轮提示绘制 GameCube 手柄](https://x.com/marmaduke091/status/2105735266032095349) (作者 [@marmaduke091](https://x.com/marmaduke091))
+
+**用熟悉的手柄观察两轮提示得到的绘图结果。**
+
+作者分享了 GameCube 手柄绘图，并表示使用两轮提示。这幅静态图与 Xbox 及其他手柄演示不同。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e8dc05610d167f3a15b550af.jpg" alt="两轮提示绘制 GameCube 手柄" width="760">
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-228"></a>
+### Case 228: [为 X 帖子编辑截图](https://x.com/chetaslua/status/2105733677003292983) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**观察助手如何把截图调整为适合社交发布的素材。**
+
+作者分享了为 X 帖子准备的截图编辑结果，并表示助手在未被明确要求时进行了编辑。附图是可见的最终成果。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0cc409b9d0aa3771484a3c71.jpg" alt="为 X 帖子编辑截图" width="760">
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-229"></a>
+### Case 229: [体素樱花的前后对比](https://x.com/kdnbmb/status/2105704791049412755) (作者 [@kdnbmb](https://x.com/kdnbmb))
+
+**在同一视觉主题下比较连续生成的体素场景。**
+
+发布者分享了体素樱花岛屿的两个版本。并排图记录了场景前后可见的设计差异。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4138fd1978c438d2d9e8661a.jpg" alt="体素樱花的前后对比" width="760">
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-230"></a>
+### Case 230: [SHADERKIN 布料界面原型](https://x.com/mszzz0011/status/2106025576972853642) (作者 [@mszzz0011](https://x.com/mszzz0011))
+
+**在界面原型中同时探索布料效果与可调参数。**
+
+作者分享了带布料效果和参数控件的 SHADERKIN 原型，并表示它是一次性生成的。录屏展示了最终界面与运动效果。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e4475b58a7c623137018178b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6b7f6e02a01706ce70452b0d.jpg" alt="SHADERKIN 布料界面原型" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-231"></a>
+### Case 231: [分享的金色钟表界面动画](https://x.com/AISuperDomain/status/2106396754539360272) (作者 [@AISuperDomain](https://x.com/AISuperDomain))
+
+**用钟表主题动画参考界面构图。**
+
+发布者展示了金色钟表主题的前端动画。附带片段为观察界面构图、钟表母题和动态视觉处理提供了分享参考。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c60a3556d2b2ddaa5f509c18.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/676bb647541546a0ad366f0e.jpg" alt="分享的金色钟表界面动画" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-232"></a>
+### Case 232: [Before There Was Anything 叙事影片](https://x.com/crowqnt/status/2106146218846081435) (作者 [@crowqnt](https://x.com/crowqnt))
+
+**通过分享的动画影片探索宇宙与人类主题叙事。**
+
+发布者分享了讲述宇宙和人类的 Before There Was Anything。附带影片作为视觉叙事的分享示例保留。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1245c13e338b1c01ae3f4dec.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/71ef97e74c4d137730d81482.jpg" alt="Before There Was Anything 叙事影片" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-233"></a>
+### Case 233: [分享的蓝色粒子涡旋](https://x.com/AISuperDomain/status/2105846981776003107) (作者 [@AISuperDomain](https://x.com/AISuperDomain))
+
+**观察分享的涡旋可视化中的粒子运动与构图。**
+
+发布者分享了一段蓝色粒子涡旋动画。附带片段为观察粒子运动、视觉结构与构图提供了具体的分享示例。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/47741249784f7aff66778321.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5df983335216889dea8bc537.jpg" alt="分享的蓝色粒子涡旋" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-234"></a>
+### Case 234: [经过两轮修改的多面板界面](https://x.com/ZorroOfMorocco/status/2106547078235095485) (作者 [@ZorroOfMorocco](https://x.com/ZorroOfMorocco))
+
+**用修改迭代完善视觉界面，而不止于首次输出。**
+
+作者分享了完成的多面板界面，并报告工作约三小时、修改两轮。附带截图展示了最终视觉设计。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/de20f5a329023a9c4b0b93e7.jpg" alt="经过两轮修改的多面板界面" width="760">
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-235"></a>
+### Case 235: [叠放动物的渲染场景](https://x.com/legit_api/status/2117237103289315574) (作者 [@legit_api](https://x.com/legit_api))
+
+**观察静态构图如何平衡多个角色和不同材质。**
+
+帖子分享了棕熊、熊猫和北极熊叠放的场景，署名 Discord 上的 yuruzuu，并报告运行二十一分钟。公开帖子作为分享的视觉来源保留。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bc84af268896d8bb1758a934.jpg" alt="叠放动物的渲染场景" width="760">
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-236"></a>
+### Case 236: [四次开放世界 RPG 尝试对比](https://x.com/noclipepe/status/2117222592536789149) (作者 [@noclipepe](https://x.com/noclipepe))
+
+**在同一创意任务下比较游戏呈现、战斗和碰撞行为。**
+
+作者展示了四份单次提示 RPG 成果，标为 Fable 5.5、GPT-6.2 Astra、Opus 5.5 和 Fable 5.1。评论比较了灯光、战斗、背包、碰撞和角色卡住等表现。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/902f659bd556eb6d972125d9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ef4071ff1f89636b5a170bcb.jpg" alt="四次开放世界 RPG 尝试对比" width="760"></a>
+
+Type: Evaluation | Date: 2026-11-02
+
+---
+
+<a id="case-237"></a>
+### Case 237: [两段前端代码动画对比](https://x.com/leo114119/status/2117209849842761983) (作者 [@leo114119](https://x.com/leo114119))
+
+**并排观看动画片段，比较场景设计与视觉细节。**
+
+帖子并列展示了标作 Astra 和 Fable 的代码动画，重点比较细节与脚本设计，并明确把 Fable 动画署名给 @chetaslua。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3b96cdfd122543f970f3a183.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0c7aeb3c3156cce1a407b992.jpg" alt="两段前端代码动画对比" width="760"></a>
+
+Type: Evaluation | Date: 2026-11-02
+
+---
+
+<a id="case-238"></a>
+### Case 238: [代码生成的苔藓机器人影片](https://x.com/chetaslua/status/2117169796290916732) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**用动画简报探索通过代码构建完整电影场景。**
+
+作者分享了森林与机器人动画，并称其为一次生成的代码影片。帖子引导读者查看截图中的提示，并与其他尝试比较。
+
+另一条帖子展示了单独报告的 Opus 5.5 对照运行。 [@AnikaCodes](https://x.com/AnikaCodes) · [相关作品](https://x.com/AnikaCodes/status/2117222374642946297)
+
+<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1719bb6df936cf88ea6c137a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a97bd6e101d45bc7e1c5f7a8.jpg" alt="代码生成的苔藓机器人影片" width="760"></a></td><td valign="top"><p>另一条帖子展示了单独报告的 Opus 5.5 对照运行。</p><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fb66f964af405e36c6993f37.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/679a823fdecdc62be6ab781a.jpg" alt="代码生成的苔藓机器人影片" width="760"></a></td></tr></table>
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-239"></a>
+### Case 239: [重新制作集装箱港口模拟](https://x.com/anxuanng/status/2117124831279972812) (作者 [@anxuanng](https://x.com/anxuanng))
+
+**重做早先场景时，保留项目背景供视觉比较。**
+
+作者发布了另一版集装箱港口场景，并引用此前的 Blender 与 Three.js 模拟。早期项目为类似策略游戏的环境建模了起重机、船、车辆和集装箱。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/2fda951603d33af4e44d5fc1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1d539c3c966ccc4c6929ba5d.jpg" alt="重新制作集装箱港口模拟" width="760"></a>
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-240"></a>
+### Case 240: [重新制作机场机坪场景](https://x.com/anxuanng/status/2117096574878921119) (作者 [@anxuanng](https://x.com/anxuanng))
+
+**把修改后的机场场景与早期项目和素材流程比较。**
+
+作者再次处理机场机坪场景，引用了早期 Blender 与 Three.js 模拟，并分享飞机、服务车辆和航站楼基础设施的新视频。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3bd8a6295419d5189e2a0c39.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1c953cb8fe287d88a42f4de7.jpg" alt="重新制作机场机坪场景" width="760"></a>
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-241"></a>
+### Case 241: [鹈鹕骑车穿越抽象 3D 世界](https://x.com/xiax0603/status/2116960224829665543) (作者 [@xiax0603](https://x.com/xiax0603))
+
+**用骑行主体观察不同空间环境之间的转场。**
+
+帖子分享了一段鹈鹕与自行车动画，穿过几何碎片和抽象数字环境，最后经由眼睛拉远。序列提供了独特的场景转场演示。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e67084313c83b632c83932d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e684cb9894f71707d522100.jpg" alt="鹈鹕骑车穿越抽象 3D 世界" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-242"></a>
+### Case 242: [历史帆船场景](https://x.com/abhinavflac/status/2116945827738665060) (作者 [@abhinavflac](https://x.com/abhinavflac))
+
+**观察船舶场景的水面、灯光和环境构图。**
+
+帖子分享了一段历史帆船场景，并将其描述为可交互的零样本生成成果。附带录屏提供了船舶及周边水域的具体视觉样本。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f9a500487b536db8173b83e6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8083bd55fe8299ddb0399d9b.jpg" alt="历史帆船场景" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-243"></a>
+### Case 243: [与 Carbon 比较骑行和步态](https://x.com/AI_Screening/status/2116934172757660014) (作者 [@AI_Screening](https://x.com/AI_Screening))
+
+**用配对视觉成果比较角色运动与场景构建。**
+
+作者将标作 Fable 和 Carbon 的骑行者、斑马样本放入合成视频。评论认为两个检查点接近；配对画面为读者提供了具体运动样本。
+
+此前单独发布的骑车人物对比，也与合成视频一并收录。 [@AI_Screening](https://x.com/AI_Screening) · [相关作品](https://x.com/AI_Screening/status/2114380876415180963)
+
+<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/34ce8cd09717e765e8669306.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/be5e4bce9526b63db3f75d49.jpg" alt="与 Carbon 比较骑行和步态" width="760"></a></td><td valign="top"><p>此前单独发布的骑车人物对比，也与合成视频一并收录。</p><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bdfda2a7a784f201511128e4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f398216f0483e9aaf1da8f85.jpg" alt="与 Carbon 比较骑行和步态" width="760"></a></td></tr></table>
+
+Type: Evaluation | Date: 2026-11-01
+
+---
+
+<a id="case-244"></a>
+### Case 244: [软饮瓶产品展示](https://x.com/abhinavflac/status/2116919086521499730) (作者 [@abhinavflac](https://x.com/abhinavflac))
+
+**用简短产品渲染视频观察材质、形状和呈现。**
+
+帖子分享了软饮瓶展示，并称其为一次生成的路由输出。案例保留可见瓶身视频，不采纳文案中不一致的品牌称呼。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6fb195b6c959b741bbba6bff.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b8e3b156507ebe1397f4acf5.jpg" alt="软饮瓶产品展示" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-245"></a>
+### Case 245: [与 Astra 对比的鹈鹕运动](https://x.com/Octoberry/status/2116918967558095131) (作者 [@Octoberry](https://x.com/Octoberry))
+
+**观看配对鹈鹕视频，比较真实感、色彩和运动选择。**
+
+发布者把标作 Fable 和 Astra 的鹈鹕场景并列，并评论真实感与色彩。比较录屏把两种视觉处理保留在一起。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8ea3b0ac90c46aa8df91435c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f8e883dfa17d32c1490d2a06.jpg" alt="与 Astra 对比的鹈鹕运动" width="760"></a>
+
+Type: Evaluation | Date: 2026-11-01
+
+---
+
+<a id="case-246"></a>
+### Case 246: [代码动画的动态设计简报](https://x.com/Mikadzyki_NFT/status/2116913089308131595) (作者 [@Mikadzyki_NFT](https://x.com/Mikadzyki_NFT))
+
+**请求动画标题或产品片头时，从具体设计简报出发。**
+
+帖子分享了涵盖片头、动态标志、标题和 3D 场景的动效简报截图，并建议结合 Claude 使用。来源图片保留了这些指示。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c8dc35a75c2d69b08167c4b2.jpg" alt="代码动画的动态设计简报" width="760">
+
+Type: Tutorial | Date: 2026-11-01
+
+---
+
+<a id="case-247"></a>
+### Case 247: [照片参考生成的体素肖像](https://x.com/chetaslua/status/2116912822806520027) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**观察体素肖像如何保留参考照片的可识别特征。**
+
+作者把 Sam Altman 照片与体素风格肖像并排展示，并称其为一次生成的成果。比较图同时保留了参考和演绎。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/eea0f98c5b8adf315254357d.jpg" alt="照片参考生成的体素肖像" width="760">
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-248"></a>
+### Case 248: [与 Opus 对比的飞行鹈鹕场景](https://x.com/leo114119/status/2116901575490929109) (作者 [@leo114119](https://x.com/leo114119))
+
+**用有趣的物体排列比较构图和动画选择。**
+
+帖子上下排列标作 Fable 和 Opus 的“飞行鹈鹕上的自行车”片段。合成视频将 Fable 片段署名给 @notjazii，并让两种处理同时可见。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cbf26990ce0160a0162ead5b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1c7ac3995ff80676690c1821.jpg" alt="与 Opus 对比的飞行鹈鹕场景" width="760"></a>
+
+Type: Evaluation | Date: 2026-11-01
+
+---
+
+<a id="case-249"></a>
+### Case 249: [Morning Ride 鹈鹕网页场景](https://x.com/leo114119/status/2116893571739775220) (作者 [@leo114119](https://x.com/leo114119))
+
+**观察海边骑行中的角色细节与页面呈现。**
+
+作者分享了 Morning Ride 页面中的 3D 鹈鹕骑车场景，着重指出羽毛、脚掌、自行车细节和海边背景。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b55570e6a6f3164a9b73e097.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/70e98e614f9e34f7cb5e885f.jpg" alt="Morning Ride 鹈鹕网页场景" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-250"></a>
+### Case 250: [同提示下的不同画风场景](https://x.com/notjazii/status/2116893197939224714) (作者 [@notjazii](https://x.com/notjazii))
+
+**允许各模型自选画风，再比较最终场景构图。**
+
+作者表示给两个模型相同提示，同时让它们自行选择画风。视频并列呈现了不同场景构图和细节层次。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/337c953505b934eb3efe3026.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f9cf0077f93079072db88a97.jpg" alt="同提示下的不同画风场景" width="760"></a>
+
+Type: Evaluation | Date: 2026-11-01
+
+---
+
+<a id="case-251"></a>
+### Case 251: [鹈鹕、自行车与马的组合](https://x.com/abhinavflac/status/2116881397986288017) (作者 [@abhinavflac](https://x.com/abhinavflac))
+
+**测试动画如何在同一场景中安排多个互动主体。**
+
+帖子分享了鹈鹕带着自行车飞行、下方有马奔跑的动画。附带视频提供了这种特殊多对象构图与运动的具体样本。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0504d9fae95f901cb5a7a0b1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4c41a8c590ff3cced720fa3f.jpg" alt="鹈鹕、自行车与马的组合" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-252"></a>
+### Case 252: [由参考帖子启发的等距场景](https://x.com/chetaslua/status/2116878661035106515) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**用提供的参考帖子引导新场景，而不只重做通用示例。**
+
+作者表示只把引用的 Post Humans 帖子作为参考，并分享了最终等距场景。片段呈现了带季节控件的农场式构图。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8fc030a325be1e12a93985c1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/087ed1d1f018c09b2799296a.jpg" alt="由参考帖子启发的等距场景" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-253"></a>
+### Case 253: [鹈鹕自行车的机械特写](https://x.com/NFT_Chen/status/2116869725703782507) (作者 [@NFT_Chen](https://x.com/NFT_Chen))
+
+**观察骑行主体的齿盘运动、羽毛细节和镜头移动。**
+
+帖子分享了鹈鹕在水边骑车的近景视频。录屏在自行车机械结构、鸟头和较宽的木栈道骑行场景间切换。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b6d2d126b2aeb9f3f9570afd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a166c588d812d40d06fae7ad.jpg" alt="鹈鹕自行车的机械特写" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-254"></a>
+### Case 254: [骑在鹈鹕上的自行车](https://x.com/notjazii/status/2116861637890379891) (作者 [@notjazii](https://x.com/notjazii))
+
+**颠倒常见主客体关系，探索动画中的空间构图。**
+
+作者分享了一段自行车在鹈鹕上方的动画。视频把自行车放在飞鸟之上，是常见“鹈鹕骑自行车”任务的变体。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ca15b0e0590d8cb6d8f17414.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d86986a058741892f33c2a1e.jpg" alt="骑在鹈鹕上的自行车" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-255"></a>
+### Case 255: [与 Carbon 对比的鹈鹕 SVG 画风](https://x.com/leo114119/status/2116652334734332212) (作者 [@leo114119](https://x.com/leo114119))
+
+**比较写实和插画风格，不把不同审美简单归为统一排名。**
+
+帖子将 Carbon 与 Fable 的鹈鹕自行车成果放在一起。作者比较漫画渲染与更写实的处理，并指出风格差异让比较更复杂。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7126f7490639ef435ad3f8e0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6d83e5e28063bbe2c6107860.jpg" alt="与 Carbon 对比的鹈鹕 SVG 画风" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-31
+
+---
+
+<a id="case-256"></a>
+### Case 256: [卡通蓝鸟骑车场景](https://x.com/birdabo/status/2116553049183560012) (作者 [@birdabo](https://x.com/birdabo))
+
+**观察熟悉卡通角色在骑行构图中的呈现。**
+
+帖子分享了水边骑自行车的蓝色卡通鸟，配文为 Fable 5.5 Max。图像作为具体的静态视觉样本保留。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4b61e3c3bed85e7bb63284b8.jpg" alt="卡通蓝鸟骑车场景" width="760">
+
+Type: Demo | Date: 2026-10-31
+
+---
+
+<a id="case-257"></a>
+### Case 257: [林间公路鹈鹕骑车截图](https://x.com/leo114119/status/2116154940364374269) (作者 [@leo114119](https://x.com/leo114119))
+
+**观察浏览器骑行场景中的羽毛、脚掌和自行车结构。**
+
+发布者分享了鹈鹕沿森林公路骑车的浏览器截图，特别指出羽毛质感、脚掌和自行车细节。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/78c8b16b4f41dfc594a08147.jpg" alt="林间公路鹈鹕骑车截图" width="760">
+
+Type: Demo | Date: 2026-10-30
+
+---
+
+<a id="case-258"></a>
+### Case 258: [与 Carbon 对比的火柴人格斗](https://x.com/leo114119/status/2116084152986656933) (作者 [@leo114119](https://x.com/leo114119))
+
+**比较配对动画样本中的战斗编排和运动。**
+
+比较录屏带有 Fable 5.1 High 和 Carbon 标签。作者讨论了两者火柴人格斗动画的相对质量。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/116e9cf73951a3cc14c7fd26.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/12a35f0f8829bbc3ab246d10.jpg" alt="与 Carbon 对比的火柴人格斗" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-30
+
+---
+
+<a id="case-259"></a>
+### Case 259: [早期测试的鹈鹕 SVG 参考](https://x.com/ChrisGPT/status/2115872567122608591) (作者 [@ChrisGPT](https://x.com/ChrisGPT))
+
+**观察画风和自行车结构时，保留带来源链接的参考。**
+
+发布者强调了一张鹈鹕骑车图片，并引用早期测试帖子；原帖将成果署名给 Discord 上的 kostikz。参考图与归因链一并保留。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/431cb96b21edc9964ce0659f.jpg" alt="早期测试的鹈鹕 SVG 参考" width="760">
+
+Type: Demo | Date: 2026-10-29
+
+---
+
+<a id="case-260"></a>
+### Case 260: [跨模型 SVG 测试中的鹈鹕参考](https://x.com/AdamHoltererer/status/2115858542221492300) (作者 [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**把 Fable 参考图与周围的 SVG 测试背景放在一起。**
+
+发布者在自己的 Mistral Large 4 SVG 测试串下添加鹈鹕骑车图，作为 Fable 参考，为跨模型观察提供了带来源的视觉素材。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/31b17f996d2e8b9bac8b2d57.jpg" alt="跨模型 SVG 测试中的鹈鹕参考" width="760">
+
+Type: Evaluation | Date: 2026-10-29
+
+---
+
+<a id="case-261"></a>
+### Case 261: [与 Carbon 对比的自行车 SVG 细节](https://x.com/insanekrishnaa/status/2115833723342250186) (作者 [@insanekrishnaa](https://x.com/insanekrishnaa))
+
+**逐项比较车篮、背景和羽毛纹理等视觉特征。**
+
+帖子比较 Fable 与 Carbon 的鹈鹕自行车图片，讨论车篮设计、背景细节和羽毛纹理。这是具体视觉评述，而非广泛的任务套件。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/12e6ec3f93842782a3adc017.jpg" alt="与 Carbon 对比的自行车 SVG 细节" width="760">
+
+Type: Evaluation | Date: 2026-10-29
+
+---
+
+<a id="case-262"></a>
+### Case 262: [3D 峡谷聚落](https://x.com/Mr_Salio/status/2115813400915714177) (作者 [@Mr_Salio](https://x.com/Mr_Salio))
+
+**用聚落场景观察环境细节和空间构图。**
+
+帖子分享了广阔的峡谷聚落，将录屏作为新的 Claude 检查点演示。视频提供了可见建筑、景观和场景构图。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7cc648562f9915df6383b86b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/41e5348bd8e8d57399a2720b.jpg" alt="3D 峡谷聚落" width="760"></a>
+
+Type: Demo | Date: 2026-10-29
+
+---
+
+<a id="case-263"></a>
+### Case 263: [与 Opus 对比的手柄细节](https://x.com/notjazii/status/2115808169075351632) (作者 [@notjazii](https://x.com/notjazii))
+
+**观察配对手柄绘图的形状、控件与细节层次。**
+
+作者把带 Fable 和 Opus 标签的手柄绘图放在一起，并强调上方成果的细节量。配对图片保留了具体比较。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/799809d6ec73abaf5f698721.png" alt="与 Opus 对比的手柄细节" width="760">
+
+Type: Evaluation | Date: 2026-10-29
+
+---
+
+<a id="case-264"></a>
+### Case 264: [每周网站 SEO 审计流程](https://x.com/cleeeeeeeeement/status/2115488774423773267) (作者 [@cleeeeeeeeement](https://x.com/cleeeeeeeeement))
+
+**把网站转化为有优先级的 SEO 计划与持续排名复查流程。**
+
+作者报告构建了一个接收网站、识别竞争对手和关键词并生成 SEO 优先行动计划的系统。简短录屏配合每周排名追踪和执行流程的说明。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d0f8f00f6fd8085c885d94de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ab070e7a94e89874d1199ca3.jpg" alt="每周网站 SEO 审计流程" width="760"></a>
+
+Type: Integration | Date: 2026-10-28
+
+---
+
+<a id="case-265"></a>
+### Case 265: [在 Opus 动效中复用 Fable 素材](https://x.com/chetaslua/status/2115145163542790170) (作者 [@chetaslua](https://x.com/chetaslua))
+
+**组合模型与工具时，区分素材创作和动态设计组装。**
+
+作者分享了 Opus 5.5 的 Tesla Roadster 动效，使用其称由 Fable 先前生成的素材。引用的早期流程提到 Blender 中的 Python、ElevenLabs 和提供的发布视频。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5618dd376ee55b4ee82fc0fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/eece5cd2a213c0a512c114a1.jpg" alt="在 Opus 动效中复用 Fable 素材" width="760"></a>
+
+Type: Integration | Date: 2026-10-27
+
+---
+
+<a id="case-266"></a>
+### Case 266: [曼荼罗与几何形体应用](https://x.com/ZMinimalistYogi/status/2114600083165434189) (作者 [@ZMinimalistYogi](https://x.com/ZMinimalistYogi))
+
+**把聚焦的几何构想转化为可交互的创意探索应用。**
+
+作者表示与 Fable 5.1 对话三小时，制作了涵盖曼荼罗、zome 结构、阿基米德立体和莲花形几何 yantra 的应用，并在个人网站分享。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5de8fc634a752f83622f8a13.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3e57964d461878db96f139ac.jpg" alt="曼荼罗与几何形体应用" width="760"></a>
+
+Type: Demo | Date: 2026-10-26
+
+---
+
+<a id="case-267"></a>
+### Case 267: [Three.js 自行车骑手](https://x.com/AI_Screening/status/2114266369248354357) (作者 [@AI_Screening](https://x.com/AI_Screening))
+
+**观察骑行场景中的姿势、自行车结构和协调运动。**
+
+作者分享了 Three.js 自行车骑手成果。录屏提供具体运动样本，骑手周围有桥梁与滨水景观。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7637bbffeefe623e04ef2f21.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7bcf0b58c603da7235a3a557.jpg" alt="Three.js 自行车骑手" width="760"></a>
+
+Type: Demo | Date: 2026-10-25
+
+---
+
+<a id="case-268"></a>
+### Case 268: [FrontierCS 2 评测快照](https://x.com/wenhaocha1/status/2115613415641354262) (作者 [@wenhaocha1](https://x.com/wenhaocha1))
+
+**利用附原始来源链接的基准测试图表，比较 Fable 5.1 与其他模型。**
+
+作者将 Fable 5.1 加入 FrontierCS 2 的任务通过率图表，并与其他模型一同展示所报告的结果。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f5cbd2078225f0413d733ee9.jpg" alt="FrontierCS 2 评测快照" width="760">
+
+Type: Evaluation | Date: 2026-10-29
+
+---
+
+<a id="case-269"></a>
+### Case 269: [三模型斑马动画对比](https://x.com/AI_Screening/status/2115849659797373038) (作者 [@AI_Screening](https://x.com/AI_Screening))
+
+**将带有模型标签的三个输出放在一起，对比斑马奔跑任务的结果。**
+
+作者并排展示标为 Fable 5.5、Opus 5.5 与 Gemini 4 Argon 的斑马动画。分享的视频提供了三个输出的具体步态样本。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c6eaeba4555c4bef54d626a5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6b1da9a2967f99e299587299.jpg" alt="三模型斑马动画对比" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-29
+
+---
+
+<a id="case-270"></a>
+### Case 270: [批评日语长文的可读性](https://x.com/AM09_21/status/2106670042184356156) (作者 [@AM09_21](https://x.com/AM09_21))
+
+**让模型诊断生成的日语长文为何难以阅读。**
+
+作者表示询问了 Opus 的日语长文为何难读。回答指出英语式句法、重复词汇和表面编辑问题，形成了具体的文章批评流程。
+
+Type: Evaluation | Date: 2026-10-04
+
+---
+
+<a id="case-271"></a>
+### Case 271: [用示例引导技术 PowerPoint](https://x.com/mt_moco/status/2106665038375522791) (作者 [@mt_moco](https://x.com/mt_moco))
+
+**先给出示例，再要求制作技术演示文稿。**
+
+作者表示提供几个演示文稿示例后，得到了一份可用的技术 PowerPoint。该经验把示例引导与具体演示任务中的文档结构改善联系起来。
+
+Type: Evaluation | Date: 2026-10-04
+
+---
+
+<a id="case-272"></a>
+### Case 272: [比较音乐的整体连贯性](https://x.com/AM09_21/status/2106573080214770011) (作者 [@AM09_21](https://x.com/AM09_21))
+
+**评估生成音乐时，分别观察局部细节与整曲结构。**
+
+作者从音符、旋律和过渡比较不同模型的作品，区分局部一致性与整体音乐结构。这是基于聆听体验的作曲质量评价。
+
+Type: Evaluation | Date: 2026-10-04
+
+---
+
+<a id="case-273"></a>
+### Case 273: [过早宣布完成与设计退步](https://x.com/johntitorIII/status/2106442876506747353) (作者 [@johntitorIII](https://x.com/johntitorIII))
+
+**接受代理的完成报告前，逐项核对交付物与要求。**
+
+作者报告连续数日测试中，未完成的任务被标作完成，设计成果也落后于其他模型。案例记录了过早结束任务和设计质量方面的具体失败反馈。
+
+Type: Limit | Date: 2026-10-03
+
+---
+
+<a id="case-274"></a>
+### Case 274: [令人不适的鱿鱼艺术成果](https://x.com/hanawo_neki/status/2106271036094415186) (作者 [@hanawo_neki](https://x.com/hanawo_neki))
+
+**开放式艺术要求得到不喜欢的风格时，明确补充审美偏好。**
+
+作者表示要求任意鱿鱼艺术作品，却得到密集成簇、令人不适的细节。该反馈记录了开放式视觉要求与个人审美之间的错位。
+
+Type: Limit | Date: 2026-10-03
+
+---
+
+<a id="case-275"></a>
+### Case 275: [蓝图风格动态设计](https://x.com/DavidayoAI/status/2106054662063325638) (作者 [@DavidayoAI](https://x.com/DavidayoAI))
+
+**用蓝图美学作为快速动画的视觉方向。**
+
+作者表示要求快速制作动画，约十五分钟后得到了蓝图风格成果。完整作品链接至 YouTube。
+
+[相关作品](https://youtu.be/ZCvbrHkkUkE)
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-276"></a>
+### Case 276: [体素樱花场景中的鸟和鱼](https://x.com/xodud_rkd/status/2105876716472447046) (作者 [@xodud_rkd](https://x.com/xodud_rkd))
+
+**在体素景观中探索运动的野生动物。**
+
+作者描述了含飞鸟与池鱼的体素樱花场景，并链接交互作品。该页面是帖子所描述场景的具体输出。
+
+[相关作品](https://sakura-xodud.tyk-swe.chatgpt.site/)
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-277"></a>
+### Case 277: [角色生成失败反馈](https://x.com/doof1789559/status/2105874208458752227) (作者 [@doof1789559](https://x.com/doof1789559))
+
+**记录角色生成的负面经验，与成功视觉演示一同参考。**
+
+作者报告角色生成结果不佳，并明确承认也可能与自己的使用方法有关。帖子为评估角色任务保留了一项具体负面体验。
+
+Type: Limit | Date: 2026-10-02
+
+---
+
+<a id="case-278"></a>
+### Case 278: [附耗时与费用记录的鹈鹕 SVG](https://x.com/AnonymerNutze12/status/2105740440385499295) (作者 [@AnonymerNutze12](https://x.com/AnonymerNutze12))
+
+**把绘图作品与作者对耗时和费用的记录配对。**
+
+作者链接了一份鹈鹕 SVG HTML 作品，并报告这次尝试的耗时与费用。链接作品是帖子所指的具体输出。
+
+[相关作品](https://claude.ai/artifact/697meWJLt1jck5iq14x9HH)
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-279"></a>
+### Case 279: [用手机远程监督 Claude Code 群体编程](https://x.com/beistnormie/status/2106546741000417781) (作者 [@beistnormie](https://x.com/beistnormie))
+
+**探索基于手机的编程代理群体远程监督。**
+
+作者表示在旅途中用手机远程操作 Claude Code 代理群体编程。帖子提供的是个人工作流报告，而非项目教程或实施步骤说明。
+
+Type: Integration | Date: 2026-10-04
 
 ---
 
@@ -2686,9 +5387,8 @@ Simon Willison 表示，他每分钟 ping 一次 `claude-fable-5` API，以观�
 
 本仓库受到公开分享真实 Claude Fable 5 使用案例的创作者、开发者、基准测试团队和社区启发。
 
-感谢这里收录的高质量来源创作者：[@ai_for_success](https://x.com/ai_for_success), [@AI_masaou](https://x.com/AI_masaou), [@aianimesyokunin](https://x.com/aianimesyokunin), [@AlicanKiraz0](https://x.com/AlicanKiraz0), [@alliekmiller](https://x.com/alliekmiller), [@AndrewCurran_](https://x.com/AndrewCurran_), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@ayushagarwal](https://x.com/ayushagarwal), [@bcherny](https://x.com/bcherny), [@bielzinn](https://x.com/bielzinn), [@btibor91](https://x.com/btibor91), [@clairevo](https://x.com/clairevo), [@coldopn](https://x.com/coldopn), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@ctgptlb](https://x.com/ctgptlb), [@deveshcodes_](https://x.com/deveshcodes_), [@ecomchasedimond](https://x.com/ecomchasedimond), [@gabepereyra](https://x.com/gabepereyra), [@grapeot](https://x.com/grapeot), [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@HKrackDev](https://x.com/HKrackDev), [@IBuzovskyi](https://x.com/IBuzovskyi), [@intheworldofai](https://x.com/intheworldofai), [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@JJEnglert](https://x.com/JJEnglert), [@jsnnsa](https://x.com/jsnnsa), [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@kieradev](https://x.com/kieradev), [@LechMazur](https://x.com/LechMazur), [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@manaltdan](https://x.com/manaltdan), [@mark_k](https://x.com/mark_k), [@mercor_ai](https://x.com/mercor_ai), [@meta_alchemist](https://x.com/meta_alchemist), [@MTSlive](https://x.com/MTSlive), [@naoyafujiwara](https://x.com/naoyafujiwara), [@nicbstme](https://x.com/nicbstme), [@oikon48](https://x.com/oikon48), [@op7418](https://x.com/op7418), [@quanghuynt14](https://x.com/quanghuynt14), [@ryanrhughes](https://x.com/ryanrhughes), [@scottstts](https://x.com/scottstts), [@swarms_corp](https://x.com/swarms_corp), [@tetumemo](https://x.com/tetumemo), [@timhwang](https://x.com/timhwang), [@Truunik](https://x.com/Truunik), [@VaibhavSisinty](https://x.com/VaibhavSisinty), [@vikvang1](https://x.com/vikvang1), [@Voxyz_ai](https://x.com/Voxyz_ai), [@xw33bttv](https://x.com/xw33bttv), 以及 [@ydamitcodes](https://x.com/ydamitcodes)。
+[@AlicanKiraz0](https://x.com/AlicanKiraz0), [@coldopn](https://x.com/coldopn), [@deveshcodes_](https://x.com/deveshcodes_), [@intheworldofai](https://x.com/intheworldofai), [@jsnnsa](https://x.com/jsnnsa), [@ryanrhughes](https://x.com/ryanrhughes), [@JJEnglert](https://x.com/JJEnglert), [@ayushagarwal](https://x.com/ayushagarwal), [@ai_for_success](https://x.com/ai_for_success), [@kieradev](https://x.com/kieradev), [@vikvang1](https://x.com/vikvang1), [@ydamitcodes](https://x.com/ydamitcodes), [@ecomchasedimond](https://x.com/ecomchasedimond), [@quanghuynt14](https://x.com/quanghuynt14), [@scottstts](https://x.com/scottstts), [@tetumemo](https://x.com/tetumemo), [@AndrewCurran_](https://x.com/AndrewCurran_), [@manaltdan](https://x.com/manaltdan), [@naoyafujiwara](https://x.com/naoyafujiwara), [@AI_masaou](https://x.com/AI_masaou), [@Truunik](https://x.com/Truunik), [@Voxyz_ai](https://x.com/Voxyz_ai), [@aianimesyokunin](https://x.com/aianimesyokunin), [@bielzinn](https://x.com/bielzinn), [@meta_alchemist](https://x.com/meta_alchemist), [@oikon48](https://x.com/oikon48), [@IBuzovskyi](https://x.com/IBuzovskyi), [@btibor91](https://x.com/btibor91), [@ctgptlb](https://x.com/ctgptlb), [@grapeot](https://x.com/grapeot), [@op7418](https://x.com/op7418), [@swarms_corp](https://x.com/swarms_corp), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@HKrackDev](https://x.com/HKrackDev), [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@LechMazur](https://x.com/LechMazur), [@MTSlive](https://x.com/MTSlive), [@VaibhavSisinty](https://x.com/VaibhavSisinty), [@alliekmiller](https://x.com/alliekmiller), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@bcherny](https://x.com/bcherny), [@clairevo](https://x.com/clairevo), [@gabepereyra](https://x.com/gabepereyra), [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@mark_k](https://x.com/mark_k), [@mercor_ai](https://x.com/mercor_ai), [@nicbstme](https://x.com/nicbstme), [@timhwang](https://x.com/timhwang), [@xw33bttv](https://x.com/xw33bttv), [@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown), [@marclou](https://x.com/marclou), [@ProximalHQ](https://x.com/ProximalHQ), [@elliotarledge](https://x.com/elliotarledge), [@mikefutia](https://x.com/mikefutia), [@techhalla](https://x.com/techhalla), [@diblacksmith](https://x.com/diblacksmith), [@upstash](https://x.com/upstash), [@WolfBenchAI](https://x.com/WolfBenchAI), [@simonw](https://x.com/simonw), [@chetaslua](https://x.com/chetaslua), [@notjazii](https://x.com/notjazii), [@exploraX_](https://x.com/exploraX_), [@marmaduke091](https://x.com/marmaduke091), [@AI_Screening](https://x.com/AI_Screening), [@waveking1314](https://x.com/waveking1314), [@cherry_mx_reds](https://x.com/cherry_mx_reds), [@imjustnewatai](https://x.com/imjustnewatai), [@mesmerlord](https://x.com/mesmerlord), [@blueemi99](https://x.com/blueemi99), [@EMostaque](https://x.com/EMostaque), [@mindblown_ai](https://x.com/mindblown_ai), [@Chengzilhy](https://x.com/Chengzilhy), [@ishuagra02](https://x.com/ishuagra02), [@zAdrielsan](https://x.com/zAdrielsan), [@KanaWorks_AI](https://x.com/KanaWorks_AI), [@TurboNexic](https://x.com/TurboNexic), [@atomtanstudio](https://x.com/atomtanstudio), [@abhinavflac](https://x.com/abhinavflac), [@esrhengwu](https://x.com/esrhengwu), [@mickeysmith_jp](https://x.com/mickeysmith_jp), [@MozeTech](https://x.com/MozeTech), [@benchmark_lb900](https://x.com/benchmark_lb900), [@jesselaunz](https://x.com/jesselaunz), [@cocoloba_](https://x.com/cocoloba_), [@olddonkeyblog](https://x.com/olddonkeyblog), [@iowitz](https://x.com/iowitz), [@argofowl](https://x.com/argofowl), [@JaydenDavisNC](https://x.com/JaydenDavisNC), [@DAssetBuzz](https://x.com/DAssetBuzz), [@nemumusitocha](https://x.com/nemumusitocha), [@0xashtonx](https://x.com/0xashtonx), [@dropout_layer](https://x.com/dropout_layer), [@mathisbuilds](https://x.com/mathisbuilds), [@Saccc_c](https://x.com/Saccc_c), [@RobIW_dev](https://x.com/RobIW_dev), [@hungryturbo](https://x.com/hungryturbo), [@alannnfx](https://x.com/alannnfx), [@NFT_Chen](https://x.com/NFT_Chen), [@dpkostka](https://x.com/dpkostka), [@kiyoshi_shin](https://x.com/kiyoshi_shin), [@hanawo_neki](https://x.com/hanawo_neki), [@badboyfoxy](https://x.com/badboyfoxy), [@markbraincell](https://x.com/markbraincell), [@synthshareai](https://x.com/synthshareai), [@Layton_Gott](https://x.com/Layton_Gott), [@nroze22](https://x.com/nroze22), [@MinLiBuilds](https://x.com/MinLiBuilds), [@YanqingCheng](https://x.com/YanqingCheng), [@Kinzf2121](https://x.com/Kinzf2121), [@devteamdrew](https://x.com/devteamdrew), [@maciejkrupowies](https://x.com/maciejkrupowies), [@rohit3a](https://x.com/rohit3a), [@Noreply134882](https://x.com/Noreply134882), [@noclipepe](https://x.com/noclipepe), [@devswha](https://x.com/devswha), [@oalanicolas](https://x.com/oalanicolas), [@AndrewOnXYZ](https://x.com/AndrewOnXYZ), [@OnlyTerp](https://x.com/OnlyTerp), [@HashmathRzz](https://x.com/HashmathRzz), [@BoDy051](https://x.com/BoDy051), [@HelaliBillel](https://x.com/HelaliBillel), [@iancarscadden](https://x.com/iancarscadden), [@eviljoker88](https://x.com/eviljoker88), [@slimcat0101](https://x.com/slimcat0101), [@l_mejiaC](https://x.com/l_mejiaC), [@ziwenxu_](https://x.com/ziwenxu_), [@SPAC89](https://x.com/SPAC89), [@IgorGomezC](https://x.com/IgorGomezC), [@vikktorrrre](https://x.com/vikktorrrre), [@sdmat123](https://x.com/sdmat123), [@Mr_Salio](https://x.com/Mr_Salio), [@popat_kunj](https://x.com/popat_kunj), [@voltwake](https://x.com/voltwake), [@BtwIUseSystemd](https://x.com/BtwIUseSystemd), [@TOPSTR1X](https://x.com/TOPSTR1X), [@SEO](https://x.com/SEO), [@RayaneRachid_](https://x.com/RayaneRachid_), [@Josh67Joshua](https://x.com/Josh67Joshua), [@kdnbmb](https://x.com/kdnbmb), [@mszzz0011](https://x.com/mszzz0011), [@AISuperDomain](https://x.com/AISuperDomain), [@crowqnt](https://x.com/crowqnt), [@ZorroOfMorocco](https://x.com/ZorroOfMorocco), [@legit_api](https://x.com/legit_api), [@leo114119](https://x.com/leo114119), [@anxuanng](https://x.com/anxuanng), [@xiax0603](https://x.com/xiax0603), [@Octoberry](https://x.com/Octoberry), [@Mikadzyki_NFT](https://x.com/Mikadzyki_NFT), [@birdabo](https://x.com/birdabo), [@ChrisGPT](https://x.com/ChrisGPT), [@AdamHoltererer](https://x.com/AdamHoltererer), [@insanekrishnaa](https://x.com/insanekrishnaa), [@cleeeeeeeeement](https://x.com/cleeeeeeeeement), [@ZMinimalistYogi](https://x.com/ZMinimalistYogi), [@wenhaocha1](https://x.com/wenhaocha1), [@AM09_21](https://x.com/AM09_21), [@mt_moco](https://x.com/mt_moco), [@johntitorIII](https://x.com/johntitorIII), [@DavidayoAI](https://x.com/DavidayoAI), [@xodud_rkd](https://x.com/xodud_rkd), [@doof1789559](https://x.com/doof1789559), [@AnonymerNutze12](https://x.com/AnonymerNutze12), [@beistnormie](https://x.com/beistnormie), [@AnikaCodes](https://x.com/AnikaCodes)
 
-也感谢本次已批准更新中的创作者：[@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown), [@marclou](https://x.com/marclou), [@ProximalHQ](https://x.com/ProximalHQ), [@elliotarledge](https://x.com/elliotarledge), [@mikefutia](https://x.com/mikefutia), [@techhalla](https://x.com/techhalla), [@diblacksmith](https://x.com/diblacksmith), [@upstash](https://x.com/upstash), [@WolfBenchAI](https://x.com/WolfBenchAI), 以及 [@simonw](https://x.com/simonw)。
 
 *我们无法保证每个案例都署名给了最初创作者。如果有任何内容需要纠正，请联系我们，我们会更新。*
 

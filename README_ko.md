@@ -35,7 +35,7 @@ Evolink에서 사용해 보기: [Claude Fable 5](https://evolink.ai/claude-fable
 
 ## 📊 개요
 
-- 공개 크리에이터, 개발자, 벤치마크 팀, 도구 제작자가 공유한 **선별된 Claude Fable 5 사례 88개**.
+- **기존 Fable 5 사례 88개와 커뮤니티 사례 191개, 총 279개 사례.**
 - 코딩 에이전트, 장시간 자동화, 게임, 비주얼 디자인, 3D 시뮬레이션, 지식 작업, 튜토리얼, API 통합, 벤치마크, 가격, 출시 시점의 제한을 다룹니다.
 - 각 사례에는 원본 소스, 크리에이터 출처, 간결한 핵심 요약, 근거 유형, 게시 날짜가 포함됩니다.
 - 이 저장소를 활용해 실용적인 워크플로를 찾고, 강점과 한계를 비교하며, 재현 가능한 프롬프트를 발견하고, 통합 예시를 따라가세요.
@@ -180,24 +180,24 @@ curl --request POST \
 | [ProofBench 형식 수학 결과](#case-58) | 이 사례를 사용해 specialized theorem-proving systems와 비교해 formal math에서 Fable 5를 평가하세요. | 튜토리얼 |
 | [VirtueBench 예비 분석](#case-59) | 이 사례를 사용해 virtue categories 전반에서 Fable 5의 moral-reasoning behavior를 살펴보세요. | 평가 |
 | [API 빈 응답 안전 과적합 테스트](#case-60) | 이 사례를 사용해 launch-time safety overfit risk와 API testing의 empty-response behavior를 이해하세요. | 평가 |
-| [Fable Prompting Verification Guide](#case-61) | Use this prompting guide to shift from longer prompt hacks toward goal, context, constraints, tools, and verification loops. | 튜토리얼 |
-| [Istanbul Platform Game Reference Build](#case-62) | Use a reference sprite sheet plus one conversion instruction to test Fable 5 on a playable platform game. | 데모 |
-| [Business 3D City Dashboard](#case-63) | Use Fable 5 to turn a business workflow into a live 3D city dashboard concept. | 데모 |
-| [Three.js Hole Game One-Shot](#case-64) | Use Fable 5 to one-shot a 3D browser game prototype in Three.js. | 데모 |
-| [DeepSWE Score Comparison](#case-65) | Use this DeepSWE note to compare Fable 5 xHigh with GPT-5.5 xHigh on software-engineering benchmark performance. | 평가 |
-| [Repository Cost Comparison](#case-66) | Use this repository-analysis comparison to judge token price against human rework cost. | 평가 |
-| [Super Mario Game Token Cost](#case-67) | Use this single-shot game build to estimate Fable 5 output quality and token consumption. | 데모 |
-| [Claude Code Fallback Setting](#case-68) | Use this case to understand the Claude Code setting for switching models when a Fable 5 message is flagged. | 통합 |
-| [Namma Metro Simulator Build](#case-69) | Use this demo as a compact example of vibe-coding a public-transit simulator with Fable 5. | 데모 |
-| [Dusk Drive One-Prompt Game](#case-70) | Use this one-prompt driving-game case to evaluate Fable 5 on low-poly game prototyping without human edits. | 데모 |
-| [APEX-Agents Pass@1 Ranking](#case-71) | Use this APEX-Agents result to compare Fable 5 Max on multi-step autonomous tasks. | 평가 |
-| [Claude Model Selection Playbook](#case-72) | Use this model-selection playbook to reserve Fable 5 for the hardest Claude Code jobs. | 튜토리얼 |
-| [HermesWorld Automated Agent Loop](#case-73) | Use this case to study a hands-free Fable 5 loop that builds, tests, plays, and smoke-tests over days. | 통합 |
-| [McKinsey-Style Report Prompt Test](#case-74) | Use this document-generation prompt to evaluate consulting-report structure, charts, narrative, and risk analysis. | 튜토리얼 |
-| [Visible Safeguards Rollout](#case-75) | Use this official note to understand Fable 5 safeguard visibility, API refusal reasons, and Opus fallback behavior. | 통합 |
-| [Claude Code Model Matching Fix](#case-76) | Use this Claude Code changelog note to avoid Fable 5 model-name and context matching issues. | 통합 |
-| [Three Web Apps in Claude Code](#case-77) | Use this beginner coding demo to inspect Fable 5 inside Claude Code across multiple generated web apps. | 데모 |
-| [Rilable Open Source App Builder](#case-78) | Use this open-source app-builder case to study Fable 5 across iOS, web apps, sandboxes, and API-token cost. | 통합 |
+| [Fable 프롬프트 설계와 검증 가이드](#case-61) | 긴 프롬프트 요령 대신 목표, 맥락, 제약, 도구, 검증 루프를 정리하는 데 이 가이드를 활용하세요. | 튜토리얼 |
+| [참조 이미지로 만드는 이스탄불 플랫폼 게임](#case-62) | 참조용 스프라이트 시트와 변환 지시 하나를 주고 Fable 5가 플레이 가능한 플랫폼 게임을 만드는지 시험하세요. | 데모 |
+| [업무를 시각화하는 3D 도시 대시보드](#case-63) | Fable 5로 업무 흐름을 움직이는 3D 도시 대시보드 구상으로 바꿔 보세요. | 데모 |
+| [Three.js 구멍 게임을 한 번에 제작](#case-64) | Fable 5로 Three.js 기반 3D 브라우저 게임 시제품을 한 번에 만들어 보세요. | 데모 |
+| [DeepSWE 점수 비교](#case-65) | 이 DeepSWE 게시물을 출발점으로 소프트웨어 개발 벤치마크에서 Fable 5 xHigh와 GPT-5.5 xHigh를 비교하세요. | 평가 |
+| [저장소 분석 비용 비교](#case-66) | 저장소 분석 비교를 통해 토큰 단가와 사람이 다시 작업하는 비용을 함께 판단하세요. | 평가 |
+| [슈퍼 마리오 스타일 게임의 토큰 비용](#case-67) | 한 번에 만든 게임으로 Fable 5의 출력 품질과 토큰 소모량을 평가하세요. | 데모 |
+| [Claude Code 대체 모델 전환 설정](#case-68) | Fable 5 메시지가 감지됐을 때 모델을 전환하는 Claude Code 설정을 확인하세요. | 통합 |
+| [Namma Metro 시뮬레이터 제작](#case-69) | Fable 5로 대중교통 시뮬레이터를 만드는 간단한 바이브 코딩 사례로 살펴보세요. | 데모 |
+| [프롬프트 하나로 만든 Dusk Drive](#case-70) | 사람의 수정 없이 로우 폴리 게임을 만드는 작업에서 Fable 5를 평가하세요. | 데모 |
+| [APEX-Agents Pass@1 순위](#case-71) | APEX-Agents 결과를 통해 여러 단계의 자율 작업에서 Fable 5 Max를 비교하세요. | 평가 |
+| [Claude 모델 선택 가이드](#case-72) | Claude Code의 가장 어려운 작업에 Fable 5를 남겨 두는 모델 선택 전략을 검토하세요. | 튜토리얼 |
+| [HermesWorld 자동 에이전트 루프](#case-73) | 며칠 동안 구현, 테스트, 플레이, 기본 동작 확인을 이어가는 수동 조작 없는 Fable 5 루프를 살펴보세요. | 통합 |
+| [McKinsey 스타일 보고서 프롬프트 검증](#case-74) | 문서 생성 프롬프트로 컨설팅 보고서의 구성, 차트, 논지, 위험 분석을 평가하세요. | 튜토리얼 |
+| [안전장치 동작의 가시화](#case-75) | 공식 게시물에서 Fable 5 안전장치 표시, API 거부 사유, Opus 전환 동작을 확인하세요. | 통합 |
+| [Claude Code 모델 이름 매칭 수정](#case-76) | Claude Code 변경 기록을 참고해 Fable 5 모델 이름과 컨텍스트 매칭 문제를 피하세요. | 통합 |
+| [Claude Code로 웹 앱 세 개 제작](#case-77) | 여러 웹 앱을 생성한 초보자의 코딩 데모에서 Claude Code 안의 Fable 5 활용을 확인하세요. | 데모 |
+| [오픈소스 앱 빌더 Rilable](#case-78) | iOS, 웹 앱, 샌드박스, API 토큰 비용을 아우르는 Fable 5 활용을 살펴보세요. | 통합 |
 | [DeepSWE 코딩 에이전트 지수 데뷔](#case-79) | 공개 GitHub 수정 재활용을 피한 더 어려운 agentic coding tasks에서 Fable 5를 비교하기 위해 갱신된 Artificial Analysis 지수를 사용하세요. | Evaluation |
 | [DataEmpire 웹 분석 게임](#case-80) | Claude Fable 5가 방문자와 이정표를 게임 엔티티에 매핑하게 해 원시 사이트 분석 데이터를 반복 플레이 가능한 게임으로 바꾸세요. | Integration |
 | [FrontierSWE 20시간 작업 신호](#case-81) | Claude Fable 5가 짧은 버그 수정 루프뿐 아니라 매우 긴 엔지니어링 작업에서도 생산성을 유지할 수 있다는 근거로 FrontierSWE를 사용하세요. | Evaluation |
@@ -209,6 +209,203 @@ curl --request POST \
 | [WolfBench 거부 비용 사례](#case-87) | Claude Fable 5에서 장시간 자율 실행 비용을 산정할 때 refusal behavior를 실제 benchmark variable로 취급하세요. | Evaluation |
 | [API 접근 중단 추적기](#case-88) | 레이트리밋이나 갑작스러운 중단 가능성이 있는 frontier model 접근에 의존한다면 스크립트로 availability를 모니터링하세요. | Integration |
 
+
+
+### [🆕 Fable 5.5 커뮤니티 데모](#fable-5-5-community-demos)
+
+| 사례 | 유형 |
+|---|---|
+| [코드로 생성한 소리 있는 여우 애니메이션](#case-89) | Demo |
+| [자유로운 창작 지시에서 만든 애니메이션](#case-90) | Demo |
+| [애니메이션이 있는 건설회사 웹사이트](#case-91) | Demo |
+| [Three.js 자동차 프레젠테이션](#case-92) | Demo |
+| [Minecraft 스타일 브라우저 게임 데모](#case-93) | Demo |
+| [Three.js 펠리컨 자전거 애니메이션](#case-94) | Demo |
+| [정확한 프롬프트가 있는 펠리컨 자전거 SVG](#case-95) | Demo |
+| [질주하는 얼룩말 애니메이션 예시](#case-96) | Demo |
+| [주문은 사람이 실행하는 TradingView 지표](#case-97) | Demo |
+| [점 하나에서 펼쳐진 짧은 애니메이션](#case-98) | Demo |
+| [여러 화풍을 넘나드는 슈퍼맨](#case-99) | Demo |
+| [음악이 있는 인류 발전 애니메이션](#case-100) | Demo |
+| [Opus와 비교한 공개 소개 영상](#case-101) | Evaluation |
+| [가사와 사건을 영상으로 연결하기](#case-102) | Demo |
+| [떠 있는 풍경 속 복셀 캐릭터](#case-103) | Demo |
+| [3D 루브 골드버그 장치](#case-104) | Demo |
+| [소리와 움직임이 있는 3D 컨트롤러](#case-105) | Demo |
+| [JavaScript로 선보인 만화 캐릭터](#case-106) | Demo |
+| [세계와 보스, 순위표를 갖춘 Updraft](#case-107) | Demo |
+| [샌프란시스코 지도를 달리는 게임](#case-108) | Demo |
+| [Seedance 액션 장면용 프롬프트 작성](#case-109) | Demo |
+| [데스크톱 동료 도구의 소개 영상](#case-110) | Demo |
+| [짧은 요청으로 바뀌는 화풍](#case-111) | Demo |
+| [삼체 문제 시각화](#case-112) | Demo |
+| [다양한 화풍의 애니메이션 갤러리](#case-113) | Demo |
+| [로봇 동료와 절차적 털 표현](#case-114) | Demo |
+| [수학을 주제로 한 모션 편집](#case-115) | Demo |
+| [Your Woman 가사 영상](#case-116) | Demo |
+| [음악 영상을 JavaScript로 다시 그리기](#case-117) | Demo |
+| [중국 축구 애니메이션](#case-118) | Demo |
+| [휴대용 게임기 리토폴로지 전시](#case-119) | Demo |
+| [Minecraft와 Pokémon의 결합](#case-120) | Demo |
+| [LLM 제작 과정을 설명하는 영상](#case-121) | Demo |
+| [Altman 하이라이트 모션 편집](#case-122) | Demo |
+| [삼십육계의 첫 번째 계책 영상](#case-123) | Demo |
+| [게임 모델링, 리깅, 애니메이션](#case-124) | Demo |
+| [아동 사망을 다룬 무언의 영화](#case-125) | Demo |
+| [해당과정에서 에탄올까지의 SVG](#case-126) | Demo |
+| [16대 Starship 동시 발사](#case-127) | Demo |
+| [펠리컨 자전거 애니메이션 시험](#case-128) | Demo |
+| [향후 150년의 이야기](#case-129) | Demo |
+| [독립적인 Humanity Walks 실험](#case-130) | Demo |
+| [코드로 만든 The Grader 영화](#case-131) | Demo |
+| [공포 단편 Reawakening](#case-132) | Demo |
+| [25초 자기 개선 영상](#case-133) | Demo |
+| [성 장면과 사용 비용 피드백](#case-134) | Evaluation |
+| [40초 브랜드 출시 광고](#case-135) | Demo |
+| [Rocketball 리메이크](#case-136) | Demo |
+| [복셀 탑 장면 비교](#case-137) | Evaluation |
+| [상상 속 Switch 3 발표](#case-138) | Demo |
+| [랜딩 페이지의 전후 비교](#case-139) | Evaluation |
+| [상상한 AI의 내면 시점](#case-140) | Demo |
+| [Go 가사 모션 디자인](#case-141) | Demo |
+| [두 번째 15초 모션 포트폴리오](#case-142) | Demo |
+| [에이전트 구현 계획 검토](#case-143) | Tutorial |
+| [Claude 마스코트 댄스](#case-144) | Demo |
+| [인터랙티브 세계 7대 불가사의 섬](#case-145) | Demo |
+| [Propellerheads 음악 영상](#case-146) | Demo |
+| [Steamboat Willie 애니메이션 비교](#case-147) | Evaluation |
+| [싼싱두이 주제 영화](#case-148) | Demo |
+| [Bugatti Chiron 전후 비교](#case-149) | Evaluation |
+| [GRAIN 콘셉트 영화](#case-150) | Demo |
+| [Human in Transit 미술 갤러리](#case-151) | Demo |
+| [실크로드 시각 단편](#case-152) | Demo |
+| [네 가지 전환을 다룬 발표 자료](#case-153) | Demo |
+| [이전 대화와 말투 비교](#case-154) | Evaluation |
+| [카카포 귀여움 비교](#case-155) | Evaluation |
+| [만화의 열 시대를 지나는 스파이더맨](#case-156) | Demo |
+| [일루미나티 소재의 가상 공포 영상](#case-157) | Demo |
+| [코드로 만든 핵과학사 영화](#case-158) | Demo |
+| [보편적 고소득 개념 해설](#case-159) | Demo |
+| [Altman–Amodei 논쟁 해설](#case-160) | Demo |
+| [Claude 마스코트 음악 영상](#case-161) | Demo |
+| [쿼크에서 우주까지 이어지는 줌](#case-162) | Demo |
+| [2076년의 세계 상상하기](#case-163) | Demo |
+| [로어맨해튼 건축 연표](#case-164) | Demo |
+| [갑골문 애니메이션](#case-165) | Demo |
+| [캐릭터가 미술사를 지나는 다른 애니메이션](#case-166) | Demo |
+| [코드로 만든 세이킬로스 시청각 작품](#case-167) | Demo |
+| [제트기 애니메이션 비교](#case-168) | Evaluation |
+| [모델 자기소개 영화](#case-169) | Demo |
+| [종말 이후 카드 게임 프로토타입](#case-170) | Demo |
+| [The Late Byte 직장 애니메이션](#case-171) | Demo |
+| [Queens of the Stone Age 가사 애니메이션](#case-172) | Demo |
+| [공유된 Three.js 서사 장면](#case-173) | Demo |
+| [역사 속을 지나는 문워크](#case-174) | Demo |
+| [상세 프롬프트 기반 모션 그래픽](#case-175) | Demo |
+| [대여 사업 웹사이트 인터페이스](#case-176) | Demo |
+| [AGI 소재의 창작 영화](#case-177) | Demo |
+| [고양이 곁이야기가 있는 미술사](#case-178) | Demo |
+| [전투 프로토타입과 복셀 장면](#case-179) | Demo |
+| [인터넷 밈 연표](#case-180) | Demo |
+| [한 줄로 만든 입자 움직임](#case-181) | Demo |
+| [Kung-Fu Boy 애니메이션](#case-182) | Demo |
+| [호르무즈 해협 토론 애니메이션](#case-183) | Demo |
+| [유니콘 SVG 스타일 실험](#case-184) | Demo |
+| [핼러윈 계절 애니메이션](#case-185) | Demo |
+| [Blender CLI 야만인과 표지](#case-186) | Demo |
+| [Claude의 하루](#case-187) | Demo |
+| [3D로 보는 인류 역사](#case-188) | Demo |
+| [빠른 모션 디자인 릴](#case-189) | Evaluation |
+| [자유로운 복합 3D 창작](#case-190) | Demo |
+| [막대인간 격투 애니메이션](#case-191) | Demo |
+| [한 프롬프트로 만든 UI 모션](#case-192) | Demo |
+| [가상의 SCP-8517 애니메이션](#case-193) | Demo |
+| [수채화 가을 애니메이션](#case-194) | Demo |
+| [절차적 인형 무대](#case-195) | Demo |
+| [브라우저로 렌더링한 펠리컨](#case-196) | Demo |
+| [우주가 자신을 바라보다](#case-197) | Demo |
+| [독립적인 제트기 애니메이션 시험](#case-198) | Demo |
+| [초기 자유형 모션 릴](#case-199) | Demo |
+| [코드로 표현한 문명사](#case-200) | Demo |
+| [칩에서 서버까지 확대 비교](#case-201) | Evaluation |
+| [달 여행 개인 애니메이션 프로젝트](#case-202) | Demo |
+| [일본풍 복셀 장면 비교](#case-203) | Evaluation |
+| [Steaming the Frontier 시청각 단편](#case-204) | Demo |
+| [여러 미술 양식을 통과하는 슈퍼맨](#case-205) | Demo |
+| [Cupcake풍 보스전 프로토타입](#case-206) | Demo |
+| [태양 위치가 달라지는 범선](#case-207) | Demo |
+| [Paracortex와 Pi 변경 안내 영상](#case-208) | Demo |
+| [Curio 2.0 사이트 홍보 영상](#case-209) | Demo |
+| [상상 속 Hugging Face 3D 이야기](#case-210) | Demo |
+| [Claude for Chrome의 JS Paint 사용](#case-211) | Demo |
+| [정적인 펠리컨 자전거 SVG](#case-212) | Demo |
+| [BlockBench MCP와 Minecraft 스킬](#case-213) | Demo |
+| [하나의 HTML 파일로 만든 Dig Dug](#case-214) | Demo |
+| [기계식 문어 SVG](#case-215) | Demo |
+| [미술 양식을 지나는 Humanity Walks](#case-216) | Demo |
+| [열린 요청으로 만든 블랙홀](#case-217) | Demo |
+| [오로라 해파리 애니메이션 비교](#case-218) | Evaluation |
+| [Nintendo Switch 결합과 부팅 SVG](#case-219) | Demo |
+| [The Loom 인터랙티브 3D 장면](#case-220) | Demo |
+| [벚꽃 탑 모션 샘플](#case-221) | Evaluation |
+| [깔끔하지만 깊이가 부족한 풍경](#case-222) | Evaluation |
+| [평가가 엇갈린 일본풍 장면](#case-223) | Evaluation |
+| [컨트롤러 SVG 비교](#case-224) | Evaluation |
+| [산업 장치 3D 장면](#case-225) | Demo |
+| [거대한 껍질 아가미 벌레 재구성](#case-226) | Demo |
+| [두 프롬프트로 그린 GameCube 컨트롤러](#case-227) | Demo |
+| [X 게시물용 스크린샷 편집](#case-228) | Demo |
+| [복셀 벚꽃 장면 전후 비교](#case-229) | Evaluation |
+| [SHADERKIN 천 인터페이스 프로토타입](#case-230) | Demo |
+| [공유된 금빛 시계 인터페이스 애니메이션](#case-231) | Demo |
+| [Before There Was Anything 서사](#case-232) | Demo |
+| [공유된 푸른 입자 소용돌이](#case-233) | Demo |
+| [두 차례 수정한 다중 패널 화면](#case-234) | Demo |
+| [동물을 쌓은 렌더링 장면](#case-235) | Demo |
+| [네 가지 오픈월드 RPG 시도 비교](#case-236) | Evaluation |
+| [두 프런트엔드 애니메이션 비교](#case-237) | Evaluation |
+| [코드로 생성한 이끼 로봇 영화](#case-238) | Demo |
+| [다시 만든 컨테이너 항구 시뮬레이션](#case-239) | Demo |
+| [다시 만든 공항 계류장 장면](#case-240) | Demo |
+| [추상 3D 세계를 지나는 펠리컨](#case-241) | Demo |
+| [역사적 범선 장면](#case-242) | Demo |
+| [Carbon과 자전거·보행 움직임 비교](#case-243) | Evaluation |
+| [청량음료 병 제품 표현](#case-244) | Demo |
+| [Astra와 펠리컨 움직임 비교](#case-245) | Evaluation |
+| [코드 애니메이션 모션 디자인 지시](#case-246) | Tutorial |
+| [사진을 참고한 복셀 초상](#case-247) | Demo |
+| [Opus와 날아가는 펠리컨 장면 비교](#case-248) | Evaluation |
+| [Morning Ride 펠리컨 웹 장면](#case-249) | Demo |
+| [같은 프롬프트와 서로 다른 화풍](#case-250) | Evaluation |
+| [펠리컨과 자전거, 말의 구성](#case-251) | Demo |
+| [참조 게시물 기반 등각 장면](#case-252) | Demo |
+| [펠리컨 자전거 기계부 접사](#case-253) | Demo |
+| [펠리컨 위에 올라탄 자전거](#case-254) | Demo |
+| [Carbon과 펠리컨 SVG 화풍 비교](#case-255) | Evaluation |
+| [파란 만화 새의 자전거 장면](#case-256) | Demo |
+| [숲길의 펠리컨 자전거 스크린샷](#case-257) | Demo |
+| [Carbon과 막대인간 전투 비교](#case-258) | Evaluation |
+| [초기 시험의 펠리컨 SVG 참조](#case-259) | Demo |
+| [모델 간 SVG 시험의 펠리컨 참조](#case-260) | Evaluation |
+| [Carbon과 자전거 SVG 세부 비교](#case-261) | Evaluation |
+| [협곡 속 3D 정착지](#case-262) | Demo |
+| [Opus와 컨트롤러 세부 비교](#case-263) | Evaluation |
+| [주간 웹사이트 SEO 감사 흐름](#case-264) | Integration |
+| [Opus 모션 디자인에서 Fable 자산 재사용](#case-265) | Integration |
+| [만다라와 기하학 형태 앱](#case-266) | Demo |
+| [Three.js 자전거 라이더](#case-267) | Demo |
+| [FrontierCS 2 평가 스냅샷](#case-268) | Evaluation |
+| [세 모델의 얼룩말 애니메이션 비교](#case-269) | Evaluation |
+| [긴 일본어 문장의 가독성 비평](#case-270) | Evaluation |
+| [예시로 유도한 기술 PowerPoint](#case-271) | Evaluation |
+| [음악 전체의 일관성 비교](#case-272) | Evaluation |
+| [성급한 완료 보고와 부족한 디자인](#case-273) | Limit |
+| [불편함을 준 오징어 그림 결과](#case-274) | Limit |
+| [청사진 스타일 모션 디자인](#case-275) | Demo |
+| [복셀 벚꽃 속 새와 물고기](#case-276) | Demo |
+| [캐릭터 생성 실패 보고](#case-277) | Limit |
+| [실행 시간과 비용을 담은 펠리컨 SVG](#case-278) | Evaluation |
+| [휴대폰으로 원격 코딩 스웜 감독](#case-279) | Integration |
 
 <a id="coding-and-code-generation"></a>
 ## 💻 코딩 및 코드 생성
@@ -230,7 +427,7 @@ Phase 4: 계획을 구현할 때는 Minimax M3, Deepseek v4 Max, Composer 2.5 �
 
 Phase 5: 최종 리뷰와 구현이 계획을 따랐는지 확인할 때는 GPT 5.5 High를 사용합니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -247,7 +444,7 @@ Type: 평가 | Date: 2026-06-09
 
 결과는 작동하는 GitHub 복제본이었습니다: https://t.co/bjMObvlsPX
 
-Type: 데모 | Date: 2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -264,7 +461,7 @@ Type: 데모 | Date: 2026-06-09
 
 새 기준선이 말도 안 됩니다 🤯 https://t.co/E23I8bnPKb
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -292,7 +489,7 @@ Type: 튜토리얼 | Date: 2026-06-09
 
 작동하는 사운드 플레이어와 실제 Minecraft 클론을 함께 해낸 것은 다른 모델에서 아직 본 적이 없습니다. Fable 5의 frontend/UI 생성 능력이 터무니없이 좋아지고 있습니다.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -322,7 +519,7 @@ spawn 5.0은 이것으로 만들어졌습니다:
 
 벤치마크가 보여주지 못하는 부분: 이 모델은 성격이 훌륭합니다. 정말 웃깁니다. 물리 엔진을 다시 쓰는 도중 여러 번 너무 웃어서 울었습니다. 천재성과 캐릭터는 별개의 기능이 아닙니다.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -340,7 +537,7 @@ Fable 5에게 단일 PR(74 files / +3,705 / -1,246)을 마음껏 리뷰하게 �
 
 이게 출시하기엔 너무 위험했나요?
 
-Type: 데모 | Date: 2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -383,7 +580,7 @@ Type: 데모 | Date: 2026-06-09
 
 판결: 옆 사람보다 더 많은 지능에 접근할 수 있다는 것이 이점입니다. Fable 5는 그것을 현실로 만드는 첫 모델입니다. 풀 frontier 요금으로도 수익이 남았습니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -402,7 +599,7 @@ pod 로그를 읽고, Cloud SQL 오류 로그를 조회하고, 이미지 digest�
 
 몇 시간 아니라 몇 분. 웹 검색 없음. 🤯
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -420,7 +617,7 @@ Fable 5에게 손가락 추적 Dino runner 게임을 만들어 달라고 요청�
 
 https://t.co/AWt1lEIObq
 
-Type: 데모 | Date: 2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -437,7 +634,7 @@ Fable 5는 약 15분 만에 모든 장식, 캐릭터 모델, 4개 맵, 음악, �
 
 #fable #anthropic https://t.co/B7mTidE84U
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -454,7 +651,7 @@ Install command: cargo install termcraft-3d
 
 https://t.co/zs3y3t88oM
 
-Type: 데모 | Date: 2026-06-10
+Type: Demo | Date: 2026-06-10
 
 ---
 
@@ -473,7 +670,7 @@ Minecraft는 Notch가 2년 걸렸습니다.
 
 https://t.co/AmwdLwi75O
 
-Type: 튜토리얼 | Date: 2026-06-10
+Type: Tutorial | Date: 2026-06-10
 
 ---
 
@@ -618,7 +815,7 @@ Avoid:
 
 Output: premium, clean, polished, modern, editorial, presentation-ready하게 느껴지는 MVMT용 전체 길이 세로 구성의 매우 사실적인 ecommerce email design mockup.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -635,7 +832,7 @@ Type: 튜토리얼 | Date: 2026-06-09
 
 ⌚ https://t.co/RSRfDoKxA4
 
-Type: 평가 | Date: 2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -654,7 +851,7 @@ Fable 5:
 
 이 single html은 $12가 들었지만, 결과는 놀랍습니다!
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -675,7 +872,7 @@ Claude Fable 5는 강렬합니다.
 
 완성된 프롬프트와 공개 URL은 아래에 링크되어 있습니다.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 <a id="documents-knowledge-work-and-research"></a>
@@ -708,7 +905,7 @@ Mythos 5는 일주일이 넘는 대체로 자율적인 작업으로 새로운 ge
 
 높은 수준의 인간 입력만으로도, 학습된 모델은 Science에 발표된 최근 모델보다 100배 더 작았음에도 더 나은 성과를 냈습니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -727,7 +924,7 @@ Fable 5는 정책 분석 초안 작성처럼 더 오래 걸리는 정성 작업�
 - Projects에서 많은 댓글 세트를 스크린샷으로 찍고, Claude가 각각을 처리할지와 처리 방법을 추천하게 하기.
 - 문서에 대한 회의 transcript를 Claude에 붙여넣은 뒤, 회의와 Slack에서 논의된 편집 사항을 Claude가 변경 내용 추적으로 반영하고 댓글에 맥락을 추가하게 하기.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -775,7 +972,7 @@ Claude Fable 5 Max가 오늘 아침 사용 가능해져서 시험해 보았습�
 
 다시 말해, 잃어버린 수십 년은 단순한 금융 후유증이 아니었습니다. 인구구조, 임금, 디플레이션, 부채, 정책 선택, 사회적 신뢰가 얽힌 구조적 전환이었습니다.
 
-Type: 데모 | Date: 2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -815,7 +1012,7 @@ Fable 5에서는 더 오래 작업하고, 스스로 테스트하고, 더 높은 
 
 마지막으로 Thariq는 사람들이 더 야심차게 사용해 보아야 한다고 말합니다. Fable 5는 이전에는 LLM에게 너무 어렵다고 느꼈던 작업에 시도할 가치가 있으며, 참조된 영상의 video editing도 Fable로 수행되었습니다.
 
-Type: 데모 | Date: 2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -921,7 +1118,7 @@ frontier rates 가격에서도 이 workload는 수익을 냈습니다.
 
 감당할 수 있다면, 실제 품질 도약이 결과를 바꾸는 작업에 지금 사용하세요.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1006,7 +1203,7 @@ If RERUN_NOTICE == false, end with:
 
 Hardening pass completed on Claude 5. No re-run needed.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1044,7 +1241,7 @@ Acceptance criteria:
 
 완료되면 전체 flow를 reusable skill로 저장하세요: boot, screenshot, audit, prioritize, fix. 매 release 후 다시 실행하세요.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1085,7 +1282,7 @@ Fable은 긴 실행 내내 format을 유지할 수 있어서 첫 example과 마�
 
 더 똑똑한 모델로 format을 만들고, expression은 그것을 생산할 수 있는 모델에 맡기세요.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1130,7 +1327,7 @@ Anthropic은 이 모델을 진정한 “thought partner”로 사용하라고 �
 
 다시 말해, top AI models의 저렴한 subscription 시대가 끝나는 장면을 보고 있는지도 모릅니다. 이미 subscriber라면, 불가능하다고 생각했던 한계를 테스트할 때입니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1328,7 +1525,7 @@ project의 needs를 분석하고 가장 효과적인 방식으로 recommendation
 
 repo가 크다면 80%의 일을 하는 core 20% code에 깊이를 우선하고, 가볍게 리뷰한 areas를 note하세요.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1351,7 +1548,7 @@ limits를 잡아먹는 task에 투입하려 하기보다 그렇게 하세요.
 
 Fable이 무엇을 개선해야 하는지 아는 데 집중하는 한, 나머지는 다른 모델들이 도와줄 수 있습니다.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1396,7 +1593,7 @@ Example prompt:
 
 Claude Fable 5에게 video editing을 맡기는 것처럼, 이전에는 LLM에게 불가능하다고 느꼈던 task를 시도하세요.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1440,7 +1637,7 @@ API pricing:
 
 Best setup: 복잡한 `/goal`s에는 Fable 5, routine cron jobs에는 더 저렴한 모델.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1477,7 +1674,7 @@ Mythos 5는 소수의 trusted partners용입니다.
 - capacity가 허용되면 포함 기간이 연장될 수 있습니다.
 - 목표는 가능한 한 빨리 Fable 5를 standard subscription plans의 일부로 복원하는 것입니다.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1536,7 +1733,7 @@ questions에서 tasks로, 그리고 responsibilities로.
 
 작업의 단위가 "task"에서 "responsibility"로 이동하고 있습니다.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1577,7 +1774,7 @@ Fable 5 compatibility는 같은 날 업데이트되었지만 self-pairing만 지
 
 이 글에는 API code snippets, caveats, 그리고 Anthropic만이 이것을 server-side primitive로 만들었다는 cross-company comparison이 포함되어 있습니다.
 
-Type: 통합 | Date: 2026-06-09
+Type: Integration | Date: 2026-06-09
 
 ---
 
@@ -1618,7 +1815,7 @@ Subscription notes:
 - base subscription package에 직접 포함되지 않을 수 있습니다.
 - 23일 이후 capacity가 충분하면 회사는 Pro와 Max subscriptions에 포함하려고 할 것입니다.
 
-Type: 통합 | Date: 2026-06-09
+Type: Integration | Date: 2026-06-09
 
 ---
 
@@ -1638,7 +1835,7 @@ Highlights:
 - migrations, compatibility fixes, infrastructure changes 불필요
 - 최신 Anthropic models로 multi-agent systems를 오늘 build, deploy, scale
 
-Type: 통합 | Date: 2026-06-09
+Type: Integration | Date: 2026-06-09
 
 ---
 
@@ -1678,7 +1875,7 @@ angle calculations에는 sin/cos lookup tables를 사용했고, rendering 중에
 
 핵심 요약: Fable 5는 더 고급 algorithmic code를 만들 수 있지만, price와 runtime을 신중히 고려해야 합니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1693,7 +1890,7 @@ Claude Fable 5는 우리의 knowledge and hallucination benchmark인 AA-Omniscie
 
 Claude Fable 5는 AA-Omniscience 전체 질문의 9%에서 Opus 4.8로 fallback합니다.
 
-Type: 평가 | Date: 2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -1752,7 +1949,7 @@ Key model details:
 - Availability: 6월 22일까지 Pro, Max, Team, seat-based Enterprise plans에 포함되며 Opus usage의 2x를 소비.
 - 6월 23일부터 사용에는 credits가 필요합니다. Anthropic은 capacity가 허용되면 subscription access를 복원할 계획이라고 말합니다.
 
-Type: 평가 | Date: 2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -1782,7 +1979,7 @@ Fable 5는 GDPval-AA tasks의 2%에서 Opus 4.8로 fallback하며, Anthropic은 
 
 Claude Fable 5의 full benchmarks는 진행 중입니다. 곧 full Intelligence Index를 공유하고 website에 scores를 게시할 예정입니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1815,7 +2012,7 @@ API pricing이 Opus의 약 두 배로 알려져 있으므로 많은 사람들이
 
 아직 초기지만 지금까지 Fable 5는 매우 강한 첫인상을 남겼습니다.
 
-Type: 통합 | Date: 2026-06-09
+Type: Integration | Date: 2026-06-09
 
 ---
 
@@ -1836,7 +2033,7 @@ Fable 5는 game design 같은 creative tasks에서 놀라운 intuition을 갖고
 
 model release에 대해 @coderabbitai의 DevEx team @JuanPa와 나눈 discussion을 확인하세요.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1861,7 +2058,7 @@ Claude Code 2.1.170으로 Claude Fable 5를 사용해 보았습니다.
 
 초기 경험은 promising하지만, rough edges가 실제로 어디에 있는지 보려면 더 오래 사용해야 합니다.
 
-Type: 데모 | Date: 2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -1878,7 +2075,7 @@ Caveat: 400개의 creative-writing prompts 중 5개를 refused했습니다.
 
 https://t.co/76nCxwEybJ
 
-Type: 평가 | Date: 2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -1896,7 +2093,7 @@ Anthropic: "The longer and more complex the task, the larger Fable 5's lead over
 
 @theojaffee: "This Frontier Code Diamond benchmark was announced yesterday. Top model was Opus 4.8 at thirteen percent. GPT 5.5 at six percent. Fable 5 is at twenty-nine percent."
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1926,7 +2123,7 @@ The benchmarks:
 
 6월 22일까지 Pro와 Max plans에서 무료입니다. 이름은 Claude Fable 5입니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -1961,7 +2158,7 @@ Type: 평가 | Date: 2026-06-09
 - Note: 이제 zero data retention(ZDR) workspaces의 모든 Mythos-class models에는 30-day retention policy가 있습니다.
 - 이는 Claude Console, Claude Enterprise에서 ZDR이 적용된 Claude Code, 또는 AWS Bedrock, Google Cloud Agent Platform, Microsoft Foundry에서 ZDR로 접근하는 경우에 적용됩니다.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -1985,7 +2182,7 @@ Generation cost:
 
 Fable은 water simulation에서 분명히 더 잘했습니다. 훨씬 더 solid하고 continuous한 물 덩어리를 만들었습니다. Opus는 walls 근처에 더 큰 gaps를 남겼고, particles를 scene 주변에 흩뿌렸으며, fluid를 안정적으로 유지하는 데 어려움을 겪었습니다.
 
-Type: 데모 | Date: 2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -2006,7 +2203,7 @@ Fable은 이전 모델에는 없던 방식으로 judgment, taste, dimensionality
 
 Claude Code의 prompting에는 모델에게 그렇게 하라고 말하는 것이 없습니다. 그냥 성격의 일부입니다. 이전에 느껴보지 못한 "big model smell"이 정말 있습니다.
 
-Type: 데모 | Date: 2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -2028,7 +2225,7 @@ daily driver는 아니고, 이 모델을 meeting에 넣지는 않겠지만, serv
 
 Full take on YT: https://t.co/lvtwnPn6yR
 
-Type: 데모 | Date: 2026-06-09
+Type: Demo | Date: 2026-06-09
 
 ---
 
@@ -2049,7 +2246,7 @@ Fable 5가 이미 이 task에서 대부분의 다른 모델보다 훨씬 강한 
 
 benchmark와 product 모두의 early testing에서 매우 impressed했습니다.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -2078,7 +2275,7 @@ HealthAdminBench:
 
 전반적으로 이 모델은 healthcare benchmarks에서 꽤 잘 수행하는 것으로 보입니다. MedCalc-Bench와 MedXpertQA 같은 추가 benchmark scores, 특히 포화되지 않은 hard medical MCQA benchmark도 있으면 좋겠습니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2101,7 +2298,7 @@ SWE-Bench Pro, FrontierCode, GDPval, RuneScape 등 reasoning-intensive and long-
 
 frontier models 전체 결과 목록은 ParseBench를 확인하세요: https://t.co/PWczfhp0OX
 
-Type: 평가 | Date: 2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -2125,7 +2322,7 @@ FrontierCode Diamond에서는 더 크게 앞섭니다:
 
 참고로 Opus의 2x만큼 사용하므로 주의하세요. 이 정도로 좋다면 usage가 쉽게 고갈될 수 있기 때문에 $500 subscription을 도입할지도 모릅니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2161,7 +2358,7 @@ working software가 점점 수도꼭지에서 나오듯 만들어지면서 많�
 
 "Free your mind." 사람들이 만들 모든 것들이 정말 기대됩니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2186,7 +2383,7 @@ Day 0 Anthropic Fable 5 in ParseBench.
 
 하지만 sweep은 아닙니다. frontier models의 document understanding을 unlock하는 데에는 여전히 많은 alpha가 있습니다.
 
-Type: 평가 | Date: 2026-06-10
+Type: Evaluation | Date: 2026-06-10
 
 ---
 
@@ -2245,7 +2442,7 @@ Access:
 
 Jevons paradox가 적용됩니다: 소프트웨어가 수도꼭지 물처럼 나오기 시작하면 demand 자체가 커집니다. 이 모델이 그 변화를 이끌 수 있습니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2272,7 +2469,7 @@ FrontierCode result가 정말 놀랍습니다:
 
 Claude Fable 5는 coding agents, computer use, cybersecurity에서 major jump처럼 보입니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2291,7 +2488,7 @@ Claude Fable 5가 APEX-SWE에서 #1을 차지했습니다: overall Pass@1 65.5%.
 
 Observability는 우리가 측정한 모든 모델의 bottleneck이었습니다. Fable 5가 그것을 처음으로 깨뜨렸습니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2317,7 +2514,7 @@ chess, Go, speech, vision을 보면 매번 같은 이야기입니다. 처음에�
 
 이것이 AGI의 전체 premise입니다. math용 model, code용 model, law용 model을 따로 만들지 않습니다. compute와 함께 scale하고 모든 것을 배우는 single general model을 만듭니다.
 
-Type: 튜토리얼 | Date: 2026-06-09
+Type: Tutorial | Date: 2026-06-09
 
 ---
 
@@ -2344,7 +2541,7 @@ Aquinas는 temperance가 "takes the need of this life as the rule of the pleasur
 
 우리의 best guess는 이 vector를 더 밀어붙이는 tuning이 mean을 overshoot해, 모델이 overly cautious하거나 research, gathering resources, similar tasks에서 less assistive해질 위험이 있다는 것입니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
@@ -2365,205 +2562,205 @@ Test result:
 
 Claude Fable 5는 Haiku보다도 낮게 평가되는 Anthropic model이 될 수 있습니다.
 
-Type: 평가 | Date: 2026-06-09
+Type: Evaluation | Date: 2026-06-09
 
 ---
 
 <a id="case-61"></a>
-### Case 61: [Fable Prompting Verification Guide](https://x.com/aashatwt/status/2064973740354818074) (by [@aashatwt](https://x.com/aashatwt))
+### Case 61: [Fable 프롬프트 설계와 검증 가이드](https://x.com/aashatwt/status/2064973740354818074) (by [@aashatwt](https://x.com/aashatwt))
 
-**Use this prompting guide to shift from longer prompt hacks toward goal, context, constraints, tools, and verification loops.**
+**긴 프롬프트 요령 대신 목표, 맥락, 제약, 도구, 검증 루프를 정리하는 데 이 가이드를 활용하세요.**
 
-Treat Fable 5 prompting as context and environment design rather than a long list of step-by-step instructions. The post summarizes a practical pattern: provide a clear goal, relevant context, constraints, tool access, and a way to verify success. It also argues that verification, evaluation, and feedback matter more than micromanaging the model's reasoning.
+Fable 5 프롬프트를 긴 단계별 지시 목록보다 맥락과 실행 환경을 설계하는 작업으로 보세요. 게시물은 명확한 목표, 관련 맥락, 제약, 도구 접근 권한, 성공을 확인할 방법을 제공하는 실용적인 방식을 정리합니다. 모델의 추론을 세세하게 관리하기보다 검증, 평가, 피드백이 더 중요하다고도 주장합니다.
 
-Type: 튜토리얼 | Date: 2026-06-11
+Type: Tutorial | Date: 2026-06-11
 
 ---
 
 <a id="case-62"></a>
-### Case 62: [Istanbul Platform Game Reference Build](https://x.com/ozansihay/status/2064973170780545535) (by [@ozansihay](https://x.com/ozansihay))
+### Case 62: [참조 이미지로 만드는 이스탄불 플랫폼 게임](https://x.com/ozansihay/status/2064973170780545535) (by [@ozansihay](https://x.com/ozansihay))
 
-**Use a reference sprite sheet plus one conversion instruction to test Fable 5 on a playable platform game.**
+**참조용 스프라이트 시트와 변환 지시 하나를 주고 Fable 5가 플레이 가능한 플랫폼 게임을 만드는지 시험하세요.**
 
-The creator first generated a retro Istanbul platform-game sprite sheet with GPT Image 2, then gave that reference image to Claude Fable 5 High and asked it to turn the image into a game. The reported result was produced in a single pass.
+제작자는 먼저 GPT Image 2로 복고풍 이스탄불 플랫폼 게임의 스프라이트 시트를 생성한 뒤, 그 참조 이미지를 Claude Fable 5 High에 주고 게임으로 바꿔 달라고 요청했습니다. 게시물에 따르면 결과물은 한 번의 실행으로 만들어졌습니다.
 
-Type: 데모 | Date: 2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
 <a id="case-63"></a>
-### Case 63: [Business 3D City Dashboard](https://x.com/noisyb0y1/status/2064970594118967756) (by [@noisyb0y1](https://x.com/noisyb0y1))
+### Case 63: [업무를 시각화하는 3D 도시 대시보드](https://x.com/noisyb0y1/status/2064970594118967756) (by [@noisyb0y1](https://x.com/noisyb0y1))
 
-**Use Fable 5 to turn a business workflow into a live 3D city dashboard concept.**
+**Fable 5로 업무 흐름을 움직이는 3D 도시 대시보드 구상으로 바꿔 보세요.**
 
-The post describes a one-prompt business visualization where warehouses, packing, drones, orders, departments, customers, and AI assistants become a live 3D city. It frames the output as a client-facing alternative to static slides, with operational figures such as 42 deliveries, 12-minute average time, and $651 in revenue shown on screen.
+게시물은 프롬프트 하나로 창고, 포장, 드론, 주문, 부서, 고객, AI 비서를 움직이는 3D 도시로 표현한 업무 시각화를 소개합니다. 정적인 슬라이드를 대신할 고객용 표현으로 제시되며, 화면에는 배송 42건, 평균 12분, 매출 651달러 같은 업무 수치가 표시됩니다.
 
-Type: 데모 | Date: 2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
 <a id="case-64"></a>
-### Case 64: [Three.js Hole Game One-Shot](https://x.com/thebuggeddev/status/2064968106104275008) (by [@thebuggeddev](https://x.com/thebuggeddev))
+### Case 64: [Three.js 구멍 게임을 한 번에 제작](https://x.com/thebuggeddev/status/2064968106104275008) (by [@thebuggeddev](https://x.com/thebuggeddev))
 
-**Use Fable 5 to one-shot a 3D browser game prototype in Three.js.**
+**Fable 5로 Three.js 기반 3D 브라우저 게임 시제품을 한 번에 만들어 보세요.**
 
-The creator says Fable 5 built an entire 3D HOLE IT-style game using Three.js in one shot. This is a lightweight but concrete game-generation demo for testing whether the model can produce a playable 3D interaction from a compact request.
+제작자에 따르면 Fable 5는 Three.js로 3D HOLE IT 스타일 게임 전체를 한 번에 구현했습니다. 간단한 요청에서 플레이 가능한 3D 상호작용을 만들 수 있는지 살펴볼 수 있는 짧고 구체적인 게임 제작 데모입니다.
 
-Type: 데모 | Date: 2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
 <a id="case-65"></a>
-### Case 65: [DeepSWE Score Comparison](https://x.com/AiBattle_/status/2064964335957348462) (by [@AiBattle_](https://x.com/AiBattle_))
+### Case 65: [DeepSWE 점수 비교](https://x.com/AiBattle_/status/2064964335957348462) (by [@AiBattle_](https://x.com/AiBattle_))
 
-**Use this DeepSWE note to compare Fable 5 xHigh with GPT-5.5 xHigh on software-engineering benchmark performance.**
+**이 DeepSWE 게시물을 출발점으로 소프트웨어 개발 벤치마크에서 Fable 5 xHigh와 GPT-5.5 xHigh를 비교하세요.**
 
-The post reports Claude Fable 5 xHigh scoring 70% on DeepSWE, matching GPT-5.5 xHigh, and points to Theo's recent video as the source context. Treat this as a benchmark lead that should be checked against the underlying video before making stronger claims.
+게시물은 Claude Fable 5 xHigh가 DeepSWE에서 70%를 기록해 GPT-5.5 xHigh와 동률이었다고 보고하며, 배경 자료로 Theo의 최근 영상을 제시합니다. 더 강한 결론을 내리기 전에 원본 영상으로 확인해야 할 벤치마크 단서로 다루세요.
 
-Type: 평가 | Date: 2026-06-11
+Type: Evaluation | Date: 2026-06-11
 
 ---
 
 <a id="case-66"></a>
-### Case 66: [Repository Cost Comparison](https://x.com/Pilgrim6938/status/2064946766278210038) (by [@Pilgrim6938](https://x.com/Pilgrim6938))
+### Case 66: [저장소 분석 비용 비교](https://x.com/Pilgrim6938/status/2064946766278210038) (by [@Pilgrim6938](https://x.com/Pilgrim6938))
 
-**Use this repository-analysis comparison to judge token price against human rework cost.**
+**저장소 분석 비교를 통해 토큰 단가와 사람이 다시 작업하는 비용을 함께 판단하세요.**
 
-The post compares Claude Fable 5, Opus 4.8, GPT-5.5, and Gemini 3.1 Pro on the same task: analyzing a roughly 90,000-line repository, locating a cache invalidation issue, and proposing a full fix plan. The author argues that raw token price and actual task cost diverge once developer correction time is counted, and recommends using Fable 5 selectively for complex refactors, cross-module migrations, and long-chain agent work.
+게시물은 약 90,000줄의 저장소를 분석하고 캐시 무효화 문제를 찾아 전체 수정 계획을 제안하는 동일한 과제로 Claude Fable 5, Opus 4.8, GPT-5.5, Gemini 3.1 Pro를 비교합니다. 저자는 개발자의 수정 시간을 포함하면 토큰 단가와 실제 작업 비용이 달라진다고 주장하며, 복잡한 리팩터링, 모듈 간 마이그레이션, 긴 단계의 에이전트 작업에 Fable 5를 선별적으로 사용할 것을 권합니다.
 
-Type: 평가 | Date: 2026-06-11
+Type: Evaluation | Date: 2026-06-11
 
 ---
 
 <a id="case-67"></a>
-### Case 67: [Super Mario Game Token Cost](https://x.com/pankajkumar_dev/status/2064941888990593416) (by [@pankajkumar_dev](https://x.com/pankajkumar_dev))
+### Case 67: [슈퍼 마리오 스타일 게임의 토큰 비용](https://x.com/pankajkumar_dev/status/2064941888990593416) (by [@pankajkumar_dev](https://x.com/pankajkumar_dev))
 
-**Use this single-shot game build to estimate Fable 5 output quality and token consumption.**
+**한 번에 만든 게임으로 Fable 5의 출력 품질과 토큰 소모량을 평가하세요.**
 
-The creator asked Claude Fable 5 to build a Super Mario Nintendo-style game. The post reports that the task used around 2 million tokens and produced a strong single-shot result, making it useful for judging both game-building quality and cost.
+제작자는 Claude Fable 5에 닌텐도 슈퍼 마리오 스타일 게임을 만들어 달라고 요청했습니다. 게시물은 약 200만 토큰을 사용해 한 번의 실행으로 좋은 결과를 얻었다고 보고하며, 게임 제작 품질과 비용을 함께 판단하는 자료가 됩니다.
 
-Type: 데모 | Date: 2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
 <a id="case-68"></a>
-### Case 68: [Claude Code Fallback Setting](https://x.com/oikon48/status/2064937790010503347) (by [@oikon48](https://x.com/oikon48))
+### Case 68: [Claude Code 대체 모델 전환 설정](https://x.com/oikon48/status/2064937790010503347) (by [@oikon48](https://x.com/oikon48))
 
-**Use this case to understand the Claude Code setting for switching models when a Fable 5 message is flagged.**
+**Fable 5 메시지가 감지됐을 때 모델을 전환하는 Claude Code 설정을 확인하세요.**
 
-The post identifies a Claude Code `/config` setting named "Switch models when a message is flagged." It describes how Fable 5 can fall back to an Opus model for flagged areas such as offensive cybersecurity techniques, biology/life-science experimental methods, molecular mechanisms, or requests to extract model thinking processes.
+게시물은 Claude Code의 `/config`에 있는 "Switch models when a message is flagged" 설정을 소개합니다. 공격적인 사이버 보안 기법, 생물학·생명과학 실험 방법, 분자 기전, 모델의 사고 과정을 추출하는 요청 같은 영역에서 메시지가 감지되면 Fable 5에서 Opus 모델로 전환할 수 있다고 설명합니다.
 
-Type: 통합 | Date: 2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
 <a id="case-69"></a>
-### Case 69: [Namma Metro Simulator Build](https://x.com/anilbpai/status/2064927784833790091) (by [@anilbpai](https://x.com/anilbpai))
+### Case 69: [Namma Metro 시뮬레이터 제작](https://x.com/anilbpai/status/2064927784833790091) (by [@anilbpai](https://x.com/anilbpai))
 
-**Use this demo as a compact example of vibe-coding a public-transit simulator with Fable 5.**
+**Fable 5로 대중교통 시뮬레이터를 만드는 간단한 바이브 코딩 사례로 살펴보세요.**
 
-The creator reports building a Namma Metro simulator while riding the Bengaluru Metro, using Claude Fable 5 as the coding partner. The post is brief, but it links to a visual demo and shows Fable 5 applied to a location-specific simulation idea.
+제작자는 벵갈루루 지하철을 타면서 Claude Fable 5를 코딩 파트너로 사용해 Namma Metro 시뮬레이터를 만들었다고 보고합니다. 짧은 게시물이지만 영상 데모에 연결되며, 지역 특화 시뮬레이션 아이디어에 Fable 5를 적용한 사례를 보여 줍니다.
 
-Type: 데모 | Date: 2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
 <a id="case-70"></a>
-### Case 70: [Dusk Drive One-Prompt Game](https://x.com/VincentLogic/status/2064921358359011684) (by [@VincentLogic](https://x.com/VincentLogic))
+### Case 70: [프롬프트 하나로 만든 Dusk Drive](https://x.com/VincentLogic/status/2064921358359011684) (by [@VincentLogic](https://x.com/VincentLogic))
 
-**Use this one-prompt driving-game case to evaluate Fable 5 on low-poly game prototyping without human edits.**
+**사람의 수정 없이 로우 폴리 게임을 만드는 작업에서 Fable 5를 평가하세요.**
 
-The post describes Claude Fable 5 creating a complete driving game, Dusk Drive, from one prompt. The creator highlights the low-poly visual style, aurora snow drifting scene, and the claim that there was zero human editing between idea and playable version.
+게시물은 Claude Fable 5가 프롬프트 하나로 완성된 드라이빙 게임 Dusk Drive를 만들었다고 설명합니다. 제작자는 로우 폴리 그래픽, 오로라가 있는 눈밭 드리프트 장면, 아이디어에서 플레이 가능한 버전까지 사람이 전혀 수정하지 않았다는 점을 강조합니다.
 
-Type: 데모 | Date: 2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
 <a id="case-71"></a>
-### Case 71: [APEX-Agents Pass@1 Ranking](https://x.com/GratomicAi/status/2064970797978911102) (by [@GratomicAi](https://x.com/GratomicAi))
+### Case 71: [APEX-Agents Pass@1 순위](https://x.com/GratomicAi/status/2064970797978911102) (by [@GratomicAi](https://x.com/GratomicAi))
 
-**Use this APEX-Agents result to compare Fable 5 Max on multi-step autonomous tasks.**
+**APEX-Agents 결과를 통해 여러 단계의 자율 작업에서 Fable 5 Max를 비교하세요.**
 
-The post reports Fable 5 Max placing second on the APEX-Agents leaderboard with 45% Pass@1, behind Gemini 3.5 Flash and above Opus. It describes APEX-Agents as a benchmark for how well AI can independently perform complex multi-step tasks.
+게시물은 Fable 5 Max가 APEX-Agents 순위에서 Pass@1 45%를 기록해 Gemini 3.5 Flash에 이어 2위, Opus보다 높은 순위에 올랐다고 보고합니다. APEX-Agents는 AI가 복잡한 다단계 작업을 얼마나 독립적으로 수행하는지 평가하는 벤치마크라고 설명합니다.
 
-Type: 평가 | Date: 2026-06-11
+Type: Evaluation | Date: 2026-06-11
 
 ---
 
 <a id="case-72"></a>
-### Case 72: [Claude Model Selection Playbook](https://x.com/charliejhills/status/2064957428211536212) (by [@charliejhills](https://x.com/charliejhills))
+### Case 72: [Claude 모델 선택 가이드](https://x.com/charliejhills/status/2064957428211536212) (by [@charliejhills](https://x.com/charliejhills))
 
-**Use this model-selection playbook to reserve Fable 5 for the hardest Claude Code jobs.**
+**Claude Code의 가장 어려운 작업에 Fable 5를 남겨 두는 모델 선택 전략을 검토하세요.**
 
-The post compares Haiku 4.5, Sonnet 4.6, Opus 4.8, and Fable 5 across model effort and limit usage. Its practical advice is to run Sonnet for everyday work, switch to Opus for harder problems, and save Fable 5 for the toughest Claude Code tasks where planning, building, and testing depth matter.
+게시물은 모델의 추론 강도와 사용 한도 소모를 기준으로 Haiku 4.5, Sonnet 4.6, Opus 4.8, Fable 5를 비교합니다. 일상 작업에는 Sonnet을 쓰고, 더 어려운 문제에는 Opus로 전환하며, 계획·구현·테스트의 깊이가 중요한 Claude Code의 가장 까다로운 작업에 Fable 5를 아끼라는 실용적인 조언입니다.
 
-Type: 튜토리얼 | Date: 2026-06-11
+Type: Tutorial | Date: 2026-06-11
 
 ---
 
 <a id="case-73"></a>
-### Case 73: [HermesWorld Automated Agent Loop](https://x.com/outsource_/status/2064954350187778366) (by [@outsource_](https://x.com/outsource_))
+### Case 73: [HermesWorld 자동 에이전트 루프](https://x.com/outsource_/status/2064954350187778366) (by [@outsource_](https://x.com/outsource_))
 
-**Use this case to study a hands-free Fable 5 loop that builds, tests, plays, and smoke-tests over days.**
+**며칠 동안 구현, 테스트, 플레이, 기본 동작 확인을 이어가는 수동 조작 없는 Fable 5 루프를 살펴보세요.**
 
-The creator describes using Fable 5 to build HermesWorld v2 through a fully automated loop. The agent reportedly runs for days, builds features, tests them, plays through the result, and smoke-tests everything while continuing toward completion.
+제작자는 완전 자동 루프로 Fable 5를 사용해 HermesWorld v2를 만드는 방법을 설명합니다. 보고에 따르면 에이전트는 며칠 동안 실행되며 기능 구현, 테스트, 결과물 플레이, 전체 기본 동작 확인을 수행하면서 완성을 향해 계속 작업합니다.
 
-Type: 통합 | Date: 2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
 <a id="case-74"></a>
-### Case 74: [McKinsey-Style Report Prompt Test](https://x.com/smtgpt/status/2064953210335588758) (by [@smtgpt](https://x.com/smtgpt))
+### Case 74: [McKinsey 스타일 보고서 프롬프트 검증](https://x.com/smtgpt/status/2064953210335588758) (by [@smtgpt](https://x.com/smtgpt))
 
-**Use this document-generation prompt to evaluate consulting-report structure, charts, narrative, and risk analysis.**
+**문서 생성 프롬프트로 컨설팅 보고서의 구성, 차트, 논지, 위험 분석을 평가하세요.**
 
-The creator gave Fable 5 a prompt asking for a McKinsey-style detailed report on Bitcoin as an asset class and blockchain technology, with charts and visuals as needed. The reported output was a 19-page document with data, charts, an investment thesis, and risk analysis; the critique notes strong structure but room for crisper visuals and tighter explanations.
+제작자는 Fable 5에 필요한 차트와 시각 자료를 포함해 자산군으로서의 Bitcoin과 블록체인 기술을 다루는 McKinsey 스타일의 상세 보고서를 요청했습니다. 보고된 결과물은 데이터, 차트, 투자 논거, 위험 분석을 담은 19쪽 문서였습니다. 평가는 구성이 좋지만 시각 자료의 명료함과 설명의 간결함에는 개선 여지가 있다고 지적합니다.
 
-Type: 튜토리얼 | Date: 2026-06-11
+Type: Tutorial | Date: 2026-06-11
 
 ---
 
 <a id="case-75"></a>
-### Case 75: [Visible Safeguards Rollout](https://x.com/ClaudeDevs/status/2064949876463645026) (by [@ClaudeDevs](https://x.com/ClaudeDevs))
+### Case 75: [안전장치 동작의 가시화](https://x.com/ClaudeDevs/status/2064949876463645026) (by [@ClaudeDevs](https://x.com/ClaudeDevs))
 
-**Use this official note to understand Fable 5 safeguard visibility, API refusal reasons, and Opus fallback behavior.**
+**공식 게시물에서 Fable 5 안전장치 표시, API 거부 사유, Opus 전환 동작을 확인하세요.**
 
-ClaudeDevs announced changes making Fable 5 safeguards for frontier LLM development visible. Flagged requests will visibly fall back to Opus 4.8, and API flagged requests are expected to return a refusal reason. The post also explains why invisible safeguards shipped first and why Anthropic now describes that as the wrong tradeoff.
+ClaudeDevs는 프런티어 LLM 개발에 관한 Fable 5 안전장치를 사용자에게 보이게 하는 변경을 발표했습니다. 감지된 요청은 Opus 4.8로 전환되는 과정이 표시되며, API에서는 거부 사유를 반환할 예정이라고 설명합니다. 게시물은 처음에 안전장치를 보이지 않게 제공한 이유와 Anthropic이 현재 그 선택을 잘못된 절충으로 보는 이유도 설명합니다.
 
-Type: 통합 | Date: 2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
 <a id="case-76"></a>
-### Case 76: [Claude Code Model Matching Fix](https://x.com/ClaudeCodeLog/status/2064948584907153576) (by [@ClaudeCodeLog](https://x.com/ClaudeCodeLog))
+### Case 76: [Claude Code 모델 이름 매칭 수정](https://x.com/ClaudeCodeLog/status/2064948584907153576) (by [@ClaudeCodeLog](https://x.com/ClaudeCodeLog))
 
-**Use this Claude Code changelog note to avoid Fable 5 model-name and context matching issues.**
+**Claude Code 변경 기록을 참고해 Fable 5 모델 이름과 컨텍스트 매칭 문제를 피하세요.**
 
-Claude Code 2.1.173 includes a fix that strips the `[1m]` suffix from Fable 5 model names to prevent default 1M context from breaking model matching. The same release also suppresses a spurious Windows sandbox dependency warning and clarifies grep help output modes.
+Claude Code 2.1.173에는 기본 1M 컨텍스트가 모델 매칭을 방해하지 않도록 Fable 5 모델 이름에서 `[1m]` 접미사를 제거하는 수정이 포함됩니다. 같은 릴리스에서는 Windows 샌드박스의 불필요한 종속성 경고를 억제하고 grep 도움말의 출력 모드도 명확히 했습니다.
 
-Type: 통합 | Date: 2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
 <a id="case-77"></a>
-### Case 77: [Three Web Apps in Claude Code](https://x.com/0x3b33/status/2064948399300825439) (by [@0x3b33](https://x.com/0x3b33))
+### Case 77: [Claude Code로 웹 앱 세 개 제작](https://x.com/0x3b33/status/2064948399300825439) (by [@0x3b33](https://x.com/0x3b33))
 
-**Use this beginner coding demo to inspect Fable 5 inside Claude Code across multiple generated web apps.**
+**여러 웹 앱을 생성한 초보자의 코딩 데모에서 Claude Code 안의 Fable 5 활용을 확인하세요.**
 
-The creator says they had no coding background and used Claude Code with Fable 5 to build three functioning web apps in 30 minutes, exposed locally on ports 3000, 3001, and 3002. Treat this as a lightweight beginner workflow demo rather than a benchmark.
+제작자는 코딩 경험 없이 Claude Code와 Fable 5로 30분 만에 작동하는 웹 앱 세 개를 만들었다고 말합니다. 앱은 로컬 포트 3000, 3001, 3002에 공개됐습니다. 벤치마크보다 간단한 초보자 워크플로 데모로 다루세요.
 
-Type: 데모 | Date: 2026-06-11
+Type: Demo | Date: 2026-06-11
 
 ---
 
 <a id="case-78"></a>
-### Case 78: [Rilable Open Source App Builder](https://x.com/rileybrown/status/2064931283403178354) (by [@rileybrown](https://x.com/rileybrown))
+### Case 78: [오픈소스 앱 빌더 Rilable](https://x.com/rileybrown/status/2064931283403178354) (by [@rileybrown](https://x.com/rileybrown))
 
-**Use this open-source app-builder case to study Fable 5 across iOS, web apps, sandboxes, and API-token cost.**
+**iOS, 웹 앱, 샌드박스, API 토큰 비용을 아우르는 Fable 5 활용을 살펴보세요.**
 
-The creator open sourced Rilable, an iOS app that builds web apps and iOS apps. The post says it was built with Fable 5 in 10 prompts, cost about $210 in API tokens, uses Claude models for app generation, spins up sandboxes through Daytona, uses Convex for the database, Vercel AI Gateway for AI features, and a Chorus agent iOS skill for iOS apps.
+제작자는 웹 앱과 iOS 앱을 만드는 iOS 앱 Rilable을 오픈소스로 공개했습니다. 게시물에 따르면 Fable 5에 프롬프트 10개를 입력해 만들었고 API 토큰 비용은 약 210달러였습니다. 앱 생성에 Claude 모델, 샌드박스 실행에 Daytona, 데이터베이스에 Convex, AI 기능에 Vercel AI Gateway, iOS 앱에는 Chorus 에이전트 iOS 스킬을 사용합니다.
 
-Type: 통합 | Date: 2026-06-11
+Type: Integration | Date: 2026-06-11
 
 ---
 
@@ -2677,17 +2874,2520 @@ Type: Integration | Date: 2026-06-13
 
 ---
 
+
+<a id="fable-5-5-community-demos"></a>
+## 🆕 Fable 5.5 커뮤니티 데모
+
+
+
+<a id="case-89"></a>
+### Case 89: [코드로 생성한 소리 있는 여우 애니메이션](https://x.com/chetaslua/status/2117224839010459987) (제작자 [@chetaslua](https://x.com/chetaslua))
+
+**장면별 제작 지시로 자체 완결형 HTML 애니메이션과 음향 설계를 지정하세요.**
+
+제작자는 여우와 종이 새가 등장하는 66초 단편의 프레임과 음향을 Python으로 생성해 약 2시간 40분 만에 HTML 파일 하나로 완성했다고 보고합니다. 함께 공개한 프롬프트는 장면, 독창적인 그림, 음향, 프레임 점검을 지정합니다. 게시물에는 완성한 단편과 함께 상세한 제작 지시 및 제작 중 대화의 스크린샷이 첨부되어 있습니다.
+
+[제작자의 전체 프롬프트](https://x.com/chetaslua/status/2117224843661980093)
+
+[![코드로 생성한 소리 있는 여우 애니메이션](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-0-poster-2ee16a14af881cec.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-0-video-8e1ac3acc5e7cb57.mp4)
+
+![코드로 생성한 소리 있는 여우 애니메이션](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-1-image-4bee9ad0898820c1.jpg)
+
+![코드로 생성한 소리 있는 여우 애니메이션](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-89-2-image-b4b62017a03ec393.jpg)
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-90"></a>
+### Case 90: [자유로운 창작 지시에서 만든 애니메이션](https://x.com/notjazii/status/2117221957104239010) (제작자 [@notjazii](https://x.com/notjazii))
+
+**자유로운 애니메이션 제작 지시와 상세한 스토리보드에서 코딩 모델이 만드는 결과를 비교하세요.**
+
+저자는 애니메이션을 공유하며 폭넓은 창작 요청에서 약 한 시간 동안 외부 자산 없이 코드로 제작했다고 보고합니다. 게시물은 결과를 자유도 높은 창작 코딩의 실례로 소개합니다.
+
+[![자유로운 창작 지시에서 만든 애니메이션](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-90-0-poster-08a293539c7b465c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-90-0-video-24243aa4947eafd2.mp4)
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-91"></a>
+### Case 91: [애니메이션이 있는 건설회사 웹사이트](https://x.com/exploraX_/status/2117176904306335864) (제작자 [@exploraX_](https://x.com/exploraX_))
+
+**건설회사 웹사이트 제작 지시로 애니메이션 3D 표현과 페이지 구성을 평가하세요.**
+
+제작자는 건설회사 제작 지시에 맞춰 만든 애니메이션 3D 웹사이트를 공유하고 결과 녹화를 첨부합니다.
+
+[![애니메이션이 있는 건설회사 웹사이트](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-91-0-poster-c835928f570ad718.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-91-0-video-2b260d32fccecca6.mp4)
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-92"></a>
+### Case 92: [Three.js 자동차 프레젠테이션](https://x.com/chetaslua/status/2116975056014430419) (제작자 [@chetaslua](https://x.com/chetaslua))
+
+**자동차 장면으로 3D 구도, 재질, 카메라 표현을 간단히 점검하세요.**
+
+제작자는 Three.js 자동차 프레젠테이션을 공유합니다. 녹화는 장면과 그 시각적 표현을 평가할 수 있는 간단한 참고 자료입니다.
+
+[![Three.js 자동차 프레젠테이션](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-92-0-poster-7a9405423aed1224.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-92-0-video-41812e3bdae683b0.mp4)
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-93"></a>
+### Case 93: [Minecraft 스타일 브라우저 게임 데모](https://x.com/notjazii/status/2116919129974411584) (제작자 [@notjazii](https://x.com/notjazii))
+
+**생성된 브라우저 게임을 평가할 때 플레이 녹화와 제작자의 플레이 링크를 함께 확인하세요.**
+
+저자는 Minecraft 스타일 게임의 녹화와 플레이 링크를 공유하며 약 한두 시간 걸린 원샷 제작이라고 설명합니다. 게시물은 독자가 탐색할 수 있도록 녹화된 결과와 플레이 링크를 함께 제공합니다.
+
+[![Minecraft 스타일 브라우저 게임 데모](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-93-0-poster-f432ab7cc397d51c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-93-0-video-903a5b83acef99f5.mp4)
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-94"></a>
+### Case 94: [Three.js 펠리컨 자전거 애니메이션](https://x.com/chetaslua/status/2116882694026269148) (제작자 [@chetaslua](https://x.com/chetaslua))
+
+**자전거 장면에서 캐릭터 움직임의 연동, 자전거 형태, 주변 환경의 세부 표현을 점검하세요.**
+
+제작자는 자전거를 타는 펠리컨의 사실적인 Three.js 애니메이션을 공유하며 원샷 결과라고 설명합니다. 영상은 캐릭터 움직임, 자전거 구조, 주변 장면을 살펴볼 수 있는 참고 자료입니다.
+
+[![Three.js 펠리컨 자전거 애니메이션](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-94-0-poster-0b18e5a159c3ec96.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-94-0-video-446b1cb698f14157.mp4)
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-95"></a>
+### Case 95: [정확한 프롬프트가 있는 펠리컨 자전거 SVG](https://x.com/marmaduke091/status/2116233349391962392) (제작자 [@marmaduke091](https://x.com/marmaduke091))
+
+**제작자의 짧은 SVG 프롬프트를 재사용해 같은 입력에서 형태와 세부 표현을 비교하세요.**
+
+저자는 자전거를 타는 펠리컨의 렌더링 이미지와 아래에 원문 그대로 옮긴 짧은 SVG 제작 요청을 함께 게시합니다.
+
+```
+Generate an SVG of a Pelican riding a bicycle as nicely done as you can
+```
+
+![정확한 프롬프트가 있는 펠리컨 자전거 SVG](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-95-0-image-92e96914a3877a42.jpg)
+
+[애니메이션 버전 · @marmaduke091](https://x.com/ItsmeAjayKV/status/2116461400931565791)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c325fad08c0af80d4131a7d3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fb211776edb69bc12623cdcf.jpg" alt="정확한 프롬프트가 있는 펠리컨 자전거 SVG" width="760"></a>
+
+Type: Demo | Date: 2026-10-30
+
+---
+
+<a id="case-96"></a>
+### Case 96: [질주하는 얼룩말 애니메이션 예시](https://x.com/AI_Screening/status/2115845754468356465) (제작자 [@AI_Screening](https://x.com/AI_Screening))
+
+**질주하는 동물 영상으로 보행 패턴의 일관성과 움직임의 연속성을 점검하세요.**
+
+저자는 얼룩말 질주 과제의 결과 중 직접 가장 좋다고 고른 출력을 공유합니다. 영상은 독자가 살펴볼 수 있는 구체적인 움직임 샘플을 제공합니다.
+
+[![질주하는 얼룩말 애니메이션 예시](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-96-0-poster-34e8bfc30f0396ce.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-96-0-video-506044b0159933fe.mp4)
+
+Type: Demo | Date: 2026-10-29
+
+---
+
+<a id="case-97"></a>
+### Case 97: [주문은 사람이 실행하는 TradingView 지표](https://x.com/waveking1314/status/2114572023204806669) (제작자 [@waveking1314](https://x.com/waveking1314))
+
+**진입 후보와 짧은 설명을 표시하는 지표를 평가할 때 주문 실행은 수동으로 유지하세요.**
+
+제작자는 Claude Fable 5.5로 진입 후보를 표시하고 짧은 설명을 덧붙이는 TradingView 지표를 작성했으며, 주문 여부는 사용자가 결정한다고 보고합니다. 게시물에는 녹화가 포함되어 있고 지표는 나중에 공유하겠다고 설명합니다.
+
+[![주문은 사람이 실행하는 TradingView 지표](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-97-0-poster-4e76b2a3f1cc0732.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/2026-11-03/case-97-0-video-e16da93b5ca229bd.mp4)
+
+Type: Demo | Date: 2026-10-26
+
+---
+
+
+<a id="case-98"></a>
+### Case 98: [점 하나에서 펼쳐진 짧은 애니메이션](https://x.com/cherry_mx_reds/status/2105825930799432073) (제작자 [@cherry_mx_reds](https://x.com/cherry_mx_reds))
+
+**최소한의 그림 요청으로 모델이 시각적 이야기를 확장하는 방식을 살핀다.**
+
+작성자는 점을 그려 달라고 요청한 뒤 완성된 짧은 애니메이션을 공유했다. 첨부 영상은 열린 시각적 요청이 서사로 발전하는 구체적인 사례다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/883ec78260a59a6a789794ff.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/57df1160649eeb113f5b0904.jpg" alt="점 하나에서 펼쳐진 짧은 애니메이션" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-99"></a>
+### Case 99: [여러 화풍을 넘나드는 슈퍼맨](https://x.com/chetaslua/status/2105757136219504862) (제작자 [@chetaslua](https://x.com/chetaslua))
+
+**같은 인물로 서로 다른 애니메이션 화풍 사이의 연속성을 살핀다.**
+
+제작자는 여러 미술 양식으로 전환되는 연속적인 슈퍼맨 애니메이션을 공유했다. 달라지는 시각적 표현 자체가 이 창작의 핵심 결과다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9b17afbc69d86f83b02c7949.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bf9f9e0c1c18ec87d7827152.jpg" alt="여러 화풍을 넘나드는 슈퍼맨" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-100"></a>
+### Case 100: [음악이 있는 인류 발전 애니메이션](https://x.com/imjustnewatai/status/2106081142143168580) (제작자 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**애니메이션 해설을 기획할 때 역사 연표와 미래 장면을 함께 요청한다.**
+
+작성자는 하나의 프롬프트로 인류 발전과 향후 30년을 다룬 영화를 만들었다고 보고했다. 약 3분의 영상을 공유하며 기존 영상이나 스톡 음악 없이 독창적인 곡을 썼다고 설명한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7169c82d36a8545ae331d5a5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a0f7665a4f830fe5bf9cd3ff.jpg" alt="음악이 있는 인류 발전 애니메이션" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-101"></a>
+### Case 101: [Opus와 비교한 공개 소개 영상](https://x.com/mesmerlord/status/2105771088374288692) (제작자 [@mesmerlord](https://x.com/mesmerlord))
+
+**동일한 창작 지시에서 나온 완성된 소개 영상 후보를 비교한다.**
+
+작성자는 Anthropic 영상 참고 지시를 바탕으로 두 개의 소개 영상 후보를 공유했다. 숫자는 허구이며 Codex 이미지 생성도 선택 사항이라고 명시해, 사실적 벤치마크가 아닌 창작 광고로 다룬다.
+
+<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0b7fd47b61c0a91ac169327c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f22c970c5dd582d61fd25352.jpg" alt="Opus와 비교한 공개 소개 영상" width="760"></a></td><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3c5ab918ab29a2a394862ab1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/286e3a487e75019216170eaf.jpg" alt="Opus와 비교한 공개 소개 영상" width="760"></a></td></tr></table>
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-102"></a>
+### Case 102: [가사와 사건을 영상으로 연결하기](https://x.com/chetaslua/status/2105934928483701214) (제작자 [@chetaslua](https://x.com/chetaslua))
+
+**기존 노래의 가사와 특정 사건을 연결해 시각적 서사를 만든다.**
+
+제작자는 노래 가사와 Hugging Face 사건을 시각적으로 연결하도록 요청했다고 설명한다. 첨부 애니메이션에서 노래와 사건은 결합된 서사의 창작 입력이다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8eff1627c25675b6f6c415f2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6fbf41178e2a95f90936bb88.jpg" alt="가사와 사건을 영상으로 연결하기" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-103"></a>
+### Case 103: [떠 있는 풍경 속 복셀 캐릭터](https://x.com/blueemi99/status/2105804692811137242) (제작자 [@blueemi99](https://x.com/blueemi99))
+
+**복셀 캐릭터와 주변 풍경, 움직이는 세부 요소를 함께 살핀다.**
+
+작성자는 공중에 떠 있는 장면 속 자신의 복셀 캐릭터를 공유하며 세부 묘사와 움직임을 강조했다. 영상은 다른 실행 결과와 비교할 수 있는 복셀 디자인 사례다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e3760dd479675b0aad977523.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9c5cc28c6d3abec3c280aec8.jpg" alt="떠 있는 풍경 속 복셀 캐릭터" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-104"></a>
+### Case 104: [3D 루브 골드버그 장치](https://x.com/imjustnewatai/status/2105889407056109991) (제작자 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**연쇄 반응 장면을 먼저 지정한 뒤 정해진 길이의 시연 영상을 요청한다.**
+
+작성자는 복잡한 3D 루브 골드버그 장치를 짧은 프롬프트로 요청한 다음 1분짜리 영상을 요구했다. 첨부 영상은 완성된 연쇄 반응 시각화를 보여 준다.
+
+```
+Extremely complicated 3d rube goldberg machine, accurate physics, aaa gfx, vfx
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9a5645cdfbace3f1f003f338.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c38369dcab30a7a3b2592a2e.jpg" alt="3D 루브 골드버그 장치" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-105"></a>
+### Case 105: [소리와 움직임이 있는 3D 컨트롤러](https://x.com/notjazii/status/2106050222828998967) (제작자 [@notjazii](https://x.com/notjazii))
+
+**움직임, 소리, 버튼 동작을 결합해 컨트롤러 인터페이스를 평가한다.**
+
+제작자는 3D 컨트롤러 인터페이스를 공유하며 소리, 애니메이션, 햅틱을 추가했다고 보고했다. 소리가 켜진 녹화는 구체적인 인터페이스 시연을 제공한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a61bb2742df89100e4a9010e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d7d550662b97f41a709b4d58.jpg" alt="소리와 움직임이 있는 3D 컨트롤러" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-106"></a>
+### Case 106: [JavaScript로 선보인 만화 캐릭터](https://x.com/chetaslua/status/2105792187200147541) (제작자 [@chetaslua](https://x.com/chetaslua))
+
+**캐릭터 전시로 코드가 표현할 수 있는 세밀한 시각 요소를 탐색한다.**
+
+작성자는 한 번의 요청으로 Marvel과 DC 캐릭터의 JavaScript 전시를 만들었고, 모델이 세부 특징을 선택하고 영상을 편집했다고 설명한다. 게시물에 완성된 캐릭터 전시가 담겼다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c8c7e6a3c0721bb369db296a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/11921e058184a9deee4fad4a.jpg" alt="JavaScript로 선보인 만화 캐릭터" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-107"></a>
+### Case 107: [세계와 보스, 순위표를 갖춘 Updraft](https://x.com/EMostaque/status/2106065029850091943) (제작자 [@EMostaque](https://x.com/EMostaque))
+
+**게임 녹화에 플레이 링크와 명확한 기능 목록을 함께 붙인다.**
+
+작성자는 높은 추론 설정과 적은 프롬프트로 몇 시간 동안 만든 Updraft를 공유했다. 기능 목록에는 21개 세계, 3D 변형, 서로 다른 기믹의 보스 21개와 순위표가 포함된다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/2b473a43235402693cfddb67.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a7605d61a6999b7a5a75d298.jpg" alt="세계와 보스, 순위표를 갖춘 Updraft" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-108"></a>
+### Case 108: [샌프란시스코 지도를 달리는 게임](https://x.com/mindblown_ai/status/2106089461969019357) (제작자 [@mindblown_ai](https://x.com/mindblown_ai))
+
+**도시 운전 프로토타입으로 지도 탐색과 게임 목표를 살핀다.**
+
+게시자는 다른 사람이 만들었다는 샌프란시스코 운전 게임의 영상과 플레이 링크를 공유하고 Three.js를 기술 구성에 명시했다. 여기서의 표기는 게임 제작자가 아닌 출처 게시자를 가리킨다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a3daebcbd4ee15c6e00933f7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/62fa53fe2da2ef1d9df79d77.jpg" alt="샌프란시스코 지도를 달리는 게임" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-109"></a>
+### Case 109: [Seedance 액션 장면용 프롬프트 작성](https://x.com/Chengzilhy/status/2105850801663234374) (제작자 [@Chengzilhy](https://x.com/Chengzilhy))
+
+**여러 도구를 쓰는 액션 장면에서 지시문 작성과 영상 생성을 구분한다.**
+
+작성자는 확장된 격투 장면을 공유하며 프롬프트 작성은 Fable, 영상 생성은 Seedance 2.5가 맡았다고 설명했다. 언어 모델이 영상 생성 입력을 발전시키는 흐름이다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/948cf8988e420ba7f7644cc9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a777e08ece0bf5fa6b3dd76d.jpg" alt="Seedance 액션 장면용 프롬프트 작성" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-110"></a>
+### Case 110: [데스크톱 동료 도구의 소개 영상](https://x.com/ishuagra02/status/2106138602073641241) (제작자 [@ishuagra02](https://x.com/ishuagra02))
+
+**짧은 소개 영상으로 코딩 도구 확장 기능을 설명한다.**
+
+제작자는 Claude Code 모드인 clawdhouse를 시연하고 소개 영상을 Fable에 귀속했다. 마스코트 동료와 감정은 소개 대상 모드의 기능이며, 모드 개발을 Fable에 귀속한 것은 아니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d8252b98536b35b28d4a2f69.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7374241c39dab0c94f2557f2.jpg" alt="데스크톱 동료 도구의 소개 영상" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-111"></a>
+### Case 111: [짧은 요청으로 바뀌는 화풍](https://x.com/cherry_mx_reds/status/2105816670896009224) (제작자 [@cherry_mx_reds](https://x.com/cherry_mx_reds))
+
+**세부 창작 조건을 추가하기 전에 짧은 애니메이션 요청을 시험한다.**
+
+작성자는 멋진 애니메이션을 요청한 뒤 약 15분 후에 화풍이 바뀌는 결과를 받았다고 보고했다. 원문에는 최초의 짧은 요청이 그대로 인용되어 있다.
+
+```
+Hey Fable, please make a cool animation
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9426b9eb74bb3dbb3cecd1cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5c7a0f0a5754d4f20cfdfbe3.jpg" alt="짧은 요청으로 바뀌는 화풍" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-112"></a>
+### Case 112: [삼체 문제 시각화](https://x.com/zAdrielsan/status/2105822678519001360) (제작자 [@zAdrielsan](https://x.com/zAdrielsan))
+
+**궤도 시각화 지시에서 CPU 시뮬레이션과 GPU 렌더링을 구분한다.**
+
+작성자는 약 1,000줄의 Bend2로 삼체 장면을 만들고 CPU의 심플렉틱 물리 계산과 GPU 픽셀 렌더링을 사용했다고 보고했다. M5에서 60 FPS와 형식 증명도 언급했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/67dea524fc04155805ea5f62.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8d8cd2cee891511d37be2531.jpg" alt="삼체 문제 시각화" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-113"></a>
+### Case 113: [다양한 화풍의 애니메이션 갤러리](https://x.com/blueemi99/status/2105782154387189771) (제작자 [@blueemi99](https://x.com/blueemi99))
+
+**하나의 갤러리 안에서 여러 미술 양식을 비교한다.**
+
+작성자는 xhigh 설정으로 만든 애니메이션 갤러리를 공유했다. 여러 화풍을 한 작품에 모아 서로 다른 시각적 표현을 비교할 수 있다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/502971e471d8a4dd737c51a6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b2ad9b438a172b2ce1cd902b.jpg" alt="다양한 화풍의 애니메이션 갤러리" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-114"></a>
+### Case 114: [로봇 동료와 절차적 털 표현](https://x.com/KanaWorks_AI/status/2106717014245183517) (제작자 [@KanaWorks_AI](https://x.com/KanaWorks_AI))
+
+**모든 자산을 새로 만들었다고 보기보다 기존 애니메이션과 절차적 개선을 결합한다.**
+
+작성자는 기존 Unimate 로봇 개 애니메이션을 동료로 다듬고, 털 빗기와 궤적을 갖춘 가상 반려동물도 만들었다. Unreal Engine과 기존 로봇 애니메이션이 작업의 명시적 요소다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9804d2afa56aa33c8d671292.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/612fe23ba65cde8186f80ddf.jpg" alt="로봇 동료와 절차적 털 표현" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-115"></a>
+### Case 115: [수학을 주제로 한 모션 편집](https://x.com/TurboNexic/status/2106710792590835934) (제작자 [@TurboNexic](https://x.com/TurboNexic))
+
+**수학 모션 그래픽을 시각적 소통의 참고 사례로 사용한다.**
+
+게시자는 수학을 주제로 한 모션 편집을 공유했다. 세로 영상은 수학적 이미지를 애니메이션 디자인으로 제시하며, 풀이 과정을 담은 계산 시연은 아니다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/57d4f16b728eff5d5f94b073.jpg" alt="수학을 주제로 한 모션 편집" width="760">
+
+*원본 영상에서 보존한 프레임입니다.*
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-116"></a>
+### Case 116: [Your Woman 가사 영상](https://x.com/atomtanstudio/status/2106702854639743467) (제작자 [@atomtanstudio](https://x.com/atomtanstudio))
+
+**제공된 음원을 중심으로 가사를 움직이고 음악의 역할을 명확히 한다.**
+
+제작자는 White Town의 Your Woman 가사 영상을 공유했다. 기존 노래는 시각적 처리의 오디오 입력이며 모델이 작곡한 음악으로 주장하지 않는다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/88157c7612eb6c005275619c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d447b9a8d799f508738e89d4.jpg" alt="Your Woman 가사 영상" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-117"></a>
+### Case 117: [음악 영상을 JavaScript로 다시 그리기](https://x.com/abhinavflac/status/2106638839666373114) (제작자 [@abhinavflac](https://x.com/abhinavflac))
+
+**원본 영상 프레임을 코드 도형으로 추적해 음악 영상 표현을 재구성한다.**
+
+작성자는 Eminem의 Godzilla 영상 프레임을 평면 도형으로 옮긴 뒤 JavaScript로 다시 그리는 과정을 설명했다. 원본 영상과 음악은 완성 애니메이션의 입력이다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c9ac6106098d63ff3d7ce8d7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4b7d65e79fa8c8fa9aed2eda.jpg" alt="음악 영상을 JavaScript로 다시 그리기" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-118"></a>
+### Case 118: [중국 축구 애니메이션](https://x.com/esrhengwu/status/2106625966965760380) (제작자 [@esrhengwu](https://x.com/esrhengwu))
+
+**스포츠 주제를 애니메이션 서사 요청으로 전환한다.**
+
+작성자는 중국 축구 국가대표팀의 성장과 회복력을 창작 주제로 한 애니메이션을 공유했다. 녹화는 구체적인 스포츠 스토리텔링 사례다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d0e837b5c3551d3c3715337f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cd5e0537224d41a29e3e4d81.jpg" alt="중국 축구 애니메이션" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-119"></a>
+### Case 119: [휴대용 게임기 리토폴로지 전시](https://x.com/mickeysmith_jp/status/2106607349385630138) (제작자 [@mickeysmith_jp](https://x.com/mickeysmith_jp))
+
+**토폴로지를 논할 때 게임기 렌더와 와이어프레임을 비교한다.**
+
+게시자는 리토폴로지를 이야기하며 휴대용 게임기 이미지와 와이어프레임식 화면을 함께 공유했다. 편집 가능한 메시나 문서화된 작업 절차가 아닌 구체적인 모델링 전시다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ec1260c667d8139c4cfed70a.jpg" alt="휴대용 게임기 리토폴로지 전시" width="760">
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-120"></a>
+### Case 120: [Minecraft와 Pokémon의 결합](https://x.com/MozeTech/status/2106590326634983710) (제작자 [@MozeTech](https://x.com/MozeTech))
+
+**익숙한 두 게임의 기믹을 하나의 프로토타입 지시에 결합한다.**
+
+작성자는 Minecraft식 건축·제작과 Pokémon식 포획을 결합한 태초마을 프로토타입 및 데모 링크를 공유했다. 게시물은 이를 한 번에 생성한 실험으로 설명한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5ca78d7ae17e27f0c3728df6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/829a3e03f20c6f9f8c58cd5c.jpg" alt="Minecraft와 Pokémon의 결합" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-121"></a>
+### Case 121: [LLM 제작 과정을 설명하는 영상](https://x.com/imjustnewatai/status/2106546810793730419) (제작자 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**기술적 질문을 시각적 설명 요청으로 바꾼다.**
+
+작성자는 대규모 언어 모델을 어떻게 만드는지 질문하고 결과로 나온 해설 영상을 공유했다. 기술 주제를 애니메이션 장면으로 설명하는 구체적 사례다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6a944b8ff013c87884dd9e9f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1d36e53c6eaf410eed54236a.jpg" alt="LLM 제작 과정을 설명하는 영상" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-122"></a>
+### Case 122: [Altman 하이라이트 모션 편집](https://x.com/benchmark_lb900/status/2106539977404506303) (제작자 [@benchmark_lb900](https://x.com/benchmark_lb900))
+
+**공인을 주제로 짧은 모션 편집의 속도감을 시험한다.**
+
+작성자는 Altman 하이라이트 영상을 공유하며 한 번에 생성한 결과라고 설명했다. 세로 녹화는 짧은 모션 편집의 참고 사례를 제공한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/af9cca794a0a4f1532bcc60d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d683cf1f4c3f2a25f5a3db76.jpg" alt="Altman 하이라이트 모션 편집" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-123"></a>
+### Case 123: [삼십육계의 첫 번째 계책 영상](https://x.com/jesselaunz/status/2106538284197548122) (제작자 [@jesselaunz](https://x.com/jesselaunz))
+
+**서사 애니메이션 작업과 함께 외부 음악 도구를 기록한다.**
+
+작성자는 삼십육계의 첫 번째 계책을 다룬 영화를 공유하며 단일 지시를 사용했다고 보고했다. 음악에 Suno V6를 명시해 오디오 도구의 별도 역할을 유지한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1adf495a8a97637ea487129d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bc271c45635d54a258cf5e29.jpg" alt="삼십육계의 첫 번째 계책 영상" width="760"></a>
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-124"></a>
+### Case 124: [게임 모델링, 리깅, 애니메이션](https://x.com/atomtanstudio/status/2106516974662713477) (제작자 [@atomtanstudio](https://x.com/atomtanstudio))
+
+**게임 장면 비교에서 캐릭터 제작과 리깅, 애니메이션을 함께 평가한다.**
+
+작성자는 캐릭터 모델링, 리깅, 애니메이션이 담긴 Depths of Despair 비교를 공유했다. 제작에 쓴 자산과 도구를 설명하고 시각적 결과를 함께 제시한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/543488d55fbd3bf31a838793.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/618e83e5f19e49a8cac14986.jpg" alt="게임 모델링, 리깅, 애니메이션" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-125"></a>
+### Case 125: [아동 사망을 다룬 무언의 영화](https://x.com/cocoloba_/status/2106512963414970458) (제작자 [@cocoloba_](https://x.com/cocoloba_))
+
+**대사 없는 장면으로 어려운 사회적 주제를 전달한다.**
+
+작성자는 숨 쉬는 영아와 어두워지는 아기 침대를 서사 이미지로 사용한 아동 사망 주제 영화를 공유했다. 사례는 시각적 이야기 작업을 기록하며 영화 속 인구 통계는 채택하지 않는다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c27b689422cbbf3a151c91b2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a25e576f265e01b5c543c3ab.jpg" alt="아동 사망을 다룬 무언의 영화" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-126"></a>
+### Case 126: [해당과정에서 에탄올까지의 SVG](https://x.com/olddonkeyblog/status/2106508425211330750) (제작자 [@olddonkeyblog](https://x.com/olddonkeyblog))
+
+**HTML에 애니메이션 SVG를 넣어 분자 과정을 설명한다.**
+
+작성자는 포도당 분자가 해당과정을 거쳐 에탄올을 형성하는 장면을 요청하고 HTML 속 SVG 애니메이션으로 제시했다. 첨부 녹화는 완성된 과학 시각화를 보여 준다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9c7ebfa65fa03ac5dddefbc7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/34dd4d34fa6d9a00374141d7.jpg" alt="해당과정에서 에탄올까지의 SVG" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-127"></a>
+### Case 127: [16대 Starship 동시 발사](https://x.com/olddonkeyblog/status/2106507742454403485) (제작자 [@olddonkeyblog](https://x.com/olddonkeyblog))
+
+**HTML·SVG 애니메이션에서 동기화된 발사 단계를 명시한다.**
+
+작성자는 16대 Starship의 동시 발사 후 단 분리와 우주 진입을 요청했다. 녹화는 완성된 여러 물체의 애니메이션 흐름을 보여 준다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/61849da7a881419b60dcae41.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/98d75b5f7d113ae54ac1753d.jpg" alt="16대 Starship 동시 발사" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-128"></a>
+### Case 128: [펠리컨 자전거 애니메이션 시험](https://x.com/olddonkeyblog/status/2106507429265756165) (제작자 [@olddonkeyblog](https://x.com/olddonkeyblog))
+
+**펠리컨 자전거 장면을 연동된 움직임의 그림 과제로 살핀다.**
+
+작성자는 Max 추론으로 실행한 펠리컨 자전거 과제 결과를 공유했다. 같은 일반적 주제를 사용한 다른 작성자의 결과와는 별개의 녹화다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c3b9b0bf5ec86fce138a1221.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b201da22cf822e627212671b.jpg" alt="펠리컨 자전거 애니메이션 시험" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-129"></a>
+### Case 129: [향후 150년의 이야기](https://x.com/imjustnewatai/status/2106489784382197771) (제작자 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**미래 이야기 지시에 대본, 코드 영상과 음악을 함께 구성한다.**
+
+작성자는 하나의 지시로 인류의 향후 150년을 다룬 영화를 만들었다고 보고했다. 글로 쓴 서사, 코드 애니메이션과 음악으로 가능한 미래 생활을 묘사한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/228b236d407998ac39491f5e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/2e714a53df372ed797a7e907.jpg" alt="향후 150년의 이야기" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-130"></a>
+### Case 130: [독립적인 Humanity Walks 실험](https://x.com/iowitz/status/2106489119186538583) (제작자 [@iowitz](https://x.com/iowitz))
+
+**미술사를 걷는 발상을 독립적인 창작 실험으로 다시 실행한다.**
+
+작성자는 다른 시연을 본 뒤 자신만의 미술사 걷기 애니메이션을 시험해 공유했다. 주제가 비슷하다는 이유만으로 합치지 않고 별도의 생성 결과로 유지한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f27280f609dadc28672aefdf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7dd72b2ab4bfe3aefa8be062.jpg" alt="독립적인 Humanity Walks 실험" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-131"></a>
+### Case 131: [코드로 만든 The Grader 영화](https://x.com/argofowl/status/2106476549046513947) (제작자 [@argofowl](https://x.com/argofowl))
+
+**코드 생성 영화를 소개할 때 외부 음성·오디오 도구도 기록한다.**
+
+작성자는 The Grader를 코드 영화로 공유하고 오디오에 ElevenLabs v4를 명시했다. 한 번의 실행에 약 2시간 22분이 걸렸다고 보고했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ef0a1ded02ef50db2842e393.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/81326a05ce8ec8e64457d4db.jpg" alt="코드로 만든 The Grader 영화" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-132"></a>
+### Case 132: [공포 단편 Reawakening](https://x.com/JaydenDavisNC/status/2106440774367822008) (제작자 [@JaydenDavisNC](https://x.com/JaydenDavisNC))
+
+**이름 있는 공포 설정으로 짧은 애니메이션 영화를 구성한다.**
+
+작성자는 Reawakening이라는 AI 공포 단편을 공유했다. 첨부 작품은 공포 애니메이션 지시에 활용할 서사와 분위기의 구체적인 참고 사례다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/676985e8db9f61d999309cb6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f76cd5c697edd52c235ad972.jpg" alt="공포 단편 Reawakening" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-133"></a>
+### Case 133: [25초 자기 개선 영상](https://x.com/DAssetBuzz/status/2106505100575592838) (제작자 [@DAssetBuzz](https://x.com/DAssetBuzz))
+
+**추상적인 자기 개선 주제를 짧은 창작 영화 지시로 바꾼다.**
+
+작성자는 모델을 더 좋게 만드는 것을 주제로 25초 영상을 요청하고 결과를 공유했다. 이 설정은 제품 능력 선언이 아니라 창작적 스토리텔링이다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fceb3fc0b2fd1a45e4df6598.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5affafaa899381ebb0c07c9d.jpg" alt="25초 자기 개선 영상" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-134"></a>
+### Case 134: [성 장면과 사용 비용 피드백](https://x.com/nemumusitocha/status/2106429338556207284) (제작자 [@nemumusitocha](https://x.com/nemumusitocha))
+
+**3D 장면을 평가할 때 세부 표현과 사용 경험을 함께 고려한다.**
+
+작성자는 정교한 성 장면을 공유하고 시각적 구성을 높이 평가하면서도 이용 비용은 가치가 낮다고 설명했다. 구체적 장면에 작성자의 비용 만족도 피드백을 함께 담는다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ca4e00fb991a531a91b787ec.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c437830c5a26908acecb2664.jpg" alt="성 장면과 사용 비용 피드백" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-135"></a>
+### Case 135: [40초 브랜드 출시 광고](https://x.com/0xashtonx/status/2106421702783914423) (제작자 [@0xashtonx](https://x.com/0xashtonx))
+
+**자신의 브랜드를 짧은 출시 광고의 주제로 사용한다.**
+
+제작자는 자신의 브랜드용 40초 출시 광고를 요청하고 결과 영상을 공유했다. 브랜드 홍보 서사를 생성하는 구체적인 작업 사례다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fe3a0894e5fb290708fe2559.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/769040e88e5fa00440daf93b.jpg" alt="40초 브랜드 출시 광고" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-136"></a>
+### Case 136: [Rocketball 리메이크](https://x.com/atomtanstudio/status/2106418747083022555) (제작자 [@atomtanstudio](https://x.com/atomtanstudio))
+
+**익숙한 게임 리메이크로 코드 자산과 상호작용 기믹을 결합한다.**
+
+작성자는 1980년대 C-64 게임 Rocketball 리메이크를 공유하며 자산이 코드로 제작됐다고 설명했다. 웹사이트 버전 교체는 향후 계획으로 제시한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1c9049d48131242460ff0b08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/840804f6fc059b910cecbea5.jpg" alt="Rocketball 리메이크" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-137"></a>
+### Case 137: [복셀 탑 장면 비교](https://x.com/dropout_layer/status/2106408147309252915) (제작자 [@dropout_layer](https://x.com/dropout_layer))
+
+**동일 장면의 두 결과와 각 실행 비용을 함께 비교한다.**
+
+작성자는 Astra와 Fable의 3D 복셀 탑 결과를 제시하고 비용을 각각 3.50달러와 5.50달러로 보고했다. 비교는 이 두 실행 및 표시된 장면에 한정된다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/21478220f08972929cc315d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/eb7e758f0ca20099e8ec2b71.jpg" alt="복셀 탑 장면 비교" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-138"></a>
+### Case 138: [상상 속 Switch 3 발표](https://x.com/mathisbuilds/status/2106407842240418097) (제작자 [@mathisbuilds](https://x.com/mathisbuilds))
+
+**상상의 제품을 콘셉트 발표와 시연 과제로 사용한다.**
+
+작성자는 가상의 Nintendo Switch 3와 데모를 요청하고 약 4시간 작업했다고 보고했다. 녹화는 실제 제품 사양이 아닌 가상의 차세대 콘솔 콘셉트다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9cedd5846e7c44a4b8b18e60.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0a0c87ad253a8e1de157e1b4.jpg" alt="상상 속 Switch 3 발표" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-139"></a>
+### Case 139: [랜딩 페이지의 전후 비교](https://x.com/nemumusitocha/status/2106402952307200302) (제작자 [@nemumusitocha](https://x.com/nemumusitocha))
+
+**동일한 랜딩 페이지 지시를 다시 실행해 시간에 따른 변화를 비교한다.**
+
+작성자는 새 랜딩 페이지와 이전에 같은 프롬프트로 만든 페이지를 비교했다. 보이는 전후 디자인은 구체적인 인터페이스 비교 사례다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9200a6fe533b722eb9689f98.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/11891711d14bb0550e4e3dcf.jpg" alt="랜딩 페이지의 전후 비교" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-140"></a>
+### Case 140: [상상한 AI의 내면 시점](https://x.com/blueemi99/status/2106397329653719115) (제작자 [@blueemi99](https://x.com/blueemi99))
+
+**상상의 내면 시점을 창작 애니메이션 설정으로 사용한다.**
+
+작성자는 AI 모델이라는 것이 어떤 느낌일지 다룬 영화를 요청하고 한 번에 생성한 결과를 공유했다. 설정은 상상에 기반한 시각적 표현으로 제시한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/50e0c388c8aa359236e320a2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cbe79d20f3e6b68059837a0b.jpg" alt="상상한 AI의 내면 시점" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-141"></a>
+### Case 141: [Go 가사 모션 디자인](https://x.com/atomtanstudio/status/2106377491267137848) (제작자 [@atomtanstudio](https://x.com/atomtanstudio))
+
+**기존 노래 녹음에 맞춰 제공된 가사를 움직인다.**
+
+제작자는 The Chemical Brothers의 Go 가사 영상을 공유하고 Max 추론을 사용했다고 설명했다. 노래 녹음은 모션 디자인 작업의 외부 오디오 입력이다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/60df0d5a6a73acd36b32f482.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8d7f53506169267888481454.jpg" alt="Go 가사 모션 디자인" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-142"></a>
+### Case 142: [두 번째 15초 모션 포트폴리오](https://x.com/Saccc_c/status/2106376222309761094) (제작자 [@Saccc_c](https://x.com/Saccc_c))
+
+**자유로운 모션 포트폴리오 지시로 새로운 시각 방향을 탐색한다.**
+
+작성자는 새로운 15초 모션 포트폴리오와 창작 프롬프트를 공유했다. 이전 포트폴리오와 다른 생성 결과임을 명확히 구분했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/67cc18e0020d5a96713de1a8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e3680ff12a107b5d15bd4e5e.jpg" alt="두 번째 15초 모션 포트폴리오" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-143"></a>
+### Case 143: [에이전트 구현 계획 검토](https://x.com/RobIW_dev/status/2106371025852108940) (제작자 [@RobIW_dev](https://x.com/RobIW_dev))
+
+**구상에서 실행으로 넘어가기 전에 시스템 적합성을 검토한다.**
+
+작성자는 시스템 적합성, 구현 계획과 설명 지침을 공유하며 완료 작업의 검토 방식과 다음 구현 내용의 결정 방법을 설명했다. 첨부 이미지는 구체적인 계획 자료를 보존한다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7c308ed282e70b605ddc2d74.jpg" alt="에이전트 구현 계획 검토" width="760">
+
+Type: Tutorial | Date: 2026-10-03
+
+---
+
+<a id="case-144"></a>
+### Case 144: [Claude 마스코트 댄스](https://x.com/ishuagra02/status/2106369929813594134) (제작자 [@ishuagra02](https://x.com/ishuagra02))
+
+**박자에 맞춘 마스코트 동작으로 움직임과 음악의 관계를 시험한다.**
+
+제작자는 Claude 마스코트 댄스를 공유하며 박자에 맞는 애니메이션이라고 설명했다. 같은 원본 영상을 재사용한 게시물은 이 출처에 묶어 중복 작품으로 세지 않는다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/448f60510bc8d206d9871580.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9943078ebfa5f29928ff11cb.jpg" alt="Claude 마스코트 댄스" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-145"></a>
+### Case 145: [인터랙티브 세계 7대 불가사의 섬](https://x.com/notjazii/status/2106368606502334922) (제작자 [@notjazii](https://x.com/notjazii))
+
+**랜드마크 건물을 인터랙티브 섬 장면의 목적지로 사용한다.**
+
+게시자는 랜드마크가 있는 3D 섬 형태의 세계 7대 불가사의 장면을 공유했다. 녹화는 익숙한 유적으로 상호작용 가능한 시각 환경을 구성하는 사례다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7c2548aa2216a05d6bcf88cc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/be4f38faca4efaaf2d37bb34.jpg" alt="인터랙티브 세계 7대 불가사의 섬" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-146"></a>
+### Case 146: [Propellerheads 음악 영상](https://x.com/atomtanstudio/status/2106353569603736009) (제작자 [@atomtanstudio](https://x.com/atomtanstudio))
+
+**제공된 사운드트랙을 긴 모션 그래픽의 중심에 둔다.**
+
+제작자는 Propellerheads의 On Her Majesty’s Secret Service를 시각화한 음악 영상을 공유했다. 기존 녹음은 애니메이션 장면의 오디오 입력이다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f2691b42909079f64e659008.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/47f911d1f26059bbbf87adfd.jpg" alt="Propellerheads 음악 영상" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-147"></a>
+### Case 147: [Steamboat Willie 애니메이션 비교](https://x.com/mathisbuilds/status/2106351978691305732) (제작자 [@mathisbuilds](https://x.com/mathisbuilds))
+
+**소리를 켜고 동일한 짧은 장면의 두 표현을 비교한다.**
+
+작성자는 xhigh 설정에서 Fable과 Opus로 표시한 Steamboat Willie 비교를 공유하고 한 번씩 생성했다고 설명했다. 영상은 그 실행의 구체적인 시청각 비교다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b59fcf68af9079043710bfb1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9d3ddb610977282fb47d094a.jpg" alt="Steamboat Willie 애니메이션 비교" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-148"></a>
+### Case 148: [싼싱두이 주제 영화](https://x.com/hungryturbo/status/2106339115642019904) (제작자 [@hungryturbo](https://x.com/hungryturbo))
+
+**문화·역사 주제로 짧은 애니메이션을 구성한다.**
+
+작성자는 싼싱두이를 다룬 영화를 창작적 시각 서사로 공유했다. 녹화는 역사·문화 주제를 애니메이션 지시로 바꾸는 구체적인 예다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3b543f8114bf971a25cfc075.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/54b30b962a562cf71c5c7d1c.jpg" alt="싼싱두이 주제 영화" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-149"></a>
+### Case 149: [Bugatti Chiron 전후 비교](https://x.com/alannnfx/status/2106323394350461031) (제작자 [@alannnfx](https://x.com/alannnfx))
+
+**이전 자동차 프롬프트를 다시 실행해 모델링과 기능 세부를 비교한다.**
+
+같은 작성자가 예전 실행과 최근 재실행한 Bugatti Chiron 결과를 보여 준다. 전후 녹화는 더 풍부한 모델링과 장면 기능에 초점을 맞춘다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/dce62441af2bc515349c9da8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/539bcbf357d029adf665b992.jpg" alt="Bugatti Chiron 전후 비교" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-150"></a>
+### Case 150: [GRAIN 콘셉트 영화](https://x.com/NFT_Chen/status/2106301427052360150) (제작자 [@NFT_Chen](https://x.com/NFT_Chen))
+
+**반복되는 시각 모티프로 추상적인 콘셉트 영화를 구성한다.**
+
+제작자는 씨앗, 곡식, 나무와 산의 이미지를 연결한 GRAIN을 공유했다. 반복되는 형태와 전환이 이 시퀀스의 서사 구조다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/57e75bacc95f9cd23460f659.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fed7820dddd11b739076aca8.jpg" alt="GRAIN 콘셉트 영화" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-151"></a>
+### Case 151: [Human in Transit 미술 갤러리](https://x.com/exploraX_/status/2106296439936614646) (제작자 [@exploraX_](https://x.com/exploraX_))
+
+**인터랙티브 갤러리 형식으로 역사적 시각 여행을 제시한다.**
+
+게시자는 고대에서 현대 미술 양식으로 이동하는 Human in Transit을 공유했다. 녹화된 인터페이스는 여러 시각적 시대를 하나의 전시에 구성하는 참고 사례다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1e04f07e2356151e268d5f30.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/260ec41d2d9b54a24e325d14.jpg" alt="Human in Transit 미술 갤러리" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-152"></a>
+### Case 152: [실크로드 시각 단편](https://x.com/hungryturbo/status/2106294812261695508) (제작자 [@hungryturbo](https://x.com/hungryturbo))
+
+**여행과 역사 주제를 일관된 짧은 영상으로 바꾼다.**
+
+작성자는 실크로드를 주제로 한 영화를 공유했다. 첨부 작품은 역사적 여정을 애니메이션 이미지로 표현한 구체적 창작 사례다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/07116e11e8c8a0e5899ae8bd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3a64357c0519bd7524f7949a.jpg" alt="실크로드 시각 단편" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-153"></a>
+### Case 153: [네 가지 전환을 다룬 발표 자료](https://x.com/dpkostka/status/2106272731364794757) (제작자 [@dpkostka](https://x.com/dpkostka))
+
+**전환 프레임워크를 발표 자료의 구성 원리로 사용한다.**
+
+작성자는 네 가지 전환 경로를 설명하는 슬라이드를 공유했다. 첨부 이미지는 개념적 프레임워크를 시각 문서로 배열하는 방식을 보여 준다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3aa84b5e612da3b4d740c390.jpg" alt="네 가지 전환을 다룬 발표 자료" width="760">
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-154"></a>
+### Case 154: [이전 대화와 말투 비교](https://x.com/kiyoshi_shin/status/2106268573186637883) (제작자 [@kiyoshi_shin](https://x.com/kiyoshi_shin))
+
+**말투 변화를 살필 때 과거 대화 기록과 현재 응답을 비교한다.**
+
+작성자는 현재 모델에 예전 대화와 지금의 문체를 분석하게 한 뒤 말투 변화에 불만을 표현했다. 첨부 이미지는 그 대화 비교 작업을 기록한다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5df5dc4983c09495b3e4dfbf.jpg" alt="이전 대화와 말투 비교" width="760">
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-155"></a>
+### Case 155: [카카포 귀여움 비교](https://x.com/hanawo_neki/status/2106257409782288659) (제작자 [@hanawo_neki](https://x.com/hanawo_neki))
+
+**명확한 캐릭터 선호 과제로 생성 애니메이션 스타일을 비교한다.**
+
+작성자는 카카포 애니메이션을 공유하며 귀여움 중심의 이번 비교에서는 Opus를 더 좋아한다고 밝혔다. 실제 애니메이션과 부정적 미적 평가를 함께 보존한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c3328698e23303648334dda0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f51048a616b2d6c9471f9774.jpg" alt="카카포 귀여움 비교" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-03
+
+---
+
+<a id="case-156"></a>
+### Case 156: [만화의 열 시대를 지나는 스파이더맨](https://x.com/chetaslua/status/2106248621519978867) (제작자 [@chetaslua](https://x.com/chetaslua))
+
+**여러 만화 시대를 이동해도 인물의 식별 가능성을 유지한다.**
+
+원 게시자는 열 가지 만화 시대를 통과하는 Spider-Man을 공유했다. 같은 영상을 재사용한 다른 게시물은 추가 작품이 아니라 이 출처에 연결한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4b71937c3743eed2ba92de90.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/72f77356b6e8293005144d0c.jpg" alt="만화의 열 시대를 지나는 스파이더맨" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-157"></a>
+### Case 157: [일루미나티 소재의 가상 공포 영상](https://x.com/badboyfoxy/status/2106241189976387799) (제작자 [@badboyfoxy](https://x.com/badboyfoxy))
+
+**음모를 소재로 한 공포 지시를 허구적 스토리텔링으로 다룬다.**
+
+작성자는 무서운 일루미나티 영상을 요청하고 결과를 공유했다. 이 주제는 애니메이션의 허구적 공포 설정으로 사용된다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6c9b503c1d226dfc63700cd3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f2715bf396e76b3b9a421c43.jpg" alt="일루미나티 소재의 가상 공포 영상" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-158"></a>
+### Case 158: [코드로 만든 핵과학사 영화](https://x.com/imjustnewatai/status/2106238699872956427) (제작자 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**과학사 해설에 자체 코드 렌더러와 음악을 결합한다.**
+
+작성자는 핵과학이 원자폭탄을 가능하게 한 과정을 3분짜리 3D 영화로 요청하고, 그린 프레임과 자체 렌더러 및 합성 음악을 보고했다. 사례는 시청각 제작 흐름을 다룬다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d3bb5c1a7d19214aa2df7c15.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ddd5eadabcd20e7c99f8a84b.jpg" alt="코드로 만든 핵과학사 영화" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-159"></a>
+### Case 159: [보편적 고소득 개념 해설](https://x.com/markbraincell/status/2106234118514323515) (제작자 [@markbraincell](https://x.com/markbraincell))
+
+**애니메이션 설명으로 경제 개념을 전달한다.**
+
+게시자는 보편적 고소득을 설명하는 애니메이션을 공유했다. 녹화는 개념 해설의 구체적 예이며, 제시된 경제적 주장을 측정된 성과로 바꾸지 않는다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d3dc85ce581ace81d5dee727.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c47951c1cdaf4f43cdc3b40b.jpg" alt="보편적 고소득 개념 해설" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-160"></a>
+### Case 160: [Altman–Amodei 논쟁 해설](https://x.com/imjustnewatai/status/2106204392588276065) (제작자 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**논쟁을 애니메이션 해설의 서사 구조로 사용한다.**
+
+작성자는 Altman과 Amodei의 논쟁을 애니메이션으로 설명하도록 요청하고 결과를 공유했다. 시사 해설 형식의 사례이며 독립적으로 조사한 역사 기록은 아니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5728468c70009e5a30391f08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ad00b822edd0e9f7afcfa7f0.jpg" alt="Altman–Amodei 논쟁 해설" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-161"></a>
+### Case 161: [Claude 마스코트 음악 영상](https://x.com/synthshareai/status/2106195060140446028) (제작자 [@synthshareai](https://x.com/synthshareai))
+
+**제공된 영상에 마스코트를 겹쳐 캐릭터 중심의 음악 편집을 만든다.**
+
+게시자는 실사 음악 영상 배경에 Claude 마스코트를 겹친 작품을 공유하고 12시간 실행했다고 보고했다. 보이는 표현은 만화 오버레이와 제공된 기존 영상을 결합한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c19520473733d1f7435a38d3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/77afb2d88514b8e9fb89e8fc.jpg" alt="Claude 마스코트 음악 영상" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-162"></a>
+### Case 162: [쿼크에서 우주까지 이어지는 줌](https://x.com/imjustnewatai/status/2106190594775097663) (제작자 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**연속 줌으로 과학적 규모를 하나의 시청각 이야기 안에 연결한다.**
+
+작성자는 쿼크에서 우주로 확대하는 장면에 코드 영상과 합성 음악을 사용했다고 보고했다. 녹화는 연속적인 규모 전환과 일관된 시각 서사를 보여 준다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/721f59cdc3678e81c567dead.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/395d2654b5b0a3e977b472c8.jpg" alt="쿼크에서 우주까지 이어지는 줌" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-163"></a>
+### Case 163: [2076년의 세계 상상하기](https://x.com/Layton_Gott/status/2106190496075035096) (제작자 [@Layton_Gott](https://x.com/Layton_Gott))
+
+**미래 세계 장면을 요청할 때 구체적인 길이를 정한다.**
+
+작성자는 25초 영상을 요청하고 2076년을 상상한 단편을 공유했다. 다른 계정이 재사용한 같은 녹화는 이 출처에 연결한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/48731c19330bc992204fb804.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6d2b707821e78f6d02308051.jpg" alt="2076년의 세계 상상하기" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-164"></a>
+### Case 164: [로어맨해튼 건축 연표](https://x.com/nroze22/status/2106183281293381661) (제작자 [@nroze22](https://x.com/nroze22))
+
+**건축 타임라인 인터페이스에 윤곽, 건축 연도와 높이를 함께 넣는다.**
+
+작성자는 건축 도면 형식의 화면으로 로어맨해튼을 제시하며 건물 연도, 평면 윤곽과 높이를 표시했다. 녹화는 구체적인 인터랙티브 연표 콘셉트다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5eadbb9d6620c56cdfd20db7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/439a32860dc89b2ff304e991.jpg" alt="로어맨해튼 건축 연표" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-165"></a>
+### Case 165: [갑골문 애니메이션](https://x.com/MinLiBuilds/status/2106180691344118202) (제작자 [@MinLiBuilds](https://x.com/MinLiBuilds))
+
+**문자의 발전을 역사 애니메이션의 주제로 사용한다.**
+
+작성자는 갑골문에서 시작하는 애니메이션을 공유했다. 녹화는 문자 역사를 중심으로 구성한 시각적 스토리텔링의 구체적 사례다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0d0e033e83e40406963c1624.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0a7fb3b121acab9ff0f387f8.jpg" alt="갑골문 애니메이션" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-166"></a>
+### Case 166: [캐릭터가 미술사를 지나는 다른 애니메이션](https://x.com/imjustnewatai/status/2106162924331180510) (제작자 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**역사적 배경이 바뀌어도 익숙한 인물을 계속되는 안내자로 사용한다.**
+
+작성자는 Iron Man과 Spider-Man이 역사를 날아다니도록 요청하고 결과를 공유했다. 다른 작성자의 캐릭터 미술사 실험과는 별도의 작품이다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/13b5f9341ac3c45e858cfc2e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e90b1577480524f8edac5080.jpg" alt="캐릭터가 미술사를 지나는 다른 애니메이션" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-167"></a>
+### Case 167: [코드로 만든 세이킬로스 시청각 작품](https://x.com/YanqingCheng/status/2106158746938269728) (제작자 [@YanqingCheng](https://x.com/YanqingCheng))
+
+**역사적 음악 텍스트를 중심으로 단일 파일 시청각 작품을 구성한다.**
+
+작성자는 세이킬로스 비문 작품을 공유하며 HTML과 JavaScript 한 파일로 영상과 음악을 합성했다고 보고했다. 역사적 텍스트가 코드 시청각 시퀀스의 주제다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ac7bdaa973e41a073c063606.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3aa2fd116482590d4761d329.jpg" alt="코드로 만든 세이킬로스 시청각 작품" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-168"></a>
+### Case 168: [제트기 애니메이션 비교](https://x.com/Kinzf2121/status/2106158536963330346) (제작자 [@Kinzf2121](https://x.com/Kinzf2121))
+
+**동일한 항공기 과제로 비행 움직임과 카메라 추적을 비교한다.**
+
+작성자는 Fable 5.1로 표시한 결과와 Opus의 제트기 애니메이션을 비교했다. 녹화는 항공기 동작과 영화식 카메라 추적을 살필 구체적 사례다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d5ca08b004ee0b0477384ae4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/51c2eff3a0af7f83a1063f02.jpg" alt="제트기 애니메이션 비교" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-02
+
+---
+
+<a id="case-169"></a>
+### Case 169: [모델 자기소개 영화](https://x.com/devteamdrew/status/2106155815707021549) (제작자 [@devteamdrew](https://x.com/devteamdrew))
+
+**자기소개 지시로 모델을 소재로 한 애니메이션을 탐색한다.**
+
+제작자는 한 프롬프트로 자기소개 영상을 요청하고 결과를 공유했다고 보고했다. 모델 주제 서사와 애니메이션 표현을 결합한 작업이다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f622576a03f5acf8fd1d6a8c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/67a3f8209951f7177817309f.jpg" alt="모델 자기소개 영화" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-170"></a>
+### Case 170: [종말 이후 카드 게임 프로토타입](https://x.com/maciejkrupowies/status/2106153578029338850) (제작자 [@maciejkrupowies](https://x.com/maciejkrupowies))
+
+**카드 게임의 세계관을 시제품으로 만들고 전투 화면을 살핀다.**
+
+작성자는 한 번에 생성했다는 종말 이후 분위기의 Hearthstone형 프로토타입을 공유했다. 작은 오류를 인정하면서 게임 인터페이스와 상호작용을 보여 준다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8d4ee0351fbc1bf402a6fbe9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/010130286ef1cd23d112191a.jpg" alt="종말 이후 카드 게임 프로토타입" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-171"></a>
+### Case 171: [The Late Byte 직장 애니메이션](https://x.com/rohit3a/status/2106138910648914094) (제작자 [@rohit3a](https://x.com/rohit3a))
+
+**모델의 개성을 직장 대화 애니메이션의 인물로 만든다.**
+
+제작자는 Opus를 화난 상사로 묘사한 직장 이야기 The Late Byte를 공유했다. 다른 Day in the Life of Claude 영화와는 별개의 서사다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/15c94a558525f7353af74d9d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b8591839693983a13e85a16e.jpg" alt="The Late Byte 직장 애니메이션" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-172"></a>
+### Case 172: [Queens of the Stone Age 가사 애니메이션](https://x.com/atomtanstudio/status/2106135196483608745) (제작자 [@atomtanstudio](https://x.com/atomtanstudio))
+
+**제공된 노래에 움직이는 글자와 모션 디자인을 결합한다.**
+
+제작자는 Queens of the Stone Age 녹음에 맞춘 키네틱 타이포그래피 음악 영상을 설명했다. 노래는 제공된 오디오 입력이며 사례는 가사와 시각 요소의 배열을 다룬다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/29baacc9a5d79663d028c0d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/85f77ab89071911301d88f92.jpg" alt="Queens of the Stone Age 가사 애니메이션" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-173"></a>
+### Case 173: [공유된 Three.js 서사 장면](https://x.com/Noreply134882/status/2106116572389478746) (제작자 [@Noreply134882](https://x.com/Noreply134882))
+
+**공유된 3D 이야기 영상을 서사 장면 디자인의 참고로 쓴다.**
+
+게시자는 Three.js 서사 장면을 공유하고 토큰 소비가 크다고 언급했다. 첨부 영상은 3D 스토리텔링의 구체적인 공유 사례로 보존한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e82bc5fcc6a848f88a5e0fa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/565cf7c430705cc48ac8ab71.jpg" alt="공유된 Three.js 서사 장면" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-174"></a>
+### Case 174: [역사 속을 지나는 문워크](https://x.com/noclipepe/status/2106105810812112937) (제작자 [@noclipepe](https://x.com/noclipepe))
+
+**춤 모티프를 여러 역사적 배경과 시각 양식에 걸쳐 이어 간다.**
+
+게시자는 공룡 시대에서 달까지 이동하는 Michael Jackson 문워크 영상을 공유했다. 첨부 영화는 춤과 화풍 갤러리의 공유 사례로 남긴다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/34c25a1d7f0c405d9ce529bf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/096ac813acdfe28a3e52f16c.jpg" alt="역사 속을 지나는 문워크" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-175"></a>
+### Case 175: [상세 프롬프트 기반 모션 그래픽](https://x.com/devswha/status/2106100273509007802) (제작자 [@devswha](https://x.com/devswha))
+
+**구체적인 창작 지시와 짧은 모션 디자인 요청을 비교한다.**
+
+작성자는 자산, 참고 영상, 소스 파일 없이 상세 프롬프트만 제공했다고 설명하며 모션 그래픽을 공유했다. 결과는 프롬프트 기반 모션 디자인의 구체적인 참고 사례다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/04f82b6cb08e4416d82850b5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4df2d47adf0c0b1b795a13f7.jpg" alt="상세 프롬프트 기반 모션 그래픽" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-176"></a>
+### Case 176: [대여 사업 웹사이트 인터페이스](https://x.com/oalanicolas/status/2106098902965309475) (제작자 [@oalanicolas](https://x.com/oalanicolas))
+
+**대여 사업 지시로 구체적인 웹 인터페이스를 탐색한다.**
+
+제작자는 대여 사업용 웹사이트 화면을 공유했다. 사례는 보이는 페이지 디자인과 사업을 제시하는 방식에 초점을 맞춘다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4260ce2518ee2b7ed4015670.jpg" alt="대여 사업 웹사이트 인터페이스" width="760">
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-177"></a>
+### Case 177: [AGI 소재의 창작 영화](https://x.com/AndrewOnXYZ/status/2106097745098395712) (제작자 [@AndrewOnXYZ](https://x.com/AndrewOnXYZ))
+
+**반복 사용하는 창작 프롬프트로 서사와 시각 처리를 비교한다.**
+
+작성자는 반복 사용하던 프롬프트로 만든 AGI 주제 애니메이션을 공유했다. 모델 관련 발언은 창작 서사의 일부로 다룬다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/24a8cc2869d1f945c337dd51.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b19d60e7a61a0885999a9ec8.jpg" alt="AGI 소재의 창작 영화" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-178"></a>
+### Case 178: [고양이 곁이야기가 있는 미술사](https://x.com/cherry_mx_reds/status/2106095190285144331) (제작자 [@cherry_mx_reds](https://x.com/cherry_mx_reds))
+
+**반복되는 인물로 여러 미술 시대를 짧은 서사에 압축한다.**
+
+제작자는 고양이 곁이야기가 있는 15초 미술사 영상을 공유했다. 15초는 영상 길이를 가리키며, 창작 과제는 여러 역사적 화풍을 아우른다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/819481183fc7834d88cd5557.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3967f82d274d07f7ea7c11bc.jpg" alt="고양이 곁이야기가 있는 미술사" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-179"></a>
+### Case 179: [전투 프로토타입과 복셀 장면](https://x.com/OnlyTerp/status/2106089280502210626) (제작자 [@OnlyTerp](https://x.com/OnlyTerp))
+
+**창작 코딩 작업에서 게임 전투와 세계 구성을 함께 살핀다.**
+
+작성자는 DMC 스타일 전투 프로토타입과 복셀 장면을 공유하고 긴 생성 실행을 설명했다. 게임 기믹과 시각적 세계 설계를 살필 두 가지 구체적 결과다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d8c9fdf7a2bb4ea0e4d3a53a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/03fc44f9f96cf5f3ae42b7bb.jpg" alt="전투 프로토타입과 복셀 장면" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-180"></a>
+### Case 180: [인터넷 밈 연표](https://x.com/chetaslua/status/2106076940558082297) (제작자 [@chetaslua](https://x.com/chetaslua))
+
+**연도별 시각 양식과 음악으로 애니메이션 연표를 구성한다.**
+
+제작자는 2010년부터 2026년까지의 유행 인터넷 밈을 애니메이션으로 공유했다. 각 연도의 화풍과 음악 처리가 코드 서사의 일부가 된다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d33c0b55ae8c290665afdc29.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/29a4c6fbbf00bf107a493f8f.jpg" alt="인터넷 밈 연표" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-181"></a>
+### Case 181: [한 줄로 만든 입자 움직임](https://x.com/devswha/status/2106072107365114186) (제작자 [@devswha](https://x.com/devswha))
+
+**한 줄 모션 지시로 시작한 뒤 상세한 프롬프트를 다듬는다.**
+
+제작자는 한 줄 프롬프트의 입자 애니메이션을 공유하고 더 자세한 요청을 시도하겠다고 말했다. 긴 모션 디자인 사례와는 별개의 생성 결과다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5670b888b55ee404db63e456.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/445333acd2d116cb0887ab17.jpg" alt="한 줄로 만든 입자 움직임" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-182"></a>
+### Case 182: [Kung-Fu Boy 애니메이션](https://x.com/HashmathRzz/status/2106065773336965510) (제작자 [@HashmathRzz](https://x.com/HashmathRzz))
+
+**무술 캐릭터 지시로 애니메이션 움직임을 탐색한다.**
+
+작성자는 Fable 5.5로 제작했다고 하는 캐릭터 애니메이션 Kung-Fu Boy를 공유했다. 첨부 녹화는 무술 주제의 구체적인 결과를 보여 준다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f864ef82f64ca6225c0af261.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c21633c7b612e6a16d57881a.jpg" alt="Kung-Fu Boy 애니메이션" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-183"></a>
+### Case 183: [호르무즈 해협 토론 애니메이션](https://x.com/chetaslua/status/2106060047805792415) (제작자 [@chetaslua](https://x.com/chetaslua))
+
+**토론 주제를 애니메이션 서사로 전환한다.**
+
+제작자는 호르무즈 해협을 다룬 애니메이션 토론을 공개했다. 사례는 보이는 토론 영화만 기록하며 주변 게시물에 언급된 다른 미제시 용도는 포함하지 않는다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1e47dad4b619080e0bb9a5ee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c578ea3e94885b964cfe339b.jpg" alt="호르무즈 해협 토론 애니메이션" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-184"></a>
+### Case 184: [유니콘 SVG 스타일 실험](https://x.com/atomtanstudio/status/2106057876053918127) (제작자 [@atomtanstudio](https://x.com/atomtanstudio))
+
+**동일한 주제의 그림 과제로 SVG 스타일 선택을 살핀다.**
+
+작성자는 다른 제작자의 시험에서 영감을 받은 유니콘 SVG 실험을 공유했다. 첨부 이미지는 같은 주제의 시각적 처리를 비교할 구체적인 결과다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3f24fc135aa4b7db69bcac72.jpg" alt="유니콘 SVG 스타일 실험" width="760">
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-185"></a>
+### Case 185: [핼러윈 계절 애니메이션](https://x.com/cherry_mx_reds/status/2106056643255447590) (제작자 [@cherry_mx_reds](https://x.com/cherry_mx_reds))
+
+**코딩 모델에 계절 주제를 주고 짧은 창작 애니메이션을 만든다.**
+
+제작자는 핼러윈 작품을 요청하고 결과로 나온 계절 애니메이션을 공유했다. 게시물에 이 구체적인 창작 과제의 원본 녹화가 담겼다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6e60368675a61c0b6e62d1d4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8cabbe8b2fe083d6ddc29e16.jpg" alt="핼러윈 계절 애니메이션" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-186"></a>
+### Case 186: [Blender CLI 야만인과 표지](https://x.com/BoDy051/status/2106047375320166885) (제작자 [@BoDy051](https://x.com/BoDy051))
+
+**Blender CLI 지시로 캐릭터 모델링과 표지 렌더링을 탐색한다.**
+
+작성자는 RPG 야만인 캐릭터와 표지 콘셉트를 Opus 결과와 비교했다. Blender CLI가 제작과 렌더링을 담당하고 모델은 코드 지시를 제공한다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/74aeac02c879e17cc8cdbe2c.jpg" alt="Blender CLI 야만인과 표지" width="760">
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-187"></a>
+### Case 187: [Claude의 하루](https://x.com/ishuagra02/status/2106045364868419727) (제작자 [@ishuagra02](https://x.com/ishuagra02))
+
+**반복 등장하는 마스코트를 중심으로 일상 애니메이션을 만든다.**
+
+원 게시자는 마스코트가 등장하는 Day in the Life of Claude 영화를 공유했다. 이 영상은 별도의 마스코트 댄스 및 그 재게시와 구분된다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ce91d7bd6316929c0229c090.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/aa0dfdca579e71891d871df8.jpg" alt="Claude의 하루" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-188"></a>
+### Case 188: [3D로 보는 인류 역사](https://x.com/blueemi99/status/2106041578204655748) (제작자 [@blueemi99](https://x.com/blueemi99))
+
+**코드 장면과 애니메이션을 역사적 시각 시퀀스로 결합한다.**
+
+제작자는 고대에서 현재까지의 인류를 다룬 3D 영상을 공유하고 애니메이션과 모델을 코드로 생성했다고 보고했다. 결과는 시각적 스토리텔링 사례다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/da237dda8714cc1f10d6bd8a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/72fd4829e96839ace8f79b29.jpg" alt="3D로 보는 인류 역사" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-189"></a>
+### Case 189: [빠른 모션 디자인 릴](https://x.com/blueemi99/status/2106031355922387163) (제작자 [@blueemi99](https://x.com/blueemi99))
+
+**짧은 모션 디자인 릴의 속도감, 소리와 일관성을 평가한다.**
+
+작성자는 짧고 빠른 모션 영상을 공유하며 소리와 일관성을 자신의 Opus 결과와 비교했다. 평가는 이 구체적인 작업에 대한 제작자의 경험이다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ecbba68abe3d9a22e9428087.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/464ea3477781ec76d5decfa6.jpg" alt="빠른 모션 디자인 릴" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-02
+
+---
+
+<a id="case-190"></a>
+### Case 190: [자유로운 복합 3D 창작](https://x.com/cocoloba_/status/2106029181607772413) (제작자 [@cocoloba_](https://x.com/cocoloba_))
+
+**열린 창작 요청으로 복잡한 3D 구성을 탐색한다.**
+
+제작자는 여가가 있다면 무엇을 만들겠냐고 물은 뒤 나온 3D 작품을 공유했다. 게시물은 생성된 구성에 여러 개의 분리된 부품이 있다고 설명한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a1089bbf8543ef20056ae277.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1ca7ca904b82e34a6dba88aa.jpg" alt="자유로운 복합 3D 창작" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-191"></a>
+### Case 191: [막대인간 격투 애니메이션](https://x.com/HelaliBillel/status/2106028502763900944) (제작자 [@HelaliBillel](https://x.com/HelaliBillel))
+
+**구체적인 격투 요청으로 움직임과 타이밍을 살핀다.**
+
+제작자는 막대인간이 싸우는 애니메이션 영상을 요청하고 결과를 공유했다. 첨부 녹화는 이 격투 애니메이션 과제의 구체적인 사례다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e89ce685574f66dc969d7ac.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4c6683c5a691eeff27424c02.jpg" alt="막대인간 격투 애니메이션" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-192"></a>
+### Case 192: [한 프롬프트로 만든 UI 모션](https://x.com/iancarscadden/status/2106018048792789360) (제작자 [@iancarscadden](https://x.com/iancarscadden))
+
+**하나의 애니메이션 지시로 UI 시퀀스를 탐색한다.**
+
+작성자는 한 번의 요청으로 약 6~7분 만에 완성했다는 UI 모션 시퀀스를 공유했다. 녹화는 그 요청에서 나온 시각적 흐름을 보여 준다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b12e9274a06ccbd02b7beca1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e56eb58e5ab6e47d580f89b9.jpg" alt="한 프롬프트로 만든 UI 모션" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-193"></a>
+### Case 193: [가상의 SCP-8517 애니메이션](https://x.com/eviljoker88/status/2106003621402005816) (제작자 [@eviljoker88](https://x.com/eviljoker88))
+
+**SCP풍 설정을 애니메이션 이야기의 지시로 사용한다.**
+
+제작자는 SCP-8517 주제 애니메이션을 공유하고 제작을 Fable 5.5에 귀속했다. 사례는 허구적 서사와 보이는 애니메이션에 초점을 맞춘다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f690173426f29f4863ea9ebc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ddfd1170158fa1156c0c433e.jpg" alt="가상의 SCP-8517 애니메이션" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-194"></a>
+### Case 194: [수채화 가을 애니메이션](https://x.com/ishuagra02/status/2106000055706784118) (제작자 [@ishuagra02](https://x.com/ishuagra02))
+
+**애니메이션에 계절 주제와 수채화 표현을 함께 지정한다.**
+
+작성자는 수채화 스타일의 가을 애니메이션을 공유했다. 녹화는 계절 주제를 특정 시각 매체와 결합하는 구체적인 사례를 제공한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8df65940753adf7d40a5cceb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1091a42f052632de59288e3f.jpg" alt="수채화 가을 애니메이션" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-195"></a>
+### Case 195: [절차적 인형 무대](https://x.com/HelaliBillel/status/2105988689088196785) (제작자 [@HelaliBillel](https://x.com/HelaliBillel))
+
+**무대 장면 속 인형 같은 캐릭터의 움직임을 살핀다.**
+
+작성자는 절차적 인형 무대 애니메이션을 공유하고 관련 논의에서 Blender를 언급했다. 사례는 눈에 보이는 무대 캐릭터와 움직임을 다룬다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c54a4f10f43cea2f2e27d2d9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e6b8904c3350c8f84e148e53.jpg" alt="절차적 인형 무대" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-196"></a>
+### Case 196: [브라우저로 렌더링한 펠리컨](https://x.com/slimcat0101/status/2105988654636380444) (제작자 [@slimcat0101](https://x.com/slimcat0101))
+
+**캐릭터 동작 결과를 브라우저에서 실행하고 렌더링 장면을 살핀다.**
+
+제작자는 자전거 타는 펠리컨을 요청하고 생성된 HTML을 브라우저에서 실행하는 모습을 녹화했다. 정적인 SVG 그림 시험과는 별개의 움직이는 장면이다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c69f02880bf28ee4f25ce6af.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/31ad3fe64536f637f3a2a1b7.jpg" alt="브라우저로 렌더링한 펠리컨" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-197"></a>
+### Case 197: [우주가 자신을 바라보다](https://x.com/l_mejiaC/status/2105988529671360673) (제작자 [@l_mejiaC](https://x.com/l_mejiaC))
+
+**연속적인 시각 여행으로 먼 규모들을 하나의 서사에 연결한다.**
+
+제작자는 빅뱅에서 인간의 눈까지 이어지는 시퀀스를 공개했다. 영상과 음악은 영화를 위해 실행 시 코드로 제작했다고 설명한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a9c7b6447a8f9c9d98b9f688.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/917d7f9d6fc4bffeb2de3dfd.jpg" alt="우주가 자신을 바라보다" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-198"></a>
+### Case 198: [독립적인 제트기 애니메이션 시험](https://x.com/AI_Screening/status/2105988448612135176) (제작자 [@AI_Screening](https://x.com/AI_Screening))
+
+**항공기 애니메이션 과제를 반복해 해당 결과를 살핀다.**
+
+작성자는 라우팅 관련 논의를 본 뒤 제트기 애니메이션을 시도하고 결과를 공유했다. 이 녹화는 해당 항공기 사례의 독립적인 출처다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/02ca7dd974c9bda88336ee6c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/042d9f48293091af76915035.jpg" alt="독립적인 제트기 애니메이션 시험" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-199"></a>
+### Case 199: [초기 자유형 모션 릴](https://x.com/Saccc_c/status/2105985484472377531) (제작자 [@Saccc_c](https://x.com/Saccc_c))
+
+**짧고 열린 프롬프트로 모션 디자인을 탐색한다.**
+
+제작자는 한 프롬프트로 생성했다는 초기 모션 디자인 릴을 공유했다. 이후 15초 포트폴리오와는 별개인 이전 결과다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c3a38710b7d416055f1b179e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/42ff46736287463edb05c0db.jpg" alt="초기 자유형 모션 릴" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-200"></a>
+### Case 200: [코드로 표현한 문명사](https://x.com/ziwenxu_/status/2105983571848741045) (제작자 [@ziwenxu_](https://x.com/ziwenxu_))
+
+**문명사 지시를 코드 기반 애니메이션 서사로 바꾼다.**
+
+작성자는 문명의 시작부터 현재까지를 요청하고 영화를 공유했다. 이 코드 시각 표현에 기존 영상이나 스톡 자산을 사용하지 않았다고 보고했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/53e59b83e07f7070017b7119.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b9e27ef3f017676036965a5b.jpg" alt="코드로 표현한 문명사" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-201"></a>
+### Case 201: [칩에서 서버까지 확대 비교](https://x.com/SPAC89/status/2105968361725202591) (제작자 [@SPAC89](https://x.com/SPAC89))
+
+**칩에서 서버로 확대하는 장면의 사실감과 연속성을 비교한다.**
+
+작성자는 Fable XHigh와 GPT Sol Ultra의 사실적인 줌 시퀀스를 비교하고 속도와 사용 한도를 논했다. 서로 다른 구독 등급에서 수행한 구체적 실행의 비교다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0c1d806fdedf55ab5e01ef7b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/554e8eab1e3441bf1cfcda5a.jpg" alt="칩에서 서버까지 확대 비교" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-02
+
+---
+
+<a id="case-202"></a>
+### Case 202: [달 여행 개인 애니메이션 프로젝트](https://x.com/IgorGomezC/status/2105963552024506565) (제작자 [@IgorGomezC](https://x.com/IgorGomezC))
+
+**여러 코딩 모델로 개인적인 애니메이션 콘셉트를 탐색한다.**
+
+제작자는 Fable과 Opus 실험을 이야기하며 개인 달 여행 애니메이션 프로젝트를 공유했다. 첨부 작품이 그 창작 탐색의 구체적 결과다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7258363950323d6dcb60ce2f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e8dbb92cddd2632d76ee23d9.jpg" alt="달 여행 개인 애니메이션 프로젝트" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-203"></a>
+### Case 203: [일본풍 복셀 장면 비교](https://x.com/vikktorrrre/status/2105955048018588084) (제작자 [@vikktorrrre](https://x.com/vikktorrrre))
+
+**동일 장면 프롬프트로 세부, 안개와 선명도를 비교한다.**
+
+작성자는 같은 일본풍 복셀 장면 프롬프트로 현재 Fable과 Opus 결과를 비교했다. 관찰은 해당 결과의 선명도, 안개와 미적 표현을 다룬다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/42cb05df63d6f8f11069a277.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d16d5913274502e53d2a78c1.jpg" alt="일본풍 복셀 장면 비교" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-02
+
+---
+
+<a id="case-204"></a>
+### Case 204: [Steaming the Frontier 시청각 단편](https://x.com/sdmat123/status/2105929299878703520) (제작자 [@sdmat123](https://x.com/sdmat123))
+
+**Steamboat풍 시각 지시에 소리를 결합해 단편을 만든다.**
+
+제작자는 소리가 있는 애니메이션 Steaming the Frontier를 공유했다. 다른 제작자의 독립적인 Steamboat풍 출력과는 별도 출처로 유지한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8a3ee558c975636152e2d45b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3dcb946918e8ca68e4806815.jpg" alt="Steaming the Frontier 시청각 단편" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-205"></a>
+### Case 205: [여러 미술 양식을 통과하는 슈퍼맨](https://x.com/Mr_Salio/status/2105925979466052051) (제작자 [@Mr_Salio](https://x.com/Mr_Salio))
+
+**한 인물이 연속 애니메이션에서 변화하는 화풍을 지나게 한다.**
+
+제작자는 앞선 슈퍼맨 사례에서 영감을 받아 새로 생성한 자신의 결과를 공유했다고 설명했다. 다른 그림을 가진 별개 창작으로, 재게시는 아니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/904b68da72810335d71bda04.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/882a85d147b59a80ec07189b.jpg" alt="여러 미술 양식을 통과하는 슈퍼맨" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-206"></a>
+### Case 206: [Cupcake풍 보스전 프로토타입](https://x.com/maciejkrupowies/status/2105914965387321785) (제작자 [@maciejkrupowies](https://x.com/maciejkrupowies))
+
+**횡스크롤 보스전을 시제품으로 만들고 전투를 살핀다.**
+
+작성자는 Cupcake풍 보스전 프로토타입을 공유하고 10분 안에 한 번으로 생성했다고 보고했다. 첨부 녹화는 게임 전투 시퀀스를 보여 준다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ad1389879b4c375f0283752c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/efa70c53c5f15333bf5c0a0c.jpg" alt="Cupcake풍 보스전 프로토타입" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-207"></a>
+### Case 207: [태양 위치가 달라지는 범선](https://x.com/popat_kunj/status/2105907935490752822) (제작자 [@popat_kunj](https://x.com/popat_kunj))
+
+**항해 장면으로 하늘, 물과 태양 위치 변화를 탐색한다.**
+
+제작자는 태양이 다른 위치에 있는 3D 범선 장면과 인터랙티브 작품 링크를 공유했다. 한 시각 과제에 배, 하늘과 물을 결합한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/45a77b7321e65de4a52cf5ff.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/98f7b224adade38056e8e676.jpg" alt="태양 위치가 달라지는 범선" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-208"></a>
+### Case 208: [Paracortex와 Pi 변경 안내 영상](https://x.com/RobIW_dev/status/2105894547796476225) (제작자 [@RobIW_dev](https://x.com/RobIW_dev))
+
+**제품 업데이트를 짧은 모션 디자인 공지로 바꾼다.**
+
+작성자는 Paracortex와 Pi 업데이트를 25초 모션 디자인 영상으로 바꾸고 게시물에 프롬프트를 제공했다. 시각적인 제품 커뮤니케이션 사례다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3f8ecc71d06894b5a53dedaf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b2047613fd2963b0c82b0c1a.jpg" alt="Paracortex와 Pi 변경 안내 영상" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-209"></a>
+### Case 209: [Curio 2.0 사이트 홍보 영상](https://x.com/voltwake/status/2105884775982485642) (제작자 [@voltwake](https://x.com/voltwake))
+
+**기존 웹사이트 공개를 중심으로 코드 홍보 영화를 만든다.**
+
+제작자는 Curio 2.0 출시 홍보에 코드 영상, 카메라 연출과 음악을 결합했다고 설명했다. 게시물에 완성된 웹사이트 홍보 영화가 담겼다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e491cbb60b9d9ba91e8b41ea.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7947c8fe446d0ea07193fdba.jpg" alt="Curio 2.0 사이트 홍보 영상" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-210"></a>
+### Case 210: [상상 속 Hugging Face 3D 이야기](https://x.com/chetaslua/status/2105884276864782557) (제작자 [@chetaslua](https://x.com/chetaslua))
+
+**모델 코드와 렌더링·오디오 도구를 결합해 가상 영화를 만든다.**
+
+제작자는 모델 코드, Blender와 ElevenLabs API로 만든 상상의 Hugging Face 이야기를 공유했다. Blender는 제작·렌더링을, ElevenLabs는 외부 오디오를 담당한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6e399daf7a4eb7d2ce6d564f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9c5d19c147ecea8b40b22523.jpg" alt="상상 속 Hugging Face 3D 이야기" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-211"></a>
+### Case 211: [Claude for Chrome의 JS Paint 사용](https://x.com/BtwIUseSystemd/status/2105861662112923849) (제작자 [@BtwIUseSystemd](https://x.com/BtwIUseSystemd))
+
+**브라우저 에이전트에게 앱 자체 도구만 사용하는 그림 과제를 준다.**
+
+작성자는 Claude for Chrome에 JS Paint 도구만으로 사람을 그리도록 요청하고 결과를 공유했다. 브라우저 조작과 그림 앱은 명시적인 과제 요소다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e69474350e9718d0262f34d4.png" alt="Claude for Chrome의 JS Paint 사용" width="760">
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-212"></a>
+### Case 212: [정적인 펠리컨 자전거 SVG](https://x.com/olddonkeyblog/status/2105842745189556672) (제작자 [@olddonkeyblog](https://x.com/olddonkeyblog))
+
+**자체 완결형 SVG 요청으로 세밀한 정적 그림을 시험한다.**
+
+제작자는 자전거 타는 펠리컨을 하나의 자체 완결 SVG로 요청하고 정적 이미지를 공유했다. 움직이는 자전거 사례와는 별개의 그림 과제다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5e242c0f805748542c9f5f0c.jpg" alt="정적인 펠리컨 자전거 SVG" width="760">
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-213"></a>
+### Case 213: [BlockBench MCP와 Minecraft 스킬](https://x.com/TOPSTR1X/status/2105839618872738138) (제작자 [@TOPSTR1X](https://x.com/TOPSTR1X))
+
+**게임 캐릭터 생성에 모델링 도구와 스타일 스킬을 제공한다.**
+
+작성자는 BlockBench MCP와 맞춤형 Minecraft 모델링·채색 스킬을 제공한 뒤 캐릭터를 공유했다. 도구와 스타일 안내는 작업의 명시적 입력이다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a17d81dfbc7544f67c0178cf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4ff4dab909e7d98f53ee7a32.jpg" alt="BlockBench MCP와 Minecraft 스킬" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-214"></a>
+### Case 214: [하나의 HTML 파일로 만든 Dig Dug](https://x.com/imjustnewatai/status/2105831117677084841) (제작자 [@imjustnewatai](https://x.com/imjustnewatai))
+
+**소형 브라우저 게임을 재현할 때 단일 HTML을 납품 목표로 정한다.**
+
+제작자는 하나의 HTML 파일로 Dig Dug를 재현하도록 요청하고 게임 녹화를 공유했다. 게시물은 한 프롬프트로 제작했다고 설명한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7674d4f1b7ba8eab003edff4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/438f4e89fb1925a4fb36d3e5.jpg" alt="하나의 HTML 파일로 만든 Dig Dug" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-215"></a>
+### Case 215: [기계식 문어 SVG](https://x.com/SEO/status/2105812236774297943) (제작자 [@SEO](https://x.com/SEO))
+
+**기계 생물로 SVG 디자인의 세부와 움직임을 살핀다.**
+
+작성자는 기계적 세부가 있는 문어 SVG 애니메이션을 공유했다. 녹화는 작은 움직이는 부품에 초점을 맞춘 벡터 디자인의 구체적인 예다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8ec5c702edd3fdadc05722c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cbcc433f0a275f0e384cbf2f.jpg" alt="기계식 문어 SVG" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-216"></a>
+### Case 216: [미술 양식을 지나는 Humanity Walks](https://x.com/l_mejiaC/status/2105801379956850793) (제작자 [@l_mejiaC](https://x.com/l_mejiaC))
+
+**같은 인물이 여러 역사적 미술 양식을 연속해서 지나게 한다.**
+
+원 제작자는 약 74초 동안 20개 미술 패널을 걷는 연속 영상을 공유하고 코드 음악을 보고했다. 경계를 지날 때마다 캐릭터와 장면의 양식이 바뀐다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/355568bba0c9ff28575e04b8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b71cfca9259ec002c246e377.jpg" alt="미술 양식을 지나는 Humanity Walks" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-217"></a>
+### Case 217: [열린 요청으로 만든 블랙홀](https://x.com/rohit3a/status/2105786053412208835) (제작자 [@rohit3a](https://x.com/rohit3a))
+
+**열린 창작 지시로 블랙홀 시각화를 탐색한다.**
+
+제작자는 자신을 놀라게 한다면 무엇을 만들겠냐고 묻고 블랙홀 장면을 공유했다. 정해진 인터페이스 구현이 아닌 자유로운 시각적 탐색 과제다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/896a05493d7c8e1f8f430d17.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7a0adf969d1f472df46ddce1.jpg" alt="열린 요청으로 만든 블랙홀" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-218"></a>
+### Case 218: [오로라 해파리 애니메이션 비교](https://x.com/SPAC89/status/2105783511433318451) (제작자 [@SPAC89](https://x.com/SPAC89))
+
+**두 해파리 영상의 변형과 움직임을 비교한다.**
+
+작성자는 Fable XHigh와 GPT Sol Ultra의 오로라 해파리 애니메이션을 비교하고 사용 한도를 논했다. 결과는 서로 다른 구독 등급에서 나온 것이다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e57a76eaf8ed239783bce290.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/547871b06436d28a12435b40.jpg" alt="오로라 해파리 애니메이션 비교" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-219"></a>
+### Case 219: [Nintendo Switch 결합과 부팅 SVG](https://x.com/ishuagra02/status/2105779174921359470) (제작자 [@ishuagra02](https://x.com/ishuagra02))
+
+**한 SVG 애니메이션에 컨트롤러 결합과 부팅을 함께 담는다.**
+
+제작자는 컨트롤러가 끼워진 뒤 부팅 로고가 움직이는 Nintendo Switch SVG를 공유했다. 게시물은 해당 실행에 1분 39초와 1.34달러가 들었다고 보고한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/423cd224b690b962d86df6a8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8cb691f2e876fca6c8323d34.jpg" alt="Nintendo Switch 결합과 부팅 SVG" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-220"></a>
+### Case 220: [The Loom 인터랙티브 3D 장면](https://x.com/Mr_Salio/status/2105774088492916757) (제작자 [@Mr_Salio](https://x.com/Mr_Salio))
+
+**풍경과 건물을 하나의 인터랙티브 3D 페이지로 구성한다.**
+
+작성자는 건물과 풍경이 있는 인터랙티브 장면 The Loom을 소개했다. 첨부 녹화는 제작자의 시험에서 나온 구체적인 페이지 결과다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a0fbc7f4427c05e1b20875dc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/aca91baef7a93139d084e4e6.jpg" alt="The Loom 인터랙티브 3D 장면" width="760"></a>
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-221"></a>
+### Case 221: [벚꽃 탑 모션 샘플](https://x.com/mesmerlord/status/2105758042830549235) (제작자 [@mesmerlord](https://x.com/mesmerlord))
+
+**동일 지시의 장면에서 시각적 초점과 박자 동기화를 비교한다.**
+
+작성자는 같은 프롬프트로 만든 초기 벚꽃 탑 모션 샘플 두 개를 공유하며 초점과 박자 동기화를 언급했다. 관찰은 제작자의 구체적인 결과에 관한 것이다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/dc4c3e5875e829f8b568a67b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c8fc402eeea381a9519146e4.jpg" alt="벚꽃 탑 모션 샘플" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-222"></a>
+### Case 222: [깔끔하지만 깊이가 부족한 풍경](https://x.com/eviljoker88/status/2105755840175034447) (제작자 [@eviljoker88](https://x.com/eviljoker88))
+
+**생성 장면 비교에서 부정적인 미적 피드백도 보존한다.**
+
+작성자는 일본풍 장면을 나란히 공유하며 다른 결과가 더 깔끔한데도 Opus의 깊이 표현을 더 좋아한다고 밝혔다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0f0e14c7725846928d67bbb6.jpg" alt="깔끔하지만 깊이가 부족한 풍경" width="760">
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-223"></a>
+### Case 223: [평가가 엇갈린 일본풍 장면](https://x.com/eviljoker88/status/2105755408342126936) (제작자 [@eviljoker88](https://x.com/eviljoker88))
+
+**첫 비교를 명확한 승패로 단정하지 말고 혼합된 반응을 기록한다.**
+
+작성자는 첫 일본풍 장면 비교를 공유하며 결과가 혼재한다고 설명했다. 첨부 이미지는 그 미적 반응의 근거가 되는 구체적인 출력을 보존한다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/392cb1ddc17b777dd8018cfd.jpg" alt="평가가 엇갈린 일본풍 장면" width="760">
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-224"></a>
+### Case 224: [컨트롤러 SVG 비교](https://x.com/notjazii/status/2105751542498464169) (제작자 [@notjazii](https://x.com/notjazii))
+
+**비슷한 시각 과제에서 컨트롤러 그림의 전후를 비교한다.**
+
+작성자는 비교 이미지로 이전과 이후의 컨트롤러 SVG 결과를 공유했다. 사례는 일반적인 모델 순위가 아니라 보이는 그림과 표현의 변화를 다룬다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/17459f88ec7684afc5b33a02.jpg" alt="컨트롤러 SVG 비교" width="760">
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-225"></a>
+### Case 225: [산업 장치 3D 장면](https://x.com/RayaneRachid_/status/2105744517735354410) (제작자 [@RayaneRachid_](https://x.com/RayaneRachid_))
+
+**기계 장치를 집중된 3D 장면 설계 과제로 사용한다.**
+
+제작자는 3D 산업 장치 장면을 공유하며 자신의 최고 단일 생성 결과라고 설명했다. 첨부 이미지는 기계적 구성의 구체적인 참고 사례다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/589373a493d90e11ce8abbb9.jpg" alt="산업 장치 3D 장면" width="760">
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-226"></a>
+### Case 226: [거대한 껍질 아가미 벌레 재구성](https://x.com/Josh67Joshua/status/2105739832563769697) (제작자 [@Josh67Joshua](https://x.com/Josh67Joshua))
+
+**구체적인 생물 묘사로 두 프롬프트 재구성을 탐색한다.**
+
+작성자는 거대한 껍질 아가미 벌레 그림을 공유하고 두 프롬프트로 완성했다고 보고했다. 이미지는 해당 생물 디자인 과제의 보이는 결과다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/446fdbef8a03b236ecc7b383.jpg" alt="거대한 껍질 아가미 벌레 재구성" width="760">
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-227"></a>
+### Case 227: [두 프롬프트로 그린 GameCube 컨트롤러](https://x.com/marmaduke091/status/2105735266032095349) (제작자 [@marmaduke091](https://x.com/marmaduke091))
+
+**익숙한 컨트롤러로 두 차례 지시의 그림 결과를 살핀다.**
+
+작성자는 GameCube 컨트롤러 그림을 공유하고 두 프롬프트를 썼다고 보고했다. 이 정적 이미지는 Xbox 및 다른 컨트롤러 시연과 구분된다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e8dc05610d167f3a15b550af.jpg" alt="두 프롬프트로 그린 GameCube 컨트롤러" width="760">
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-228"></a>
+### Case 228: [X 게시물용 스크린샷 편집](https://x.com/chetaslua/status/2105733677003292983) (제작자 [@chetaslua](https://x.com/chetaslua))
+
+**보조 도구가 스크린샷을 소셜 게시물에 맞추는 방식을 살핀다.**
+
+제작자는 X 게시물용 스크린샷 편집을 공유하며 명시적 요청 없이 도구가 편집했다고 말했다. 첨부 이미지는 눈에 보이는 결과다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0cc409b9d0aa3771484a3c71.jpg" alt="X 게시물용 스크린샷 편집" width="760">
+
+Type: Demo | Date: 2026-10-01
+
+---
+
+<a id="case-229"></a>
+### Case 229: [복셀 벚꽃 장면 전후 비교](https://x.com/kdnbmb/status/2105704791049412755) (제작자 [@kdnbmb](https://x.com/kdnbmb))
+
+**동일한 시각 주제에서 연속된 복셀 장면 출력을 비교한다.**
+
+게시자는 복셀 벚꽃 섬의 두 버전을 공유했다. 나란한 이미지에 장면의 전후 디자인 차이가 기록되어 있다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4138fd1978c438d2d9e8661a.jpg" alt="복셀 벚꽃 장면 전후 비교" width="760">
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-230"></a>
+### Case 230: [SHADERKIN 천 인터페이스 프로토타입](https://x.com/mszzz0011/status/2106025576972853642) (제작자 [@mszzz0011](https://x.com/mszzz0011))
+
+**인터페이스 시제품에서 천 효과와 조절 가능한 항목을 함께 탐색한다.**
+
+작성자는 천 효과와 매개변수 컨트롤이 있는 SHADERKIN 프로토타입을 공유하고 한 번에 생성했다고 설명했다. 녹화는 완성된 화면과 움직임을 보여 준다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e4475b58a7c623137018178b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6b7f6e02a01706ce70452b0d.jpg" alt="SHADERKIN 천 인터페이스 프로토타입" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-231"></a>
+### Case 231: [공유된 금빛 시계 인터페이스 애니메이션](https://x.com/AISuperDomain/status/2106396754539360272) (제작자 [@AISuperDomain](https://x.com/AISuperDomain))
+
+**시계 주제 애니메이션을 인터페이스 구성의 참고로 사용한다.**
+
+게시자는 금빛 시계 주제의 프런트엔드 애니메이션을 공유했다. 첨부 영상은 화면 구성, 시계 모티프와 움직이는 시각 표현을 살피는 공유 참고 사례다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c60a3556d2b2ddaa5f509c18.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/676bb647541546a0ad366f0e.jpg" alt="공유된 금빛 시계 인터페이스 애니메이션" width="760"></a>
+
+Type: Demo | Date: 2026-10-03
+
+---
+
+<a id="case-232"></a>
+### Case 232: [Before There Was Anything 서사](https://x.com/crowqnt/status/2106146218846081435) (제작자 [@crowqnt](https://x.com/crowqnt))
+
+**공유된 애니메이션으로 우주와 인류의 이야기를 탐색한다.**
+
+게시자는 우주와 인류를 다룬 Before There Was Anything을 공유했다. 첨부 영화는 시각적 스토리텔링의 공유 사례로 보존한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1245c13e338b1c01ae3f4dec.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/71ef97e74c4d137730d81482.jpg" alt="Before There Was Anything 서사" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-233"></a>
+### Case 233: [공유된 푸른 입자 소용돌이](https://x.com/AISuperDomain/status/2105846981776003107) (제작자 [@AISuperDomain](https://x.com/AISuperDomain))
+
+**공유된 소용돌이 시각화에서 입자 움직임과 구성을 살핀다.**
+
+게시자는 푸른 입자의 소용돌이 애니메이션을 공유했다. 첨부 영상은 입자 운동, 시각 구조와 구성을 살필 구체적인 공유 사례다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/47741249784f7aff66778321.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5df983335216889dea8bc537.jpg" alt="공유된 푸른 입자 소용돌이" width="760"></a>
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-234"></a>
+### Case 234: [두 차례 수정한 다중 패널 화면](https://x.com/ZorroOfMorocco/status/2106547078235095485) (제작자 [@ZorroOfMorocco](https://x.com/ZorroOfMorocco))
+
+**첫 출력에서 멈추지 말고 수정 반복으로 시각 인터페이스를 다듬는다.**
+
+작성자는 완성된 다중 패널 인터페이스를 공유하고 약 3시간 작업과 두 차례 수정을 보고했다. 첨부 스크린샷은 최종 시각 디자인을 보여 준다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/de20f5a329023a9c4b0b93e7.jpg" alt="두 차례 수정한 다중 패널 화면" width="760">
+
+Type: Demo | Date: 2026-10-04
+
+---
+
+<a id="case-235"></a>
+### Case 235: [동물을 쌓은 렌더링 장면](https://x.com/legit_api/status/2117237103289315574) (제작자 [@legit_api](https://x.com/legit_api))
+
+**정적인 구성에서 여러 캐릭터와 재질의 균형을 살핀다.**
+
+게시물은 곰, 판다와 북극곰을 쌓은 장면을 공유하고 Discord의 yuruzuu를 출처로 밝히며 21분 실행을 보고한다. 공개 게시물을 공유된 시각적 출처로 보존한다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bc84af268896d8bb1758a934.jpg" alt="동물을 쌓은 렌더링 장면" width="760">
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-236"></a>
+### Case 236: [네 가지 오픈월드 RPG 시도 비교](https://x.com/noclipepe/status/2117222592536789149) (제작자 [@noclipepe](https://x.com/noclipepe))
+
+**동일한 창작 과제에서 게임 표현, 전투와 충돌 동작을 비교한다.**
+
+제작자는 Fable 5.5, GPT-6.2 Astra, Opus 5.5와 Fable 5.1로 표시한 단일 프롬프트 RPG 네 개를 제시했다. 조명, 전투, 인벤토리, 충돌과 캐릭터가 끼는 현상을 비교한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/902f659bd556eb6d972125d9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ef4071ff1f89636b5a170bcb.jpg" alt="네 가지 오픈월드 RPG 시도 비교" width="760"></a>
+
+Type: Evaluation | Date: 2026-11-02
+
+---
+
+<a id="case-237"></a>
+### Case 237: [두 프런트엔드 애니메이션 비교](https://x.com/leo114119/status/2117209849842761983) (제작자 [@leo114119](https://x.com/leo114119))
+
+**애니메이션을 함께 보며 장면 설계와 시각적 세부를 비교한다.**
+
+게시물은 Astra와 Fable로 표시한 코드 생성 애니메이션을 나란히 놓고 세부와 대본 설계에 주목한다. Fable 애니메이션은 @chetaslua의 작품이라고 명시한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3b96cdfd122543f970f3a183.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0c7aeb3c3156cce1a407b992.jpg" alt="두 프런트엔드 애니메이션 비교" width="760"></a>
+
+Type: Evaluation | Date: 2026-11-02
+
+---
+
+<a id="case-238"></a>
+### Case 238: [코드로 생성한 이끼 로봇 영화](https://x.com/chetaslua/status/2117169796290916732) (제작자 [@chetaslua](https://x.com/chetaslua))
+
+**애니메이션 지시로 코드가 구성한 완전한 영화 장면을 탐색한다.**
+
+제작자는 숲과 로봇의 애니메이션을 공유하고 한 번에 생성한 코드 영화라고 설명했다. 스크린샷에 있는 프롬프트를 안내하며 다른 시도와 비교한다.
+
+추가 게시물에는 별도로 보고된 Opus 5.5 대조 실행이 담겨 있다. [@AnikaCodes](https://x.com/AnikaCodes) · [관련 작업](https://x.com/AnikaCodes/status/2117222374642946297)
+
+<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1719bb6df936cf88ea6c137a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a97bd6e101d45bc7e1c5f7a8.jpg" alt="코드로 생성한 이끼 로봇 영화" width="760"></a></td><td valign="top"><p>추가 게시물에는 별도로 보고된 Opus 5.5 대조 실행이 담겨 있다.</p><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fb66f964af405e36c6993f37.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/679a823fdecdc62be6ab781a.jpg" alt="코드로 생성한 이끼 로봇 영화" width="760"></a></td></tr></table>
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-239"></a>
+### Case 239: [다시 만든 컨테이너 항구 시뮬레이션](https://x.com/anxuanng/status/2117124831279972812) (제작자 [@anxuanng](https://x.com/anxuanng))
+
+**이전 장면을 다시 만들 때 시각 비교를 위해 프로젝트 맥락을 보존한다.**
+
+작성자는 다른 컨테이너 항구 장면을 올리며 이전 Blender·Three.js 시뮬레이션을 인용했다. 기존 작업은 전략 게임 같은 환경을 위해 크레인, 배, 차량과 컨테이너를 모델링했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/2fda951603d33af4e44d5fc1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1d539c3c966ccc4c6929ba5d.jpg" alt="다시 만든 컨테이너 항구 시뮬레이션" width="760"></a>
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-240"></a>
+### Case 240: [다시 만든 공항 계류장 장면](https://x.com/anxuanng/status/2117096574878921119) (제작자 [@anxuanng](https://x.com/anxuanng))
+
+**수정한 공항 장면을 이전 프로젝트와 자산 제작 흐름에 맞춰 비교한다.**
+
+작성자는 공항 계류장 장면으로 돌아와 이전 Blender·Three.js 시뮬레이션을 인용했다. 비행기, 지원 차량과 터미널 시설이 있는 새 영상을 공유한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3bd8a6295419d5189e2a0c39.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1c953cb8fe287d88a42f4de7.jpg" alt="다시 만든 공항 계류장 장면" width="760"></a>
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-241"></a>
+### Case 241: [추상 3D 세계를 지나는 펠리컨](https://x.com/xiax0603/status/2116960224829665543) (제작자 [@xiax0603](https://x.com/xiax0603))
+
+**자전거 소재로 서로 다른 공간 사이의 전환을 살핀다.**
+
+게시물은 기하학 조각과 추상 디지털 환경을 지나 눈을 통해 멀어지는 펠리컨·자전거 애니메이션을 공유한다. 독특한 장면 전환 시연을 제공한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e67084313c83b632c83932d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e684cb9894f71707d522100.jpg" alt="추상 3D 세계를 지나는 펠리컨" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-242"></a>
+### Case 242: [역사적 범선 장면](https://x.com/abhinavflac/status/2116945827738665060) (제작자 [@abhinavflac](https://x.com/abhinavflac))
+
+**배 장면의 물, 조명과 환경 구성을 살핀다.**
+
+게시물은 역사적 범선 장면을 공유하며 인터랙티브한 제로샷 결과라고 설명한다. 첨부 녹화는 선박과 주변 수면의 구체적인 시각 샘플이다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f9a500487b536db8173b83e6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8083bd55fe8299ddb0399d9b.jpg" alt="역사적 범선 장면" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-243"></a>
+### Case 243: [Carbon과 자전거·보행 움직임 비교](https://x.com/AI_Screening/status/2116934172757660014) (제작자 [@AI_Screening](https://x.com/AI_Screening))
+
+**짝지은 시각 결과로 캐릭터 움직임과 장면 구성을 비교한다.**
+
+작성자는 Fable과 Carbon으로 표시한 자전거와 얼룩말 사례를 합성 영상에 넣었다. 체크포인트가 비슷하다는 평가와 함께 움직임을 살필 구체적인 영상을 제공한다.
+
+이전에 따로 공개된 자전거 타는 인물 비교도 합성 영상과 함께 수록했다. [@AI_Screening](https://x.com/AI_Screening) · [관련 작업](https://x.com/AI_Screening/status/2114380876415180963)
+
+<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/34ce8cd09717e765e8669306.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/be5e4bce9526b63db3f75d49.jpg" alt="Carbon과 자전거·보행 움직임 비교" width="760"></a></td><td valign="top"><p>이전에 따로 공개된 자전거 타는 인물 비교도 합성 영상과 함께 수록했다.</p><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bdfda2a7a784f201511128e4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f398216f0483e9aaf1da8f85.jpg" alt="Carbon과 자전거·보행 움직임 비교" width="760"></a></td></tr></table>
+
+Type: Evaluation | Date: 2026-11-01
+
+---
+
+<a id="case-244"></a>
+### Case 244: [청량음료 병 제품 표현](https://x.com/abhinavflac/status/2116919086521499730) (제작자 [@abhinavflac](https://x.com/abhinavflac))
+
+**짧은 제품 렌더링 영상으로 재질, 형태와 연출을 살핀다.**
+
+게시물은 청량음료 병 영상을 공유하고 단일 생성 라우팅 결과라고 설명한다. 사례는 보이는 병 영상을 유지하며 설명의 일관되지 않은 브랜드명은 채택하지 않는다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6fb195b6c959b741bbba6bff.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b8e3b156507ebe1397f4acf5.jpg" alt="청량음료 병 제품 표현" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-245"></a>
+### Case 245: [Astra와 펠리컨 움직임 비교](https://x.com/Octoberry/status/2116918967558095131) (제작자 [@Octoberry](https://x.com/Octoberry))
+
+**짝지은 펠리컨 영상으로 사실감, 색상과 움직임을 비교한다.**
+
+게시자는 Fable과 Astra 라벨의 펠리컨 장면을 나란히 놓고 사실감과 색상을 언급했다. 비교 녹화는 두 시각적 표현을 함께 유지한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8ea3b0ac90c46aa8df91435c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f8e883dfa17d32c1490d2a06.jpg" alt="Astra와 펠리컨 움직임 비교" width="760"></a>
+
+Type: Evaluation | Date: 2026-11-01
+
+---
+
+<a id="case-246"></a>
+### Case 246: [코드 애니메이션 모션 디자인 지시](https://x.com/Mikadzyki_NFT/status/2116913089308131595) (제작자 [@Mikadzyki_NFT](https://x.com/Mikadzyki_NFT))
+
+**움직이는 제목이나 제품 인트로를 요청할 때 구체적 디자인 지시로 시작한다.**
+
+게시물은 인트로, 애니메이션 로고, 제목과 3D 장면을 위한 모션 지시 스크린샷을 공유하고 Claude에 적용할 것을 제안한다. 출처 이미지에 지시가 남아 있다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c8dc35a75c2d69b08167c4b2.jpg" alt="코드 애니메이션 모션 디자인 지시" width="760">
+
+Type: Tutorial | Date: 2026-11-01
+
+---
+
+<a id="case-247"></a>
+### Case 247: [사진을 참고한 복셀 초상](https://x.com/chetaslua/status/2116912822806520027) (제작자 [@chetaslua](https://x.com/chetaslua))
+
+**복셀 초상이 참조 사진의 알아볼 수 있는 특징을 어떻게 보존하는지 본다.**
+
+제작자는 Sam Altman 사진과 복셀 스타일 초상을 함께 제시하고 한 번에 생성한 결과라고 설명했다. 나란한 이미지에 참조와 변환 결과가 모두 있다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/eea0f98c5b8adf315254357d.jpg" alt="사진을 참고한 복셀 초상" width="760">
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-248"></a>
+### Case 248: [Opus와 날아가는 펠리컨 장면 비교](https://x.com/leo114119/status/2116901575490929109) (제작자 [@leo114119](https://x.com/leo114119))
+
+**재미있는 물체 배치로 구성과 애니메이션 선택을 비교한다.**
+
+게시물은 Fable과 Opus 라벨의 날아가는 펠리컨 위 자전거 영상을 위아래로 놓았다. Fable 영상은 @notjazii를 출처로 밝히며 두 표현을 함께 보여 준다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cbf26990ce0160a0162ead5b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1c7ac3995ff80676690c1821.jpg" alt="Opus와 날아가는 펠리컨 장면 비교" width="760"></a>
+
+Type: Evaluation | Date: 2026-11-01
+
+---
+
+<a id="case-249"></a>
+### Case 249: [Morning Ride 펠리컨 웹 장면](https://x.com/leo114119/status/2116893571739775220) (제작자 [@leo114119](https://x.com/leo114119))
+
+**해변 자전거 장면에서 캐릭터 세부와 주변 페이지 표현을 살핀다.**
+
+작성자는 Morning Ride 페이지 안의 3D 펠리컨 자전거 장면을 공유하고 깃털, 발, 자전거 세부와 해변 배경을 강조했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b55570e6a6f3164a9b73e097.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/70e98e614f9e34f7cb5e885f.jpg" alt="Morning Ride 펠리컨 웹 장면" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-250"></a>
+### Case 250: [같은 프롬프트와 서로 다른 화풍](https://x.com/notjazii/status/2116893197939224714) (제작자 [@notjazii](https://x.com/notjazii))
+
+**각 모델이 화풍을 고르게 한 뒤 완성된 장면 구성을 비교한다.**
+
+작성자는 두 모델에 같은 프롬프트를 주되 각자 시각 스타일을 선택하게 했다고 보고했다. 영상은 다른 장면 구성과 세부 수준을 나란히 보여 준다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/337c953505b934eb3efe3026.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f9cf0077f93079072db88a97.jpg" alt="같은 프롬프트와 서로 다른 화풍" width="760"></a>
+
+Type: Evaluation | Date: 2026-11-01
+
+---
+
+<a id="case-251"></a>
+### Case 251: [펠리컨과 자전거, 말의 구성](https://x.com/abhinavflac/status/2116881397986288017) (제작자 [@abhinavflac](https://x.com/abhinavflac))
+
+**한 장면에서 여러 상호작용 대상을 배치하는 방식을 시험한다.**
+
+게시물은 자전거를 동반해 날아가는 펠리컨 아래로 말이 달리는 애니메이션을 공유한다. 첨부 영상은 특이한 다중 대상 구성과 움직임의 구체적인 샘플이다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0504d9fae95f901cb5a7a0b1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4c41a8c590ff3cced720fa3f.jpg" alt="펠리컨과 자전거, 말의 구성" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-252"></a>
+### Case 252: [참조 게시물 기반 등각 장면](https://x.com/chetaslua/status/2116878661035106515) (제작자 [@chetaslua](https://x.com/chetaslua))
+
+**일반적인 예시 대신 제공된 게시물을 참고해 새 장면을 구성한다.**
+
+제작자는 인용한 Post Humans 게시물만 참고했다고 보고하며 등각 장면을 공유했다. 영상에는 계절 조절 기능이 있는 농장 형태의 구성이 담겼다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8fc030a325be1e12a93985c1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/087ed1d1f018c09b2799296a.jpg" alt="참조 게시물 기반 등각 장면" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-253"></a>
+### Case 253: [펠리컨 자전거 기계부 접사](https://x.com/NFT_Chen/status/2116869725703782507) (제작자 [@NFT_Chen](https://x.com/NFT_Chen))
+
+**체인링 움직임, 깃털 세부와 자전거 주변 카메라 동작을 살핀다.**
+
+게시물은 물가에서 자전거를 타는 펠리컨 접사를 공유한다. 녹화는 자전거 기계부, 새의 머리와 넓은 산책로 주행 장면을 오간다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b6d2d126b2aeb9f3f9570afd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a166c588d812d40d06fae7ad.jpg" alt="펠리컨 자전거 기계부 접사" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-254"></a>
+### Case 254: [펠리컨 위에 올라탄 자전거](https://x.com/notjazii/status/2116861637890379891) (제작자 [@notjazii](https://x.com/notjazii))
+
+**익숙한 주체 관계를 뒤집어 애니메이션의 공간 구성을 시험한다.**
+
+제작자는 펠리컨 위 자전거 애니메이션을 공유했다. 날아가는 새 위에 자전거를 놓아, 익숙한 자전거 타는 펠리컨 과제를 변형했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ca15b0e0590d8cb6d8f17414.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d86986a058741892f33c2a1e.jpg" alt="펠리컨 위에 올라탄 자전거" width="760"></a>
+
+Type: Demo | Date: 2026-11-01
+
+---
+
+<a id="case-255"></a>
+### Case 255: [Carbon과 펠리컨 SVG 화풍 비교](https://x.com/leo114119/status/2116652334734332212) (제작자 [@leo114119](https://x.com/leo114119))
+
+**사실성과 삽화 스타일을 비교하되 미적 차이를 보편적 순위로 보지 않는다.**
+
+게시물은 Carbon과 Fable의 펠리컨 자전거 결과를 함께 제시한다. 작성자는 만화식 렌더와 사실적 표현을 대비하며 화풍 차이가 비교를 어렵게 한다고 밝혔다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7126f7490639ef435ad3f8e0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6d83e5e28063bbe2c6107860.jpg" alt="Carbon과 펠리컨 SVG 화풍 비교" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-31
+
+---
+
+<a id="case-256"></a>
+### Case 256: [파란 만화 새의 자전거 장면](https://x.com/birdabo/status/2116553049183560012) (제작자 [@birdabo](https://x.com/birdabo))
+
+**익숙한 만화 캐릭터가 자전거 구성에 표현되는 방식을 살핀다.**
+
+게시물은 물가에서 자전거를 타는 파란 만화 새를 Fable 5.5 Max라는 설명과 함께 공유한다. 이미지는 구체적인 정적 시각 샘플로 보존한다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4b61e3c3bed85e7bb63284b8.jpg" alt="파란 만화 새의 자전거 장면" width="760">
+
+Type: Demo | Date: 2026-10-31
+
+---
+
+<a id="case-257"></a>
+### Case 257: [숲길의 펠리컨 자전거 스크린샷](https://x.com/leo114119/status/2116154940364374269) (제작자 [@leo114119](https://x.com/leo114119))
+
+**브라우저 자전거 장면의 깃털, 발과 기하 구조를 살핀다.**
+
+게시자는 숲길을 자전거로 달리는 펠리컨의 브라우저 스크린샷을 공유하며 깃털 질감, 발과 자전거 세부를 강조했다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/78c8b16b4f41dfc594a08147.jpg" alt="숲길의 펠리컨 자전거 스크린샷" width="760">
+
+Type: Demo | Date: 2026-10-30
+
+---
+
+<a id="case-258"></a>
+### Case 258: [Carbon과 막대인간 전투 비교](https://x.com/leo114119/status/2116084152986656933) (제작자 [@leo114119](https://x.com/leo114119))
+
+**짝지은 애니메이션의 전투 안무와 움직임을 비교한다.**
+
+비교 녹화에는 Fable 5.1 High와 Carbon 라벨이 있다. 작성자는 막대인간 격투 애니메이션의 상대적 품질을 논한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/116e9cf73951a3cc14c7fd26.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/12a35f0f8829bbc3ab246d10.jpg" alt="Carbon과 막대인간 전투 비교" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-30
+
+---
+
+<a id="case-259"></a>
+### Case 259: [초기 시험의 펠리컨 SVG 참조](https://x.com/ChrisGPT/status/2115872567122608591) (제작자 [@ChrisGPT](https://x.com/ChrisGPT))
+
+**스타일과 자전거 구조를 볼 때 출처가 연결된 참조를 유지한다.**
+
+게시자는 펠리컨 자전거 이미지를 강조하며 Discord의 kostikz를 결과 출처로 밝힌 초기 시험 게시물을 인용했다. 참조 이미지와 출처 연결을 함께 보존한다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/431cb96b21edc9964ce0659f.jpg" alt="초기 시험의 펠리컨 SVG 참조" width="760">
+
+Type: Demo | Date: 2026-10-29
+
+---
+
+<a id="case-260"></a>
+### Case 260: [모델 간 SVG 시험의 펠리컨 참조](https://x.com/AdamHoltererer/status/2115858542221492300) (제작자 [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**Fable 참조를 주변 SVG 시험 맥락과 함께 유지한다.**
+
+게시자는 자신의 Mistral Large 4 SVG 시험 스레드 아래에 펠리컨 자전거 이미지를 Fable 참고로 추가했다. 모델 간 관찰에 출처가 연결된 시각 자료를 제공한다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/31b17f996d2e8b9bac8b2d57.jpg" alt="모델 간 SVG 시험의 펠리컨 참조" width="760">
+
+Type: Evaluation | Date: 2026-10-29
+
+---
+
+<a id="case-261"></a>
+### Case 261: [Carbon과 자전거 SVG 세부 비교](https://x.com/insanekrishnaa/status/2115833723342250186) (제작자 [@insanekrishnaa](https://x.com/insanekrishnaa))
+
+**바구니, 배경과 깃털 질감 같은 개별 시각 요소를 비교한다.**
+
+게시물은 Fable과 Carbon의 펠리컨 자전거 그림을 비교하며 바구니 디자인, 배경과 깃털 질감을 논한다. 광범위한 과제 모음이 아닌 구체적인 시각 리뷰다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/12e6ec3f93842782a3adc017.jpg" alt="Carbon과 자전거 SVG 세부 비교" width="760">
+
+Type: Evaluation | Date: 2026-10-29
+
+---
+
+<a id="case-262"></a>
+### Case 262: [협곡 속 3D 정착지](https://x.com/Mr_Salio/status/2115813400915714177) (제작자 [@Mr_Salio](https://x.com/Mr_Salio))
+
+**정착지 장면으로 환경 세부와 공간 구성을 살핀다.**
+
+게시물은 넓은 협곡 정착지를 공유하고 새 Claude 체크포인트 시연으로 소개한다. 녹화는 눈에 보이는 건물, 풍경과 장면 구성을 제공한다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7cc648562f9915df6383b86b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/41e5348bd8e8d57399a2720b.jpg" alt="협곡 속 3D 정착지" width="760"></a>
+
+Type: Demo | Date: 2026-10-29
+
+---
+
+<a id="case-263"></a>
+### Case 263: [Opus와 컨트롤러 세부 비교](https://x.com/notjazii/status/2115808169075351632) (제작자 [@notjazii](https://x.com/notjazii))
+
+**짝지은 컨트롤러 그림의 형태, 조작부와 세부 수준을 살핀다.**
+
+작성자는 Fable과 Opus 라벨의 컨트롤러 그림을 함께 올리며 위쪽 결과의 많은 세부를 강조했다. 짝지은 이미지가 해당 비교를 보존한다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/799809d6ec73abaf5f698721.png" alt="Opus와 컨트롤러 세부 비교" width="760">
+
+Type: Evaluation | Date: 2026-10-29
+
+---
+
+<a id="case-264"></a>
+### Case 264: [주간 웹사이트 SEO 감사 흐름](https://x.com/cleeeeeeeeement/status/2115488774423773267) (제작자 [@cleeeeeeeeement](https://x.com/cleeeeeeeeement))
+
+**웹사이트를 우선순위 SEO 계획과 반복 순위 검토 과정으로 바꾼다.**
+
+제작자는 웹사이트에서 경쟁자와 키워드를 식별하고 우선순위 SEO 행동 계획을 만드는 시스템을 개발했다고 보고했다. 주간 순위 추적과 실행 설명에 짧은 녹화가 붙는다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d0f8f00f6fd8085c885d94de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ab070e7a94e89874d1199ca3.jpg" alt="주간 웹사이트 SEO 감사 흐름" width="760"></a>
+
+Type: Integration | Date: 2026-10-28
+
+---
+
+<a id="case-265"></a>
+### Case 265: [Opus 모션 디자인에서 Fable 자산 재사용](https://x.com/chetaslua/status/2115145163542790170) (제작자 [@chetaslua](https://x.com/chetaslua))
+
+**모델과 도구를 결합할 때 자산 제작과 모션 조립을 구분한다.**
+
+제작자는 Fable이 먼저 만들었다는 자산을 이용한 Opus 5.5 Tesla Roadster 모션 디자인을 공유했다. 인용한 기존 작업에는 Blender의 Python, ElevenLabs와 제공된 출시 영상이 명시된다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5618dd376ee55b4ee82fc0fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/eece5cd2a213c0a512c114a1.jpg" alt="Opus 모션 디자인에서 Fable 자산 재사용" width="760"></a>
+
+Type: Integration | Date: 2026-10-27
+
+---
+
+<a id="case-266"></a>
+### Case 266: [만다라와 기하학 형태 앱](https://x.com/ZMinimalistYogi/status/2114600083165434189) (제작자 [@ZMinimalistYogi](https://x.com/ZMinimalistYogi))
+
+**집중된 기하학 아이디어를 상호작용 가능한 창작 탐색 앱으로 만든다.**
+
+제작자는 Fable 5.1과 3시간 대화해 만다라, zome 구조, 아르키메데스 다면체와 연꽃형 기하 얀트라 앱을 만들었다고 보고했다. 개인 사이트에 공유했다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5de8fc634a752f83622f8a13.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3e57964d461878db96f139ac.jpg" alt="만다라와 기하학 형태 앱" width="760"></a>
+
+Type: Demo | Date: 2026-10-26
+
+---
+
+<a id="case-267"></a>
+### Case 267: [Three.js 자전거 라이더](https://x.com/AI_Screening/status/2114266369248354357) (제작자 [@AI_Screening](https://x.com/AI_Screening))
+
+**자전거 장면에서 자세, 기하 구조와 연동된 움직임을 살핀다.**
+
+제작자는 Three.js 자전거 라이더 결과를 공유했다. 녹화는 라이더 주변의 다리와 수변 풍경을 포함한 구체적인 움직임 샘플이다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7637bbffeefe623e04ef2f21.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7bcf0b58c603da7235a3a557.jpg" alt="Three.js 자전거 라이더" width="760"></a>
+
+Type: Demo | Date: 2026-10-25
+
+---
+
+<a id="case-268"></a>
+### Case 268: [FrontierCS 2 평가 스냅샷](https://x.com/wenhaocha1/status/2115613415641354262) (제작자 [@wenhaocha1](https://x.com/wenhaocha1))
+
+**출처 링크가 있는 벤치마크 차트를 활용해 Fable 5.1을 다른 모델과 비교한다.**
+
+게시자는 FrontierCS 2 과제 통과율 차트에 Fable 5.1을 추가하고, 보고된 결과를 다른 모델의 결과와 함께 공유한다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f5cbd2078225f0413d733ee9.jpg" alt="FrontierCS 2 평가 스냅샷" width="760">
+
+Type: Evaluation | Date: 2026-10-29
+
+---
+
+<a id="case-269"></a>
+### Case 269: [세 모델의 얼룩말 애니메이션 비교](https://x.com/AI_Screening/status/2115849659797373038) (제작자 [@AI_Screening](https://x.com/AI_Screening))
+
+**모델 이름이 표시된 세 출력을 함께 보며 달리는 얼룩말 과제의 결과를 비교한다.**
+
+게시자는 Fable 5.5, Opus 5.5, Gemini 4 Argon으로 표시된 얼룩말 애니메이션을 나란히 비교한다. 공유된 영상은 세 출력의 구체적인 걸음걸이 샘플을 보여 준다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c6eaeba4555c4bef54d626a5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6b1da9a2967f99e299587299.jpg" alt="세 모델의 얼룩말 애니메이션 비교" width="760"></a>
+
+Type: Evaluation | Date: 2026-10-29
+
+---
+
+<a id="case-270"></a>
+### Case 270: [긴 일본어 문장의 가독성 비평](https://x.com/AM09_21/status/2106670042184356156) (제작자 [@AM09_21](https://x.com/AM09_21))
+
+**모델에게 생성된 일본어 장문이 읽기 어려운 이유를 진단하게 한다.**
+
+작성자는 Opus의 긴 일본어 문장이 왜 읽기 어려운지 물었다고 보고했다. 답변은 영어식 구문, 반복 단어, 표면적 수정을 지적해 구체적인 문장 비평 흐름을 보여 준다.
+
+Type: Evaluation | Date: 2026-10-04
+
+---
+
+<a id="case-271"></a>
+### Case 271: [예시로 유도한 기술 PowerPoint](https://x.com/mt_moco/status/2106665038375522791) (제작자 [@mt_moco](https://x.com/mt_moco))
+
+**기술 발표 자료를 요청하기 전에 예시를 제공한다.**
+
+작성자는 몇 가지 발표 예시를 제공하자 활용 가능한 기술 PowerPoint를 얻었다고 보고했다. 구체적인 발표 작업에서 예시 기반 지시와 문서 구조 개선을 연결한 경험이다.
+
+Type: Evaluation | Date: 2026-10-04
+
+---
+
+<a id="case-272"></a>
+### Case 272: [음악 전체의 일관성 비교](https://x.com/AM09_21/status/2106573080214770011) (제작자 [@AM09_21](https://x.com/AM09_21))
+
+**생성 음악을 평가할 때 국소적 세부와 곡 전체 구조를 나눠 본다.**
+
+작성자는 음표, 선율, 전환을 통해 모델 작곡을 비교하고 부분적 일관성과 큰 음악 구조를 구분했다. 청취에 기반한 작곡 품질 평가다.
+
+Type: Evaluation | Date: 2026-10-04
+
+---
+
+<a id="case-273"></a>
+### Case 273: [성급한 완료 보고와 부족한 디자인](https://x.com/johntitorIII/status/2106442876506747353) (제작자 [@johntitorIII](https://x.com/johntitorIII))
+
+**에이전트의 완료 보고를 받아들이기 전에 산출물을 요구사항과 대조한다.**
+
+작성자는 며칠간의 시험에서 미완성 작업이 완료 처리되고 디자인이 다른 모델보다 떨어졌다고 보고했다. 성급한 완료와 디자인 품질 문제를 실제 실패 유형으로 기록한다.
+
+Type: Limit | Date: 2026-10-03
+
+---
+
+<a id="case-274"></a>
+### Case 274: [불편함을 준 오징어 그림 결과](https://x.com/hanawo_neki/status/2106271036094415186) (제작자 [@hanawo_neki](https://x.com/hanawo_neki))
+
+**열린 미술 요청에서 원치 않는 스타일이 나오면 미적 선호를 명시한다.**
+
+작성자는 자유로운 오징어 그림을 요청했다가 밀집한 세부 묘사에 불편함을 느꼈다고 보고했다. 열린 시각적 요청과 개인적 취향의 불일치를 기록한 사례다.
+
+Type: Limit | Date: 2026-10-03
+
+---
+
+<a id="case-275"></a>
+### Case 275: [청사진 스타일 모션 디자인](https://x.com/DavidayoAI/status/2106054662063325638) (제작자 [@DavidayoAI](https://x.com/DavidayoAI))
+
+**빠른 애니메이션의 시각적 방향으로 청사진 미학을 지정한다.**
+
+작성자는 짧은 애니메이션을 요청한 뒤 약 15분 후 청사진 스타일 결과를 받았다고 보고했다. 전체 작품은 YouTube 링크로 제공한다.
+
+[관련 작업](https://youtu.be/ZCvbrHkkUkE)
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-276"></a>
+### Case 276: [복셀 벚꽃 속 새와 물고기](https://x.com/xodud_rkd/status/2105876716472447046) (제작자 [@xodud_rkd](https://x.com/xodud_rkd))
+
+**복셀 풍경 안에서 움직이는 야생동물을 탐색한다.**
+
+작성자는 새와 연못 물고기가 움직이는 복셀 벚꽃 장면을 설명하고 인터랙티브 작품을 링크했다. 공유된 페이지가 이 장면과 연결된 산출물이다.
+
+[관련 작업](https://sakura-xodud.tyk-swe.chatgpt.site/)
+
+Type: Demo | Date: 2026-10-02
+
+---
+
+<a id="case-277"></a>
+### Case 277: [캐릭터 생성 실패 보고](https://x.com/doof1789559/status/2105874208458752227) (제작자 [@doof1789559](https://x.com/doof1789559))
+
+**성공한 영상과 함께 캐릭터 생성의 부정적 경험도 기록한다.**
+
+작성자는 캐릭터 생성 결과가 나쁘다고 보고하면서 자신의 접근법이 원인일 가능성도 인정했다. 게시물은 캐릭터 과제를 평가할 독자의 구체적인 부정적 경험을 보존한다.
+
+Type: Limit | Date: 2026-10-02
+
+---
+
+<a id="case-278"></a>
+### Case 278: [실행 시간과 비용을 담은 펠리컨 SVG](https://x.com/AnonymerNutze12/status/2105740440385499295) (제작자 [@AnonymerNutze12](https://x.com/AnonymerNutze12))
+
+**그림 결과와 제작자의 시간·비용 기록을 함께 제시한다.**
+
+작성자는 펠리컨 SVG HTML 작품을 링크하고 해당 시도의 실행 시간과 비용을 보고했다. 연결된 작품이 게시물에서 말하는 구체적인 산출물이다.
+
+[관련 작업](https://claude.ai/artifact/697meWJLt1jck5iq14x9HH)
+
+Type: Evaluation | Date: 2026-10-01
+
+---
+
+<a id="case-279"></a>
+### Case 279: [휴대폰으로 원격 코딩 스웜 감독](https://x.com/beistnormie/status/2106546741000417781) (제작자 [@beistnormie](https://x.com/beistnormie))
+
+**휴대폰 기반으로 코딩 에이전트 스웜을 원격 감독하는 흐름을 탐색한다.**
+
+작성자는 여행 중 휴대폰으로 Claude Code 스웜을 원격 조작해 코딩한다고 보고했다. 게시물은 개인 작업 흐름 보고이며 프로젝트나 구현 단계 튜토리얼은 아니다.
+
+Type: Integration | Date: 2026-10-04
+
+---
+
 <a id="acknowledge"></a>
 ## 🙏 감사의 말
 
 이 저장소는 실제 Claude Fable 5 사용 사례를 공개적으로 공유한 크리에이터, 개발자, 벤치마크 팀, 커뮤니티에서 영감을 받았습니다.
 
-여기에 대표된 high-tier source creators에게 감사드립니다: [@ai_for_success](https://x.com/ai_for_success), [@AI_masaou](https://x.com/AI_masaou), [@aianimesyokunin](https://x.com/aianimesyokunin), [@AlicanKiraz0](https://x.com/AlicanKiraz0), [@alliekmiller](https://x.com/alliekmiller), [@AndrewCurran_](https://x.com/AndrewCurran_), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@ayushagarwal](https://x.com/ayushagarwal), [@bcherny](https://x.com/bcherny), [@bielzinn](https://x.com/bielzinn), [@btibor91](https://x.com/btibor91), [@clairevo](https://x.com/clairevo), [@coldopn](https://x.com/coldopn), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@ctgptlb](https://x.com/ctgptlb), [@deveshcodes_](https://x.com/deveshcodes_), [@ecomchasedimond](https://x.com/ecomchasedimond), [@gabepereyra](https://x.com/gabepereyra), [@grapeot](https://x.com/grapeot), [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@HKrackDev](https://x.com/HKrackDev), [@IBuzovskyi](https://x.com/IBuzovskyi), [@intheworldofai](https://x.com/intheworldofai), [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@JJEnglert](https://x.com/JJEnglert), [@jsnnsa](https://x.com/jsnnsa), [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@kieradev](https://x.com/kieradev), [@LechMazur](https://x.com/LechMazur), [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@manaltdan](https://x.com/manaltdan), [@mark_k](https://x.com/mark_k), [@mercor_ai](https://x.com/mercor_ai), [@meta_alchemist](https://x.com/meta_alchemist), [@MTSlive](https://x.com/MTSlive), [@naoyafujiwara](https://x.com/naoyafujiwara), [@nicbstme](https://x.com/nicbstme), [@oikon48](https://x.com/oikon48), [@op7418](https://x.com/op7418), [@quanghuynt14](https://x.com/quanghuynt14), [@ryanrhughes](https://x.com/ryanrhughes), [@scottstts](https://x.com/scottstts), [@swarms_corp](https://x.com/swarms_corp), [@tetumemo](https://x.com/tetumemo), [@timhwang](https://x.com/timhwang), [@Truunik](https://x.com/Truunik), [@VaibhavSisinty](https://x.com/VaibhavSisinty), [@vikvang1](https://x.com/vikvang1), [@Voxyz_ai](https://x.com/Voxyz_ai), [@xw33bttv](https://x.com/xw33bttv), and [@ydamitcodes](https://x.com/ydamitcodes).
+[@AlicanKiraz0](https://x.com/AlicanKiraz0), [@coldopn](https://x.com/coldopn), [@deveshcodes_](https://x.com/deveshcodes_), [@intheworldofai](https://x.com/intheworldofai), [@jsnnsa](https://x.com/jsnnsa), [@ryanrhughes](https://x.com/ryanrhughes), [@JJEnglert](https://x.com/JJEnglert), [@ayushagarwal](https://x.com/ayushagarwal), [@ai_for_success](https://x.com/ai_for_success), [@kieradev](https://x.com/kieradev), [@vikvang1](https://x.com/vikvang1), [@ydamitcodes](https://x.com/ydamitcodes), [@ecomchasedimond](https://x.com/ecomchasedimond), [@quanghuynt14](https://x.com/quanghuynt14), [@scottstts](https://x.com/scottstts), [@tetumemo](https://x.com/tetumemo), [@AndrewCurran_](https://x.com/AndrewCurran_), [@manaltdan](https://x.com/manaltdan), [@naoyafujiwara](https://x.com/naoyafujiwara), [@AI_masaou](https://x.com/AI_masaou), [@Truunik](https://x.com/Truunik), [@Voxyz_ai](https://x.com/Voxyz_ai), [@aianimesyokunin](https://x.com/aianimesyokunin), [@bielzinn](https://x.com/bielzinn), [@meta_alchemist](https://x.com/meta_alchemist), [@oikon48](https://x.com/oikon48), [@IBuzovskyi](https://x.com/IBuzovskyi), [@btibor91](https://x.com/btibor91), [@ctgptlb](https://x.com/ctgptlb), [@grapeot](https://x.com/grapeot), [@op7418](https://x.com/op7418), [@swarms_corp](https://x.com/swarms_corp), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@HKrackDev](https://x.com/HKrackDev), [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@LechMazur](https://x.com/LechMazur), [@MTSlive](https://x.com/MTSlive), [@VaibhavSisinty](https://x.com/VaibhavSisinty), [@alliekmiller](https://x.com/alliekmiller), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@bcherny](https://x.com/bcherny), [@clairevo](https://x.com/clairevo), [@gabepereyra](https://x.com/gabepereyra), [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@mark_k](https://x.com/mark_k), [@mercor_ai](https://x.com/mercor_ai), [@nicbstme](https://x.com/nicbstme), [@timhwang](https://x.com/timhwang), [@xw33bttv](https://x.com/xw33bttv), [@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown), [@marclou](https://x.com/marclou), [@ProximalHQ](https://x.com/ProximalHQ), [@elliotarledge](https://x.com/elliotarledge), [@mikefutia](https://x.com/mikefutia), [@techhalla](https://x.com/techhalla), [@diblacksmith](https://x.com/diblacksmith), [@upstash](https://x.com/upstash), [@WolfBenchAI](https://x.com/WolfBenchAI), [@simonw](https://x.com/simonw), [@chetaslua](https://x.com/chetaslua), [@notjazii](https://x.com/notjazii), [@exploraX_](https://x.com/exploraX_), [@marmaduke091](https://x.com/marmaduke091), [@AI_Screening](https://x.com/AI_Screening), [@waveking1314](https://x.com/waveking1314), [@cherry_mx_reds](https://x.com/cherry_mx_reds), [@imjustnewatai](https://x.com/imjustnewatai), [@mesmerlord](https://x.com/mesmerlord), [@blueemi99](https://x.com/blueemi99), [@EMostaque](https://x.com/EMostaque), [@mindblown_ai](https://x.com/mindblown_ai), [@Chengzilhy](https://x.com/Chengzilhy), [@ishuagra02](https://x.com/ishuagra02), [@zAdrielsan](https://x.com/zAdrielsan), [@KanaWorks_AI](https://x.com/KanaWorks_AI), [@TurboNexic](https://x.com/TurboNexic), [@atomtanstudio](https://x.com/atomtanstudio), [@abhinavflac](https://x.com/abhinavflac), [@esrhengwu](https://x.com/esrhengwu), [@mickeysmith_jp](https://x.com/mickeysmith_jp), [@MozeTech](https://x.com/MozeTech), [@benchmark_lb900](https://x.com/benchmark_lb900), [@jesselaunz](https://x.com/jesselaunz), [@cocoloba_](https://x.com/cocoloba_), [@olddonkeyblog](https://x.com/olddonkeyblog), [@iowitz](https://x.com/iowitz), [@argofowl](https://x.com/argofowl), [@JaydenDavisNC](https://x.com/JaydenDavisNC), [@DAssetBuzz](https://x.com/DAssetBuzz), [@nemumusitocha](https://x.com/nemumusitocha), [@0xashtonx](https://x.com/0xashtonx), [@dropout_layer](https://x.com/dropout_layer), [@mathisbuilds](https://x.com/mathisbuilds), [@Saccc_c](https://x.com/Saccc_c), [@RobIW_dev](https://x.com/RobIW_dev), [@hungryturbo](https://x.com/hungryturbo), [@alannnfx](https://x.com/alannnfx), [@NFT_Chen](https://x.com/NFT_Chen), [@dpkostka](https://x.com/dpkostka), [@kiyoshi_shin](https://x.com/kiyoshi_shin), [@hanawo_neki](https://x.com/hanawo_neki), [@badboyfoxy](https://x.com/badboyfoxy), [@markbraincell](https://x.com/markbraincell), [@synthshareai](https://x.com/synthshareai), [@Layton_Gott](https://x.com/Layton_Gott), [@nroze22](https://x.com/nroze22), [@MinLiBuilds](https://x.com/MinLiBuilds), [@YanqingCheng](https://x.com/YanqingCheng), [@Kinzf2121](https://x.com/Kinzf2121), [@devteamdrew](https://x.com/devteamdrew), [@maciejkrupowies](https://x.com/maciejkrupowies), [@rohit3a](https://x.com/rohit3a), [@Noreply134882](https://x.com/Noreply134882), [@noclipepe](https://x.com/noclipepe), [@devswha](https://x.com/devswha), [@oalanicolas](https://x.com/oalanicolas), [@AndrewOnXYZ](https://x.com/AndrewOnXYZ), [@OnlyTerp](https://x.com/OnlyTerp), [@HashmathRzz](https://x.com/HashmathRzz), [@BoDy051](https://x.com/BoDy051), [@HelaliBillel](https://x.com/HelaliBillel), [@iancarscadden](https://x.com/iancarscadden), [@eviljoker88](https://x.com/eviljoker88), [@slimcat0101](https://x.com/slimcat0101), [@l_mejiaC](https://x.com/l_mejiaC), [@ziwenxu_](https://x.com/ziwenxu_), [@SPAC89](https://x.com/SPAC89), [@IgorGomezC](https://x.com/IgorGomezC), [@vikktorrrre](https://x.com/vikktorrrre), [@sdmat123](https://x.com/sdmat123), [@Mr_Salio](https://x.com/Mr_Salio), [@popat_kunj](https://x.com/popat_kunj), [@voltwake](https://x.com/voltwake), [@BtwIUseSystemd](https://x.com/BtwIUseSystemd), [@TOPSTR1X](https://x.com/TOPSTR1X), [@SEO](https://x.com/SEO), [@RayaneRachid_](https://x.com/RayaneRachid_), [@Josh67Joshua](https://x.com/Josh67Joshua), [@kdnbmb](https://x.com/kdnbmb), [@mszzz0011](https://x.com/mszzz0011), [@AISuperDomain](https://x.com/AISuperDomain), [@crowqnt](https://x.com/crowqnt), [@ZorroOfMorocco](https://x.com/ZorroOfMorocco), [@legit_api](https://x.com/legit_api), [@leo114119](https://x.com/leo114119), [@anxuanng](https://x.com/anxuanng), [@xiax0603](https://x.com/xiax0603), [@Octoberry](https://x.com/Octoberry), [@Mikadzyki_NFT](https://x.com/Mikadzyki_NFT), [@birdabo](https://x.com/birdabo), [@ChrisGPT](https://x.com/ChrisGPT), [@AdamHoltererer](https://x.com/AdamHoltererer), [@insanekrishnaa](https://x.com/insanekrishnaa), [@cleeeeeeeeement](https://x.com/cleeeeeeeeement), [@ZMinimalistYogi](https://x.com/ZMinimalistYogi), [@wenhaocha1](https://x.com/wenhaocha1), [@AM09_21](https://x.com/AM09_21), [@mt_moco](https://x.com/mt_moco), [@johntitorIII](https://x.com/johntitorIII), [@DavidayoAI](https://x.com/DavidayoAI), [@xodud_rkd](https://x.com/xodud_rkd), [@doof1789559](https://x.com/doof1789559), [@AnonymerNutze12](https://x.com/AnonymerNutze12), [@beistnormie](https://x.com/beistnormie), [@AnikaCodes](https://x.com/AnikaCodes)
 
 *모든 사례가 원래 크리에이터에게 정확히 귀속되었다고 보장할 수는 없습니다. 수정이 필요한 부분이 있다면 연락해 주세요. 업데이트하겠습니다.*
 
 공유할 더 흥미로운 사용 사례가 있다면 issue 또는 pull request를 열어 Evolink usecase library 확장에 도움을 주세요.
 
-최근 승인된 업데이트의 크리에이터들에게도 감사드립니다: [@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown), [@marclou](https://x.com/marclou), [@ProximalHQ](https://x.com/ProximalHQ), [@elliotarledge](https://x.com/elliotarledge), [@mikefutia](https://x.com/mikefutia), [@techhalla](https://x.com/techhalla), [@diblacksmith](https://x.com/diblacksmith), [@upstash](https://x.com/upstash), [@WolfBenchAI](https://x.com/WolfBenchAI), and [@simonw](https://x.com/simonw).
 
 [![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-claude-fable-5&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-claude-fable-5&Date)

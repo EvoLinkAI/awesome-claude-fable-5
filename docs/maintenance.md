@@ -6,7 +6,8 @@ This repository is a curated usecase content repository. The public README files
 
 - `README.md` is the English source README.
 - `README_es.md`, `README_pt.md`, `README_ja.md`, `README_ko.md`, `README_de.md`, `README_fr.md`, `README_tr.md`, `README_zh-TW.md`, `README_zh-CN.md`, and `README_ru.md` are localized README files.
-- `fable-5-howto-usecase-curated.json` and `fable-5-howto-usecase-curated.md` are the curated dataset files used to audit and update the public cases.
+- `data/use-cases.json` is the public case and source index. It covers every README case number, source, creator, evidence type, and date. New media-backed cases also record their original media and public presentation URLs.
+- `docs/update-log.md` records case additions and related maintenance changes.
 - There is no active generator that can safely rebuild the finished README files.
 
 ## Case Format
@@ -37,31 +38,13 @@ Before adding or changing a case:
 - Confirm no placeholder translation text remains.
 - Confirm every banner image path referenced by a README exists in `images/`.
 
-## Daily Update Intake Workflow
+## Update Intake
 
-The repository has a scheduled GitHub Actions workflow at `.github/workflows/daily-update-intake.yml`.
+Collect public source candidates and deduplicate them against the README source links and `data/use-cases.json`. Review the original creator's post, concrete output, source media, and workflow details before selecting a case. Keep supporting posts attached to the same case rather than counting them as separate projects.
 
-It runs every day at 01:00 UTC / 09:00 Asia-Shanghai and can also be started manually from the Actions tab.
+Update English first, then every localized README. Preserve exact prompt text when reproducing a prompt, and keep creator-reported timing and one-shot descriptions attributed to the creator.
 
-Required repository secret:
-
-- `TWITTERAPI_API_KEY` — twitterapi.io read API key used to search recent X/Twitter posts.
-
-What the workflow does:
-
-- Searches recent public posts for Claude Fable 5 / Fable 5 candidates.
-- Deduplicates against links already present in `README*.md` and the curated JSON file.
-- Runs lightweight README consistency checks.
-- Uploads `daily_update_candidates.json`, `daily_update_issue.md`, and `validation_summary.md` as an artifact.
-- Opens or updates one issue named `Daily Fable 5 update intake` with reviewer-ready candidates.
-
-What the workflow intentionally does not do:
-
-- It does not edit README files.
-- It does not add cases automatically.
-- It does not sync localized READMEs.
-
-This follows the curation boundary used by the local prompt intake skills: collect and deduplicate first, then require human approval before repository content changes.
+Keep raw research collections, review queues, credentials, and temporary verification files outside the public repository. Submit selected content through a pull request.
 
 ## Validation Commands
 
