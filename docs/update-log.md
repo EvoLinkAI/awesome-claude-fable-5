@@ -1,6 +1,15 @@
 # Update log
 
 
+
+## 2026-11-05 — Original-media restoration
+
+- Audited all 88 inherited cases that previously had no embedded media.
+- Restored 83 visual occurrences across 74 cases: native media from 72 posts, a directly related quoted video for Case 20, and a linked article’s contextual image for Case 32.
+- Published 115 unique media objects, including 33 complete source videos, and kept multi-image sets grouped. Seven video previews use frames extracted from the original clips.
+- Clarified that Case 77 supplies only localhost addresses, without public applications or media. Fourteen inherited cases remain text-only, alongside the ten previously accepted text-only reports.
+- Added explicit playback links, synchronized eleven languages, and kept all 306 case numbers stable. Russian preview alt labels reference case numbers to keep the complete README below GitHub’s 500 KiB display limit; full case titles and body text remain.
+
 ## 2026-11-05
 
 - Added 27 new source-backed cases (280–306); total 306 across 11 languages.

@@ -445,6 +445,8 @@ curl --request POST \
 
 **把 Fable 5 用作多模型 Cursor 工作流中的计划审查和批判步骤，然后把实现和修订交还给更便宜或更专用的模型。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/8b1352e20cff54688c97f17c.png" alt="Cursor 多阶段工作流" width="760">
+
 如果看 Fable 5 和 GPT 5.5 的最终评分，差距非常小。我个人的使用建议是：在 Cursor 这类支持混合模型的 IDE 平台中，使用分阶段工作流。
 
 阶段 1：在代码审查和项目初步检查阶段，一边预热上下文，一边使用 GPT 5.5 High、Minimax M3、Kimi K2.6 或 Composer 2.5 之一。
@@ -466,6 +468,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **把产品截图粘贴到代理式编码工具中，并要求 Fable 5 复刻带真实功能的界面。**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/14123609b06071f3b9527bee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f4df4f42ce047201d9a096a6.jpg" alt="从截图重建 GitHub" width="760"><br>▶ 播放视频</a>
+
 🚨 Anthropic Fable 5 刚刚从一张截图复刻了 GITHUB！！
 
 我做的全部事情，就是把一张 GitHub UI 截图粘贴进 Kilo Code，然后告诉它用真实功能重建 GitHub。
@@ -483,6 +487,8 @@ Type: Demo | Date: 2026-06-09
 
 **给 Fable 5 一条详细的创意编程提示词，让它生成一个自包含的 Three.js 物理可视化。**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9bd45e74c64ceb3639600805.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ce5f3ea8ba270f89d60523cc.jpg" alt="单提示词黑洞模拟" width="760"><br>▶ 播放视频</a>
+
 @claudeai 使用 Claude Fable 5 一次性生成了一个 Three.js 实时黑洞透镜模拟。
 
 它包含引力透镜、带多普勒增强的吸积盘、光子球、色差和程序化星空。
@@ -499,6 +505,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 4: [一次生成 macOS 风格 Web OS](https://x.com/intheworldofai/status/2064421915347812672)（作者 [@intheworldofai](https://x.com/intheworldofai)）
 
 **让 Fable 5 生成一个完整的单文件 Web OS，并让它一次性构建 UI 外壳、应用、交互、音频和内嵌游戏行为。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a66f34402d04f708819fa575.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/81946293919c84d4cafff841.jpg" alt="一次生成 macOS 风格 Web OS" width="760"><br>▶ 播放视频</a>
 
 🚨 Claude Fable 5 刚刚一次性构建了一个完整的 macOS 风格 Web OS，而且比大多数模型走得更远。
 
@@ -527,6 +535,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 5: [用 1,687 条提示词构建 Spawn 5.0](https://x.com/jsnnsa/status/2064420561078693941)（作者 [@jsnnsa](https://x.com/jsnnsa)）
 
 **把 Fable 5 当作长会话工程伙伴，在大量提示词中协作，人类角色从架构转向判断输出质量。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/86834f15f352ec8625cce187.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/b4077e43a1342d8567fa423f.jpg" alt="用 1,687 条提示词构建 Spawn 5.0" width="760"><br>▶ 播放视频</a>
 
 claude fable 5 已上线。
 
@@ -557,6 +567,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 6: [带发现项的大型 Pull Request 审查](https://x.com/ryanrhughes/status/2064411147076534705)（作者 [@ryanrhughes](https://x.com/ryanrhughes)）
 
 **让 Fable 5 面向一个大型 Pull Request，要求它审查正确性、误报、真实 bug 和打磨问题。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c4f47540205a071b0144ad9d.png" alt="带发现项的大型 Pull Request 审查" width="760">
 
 我让 Fable 5 放手审查一个 PR（74 个文件 / +3,705 / -1,246），看看表现如何。它运行了 34 分钟，消耗了我 5 小时会话的 42%，产出 16 个“正确性”发现，并找到了：
 
@@ -641,6 +653,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **让 Fable 5 构建一个以手指追踪作为输入机制的浏览器游戏。**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/27e8d23ba659611cef811031.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7cddd38e3fccbf0cd7ea773c.jpg" alt="手指追踪 Dino Runner" width="760"><br>▶ 播放视频</a>
+
 我让 Fable 5 构建一个带手指追踪的 Dino runner 游戏。
 
 它大约 11 到 12 分钟一次性完成了 finger runner 游戏，消耗约 914K token，并且只用 629 行代码实现了全部内容。
@@ -655,6 +669,8 @@ Type: Demo | Date: 2026-06-09
 ### Case 10: [两句话生成赛车游戏](https://x.com/kieradev/status/2064482704763085202)（作者 [@kieradev](https://x.com/kieradev)）
 
 **给 Fable 5 一个很短的游戏提示词，让它一次生成地图、模式、音乐、UI 和游戏资产。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/51cf3c98b709a3c29bd5fd7c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6e64887a30cba9b5c25ba262.jpg" alt="两句话生成赛车游戏" width="760"><br>▶ 播放视频</a>
 
 Claude Fable 5，使用了 Max 5x 用量的 40%。
 
@@ -673,6 +689,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **通过终端编码 harness 运行 Fable 5，并要求它构建一个可安装的 Rust 终端游戏。**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/73feec38228181b8d57d8300.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/1f6cd3bd68e1a14443c7734f.jpg" alt="Rust 可安装终端版 Minecraft" width="760"><br>▶ 播放视频</a>
+
 我让 Claude Fable 5 搭配 Warp 的 harness 运行了一个小时。
 
 它做出了一个 TUI 版本的 Minecraft，直接在终端里渲染，完全用 Rust 构建。
@@ -689,6 +707,8 @@ Type: Demo | Date: 2026-06-10
 ### Case 12: [带时间和成本记录的 Minecraft 克隆](https://x.com/ydamitcodes/status/2064536076518363353)（作者 [@ydamitcodes](https://x.com/ydamitcodes)）
 
 **用一条提示词要求 Fable 5 生成可玩的 Minecraft 风格克隆，然后评估时间、成本、代码量和功能覆盖。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c977ed7e710678ea6dc0495d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c0189f7f40d1040824902c11.jpg" alt="带时间和成本记录的 Minecraft 克隆" width="760"><br>▶ 播放视频</a>
 
 @claudeai Fable 5 在 37 分钟内为我构建了一个 Minecraft 克隆。
 
@@ -711,6 +731,8 @@ Type: Tutorial | Date: 2026-06-10
 ### Case 13: [完整可复现电商邮件提示词](https://x.com/ecomchasedimond/status/2064454139225297091)（作者 [@ecomchasedimond](https://x.com/ecomchasedimond)）
 
 **给 Fable 5 一份完整的品牌邮件 mockup 创意简报，包括精确分区、产品要求、视觉方向和约束。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ea7d74eecf453ae6ab43c269.jpg" alt="完整可复现电商邮件提示词" width="760">
 
 Claude Fable 5 用一条提示词、没有编辑就做出了这个。
 
@@ -854,6 +876,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **在机械模拟基准上使用 Fable 5，要求它实现、验证并迭代物理正确性。**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/cd4ae25f7dcbb04ecbb2dea6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/473227e429d59c59afdbd529.jpg" alt="瑞士杠杆擒纵制表基准" width="760"><br>▶ 播放视频</a>
+
 于是我给 Fable 5 做了制表师基准：一个完整的 Three.js 瑞士杠杆机芯。
 
 真实齿轮比（18,000 bph）、可工作的擒纵机构、会呼吸的游丝，而且指针显示真实时间。
@@ -870,6 +894,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 15: [Three.js《Friends》公寓场景](https://x.com/scottstts/status/2064464351906673029)（作者 [@scottstts](https://x.com/scottstts)）
 
 **提示 Fable 5 将平面图和场景参考转换为可导航的 Three.js 环境。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/04c08937fcecea5183759ade.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6a14f69d92bfca4ace3f746c.jpg" alt="Three.js《Friends》公寓场景" width="760"><br>▶ 播放视频</a>
 
 太夸张了！！！
 
@@ -889,6 +915,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 16: [带提示词和 URL 的太阳系模拟](https://x.com/tetumemo/status/2064477582930989357)（作者 [@tetumemo](https://x.com/tetumemo)）
 
 **使用 Fable 5 从物理原理构建天文模拟，持续迭代直到模拟和公开输出都准备好。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6da60b0762f926c4d4e7012d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7b9655305fbcbec6ac3b0a9c.jpg" alt="带提示词和 URL 的太阳系模拟" width="760"><br>▶ 播放视频</a>
 
 Claude Fable 5 很强烈。
 
@@ -1014,6 +1042,10 @@ Type: Demo | Date: 2026-06-09
 ### Case 20: [Fable 5 如何改变 Claude Code 工作流](https://x.com/AI_masaou/status/2064448218038223206)（作者 [@AI_masaou](https://x.com/AI_masaou)）
 
 **使用 Fable 5 时，应设置方向、上下文、目标和验证标准，而不是微管理每个步骤。**
+
+[原视频 · @ClaudeDevs](https://x.com/ClaudeDevs/status/2064399512664526853)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/bcf9dc92c525978c69b3c869.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9567dd41be289437a45f8800.jpg" alt="Fable 5 如何改变 Claude Code 工作流" width="760"><br>▶ 播放视频</a>
 
 Claude Fable 5 之后，Claude Code 团队日常工作发生了什么变化，这很有意思。
 
@@ -1243,6 +1275,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **使用 `/goal` 让 Fable 5 启动网站、截图页面、审计 UX、撰写报告并修复安全的小问题。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/dca99f9390b1624b3dfd4b45.png" alt="全站设计审计 Goal 提示词" width="760">
+
 用了 fable 5 几小时后的快速印象：
 
 → 它想要大任务。小事情让它觉得不够用，工作越复杂它越发力
@@ -1322,6 +1356,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **使用 Fable 5 时采用目标导向提示、验证循环和 effort 设置，而不是细碎的逐步指令。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f180cebef645f5ad8efdeb92.jpg" alt="Fable 5 初学者使用指南" width="760">
+
 Claude 初学者指南：关于 Fable 5 你需要知道的事。
 
 Anthropic 最近发布了 Claude Fable 5，也被称为 Claude Mythos 5，它在基准测试中正在把其他 AI 模型甩在后面。
@@ -1366,6 +1402,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 26: [可复制粘贴的仓库审计提示词](https://x.com/meta_alchemist/status/2064431279383433646)（作者 [@meta_alchemist](https://x.com/meta_alchemist)）
 
 **把仓库审计提示词粘贴进 Fable 5，要求基于文件的探索、发现项、策略和里程碑任务计划。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/846e5ecb825853db17bd3564.jpg" alt="可复制粘贴的仓库审计提示词" width="760">
 
 已经用上 Claude Fable 5 了吗？
 
@@ -1565,6 +1603,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **在访问窗口有利时，把 Fable 5 用量花在审计、架构和规划上，然后使用更便宜的模型执行。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a4293d14cc7571bdcf8b1478.png" alt="限时窗口使用策略" width="760">
+
 给对 Fable 5 感到兴奋的 Claude 用户一个提示：
 
 Claude Fable 5 全面 SOTA，而且领先幅度很大，我很喜欢这一点。
@@ -1587,6 +1627,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 28: [在 Claude Code 中使用 Goals 和 Workflows](https://x.com/oikon48/status/2064402696124453157)（作者 [@oikon48](https://x.com/oikon48)）
 
 **在实现前把 Fable 5 当作思考伙伴，然后结合 `/goal` 和 workflows 执行并验证计划。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/bcf9dc92c525978c69b3c869.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9567dd41be289437a45f8800.jpg" alt="在 Claude Code 中使用 Goals 和 Workflows" width="760"><br>▶ 播放视频</a>
 
 Claude Code 团队的 Thariq 解释说，Claude Fable 5 出来后，工作方式发生了根本变化。
 
@@ -1636,6 +1678,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **配置 Hermes 使用 `anthropic/claude-fable-5` 运行复杂 `/goal` 和缓存的长周期任务。**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/4a3b9936f91986268dfeb748.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d9a63a0c689f8e305289a9e6.jpg" alt="Hermes Agent 集成配置" width="760"><br>▶ 播放视频</a>
+
 HERMES AGENT 现在运行在 CLAUDE FABLE 5 上，这是 Anthropic 第一个公开的 Mythos-class 模型。
 
 6 月 9 日发布。它为 Hermes 最擅长的那类工作而生：长周期自主任务。
@@ -1677,6 +1721,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **使用本案例理解 Fable 5 何时可用、成本多少，以及哪些受保护领域可能回退到另一个模型。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d0d76497e4c8f77d3d081493.jpg" alt="能力、定价与订阅说明" width="760">
+
 Anthropic 发布了 Claude Fable 5 和 Claude Mythos 5，这是他们迄今最强模型的两个版本。
 
 Fable 5 面向一般用途。
@@ -1713,6 +1759,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 31: [发布、访问、定价与安全摘要](https://x.com/ctgptlb/status/2064410460963934479)（作者 [@ctgptlb](https://x.com/ctgptlb)）
 
 **使用这份发布摘要选择访问路径、API 模型名、上下文窗口、缓存策略和订阅时机。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7620f9d5f1c29e9f6c3178e4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0b89d6ace5df7c0f3ebe064e.jpg" alt="发布、访问、定价与安全摘要" width="760"><br>▶ 播放视频</a>
 
 关于 Claude Fable 5，这个终于普遍可用的 Mythos-class 模型，你应该知道的摘要。
 
@@ -1773,6 +1821,10 @@ Type: Tutorial | Date: 2026-06-09
 
 **当边际智能值得付费时，在便宜模型工作流中把 Fable 5 用作 advisor 或 reviewer。**
 
+关联文章中的 Opus 顾问示例，并非 Fable 的基准测试结果。 [yage.ai](https://yage.ai/share/claude-advisor-tool-20260609.html)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a21858fed45b612b616e34ce.png" alt="基于 Advisor 的降本策略" width="760">
+
 Fable 5 很贵，但 Anthropic 两个月前已经发布了省钱答案。
 
 今天 Anthropic 发布 Claude Fable 5，价格为每百万 output tokens $50，是 Sonnet 的三倍多。6 月 22 日之后，订阅用户也要按用量付费。
@@ -1813,6 +1865,8 @@ Type: Integration | Date: 2026-06-09
 ### Case 33: [定价、访问与安全护栏](https://x.com/op7418/status/2064399444523782377)（作者 [@op7418](https://x.com/op7418)）
 
 **在规划工作负载前，使用本案例理解 Fable 5 访问、API 定价和安全回退行为。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/2c2a9233f1949a99d9faef82.jpg" alt="定价、访问与安全护栏" width="760">
 
 我没想到 Anthropic 的 Mythos 模型今天真的发布了。
 
@@ -1855,6 +1909,8 @@ Type: Integration | Date: 2026-06-09
 
 **将 Swarms 模型名设置为 `anthropic/claude-fable-5`，并通过 Swarms 框架或 API 运行 Fable 5。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f5a8738199642ccb4108d9bb.jpg" alt="一行代码集成 Swarms" width="760">
+
 Fable 5 和 Mythos 现在已在 Swarms 上线 👾🦀
 
 从发布第一天起，两个模型就在 Swarms Python framework 和 Swarms API 中得到完整支持。开发者可以立即开始构建，不需要迁移、额外配置或基础设施更改。
@@ -1877,6 +1933,8 @@ Type: Integration | Date: 2026-06-09
 ### Case 35: [Fable 5 vs GPT-5.5 成本与质量对比](https://x.com/AlicanKiraz0/status/2064424400494186867)（作者 [@AlicanKiraz0](https://x.com/AlicanKiraz0)）
 
 **在同一个编码任务上比较 Fable 5 和 GPT-5.5，判断输出质量、运行时间和工具成本。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d25a9995414a9bb037269251.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/16f724918a63d35c0d552145.jpg" alt="Fable 5 vs GPT-5.5 成本与质量对比" width="760"><br>▶ 播放视频</a>
 
 Cursor Fable 5 Max vs Codex GPT 5.5 Very High。
 
@@ -1915,6 +1973,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **使用这个基准案例评估 Fable 5 的知识准确性和幻觉行为。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/dd1356eb4a23ba254bfbb669.jpg" alt="AA-Omniscience 基准结果" width="760">
+
 Claude Fable 5 在我们的知识与幻觉基准 AA-Omniscience 上取得了迄今最高分。
 
 这个分数由领先的准确率（问题回答正确百分比）驱动，而不是低幻觉率。
@@ -1929,6 +1989,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 37: [Artificial Analysis 智能指数结果](https://x.com/ArtificialAnlys/status/2064500150069030992)（作者 [@ArtificialAnlys](https://x.com/ArtificialAnlys)）
 
 **使用本案例对照其他 frontier 模型，衡量 Fable 5 的整体智能排名。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f9f3da0006bc0eb2c245281b.jpg" alt="Artificial Analysis 智能指数结果" width="760">
 
 Claude Fable 5 在 Artificial Analysis Intelligence Index 上发布即排名 #1，使 Anthropic 领先其他任何实验室最佳模型近 5 分。
 
@@ -1988,6 +2050,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 38: [GDPval-AA 代理式知识工作基准](https://x.com/ArtificialAnlys/status/2064414308289937869)（作者 [@ArtificialAnlys](https://x.com/ArtificialAnlys)）
 
 **使用本案例评估 Fable 5 在代理式真实世界知识工作上的表现。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/18572fdb3c0d8a57ba52e095.jpg" alt="GDPval-AA 代理式知识工作基准" width="760">
 
 Anthropic 发布了 Claude Fable 5，这是第一个公开可用的 Mythos-class 模型，在我们的代理式真实世界知识工作基准 GDPval-AA 中排名 #1。
 
@@ -2052,6 +2116,8 @@ Type: Integration | Date: 2026-06-09
 
 **使用本对比判断质量提升是否值得更高成本和更慢的长周期运行。**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/789680ca7655fca20b635442.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/691d0518cb50a6bebbb8b2b1.jpg" alt="成本与速度对比" width="760"><br>▶ 播放视频</a>
+
 @AnthropicAI 的 Fable 5 真的值得升级吗？
 
 我们将新的 Mythos-family 模型与 Claude Opus 4.8 做了基准对比，数据讲了一个有点意外的故事：
@@ -2072,6 +2138,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 41: [Claude Code 上手笔记](https://x.com/Hi_Noguchi/status/2064419241068319079)（作者 [@Hi_Noguchi](https://x.com/Hi_Noguchi)）
 
 **使用本案例评估 Claude Code 中的 Fable 5，包括工具使用、性格和剩余粗糙点。**
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5feb645426dcf905eac2992d.jpg" alt="Claude Code 上手笔记" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/933c469793e248f634cfad55.jpg" alt="Claude Code 上手笔记" width="760"></td></tr></table>
 
 我用 Claude Code 2.1.170 试了 Claude Fable 5。
 
@@ -2098,6 +2166,8 @@ Type: Demo | Date: 2026-06-09
 
 **使用这个基准案例判断 Fable 5 的短篇小说写作质量和拒答行为。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5849f936dc58518fd5d810ef.jpg" alt="创意写作基准结果" width="760">
+
 Claude Fable 5 (high) 在短篇小说写作上提升了一档。
 
 在 Short-Story Creative Writing Benchmark 上，它击败 Claude Opus 4.8 (xhigh) 和 Claude Opus 4.7 (high)，排名第二，仅次于 GPT-5.5 (xhigh)。
@@ -2114,6 +2184,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 43: [多基准发布摘要](https://x.com/MTSlive/status/2064430633800319436)（作者 [@MTSlive](https://x.com/MTSlive)）
 
 **使用这份发布基准摘要理解与编码代理和复杂任务最相关的头部分数。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/45b71a2babb9da9a93f43220.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c25c02c52c5d4b6b24364401.jpg" alt="多基准发布摘要" width="760"><br>▶ 播放视频</a>
 
 SITUATION EXPLAINED：Claude Fable 5 刚刚发布。
 • Anthropic 今天发布 Claude Fable 5，“一个为一般用途安全化的 Mythos class model”
@@ -2132,6 +2204,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 44: [与 GPT-5.5 的基准和定价对比](https://x.com/VaibhavSisinty/status/2064459064810361271)（作者 [@VaibhavSisinty](https://x.com/VaibhavSisinty)）
 
 **使用本对比从价格和基准类别上评估 Fable 5 与 GPT-5.5。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e39fb67b74af346e8fbb67ea.jpg" alt="与 GPT-5.5 的基准和定价对比" width="760">
 
 Anthropic 的新 Mythos-class 模型比 OpenAI 的最佳模型便宜 3 倍。而且它几乎在每个基准上都击败后者。🤯
 
@@ -2198,6 +2272,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **用相同物理模拟提示词分别测试 Fable 5 和 Opus 4.8，对比输出质量、成本和速度。**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/06387b798061869ccaeaf586.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/df5cc72de1f70556de0d682b.jpg" alt="物理模拟对比" width="760"><br>▶ 播放视频</a>
+
 新的 Fable 5 在真实世界物理模拟上击败 Opus 4.8。
 
 我们给两个模型同样的三个提示词，要求它们在没有库的情况下构建自包含 HTML5 模拟，并带真实物理：
@@ -2243,6 +2319,8 @@ Type: Demo | Date: 2026-06-09
 
 **在把 Fable 5 作为日常主力前，使用本案例理解实际优缺点。**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/fdba0d6cb9ba0e1214113e65.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d2825453d0a742892a4fe529.jpg" alt="多维度优缺点" width="760"><br>▶ 播放视频</a>
+
 Fable 5（也叫 baby Mythos）刚刚发布。它是否像他们声称的那样吓人（或者强到吓人）？一些早期测试后的想法：
 - smart smart smart（碾压 SWE bench）
 - 但你是否总是需要超高智能？
@@ -2265,6 +2343,8 @@ Type: Demo | Date: 2026-06-09
 
 **将 S-1 起草提示词作为法律代理能力测试，并比较结构、格式和长度。**
 
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/bb874ef2647de32ccdb3edf9.png" alt="法律 S-1 起草测试" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6a9c3856ebce1bd9cd3d062d.jpg" alt="法律 S-1 起草测试" width="760"></td></tr><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/96734bfca49d5b3fe6f83ed5.png" alt="法律 S-1 起草测试" width="760"></td></tr></table>
+
 我总是在新模型上运行的第一个法律能力测试提示词是：“Draft an S-1”。
 
 它会立刻让人很好地感知模型的一般能力。你可以从 S-1 的长度、格式、结构和写作中看出新模型在通用和法律表现上可能有多大提升。
@@ -2285,6 +2365,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 50: [医疗健康基准细节](https://x.com/iScienceLuvr/status/2064411823445774554)（作者 [@iScienceLuvr](https://x.com/iScienceLuvr)）
 
 **使用这条基准笔记评估 Fable 5 在医疗健康相关任务上的表现，并识别缺失的高难医学评测。**
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f599a548651eccbfce8b888d.jpg" alt="医疗健康基准细节" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/69ebc490407b9d54c6de3707.jpg" alt="医疗健康基准细节" width="760"></td></tr><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/1a89ad2c2622cdbba994d70c.jpg" alt="医疗健康基准细节" width="760"></td></tr></table>
 
 我感谢 Anthropic 提供医疗健康相关 evals。我们快速过一遍。
 
@@ -2315,6 +2397,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **使用本案例判断相较专用 OCR 系统，Fable 5 用于文档解析是否具备成本效率。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ae01590f41e6954f27278848.png" alt="ParseBench 文档解析评测" width="760">
+
 Claude Fable 5 觉得文档解析配不上它。
 
 它在推理密集和长周期基准上绝对碾压：SWE-Bench Pro、FrontierCode、GDPval、RuneScape 等。
@@ -2337,6 +2421,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 52: [SWE-Bench Pro 与 FrontierCode 对比](https://x.com/jumperz/status/2064402965461406044)（作者 [@jumperz](https://x.com/jumperz)）
 
 **使用这个基准案例评估 Fable 5 在迁移、复杂实现、自主会话、测试和视觉验证方面的能力。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/771df9c428ba5cc0a8fab5de.png" alt="SWE-Bench Pro 与 FrontierCode 对比" width="760">
 
 Fable 5 来了，而且它在 agentic coding benchmark SWE-Bench Pro 上真的摧毁了 GPT 5.5：
 
@@ -2398,6 +2484,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **使用这个 ParseBench 结果判断文档忠实度和格式表现。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/2888842a85fbd5c7a4a22e24.png" alt="ParseBench 忠实度与格式结果" width="760">
+
 Day 0 Anthropic Fable 5 in ParseBench。
 
 我们测试了该模型在文档理解方面的进步。
@@ -2422,6 +2510,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 55: [基准、定价、访问与安全措施](https://x.com/lucas_flatwhite/status/2064483645184979183)（作者 [@lucas_flatwhite](https://x.com/lucas_flatwhite)）
 
 **把本案例作为基准、定价、访问、安全措施和战略影响的广泛 checklist。**
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f44cba8e6f3d765ca5960923.png" alt="基准、定价、访问与安全措施" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/8f13714ca9f9e20711fdd898.jpg" alt="基准、定价、访问与安全措施" width="760"></td></tr><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0d1f69a50478623f5e1d0248.jpg" alt="基准、定价、访问与安全措施" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0cf2c270484f1e2aba514261.jpg" alt="基准、定价、访问与安全措施" width="760"></td></tr></table>
 
 Claude Fable 5 和 Mythos 5 已经发布。它们是 Anthropic 迄今最强的模型。
 
@@ -2482,6 +2572,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **使用这个基准列表理解 Fable 5 在编码、计算机使用和安全任务上的官方分数。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/b548ec23f85e3eb1600e9214.jpg" alt="官方基准分数列表" width="760">
+
 官方 Claude Fable 5 基准非常 impressive。
 
 关键分数：
@@ -2509,6 +2601,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **使用本案例评估 Fable 5 在 APEX-SWE 上的表现，尤其是 observability 和 integration 工作。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/96120496893ca99f17d0c746.jpg" alt="APEX-SWE 基准方法论" width="760">
+
 Claude Fable 5 在 APEX-SWE 上排名 #1：整体 65.5% Pass@1。它比 Opus 4.8 高约 18pp。我们在 APEX-SWE 上测试 @claudeai Fable 5，该基准衡量 AI 模型是否能完成真实软件工程工作。Fable 5 在我们的两个 APEX-SWE 类别中领先：
 - Integration：61.3%
 - Observability：69.7%
@@ -2527,6 +2621,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 58: [ProofBench 形式化数学结果](https://x.com/nicbstme/status/2064443782255554960)（作者 [@nicbstme](https://x.com/nicbstme)）
 
 **使用本案例评估 Fable 5 在形式化数学上相对专用定理证明系统的表现。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/588cff83994406d2b5dd7cb9.jpg" alt="ProofBench 形式化数学结果" width="760">
 
 我觉得 Claude Fable 5 迷人的地方在于，它再次证明大型通用模型会超过垂直模型。
 
@@ -2553,6 +2649,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 59: [VirtueBench 初步分析](https://x.com/timhwang/status/2064446028997423180)（作者 [@timhwang](https://x.com/timhwang)）
 
 **使用本案例检查 Fable 5 在不同美德类别中的道德推理行为。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9caae04d701510ca662873fe.png" alt="VirtueBench 初步分析" width="760">
 
 ICMI 将在未来几天发布更完整细节，这些结果很有意思；这里是用 Fable 5 跑 VirtueBench 的初步评测。
 
@@ -2581,6 +2679,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **使用本案例理解发布期安全过拟合风险，以及 API 测试中的空响应行为。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e9f75a2a76f55ee2b12b7aab.jpg" alt="API 空响应安全过拟合测试" width="760">
+
 Claude Fable 5 被重度审查。
 
 上游 API endpoint 正在以 `empty_content` 响应终止调用，看起来与关键词上的分类器相关，同时仍然收费。
@@ -2602,6 +2702,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **用这份提示词指南，把重点从拉长提示词技巧转向目标、上下文、约束、工具和验证循环。**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/444a6e1898d3f63898e3e22f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d5c9529aa9c1d59ae597d31d.jpg" alt="Fable 提示词验证指南" width="760"><br>▶ 播放视频</a>
+
 把 Fable 5 的提示词设计看成上下文与环境设计，而不是冗长的逐步指令列表。这条帖子总结了一个实用模式：提供清晰目标、相关上下文、约束、工具访问方式，以及验证成功的方法。它还认为，验证、评估和反馈，比微观管理模型的推理过程更重要。
 
 Type: Tutorial | Date: 2026-06-11
@@ -2612,6 +2714,8 @@ Type: Tutorial | Date: 2026-06-11
 ### Case 62: [伊斯坦布尔平台游戏参考构建](https://x.com/ozansihay/status/2064973170780545535)（作者 [@ozansihay](https://x.com/ozansihay)）
 
 **用一张参考 sprite sheet 加上一条转换指令，测试 Fable 5 是否能生成可玩的平台游戏。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/1e91c3bcff213437fdd442f6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/538fc8ee9dd7e627bc73921a.jpg" alt="伊斯坦布尔平台游戏参考构建" width="760"><br>▶ 播放视频</a>
 
 创作者先用 GPT Image 2 生成了一张复古风格的伊斯坦布尔平台游戏 sprite sheet，然后把这张参考图交给 Claude Fable 5 High，并要求它把图片变成游戏。帖文称，结果是在单次运行中产出的。
 
@@ -2624,6 +2728,8 @@ Type: Demo | Date: 2026-06-11
 
 **用 Fable 5 把业务工作流转成一个实时 3D 城市仪表板概念。**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f238acf3f8804068085ff134.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/3d938264442a14676a86c4f3.jpg" alt="商业 3D 城市仪表板" width="760"><br>▶ 播放视频</a>
+
 这条帖子描述了一个单提示词商业可视化案例：仓库、打包、无人机、订单、部门、客户和 AI 助手都被映射成一个实时 3D 城市。它把这个输出定位为静态幻灯片的面向客户替代方案，画面上还展示了 42 次配送、12 分钟平均时长和 651 美元收入等运营数据。
 
 Type: Demo | Date: 2026-06-11
@@ -2634,6 +2740,8 @@ Type: Demo | Date: 2026-06-11
 ### Case 64: [Three.js Hole 游戏一次生成](https://x.com/thebuggeddev/status/2064968106104275008)（作者 [@thebuggeddev](https://x.com/thebuggeddev)）
 
 **用 Fable 5 一次生成一个基于 Three.js 的 3D 浏览器游戏原型。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/86a75412c6c443b3d0e62bf8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f11df06938c26759710a1981.jpg" alt="Three.js Hole 游戏一次生成" width="760"><br>▶ 播放视频</a>
 
 创作者表示，Fable 5 用 Three.js 一次性构建了一个完整的 3D HOLE IT 风格游戏。这是一个轻量但具体的游戏生成 demo，可用来测试模型是否能从紧凑请求中产出可玩的 3D 交互。
 
@@ -2646,6 +2754,8 @@ Type: Demo | Date: 2026-06-11
 
 **用这条 DeepSWE 记录，对比 Fable 5 xHigh 和 GPT-5.5 xHigh 在软件工程基准上的表现。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/996d95539a3b54fecbfdf404.jpg" alt="DeepSWE 评分对比" width="760">
+
 这条帖子称 Claude Fable 5 xHigh 在 DeepSWE 上拿到 70%，与 GPT-5.5 xHigh 持平，并把 Theo 最近的视频作为来源上下文。应把它视为一个基准线索，在作出更强判断前，仍需回头核对底层视频内容。
 
 Type: Evaluation | Date: 2026-06-11
@@ -2656,6 +2766,8 @@ Type: Evaluation | Date: 2026-06-11
 ### Case 66: [仓库成本对比](https://x.com/Pilgrim6938/status/2064946766278210038)（作者 [@Pilgrim6938](https://x.com/Pilgrim6938)）
 
 **用这个仓库分析对比，判断 token 价格和人工返工成本之间的关系。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/cfb0c1ff3e8ebe66cfa35400.jpg" alt="仓库成本对比" width="760">
 
 这条帖子比较了 Claude Fable 5、Opus 4.8、GPT-5.5 和 Gemini 3.1 Pro 在同一任务上的表现：分析一个约 9 万行代码的仓库、定位缓存失效问题，并提出完整修复计划。作者认为，一旦把开发者修正时间算进去，原始 token 单价和真实任务成本就会出现明显偏差，并建议只在复杂重构、跨模块迁移和长链代理任务中选择性使用 Fable 5。
 
@@ -2668,6 +2780,8 @@ Type: Evaluation | Date: 2026-06-11
 
 **用这个单次生成的游戏案例估算 Fable 5 的输出质量和 token 消耗。**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9ce65e5fee946b6940810e0d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7c577d0766bbc3da8cddeb70.jpg" alt="Super Mario 游戏 Token 成本" width="760"><br>▶ 播放视频</a>
+
 创作者让 Claude Fable 5 构建一个 Super Mario 任天堂风格游戏。帖子称，这个任务大约用了 200 万 token，并产出了一个很强的单次生成结果，因此适合同时评估游戏构建质量和成本。
 
 Type: Demo | Date: 2026-06-11
@@ -2678,6 +2792,8 @@ Type: Demo | Date: 2026-06-11
 ### Case 68: [Claude Code Fallback 设置](https://x.com/oikon48/status/2064937790010503347)（作者 [@oikon48](https://x.com/oikon48)）
 
 **用这个案例了解 Claude Code 在 Fable 5 消息被标记时如何切换模型。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0ae9039401c658170e5081e8.jpg" alt="Claude Code Fallback 设置" width="760">
 
 这条帖子指出，Claude Code 的 `/config` 中有一个名为 “Switch models when a message is flagged.” 的设置。它说明，对于攻击性网络安全技术、生物或生命科学实验方法、分子机制，或要求提取模型思维过程等被标记领域，Fable 5 可以回退到 Opus 模型。
 
@@ -2690,6 +2806,8 @@ Type: Integration | Date: 2026-06-11
 
 **用这个 demo 作为 Fable 5 为公共交通模拟器进行 vibe coding 的紧凑示例。**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0e0dae71ad7b5ead331366fb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/86dccb2b150cfb90fbd03de2.jpg" alt="Namma Metro 模拟器构建" width="760"><br>▶ 播放视频</a>
+
 创作者称，他在乘坐 Bengaluru Metro 时，把 Claude Fable 5 当作编码伙伴，构建了一个 Namma Metro 模拟器。这条帖子很简短，但它链接到了可视化 demo，也展示了 Fable 5 被用于一个带有地域特定背景的模拟想法。
 
 Type: Demo | Date: 2026-06-11
@@ -2700,6 +2818,8 @@ Type: Demo | Date: 2026-06-11
 ### Case 70: [Dusk Drive 单提示词游戏](https://x.com/VincentLogic/status/2064921358359011684)（作者 [@VincentLogic](https://x.com/VincentLogic)）
 
 **用这个单提示词驾驶游戏案例，评估 Fable 5 在无需人工编辑时进行 low-poly 游戏原型开发的能力。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/274fed4f3211ec8c02862261.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5d7a58bcad6e2151517a8462.jpg" alt="Dusk Drive 单提示词游戏" width="760"><br>▶ 播放视频</a>
 
 这条帖子描述 Claude Fable 5 仅凭一个提示词，就创建了完整的驾驶游戏 Dusk Drive。创作者强调了 low-poly 视觉风格、极光与飘雪场景，以及从想法到可玩版本之间零人工编辑的说法。
 
@@ -2712,6 +2832,8 @@ Type: Demo | Date: 2026-06-11
 
 **用这个 APEX-Agents 结果，对比 Fable 5 Max 在多步骤自主任务上的表现。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/189c46cfd2798d6881941f98.jpg" alt="APEX-Agents Pass@1 排名" width="760">
+
 这条帖子称，Fable 5 Max 以 45% Pass@1 排在 APEX-Agents 排行榜第二，位于 Gemini 3.5 Flash 之后、Opus 之前。它还把 APEX-Agents 描述为一个衡量 AI 能否独立完成复杂多步骤任务的基准。
 
 Type: Evaluation | Date: 2026-06-11
@@ -2722,6 +2844,8 @@ Type: Evaluation | Date: 2026-06-11
 ### Case 72: [Claude 模型选择手册](https://x.com/charliejhills/status/2064957428211536212)（作者 [@charliejhills](https://x.com/charliejhills)）
 
 **用这份模型选型手册，把 Fable 5 留给 Claude Code 中最难的任务。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/959ebfa499d2bf75df5bec25.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/3bcfe8f1e2238b01d3c4d954.jpg" alt="Claude 模型选择手册" width="760"><br>▶ 播放视频</a>
 
 这条帖子比较了 Haiku 4.5、Sonnet 4.6、Opus 4.8 和 Fable 5 在模型强度和额度使用上的差异。它给出的实用建议是：日常工作跑 Sonnet，较难问题切到 Opus，而 Fable 5 留给那些最棘手、真正需要规划、构建和测试深度的 Claude Code 任务。
 
@@ -2734,6 +2858,8 @@ Type: Tutorial | Date: 2026-06-11
 
 **用这个案例研究一个免手动干预的 Fable 5 循环，它会持续构建、测试、游玩和做 smoke test。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e334a84db7b671eb6a1a3f54.jpg" alt="HermesWorld 自动代理循环" width="760">
+
 创作者描述了用 Fable 5 通过全自动循环构建 HermesWorld v2。这个代理据称会持续运行数天，不断构建功能、测试功能、亲自游玩结果，并对整体做 smoke test，一路推进到完成。
 
 Type: Integration | Date: 2026-06-11
@@ -2744,6 +2870,8 @@ Type: Integration | Date: 2026-06-11
 ### Case 74: [麦肯锡风格报告提示词测试](https://x.com/smtgpt/status/2064953210335588758)（作者 [@smtgpt](https://x.com/smtgpt)）
 
 **用这条文档生成提示词，评估咨询报告的结构、图表、叙事和风险分析。**
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e337dca3bbada9167e20417c.jpg" alt="麦肯锡风格报告提示词测试" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6289e626a4f324fc93086100.jpg" alt="麦肯锡风格报告提示词测试" width="760"></td></tr></table>
 
 创作者给了 Fable 5 一条提示词，要求它围绕比特币作为资产类别和区块链技术，生成一份麦肯锡风格的详细报告，并在需要时加入图表和可视化。帖文称输出是一份 19 页文档，包含数据、图表、投资论点和风险分析；评价则认为其结构很强，但视觉仍可更利落，解释也还能更紧凑。
 
@@ -2767,6 +2895,8 @@ Type: Integration | Date: 2026-06-11
 
 **用这条 Claude Code 更新说明，避免 Fable 5 的模型名和上下文匹配问题。**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e66551db2c85ef7f8c4a3f4e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ae7cbd873deebd28d3ff05d7.jpg" alt="Claude Code 模型匹配修复" width="760"><br>▶ 播放视频</a>
+
 Claude Code 2.1.173 包含一个修复：会从 Fable 5 的模型名中去掉 `[1m]` 后缀，以避免默认 1M 上下文破坏模型匹配。同一版本还抑制了一个多余的 Windows 沙盒依赖警告，并澄清了 grep 帮助输出模式。
 
 Type: Integration | Date: 2026-06-11
@@ -2776,9 +2906,9 @@ Type: Integration | Date: 2026-06-11
 <a id="case-77"></a>
 ### Case 77: [Claude Code 中的三个 Web App](https://x.com/0x3b33/status/2064948399300825439)（作者 [@0x3b33](https://x.com/0x3b33)）
 
-**用这个新手编码 demo，观察 Fable 5 在 Claude Code 中生成多个 Web App 的表现。**
+**区分作者报告的应用开发结果与可以公开访问的演示。**
 
-创作者表示，自己没有编程背景，却借助 Claude Code 和 Fable 5 在 30 分钟内做出了三个可运行的 Web App，分别本地暴露在 3000、3001 和 3002 端口上。更适合把它当作一个轻量的新手工作流 demo，而不是严格基准。
+帖子称在 30 分钟内构建了三个 Web 应用，但只提供了端口为 3000、3001、3002 的 localhost 地址。这些地址指向本地机器，并不是可以公开访问的应用或媒体链接。
 
 Type: Demo | Date: 2026-06-11
 
@@ -2788,6 +2918,8 @@ Type: Demo | Date: 2026-06-11
 ### Case 78: [Rilable 开源 App 构建器](https://x.com/rileybrown/status/2064931283403178354)（作者 [@rileybrown](https://x.com/rileybrown)）
 
 **用这个开源 App 构建器案例研究 Fable 5 在 iOS、Web App、沙盒和 API token 成本上的应用。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/73ee02ae0f6703a8cfbe5a6c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f30c1d169ce45b19beb493b7.jpg" alt="Rilable 开源 App 构建器" width="760"><br>▶ 播放视频</a>
 
 创作者开源了 Rilable，这是一款能构建 Web App 和 iOS App 的 iOS 应用。帖子称，它用 Fable 5 在 10 条提示词内完成，API token 成本约 210 美元，使用 Claude 模型生成应用，通过 Daytona 拉起沙盒，用 Convex 做数据库，用 Vercel AI Gateway 提供 AI 功能，并借助 Chorus agent iOS skill 处理 iOS App。
 
@@ -2800,6 +2932,8 @@ Type: Integration | Date: 2026-06-11
 
 **用更新后的 Artificial Analysis 指数，对比 Fable 5 在更难的代理式编码任务上的表现，这些任务避免复用公开 GitHub 修复。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7b9ab8ba77c1e29f8ba4d270.jpg" alt="DeepSWE 编码代理指数首秀" width="760">
+
 Artificial Analysis 在其 Coding Agent Index 中用 Datacurve 的 DeepSWE 替换了 SWE-Bench Pro。帖子称，DeepSWE 会从零编写任务，而不是改写公开 GitHub issue 或 pull request，从而减少基准污染。在更新后的排名中，搭配 Fable 5 Max 的 Claude Code 以 77 分首秀，领先于搭配 GPT-5.5 xhigh 的 Codex 的 76 分，以及搭配 Opus 4.8 Max 的 Claude Code 的 73 分。
 
 Type: Evaluation | Date: 2026-06-12
@@ -2810,6 +2944,8 @@ Type: Evaluation | Date: 2026-06-12
 ### Case 80: [DataEmpire 网站分析游戏](https://x.com/marclou/status/2065029898243318093)（作者 [@marclou](https://x.com/marclou)）
 
 **让 Claude Fable 5 把访客和里程碑映射成游戏实体，把原始网站分析数据变成可重玩的游戏。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/2850773b9869c5521200f2e0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6d2dd87d74ece01b277e1e12.jpg" alt="DataEmpire 网站分析游戏" width="760"><br>▶ 播放视频</a>
 
 Marc Lou 表示，Claude Fable 5 基于他的 DataFast 网站分析 API 构建了 DataEmpire。每位访客都会变成村民，流量增长会扩展聚落，而当访客达到 100 万时会解锁 Age of Legends。公开 demo 允许 DataFast 用户通过游戏层重放自己网站的历史，因此这更像一个有 API 支撑的产品化案例，而不是静态游戏片段。
 
@@ -2822,6 +2958,8 @@ Type: Integration | Date: 2026-06-11
 
 **用 FrontierSWE 证明 Fable 5 不只适合短期修 bug，也能在超长工程任务中持续保持产出。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/eb36bb1120ef55f9e38c516d.jpg" alt="FrontierSWE 20 小时任务信号" width="760">
+
 ProximalHQ 表示，Claude Fable 5 在 FrontierSWE 上排名第一，并称这是自他们发布该基准以来见过的最大能力跃迁。他们的说明称，Fable 5 在很多任务上可以持续高效工作接近 20 小时，并能把早期模型实际上难以企及的任务真正做满。
 
 Type: Evaluation | Date: 2026-06-11
@@ -2832,6 +2970,8 @@ Type: Evaluation | Date: 2026-06-11
 ### Case 82: [KernelBench-Hard CUDA 记录](https://x.com/elliotarledge/status/2065109393142849932)（作者 [@elliotarledge](https://x.com/elliotarledge)）
 
 **当你需要低层优化而不只是现有库封装时，用 Fable 5 处理高级 CUDA kernel 生成。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6c6931ed511eb3e539d56bc3.jpg" alt="KernelBench-Hard CUDA 记录" width="760">
 
 Elliot Arledge 在 KernelBench-Hard 上让 13 个 frontier 编码代理各跑了 45 分钟，并基于 RTX PRO 6000 做 roofline 评分。Claude Fable 5 在 top-k、sonic-MoE 和 W4A16 int4 GEMM 上创下历史记录，在 6 个问题里拿下 5 个第一，作者还公开了运行结果、排行榜和代码。同一串帖子也提到一次 FP8 GEMM 失手：Fable 5 尝试写了真正的 tensor-core kernel，但因为尾部对齐边界情况拿了 0 分。
 
@@ -2844,6 +2984,8 @@ Type: Evaluation | Date: 2026-06-11
 
 **把竞品页面抓进 Figma 图层后，让 Claude Code 配合 Fable 5 重建结构、文案和品牌系统，而不是靠截图猜测。**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5672cc8fd9d210042551f0ea.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/503c46a33c97f0db334ddc62.jpg" alt="Figma Capture 落地页克隆" width="760"><br>▶ 播放视频</a>
+
 Mike Futia 描述了一个工作流：先用 Figma 的 Chrome 扩展把网站复制成可编辑图层，再让 Claude Code 通过 Figma MCP 读取这些图层，用用户自己的品牌语气重写页面，并由 GPT Image 2 生成符合品牌的摄影图。声称的端到端结果是，大约 15 分钟就能做出一个可上线的落地页，而 16 张图片的生成 API 成本大约只有 2 美元。
 
 Type: Integration | Date: 2026-06-12
@@ -2854,6 +2996,8 @@ Type: Integration | Date: 2026-06-12
 ### Case 84: [两小时做出 GTA 2 克隆](https://x.com/techhalla/status/2064682080445898957)（作者 [@techhalla](https://x.com/techhalla)）
 
 **把 Fable 5 的代码生成和独立素材工具结合起来，快速做出可玩的 3D 游戏，而不必手写整个技术栈。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e0a1b46659d7a8287cb2f9d5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/cd1a2ad71e71db936bdcfd22.jpg" alt="两小时做出 GTA 2 克隆" width="760"><br>▶ 播放视频</a>
 
 TechHalla 表示，Claude Fable 5 High 在大约两小时内做出了一个 GTA 2 风格克隆，而创作者则在 Tripo 中生成自定义 3D 模型。帖子还指向一个带提示词的教程线程，因此这更像是一个多工具游戏生产的紧凑示例，而不是单纯的基准预告。
 
@@ -2866,6 +3010,8 @@ Type: Tutorial | Date: 2026-06-10
 
 **让 Fable 5 驱动的代理消化超大规模服务日志上下文，先推断架构，再收敛到具体故障。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7f0f46eb79e43d87a2006fd4.jpg" alt="CloudWatch 日志分诊代理" width="760">
+
 diblacksmith 表示，一个 RLM 代理在单次运行中处理了大约 8 万行 CloudWatch 日志，走到 53 步时，当前只消耗了约 3.2 万活跃 token。他说，这个代理从日志中推断出了系统架构，还标出了团队之前漏掉的问题，包括 AgentCore 限流和 Slack `user_not_found` 失败。
 
 Type: Integration | Date: 2026-06-14
@@ -2876,6 +3022,8 @@ Type: Integration | Date: 2026-06-14
 ### Case 86: [沙盒中的世界杯预测器](https://x.com/upstash/status/2064702195333820846)（作者 [@upstash](https://x.com/upstash)）
 
 **把多个 frontier 模型放进隔离沙盒，让它们为公开预测应用研究实时新闻、伤病和黄牌背景。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a5cf4fe5944c7aa2f703f4cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5b1f1422fe322bb7b66bdcc6.jpg" alt="沙盒中的世界杯预测器" width="760"><br>▶ 播放视频</a>
 
 Upstash 表示，它在隔离的 Upstash 沙盒中运行 Claude Fable 5、GPT-5.5 和 Gemini，构建了一个世界杯预测器。这个 demo 和开源发布把 Fable 5 放在一个多模型研究与编排栈中的其中一环，而不只是单独的聊天演示。
 
@@ -2888,6 +3036,8 @@ Type: Integration | Date: 2026-06-10
 
 **在为 Fable 5 的长自主运行定价时，把拒答行为视为真实的基准变量。**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/453639cc17719af4e94655e0.jpg" alt="WolfBench 拒答成本案例" width="760">
+
 WolfBenchAI 表示，它对 Claude Fable 5 的评测花费了 11,081.12 美元，是该套基准中迄今最昂贵的一次，但依然没能登顶，因为重复拒答降低了有效任务完成量。对于需要给代理评测或其他高自主工作负载做预算的团队，这是一个很具体的限制案例。
 
 Type: Evaluation | Date: 2026-06-12
@@ -2898,6 +3048,8 @@ Type: Evaluation | Date: 2026-06-12
 ### Case 88: [API 访问截止追踪器](https://x.com/simonw/status/2065618703480414666)（作者 [@simonw](https://x.com/simonw)）
 
 **如果你的工作流依赖持续访问某个可能被限流或撤下的 frontier 模型，就用脚本监控可用性。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7400c158cb93d9480a22bb46.jpg" alt="API 访问截止追踪器" width="760">
 
 Simon Willison 表示，他每分钟 ping 一次 `claude-fable-5` API，以观察访问能持续多久，并报告了它对自己停止响应的精确时间点。这条帖子在应用细节上比较薄，但它具体证明了：访问连续性本身已经成了用户必须测量、而不能默认存在的运维限制。
 

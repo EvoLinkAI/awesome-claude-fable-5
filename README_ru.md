@@ -442,6 +442,8 @@ curl --request POST \
 
 **Используйте Fable 5 как этап планирования, ревью и критики внутри multi-model workflow в Cursor, а реализацию и доработку передавайте обратно более дешевым или специализированным моделям.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/8b1352e20cff54688c97f17c.png" alt="Кейс 1" width="760">
+
 Если посмотреть на итоговые оценки Fable 5 и GPT 5.5, разрыв очень мал. Моя скромная рекомендация по использованию такая: на IDE-платформах вроде Cursor, которые поддерживают гибридные модели, используйте поэтапный workflow.
 
 Фаза 1: для code review и первого этапа инспекции проекта, пока прогревается контекст, используйте одну из моделей GPT 5.5 High, Minimax M3, Kimi K2.6 или Composer 2.5.
@@ -463,6 +465,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Вставьте скриншот продукта в агентный инструмент кодинга и попросите Fable 5 воссоздать интерфейс с рабочей функциональностью.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/14123609b06071f3b9527bee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f4df4f42ce047201d9a096a6.jpg" alt="Кейс 2" width="760"><br>▶ Смотреть видео</a>
+
 🚨 Anthropic Fable 5 только что воспроизвела GITHUB по СКРИНШОТУ!!
 
 Все, что я сделал, — вставил скриншот UI GitHub в Kilo Code и сказал ей воссоздать GitHub с настоящей функциональностью.
@@ -480,6 +484,8 @@ Type: Demo | Date: 2026-06-09
 
 **Дайте Fable 5 один детальный creative-coding промпт и попросите создать самодостаточную физическую визуализацию на Three.js.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9bd45e74c64ceb3639600805.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ce5f3ea8ba270f89d60523cc.jpg" alt="Кейс 3" width="760"><br>▶ Смотреть видео</a>
+
 @claudeai с одного раза сделала real-time симуляцию линзирования черной дыры на Three.js с Claude Fable 5.
 
 Там были гравитационное линзирование, аккреционный диск с doppler-boost, фотонная сфера, хроматическая аберрация и процедурное звездное поле.
@@ -496,6 +502,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 4: [Одноразовая сборка веб-ОС в стиле macOS](https://x.com/intheworldofai/status/2064421915347812672) (от [@intheworldofai](https://x.com/intheworldofai))
 
 **Попросите Fable 5 создать полноценную одностраничную web OS и дайте ей за один проход построить UI shell, приложения, взаимодействия, звук и поведение встроенной игры.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a66f34402d04f708819fa575.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/81946293919c84d4cafff841.jpg" alt="Кейс 4" width="760"><br>▶ Смотреть видео</a>
 
 🚨 Claude Fable 5 только что одним запросом собрала полноценную web OS в стиле macOS и пошла дальше большинства моделей.
 
@@ -524,6 +532,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 5: [Создание Spawn 5.0 с помощью 1,687 промптов](https://x.com/jsnnsa/status/2064420561078693941) (от [@jsnnsa](https://x.com/jsnnsa))
 
 **Используйте Fable 5 как инженерного партнера для долгой сессии на множестве промптов, где человек смещается от архитектуры к оценке качества результата.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/86834f15f352ec8625cce187.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/b4077e43a1342d8567fa423f.jpg" alt="Кейс 5" width="760"><br>▶ Смотреть видео</a>
 
 claude fable 5 доступна.
 
@@ -554,6 +564,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 6: [Ревью большого pull request с findings](https://x.com/ryanrhughes/status/2064411147076534705) (от [@ryanrhughes](https://x.com/ryanrhughes))
 
 **Направьте Fable 5 на большой pull request и попросите ее проверить correctness, false positives, реальные bugs и polish issues.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c4f47540205a071b0144ad9d.png" alt="Кейс 6" width="760">
 
 Я выпустил Fable 5 на ревью одного PR (74 файла / +3,705 / -1,246), чтобы посмотреть, как она справится. Она работала 34 минуты, съела 42% моей 5-часовой сессии, выдала 16 findings по “correctness” и нашла:
 
@@ -638,6 +650,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Попросите Fable 5 построить браузерную игру, где отслеживание пальца используется как input-механика.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/27e8d23ba659611cef811031.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7cddd38e3fccbf0cd7ea773c.jpg" alt="Кейс 9" width="760"><br>▶ Смотреть видео</a>
+
 Попросил Fable 5 построить игру Dino runner с отслеживанием пальца.
 
 Она с одного раза сделала finger runner game примерно за 11-12 минут, израсходовала около 914K токенов и реализовала все всего в 629 строках кода.
@@ -652,6 +666,8 @@ Type: Demo | Date: 2026-06-09
 ### Case 10: [Создание гоночной игры по двум предложениям](https://x.com/kieradev/status/2064482704763085202) (от [@kieradev](https://x.com/kieradev))
 
 **Дайте Fable 5 очень короткий game prompt и позвольте ей за один запуск сгенерировать карты, режимы, музыку, UI и игровые ассеты.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/51cf3c98b709a3c29bd5fd7c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6e64887a30cba9b5c25ba262.jpg" alt="Кейс 10" width="760"><br>▶ Смотреть видео</a>
 
 Claude Fable 5, 40% использования Max 5x.
 
@@ -670,6 +686,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Запустите Fable 5 через terminal coding harness и попросите ее построить устанавливаемую терминальную игру на Rust.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/73feec38228181b8d57d8300.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/1f6cd3bd68e1a14443c7734f.jpg" alt="Кейс 11" width="760"><br>▶ Смотреть видео</a>
+
 Я дал Claude Fable 5 с harness Warp готовить целый час.
 
 Она сделала TUI-версию Minecraft, которая рендерится прямо в вашем терминале, полностью на Rust.
@@ -686,6 +704,8 @@ Type: Demo | Date: 2026-06-10
 ### Case 12: [Клон Minecraft с данными о времени и стоимости](https://x.com/ydamitcodes/status/2064536076518363353) (от [@ydamitcodes](https://x.com/ydamitcodes))
 
 **Одним промптом попросите Fable 5 создать играбельный клон в стиле Minecraft, затем оцените время, стоимость, объем кода и покрытие функций.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c977ed7e710678ea6dc0495d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c0189f7f40d1040824902c11.jpg" alt="Кейс 12" width="760"><br>▶ Смотреть видео</a>
 
 @claudeai Fable 5 построила мне клон Minecraft за 37 минут.
 
@@ -708,6 +728,8 @@ Type: Tutorial | Date: 2026-06-10
 ### Case 13: [Полный воспроизводимый промпт для ecommerce email](https://x.com/ecomchasedimond/status/2064454139225297091) (от [@ecomchasedimond](https://x.com/ecomchasedimond))
 
 **Дайте Fable 5 полный creative brief для mockup брендового email, включая точные секции, требования к продукту, визуальное направление и ограничения.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ea7d74eecf453ae6ab43c269.jpg" alt="Кейс 13" width="760">
 
 Claude Fable 5 сделала это одним промптом и без правок.
 
@@ -851,6 +873,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Используйте Fable 5 на бенчмарке механической симуляции и попросите ее реализовать, проверить и итеративно улучшить физическую корректность.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/cd4ae25f7dcbb04ecbb2dea6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/473227e429d59c59afdbd529.jpg" alt="Кейс 14" width="760"><br>▶ Смотреть видео</a>
+
 Итак, я дал Fable 5 watchmaker benchmark: полный Swiss lever movement на Three.js.
 
 Реальные gear ratios (18,000 bph), рабочий escapement, дышащая hairspring — и стрелки показывают настоящее время.
@@ -867,6 +891,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 15: [Сцена квартиры Friends на Three.js](https://x.com/scottstts/status/2064464351906673029) (от [@scottstts](https://x.com/scottstts))
 
 **Попросите Fable 5 превратить план помещения и reference сцены в навигируемое окружение Three.js.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/04c08937fcecea5183759ade.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6a14f69d92bfca4ace3f746c.jpg" alt="Кейс 15" width="760"><br>▶ Смотреть видео</a>
 
 Holy Crap!!!
 
@@ -886,6 +912,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 16: [Симуляция Солнечной системы с промптом и URL](https://x.com/tetumemo/status/2064477582930989357) (от [@tetumemo](https://x.com/tetumemo))
 
 **Используйте Fable 5, чтобы построить астрономическую симуляцию на основе физических принципов, итеративно доводя симуляцию и публичный результат до готовности.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6da60b0762f926c4d4e7012d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7b9655305fbcbec6ac3b0a9c.jpg" alt="Кейс 16" width="760"><br>▶ Смотреть видео</a>
 
 Claude Fable 5 — интенсивная.
 
@@ -1011,6 +1039,10 @@ Type: Demo | Date: 2026-06-09
 ### Case 20: [Как Fable 5 меняет рабочие процессы Claude Code](https://x.com/AI_masaou/status/2064448218038223206) (от [@AI_masaou](https://x.com/AI_masaou))
 
 **Используйте Fable 5, задавая направление, контекст, цели и критерии проверки, вместо того чтобы микроменеджить каждый шаг.**
+
+[Исходное видео · @ClaudeDevs](https://x.com/ClaudeDevs/status/2064399512664526853)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/bcf9dc92c525978c69b3c869.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9567dd41be289437a45f8800.jpg" alt="Кейс 20" width="760"><br>▶ Смотреть видео</a>
 
 Интересно, что изменилось в повседневной работе команды Claude Code после Claude Fable 5.
 
@@ -1240,6 +1272,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Используйте `/goal`, чтобы Fable 5 запустила сайт, сделала скриншоты страниц, провела UX-аудит, написала отчет и исправила безопасные мелкие проблемы.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/dca99f9390b1624b3dfd4b45.png" alt="Кейс 23" width="760">
+
 быстрые впечатления после нескольких часов с fable 5:
 
 → ей нужны большие задачи. мелочи кажутся ниже ее уровня; чем сложнее работа, тем сильнее она включается
@@ -1319,6 +1353,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Используйте Fable 5 с целевыми промптами, петлями проверки и настройками effort вместо маленьких пошаговых инструкций.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f180cebef645f5ad8efdeb92.jpg" alt="Кейс 25" width="760">
+
 Claude для начинающих: что нужно знать о Fable 5.
 
 Anthropic недавно запустила Claude Fable 5, также известную как Claude Mythos 5, и она оставляет другие AI-модели позади в бенчмарках.
@@ -1363,6 +1399,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 26: [Промпт аудита репозитория для copy-paste](https://x.com/meta_alchemist/status/2064431279383433646) (от [@meta_alchemist](https://x.com/meta_alchemist))
 
 **Вставьте промпт аудита репозитория в Fable 5 и попросите discovery с опорой на файлы, findings, стратегию и план задач по milestone.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/846e5ecb825853db17bd3564.jpg" alt="Кейс 26" width="760">
 
 Получили доступ к Claude Fable 5?
 
@@ -1562,6 +1600,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Тратьте использование Fable 5 на аудит, архитектуру и планирование, пока окно доступа выгодно, а затем используйте более дешевые модели для исполнения.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a4293d14cc7571bdcf8b1478.png" alt="Кейс 27" width="760">
+
 Совет для пользователей Claude, которые воодушевлены Fable 5:
 
 Claude Fable 5 — SOTA по всем направлениям, с большим отрывом, и мне это нравится.
@@ -1584,6 +1624,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 28: [Использование Goals и Workflows в Claude Code](https://x.com/oikon48/status/2064402696124453157) (от [@oikon48](https://x.com/oikon48))
 
 **Используйте Fable 5 как партнера по мышлению перед реализацией, затем объединяйте `/goal` и workflows для исполнения и проверки плана.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/bcf9dc92c525978c69b3c869.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9567dd41be289437a45f8800.jpg" alt="Кейс 28" width="760"><br>▶ Смотреть видео</a>
 
 Thariq из команды Claude Code объясняет, что после выхода Claude Fable 5 способ выполнения работы фундаментально изменился.
 
@@ -1633,6 +1675,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Настройте Hermes на использование `anthropic/claude-fable-5` для сложных запусков `/goal` и кэшируемых long-horizon задач.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/4a3b9936f91986268dfeb748.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d9a63a0c689f8e305289a9e6.jpg" alt="Кейс 29" width="760"><br>▶ Смотреть видео</a>
+
 HERMES AGENT ТЕПЕРЬ РАБОТАЕТ НА CLAUDE FABLE 5, первой публичной модели Anthropic класса Mythos.
 
 Выпущена 9 июня. Создана для той работы, которую Hermes делает лучше всего: long-horizon автономные задачи.
@@ -1674,6 +1718,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Используйте этот кейс, чтобы понять, когда Fable 5 доступна, сколько она стоит и какие защищенные домены могут fallback'иться на другую модель.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d0d76497e4c8f77d3d081493.jpg" alt="Кейс 30" width="760">
+
 Anthropic выпустила Claude Fable 5 и Claude Mythos 5, две версии своей самой способной модели на данный момент.
 
 Fable 5 предназначена для общего использования.
@@ -1710,6 +1756,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 31: [Запуск, доступ, цены и сводка безопасности](https://x.com/ctgptlb/status/2064410460963934479) (от [@ctgptlb](https://x.com/ctgptlb))
 
 **Используйте эту сводку запуска, чтобы выбрать путь доступа, имя API-модели, context window, стратегию кэширования и сроки подписки.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7620f9d5f1c29e9f6c3178e4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0b89d6ace5df7c0f3ebe064e.jpg" alt="Кейс 31" width="760"><br>▶ Смотреть видео</a>
 
 Сводка того, что стоит знать о Claude Fable 5, модели класса Mythos, которая наконец стала общедоступной.
 
@@ -1770,6 +1818,10 @@ Type: Tutorial | Date: 2026-06-09
 
 **Используйте Fable 5 как advisor или reviewer в workflow с более дешевой моделью, когда предельный интеллект стоит своих затрат.**
 
+В связанной статье показаны примеры с советником Opus, а не результаты тестов Fable. [yage.ai](https://yage.ai/share/claude-advisor-tool-20260609.html)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a21858fed45b612b616e34ce.png" alt="Кейс 32" width="760">
+
 Fable 5 дорогая, но Anthropic опубликовала ответ по экономии затрат два месяца назад.
 
 Сегодня Anthropic выпустила Claude Fable 5 по цене $50 за миллион output tokens, что более чем втрое дороже Sonnet. После 22 июня пользователи подписок также будут платить по usage.
@@ -1810,6 +1862,8 @@ Type: Integration | Date: 2026-06-09
 ### Case 33: [Цены, доступ и защитные guardrails](https://x.com/op7418/status/2064399444523782377) (от [@op7418](https://x.com/op7418))
 
 **Используйте этот кейс, чтобы понять доступ к Fable 5, цены API и поведение safety fallback перед планированием рабочих нагрузок.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/2c2a9233f1949a99d9faef82.jpg" alt="Кейс 33" width="760">
 
 Я не ожидал, что модель Anthropic Mythos действительно выйдет сегодня.
 
@@ -1852,6 +1906,8 @@ Type: Integration | Date: 2026-06-09
 
 **Установите имя модели Swarms на `anthropic/claude-fable-5` и запускайте Fable 5 через Swarms framework или API.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f5a8738199642ccb4108d9bb.jpg" alt="Кейс 34" width="760">
+
 Fable 5 и Mythos теперь live на Swarms 👾🦀
 
 Начиная с первого дня релиза, обе модели полностью поддерживаются во всем Swarms Python framework и Swarms API. Разработчики могут начинать строить сразу, без миграций, дополнительной конфигурации или изменений инфраструктуры.
@@ -1874,6 +1930,8 @@ Type: Integration | Date: 2026-06-09
 ### Case 35: [Сравнение стоимости и качества Fable 5 и GPT-5.5](https://x.com/AlicanKiraz0/status/2064424400494186867) (от [@AlicanKiraz0](https://x.com/AlicanKiraz0))
 
 **Сравните Fable 5 и GPT-5.5 на одной и той же coding task, чтобы оценить качество вывода, runtime и tool cost.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d25a9995414a9bb037269251.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/16f724918a63d35c0d552145.jpg" alt="Кейс 35" width="760"><br>▶ Смотреть видео</a>
 
 Cursor Fable 5 Max против Codex GPT 5.5 Very High.
 
@@ -1912,6 +1970,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Используйте этот benchmark case, чтобы оценить Fable 5 по accuracy знаний и hallucination behavior.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/dd1356eb4a23ba254bfbb669.jpg" alt="Кейс 36" width="760">
+
 Claude Fable 5 достигает самого высокого на сегодня результата в нашем бенчмарке знаний и галлюцинаций AA-Omniscience.
 
 Этот результат обусловлен ведущей accuracy (процент правильных ответов), а не низким уровнем галлюцинаций.
@@ -1926,6 +1986,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 37: [Результат Artificial Analysis Intelligence Index](https://x.com/ArtificialAnlys/status/2064500150069030992) (от [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
 **Используйте этот кейс, чтобы сравнить общий рейтинг интеллекта Fable 5 с другими frontier models.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f9f3da0006bc0eb2c245281b.jpg" alt="Кейс 37" width="760">
 
 Claude Fable 5 запустилась на #1 в Artificial Analysis Intelligence Index, поставив Anthropic почти на 5 пунктов впереди лучшей модели любой другой лаборатории.
 
@@ -1985,6 +2047,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 38: [Бенчмарк GDPval-AA для agentic knowledge work](https://x.com/ArtificialAnlys/status/2064414308289937869) (от [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
 **Используйте этот кейс, чтобы оценить Fable 5 на agentic real-world knowledge work.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/18572fdb3c0d8a57ba52e095.jpg" alt="Кейс 38" width="760">
 
 Anthropic выпустила Claude Fable 5, первую публично доступную модель класса Mythos, которая занимает #1 в нашем бенчмарке agentic real-world knowledge work, GDPval-AA.
 
@@ -2049,6 +2113,8 @@ Type: Integration | Date: 2026-06-09
 
 **Используйте это сравнение, чтобы решить, оправдывает ли прирост качества более высокую стоимость и более медленные long-horizon запуски.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/789680ca7655fca20b635442.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/691d0518cb50a6bebbb8b2b1.jpg" alt="Кейс 40" width="760"><br>▶ Смотреть видео</a>
+
 Действительно ли Fable 5 от @AnthropicAI стоит апгрейда?
 
 Мы сравнили новую модель семейства Mythos с Claude Opus 4.8, и данные рассказывают неожиданную историю:
@@ -2069,6 +2135,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 41: [Практические заметки по Claude Code](https://x.com/Hi_Noguchi/status/2064419241068319079) (от [@Hi_Noguchi](https://x.com/Hi_Noguchi))
 
 **Используйте этот кейс, чтобы оценить Fable 5 внутри Claude Code, включая использование инструментов, характер модели и оставшиеся шероховатости.**
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5feb645426dcf905eac2992d.jpg" alt="Кейс 41" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/933c469793e248f634cfad55.jpg" alt="Кейс 41" width="760"></td></tr></table>
 
 Я попробовал Claude Fable 5 с Claude Code 2.1.170.
 
@@ -2095,6 +2163,8 @@ Type: Demo | Date: 2026-06-09
 
 **Используйте этот бенчмарк-кейс, чтобы оценить качество короткой художественной прозы Fable 5 и поведение отказов.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5849f936dc58518fd5d810ef.jpg" alt="Кейс 42" width="760">
+
 Claude Fable 5 (high) стал шагом вперед в написании короткой художественной прозы.
 
 В Short-Story Creative Writing Benchmark он обходит Claude Opus 4.8 (xhigh) и Claude Opus 4.7 (high) и занимает второе место после GPT-5.5 (xhigh).
@@ -2111,6 +2181,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 43: [Сводка запуска по нескольким бенчмаркам](https://x.com/MTSlive/status/2064430633800319436) (от [@MTSlive](https://x.com/MTSlive))
 
 **Используйте эту сводку стартовых бенчмарков, чтобы понять ключевые оценки, наиболее важные для кодинговых агентов и сложных задач.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/45b71a2babb9da9a93f43220.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c25c02c52c5d4b6b24364401.jpg" alt="Кейс 43" width="760"><br>▶ Смотреть видео</a>
 
 ОБЪЯСНЕНИЕ СИТУАЦИИ: Claude Fable 5 только что вышел.
 • Anthropic сегодня запустила Claude Fable 5, "модель класса Mythos, сделанную безопасной для общего использования"
@@ -2129,6 +2201,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 44: [Сравнение бенчмарков и цен с GPT-5.5](https://x.com/VaibhavSisinty/status/2064459064810361271) (от [@VaibhavSisinty](https://x.com/VaibhavSisinty))
 
 **Используйте это сравнение, чтобы оценить Fable 5 относительно GPT-5.5 по цене и категориям бенчмарков.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e39fb67b74af346e8fbb67ea.jpg" alt="Кейс 44" width="760">
 
 Новая модель Anthropic класса Mythos в 3 раза дешевле лучшей модели OpenAI. И она обходит ее почти во всех бенчмарках. 🤯
 
@@ -2195,6 +2269,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Запустите одинаковые промпты для физических симуляций на Fable 5 и Opus 4.8, чтобы сравнить качество вывода, стоимость и скорость.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/06387b798061869ccaeaf586.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/df5cc72de1f70556de0d682b.jpg" alt="Кейс 46" width="760"><br>▶ Смотреть видео</a>
+
 Новый Fable 5 обходит Opus 4.8 в симуляциях физики реального мира.
 
 Мы дали обеим моделям одни и те же три промпта и попросили построить самодостаточные HTML5-симуляции с реальной физикой и без библиотек:
@@ -2240,6 +2316,8 @@ Type: Demo | Date: 2026-06-09
 
 **Используйте этот кейс, чтобы понять практические сильные и слабые стороны до того, как сделать Fable 5 ежедневным рабочим инструментом.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/fdba0d6cb9ba0e1214113e65.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d2825453d0a742892a4fe529.jpg" alt="Кейс 48" width="760"><br>▶ Смотреть видео</a>
+
 Fable 5 (он же baby Mythos) только что вышел. Он настолько страшный (или страшно хороший), как утверждают? Мои мысли после раннего тестирования:
 - умный умный умный (раздавил SWE bench)
 - но всегда ли вам нужна гиперинтеллектуальность?
@@ -2262,6 +2340,8 @@ Type: Demo | Date: 2026-06-09
 
 **Используйте промпт на составление S-1 как тест возможностей юридического агента и сравните структуру, форматирование и длину.**
 
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/bb874ef2647de32ccdb3edf9.png" alt="Кейс 49" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6a9c3856ebce1bd9cd3d062d.jpg" alt="Кейс 49" width="760"></td></tr><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/96734bfca49d5b3fe6f83ed5.png" alt="Кейс 49" width="760"></td></tr></table>
+
 Первый промпт, который я всегда запускаю на новой модели для проверки юридических возможностей: "Draft an S-1".
 
 Он сразу дает хорошее представление об общих возможностях модели. По длине S-1, форматированию, структуре и письму можно понять, насколько большим, вероятно, будет скачок новой модели в общей и юридической производительности.
@@ -2282,6 +2362,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 50: [Детали бенчмарка по здравоохранению](https://x.com/iScienceLuvr/status/2064411823445774554) (от [@iScienceLuvr](https://x.com/iScienceLuvr))
 
 **Используйте эту заметку о бенчмарке, чтобы оценить Fable 5 на задачах, связанных со здравоохранением, и выявить отсутствующие сложные медицинские evals.**
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f599a548651eccbfce8b888d.jpg" alt="Кейс 50" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/69ebc490407b9d54c6de3707.jpg" alt="Кейс 50" width="760"></td></tr><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/1a89ad2c2622cdbba994d70c.jpg" alt="Кейс 50" width="760"></td></tr></table>
 
 Я ценю, что Anthropic предоставляет evals, связанные со здравоохранением. Давайте быстро их разберем.
 
@@ -2312,6 +2394,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Используйте этот кейс, чтобы решить, является ли Fable 5 экономически эффективным для разбора документов по сравнению со специализированными OCR-системами.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ae01590f41e6954f27278848.png" alt="Кейс 51" width="760">
+
 Claude Fable 5 считает разбор документов ниже своего достоинства.
 
 Он абсолютно разносит бенчмарки с интенсивным рассуждением и длинным горизонтом: SWE-Bench Pro, FrontierCode, GDPval, RuneScape и другие.
@@ -2334,6 +2418,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 52: [Сравнение SWE-Bench Pro и FrontierCode](https://x.com/jumperz/status/2064402965461406044) (от [@jumperz](https://x.com/jumperz))
 
 **Используйте этот бенчмарк-кейс, чтобы оценить Fable 5 для миграций, сложных реализаций, автономных сессий, тестов и визуальной проверки.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/771df9c428ba5cc0a8fab5de.png" alt="Кейс 52" width="760">
 
 Fable 5 уже здесь, и он честно уничтожает GPT 5.5 в SWE-Bench Pro, бенчмарке агентного программирования:
 
@@ -2395,6 +2481,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Используйте этот результат ParseBench, чтобы оценить верность документу и качество форматирования.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/2888842a85fbd5c7a4a22e24.png" alt="Кейс 54" width="760">
+
 День 0 Anthropic Fable 5 в ParseBench.
 
 Мы протестировали прогресс модели в понимании документов.
@@ -2419,6 +2507,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 55: [Бенчмарки, цены, доступ и safeguards](https://x.com/lucas_flatwhite/status/2064483645184979183) (от [@lucas_flatwhite](https://x.com/lucas_flatwhite))
 
 **Используйте этот кейс как широкий чеклист по бенчмаркам, ценам, доступу, safeguards и стратегическим последствиям.**
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f44cba8e6f3d765ca5960923.png" alt="Кейс 55" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/8f13714ca9f9e20711fdd898.jpg" alt="Кейс 55" width="760"></td></tr><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0d1f69a50478623f5e1d0248.jpg" alt="Кейс 55" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0cf2c270484f1e2aba514261.jpg" alt="Кейс 55" width="760"></td></tr></table>
 
 Claude Fable 5 и Mythos 5 запущены. Это самые мощные модели, которые Anthropic создала на данный момент.
 
@@ -2479,6 +2569,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Используйте этот список бенчмарков, чтобы понять официальные оценки Fable 5 по программированию, использованию компьютера и задачам безопасности.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/b548ec23f85e3eb1600e9214.jpg" alt="Кейс 56" width="760">
+
 Официальные бенчмарки Claude Fable 5 серьезно впечатляют.
 
 Ключевые оценки:
@@ -2506,6 +2598,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Используйте этот кейс, чтобы оценить Fable 5 на APEX-SWE, особенно в observability и integration work.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/96120496893ca99f17d0c746.jpg" alt="Кейс 57" width="760">
+
 Claude Fable 5 занимает #1 на APEX-SWE: 65.5% Pass@1 в целом. Он набирает примерно на 18 п.п. больше, чем Opus 4.8. Мы протестировали @claudeai Fable 5 на APEX-SWE, который измеряет, могут ли AI-модели выполнять реальную работу по разработке ПО. Fable 5 возглавляет две наши категории APEX-SWE:
 - Интеграция: 61.3%
 - Наблюдаемость: 69.7%
@@ -2524,6 +2618,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 58: [Результат ProofBench по формальной математике](https://x.com/nicbstme/status/2064443782255554960) (от [@nicbstme](https://x.com/nicbstme))
 
 **Используйте этот кейс, чтобы оценить Fable 5 в формальной математике относительно специализированных систем доказательства теорем.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/588cff83994406d2b5dd7cb9.jpg" alt="Кейс 58" width="760">
 
 Что меня восхищает в Claude Fable 5, так это то, что он снова доказывает: большие универсальные модели будут превосходить вертикальные.
 
@@ -2550,6 +2646,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 59: [Предварительный анализ VirtueBench](https://x.com/timhwang/status/2064446028997423180) (от [@timhwang](https://x.com/timhwang))
 
 **Используйте этот кейс, чтобы изучить поведение морального рассуждения Fable 5 по категориям добродетелей.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9caae04d701510ca662873fe.png" alt="Кейс 59" width="760">
 
 Увлекательные результаты будут опубликованы ICMI в более полном виде в ближайшие дни, но вот предварительный обзор, в котором Fable 5 прогоняется через VirtueBench.
 
@@ -2578,6 +2676,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Используйте этот кейс, чтобы понять риск launch-time safety overfit и поведение пустых ответов при API-тестировании.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e9f75a2a76f55ee2b12b7aab.jpg" alt="Кейс 60" width="760">
+
 Claude Fable 5 сильно зацензурирован.
 
 Верхнеуровневый API endpoint убивает вызовы ответами `empty_content`, по-видимому связанными с классификатором по ключевым словам, при этом все равно взимая плату за них.
@@ -2599,6 +2699,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Используйте это руководство, чтобы перейти от длинных трюков с запросами к целям, контексту, ограничениям, инструментам и циклам проверки.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/444a6e1898d3f63898e3e22f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d5c9529aa9c1d59ae597d31d.jpg" alt="Кейс 61" width="760"><br>▶ Смотреть видео</a>
+
 Рассматривайте запросы к Fable 5 как проектирование контекста и среды, а не как длинный список пошаговых указаний. Публикация предлагает задавать ясную цель, нужный контекст, ограничения, доступ к инструментам и способ проверки успеха. Автор считает проверку, оценивание и обратную связь важнее мелочного управления рассуждениями модели.
 
 Type: Tutorial | Date: 2026-06-11
@@ -2610,6 +2712,8 @@ Type: Tutorial | Date: 2026-06-11
 ### Case 62: [Платформер по спрайтам Стамбула](https://x.com/ozansihay/status/2064973170780545535) (автор [@ozansihay](https://x.com/ozansihay))
 
 **Проверьте Fable 5 на создании играбельного платформера, передав таблицу спрайтов и одну инструкцию по преобразованию.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/1e91c3bcff213437fdd442f6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/538fc8ee9dd7e627bc73921a.jpg" alt="Кейс 62" width="760"><br>▶ Смотреть видео</a>
 
 Автор сначала создал в GPT Image 2 таблицу спрайтов ретро-платформера о Стамбуле, затем передал изображение Claude Fable 5 High и попросил превратить его в игру. По его сообщению, результат получен за один проход.
 
@@ -2623,6 +2727,8 @@ Type: Demo | Date: 2026-06-11
 
 **Используйте Fable 5, чтобы представить бизнес-процесс в виде концепта интерактивной панели с 3D-городом.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f238acf3f8804068085ff134.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/3d938264442a14676a86c4f3.jpg" alt="Кейс 63" width="760"><br>▶ Смотреть видео</a>
+
 Публикация описывает бизнес-визуализацию по одному запросу: склады, упаковка, дроны, заказы, отделы, клиенты и ИИ-помощники становятся живым 3D-городом. Автор предлагает её как альтернативу статичным слайдам для клиентов. На экране показаны 42 доставки, среднее время 12 минут и выручка $651.
 
 Type: Demo | Date: 2026-06-11
@@ -2634,6 +2740,8 @@ Type: Demo | Date: 2026-06-11
 ### Case 64: [Игра с воронкой в Three.js за один запрос](https://x.com/thebuggeddev/status/2064968106104275008) (автор [@thebuggeddev](https://x.com/thebuggeddev))
 
 **Используйте Fable 5 для создания прототипа браузерной 3D-игры на Three.js за один запрос.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/86a75412c6c443b3d0e62bf8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f11df06938c26759710a1981.jpg" alt="Кейс 64" width="760"><br>▶ Смотреть видео</a>
 
 Автор утверждает, что Fable 5 за один проход создал целую 3D-игру в стиле HOLE IT на Three.js. Это небольшой, но конкретный пример для проверки того, может ли модель создать играбельное 3D-взаимодействие по краткому запросу.
 
@@ -2647,6 +2755,8 @@ Type: Demo | Date: 2026-06-11
 
 **Используйте эту заметку о DeepSWE для сравнения Fable 5 xHigh и GPT-5.5 xHigh на задачах программной инженерии.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/996d95539a3b54fecbfdf404.jpg" alt="Кейс 65" width="760">
+
 В публикации сообщается, что Claude Fable 5 xHigh набрал 70% на DeepSWE, сравнявшись с GPT-5.5 xHigh; контекстом служит недавнее видео Theo. Прежде чем делать более сильные выводы, эту наводку на результаты теста следует сверить с исходным видео.
 
 Type: Evaluation | Date: 2026-06-11
@@ -2658,6 +2768,8 @@ Type: Evaluation | Date: 2026-06-11
 ### Case 66: [Сравнение стоимости анализа репозитория](https://x.com/Pilgrim6938/status/2064946766278210038) (автор [@Pilgrim6938](https://x.com/Pilgrim6938))
 
 **Используйте это сравнение анализа репозитория, чтобы сопоставить цену токенов и стоимость ручных исправлений.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/cfb0c1ff3e8ebe66cfa35400.jpg" alt="Кейс 66" width="760">
 
 Автор сравнивает Claude Fable 5, Opus 4.8, GPT-5.5 и Gemini 3.1 Pro на одной задаче: проанализировать репозиторий примерно из 90 000 строк, найти проблему инвалидации кэша и предложить полный план исправления. По его мнению, цена токенов и реальная стоимость задачи расходятся при учёте времени разработчика на корректировки. Он рекомендует выборочно использовать Fable 5 для сложного рефакторинга, миграций между модулями и длинных цепочек агентной работы.
 
@@ -2671,6 +2783,8 @@ Type: Evaluation | Date: 2026-06-11
 
 **Используйте этот пример игры, созданной за один проход, для оценки качества результата Fable 5 и расхода токенов.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9ce65e5fee946b6940810e0d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7c577d0766bbc3da8cddeb70.jpg" alt="Кейс 67" width="760"><br>▶ Смотреть видео</a>
+
 Автор попросил Claude Fable 5 создать игру в стиле Nintendo Super Mario. По его сообщению, задача использовала около 2 миллионов токенов и дала сильный результат за один проход, позволяя оценить и качество создания игр, и затраты.
 
 Type: Demo | Date: 2026-06-11
@@ -2682,6 +2796,8 @@ Type: Demo | Date: 2026-06-11
 ### Case 68: [Настройка переключения моделей в Claude Code](https://x.com/oikon48/status/2064937790010503347) (автор [@oikon48](https://x.com/oikon48))
 
 **Изучите на этом примере настройку Claude Code для смены модели при пометке сообщения Fable 5.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0ae9039401c658170e5081e8.jpg" alt="Кейс 68" width="760">
 
 Публикация указывает на настройку Claude Code в `/config` с названием «Switch models when a message is flagged». Она описывает переход с Fable 5 на Opus для помеченных областей: наступательных методов кибербезопасности, экспериментальных методов биологии и наук о жизни, молекулярных механизмов или запросов на извлечение процесса рассуждений модели.
 
@@ -2695,6 +2811,8 @@ Type: Integration | Date: 2026-06-11
 
 **Используйте эту демонстрацию как краткий пример создания симулятора общественного транспорта с Fable 5 через диалоговое программирование.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0e0dae71ad7b5ead331366fb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/86dccb2b150cfb90fbd03de2.jpg" alt="Кейс 69" width="760"><br>▶ Смотреть видео</a>
+
 Автор сообщает, что создал симулятор Namma Metro во время поездки в метро Бангалора, используя Claude Fable 5 как партнёра по программированию. Краткая публикация содержит визуальную демонстрацию и показывает применение Fable 5 к идее симуляции конкретного города.
 
 Type: Demo | Date: 2026-06-11
@@ -2706,6 +2824,8 @@ Type: Demo | Date: 2026-06-11
 ### Case 70: [Игра Dusk Drive по одному запросу](https://x.com/VincentLogic/status/2064921358359011684) (автор [@VincentLogic](https://x.com/VincentLogic))
 
 **Оцените Fable 5 на создании прототипа низкополигональной игры о вождении без ручных правок.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/274fed4f3211ec8c02862261.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5d7a58bcad6e2151517a8462.jpg" alt="Кейс 70" width="760"><br>▶ Смотреть видео</a>
 
 Публикация описывает создание полной игры о вождении Dusk Drive в Claude Fable 5 по одному запросу. Автор выделяет низкополигональный стиль, дрифт по снегу под северным сиянием и утверждает, что между идеей и играбельной версией не было ручного редактирования.
 
@@ -2719,6 +2839,8 @@ Type: Demo | Date: 2026-06-11
 
 **Используйте результат APEX-Agents для сравнения Fable 5 Max на многошаговых автономных задачах.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/189c46cfd2798d6881941f98.jpg" alt="Кейс 71" width="760">
+
 По сообщению автора, Fable 5 Max занял второе место в рейтинге APEX-Agents с 45% Pass@1, уступив Gemini 3.5 Flash и опередив Opus. APEX-Agents описывается как тест способности ИИ самостоятельно выполнять сложные многошаговые задачи.
 
 Type: Evaluation | Date: 2026-06-11
@@ -2730,6 +2852,8 @@ Type: Evaluation | Date: 2026-06-11
 ### Case 72: [Руководство по выбору моделей Claude](https://x.com/charliejhills/status/2064957428211536212) (автор [@charliejhills](https://x.com/charliejhills))
 
 **Используйте это руководство, чтобы оставлять Fable 5 для самых трудных задач в Claude Code.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/959ebfa499d2bf75df5bec25.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/3bcfe8f1e2238b01d3c4d954.jpg" alt="Кейс 72" width="760"><br>▶ Смотреть видео</a>
 
 Автор сравнивает Haiku 4.5, Sonnet 4.6, Opus 4.8 и Fable 5 по уровню усилий модели и расходованию лимитов. Практический совет — использовать Sonnet для повседневной работы, Opus для более сложных проблем и сохранять Fable 5 для труднейших задач Claude Code, требующих глубокого планирования, реализации и тестирования.
 
@@ -2743,6 +2867,8 @@ Type: Tutorial | Date: 2026-06-11
 
 **Изучите автономный цикл Fable 5, который в течение нескольких дней создаёт, тестирует, проходит и проверяет приложение.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e334a84db7b671eb6a1a3f54.jpg" alt="Кейс 73" width="760">
+
 Автор описывает создание HermesWorld v2 с помощью Fable 5 в полностью автоматическом цикле. По его сообщению, агент работает днями, добавляет функции, тестирует их, проходит полученный результат и выполняет базовые проверки работоспособности, продолжая движение к завершению.
 
 Type: Integration | Date: 2026-06-11
@@ -2754,6 +2880,8 @@ Type: Integration | Date: 2026-06-11
 ### Case 74: [Проверка запроса на отчёт в стиле McKinsey](https://x.com/smtgpt/status/2064953210335588758) (автор [@smtgpt](https://x.com/smtgpt))
 
 **Используйте этот запрос на создание документа для оценки структуры консалтингового отчёта, графиков, изложения и анализа рисков.**
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e337dca3bbada9167e20417c.jpg" alt="Кейс 74" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6289e626a4f324fc93086100.jpg" alt="Кейс 74" width="760"></td></tr></table>
 
 Автор попросил Fable 5 подготовить подробный отчёт в стиле McKinsey о биткоине как классе активов и технологии блокчейна, с графиками и иллюстрациями по необходимости. По его сообщению, получился 19-страничный документ с данными, графиками, инвестиционной гипотезой и анализом рисков. Оценка отмечает сильную структуру, но предлагает сделать иллюстрации чётче, а объяснения — лаконичнее.
 
@@ -2779,6 +2907,8 @@ Type: Integration | Date: 2026-06-11
 
 **Используйте эту заметку из журнала изменений Claude Code, чтобы избежать ошибок сопоставления названия модели Fable 5 и контекста.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e66551db2c85ef7f8c4a3f4e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ae7cbd873deebd28d3ff05d7.jpg" alt="Кейс 76" width="760"><br>▶ Смотреть видео</a>
+
 Claude Code 2.1.173 исправляет обработку названий Fable 5, убирая суффикс `[1m]`, чтобы стандартный контекст 1M не нарушал сопоставление моделей. Тот же выпуск скрывает ошибочное предупреждение о зависимости песочницы Windows и уточняет режимы вывода в справке grep.
 
 Type: Integration | Date: 2026-06-11
@@ -2789,9 +2919,9 @@ Type: Integration | Date: 2026-06-11
 <a id="case-77"></a>
 ### Case 77: [Три веб-приложения в Claude Code](https://x.com/0x3b33/status/2064948399300825439) (автор [@0x3b33](https://x.com/0x3b33))
 
-**Изучите эту демонстрацию для начинающих, чтобы увидеть работу Fable 5 в Claude Code на нескольких созданных веб-приложениях.**
+**Отличайте сообщение о создании приложений от общедоступной демонстрации.**
 
-Автор утверждает, что без опыта программирования создал с помощью Claude Code и Fable 5 три работающих веб-приложения за 30 минут, доступных локально на портах 3000, 3001 и 3002. Рассматривайте это как небольшой пример рабочего процесса новичка, а не как сравнительный тест.
+В публикации говорится о трёх веб-приложениях, созданных за 30 минут, но указаны только адреса localhost с портами 3000, 3001 и 3002. Они ведут на локальный компьютер и не предоставляют публичного доступа к приложениям или медиаматериалам.
 
 Type: Demo | Date: 2026-06-11
 
@@ -2802,6 +2932,8 @@ Type: Demo | Date: 2026-06-11
 ### Case 78: [Открытый конструктор приложений Rilable](https://x.com/rileybrown/status/2064931283403178354) (автор [@rileybrown](https://x.com/rileybrown))
 
 **Изучите на примере этого открытого конструктора применение Fable 5 к iOS, веб-приложениям, песочницам и расходам на API-токены.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/73ee02ae0f6703a8cfbe5a6c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f30c1d169ce45b19beb493b7.jpg" alt="Кейс 78" width="760"><br>▶ Смотреть видео</a>
 
 Автор открыл исходный код Rilable — приложения для iOS, создающего веб-приложения и приложения для iOS. По публикации, его создали с Fable 5 за 10 запросов примерно за $210 в API-токенах. Используются модели Claude для генерации приложений, Daytona для песочниц, Convex для базы данных, Vercel AI Gateway для ИИ-функций и навык iOS агента Chorus для приложений iOS.
 
@@ -2815,6 +2947,8 @@ Type: Integration | Date: 2026-06-11
 
 **Используйте обновленный индекс Artificial Analysis, чтобы сравнить Claude Fable 5 на более сложных агентных задачах кодинга, которые не опираются на переработанные публичные GitHub-фиксы.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7b9ab8ba77c1e29f8ba4d270.jpg" alt="Кейс 79" width="760">
+
 Artificial Analysis заменила SWE-Bench Pro на DeepSWE от Datacurve в своем Coding Agent Index. В посте говорится, что DeepSWE пишет задачи с нуля, а не адаптирует публичные GitHub issues или pull requests, снижая загрязнение бенчмарка. В обновленном рейтинге Claude Code с Fable 5 Max дебютировал с 77 баллами, опередив Codex с GPT-5.5 xhigh на 76 и Claude Code с Opus 4.8 Max на 73.
 
 Type: Evaluation | Date: 2026-06-12
@@ -2825,6 +2959,8 @@ Type: Evaluation | Date: 2026-06-12
 ### Case 80: [Игра веб-аналитики DataEmpire](https://x.com/marclou/status/2065029898243318093) (от [@marclou](https://x.com/marclou))
 
 **Превратите сырую аналитику сайта в игру с повторным прохождением, попросив Claude Fable 5 сопоставить посетителей и вехи с игровыми сущностями.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/2850773b9869c5521200f2e0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6d2dd87d74ece01b277e1e12.jpg" alt="Кейс 80" width="760"><br>▶ Смотреть видео</a>
 
 Марк Лу говорит, что Claude Fable 5 построила DataEmpire поверх его API веб-аналитики DataFast. Каждый посетитель превращается в жителя деревни, рост трафика расширяет поселение, а Age of Legends открывается на отметке в 1 миллион посетителей. Публичное демо позволяет пользователям DataFast проигрывать собственную историю сайта через игровой слой, что делает это конкретным примером API-поддержанной продуктовой упаковки, а не статичным игровым роликом.
 
@@ -2837,6 +2973,8 @@ Type: Integration | Date: 2026-06-11
 
 **Используйте FrontierSWE как доказательство того, что Claude Fable 5 может оставаться продуктивной на очень длинных инженерных задачах, а не только в коротких циклах bug-fix.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/eb36bb1120ef55f9e38c516d.jpg" alt="Кейс 81" width="760">
+
 ProximalHQ сообщает, что Claude Fable 5 заняла первое место на FrontierSWE, и называет это самым большим скачком возможностей, который они видели с момента запуска бенчмарка. По их словам, Fable 5 может продуктивно работать почти 20 часов на многих задачах и полностью закрывает задачи, которые для более ранних моделей были фактически недостижимы.
 
 Type: Evaluation | Date: 2026-06-11
@@ -2847,6 +2985,8 @@ Type: Evaluation | Date: 2026-06-11
 ### Case 82: [Рекорды CUDA на KernelBench-Hard](https://x.com/elliotarledge/status/2065109393142849932) (от [@elliotarledge](https://x.com/elliotarledge))
 
 **Используйте Claude Fable 5 для продвинутой генерации CUDA kernel, когда нужна низкоуровневая оптимизация, а не только обертки вокруг существующих библиотек.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6c6931ed511eb3e539d56bc3.jpg" alt="Кейс 82" width="760">
 
 Elliot Arledge запустил 13 frontier coding agents по 45 минут каждый на KernelBench-Hard с roofline-оценкой на RTX PRO 6000. Claude Fable 5 установила исторические рекорды на top-k, sonic-MoE и W4A16 int4 GEMM, заняла первое место в 5 из 6 задач, а автор опубликовал сами прогоны, лидерборд и код. В том же треде отмечен и промах на FP8 GEMM, где Fable 5 попыталась написать настоящий tensor-core kernel, но получила ноль из-за tail-alignment edge case.
 
@@ -2859,6 +2999,8 @@ Type: Evaluation | Date: 2026-06-11
 
 **Захватите живую страницу конкурента в слои Figma и дайте Claude Code с Claude Fable 5 пересобрать структуру, тексты и бренд-систему вместо угадывания по скриншотам.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5672cc8fd9d210042551f0ea.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/503c46a33c97f0db334ddc62.jpg" alt="Кейс 83" width="760"><br>▶ Смотреть видео</a>
+
 Mike Futia описывает workflow, в котором Chrome-расширение Figma копирует сайт в редактируемые слои, Claude Code читает эти слои через Figma MCP, переписывает страницу в голосе бренда пользователя, а GPT Image 2 генерирует брендовые фотографии. Заявленный результат end-to-end — готовый к публикации landing page примерно за 15 минут и около $2 API-расходов на генерацию изображений для 16 картинок.
 
 Type: Integration | Date: 2026-06-12
@@ -2869,6 +3011,8 @@ Type: Integration | Date: 2026-06-12
 ### Case 84: [Клон GTA 2 за два часа](https://x.com/techhalla/status/2064682080445898957) (от [@techhalla](https://x.com/techhalla))
 
 **Комбинируйте генерацию кода Claude Fable 5 с отдельными инструментами для ассетов, чтобы быстро собрать играбельную 3D-игру без ручного кодирования всего стека.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e0a1b46659d7a8287cb2f9d5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/cd1a2ad71e71db936bdcfd22.jpg" alt="Кейс 84" width="760"><br>▶ Смотреть видео</a>
 
 TechHalla говорит, что Claude Fable 5 High собрала клон в стиле GTA 2 примерно за два часа, пока сам автор генерировал кастомные 3D-модели в Tripo. Пост указывает на tutorial thread с промптами, так что это компактный пример многоинструментального производства игры, а не просто benchmark teaser.
 
@@ -2881,6 +3025,8 @@ Type: Tutorial | Date: 2026-06-10
 
 **Дайте агенту на базе Claude Fable 5 перерабатывать очень большие контексты сервисных логов, выводить архитектуру и затем сужаться до конкретных сбоев.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7f0f46eb79e43d87a2006fd4.jpg" alt="Кейс 85" width="760">
+
 diblacksmith сообщает, что агент RLM обработал примерно 80 000 строк логов CloudWatch за один запуск, дошел до 53 шагов и пока потратил лишь около 32 тысяч активных токенов. По его словам, агент вывел архитектуру системы по логам и отметил проблемы, которые команда пропустила, включая throttles в AgentCore и ошибки Slack `user_not_found`.
 
 Type: Integration | Date: 2026-06-14
@@ -2891,6 +3037,8 @@ Type: Integration | Date: 2026-06-14
 ### Case 86: [Предиктор Кубка мира в sandbox'ах](https://x.com/upstash/status/2064702195333820846) (от [@upstash](https://x.com/upstash))
 
 **Поместите несколько frontier-моделей в изолированные sandbox'ы и дайте им исследовать живые новости, травмы и контекст желтых карточек для публичного приложения прогнозов.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a5cf4fe5944c7aa2f703f4cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5b1f1422fe322bb7b66bdcc6.jpg" alt="Кейс 86" width="760"><br>▶ Смотреть видео</a>
 
 Upstash сообщает, что построила предиктор Кубка мира с Claude Fable 5, GPT-5.5 и Gemini, работающими внутри изолированных sandbox'ов Upstash. Демо и open-source релиз показывают Fable 5 как одну из моделей внутри много-модельного стека исследований и оркестрации, а не как отдельное чат-демо.
 
@@ -2903,6 +3051,8 @@ Type: Integration | Date: 2026-06-10
 
 **Рассматривайте поведение отказов как реальную переменную бенчмарка при оценке стоимости длинных автономных запусков на Claude Fable 5.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/453639cc17719af4e94655e0.jpg" alt="Кейс 87" width="760">
+
 WolfBenchAI говорит, что их оценка Claude Fable 5 стоила $11,081.12, это самый дорогой прогон бенчмарка в этом наборе на данный момент, и все равно не вышла в лидеры, потому что повторяющиеся отказы уменьшили полезное завершение задач. Это конкретный предельный кейс для команд, которые бюджетируют агентные оценки или другие workloads с высокой автономностью.
 
 Type: Evaluation | Date: 2026-06-12
@@ -2913,6 +3063,8 @@ Type: Evaluation | Date: 2026-06-12
 ### Case 88: [Трекер отключения API-доступа](https://x.com/simonw/status/2065618703480414666) (от [@simonw](https://x.com/simonw))
 
 **Отслеживайте доступность скриптом, если ваш workflow зависит от непрерывного доступа к frontier-модели, которую могут ограничить по rate limit или убрать почти без предупреждения.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7400c158cb93d9480a22bb46.jpg" alt="Кейс 88" width="760">
 
 Simon Willison говорит, что он пинговал API `claude-fable-5` каждую минуту, чтобы понять, как долго продержится доступ, и зафиксировал точный момент, когда для него он перестал отвечать. В посте мало деталей о прикладном использовании, но это конкретное доказательство того, что сама непрерывность доступа стала операционным ограничением, которое пользователям пришлось измерять, а не просто предполагать.
 
@@ -3025,7 +3177,7 @@ Generate an SVG of a Pelican riding a bicycle as nicely done as you can
 
 [Анимированная версия · @marmaduke091](https://x.com/ItsmeAjayKV/status/2116461400931565791)
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c325fad08c0af80d4131a7d3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fb211776edb69bc12623cdcf.jpg" alt="SVG пеликана на велосипеде с точным запросом" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c325fad08c0af80d4131a7d3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fb211776edb69bc12623cdcf.jpg" alt="Кейс 95" width="760"></a>
 
 Type: Demo | Date: 2026-10-30
 
@@ -3065,7 +3217,7 @@ Type: Demo | Date: 2026-10-26
 
 Автор рассказывает, что попросил нарисовать точку, и показывает получившуюся короткую анимационную историю. Ролик демонстрирует превращение открытого визуального запроса в последовательный сюжет.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/883ec78260a59a6a789794ff.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/57df1160649eeb113f5b0904.jpg" alt="Точка превращается в короткую историю" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/883ec78260a59a6a789794ff.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/57df1160649eeb113f5b0904.jpg" alt="Кейс 98" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -3078,7 +3230,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель показывает непрерывную анимацию Супермена, переходящую между разными художественными стилями. Основной результат публикации — изменение визуальной подачи при сохранении узнаваемого героя.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9b17afbc69d86f83b02c7949.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bf9f9e0c1c18ec87d7827152.jpg" alt="Супермен в меняющихся художественных стилях" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9b17afbc69d86f83b02c7949.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bf9f9e0c1c18ec87d7827152.jpg" alt="Кейс 99" width="760"></a>
 
 Type: Demo | Date: 2026-10-01
 
@@ -3091,7 +3243,7 @@ Type: Demo | Date: 2026-10-01
 
 Автор сообщает об одном запросе на фильм о прогрессе человечества и следующих тридцати годах. Показана примерно трёхминутная анимация; автор указывает оригинальную музыку без готовых видеоматериалов и стоковых записей.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7169c82d36a8545ae331d5a5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a0f7665a4f830fe5bf9cd3ff.jpg" alt="Прогресс человечества в музыкальном анимационном фильме" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7169c82d36a8545ae331d5a5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a0f7665a4f830fe5bf9cd3ff.jpg" alt="Кейс 100" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -3104,7 +3256,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает два презентационных ролика по заданию с референсом видео Anthropic. В публикации прямо указаны вымышленные числа и возможность генерации изображений через Codex; это рекламные творческие работы.
 
-<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0b7fd47b61c0a91ac169327c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f22c970c5dd582d61fd25352.jpg" alt="Сравнение презентационных роликов с Opus" width="760"></a></td><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3c5ab918ab29a2a394862ab1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/286e3a487e75019216170eaf.jpg" alt="Сравнение презентационных роликов с Opus" width="760"></a></td></tr></table>
+<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0b7fd47b61c0a91ac169327c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f22c970c5dd582d61fd25352.jpg" alt="Кейс 101" width="760"></a></td><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3c5ab918ab29a2a394862ab1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/286e3a487e75019216170eaf.jpg" alt="Кейс 101" width="760"></a></td></tr></table>
 
 Type: Evaluation | Date: 2026-10-01
 
@@ -3117,7 +3269,7 @@ Type: Evaluation | Date: 2026-10-01
 
 Создатель рассказывает о запросе визуально объединить текст песни и инцидент Hugging Face. Приложенная анимация показывает итоговый сюжет, для которого песня и событие служат творческими исходными материалами.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8eff1627c25675b6f6c415f2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6fbf41178e2a95f90936bb88.jpg" alt="Визуальная связь текста песни и события" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8eff1627c25675b6f6c415f2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6fbf41178e2a95f90936bb88.jpg" alt="Кейс 102" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -3130,7 +3282,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает воксельного персонажа, изображающего его самого, в парящей сцене и отмечает обилие деталей и движения. Ролик даёт конкретный пример для сравнения воксельных работ.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e3760dd479675b0aad977523.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9c5cc28c6d3abec3c280aec8.jpg" alt="Воксельный персонаж в парящей сцене" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e3760dd479675b0aad977523.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9c5cc28c6d3abec3c280aec8.jpg" alt="Кейс 103" width="760"></a>
 
 Type: Demo | Date: 2026-10-01
 
@@ -3147,7 +3299,7 @@ Type: Demo | Date: 2026-10-01
 Extremely complicated 3d rube goldberg machine, accurate physics, aaa gfx, vfx
 ```
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9a5645cdfbace3f1f003f338.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c38369dcab30a7a3b2592a2e.jpg" alt="Демонстрация трёхмерной машины Голдберга" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9a5645cdfbace3f1f003f338.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c38369dcab30a7a3b2592a2e.jpg" alt="Кейс 104" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -3160,7 +3312,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель показывает трёхмерный интерфейс контроллера и сообщает о добавленных звуках, анимации и тактильной отдаче. Запись демонстрирует конкретное поведение интерфейса с включённым звуком.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a61bb2742df89100e4a9010e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d7d550662b97f41a709b4d58.jpg" alt="Трёхмерный контроллер со звуком и движением" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a61bb2742df89100e4a9010e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d7d550662b97f41a709b4d58.jpg" alt="Кейс 105" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -3173,7 +3325,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор сообщает об однократном запросе на презентацию героев Marvel и DC в JavaScript. По его словам, модель выбрала тонкие характерные детали и смонтировала видео; результат приложен.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c8c7e6a3c0721bb369db296a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/11921e058184a9deee4fad4a.jpg" alt="Персонажи комиксов средствами JavaScript" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c8c7e6a3c0721bb369db296a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/11921e058184a9deee4fad4a.jpg" alt="Кейс 106" width="760"></a>
 
 Type: Demo | Date: 2026-10-01
 
@@ -3186,7 +3338,7 @@ Type: Demo | Date: 2026-10-01
 
 Автор показывает Updraft и сообщает о нескольких часах работы с минимумом запросов при высокой интенсивности рассуждений. Указаны двадцать один мир, трёхмерные варианты, двадцать один босс с разными механиками и таблица лидеров.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/2b473a43235402693cfddb67.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a7605d61a6999b7a5a75d298.jpg" alt="Updraft: миры, боссы и таблица лидеров" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/2b473a43235402693cfddb67.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a7605d61a6999b7a5a75d298.jpg" alt="Кейс 107" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -3199,7 +3351,7 @@ Type: Demo | Date: 2026-10-02
 
 Публикатор делится записью и ссылкой на автомобильную игру в Сан-Франциско, созданную другим человеком, и называет Three.js в составе технологий. Указание источника не приписывает ему разработку игры.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a3daebcbd4ee15c6e00933f7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/62fa53fe2da2ef1d9df79d77.jpg" alt="Поездка по карте Сан-Франциско" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a3daebcbd4ee15c6e00933f7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/62fa53fe2da2ef1d9df79d77.jpg" alt="Кейс 108" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -3212,7 +3364,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает расширенную сцену боя, указывая Fable как инструмент написания запроса, а Seedance 2.5 — генерации видео. Языковая модель здесь разрабатывает входное задание для видеогенератора.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/948cf8988e420ba7f7644cc9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a777e08ece0bf5fa6b3dd76d.jpg" alt="Написание запроса для боевой сцены Seedance" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/948cf8988e420ba7f7644cc9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a777e08ece0bf5fa6b3dd76d.jpg" alt="Кейс 109" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -3225,7 +3377,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель демонстрирует мод clawdhouse для Claude Code и приписывает Fable его вступительное видео. Настольный персонаж и его настроения относятся к представленному моду.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d8252b98536b35b28d4a2f69.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7374241c39dab0c94f2557f2.jpg" alt="Объясняющее видео о настольном помощнике" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d8252b98536b35b28d4a2f69.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7374241c39dab0c94f2557f2.jpg" alt="Кейс 110" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -3242,7 +3394,7 @@ Type: Demo | Date: 2026-10-02
 Hey Fable, please make a cool animation
 ```
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9426b9eb74bb3dbb3cecd1cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5c7a0f0a5754d4f20cfdfbe3.jpg" alt="Короткий запрос на анимацию со сменой стилей" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9426b9eb74bb3dbb3cecd1cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5c7a0f0a5754d4f20cfdfbe3.jpg" alt="Кейс 111" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -3255,7 +3407,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор сообщает примерно о тысяче строк Bend2, симплектическом моделировании на CPU и отрисовке пикселей на GPU. Также заявлены шестьдесят кадров в секунду на M5 и формальные доказательства.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/67dea524fc04155805ea5f62.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8d8cd2cee891511d37be2531.jpg" alt="Визуализация задачи трёх тел" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/67dea524fc04155805ea5f62.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8d8cd2cee891511d37be2531.jpg" alt="Кейс 112" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -3268,7 +3420,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает анимационную галерею, созданную с настройкой xhigh. Конкретный результат объединяет разные стили и позволяет сравнить их визуальную подачу в рамках одной работы.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/502971e471d8a4dd737c51a6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b2ad9b438a172b2ce1cd902b.jpg" alt="Анимационная галерея художественных стилей" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/502971e471d8a4dd737c51a6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b2ad9b438a172b2ce1cd902b.jpg" alt="Кейс 113" width="760"></a>
 
 Type: Demo | Date: 2026-10-01
 
@@ -3281,7 +3433,7 @@ Type: Demo | Date: 2026-10-01
 
 Автор дорабатывает существующую анимацию робопса Unimate в компаньона и создаёт пушистого виртуального питомца с уходом и следами. Unreal Engine и исходная анимация робота явно входят в процесс.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9804d2afa56aa33c8d671292.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/612fe23ba65cde8186f80ddf.jpg" alt="Роботы-компаньоны и процедурная шерсть" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9804d2afa56aa33c8d671292.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/612fe23ba65cde8186f80ddf.jpg" alt="Кейс 114" width="760"></a>
 
 Type: Demo | Date: 2026-10-04
 
@@ -3294,7 +3446,7 @@ Type: Demo | Date: 2026-10-04
 
 Публикатор делится моушн-роликом на математическую тему. Вертикальное видео использует математические образы в анимированном дизайне и служит демонстрацией визуальной подачи.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/57d4f16b728eff5d5f94b073.jpg" alt="Математический моушн-ролик" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/57d4f16b728eff5d5f94b073.jpg" alt="Кейс 115" width="760">
 
 *Архивный кадр исходного видео.*
 
@@ -3309,7 +3461,7 @@ Type: Demo | Date: 2026-10-04
 
 Создатель показывает лирик-видео к Your Woman группы White Town. Существующая песня служит звуковым материалом для визуального оформления, а не заявляется как сочинённая моделью музыка.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/88157c7612eb6c005275619c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d447b9a8d799f508738e89d4.jpg" alt="Лирик-видео Your Woman" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/88157c7612eb6c005275619c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d447b9a8d799f508738e89d4.jpg" alt="Кейс 116" width="760"></a>
 
 Type: Demo | Date: 2026-10-04
 
@@ -3322,7 +3474,7 @@ Type: Demo | Date: 2026-10-04
 
 Автор описывает обводку кадров Godzilla Эминема плоскими фигурами и их перерисовку на JavaScript. Исходное видео и музыка используются как входные материалы новой анимации.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c9ac6106098d63ff3d7ce8d7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4b7d65e79fa8c8fa9aed2eda.jpg" alt="Перерисовка музыкального клипа на JavaScript" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c9ac6106098d63ff3d7ce8d7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4b7d65e79fa8c8fa9aed2eda.jpg" alt="Кейс 117" width="760"></a>
 
 Type: Demo | Date: 2026-10-04
 
@@ -3335,7 +3487,7 @@ Type: Demo | Date: 2026-10-04
 
 Автор показывает анимацию о национальной футбольной сборной Китая, называя её развитие и стойкость творческой темой. Запись даёт конкретный пример спортивного повествования.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d0e837b5c3551d3c3715337f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cd5e0537224d41a29e3e4d81.jpg" alt="Анимация о китайском футболе" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d0e837b5c3551d3c3715337f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cd5e0537224d41a29e3e4d81.jpg" alt="Кейс 118" width="760"></a>
 
 Type: Demo | Date: 2026-10-04
 
@@ -3348,7 +3500,7 @@ Type: Demo | Date: 2026-10-04
 
 Публикатор сопоставляет изображение портативной консоли с видом в стиле каркасной сетки, обсуждая ретопологию. Это конкретная визуальная презентация моделирования, без редактируемой сетки или подробной процедуры.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ec1260c667d8139c4cfed70a.jpg" alt="Демонстрация топологии портативной консоли" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ec1260c667d8139c4cfed70a.jpg" alt="Кейс 119" width="760">
 
 Type: Demo | Date: 2026-10-04
 
@@ -3361,7 +3513,7 @@ Type: Demo | Date: 2026-10-04
 
 Автор представляет прототип Pallet Town, сочетающий строительство и крафт Minecraft с ловлей существ в духе Pokémon, и даёт ссылку на демо. Работа описана как эксперимент с одним запросом.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5ca78d7ae17e27f0c3728df6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/829a3e03f20c6f9f8c58cd5c.jpg" alt="Minecraft встречает Pokémon" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5ca78d7ae17e27f0c3728df6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/829a3e03f20c6f9f8c58cd5c.jpg" alt="Кейс 120" width="760"></a>
 
 Type: Demo | Date: 2026-10-04
 
@@ -3374,7 +3526,7 @@ Type: Demo | Date: 2026-10-04
 
 Автор спрашивает, как создаётся большая языковая модель, и показывает получившееся объясняющее видео. Работа демонстрирует подачу технической темы через анимационную последовательность.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6a944b8ff013c87884dd9e9f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1d36e53c6eaf410eed54236a.jpg" alt="Объяснение создания большой языковой модели" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6a944b8ff013c87884dd9e9f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1d36e53c6eaf410eed54236a.jpg" alt="Кейс 121" width="760"></a>
 
 Type: Demo | Date: 2026-10-04
 
@@ -3387,7 +3539,7 @@ Type: Demo | Date: 2026-10-04
 
 Автор делится тематическим видео об Альтмане и описывает его как результат одного запроса. Вертикальная запись представляет компактный пример работы с движением и монтажом.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/af9cca794a0a4f1532bcc60d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d683cf1f4c3f2a25f5a3db76.jpg" alt="Короткий ролик об Альтмане" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/af9cca794a0a4f1532bcc60d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d683cf1f4c3f2a25f5a3db76.jpg" alt="Кейс 122" width="760"></a>
 
 Type: Demo | Date: 2026-10-04
 
@@ -3400,7 +3552,7 @@ Type: Demo | Date: 2026-10-04
 
 Автор показывает фильм о первой из тридцати шести стратагем и сообщает об одной инструкции. Для музыки назван Suno V6, что сохраняет отдельную роль звукового инструмента.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1adf495a8a97637ea487129d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bc271c45635d54a258cf5e29.jpg" alt="Первая из тридцати шести стратагем" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1adf495a8a97637ea487129d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bc271c45635d54a258cf5e29.jpg" alt="Кейс 123" width="760"></a>
 
 Type: Demo | Date: 2026-10-04
 
@@ -3413,7 +3565,7 @@ Type: Demo | Date: 2026-10-04
 
 Автор показывает сравнение Depths of Despair с моделированием персонажей, риггингом и анимацией. Публикация описывает использованные материалы и инструменты и сопоставляет видимые результаты.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/543488d55fbd3bf31a838793.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/618e83e5f19e49a8cac14986.jpg" alt="Моделирование, риггинг и анимация для игры" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/543488d55fbd3bf31a838793.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/618e83e5f19e49a8cac14986.jpg" alt="Кейс 124" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3426,7 +3578,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор показывает фильм о детской смертности, используя образы дышащего младенца и затемнённых кроваток. Здесь сохраняется задача визуального повествования без переноса статистики фильма в выводы.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c27b689422cbbf3a151c91b2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a25e576f265e01b5c543c3ab.jpg" alt="Немой фильм о детской смертности" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c27b689422cbbf3a151c91b2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a25e576f265e01b5c543c3ab.jpg" alt="Кейс 125" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3439,7 +3591,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор просит показать прохождение молекулы глюкозы через гликолиз к образованию этанола в формате анимированного SVG внутри HTML. Приложенная запись демонстрирует научную визуализацию результата.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9c7ebfa65fa03ac5dddefbc7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/34dd4d34fa6d9a00374141d7.jpg" alt="SVG-анимация от гликолиза до этанола" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9c7ebfa65fa03ac5dddefbc7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/34dd4d34fa6d9a00374141d7.jpg" alt="Кейс 126" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3452,7 +3604,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор просит показать одновременный запуск шестнадцати Starship, последующее разделение ступеней и выход в космос. Запись демонстрирует получившуюся анимационную последовательность с множеством объектов.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/61849da7a881419b60dcae41.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/98d75b5f7d113ae54ac1753d.jpg" alt="Шестнадцать одновременных запусков Starship" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/61849da7a881419b60dcae41.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/98d75b5f7d113ae54ac1753d.jpg" alt="Кейс 127" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3465,7 +3617,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор показывает свой результат задачи о пеликане на велосипеде при максимальном рассуждении. Это отдельная записанная работа, отличающаяся от вариантов других авторов по похожему общему запросу.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c3b9b0bf5ec86fce138a1221.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b201da22cf822e627212671b.jpg" alt="Анимационный тест с пеликаном на велосипеде" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c3b9b0bf5ec86fce138a1221.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b201da22cf822e627212671b.jpg" alt="Кейс 128" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3478,7 +3630,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор сообщает, что одна инструкция дала фильм о следующих ста пятидесяти годах человечества. Работа соединяет письменный сюжет, кодовую анимацию и музыку в изображении возможной будущей жизни.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/228b236d407998ac39491f5e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/2e714a53df372ed797a7e907.jpg" alt="История следующих ста пятидесяти лет" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/228b236d407998ac39491f5e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/2e714a53df372ed797a7e907.jpg" alt="Кейс 129" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3491,7 +3643,7 @@ Type: Demo | Date: 2026-10-03
 
 Увидев другие демонстрации, автор создаёт собственную анимацию прогулки по истории искусства и показывает результат. Работа сохранена отдельно: сходство темы само по себе не означает дублирование.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f27280f609dadc28672aefdf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7dd72b2ab4bfe3aefa8be062.jpg" alt="Самостоятельный эксперимент Humanity Walks" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f27280f609dadc28672aefdf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7dd72b2ab4bfe3aefa8be062.jpg" alt="Кейс 130" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3504,7 +3656,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор показывает The Grader как фильм, созданный кодом, и называет ElevenLabs v4 для звука. По публикации, один запуск занял примерно два часа двадцать две минуты.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ef0a1ded02ef50db2842e393.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/81326a05ce8ec8e64457d4db.jpg" alt="Кодовый фильм The Grader" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ef0a1ded02ef50db2842e393.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/81326a05ce8ec8e64457d4db.jpg" alt="Кейс 131" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3517,7 +3669,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор показывает Reawakening, короткометражный фильм ужасов, созданный с помощью ИИ. Приложенная работа даёт конкретный пример сюжета и атмосферы для задания на хоррор-анимацию.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/676985e8db9f61d999309cb6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f76cd5c697edd52c235ad972.jpg" alt="Короткометражный хоррор Reawakening" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/676985e8db9f61d999309cb6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f76cd5c697edd52c235ad972.jpg" alt="Кейс 132" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3530,7 +3682,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор просит двадцатипятисекундное видео о том, что сделало бы модель лучше, и показывает результат. Задуманная ситуация используется как основа творческого повествования.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fceb3fc0b2fd1a45e4df6598.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5affafaa899381ebb0c07c9d.jpg" alt="Двадцатипятисекундное видео о самосовершенствовании" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fceb3fc0b2fd1a45e4df6598.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5affafaa899381ebb0c07c9d.jpg" alt="Кейс 133" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3543,7 +3695,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор показывает подробную сцену замка, хвалит её визуальную конструкцию и считает стоимость использования невыгодной. Пример объединяет конкретный результат с личной оценкой расходов.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ca4e00fb991a531a91b787ec.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c437830c5a26908acecb2664.jpg" alt="Сцена замка и отзыв о расходах" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ca4e00fb991a531a91b787ec.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c437830c5a26908acecb2664.jpg" alt="Кейс 134" width="760"></a>
 
 Type: Evaluation | Date: 2026-10-03
 
@@ -3556,7 +3708,7 @@ Type: Evaluation | Date: 2026-10-03
 
 Создатель просит сорокасекундную рекламу запуска своего бренда и показывает получившееся видео. Задача демонстрирует создание конкретного рекламного повествования для бренда.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fe3a0894e5fb290708fe2559.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/769040e88e5fa00440daf93b.jpg" alt="Сорокасекундная реклама запуска бренда" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fe3a0894e5fb290708fe2559.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/769040e88e5fa00440daf93b.jpg" alt="Кейс 135" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3569,7 +3721,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор показывает Rocketball, ремейк игры для C-64 из восьмидесятых, и сообщает, что материалы созданы кодом. Замена существующей веб-версии описана как будущий план.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1c9049d48131242460ff0b08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/840804f6fc059b910cecbea5.jpg" alt="Ремейк Rocketball" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1c9049d48131242460ff0b08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/840804f6fc059b910cecbea5.jpg" alt="Кейс 136" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3582,7 +3734,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор сопоставляет трёхмерные воксельные пагоды Astra и Fable и указывает стоимость 3,50 и 5,50 доллара соответственно. Сравнение относится к конкретным запускам и показанным сценам.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/21478220f08972929cc315d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/eb7e758f0ca20099e8ec2b71.jpg" alt="Сравнение воксельной пагоды" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/21478220f08972929cc315d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/eb7e758f0ca20099e8ec2b71.jpg" alt="Кейс 137" width="760"></a>
 
 Type: Evaluation | Date: 2026-10-03
 
@@ -3595,7 +3747,7 @@ Type: Evaluation | Date: 2026-10-03
 
 Автор просит представить Nintendo Switch 3 и подготовить демонстрацию, сообщая примерно о четырёх часах работы. Запись показывает концепцию вымышленной следующей консоли.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9cedd5846e7c44a4b8b18e60.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0a0c87ad253a8e1de157e1b4.jpg" alt="Презентация воображаемой Switch 3" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9cedd5846e7c44a4b8b18e60.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0a0c87ad253a8e1de157e1b4.jpg" alt="Кейс 138" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3608,7 +3760,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор сравнивает новую посадочную страницу с более ранней, созданной по тому же запросу. Видимые варианты до и после дают практический пример сопоставления интерфейсов.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9200a6fe533b722eb9689f98.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/11891711d14bb0550e4e3dcf.jpg" alt="Посадочные страницы до и после" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9200a6fe533b722eb9689f98.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/11891711d14bb0550e4e3dcf.jpg" alt="Кейс 139" width="760"></a>
 
 Type: Evaluation | Date: 2026-10-03
 
@@ -3621,7 +3773,7 @@ Type: Evaluation | Date: 2026-10-03
 
 Автор просит фильм о том, как могло бы ощущаться существование ИИ-модели, и показывает результат одного запроса. Предпосылка служит основой художественного визуального выражения.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/50e0c388c8aa359236e320a2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cbe79d20f3e6b68059837a0b.jpg" alt="Воображаемый внутренний мир ИИ" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/50e0c388c8aa359236e320a2.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cbe79d20f3e6b68059837a0b.jpg" alt="Кейс 140" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3634,7 +3786,7 @@ Type: Demo | Date: 2026-10-03
 
 Создатель показывает лирик-видео к Go группы The Chemical Brothers и сообщает о максимальном рассуждении. Запись песни остаётся внешним звуковым материалом для моушн-дизайна.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/60df0d5a6a73acd36b32f482.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8d7f53506169267888481454.jpg" alt="Моушн-дизайн текста песни Go" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/60df0d5a6a73acd36b32f482.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8d7f53506169267888481454.jpg" alt="Кейс 141" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3647,7 +3799,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор показывает новое пятнадцатисекундное моушн-портфолио и приводит творческий запрос. Публикация прямо отделяет эту генерацию от предыдущей работы в жанре портфолио.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/67cc18e0020d5a96713de1a8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e3680ff12a107b5d15bd4e5e.jpg" alt="Второе пятнадцатисекундное моушн-портфолио" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/67cc18e0020d5a96713de1a8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e3680ff12a107b5d15bd4e5e.jpg" alt="Кейс 142" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3660,7 +3812,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор делится правилами оценки соответствия системе, планирования реализации и пояснений. Он описывает проверку готовой работы и выбор следующей задачи; изображение сохраняет конкретный документ планирования.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7c308ed282e70b605ddc2d74.jpg" alt="Контролируемый обзор реализации агентом" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7c308ed282e70b605ddc2d74.jpg" alt="Кейс 143" width="760">
 
 Type: Tutorial | Date: 2026-10-03
 
@@ -3673,7 +3825,7 @@ Type: Tutorial | Date: 2026-10-03
 
 Создатель показывает танец талисмана Claude и отмечает попадание анимации в музыкальный ритм. Повторные публикации того же исходного видео привязаны к этому источнику и не считаются отдельными работами.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/448f60510bc8d206d9871580.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9943078ebfa5f29928ff11cb.jpg" alt="Танец талисмана Claude" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/448f60510bc8d206d9871580.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9943078ebfa5f29928ff11cb.jpg" alt="Кейс 144" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3686,7 +3838,7 @@ Type: Demo | Date: 2026-10-03
 
 Публикатор показывает семь чудес света, расположенных на трёхмерных островах со знаменитыми сооружениями. Запись даёт конкретный пример организации интерактивного визуального пространства вокруг узнаваемых памятников.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7c2548aa2216a05d6bcf88cc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/be4f38faca4efaaf2d37bb34.jpg" alt="Интерактивные острова семи чудес света" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7c2548aa2216a05d6bcf88cc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/be4f38faca4efaaf2d37bb34.jpg" alt="Кейс 145" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3699,7 +3851,7 @@ Type: Demo | Date: 2026-10-03
 
 Создатель показывает визуальную обработку On Her Majesty’s Secret Service группы Propellerheads. Существующая запись используется как звуковой материал для анимированной последовательности.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f2691b42909079f64e659008.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/47f911d1f26059bbbf87adfd.jpg" alt="Музыкальное видео Propellerheads" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f2691b42909079f64e659008.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/47f911d1f26059bbbf87adfd.jpg" alt="Кейс 146" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3712,7 +3864,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор показывает сравнение Steamboat Willie с обозначениями Fable и Opus при интенсивности xhigh и описывает оба результата как однократные запуски. Ролик сохраняет конкретное визуально-звуковое сопоставление.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b59fcf68af9079043710bfb1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9d3ddb610977282fb47d094a.jpg" alt="Сравнение анимаций Steamboat Willie" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b59fcf68af9079043710bfb1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9d3ddb610977282fb47d094a.jpg" alt="Кейс 147" width="760"></a>
 
 Type: Evaluation | Date: 2026-10-03
 
@@ -3725,7 +3877,7 @@ Type: Evaluation | Date: 2026-10-03
 
 Автор представляет фильм на тему Саньсиндуй как творческую визуальную историю. Запись даёт конкретный пример превращения историко-культурного сюжета в задание на анимацию.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3b543f8114bf971a25cfc075.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/54b30b962a562cf71c5c7d1c.jpg" alt="Фильм на тему Саньсиндуй" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3b543f8114bf971a25cfc075.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/54b30b962a562cf71c5c7d1c.jpg" alt="Кейс 148" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3738,7 +3890,7 @@ Type: Demo | Date: 2026-10-03
 
 Один автор показывает Bugatti Chiron из раннего запуска и результат повторения того же запроса. Записанное сравнение до и после сосредоточено на более подробном моделировании и элементах сцены.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/dce62441af2bc515349c9da8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/539bcbf357d029adf665b992.jpg" alt="Bugatti Chiron до и после" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/dce62441af2bc515349c9da8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/539bcbf357d029adf665b992.jpg" alt="Кейс 149" width="760"></a>
 
 Type: Evaluation | Date: 2026-10-03
 
@@ -3751,7 +3903,7 @@ Type: Evaluation | Date: 2026-10-03
 
 Создатель показывает концептуальную короткометражку GRAIN, связывающую семя, зерно, дерево и горные образы. Повторяющиеся формы и переходы образуют структуру повествования.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/57e75bacc95f9cd23460f659.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fed7820dddd11b739076aca8.jpg" alt="Концептуальный фильм GRAIN" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/57e75bacc95f9cd23460f659.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fed7820dddd11b739076aca8.jpg" alt="Кейс 150" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3764,7 +3916,7 @@ Type: Demo | Date: 2026-10-03
 
 Публикатор показывает Human in Transit, галерею с переходом от древних художественных стилей к современным. Записанный интерфейс служит конкретным образцом объединения нескольких эпох в одной презентации.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1e04f07e2356151e268d5f30.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/260ec41d2d9b54a24e325d14.jpg" alt="Художественная галерея Human in Transit" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1e04f07e2356151e268d5f30.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/260ec41d2d9b54a24e325d14.jpg" alt="Кейс 151" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3777,7 +3929,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор показывает фильм на тему Шёлкового пути. Приложенная работа предлагает конкретное творческое изображение исторического путешествия средствами анимации.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/07116e11e8c8a0e5899ae8bd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3a64357c0519bd7524f7949a.jpg" alt="Визуальная короткометражка о Шёлковом пути" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/07116e11e8c8a0e5899ae8bd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3a64357c0519bd7524f7949a.jpg" alt="Кейс 152" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3790,7 +3942,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор делится слайдами, описывающими четыре пути преобразования. Изображение презентации показывает, как концептуальную схему можно организовать в визуальный документ.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3aa84b5e612da3b4d740c390.jpg" alt="Презентация четырёх преобразований" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3aa84b5e612da3b4d740c390.jpg" alt="Кейс 153" width="760">
 
 Type: Demo | Date: 2026-10-03
 
@@ -3803,7 +3955,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор просит текущую модель проанализировать прежние журналы бесед и нынешний стиль, затем выражает недовольство изменением тона. Приложенное изображение сохраняет конкретную задачу сравнения разговоров.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5df5dc4983c09495b3e4dfbf.jpg" alt="Сравнение тона старых и новых бесед" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5df5dc4983c09495b3e4dfbf.jpg" alt="Кейс 154" width="760">
 
 Type: Evaluation | Date: 2026-10-03
 
@@ -3816,7 +3968,7 @@ Type: Evaluation | Date: 2026-10-03
 
 Автор показывает анимацию какапо и говорит, что в сравнении по миловидности предпочитает Opus. Пример сохраняет отрицательный эстетический отзыв вместе с конкретным анимационным результатом.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c3328698e23303648334dda0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f51048a616b2d6c9471f9774.jpg" alt="Проверка миловидности какапо" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c3328698e23303648334dda0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f51048a616b2d6c9471f9774.jpg" alt="Кейс 155" width="760"></a>
 
 Type: Evaluation | Date: 2026-10-03
 
@@ -3829,7 +3981,7 @@ Type: Evaluation | Date: 2026-10-03
 
 Исходный публикатор показывает Человека-паука, проходящего через десять эпох комиксов. Другие публикации с тем же видео привязаны к этому источнику и не считаются новыми работами.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4b71937c3743eed2ba92de90.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/72f77356b6e8293005144d0c.jpg" alt="Человек-паук в десяти эпохах комиксов" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4b71937c3743eed2ba92de90.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/72f77356b6e8293005144d0c.jpg" alt="Кейс 156" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3842,7 +3994,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор просит страшное видео на тему иллюминатов и показывает результат. Предмет запроса служит вымышленной хоррор-предпосылкой для анимации.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6c9b503c1d226dfc63700cd3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f2715bf396e76b3b9a421c43.jpg" alt="Вымышленный хоррор об иллюминатах" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6c9b503c1d226dfc63700cd3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f2715bf396e76b3b9a421c43.jpg" alt="Кейс 157" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3855,7 +4007,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор просит трёхминутный трёхмерный фильм о роли ядерной науки в появлении атомной бомбы и сообщает об отрисованных кадрах, собственном рендерере и синтезированной музыке. Пример касается производства аудиовизуальной работы.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d3bb5c1a7d19214aa2df7c15.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ddd5eadabcd20e7c99f8a84b.jpg" alt="Кодовый фильм об истории ядерной науки" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d3bb5c1a7d19214aa2df7c15.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ddd5eadabcd20e7c99f8a84b.jpg" alt="Кейс 158" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3868,7 +4020,7 @@ Type: Demo | Date: 2026-10-03
 
 Публикатор делится анимацией, объясняющей всеобщий высокий доход. Запись даёт конкретный пример объясняющего формата без превращения изображённых экономических доводов в измеренные результаты.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d3dc85ce581ace81d5dee727.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c47951c1cdaf4f43cdc3b40b.jpg" alt="Объяснение всеобщего высокого дохода" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d3dc85ce581ace81d5dee727.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c47951c1cdaf4f43cdc3b40b.jpg" alt="Кейс 159" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3881,7 +4033,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор просит анимационный рассказ о споре Альтмана и Амодеи и показывает получившееся видео. Задача демонстрирует формат тематического объясняющего ролика.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5728468c70009e5a30391f08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ad00b822edd0e9f7afcfa7f0.jpg" alt="Анимационное объяснение спора Альтмана и Амодеи" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5728468c70009e5a30391f08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ad00b822edd0e9f7afcfa7f0.jpg" alt="Кейс 160" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3894,7 +4046,7 @@ Type: Demo | Date: 2026-10-03
 
 Публикатор показывает талисмана Claude поверх музыкального клипа с живыми актёрами и сообщает о двенадцатичасовом запуске. Видимая обработка сочетает мультяшного персонажа с предоставленными видеокадрами.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c19520473733d1f7435a38d3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/77afb2d88514b8e9fb89e8fc.jpg" alt="Музыкальный клип с талисманом Claude" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c19520473733d1f7435a38d3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/77afb2d88514b8e9fb89e8fc.jpg" alt="Кейс 161" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3907,7 +4059,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор сообщает о кодовой графике и синтезированной музыке для перехода от кварков до Вселенной. Запись демонстрирует непрерывную смену масштабов и связное визуальное повествование.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/721f59cdc3678e81c567dead.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/395d2654b5b0a3e977b472c8.jpg" alt="Непрерывное приближение от кварков до Вселенной" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/721f59cdc3678e81c567dead.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/395d2654b5b0a3e977b472c8.jpg" alt="Кейс 162" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3920,7 +4072,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор показывает короткий фильм о воображаемом мире 2076 года после просьбы сделать двадцатипятисекундное видео. Повторное использование записи другими аккаунтами привязано к этому источнику.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/48731c19330bc992204fb804.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6d2b707821e78f6d02308051.jpg" alt="Воображаемый мир 2076 года" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/48731c19330bc992204fb804.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6d2b707821e78f6d02308051.jpg" alt="Кейс 163" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3933,7 +4085,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор представляет Нижний Манхэттен через интерфейс в стиле архитектурного чертежа с датами постройки, контурами и высотами зданий. Запись демонстрирует конкретную концепцию интерактивной хронологии.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5eadbb9d6620c56cdfd20db7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/439a32860dc89b2ff304e991.jpg" alt="Хронология зданий Нижнего Манхэттена" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5eadbb9d6620c56cdfd20db7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/439a32860dc89b2ff304e991.jpg" alt="Кейс 164" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3946,7 +4098,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор показывает анимацию, начинающуюся с надписей на гадательных костях. Запись даёт конкретный пример визуального повествования вокруг истории письменных знаков.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0d0e033e83e40406963c1624.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0a7fb3b121acab9ff0f387f8.jpg" alt="Анимация письма на гадательных костях" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0d0e033e83e40406963c1624.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0a7fb3b121acab9ff0f387f8.jpg" alt="Кейс 165" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -3959,7 +4111,7 @@ Type: Demo | Date: 2026-10-03
 
 Автор просит показать Железного человека и Человека-паука, летящих через историю, и делится результатом. Это отдельная работа среди других экспериментов с героями и историей искусства.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/13b5f9341ac3c45e858cfc2e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e90b1577480524f8edac5080.jpg" alt="Ещё одна прогулка персонажей по истории искусства" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/13b5f9341ac3c45e858cfc2e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e90b1577480524f8edac5080.jpg" alt="Кейс 166" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -3972,7 +4124,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает работу об эпитафии Сейкила и сообщает, что графика и музыка синтезированы средствами HTML и JavaScript в одном файле. Исторический текст задаёт тему кодовой последовательности.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ac7bdaa973e41a073c063606.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3aa2fd116482590d4761d329.jpg" alt="Кодовая аудиовизуальная работа об эпитафии Сейкила" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ac7bdaa973e41a073c063606.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3aa2fd116482590d4761d329.jpg" alt="Кейс 167" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -3985,7 +4137,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает сравнение анимаций реактивного самолёта с обозначениями Fable 5.1 и Opus. Записанные сцены дают конкретный материал для оценки движения самолёта и кинематографического слежения камерой.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d5ca08b004ee0b0477384ae4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/51c2eff3a0af7f83a1063f02.jpg" alt="Сравнение анимации реактивного самолёта" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d5ca08b004ee0b0477384ae4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/51c2eff3a0af7f83a1063f02.jpg" alt="Кейс 168" width="760"></a>
 
 Type: Evaluation | Date: 2026-10-02
 
@@ -3998,7 +4150,7 @@ Type: Evaluation | Date: 2026-10-02
 
 Создатель сообщает, что одним запросом попросил видео-самопрезентацию, и показывает получившийся фильм. Задача сочетает тематическое повествование о модели с анимационной подачей.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f622576a03f5acf8fd1d6a8c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/67a3f8209951f7177817309f.jpg" alt="Фильм-самопрезентация модели" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f622576a03f5acf8fd1d6a8c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/67a3f8209951f7177817309f.jpg" alt="Кейс 169" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4011,7 +4163,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает постапокалиптический прототип в стиле Hearthstone, описанный как результат одного запроса. Публикация признаёт небольшие сбои и демонстрирует интерфейс и взаимодействия игры.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8d4ee0351fbc1bf402a6fbe9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/010130286ef1cd23d112191a.jpg" alt="Прототип постапокалиптической карточной игры" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8d4ee0351fbc1bf402a6fbe9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/010130286ef1cd23d112191a.jpg" alt="Кейс 170" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4024,7 +4176,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель представляет The Late Byte, анимационную офисную историю, где Opus изображён сердитым начальником. Это отдельный сюжет, отличающийся от фильма Day in the Life of Claude.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/15c94a558525f7353af74d9d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b8591839693983a13e85a16e.jpg" alt="Офисная анимация The Late Byte" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/15c94a558525f7353af74d9d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b8591839693983a13e85a16e.jpg" alt="Кейс 171" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4037,7 +4189,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель описывает создание музыкального видео с кинетической типографикой на запись Queens of the Stone Age. Песня служит предоставленным аудиоматериалом, а пример касается компоновки текста и графики.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/29baacc9a5d79663d028c0d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/85f77ab89071911301d88f92.jpg" alt="Анимация текста песни Queens of the Stone Age" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/29baacc9a5d79663d028c0d8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/85f77ab89071911301d88f92.jpg" alt="Кейс 172" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4050,7 +4202,7 @@ Type: Demo | Date: 2026-10-02
 
 Публикатор делится сюжетной сценой Three.js и комментирует большой расход токенов. Приложенный ролик сохранён как распространённый визуальный пример трёхмерного повествования.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e82bc5fcc6a848f88a5e0fa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/565cf7c430705cc48ac8ab71.jpg" alt="Опубликованная сюжетная сцена Three.js" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e82bc5fcc6a848f88a5e0fa.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/565cf7c430705cc48ac8ab71.jpg" alt="Кейс 173" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4063,7 +4215,7 @@ Type: Demo | Date: 2026-10-02
 
 Публикатор показывает лунную походку Майкла Джексона в последовательности от динозавров до Луны. Фильм сохранён как опубликованный пример сочетания танца и галереи стилей.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/34c25a1d7f0c405d9ce529bf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/096ac813acdfe28a3e52f16c.jpg" alt="Лунная походка через исторические сцены" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/34c25a1d7f0c405d9ce529bf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/096ac813acdfe28a3e52f16c.jpg" alt="Кейс 174" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4076,7 +4228,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает моушн-видео и сообщает, что предоставил только подробный запрос, без материалов, референсного видео или исходных файлов. Результат даёт конкретный пример дизайна по текстовому заданию.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/04f82b6cb08e4416d82850b5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4df2d47adf0c0b1b795a13f7.jpg" alt="Моушн-графика по подробному запросу" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/04f82b6cb08e4416d82850b5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4df2d47adf0c0b1b795a13f7.jpg" alt="Кейс 175" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4089,7 +4241,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель показывает снимок интерфейса сайта прокатного бизнеса. Пример относится к видимому оформлению страницы и представлению компании.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4260ce2518ee2b7ed4015670.jpg" alt="Интерфейс сайта прокатного бизнеса" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4260ce2518ee2b7ed4015670.jpg" alt="Кейс 176" width="760">
 
 Type: Demo | Date: 2026-10-02
 
@@ -4102,7 +4254,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает анимацию на тему AGI, созданную по регулярно используемому запросу. Высказывания о модели внутри фильма выступают частью творческого повествования.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/24a8cc2869d1f945c337dd51.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b19d60e7a61a0885999a9ec8.jpg" alt="Творческий фильм на тему AGI" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/24a8cc2869d1f945c337dd51.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b19d60e7a61a0885999a9ec8.jpg" alt="Кейс 177" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4115,7 +4267,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель представляет пятнадцатисекундное путешествие по истории искусства с кошачьей сюжетной линией. Пятнадцать секунд обозначают длину фильма, а творческая задача охватывает множество исторических стилей.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/819481183fc7834d88cd5557.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3967f82d274d07f7ea7c11bc.jpg" alt="История искусства с кошачьим сюжетом" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/819481183fc7834d88cd5557.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3967f82d274d07f7ea7c11bc.jpg" alt="Кейс 178" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4128,7 +4280,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает боевой прототип в стиле DMC вместе с воксельной сценой и описывает длительный запуск генерации. Два конкретных результата позволяют рассмотреть игровые механики и визуальный мир.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d8c9fdf7a2bb4ea0e4d3a53a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/03fc44f9f96cf5f3ae42b7bb.jpg" alt="Боевой прототип и воксельная сцена" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d8c9fdf7a2bb4ea0e4d3a53a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/03fc44f9f96cf5f3ae42b7bb.jpg" alt="Кейс 179" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4141,7 +4293,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель показывает анимационную последовательность популярных интернет-мемов с 2010 по 2026 год. Каждому году соответствуют визуальный стиль и музыкальная обработка в кодовом повествовании.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d33c0b55ae8c290665afdc29.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/29a4c6fbbf00bf107a493f8f.jpg" alt="Хронология интернет-мемов" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d33c0b55ae8c290665afdc29.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/29a4c6fbbf00bf107a493f8f.jpg" alt="Кейс 180" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4154,7 +4306,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель показывает анимацию частиц по однострочному запросу и собирается попробовать более подробное задание. Это отдельная генерация, отличающаяся от его более длинного примера моушн-дизайна.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5670b888b55ee404db63e456.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/445333acd2d116cb0887ab17.jpg" alt="Движение частиц по одной строке" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5670b888b55ee404db63e456.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/445333acd2d116cb0887ab17.jpg" alt="Кейс 181" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4167,7 +4319,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает Kung-Fu Boy, пример персонажной анимации, приписанный Fable 5.5. Приложенная запись даёт конкретный результат на тему боевых искусств.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f864ef82f64ca6225c0af261.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c21633c7b612e6a16d57881a.jpg" alt="Анимация Kung-Fu Boy" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f864ef82f64ca6225c0af261.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c21633c7b612e6a16d57881a.jpg" alt="Кейс 182" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4180,7 +4332,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель представляет анимационные дебаты об Ормузском проливе. Пример сохраняет показанный фильм-дискуссию, оставляя за рамками другие неподтверждённые применения из окружающего текста публикации.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1e47dad4b619080e0bb9a5ee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c578ea3e94885b964cfe339b.jpg" alt="Анимационные дебаты об Ормузском проливе" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1e47dad4b619080e0bb9a5ee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c578ea3e94885b964cfe339b.jpg" alt="Кейс 183" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4193,7 +4345,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает SVG-эксперимент с единорогом, вдохновлённый испытанием другого создателя. Приложенное изображение даёт конкретный результат для сравнения визуальной подачи одного предмета.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3f24fc135aa4b7db69bcac72.jpg" alt="Эксперимент со стилем SVG-единорога" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3f24fc135aa4b7db69bcac72.jpg" alt="Кейс 184" width="760">
 
 Type: Demo | Date: 2026-10-02
 
@@ -4206,7 +4358,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель просит работу на тему Хэллоуина и показывает получившуюся сезонную анимацию. Публикация содержит исходную запись этого конкретного творческого задания.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6e60368675a61c0b6e62d1d4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8cabbe8b2fe083d6ddc29e16.jpg" alt="Сезонная анимация к Хэллоуину" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6e60368675a61c0b6e62d1d4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8cabbe8b2fe083d6ddc29e16.jpg" alt="Кейс 185" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4219,7 +4371,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор сравнивает персонажа-варвара для RPG и концепцию обложки с результатом Opus. Blender CLI служит инструментом построения и рендера; модель предоставляет кодовые инструкции.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/74aeac02c879e17cc8cdbe2c.jpg" alt="Варвар и обложка через Blender CLI" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/74aeac02c879e17cc8cdbe2c.jpg" alt="Кейс 186" width="760">
 
 Type: Demo | Date: 2026-10-02
 
@@ -4232,7 +4384,7 @@ Type: Demo | Date: 2026-10-02
 
 Исходный публикатор показывает фильм Day in the Life of Claude с талисманом. Это видео отличается от отдельной анимации танца персонажа и её повторных публикаций.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ce91d7bd6316929c0229c090.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/aa0dfdca579e71891d871df8.jpg" alt="Один день из жизни Claude" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ce91d7bd6316929c0229c090.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/aa0dfdca579e71891d871df8.jpg" alt="Кейс 187" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4245,7 +4397,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель показывает трёхмерное видео от древнего человечества до современности и сообщает о создании моделей и анимации кодом. Результат представляет пример визуального повествования.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/da237dda8714cc1f10d6bd8a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/72fd4829e96839ace8f79b29.jpg" alt="История человечества в трёхмерной анимации" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/da237dda8714cc1f10d6bd8a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/72fd4829e96839ace8f79b29.jpg" alt="Кейс 188" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4258,7 +4410,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает короткое динамичное видео и сравнивает звук и связность со своей работой Opus. Оценка описывает личный опыт создателя с этим конкретным результатом.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ecbba68abe3d9a22e9428087.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/464ea3477781ec76d5decfa6.jpg" alt="Быстрый моушн-дизайнерский ролик" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ecbba68abe3d9a22e9428087.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/464ea3477781ec76d5decfa6.jpg" alt="Кейс 189" width="760"></a>
 
 Type: Evaluation | Date: 2026-10-02
 
@@ -4271,7 +4423,7 @@ Type: Evaluation | Date: 2026-10-02
 
 Создатель спрашивает, что модель сделала бы в свободное время, и показывает получившуюся трёхмерную работу. Публикация описывает множество отдельных элементов созданной композиции.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a1089bbf8543ef20056ae277.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1ca7ca904b82e34a6dba88aa.jpg" alt="Свободное создание сложной трёхмерной композиции" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a1089bbf8543ef20056ae277.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1ca7ca904b82e34a6dba88aa.jpg" alt="Кейс 190" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4284,7 +4436,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель просит видео с анимированной дракой схематичных человечков и показывает результат. Приложенная запись даёт конкретный пример такой боевой анимационной задачи.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e89ce685574f66dc969d7ac.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4c6683c5a691eeff27424c02.jpg" alt="Анимация боя схематичных человечков" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e89ce685574f66dc969d7ac.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4c6683c5a691eeff27424c02.jpg" alt="Кейс 191" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4297,7 +4449,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает анимационную последовательность интерфейса, описанную как результат одного запроса примерно за шесть или семь минут. Запись демонстрирует визуальный результат этого задания.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b12e9274a06ccbd02b7beca1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e56eb58e5ab6e47d580f89b9.jpg" alt="Анимационная последовательность интерфейса по одному запросу" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b12e9274a06ccbd02b7beca1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e56eb58e5ab6e47d580f89b9.jpg" alt="Кейс 192" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4310,7 +4462,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель представляет анимационную работу на тему SCP-8517 и приписывает её создание Fable 5.5. Пример относится к вымышленному сюжету и показанной анимации.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f690173426f29f4863ea9ebc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ddfd1170158fa1156c0c433e.jpg" alt="Вымышленная анимация SCP-8517" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f690173426f29f4863ea9ebc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ddfd1170158fa1156c0c433e.jpg" alt="Кейс 193" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4323,7 +4475,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает осеннюю анимацию в акварельном стиле. Записанная работа даёт конкретный пример сочетания сезонной темы с определённым художественным материалом.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8df65940753adf7d40a5cceb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1091a42f052632de59288e3f.jpg" alt="Осенняя акварельная анимация" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8df65940753adf7d40a5cceb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1091a42f052632de59288e3f.jpg" alt="Кейс 194" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4336,7 +4488,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает процедурную анимацию кукольной сцены и упоминает Blender в сопровождающем обсуждении. Пример относится к видимому персонажу, постановке и анимации.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c54a4f10f43cea2f2e27d2d9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e6b8904c3350c8f84e148e53.jpg" alt="Процедурная кукольная сцена" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c54a4f10f43cea2f2e27d2d9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e6b8904c3350c8f84e148e53.jpg" alt="Кейс 195" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4349,7 +4501,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель просит пеликана на велосипеде и записывает полученный HTML в работающем браузере. Это подвижная браузерная сцена, отличающаяся от статичных SVG-рисунков.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c69f02880bf28ee4f25ce6af.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/31ad3fe64536f637f3a2a1b7.jpg" alt="Поездка пеликана в браузере" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c69f02880bf28ee4f25ce6af.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/31ad3fe64536f637f3a2a1b7.jpg" alt="Кейс 196" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4362,7 +4514,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель представляет непрерывную последовательность от Большого взрыва до человеческого глаза. Автор описывает графику и музыку как созданные исполняемым кодом специально для фильма.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a9c7b6447a8f9c9d98b9f688.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/917d7f9d6fc4bffeb2de3dfd.jpg" alt="Вселенная смотрит на себя" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a9c7b6447a8f9c9d98b9f688.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/917d7f9d6fc4bffeb2de3dfd.jpg" alt="Кейс 197" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4375,7 +4527,7 @@ Type: Demo | Date: 2026-10-02
 
 После обсуждений маршрутизации автор пробует задачу с реактивным самолётом и показывает свой результат. Запись предоставляет независимый источник для этого авиационного примера.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/02ca7dd974c9bda88336ee6c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/042d9f48293091af76915035.jpg" alt="Самостоятельный тест анимации самолёта" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/02ca7dd974c9bda88336ee6c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/042d9f48293091af76915035.jpg" alt="Кейс 198" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4388,7 +4540,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель показывает первое моушн-портфолио, описанное как результат одного запроса. Это отдельная более ранняя работа, отличающаяся от его последующего пятнадцатисекундного портфолио.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c3a38710b7d416055f1b179e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/42ff46736287463edb05c0db.jpg" alt="Первое свободное моушн-портфолио" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c3a38710b7d416055f1b179e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/42ff46736287463edb05c0db.jpg" alt="Кейс 199" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4401,7 +4553,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор просит показать цивилизацию от возникновения до современности и делится получившимся фильмом. Создатель сообщает, что в этой кодовой визуализации не использовал готовое видео или стоковые материалы.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/53e59b83e07f7070017b7119.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b9e27ef3f017676036965a5b.jpg" alt="Цивилизация, отрисованная кодом" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/53e59b83e07f7070017b7119.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b9e27ef3f017676036965a5b.jpg" alt="Кейс 200" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4414,7 +4566,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор сопоставляет Fable XHigh и GPT Sol Ultra на реалистичной масштабной последовательности и обсуждает скорость и расход квоты. Сравниваются конкретные запуски на разных уровнях подписки.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0c1d806fdedf55ab5e01ef7b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/554e8eab1e3441bf1cfcda5a.jpg" alt="Сравнение приближения от чипа к серверу" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0c1d806fdedf55ab5e01ef7b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/554e8eab1e3441bf1cfcda5a.jpg" alt="Кейс 201" width="760"></a>
 
 Type: Evaluation | Date: 2026-10-02
 
@@ -4427,7 +4579,7 @@ Type: Evaluation | Date: 2026-10-02
 
 Создатель показывает личный проект анимационного путешествия на Луну, обсуждая эксперименты с Fable и Opus. Приложенная работа представляет конкретный результат этого творческого поиска.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7258363950323d6dcb60ce2f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e8dbb92cddd2632d76ee23d9.jpg" alt="Проект анимационного путешествия на Луну" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7258363950323d6dcb60ce2f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e8dbb92cddd2632d76ee23d9.jpg" alt="Кейс 202" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4440,7 +4592,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор сопоставляет текущие результаты Fable и Opus по одному запросу на японскую воксельную сцену. Наблюдения касаются чёткости, тумана и эстетической обработки этих конкретных результатов.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/42cb05df63d6f8f11069a277.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d16d5913274502e53d2a78c1.jpg" alt="Сравнение японской воксельной сцены" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/42cb05df63d6f8f11069a277.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d16d5913274502e53d2a78c1.jpg" alt="Кейс 203" width="760"></a>
 
 Type: Evaluation | Date: 2026-10-02
 
@@ -4453,7 +4605,7 @@ Type: Evaluation | Date: 2026-10-02
 
 Создатель показывает Steaming the Frontier, анимационную работу со звуком. Она остаётся отдельным источником среди самостоятельных работ других создателей в стиле Steamboat.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8a3ee558c975636152e2d45b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3dcb946918e8ca68e4806815.jpg" alt="Аудиовизуальная короткометражка Steaming the Frontier" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8a3ee558c975636152e2d45b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3dcb946918e8ca68e4806815.jpg" alt="Кейс 204" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4466,7 +4618,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель говорит, что ранний пример с Суперменом вдохновил его на новую генерацию, и показывает собственный результат. Иной рисунок делает работу самостоятельной, а не повторной публикацией.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/904b68da72810335d71bda04.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/882a85d147b59a80ec07189b.jpg" alt="Супермен в нескольких художественных стилях" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/904b68da72810335d71bda04.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/882a85d147b59a80ec07189b.jpg" alt="Кейс 205" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4479,7 +4631,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает прототип битвы с боссом в стиле Cupcake и сообщает о генерации одним запросом менее чем за десять минут. Приложенная запись демонстрирует игровой бой.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ad1389879b4c375f0283752c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/efa70c53c5f15333bf5c0a0c.jpg" alt="Прототип битвы с боссом в стиле Cupcake" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ad1389879b4c375f0283752c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/efa70c53c5f15333bf5c0a0c.jpg" alt="Кейс 206" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4492,7 +4644,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель показывает трёхмерный парусник при разных положениях солнца и даёт ссылку на интерактивный результат. Сцена объединяет корабль, небо и воду в одном визуальном задании.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/45a77b7321e65de4a52cf5ff.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/98f7b224adade38056e8e676.jpg" alt="Парусник с меняющимся положением солнца" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/45a77b7321e65de4a52cf5ff.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/98f7b224adade38056e8e676.jpg" alt="Кейс 207" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4505,7 +4657,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор переводит обновления Paracortex и Pi в двадцатипятисекундное моушн-видео и приводит запрос в публикации. Работа демонстрирует визуальную коммуникацию изменений продукта.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3f8ecc71d06894b5a53dedaf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b2047613fd2963b0c82b0c1a.jpg" alt="Видеозаметки об обновлениях Paracortex и Pi" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3f8ecc71d06894b5a53dedaf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b2047613fd2963b0c82b0c1a.jpg" alt="Кейс 208" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4518,7 +4670,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель описывает изготовление проморолика запуска Curio 2.0 с кодовой графикой, работой камеры и музыкой. Публикация показывает получившийся рекламный фильм сайта.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e491cbb60b9d9ba91e8b41ea.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7947c8fe446d0ea07193fdba.jpg" alt="Проморолик сайта Curio 2.0" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e491cbb60b9d9ba91e8b41ea.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7947c8fe446d0ea07193fdba.jpg" alt="Кейс 209" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4531,7 +4683,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель показывает вымышленную историю Hugging Face, сделанную с помощью кода модели, Blender и ElevenLabs API. Blender отвечает за построение и рендер, ElevenLabs — за внешний звук.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6e399daf7a4eb7d2ce6d564f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9c5d19c147ecea8b40b22523.jpg" alt="Вымышленная трёхмерная история Hugging Face" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6e399daf7a4eb7d2ce6d564f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/9c5d19c147ecea8b40b22523.jpg" alt="Кейс 210" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4544,7 +4696,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор просит Claude for Chrome нарисовать человека, используя только инструменты JS Paint, и показывает изображение. Браузерные действия и приложение для рисования явно входят в задание.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e69474350e9718d0262f34d4.png" alt="Claude for Chrome рисует в JS Paint" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e69474350e9718d0262f34d4.png" alt="Кейс 211" width="760">
 
 Type: Demo | Date: 2026-10-02
 
@@ -4557,7 +4709,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель просит один самостоятельный SVG с пеликаном на велосипеде и показывает статичное изображение. Это отдельная рисовальная задача, отличающаяся от примеров анимированной поездки.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5e242c0f805748542c9f5f0c.jpg" alt="Статичный SVG пеликана на велосипеде" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5e242c0f805748542c9f5f0c.jpg" alt="Кейс 212" width="760">
 
 Type: Demo | Date: 2026-10-02
 
@@ -4570,7 +4722,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор предоставляет BlockBench MCP и собственный навык моделирования и раскраски Minecraft, затем показывает получившегося персонажа. Инструменты и стилевые указания явно выступают исходными условиями процесса.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a17d81dfbc7544f67c0178cf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4ff4dab909e7d98f53ee7a32.jpg" alt="BlockBench MCP и навык Minecraft" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a17d81dfbc7544f67c0178cf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4ff4dab909e7d98f53ee7a32.jpg" alt="Кейс 213" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4583,7 +4735,7 @@ Type: Demo | Date: 2026-10-02
 
 Создатель просит воссоздать Dig Dug в одном HTML-файле и показывает запись получившейся игры. Публикация описывает сборку как результат одного запроса.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7674d4f1b7ba8eab003edff4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/438f4e89fb1925a4fb36d3e5.jpg" alt="Dig Dug в одном HTML-файле" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7674d4f1b7ba8eab003edff4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/438f4e89fb1925a4fb36d3e5.jpg" alt="Кейс 214" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4596,7 +4748,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает анимированного SVG-осьминога с механическими деталями. Запись даёт конкретный пример векторного дизайна, сосредоточенного на небольших подвижных элементах.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8ec5c702edd3fdadc05722c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cbcc433f0a275f0e384cbf2f.jpg" alt="Механический осьминог в SVG" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8ec5c702edd3fdadc05722c5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cbcc433f0a275f0e384cbf2f.jpg" alt="Кейс 215" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4609,7 +4761,7 @@ Type: Demo | Date: 2026-10-02
 
 Исходный создатель представляет непрерывную прогулку через двадцать художественных панелей примерно за семьдесят четыре секунды и сообщает о кодовой музыке. На каждой границе меняется стиль персонажа и сцены.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/355568bba0c9ff28575e04b8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b71cfca9259ec002c246e377.jpg" alt="Humanity Walks через художественные стили" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/355568bba0c9ff28575e04b8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b71cfca9259ec002c246e377.jpg" alt="Кейс 216" width="760"></a>
 
 Type: Demo | Date: 2026-10-01
 
@@ -4622,7 +4774,7 @@ Type: Demo | Date: 2026-10-01
 
 Создатель спрашивает, что модель сделала бы, чтобы его впечатлить, и показывает сцену чёрной дыры. Задача представляет свободный визуальный поиск.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/896a05493d7c8e1f8f430d17.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7a0adf969d1f472df46ddce1.jpg" alt="Свободная сцена чёрной дыры" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/896a05493d7c8e1f8f430d17.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7a0adf969d1f472df46ddce1.jpg" alt="Кейс 217" width="760"></a>
 
 Type: Demo | Date: 2026-10-01
 
@@ -4635,7 +4787,7 @@ Type: Demo | Date: 2026-10-01
 
 Автор сопоставляет Fable XHigh и GPT Sol Ultra на анимации медузы в полярном сиянии и обсуждает расход квоты. Результаты получены на разных уровнях подписки.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e57a76eaf8ed239783bce290.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/547871b06436d28a12435b40.jpg" alt="Сравнение анимации медузы в полярном сиянии" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e57a76eaf8ed239783bce290.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/547871b06436d28a12435b40.jpg" alt="Кейс 218" width="760"></a>
 
 Type: Evaluation | Date: 2026-10-01
 
@@ -4648,7 +4800,7 @@ Type: Evaluation | Date: 2026-10-01
 
 Создатель показывает SVG Nintendo Switch: контроллеры защёлкиваются, затем анимируется загрузочный логотип. Публикация указывает время запуска одна минута тридцать девять секунд и стоимость 1,34 доллара.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/423cd224b690b962d86df6a8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8cb691f2e876fca6c8323d34.jpg" alt="SVG подключения и запуска Nintendo Switch" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/423cd224b690b962d86df6a8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8cb691f2e876fca6c8323d34.jpg" alt="Кейс 219" width="760"></a>
 
 Type: Demo | Date: 2026-10-01
 
@@ -4661,7 +4813,7 @@ Type: Demo | Date: 2026-10-01
 
 Автор представляет The Loom, интерактивную сцену со зданиями и ландшафтом. Приложенная запись показывает конкретную страницу, полученную в его испытании.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a0fbc7f4427c05e1b20875dc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/aca91baef7a93139d084e4e6.jpg" alt="Интерактивная трёхмерная сцена The Loom" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a0fbc7f4427c05e1b20875dc.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/aca91baef7a93139d084e4e6.jpg" alt="Кейс 220" width="760"></a>
 
 Type: Demo | Date: 2026-10-01
 
@@ -4680,7 +4832,7 @@ make a dynamic 15-second motion graphics video that shows what an incredible mot
 
 [@shneural](https://x.com/shneural/status/2103151003272962130)
 
-<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/dc4c3e5875e829f8b568a67b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c8fc402eeea381a9519146e4.jpg" alt="Моушн-дизайн по одному и тому же запросу" width="760"></a></td><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/29b80ef5ba92b029630a1628.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f0da5945bc240b424bfebbd9.jpg" alt="Моушн-дизайн по одному и тому же запросу" width="760"></a></td></tr></table>
+<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/dc4c3e5875e829f8b568a67b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c8fc402eeea381a9519146e4.jpg" alt="Кейс 221" width="760"></a></td><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/29b80ef5ba92b029630a1628.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f0da5945bc240b424bfebbd9.jpg" alt="Кейс 221" width="760"></a></td></tr></table>
 
 Type: Evaluation | Date: 2026-10-01
 
@@ -4693,7 +4845,7 @@ Type: Evaluation | Date: 2026-10-01
 
 Автор показывает расположенные рядом варианты японской сцены и предпочитает глубину результата Opus, несмотря на более чистый внешний вид другого варианта.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0f0e14c7725846928d67bbb6.jpg" alt="Чистый пейзаж с меньшей глубиной" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0f0e14c7725846928d67bbb6.jpg" alt="Кейс 222" width="760">
 
 Type: Evaluation | Date: 2026-10-01
 
@@ -4706,7 +4858,7 @@ Type: Evaluation | Date: 2026-10-01
 
 Автор делится первоначальным сравнением японской сцены и описывает результаты как неоднозначные. Приложенное изображение сохраняет конкретные работы, на которых основана эстетическая оценка.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/392cb1ddc17b777dd8018cfd.jpg" alt="Неоднозначные результаты японской сцены" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/392cb1ddc17b777dd8018cfd.jpg" alt="Кейс 223" width="760">
 
 Type: Evaluation | Date: 2026-10-01
 
@@ -4719,7 +4871,7 @@ Type: Evaluation | Date: 2026-10-01
 
 Автор показывает SVG-контроллеры до и после на сравнительном изображении. Пример относится к видимым изменениям рисунка и подачи без общего ранжирования моделей.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/17459f88ec7684afc5b33a02.jpg" alt="Сравнение контроллеров в SVG" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/17459f88ec7684afc5b33a02.jpg" alt="Кейс 224" width="760">
 
 Type: Evaluation | Date: 2026-10-01
 
@@ -4732,7 +4884,7 @@ Type: Evaluation | Date: 2026-10-01
 
 Создатель показывает трёхмерное промышленное устройство и называет его своим лучшим результатом одного запроса. Изображение даёт конкретный образец механической композиции.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/589373a493d90e11ce8abbb9.jpg" alt="Сцена промышленного устройства" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/589373a493d90e11ce8abbb9.jpg" alt="Кейс 225" width="760">
 
 Type: Demo | Date: 2026-10-01
 
@@ -4745,7 +4897,7 @@ Type: Demo | Date: 2026-10-01
 
 Автор показывает рисунок гигантского панцирного жаберного жука и сообщает о двух запросах для получения результата. Изображение сохраняет видимый итог задачи по дизайну существа.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/446fdbef8a03b236ecc7b383.jpg" alt="Реконструкция гигантского панцирного жаберного жука" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/446fdbef8a03b236ecc7b383.jpg" alt="Кейс 226" width="760">
 
 Type: Demo | Date: 2026-10-01
 
@@ -4758,7 +4910,7 @@ Type: Demo | Date: 2026-10-01
 
 Автор показывает рисунок контроллера GameCube и сообщает о двух запросах. Это статичное изображение отличается от демонстраций Xbox и других контроллеров.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e8dc05610d167f3a15b550af.jpg" alt="Контроллер GameCube за два запроса" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e8dc05610d167f3a15b550af.jpg" alt="Кейс 227" width="760">
 
 Type: Demo | Date: 2026-10-01
 
@@ -4771,7 +4923,7 @@ Type: Demo | Date: 2026-10-01
 
 Создатель показывает отредактированный снимок для публикации в X и говорит, что помощник выполнил правку без явного запроса. Приложенное изображение демонстрирует видимый результат.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0cc409b9d0aa3771484a3c71.jpg" alt="Редактирование снимка для публикации в X" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0cc409b9d0aa3771484a3c71.jpg" alt="Кейс 228" width="760">
 
 Type: Demo | Date: 2026-10-01
 
@@ -4784,7 +4936,7 @@ Type: Demo | Date: 2026-10-01
 
 Публикатор показывает две версии воксельного острова с сакурой. Сопоставленное изображение фиксирует видимые различия дизайна сцены до и после.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4138fd1978c438d2d9e8661a.jpg" alt="Воксельная сакура до и после" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4138fd1978c438d2d9e8661a.jpg" alt="Кейс 229" width="760">
 
 Type: Evaluation | Date: 2026-10-01
 
@@ -4797,7 +4949,7 @@ Type: Evaluation | Date: 2026-10-01
 
 Автор показывает прототип SHADERKIN с тканевыми эффектами и регуляторами параметров и описывает его как сборку по одному запросу. Запись демонстрирует получившийся интерфейс и движение.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e4475b58a7c623137018178b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6b7f6e02a01706ce70452b0d.jpg" alt="Прототип тканевого интерфейса SHADERKIN" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/e4475b58a7c623137018178b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6b7f6e02a01706ce70452b0d.jpg" alt="Кейс 230" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4810,7 +4962,7 @@ Type: Demo | Date: 2026-10-02
 
 Публикатор представляет анимацию фронтенда на тему золотых часов. Ролик даёт опубликованный образец композиции интерфейса, часового мотива и его анимированной визуальной подачи.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c60a3556d2b2ddaa5f509c18.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/676bb647541546a0ad366f0e.jpg" alt="Опубликованная анимация интерфейса с золотыми часами" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c60a3556d2b2ddaa5f509c18.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/676bb647541546a0ad366f0e.jpg" alt="Кейс 231" width="760"></a>
 
 Type: Demo | Date: 2026-10-03
 
@@ -4823,7 +4975,7 @@ Type: Demo | Date: 2026-10-03
 
 Публикатор делится Before There Was Anything, сюжетным видео о космосе и человечестве. Фильм сохранён как опубликованный пример визуального повествования.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1245c13e338b1c01ae3f4dec.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/71ef97e74c4d137730d81482.jpg" alt="Повествование Before There Was Anything" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1245c13e338b1c01ae3f4dec.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/71ef97e74c4d137730d81482.jpg" alt="Кейс 232" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4836,7 +4988,7 @@ Type: Demo | Date: 2026-10-02
 
 Публикатор делится анимацией вихря из голубых частиц. Ролик даёт конкретный опубликованный пример движения частиц, визуальной структуры и композиции.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/47741249784f7aff66778321.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5df983335216889dea8bc537.jpg" alt="Опубликованный вихрь голубых частиц" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/47741249784f7aff66778321.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5df983335216889dea8bc537.jpg" alt="Кейс 233" width="760"></a>
 
 Type: Demo | Date: 2026-10-02
 
@@ -4849,7 +5001,7 @@ Type: Demo | Date: 2026-10-02
 
 Автор показывает готовый многопанельный интерфейс и сообщает примерно о трёх часах работы с двумя правками. Приложенный снимок экрана демонстрирует окончательный визуальный дизайн.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/de20f5a329023a9c4b0b93e7.jpg" alt="Многопанельный интерфейс после двух правок" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/de20f5a329023a9c4b0b93e7.jpg" alt="Кейс 234" width="760">
 
 Type: Demo | Date: 2026-10-04
 
@@ -4862,7 +5014,7 @@ Type: Demo | Date: 2026-10-04
 
 Публикация показывает медведя, панду и белого медведя друг на друге, указывает yuruzuu в Discord и сообщает о запуске продолжительностью 21 минута. Открытый пост сохранён как источник опубликованного изображения.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bc84af268896d8bb1758a934.jpg" alt="Животные друг на друге в рендере" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bc84af268896d8bb1758a934.jpg" alt="Кейс 235" width="760">
 
 Type: Demo | Date: 2026-11-02
 
@@ -4875,7 +5027,7 @@ Type: Demo | Date: 2026-11-02
 
 Создатель представляет четыре RPG по одному запросу с обозначениями Fable 5.5, GPT-6.2 Astra, Opus 5.5 и Fable 5.1. Комментарии сравнивают освещение, бой, инвентарь, столкновения и застревание персонажа.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/902f659bd556eb6d972125d9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ef4071ff1f89636b5a170bcb.jpg" alt="Сравнение четырёх попыток RPG с открытым миром" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/902f659bd556eb6d972125d9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ef4071ff1f89636b5a170bcb.jpg" alt="Кейс 236" width="760"></a>
 
 Type: Evaluation | Date: 2026-11-02
 
@@ -4888,7 +5040,7 @@ Type: Evaluation | Date: 2026-11-02
 
 Публикация сопоставляет кодовые анимации с обозначениями Astra и Fable, уделяя внимание деталям и построению сценария. За анимацию Fable прямо указан @chetaslua.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3b96cdfd122543f970f3a183.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0c7aeb3c3156cce1a407b992.jpg" alt="Сравнение двух роликов фронтенд-анимации" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3b96cdfd122543f970f3a183.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0c7aeb3c3156cce1a407b992.jpg" alt="Кейс 237" width="760"></a>
 
 Type: Evaluation | Date: 2026-11-02
 
@@ -4905,7 +5057,7 @@ Type: Evaluation | Date: 2026-11-02
 
 По словам автора, в связанном запуске GPT-6 Astra Max в рабочем процессе использовались сгенерированные изображения. Размещение рядом с исходным фильмом позволяет увидеть различия между способами производства. [@rubenssoto_ai](https://x.com/rubenssoto_ai) · [Связанное сравнение](https://x.com/rubenssoto_ai/status/2117707344704352691)
 
-<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1719bb6df936cf88ea6c137a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a97bd6e101d45bc7e1c5f7a8.jpg" alt="Кодовый фильм о покрытом мхом роботе" width="760"></a></td><td valign="top"><p>Дополнительная публикация показывает отдельно описанный контрольный запуск Opus 5.5.</p><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fb66f964af405e36c6993f37.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/679a823fdecdc62be6ab781a.jpg" alt="Кодовый фильм о покрытом мхом роботе" width="760"></a></td><td valign="top"><p>GPT-6 Astra Max</p><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/25b0cfcdb1fdda22ba6aa9d6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/75f37c74099d5b9ba1ad0ddc.jpg" alt="GPT-6 Astra Max" width="760"></a></td></tr></table>
+<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1719bb6df936cf88ea6c137a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a97bd6e101d45bc7e1c5f7a8.jpg" alt="Кейс 238" width="760"></a></td><td valign="top"><p>Дополнительная публикация показывает отдельно описанный контрольный запуск Opus 5.5.</p><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fb66f964af405e36c6993f37.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/679a823fdecdc62be6ab781a.jpg" alt="Кейс 238" width="760"></a></td><td valign="top"><p>GPT-6 Astra Max</p><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/25b0cfcdb1fdda22ba6aa9d6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/75f37c74099d5b9ba1ad0ddc.jpg" alt="Кейс 238" width="760"></a></td></tr></table>
 
 Type: Demo | Date: 2026-11-02
 
@@ -4918,7 +5070,7 @@ Type: Demo | Date: 2026-11-02
 
 Автор публикует новую сцену контейнерного порта и цитирует прежнюю симуляцию Blender и Three.js. Её краны, корабли, транспорт и контейнеры моделировались для окружения в духе стратегии.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/2fda951603d33af4e44d5fc1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1d539c3c966ccc4c6929ba5d.jpg" alt="Повторное обращение к симуляции контейнерного порта" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/2fda951603d33af4e44d5fc1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1d539c3c966ccc4c6929ba5d.jpg" alt="Кейс 239" width="760"></a>
 
 Type: Demo | Date: 2026-11-02
 
@@ -4931,7 +5083,7 @@ Type: Demo | Date: 2026-11-02
 
 Автор возвращается к сцене аэропортового перрона, цитирует прежнюю симуляцию Blender и Three.js и показывает новые кадры самолётов, служебных машин и инфраструктуры терминала.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3bd8a6295419d5189e2a0c39.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1c953cb8fe287d88a42f4de7.jpg" alt="Повторное обращение к аэропортовой сцене" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3bd8a6295419d5189e2a0c39.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1c953cb8fe287d88a42f4de7.jpg" alt="Кейс 240" width="760"></a>
 
 Type: Demo | Date: 2026-11-02
 
@@ -4944,7 +5096,7 @@ Type: Demo | Date: 2026-11-02
 
 Публикация показывает пеликана на велосипеде среди геометрических фрагментов и абстрактного цифрового мира, затем камера отдаляется через глаз. Последовательность даёт отдельный пример переходов между сценами.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e67084313c83b632c83932d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e684cb9894f71707d522100.jpg" alt="Пеликан на велосипеде в абстрактных трёхмерных мирах" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e67084313c83b632c83932d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8e684cb9894f71707d522100.jpg" alt="Кейс 241" width="760"></a>
 
 Type: Demo | Date: 2026-11-01
 
@@ -4957,7 +5109,7 @@ Type: Demo | Date: 2026-11-01
 
 Публикация показывает исторический парусник и описывает сцену как интерактивный результат без примеров. Приложенная запись даёт конкретный визуальный образец корабля и окружающей воды.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f9a500487b536db8173b83e6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8083bd55fe8299ddb0399d9b.jpg" alt="Сцена исторического парусника" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f9a500487b536db8173b83e6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8083bd55fe8299ddb0399d9b.jpg" alt="Кейс 242" width="760"></a>
 
 Type: Demo | Date: 2026-11-01
 
@@ -4972,7 +5124,7 @@ Type: Demo | Date: 2026-11-01
 
 Ранее опубликованное отдельно сравнение велосипедистов включено вместе с составным видео. [@AI_Screening](https://x.com/AI_Screening) · [Связанная работа](https://x.com/AI_Screening/status/2114380876415180963)
 
-<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/34ce8cd09717e765e8669306.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/be5e4bce9526b63db3f75d49.jpg" alt="Сравнение езды и походки с Carbon" width="760"></a></td><td valign="top"><p>Ранее опубликованное отдельно сравнение велосипедистов включено вместе с составным видео.</p><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bdfda2a7a784f201511128e4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f398216f0483e9aaf1da8f85.jpg" alt="Сравнение езды и походки с Carbon" width="760"></a></td></tr></table>
+<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/34ce8cd09717e765e8669306.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/be5e4bce9526b63db3f75d49.jpg" alt="Кейс 243" width="760"></a></td><td valign="top"><p>Ранее опубликованное отдельно сравнение велосипедистов включено вместе с составным видео.</p><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/bdfda2a7a784f201511128e4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f398216f0483e9aaf1da8f85.jpg" alt="Кейс 243" width="760"></a></td></tr></table>
 
 Type: Evaluation | Date: 2026-11-01
 
@@ -4985,7 +5137,7 @@ Type: Evaluation | Date: 2026-11-01
 
 Публикация показывает презентацию бутылки безалкогольного напитка и описывает её как результат одного запроса через маршрутизацию. Видимый ролик сохранён без переноса противоречивого названия бренда из подписи.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6fb195b6c959b741bbba6bff.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b8e3b156507ebe1397f4acf5.jpg" alt="Презентация бутылки безалкогольного напитка" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6fb195b6c959b741bbba6bff.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b8e3b156507ebe1397f4acf5.jpg" alt="Кейс 244" width="760"></a>
 
 Type: Demo | Date: 2026-11-01
 
@@ -4998,7 +5150,7 @@ Type: Demo | Date: 2026-11-01
 
 Публикатор сопоставляет сцены пеликана с обозначениями Fable и Astra и комментирует реализм и цвета. Сравнительная запись сохраняет оба визуальных решения вместе.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8ea3b0ac90c46aa8df91435c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f8e883dfa17d32c1490d2a06.jpg" alt="Сравнение движения пеликана с Astra" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8ea3b0ac90c46aa8df91435c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f8e883dfa17d32c1490d2a06.jpg" alt="Кейс 245" width="760"></a>
 
 Type: Evaluation | Date: 2026-11-01
 
@@ -5011,7 +5163,7 @@ Type: Evaluation | Date: 2026-11-01
 
 Публикация показывает снимок задания на вступления, анимированные логотипы, титры и трёхмерные сцены и предлагает применять его с Claude. Исходное изображение сохраняет инструкции.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c8dc35a75c2d69b08167c4b2.jpg" alt="Задание на моушн-дизайн кодовых анимаций" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c8dc35a75c2d69b08167c4b2.jpg" alt="Кейс 246" width="760">
 
 Type: Tutorial | Date: 2026-11-01
 
@@ -5024,7 +5176,7 @@ Type: Tutorial | Date: 2026-11-01
 
 Создатель сопоставляет фотографию Сэма Альтмана с воксельным портретом и описывает результат как полученный одним запросом. Изображение объединяет исходный референс и его переработку.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/eea0f98c5b8adf315254357d.jpg" alt="Воксельный портрет по фотографии" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/eea0f98c5b8adf315254357d.jpg" alt="Кейс 247" width="760">
 
 Type: Demo | Date: 2026-11-01
 
@@ -5037,7 +5189,7 @@ Type: Demo | Date: 2026-11-01
 
 Публикация размещает друг над другом ролики Fable и Opus с велосипедом на летящем пеликане. Составное видео указывает @notjazii за ролик Fable и сохраняет обе версии.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cbf26990ce0160a0162ead5b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1c7ac3995ff80676690c1821.jpg" alt="Сравнение летящих пеликанов с Opus" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/cbf26990ce0160a0162ead5b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1c7ac3995ff80676690c1821.jpg" alt="Кейс 248" width="760"></a>
 
 Type: Evaluation | Date: 2026-11-01
 
@@ -5050,7 +5202,7 @@ Type: Evaluation | Date: 2026-11-01
 
 Автор показывает трёхмерного пеликана на велосипеде внутри страницы Morning Ride и обращает внимание на оперение, лапы, детали велосипеда и приморский фон.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b55570e6a6f3164a9b73e097.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/70e98e614f9e34f7cb5e885f.jpg" alt="Веб-сцена пеликана Morning Ride" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b55570e6a6f3164a9b73e097.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/70e98e614f9e34f7cb5e885f.jpg" alt="Кейс 249" width="760"></a>
 
 Type: Demo | Date: 2026-11-01
 
@@ -5063,7 +5215,7 @@ Type: Demo | Date: 2026-11-01
 
 Автор сообщает об испытании обеих моделей с одинаковым запросом и свободным выбором визуального стиля. Видео сопоставляет различные композиции сцен и уровни детализации.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/337c953505b934eb3efe3026.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f9cf0077f93079072db88a97.jpg" alt="Один запрос и разные стили сцен" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/337c953505b934eb3efe3026.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f9cf0077f93079072db88a97.jpg" alt="Кейс 250" width="760"></a>
 
 Type: Evaluation | Date: 2026-11-01
 
@@ -5076,7 +5228,7 @@ Type: Evaluation | Date: 2026-11-01
 
 Публикация показывает летящего пеликана с велосипедом и бегущую внизу лошадь. Ролик даёт конкретный образец необычной композиции нескольких объектов и их движения.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0504d9fae95f901cb5a7a0b1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4c41a8c590ff3cced720fa3f.jpg" alt="Композиция пеликана, велосипеда и лошади" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/0504d9fae95f901cb5a7a0b1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4c41a8c590ff3cced720fa3f.jpg" alt="Кейс 251" width="760"></a>
 
 Type: Demo | Date: 2026-11-01
 
@@ -5089,7 +5241,7 @@ Type: Demo | Date: 2026-11-01
 
 Создатель сообщает, что использовал только процитированный пост Post Humans как референс, и показывает изометрическую сцену. В ролике представлена композиция, напоминающая ферму, с переключателем времени года.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8fc030a325be1e12a93985c1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/087ed1d1f018c09b2799296a.jpg" alt="Изометрическая сцена по референсному посту" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/8fc030a325be1e12a93985c1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/087ed1d1f018c09b2799296a.jpg" alt="Кейс 252" width="760"></a>
 
 Type: Demo | Date: 2026-11-01
 
@@ -5102,7 +5254,7 @@ Type: Demo | Date: 2026-11-01
 
 Публикация показывает крупные планы пеликана, едущего на велосипеде у воды. Камера переходит между велосипедной механикой, головой птицы и более общим планом поездки по дощатому настилу.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b6d2d126b2aeb9f3f9570afd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a166c588d812d40d06fae7ad.jpg" alt="Крупные планы механики велосипеда пеликана" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/b6d2d126b2aeb9f3f9570afd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a166c588d812d40d06fae7ad.jpg" alt="Кейс 253" width="760"></a>
 
 Type: Demo | Date: 2026-11-01
 
@@ -5115,7 +5267,7 @@ Type: Demo | Date: 2026-11-01
 
 Создатель показывает анимацию велосипеда на пеликане. Ролик помещает велосипед над летящей птицей, предлагая вариацию знакомой задачи о пеликане, едущем на велосипеде.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ca15b0e0590d8cb6d8f17414.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d86986a058741892f33c2a1e.jpg" alt="Велосипед верхом на пеликане" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ca15b0e0590d8cb6d8f17414.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d86986a058741892f33c2a1e.jpg" alt="Кейс 254" width="760"></a>
 
 Type: Demo | Date: 2026-11-01
 
@@ -5128,7 +5280,7 @@ Type: Demo | Date: 2026-11-01
 
 Публикация размещает рядом велосипедных пеликанов Carbon и Fable. Автор противопоставляет комиксную манеру более реалистичной обработке и отмечает, что разница стилей затрудняет сравнение.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7126f7490639ef435ad3f8e0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6d83e5e28063bbe2c6107860.jpg" alt="Сравнение SVG-стилей пеликана с Carbon" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7126f7490639ef435ad3f8e0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6d83e5e28063bbe2c6107860.jpg" alt="Кейс 255" width="760"></a>
 
 Type: Evaluation | Date: 2026-10-31
 
@@ -5141,7 +5293,7 @@ Type: Evaluation | Date: 2026-10-31
 
 Публикация показывает синюю мультяшную птицу на велосипеде у набережной с подписью Fable 5.5 Max. Изображение сохранено как конкретный статичный визуальный образец.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4b61e3c3bed85e7bb63284b8.jpg" alt="Синяя мультяшная птица на велосипеде" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/4b61e3c3bed85e7bb63284b8.jpg" alt="Кейс 256" width="760">
 
 Type: Demo | Date: 2026-10-31
 
@@ -5154,7 +5306,7 @@ Type: Demo | Date: 2026-10-31
 
 Публикатор показывает браузерный снимок пеликана, едущего по лесной дороге, и обращает внимание на текстуру перьев, лапы и детали велосипеда.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/78c8b16b4f41dfc594a08147.jpg" alt="Снимок пеликана на велосипеде по лесной дороге" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/78c8b16b4f41dfc594a08147.jpg" alt="Кейс 257" width="760">
 
 Type: Demo | Date: 2026-10-30
 
@@ -5167,7 +5319,7 @@ Type: Demo | Date: 2026-10-30
 
 Сравнительная запись содержит обозначения Fable 5.1 High и Carbon. Автор обсуждает относительное качество анимации драки схематичных человечков.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/116e9cf73951a3cc14c7fd26.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/12a35f0f8829bbc3ab246d10.jpg" alt="Сравнение боя схематичных человечков с Carbon" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/116e9cf73951a3cc14c7fd26.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/12a35f0f8829bbc3ab246d10.jpg" alt="Кейс 258" width="760"></a>
 
 Type: Evaluation | Date: 2026-10-30
 
@@ -5180,7 +5332,7 @@ Type: Evaluation | Date: 2026-10-30
 
 Публикатор выделяет изображение пеликана на велосипеде и цитирует ранний тестовый пост, указывающий kostikz в Discord как автора результатов. Сохранены референс и цепочка атрибуции.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/431cb96b21edc9964ce0659f.jpg" alt="SVG пеликана из раннего тестирования" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/431cb96b21edc9964ce0659f.jpg" alt="Кейс 259" width="760">
 
 Type: Demo | Date: 2026-10-29
 
@@ -5193,7 +5345,7 @@ Type: Demo | Date: 2026-10-29
 
 Публикатор добавляет изображение пеликана на велосипеде как референс Fable под веткой своего SVG-теста Mistral Large 4. Оно даёт визуальный материал со ссылкой на источник для межмодельного изучения.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/31b17f996d2e8b9bac8b2d57.jpg" alt="Референс пеликана в межмодельном SVG-тесте" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/31b17f996d2e8b9bac8b2d57.jpg" alt="Кейс 260" width="760">
 
 Type: Evaluation | Date: 2026-10-29
 
@@ -5206,7 +5358,7 @@ Type: Evaluation | Date: 2026-10-29
 
 Публикация сравнивает изображения пеликана на велосипеде Fable и Carbon, обсуждая корзину, детали фона и текстуру перьев. Представлен конкретный визуальный разбор.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/12e6ec3f93842782a3adc017.jpg" alt="Сравнение деталей велосипедного SVG с Carbon" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/12e6ec3f93842782a3adc017.jpg" alt="Кейс 261" width="760">
 
 Type: Evaluation | Date: 2026-10-29
 
@@ -5219,7 +5371,7 @@ Type: Evaluation | Date: 2026-10-29
 
 Публикация показывает панораму поселения в каньоне и представляет запись как демонстрацию новой контрольной версии Claude. Кадры сохраняют видимые здания, ландшафт и композицию сцены.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7cc648562f9915df6383b86b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/41e5348bd8e8d57399a2720b.jpg" alt="Трёхмерное поселение в каньоне" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7cc648562f9915df6383b86b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/41e5348bd8e8d57399a2720b.jpg" alt="Кейс 262" width="760"></a>
 
 Type: Demo | Date: 2026-10-29
 
@@ -5232,7 +5384,7 @@ Type: Demo | Date: 2026-10-29
 
 Автор публикует вместе рисунки контроллеров с обозначениями Fable и Opus и подчёркивает количество деталей в верхнем варианте. Парное изображение сохраняет конкретное сравнение.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/799809d6ec73abaf5f698721.png" alt="Сравнение деталей контроллера с Opus" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/799809d6ec73abaf5f698721.png" alt="Кейс 263" width="760">
 
 Type: Evaluation | Date: 2026-10-29
 
@@ -5245,7 +5397,7 @@ Type: Evaluation | Date: 2026-10-29
 
 Создатель сообщает о системе, которая принимает сайт, определяет конкурентов и ключевые слова и выдаёт приоритетный план SEO-действий. Короткая запись сопровождает описание еженедельного отслеживания позиций и исполнения плана.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d0f8f00f6fd8085c885d94de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ab070e7a94e89874d1199ca3.jpg" alt="Еженедельный SEO-аудит сайта" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/d0f8f00f6fd8085c885d94de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/ab070e7a94e89874d1199ca3.jpg" alt="Кейс 264" width="760"></a>
 
 Type: Integration | Date: 2026-10-28
 
@@ -5258,7 +5410,7 @@ Type: Integration | Date: 2026-10-28
 
 Создатель показывает моушн-дизайн Opus 5.5 для Tesla Roadster с материалами, ранее созданными Fable. В процитированном прежнем процессе названы Python в Blender, ElevenLabs и предоставленное презентационное видео.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5618dd376ee55b4ee82fc0fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/eece5cd2a213c0a512c114a1.jpg" alt="Повторное использование материалов Fable в моушн-дизайне Opus" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5618dd376ee55b4ee82fc0fd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/eece5cd2a213c0a512c114a1.jpg" alt="Кейс 265" width="760"></a>
 
 Type: Integration | Date: 2026-10-27
 
@@ -5271,7 +5423,7 @@ Type: Integration | Date: 2026-10-27
 
 Создатель сообщает о трёх часах общения с Fable 5.1 для создания приложения мандал, зомов, архимедовых тел и геометрических янтр в форме лотоса. Результат опубликован на личном сайте.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5de8fc634a752f83622f8a13.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3e57964d461878db96f139ac.jpg" alt="Приложение мандал и геометрических форм" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/5de8fc634a752f83622f8a13.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/3e57964d461878db96f139ac.jpg" alt="Кейс 266" width="760"></a>
 
 Type: Demo | Date: 2026-10-26
 
@@ -5284,7 +5436,7 @@ Type: Demo | Date: 2026-10-26
 
 Создатель показывает велосипедиста на велосипеде, созданного с Three.js. Запись даёт конкретный образец движения, окружённого мостом и пейзажем набережной.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7637bbffeefe623e04ef2f21.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7bcf0b58c603da7235a3a557.jpg" alt="Велосипедист Three.js" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7637bbffeefe623e04ef2f21.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/7bcf0b58c603da7235a3a557.jpg" alt="Кейс 267" width="760"></a>
 
 Type: Demo | Date: 2026-10-25
 
@@ -5297,7 +5449,7 @@ Type: Demo | Date: 2026-10-25
 
 Автор добавляет Fable 5.1 на график доли пройденных задач FrontierCS 2 и публикует заявленные результаты рядом с результатами других моделей.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f5cbd2078225f0413d733ee9.jpg" alt="Снимок оценки FrontierCS 2" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/f5cbd2078225f0413d733ee9.jpg" alt="Кейс 268" width="760">
 
 Type: Evaluation | Date: 2026-10-29
 
@@ -5310,7 +5462,7 @@ Type: Evaluation | Date: 2026-10-29
 
 Автор показывает рядом анимации зебры с подписями Fable 5.5, Opus 5.5 и Gemini 4 Argon. Опубликованное видео даёт конкретные образцы движений в трёх результатах.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c6eaeba4555c4bef54d626a5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6b1da9a2967f99e299587299.jpg" alt="Сравнение анимаций зебры у трёх моделей" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c6eaeba4555c4bef54d626a5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/6b1da9a2967f99e299587299.jpg" alt="Кейс 269" width="760"></a>
 
 Type: Evaluation | Date: 2026-10-29
 
@@ -5439,7 +5591,7 @@ Type: Integration | Date: 2026-10-04
 
 Опубликованная 92-секундная анимация переносит взгляд от горного озера к яркому Млечному Пути и обратно к отражению неба. Автор публикации представляет эту отрендеренную сцену как результат Fable 5.5.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/5cb879d0a07a0f6e9fff5cf6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/91432c6827d650eb28f2269b.jpg" alt="Млечный Путь над горным озером" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/5cb879d0a07a0f6e9fff5cf6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/91432c6827d650eb28f2269b.jpg" alt="Кейс 280" width="760"></a>
 
 Type: Demo | Date: 2026-11-05
 
@@ -5452,7 +5604,7 @@ Type: Demo | Date: 2026-11-05
 
 По словам создателя, на 31-секундный фильм ушло 154 минуты; работа включала процедурного кита, симуляцию жидкости, шейдинг океана и синтез звука. В заметках описаны проверка увеличенных кадров, исправление брызг и повторный рендеринг.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/b98c309a3c226bd24386940f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1bcb86163b677ad0a4172d13.jpg" alt="Прыжок кита с процедурной водой и звуком" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/b98c309a3c226bd24386940f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1bcb86163b677ad0a4172d13.jpg" alt="Кейс 281" width="760"></a>
 
 Type: Demo | Date: 2026-11-04
 
@@ -5465,7 +5617,7 @@ Type: Demo | Date: 2026-11-04
 
 Четыре расположенных друг над другом ролика подписаны Gemini 4 Carbon, Fable 5.5, Opus 5.5 и Argon. Полная композиция позволяет одновременно увидеть различия в движении ног, форме тела и обработке фона.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/6fdcb38bf56493c314dba5b6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/890d1b92800ee622275ec8d7.jpg" alt="Сравнение движения зебры у четырёх моделей" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/6fdcb38bf56493c314dba5b6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/890d1b92800ee622275ec8d7.jpg" alt="Кейс 282" width="760"></a>
 
 Type: Evaluation | Date: 2026-11-04
 
@@ -5478,7 +5630,7 @@ Type: Evaluation | Date: 2026-11-04
 
 Lightreel представляет эту демонстрацию поиска авторов под названием Fable 5.5. В ролике вводят запрос на поиск пар, у которых менее 10,000 подписчиков и есть видео с более чем 100,000 просмотров, затем показывают результаты поиска социальных видео.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/5aef4b1766a560a35264c3ed.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1c6d9c1fb3c69b3aa2ee1976.jpg" alt="Поиск авторов в Lightreel на естественном языке" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/5aef4b1766a560a35264c3ed.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1c6d9c1fb3c69b3aa2ee1976.jpg" alt="Кейс 283" width="760"></a>
 
 Type: Demo | Date: 2026-11-04
 
@@ -5491,7 +5643,7 @@ Type: Demo | Date: 2026-11-04
 
 Создатель описывает анимацию продолжительностью около 100 секунд, сделанную несколькими командами агентов на JavaScript и Python за 19 часов. Камера следует за летающим судном среди облаков, на закате и при лунном свете.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/17ef07a780273abf9e9b6c92.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a54746701db5f7f829071d2c.jpg" alt="Летающий корабль над морем облаков" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/17ef07a780273abf9e9b6c92.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a54746701db5f7f829071d2c.jpg" alt="Кейс 284" width="760"></a>
 
 Type: Demo | Date: 2026-11-04
 
@@ -5508,7 +5660,7 @@ Type: Demo | Date: 2026-11-04
 Make a mechanical heart and show its insides, use blender.
 ```
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/157ebee3ce748cdc1e6b7970.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/4a862111878dc42939f8e5e4.jpg" alt="Механическое сердце с анимированным разрезом" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/157ebee3ce748cdc1e6b7970.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/4a862111878dc42939f8e5e4.jpg" alt="Кейс 285" width="760"></a>
 
 Type: Demo | Date: 2026-11-04
 
@@ -5521,7 +5673,7 @@ Type: Demo | Date: 2026-11-04
 
 Создание этого воксельного сада приписывается более раннему чекпойнту Fable 5.5. Камера перемещается между пагодой, парящими островами, мостом и водопадами, показывая сцену с уровня земли и с высоты.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/cc4d15bf5103d7eb64f63e29.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/22e78c0beb2a6f509bc02739.jpg" alt="Парящий воксельный сад с пагодой для исследования" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/cc4d15bf5103d7eb64f63e29.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/22e78c0beb2a6f509bc02739.jpg" alt="Кейс 286" width="760"></a>
 
 Type: Demo | Date: 2026-11-04
 
@@ -5534,7 +5686,7 @@ Type: Demo | Date: 2026-11-04
 
 По словам создателя, восемь команд агентов менее чем за три часа сделали 83-секундный фильм на Three.js с 39 планами и синтезированным звуком. Видео показывает морское приключение с космическими кораблями, морскими существами и разбивающимися волнами.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a46543512fc30e5a33cb2fc3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a307daab219d70fa5bed0c86.jpg" alt="Морской приключенческий фильм от восьми команд" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a46543512fc30e5a33cb2fc3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a307daab219d70fa5bed0c86.jpg" alt="Кейс 287" width="760"></a>
 
 Type: Demo | Date: 2026-11-04
 
@@ -5547,7 +5699,7 @@ Type: Demo | Date: 2026-11-04
 
 Создатель представляет конфигуратор гиперкара на Three.js в виде единственного автономного HTML-файла с геометрией и материалами, созданными кодом. Запись показывает красный автомобиль, крупные планы колёс и кузова, отражения и управление камерой.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/4bd439d08b9f8a320a8851ac.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a16368d4c8b7c9a3a5455607.jpg" alt="Интерактивная презентация гиперкара" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/4bd439d08b9f8a320a8851ac.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a16368d4c8b7c9a3a5455607.jpg" alt="Кейс 288" width="760"></a>
 
 Type: Demo | Date: 2026-11-04
 
@@ -5560,7 +5712,7 @@ Type: Demo | Date: 2026-11-04
 
 По словам создателя, это был примерно часовой сеанс написания кода по одному промпту. За 30 секунд последовательность проходит от бесплодного пейзажа к ростку и растущему дереву, а затем открывает зелёный мир под облаками.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/29df8c398a2db37856c01b0e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f50b8e7c2a28df7d0d3cd903.jpg" alt="Рождение дерева жизни" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/29df8c398a2db37856c01b0e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f50b8e7c2a28df7d0d3cd903.jpg" alt="Кейс 289" width="760"></a>
 
 Type: Demo | Date: 2026-11-04
 
@@ -5577,7 +5729,7 @@ Type: Demo | Date: 2026-11-04
 Make me Howl's moving castle and also show its internal machinery.
 ```
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1e7e25e7d44993a14ab0405e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/8d3b1d734d971e2dd757926c.jpg" alt="Шагающий замок с действующими внутренними механизмами" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1e7e25e7d44993a14ab0405e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/8d3b1d734d971e2dd757926c.jpg" alt="Кейс 290" width="760"></a>
 
 Type: Demo | Date: 2026-11-04
 
@@ -5590,7 +5742,7 @@ Type: Demo | Date: 2026-11-04
 
 В опубликованном 40-секундном фильме квадратный персонаж, похожий на тост, встречает синего механического жука в поле на закате. Источник приписывает фильм Fable 5.5 и ссылается на своё руководство по моушн-дизайну.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/d5e16bfd05f1c391cf32f848.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/85b7ae776a5c29618d061465.jpg" alt="Персонаж-тост и механический жук" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/d5e16bfd05f1c391cf32f848.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/85b7ae776a5c29618d061465.jpg" alt="Кейс 291" width="760"></a>
 
 Type: Demo | Date: 2026-11-04
 
@@ -5603,7 +5755,7 @@ Type: Demo | Date: 2026-11-04
 
 Создатель описывает 60-секундный короткометражный фильм на Three.js с отрисованными кодом кадрами, синтезированным звуком и автономным HTML-файлом. Видео следует за маленьким смотрителем маяка сквозь дождь и молнии, а затем переходит к рассвету.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/7ca3c1e23eac0ed20511211e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/dfcab72e07d547d9dcb1dbc1.jpg" alt="Смотритель маяка во время шторма" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/7ca3c1e23eac0ed20511211e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/dfcab72e07d547d9dcb1dbc1.jpg" alt="Кейс 292" width="760"></a>
 
 Type: Demo | Date: 2026-11-04
 
@@ -5616,7 +5768,7 @@ Type: Demo | Date: 2026-11-04
 
 Источник публикует примерно минутную анимацию Fable 5.5 с зелёным морским существом, прибрежным городком и парящими пузырями. Это конкретный визуальный образец для оценки такого стиля короткометражных фильмов.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/65db346493bdd9973bec3a4c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/4442bdca5e6a7460f03af731.jpg" alt="Морское существо в прибрежном городке" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/65db346493bdd9973bec3a4c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/4442bdca5e6a7460f03af731.jpg" alt="Кейс 293" width="760"></a>
 
 Type: Demo | Date: 2026-11-04
 
@@ -5629,7 +5781,7 @@ Type: Demo | Date: 2026-11-04
 
 Создатель тестирует игру с гонками на ковре из детства с помощью Fable 5.5, Opus 5.5 и GPT-6 Astra. Здесь сохранены и новая запись с тремя панелями, и более раннее сравнение двух моделей; баллы в ролике являются собственными оценками автора.
 
-<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ffe3b88099594ba14f536b51.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/24d8ea7644cbe19947c8c53a.jpg" alt="Гонки на ковре у трёх моделей" width="760"></a></td><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/e214760ff83ad9bfaf202484.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f0340fc5579003245dfa99b1.jpg" alt="Гонки на ковре у трёх моделей" width="760"></a></td></tr></table>
+<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ffe3b88099594ba14f536b51.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/24d8ea7644cbe19947c8c53a.jpg" alt="Кейс 294" width="760"></a></td><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/e214760ff83ad9bfaf202484.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f0340fc5579003245dfa99b1.jpg" alt="Кейс 294" width="760"></a></td></tr></table>
 
 [Связанное сравнение · @noclipepe](https://x.com/noclipepe/status/2117729666576302187)
 
@@ -5648,7 +5800,7 @@ Type: Evaluation | Date: 2026-11-04
 Make me a transformer truck with animations of its transforming.
 ```
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/72ef538a8fb4b94f0e2d7e2c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ea8537c130cd5623959dc275.jpg" alt="Превращение грузовика в робота" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/72ef538a8fb4b94f0e2d7e2c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ea8537c130cd5623959dc275.jpg" alt="Кейс 295" width="760"></a>
 
 Type: Demo | Date: 2026-11-04
 
@@ -5661,7 +5813,7 @@ Type: Demo | Date: 2026-11-04
 
 Автор публикует две пары скриншотов с подписями Fable 5.5 и Hunyuan 4. В каждой паре результаты с персонажами и окружением расположены вместе; эти изображения позволяют визуально сравнить именно показанные кадры.
 
-<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/e6c6551a29757e1eb7c31f36.jpg" alt="Кадры анимации Fable и Hunyuan" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/864db255f6fd2807b689d7d7.jpg" alt="Кадры анимации Fable и Hunyuan" width="760"></td></tr></table>
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/e6c6551a29757e1eb7c31f36.jpg" alt="Кейс 296" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/864db255f6fd2807b689d7d7.jpg" alt="Кейс 296" width="760"></td></tr></table>
 
 Type: Evaluation | Date: 2026-11-04
 
@@ -5678,7 +5830,7 @@ Type: Evaluation | Date: 2026-11-04
 Show me what kindness means to you
 ```
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/b888d1a62b4d27ae2fca8226.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/5bd15fc5c234b4b114765d6f.jpg" alt="Анимация о том, как делиться светом" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/b888d1a62b4d27ae2fca8226.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/5bd15fc5c234b4b114765d6f.jpg" alt="Кейс 297" width="760"></a>
 
 Type: Demo | Date: 2026-11-04
 
@@ -5691,7 +5843,7 @@ Type: Demo | Date: 2026-11-04
 
 Первоначальный создатель показывает живую воксельную деревню с домами, водными путями и маленькими жителями — с берега, сверху и из окружающих гор. Связанная публикация на китайском содержит подробный промпт сцены.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ae5269b0eff86da4580064d7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1e612faf20dd5f5de4ee171b.jpg" alt="Воксельная деревня среди гор" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ae5269b0eff86da4580064d7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1e612faf20dd5f5de4ee171b.jpg" alt="Кейс 298" width="760"></a>
 
 [@cfenghub](https://x.com/cfenghub/status/2117775332535148752)
 
@@ -5706,7 +5858,7 @@ Type: Demo | Date: 2026-11-02
 
 Запись с четырьмя панелями сопоставляет задачу с пеликаном, велосипедом, крокодилом и слоном для Gemini 4 Argon, Opus 5.5, Fable 5.5 и Kimi K3.1 Pro. Полная композиция сохраняет расположение и движение объектов у каждой модели.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/9db78999efffeffa7ccaca0e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/15a45dc0efe3247f0821c8a2.jpg" alt="Пеликан и слон: композиция у четырёх моделей" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/9db78999efffeffa7ccaca0e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/15a45dc0efe3247f0821c8a2.jpg" alt="Кейс 299" width="760"></a>
 
 Type: Evaluation | Date: 2026-11-03
 
@@ -5723,7 +5875,7 @@ Type: Evaluation | Date: 2026-11-03
 Make me a video of 2 stickman fighting, anime style.
 ```
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/c36c188396aac371a64e31a4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/85b670f06d376211c60bf894.jpg" alt="Аниме-поединок на мечах с импакт-кадрами" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/c36c188396aac371a64e31a4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/85b670f06d376211c60bf894.jpg" alt="Кейс 300" width="760"></a>
 
 Type: Demo | Date: 2026-11-03
 
@@ -5736,7 +5888,7 @@ Type: Demo | Date: 2026-11-03
 
 FawnBench показывает бегущего оленя в четырёх панелях с подписями заявленного запуска Fable 5.5, Gemini 4 Argon, GPT-6 Astra и Opus 5.5. Это визуальное сравнение, а не результат численного измерения производительности.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/3add4d9e0752d0467cbe6065.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/eea598747047797148e19c4e.jpg" alt="Сравнение бегущего оленя у четырёх моделей" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/3add4d9e0752d0467cbe6065.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/eea598747047797148e19c4e.jpg" alt="Кейс 301" width="760"></a>
 
 Type: Evaluation | Date: 2026-11-03
 
@@ -5749,7 +5901,7 @@ Type: Evaluation | Date: 2026-11-03
 
 Создатель сообщает о 42-секундной анимации на Three.js с кадрами, отрисованными кодом, синтезированным звуком и одним автономным HTML-файлом для рендеринга. Видео следует за роботом через затопленный, заросший город к яркому открытому водному пространству.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f39e1807d1e80422c31530c6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/247f768636339f49d149c787.jpg" alt="Робот пересекает затопленный город" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f39e1807d1e80422c31530c6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/247f768636339f49d149c787.jpg" alt="Кейс 302" width="760"></a>
 
 Type: Demo | Date: 2026-11-03
 
@@ -5762,7 +5914,7 @@ Type: Demo | Date: 2026-11-03
 
 По словам создателя, сначала он сгенерировал меч одним Python-скриптом, а затем попросил сделать видео. Следующий этап использует непрерывное движение камеры Blender, лесное освещение, синтезированную оркестровую музыку и монтаж в HyperFrames; заявленное общее время составляет 65 минут.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/3c767f2038ef7d3960c956ec.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/525304dc7d4016ac33b3d4f8.jpg" alt="Меч в Blender и фильм о нём" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/3c767f2038ef7d3960c956ec.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/525304dc7d4016ac33b3d4f8.jpg" alt="Кейс 303" width="760"></a>
 
 Type: Demo | Date: 2026-11-03
 
@@ -5775,7 +5927,7 @@ Type: Demo | Date: 2026-11-03
 
 Создатель публикует нарисованную кодом островную деревню с жителями, лодками, водопадами, фонариками и музыкой. Запись переходит от близких планов деревенской жизни к общим видам острова и ночной сцене со светящимися фонариками.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/e91f1eabab743730dd815c98.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/b7d2e578739d25596db1164f.jpg" alt="Пиксельная деревня Lantern Isle в анимации" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/e91f1eabab743730dd815c98.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/b7d2e578739d25596db1164f.jpg" alt="Кейс 304" width="760"></a>
 
 Type: Demo | Date: 2026-11-03
 
@@ -5788,7 +5940,7 @@ Type: Demo | Date: 2026-11-03
 
 Pause представляет этот процесс под названием видеомонтажа Fable 5.5. Демонстрация выбирает игровые моменты, меняет кадрирование камеры с лицом, добавляет субтитры и звук и открывает редактируемую секвенцию в Premiere.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f0faaeecdaa02683f81e67f6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ae2d32876804bf286f11dc6c.jpg" alt="Демонстрация монтажа игровых видео в Pause" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f0faaeecdaa02683f81e67f6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ae2d32876804bf286f11dc6c.jpg" alt="Кейс 305" width="760"></a>
 
 Type: Demo | Date: 2026-11-03
 
@@ -5801,7 +5953,7 @@ Type: Demo | Date: 2026-11-03
 
 Создатель показывает пеликана, едущего на пенни-фартинге у моря. В записи рассматриваются перья, педали и геометрия колеса, после чего камера возвращается к общим видам мощёной набережной.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/66c3c44bcefa684522f95b96.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/8575912e8f20f48439aea683.jpg" alt="Пеликан едет на велосипеде вдоль моря" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/66c3c44bcefa684522f95b96.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/8575912e8f20f48439aea683.jpg" alt="Кейс 306" width="760"></a>
 
 Type: Demo | Date: 2026-11-02
 
