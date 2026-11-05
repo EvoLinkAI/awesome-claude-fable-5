@@ -37,7 +37,7 @@ Experimente no Evolink: [Claude Fable 5](https://evolink.ai/claude-fable-5?utm_s
 <a id="-overview"></a>
 ## 📊 Visão Geral
 
-- **88 casos originais de Fable 5 e 191 casos da comunidade; 279 casos no total.**
+- **88 casos originais de Fable 5 e 218 casos da comunidade; 306 casos no total.**
 - Cobre agentes de codificação, automação de longa duração, jogos, design visual, simulações 3D, trabalho de conhecimento, tutoriais, integrações de API, benchmarks, preços e limitações de lançamento.
 - Cada caso inclui a fonte original, atribuição ao criador, uma conclusão concisa, tipo de evidência e data de publicação.
 - Use este repositório para encontrar fluxos de trabalho práticos, comparar pontos fortes e limites, descobrir prompts reproduzíveis e acompanhar exemplos de integração.
@@ -350,7 +350,7 @@ curl --request POST \
 | [Comparação de animações de águas-vivas aurorais](#case-218) | Evaluation |
 | [Um SVG Nintendo Switch com encaixe e inicialização](#case-219) | Demo |
 | [A cena 3D interativa The Loom](#case-220) | Demo |
-| [Amostras animadas de pagode sakura](#case-221) | Evaluation |
+| [Reels de motion design com o mesmo prompt](#case-221) | Evaluation |
 | [Um cenário mais limpo com menos profundidade](#case-222) | Evaluation |
 | [Resultados mistos de uma cena japonesa](#case-223) | Evaluation |
 | [Comparações de controles SVG](#case-224) | Evaluation |
@@ -409,6 +409,33 @@ curl --request POST \
 | [Um relato de falha na geração de personagens](#case-277) | Limit |
 | [Um SVG de pelicano com notas de tempo e custo](#case-278) | Evaluation |
 | [Programação remota no celular com enxames Claude Code](#case-279) | Integration |
+| [A Via Láctea sobre um lago alpino](#case-280) | Demo |
+| [Salto de baleia com água e som procedurais](#case-281) | Demo |
+| [Movimento de zebras comparado entre quatro modelos](#case-282) | Evaluation |
+| [Busca de criadores em linguagem natural no Lightreel](#case-283) | Demo |
+| [Um navio voador sobre um mar de nuvens](#case-284) | Demo |
+| [Coração mecânico com corte animado](#case-285) | Demo |
+| [Jardim de pagode voxel flutuante e explorável](#case-286) | Demo |
+| [Uma aventura oceânica feita por oito equipes](#case-287) | Demo |
+| [Apresentação interativa de um hipercarro](#case-288) | Demo |
+| [Nascimento de uma árvore da vida](#case-289) | Demo |
+| [Castelo ambulante com maquinaria interna funcional](#case-290) | Demo |
+| [Uma torrada e um besouro mecânico](#case-291) | Demo |
+| [Um faroleiro em uma tempestade](#case-292) | Demo |
+| [Uma criatura marinha em uma cidade costeira](#case-293) | Demo |
+| [Corridas no tapete comparadas entre três modelos](#case-294) | Evaluation |
+| [Um caminhão se transforma em robô](#case-295) | Demo |
+| [Quadros de animação do Fable e do Hunyuan](#case-296) | Evaluation |
+| [Uma animação sobre compartilhar luz](#case-297) | Demo |
+| [Uma aldeia voxel entre montanhas](#case-298) | Demo |
+| [Composição de pelicano e elefante com quatro modelos](#case-299) | Evaluation |
+| [Luta anime de espadas com quadros de impacto](#case-300) | Demo |
+| [Cervo correndo comparado entre quatro modelos](#case-301) | Evaluation |
+| [Um robô atravessa uma cidade inundada](#case-302) | Demo |
+| [Uma espada no Blender e seu filme de apresentação](#case-303) | Demo |
+| [Animação da aldeia pixelada Lantern Isle](#case-304) | Demo |
+| [Demonstração de edição de vídeos de jogos no Pause](#case-305) | Demo |
+| [Um pelicano de bicicleta à beira-mar](#case-306) | Demo |
 
 <a id="coding-and-code-generation"></a>
 ## 💻 Codificação e Geração de Código
@@ -4575,13 +4602,19 @@ Type: Demo | Date: 2026-10-01
 ---
 
 <a id="case-221"></a>
-### Case 221: [Amostras animadas de pagode sakura](https://x.com/mesmerlord/status/2105758042830549235) (por [@mesmerlord](https://x.com/mesmerlord))
+### Case 221: [Reels de motion design com o mesmo prompt](https://x.com/mesmerlord/status/2105758042830549235) (por [@mesmerlord](https://x.com/mesmerlord))
 
-**Compare foco visual e sincronização entre amostras produzidas com o mesmo prompt.**
+**Compare o foco visual e a sincronização com o ritmo em dois reels criados com o mesmo prompt.**
 
-O autor compartilha duas primeiras amostras de pagode sakura em movimento com o mesmo prompt e comenta foco visual e sincronização com a batida. As observações descrevem seus resultados específicos.
+O autor compartilha dois resultados iniciais de motion design do Fable 5.5 com o mesmo prompt e observa, de forma cautelosa, um foco mais claro e melhor sincronização com o ritmo do que em uma execução do Opus. Os dois vídeos originais são apresentados juntos.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/dc4c3e5875e829f8b568a67b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c8fc402eeea381a9519146e4.jpg" alt="Amostras animadas de pagode sakura" width="760"></a>
+```
+make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.
+```
+
+[@shneural](https://x.com/shneural/status/2103151003272962130)
+
+<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/dc4c3e5875e829f8b568a67b.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c8fc402eeea381a9519146e4.jpg" alt="Reels de motion design com o mesmo prompt" width="760"></a></td><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/29b80ef5ba92b029630a1628.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f0da5945bc240b424bfebbd9.jpg" alt="Reels de motion design com o mesmo prompt" width="760"></a></td></tr></table>
 
 Type: Evaluation | Date: 2026-10-01
 
@@ -4804,7 +4837,9 @@ O criador compartilha uma animação de floresta e robô e a descreve como filme
 
 Uma publicação adicional mostra uma execução de controle de Opus 5.5 relatada separadamente. [@AnikaCodes](https://x.com/AnikaCodes) · [Trabalho relacionado](https://x.com/AnikaCodes/status/2117222374642946297)
 
-<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1719bb6df936cf88ea6c137a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a97bd6e101d45bc7e1c5f7a8.jpg" alt="Um filme de robô coberto de musgo gerado com código" width="760"></a></td><td valign="top"><p>Uma publicação adicional mostra uma execução de controle de Opus 5.5 relatada separadamente.</p><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fb66f964af405e36c6993f37.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/679a823fdecdc62be6ab781a.jpg" alt="Um filme de robô coberto de musgo gerado com código" width="760"></a></td></tr></table>
+Segundo seu autor, uma execução relacionada com GPT-6 Astra Max usa imagens geradas no fluxo de trabalho. Assim, os diferentes métodos de produção ficam visíveis ao lado do filme original. [@rubenssoto_ai](https://x.com/rubenssoto_ai) · [Comparação relacionada](https://x.com/rubenssoto_ai/status/2117707344704352691)
+
+<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1719bb6df936cf88ea6c137a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a97bd6e101d45bc7e1c5f7a8.jpg" alt="Um filme de robô coberto de musgo gerado com código" width="760"></a></td><td valign="top"><p>Uma publicação adicional mostra uma execução de controle de Opus 5.5 relatada separadamente.</p><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fb66f964af405e36c6993f37.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/679a823fdecdc62be6ab781a.jpg" alt="Um filme de robô coberto de musgo gerado com código" width="760"></a></td><td valign="top"><p>GPT-6 Astra Max</p><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/25b0cfcdb1fdda22ba6aa9d6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/75f37c74099d5b9ba1ad0ddc.jpg" alt="GPT-6 Astra Max" width="760"></a></td></tr></table>
 
 Type: Demo | Date: 2026-11-02
 
@@ -5331,12 +5366,387 @@ Type: Integration | Date: 2026-10-04
 
 ---
 
+<a id="case-280"></a>
+### Case 280: [A Via Láctea sobre um lago alpino](https://x.com/hakmgpt/status/2118178083983573492) (por [@hakmgpt](https://x.com/hakmgpt))
+
+**Examine uma sequência longa de câmera que combina reflexos de montanhas e um céu noturno em movimento.**
+
+A animação compartilhada, de 92 segundos, parte de um lago alpino para uma Via Láctea brilhante e retorna ao céu refletido. Quem publicou atribui a cena renderizada ao Fable 5.5.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/5cb879d0a07a0f6e9fff5cf6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/91432c6827d650eb28f2269b.jpg" alt="A Via Láctea sobre um lago alpino" width="760"></a>
+
+Type: Demo | Date: 2026-11-05
+
+---
+
+<a id="case-281"></a>
+### Case 281: [Salto de baleia com água e som procedurais](https://x.com/camperaigg/status/2118069524306284556) (por [@camperaigg](https://x.com/camperaigg))
+
+**Combine tomadas subaquáticas, um salto na superfície e áudio sintetizado em uma sequência animada.**
+
+O criador relata 154 minutos para um filme de 31 segundos, com baleia procedural, simulação de fluidos, sombreamento do oceano e som sintetizado. Suas notas descrevem a inspeção de quadros ampliados e a correção dos respingos antes de renderizar novamente.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/b98c309a3c226bd24386940f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1bcb86163b677ad0a4172d13.jpg" alt="Salto de baleia com água e som procedurais" width="760"></a>
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-282"></a>
+### Case 282: [Movimento de zebras comparado entre quatro modelos](https://x.com/AI_Screening/status/2118014564457668955) (por [@AI_Screening](https://x.com/AI_Screening))
+
+**Compare marcha, anatomia e estilo de cena na mesma tarefa de animação animal.**
+
+Os quatro clipes empilhados têm os rótulos Gemini 4 Carbon, Fable 5.5, Opus 5.5 e Argon. Manter a composição completa permite observar diferenças no movimento das pernas, no formato do corpo e no tratamento do fundo.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/6fdcb38bf56493c314dba5b6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/890d1b92800ee622275ec8d7.jpg" alt="Movimento de zebras comparado entre quatro modelos" width="760"></a>
+
+Type: Evaluation | Date: 2026-11-04
+
+---
+
+<a id="case-283"></a>
+### Case 283: [Busca de criadores em linguagem natural no Lightreel](https://x.com/lightreelai/status/2118010927199248705) (por [@lightreelai](https://x.com/lightreelai))
+
+**Transforme critérios de criadores em uma busca com limites explícitos de seguidores e visualizações.**
+
+O Lightreel apresenta esta demonstração de busca de criadores sob o rótulo Fable 5.5. O vídeo insere uma consulta sobre criadores em casal com menos de 10,000 seguidores e um vídeo com mais de 100,000 visualizações, depois mostra resultados de vídeos sociais.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/5aef4b1766a560a35264c3ed.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1c6d9c1fb3c69b3aa2ee1976.jpg" alt="Busca de criadores em linguagem natural no Lightreel" width="760"></a>
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-284"></a>
+### Case 284: [Um navio voador sobre um mar de nuvens](https://x.com/devteamdrew/status/2118008142403649662) (por [@devteamdrew](https://x.com/devteamdrew))
+
+**Use um filme mais longo para examinar a continuidade entre tomadas com mudanças de luz e clima.**
+
+O criador descreve uma animação de cerca de 100 segundos feita com JavaScript e Python ao longo de 19 horas por várias equipes de agentes. A sequência compartilhada acompanha uma embarcação voadora entre nuvens, o pôr do sol e o luar.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/17ef07a780273abf9e9b6c92.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a54746701db5f7f829071d2c.jpg" alt="Um navio voador sobre um mar de nuvens" width="760"></a>
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-285"></a>
+### Case 285: [Coração mecânico com corte animado](https://x.com/camperaigg/status/2118002649929056373) (por [@camperaigg](https://x.com/camperaigg))
+
+**Faça um mecanismo revelar suas peças móveis enquanto o movimento principal continua.**
+
+O criador relata uma tarefa de 106 minutos no Blender: um coração mecânico bombeia óleo dourado enquanto sua carcaça abre para revelar pistões e um virabrequim. As notas abordam áudio sintetizado e a identificação de luzes ocultas que causavam reflexos indesejados.
+
+```
+Make a mechanical heart and show its insides, use blender.
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/157ebee3ce748cdc1e6b7970.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/4a862111878dc42939f8e5e4.jpg" alt="Coração mecânico com corte animado" width="760"></a>
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-286"></a>
+### Case 286: [Jardim de pagode voxel flutuante e explorável](https://x.com/legit_api/status/2117994730336252114) (por [@legit_api](https://x.com/legit_api))
+
+**Avalie um ambiente gerado percorrendo suas estruturas e seus elementos aquáticos.**
+
+Este jardim voxel é atribuído a um checkpoint anterior do Fable 5.5. A câmera percorre um pagode, ilhas flutuantes, uma ponte e cachoeiras, mostrando a cena ao nível do solo e de pontos elevados.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/cc4d15bf5103d7eb64f63e29.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/22e78c0beb2a6f509bc02739.jpg" alt="Jardim de pagode voxel flutuante e explorável" width="760"></a>
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-287"></a>
+### Case 287: [Uma aventura oceânica feita por oito equipes](https://x.com/0xMovez/status/2117987052419428576) (por [@0xMovez](https://x.com/0xMovez))
+
+**Examine a continuidade entre ação, efeitos e som sintetizado em um filme com várias tomadas.**
+
+O criador relata um filme Three.js de 83 segundos feito por oito equipes de agentes em menos de três horas, com 39 tomadas e som sintetizado. As imagens acompanham uma aventura oceânica com espaçonaves, criaturas marinhas e ondas quebrando.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a46543512fc30e5a33cb2fc3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a307daab219d70fa5bed0c86.jpg" alt="Uma aventura oceânica feita por oito equipes" width="760"></a>
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-288"></a>
+### Case 288: [Apresentação interativa de um hipercarro](https://x.com/shmidtqq/status/2117977426990944736) (por [@shmidtqq](https://x.com/shmidtqq))
+
+**Combine closes do veículo com controles selecionáveis de câmera e pintura.**
+
+O criador apresenta um configurador de hipercarro em Three.js como um único arquivo HTML offline, com geometria e materiais gerados por código. A gravação mostra o veículo vermelho, closes das rodas e da carroceria, reflexos e controles de câmera.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/4bd439d08b9f8a320a8851ac.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a16368d4c8b7c9a3a5455607.jpg" alt="Apresentação interativa de um hipercarro" width="760"></a>
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-289"></a>
+### Case 289: [Nascimento de uma árvore da vida](https://x.com/notjazii/status/2117972258090357164) (por [@notjazii](https://x.com/notjazii))
+
+**Estruture uma animação curta em torno da transformação visível de uma semente em uma árvore adulta.**
+
+O criador relata uma execução de programação de aproximadamente uma hora com um único prompt. A sequência de 30 segundos passa por uma paisagem árida, uma muda e uma árvore em crescimento antes de revelar um mundo verde sob as nuvens.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/29df8c398a2db37856c01b0e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f50b8e7c2a28df7d0d3cd903.jpg" alt="Nascimento de uma árvore da vida" width="760"></a>
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-290"></a>
+### Case 290: [Castelo ambulante com maquinaria interna funcional](https://x.com/camperaigg/status/2117966825048997914) (por [@camperaigg](https://x.com/camperaigg))
+
+**Conecte um rig de caminhada a movimentos mecânicos visíveis e a uma carcaça que se abre.**
+
+O criador relata um fluxo de 133 minutos no Blender com motor a vapor, trens de engrenagens, quatro pernas e oito painéis de carcaça que se abrem. Suas notas descrevem a correção da animação de câmera e a redução do tempo de renderização após identificar uma geometria de grama custosa.
+
+```
+Make me Howl's moving castle and also show its internal machinery.
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1e7e25e7d44993a14ab0405e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/8d3b1d734d971e2dd757926c.jpg" alt="Castelo ambulante com maquinaria interna funcional" width="760"></a>
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-291"></a>
+### Case 291: [Uma torrada e um besouro mecânico](https://x.com/flxrnc/status/2117965294224232796) (por [@flxrnc](https://x.com/flxrnc))
+
+**Examine a encenação dos personagens e a continuidade em um breve encontro animado.**
+
+O filme compartilhado, de 40 segundos, mostra um personagem quadrado parecido com uma torrada encontrando um besouro mecânico azul em um campo ao pôr do sol. A fonte atribui o filme ao Fable 5.5 e inclui um link para seu guia de motion design.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/d5e16bfd05f1c391cf32f848.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/85b7ae776a5c29618d061465.jpg" alt="Uma torrada e um besouro mecânico" width="760"></a>
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-292"></a>
+### Case 292: [Um faroleiro em uma tempestade](https://x.com/seeconvm/status/2117965120760365494) (por [@seeconvm](https://x.com/seeconvm))
+
+**Construa uma narrativa curta em torno de um lugar, uma mudança de clima e um desfecho claro.**
+
+O criador descreve um curta Three.js de 60 segundos com quadros renderizados por código, som sintetizado e um arquivo HTML offline. As imagens acompanham um pequeno faroleiro sob chuva e relâmpagos até uma cena ao amanhecer.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/7ca3c1e23eac0ed20511211e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/dfcab72e07d547d9dcb1dbc1.jpg" alt="Um faroleiro em uma tempestade" width="760"></a>
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-293"></a>
+### Case 293: [Uma criatura marinha em uma cidade costeira](https://x.com/BubbleBrain/status/2117963042621178000) (por [@BubbleBrain](https://x.com/BubbleBrain))
+
+**Examine um curta completo para avaliar o movimento dos personagens, as transições e a consistência visual.**
+
+A fonte compartilha uma animação Fable 5.5 de aproximadamente um minuto com uma criatura marinha verde, uma cidade costeira e bolhas flutuantes. O vídeo oferece uma amostra visual concreta para avaliar esse estilo de curta-metragem.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/65db346493bdd9973bec3a4c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/4442bdca5e6a7460f03af731.jpg" alt="Uma criatura marinha em uma cidade costeira" width="760"></a>
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-294"></a>
+### Case 294: [Corridas no tapete comparadas entre três modelos](https://x.com/noclipepe/status/2117914944410628430) (por [@noclipepe](https://x.com/noclipepe))
+
+**Compare a completude das cenas jogáveis, o movimento e o tratamento visual na mesma tarefa de corrida.**
+
+O criador testa um jogo de corrida em um tapete infantil com Fable 5.5, Opus 5.5 e GPT-6 Astra. A gravação mais recente com três painéis e a comparação anterior de dois modelos são mantidas juntas; as notas mostradas no vídeo são avaliações do próprio criador.
+
+<table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ffe3b88099594ba14f536b51.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/24d8ea7644cbe19947c8c53a.jpg" alt="Corridas no tapete comparadas entre três modelos" width="760"></a></td><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/e214760ff83ad9bfaf202484.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f0340fc5579003245dfa99b1.jpg" alt="Corridas no tapete comparadas entre três modelos" width="760"></a></td></tr></table>
+
+[Comparação relacionada · @noclipepe](https://x.com/noclipepe/status/2117729666576302187)
+
+Type: Evaluation | Date: 2026-11-04
+
+---
+
+<a id="case-295"></a>
+### Case 295: [Um caminhão se transforma em robô](https://x.com/camperaigg/status/2117914482752299311) (por [@camperaigg](https://x.com/camperaigg))
+
+**Use uma sequência de transformação para examinar o rigging, o contato com o solo e o som sincronizado.**
+
+O criador relata 107 minutos no Blender, incluindo um rig de 51 articulações, um solucionador de contato com o solo, chuva procedural e efeitos sonoros sintetizados. A gravação mostra o caminhão se desdobrando em um robô em pé sobre o asfalto molhado.
+
+```
+Make me a transformer truck with animations of its transforming.
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/72ef538a8fb4b94f0e2d7e2c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ea8537c130cd5623959dc275.jpg" alt="Um caminhão se transforma em robô" width="760"></a>
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-296"></a>
+### Case 296: [Quadros de animação do Fable e do Hunyuan](https://x.com/xbquan/status/2117899651365908855) (por [@xbquan](https://x.com/xbquan))
+
+**Compare quadros correspondentes antes de concluir algo sobre uma animação inteira.**
+
+O autor compartilha dois pares de capturas rotuladas Fable 5.5 e Hunyuan 4. Cada par reúne os resultados dos personagens e do ambiente; essas imagens estáticas permitem uma comparação visual dos quadros mostrados.
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/e6c6551a29757e1eb7c31f36.jpg" alt="Quadros de animação do Fable e do Hunyuan" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/864db255f6fd2807b689d7d7.jpg" alt="Quadros de animação do Fable e do Hunyuan" width="760"></td></tr></table>
+
+Type: Evaluation | Date: 2026-11-04
+
+---
+
+<a id="case-297"></a>
+### Case 297: [Uma animação sobre compartilhar luz](https://x.com/abhinavflac/status/2117883591019708740) (por [@abhinavflac](https://x.com/abhinavflac))
+
+**Transforme um tema abstrato em uma narrativa curta com um final visível.**
+
+Após o pedido para mostrar o que significa bondade, o modelo recebe o crédito por uma animação e um som feitos em código. Uma figura luminosa entrega sua luz a uma criança e depois fica mais brilhante enquanto a paisagem ao redor se enche de cores.
+
+```
+Show me what kindness means to you
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/b888d1a62b4d27ae2fca8226.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/5bd15fc5c234b4b114765d6f.jpg" alt="Uma animação sobre compartilhar luz" width="760"></a>
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-298"></a>
+### Case 298: [Uma aldeia voxel entre montanhas](https://x.com/abhinavflac/status/2117377130388656569) (por [@abhinavflac](https://x.com/abhinavflac))
+
+**Explore uma aldeia gerada em várias escalas para examinar sua coerência espacial.**
+
+O criador original compartilha uma aldeia voxel viva com casas, cursos d’água e pequenos moradores, vista da margem, de cima e entre as montanhas ao redor. Um post relacionado em chinês fornece um prompt detalhado da cena.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ae5269b0eff86da4580064d7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1e612faf20dd5f5de4ee171b.jpg" alt="Uma aldeia voxel entre montanhas" width="760"></a>
+
+[@cfenghub](https://x.com/cfenghub/status/2117775332535148752)
+
+Type: Demo | Date: 2026-11-02
+
+---
+
+<a id="case-299"></a>
+### Case 299: [Composição de pelicano e elefante com quatro modelos](https://x.com/pipeline_os/status/2117719191478513700) (por [@pipeline_os](https://x.com/pipeline_os))
+
+**Compare como diferentes modelos lidam com vários sujeitos interagindo em uma animação.**
+
+A gravação de quatro painéis coloca lado a lado uma tarefa com pelicano, bicicleta, crocodilo e elefante para Gemini 4 Argon, Opus 5.5, Fable 5.5 e Kimi K3.1 Pro. A composição completa preserva o posicionamento e o movimento dos sujeitos de cada modelo.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/9db78999efffeffa7ccaca0e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/15a45dc0efe3247f0821c8a2.jpg" alt="Composição de pelicano e elefante com quatro modelos" width="760"></a>
+
+Type: Evaluation | Date: 2026-11-03
+
+---
+
+<a id="case-300"></a>
+### Case 300: [Luta anime de espadas com quadros de impacto](https://x.com/camperaigg/status/2117717189059026969) (por [@camperaigg](https://x.com/camperaigg))
+
+**Sincronize a ação dos personagens, os flashes de impacto, o som e o silêncio intencional.**
+
+O criador relata 66 minutos de programação para uma luta de bonecos de palito de 46 segundos, com capas semelhantes a tecido, armas contrastantes e música e efeitos sintetizados. Suas notas descrevem a correção de um ataque invertido, rastros visuais e a posição do título.
+
+```
+Make me a video of 2 stickman fighting, anime style.
+```
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/c36c188396aac371a64e31a4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/85b670f06d376211c60bf894.jpg" alt="Luta anime de espadas com quadros de impacto" width="760"></a>
+
+Type: Demo | Date: 2026-11-03
+
+---
+
+<a id="case-301"></a>
+### Case 301: [Cervo correndo comparado entre quatro modelos](https://x.com/fawnunwrap/status/2117702487755100543) (por [@fawnunwrap](https://x.com/fawnunwrap))
+
+**Compare o movimento dos membros e o formato do animal com a composição completa da mesma tarefa visível.**
+
+O FawnBench apresenta um cervo correndo em quatro painéis rotulados como uma execução atribuída ao Fable 5.5, Gemini 4 Argon, GPT-6 Astra e Opus 5.5. As imagens constituem uma comparação visual, não um resultado numérico de desempenho medido.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/3add4d9e0752d0467cbe6065.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/eea598747047797148e19c4e.jpg" alt="Cervo correndo comparado entre quatro modelos" width="760"></a>
+
+Type: Evaluation | Date: 2026-11-03
+
+---
+
+<a id="case-302"></a>
+### Case 302: [Um robô atravessa uma cidade inundada](https://x.com/0xMovez/status/2117700681867903169) (por [@0xMovez](https://x.com/0xMovez))
+
+**Examine a continuidade entre reflexos, movimento do personagem e mudanças de visão da câmera.**
+
+O criador relata uma animação Three.js de 42 segundos com quadros renderizados por código, som sintetizado e um único arquivo HTML de renderização offline. As imagens acompanham um robô por uma cidade inundada e tomada pela vegetação até uma cena colorida de águas abertas.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f39e1807d1e80422c31530c6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/247f768636339f49d149c787.jpg" alt="Um robô atravessa uma cidade inundada" width="760"></a>
+
+Type: Demo | Date: 2026-11-03
+
+---
+
+<a id="case-303"></a>
+### Case 303: [Uma espada no Blender e seu filme de apresentação](https://x.com/camperaigg/status/2117694354685092255) (por [@camperaigg](https://x.com/camperaigg))
+
+**Separe a construção procedural do recurso da etapa posterior de câmera e som.**
+
+O criador relata ter primeiro gerado uma espada com um script Python e depois pedido um vídeo. A continuação usa um movimento contínuo de câmera no Blender, iluminação de floresta, uma trilha orquestral sintetizada e edição no HyperFrames; o tempo total relatado é de 65 minutos.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/3c767f2038ef7d3960c956ec.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/525304dc7d4016ac33b3d4f8.jpg" alt="Uma espada no Blender e seu filme de apresentação" width="760"></a>
+
+Type: Demo | Date: 2026-11-03
+
+---
+
+<a id="case-304"></a>
+### Case 304: [Animação da aldeia pixelada Lantern Isle](https://x.com/abhinavflac/status/2117693193429139965) (por [@abhinavflac](https://x.com/abhinavflac))
+
+**Examine a atividade local e as transições do dia para a noite em um ambiente animado denso.**
+
+O criador compartilha uma aldeia insular desenhada por código, com moradores, barcos, cachoeiras, lanternas e música. A gravação alterna atividades próximas da aldeia, vistas amplas da ilha e uma sequência noturna com lanternas brilhantes.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/e91f1eabab743730dd815c98.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/b7d2e578739d25596db1164f.jpg" alt="Animação da aldeia pixelada Lantern Isle" width="760"></a>
+
+Type: Demo | Date: 2026-11-03
+
+---
+
+<a id="case-305"></a>
+### Case 305: [Demonstração de edição de vídeos de jogos no Pause](https://x.com/pausevfx/status/2117676887665447206) (por [@pausevfx](https://x.com/pausevfx))
+
+**Revise um fluxo de edição do material bruto, passando pelas legendas, até uma linha do tempo editável.**
+
+O Pause apresenta esse fluxo sob o rótulo Fable 5.5 para edição de vídeo. A demonstração seleciona momentos de jogos, reenquadra uma câmera de rosto, adiciona legendas e som e abre uma sequência editável no Premiere.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f0faaeecdaa02683f81e67f6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ae2d32876804bf286f11dc6c.jpg" alt="Demonstração de edição de vídeos de jogos no Pause" width="760"></a>
+
+Type: Demo | Date: 2026-11-03
+
+---
+
+<a id="case-306"></a>
+### Case 306: [Um pelicano de bicicleta à beira-mar](https://x.com/pankajkumar_dev/status/2117301455665439210) (por [@pankajkumar_dev](https://x.com/pankajkumar_dev))
+
+**Examine a geometria fina e a animação em vistas de câmera próximas e amplas.**
+
+O criador compartilha um pelicano andando de bicicleta de roda alta à beira-mar. A gravação examina penas, pedais e geometria das rodas antes de retornar a vistas mais amplas da orla pavimentada.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/66c3c44bcefa684522f95b96.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/8575912e8f20f48439aea683.jpg" alt="Um pelicano de bicicleta à beira-mar" width="760"></a>
+
+Type: Demo | Date: 2026-11-02
+
+---
+
 <a id="acknowledge"></a>
 ## 🙏 Agradecimentos
 
 Este repositório foi inspirado pelos criadores, desenvolvedores, equipes de benchmark e comunidades que compartilharam publicamente casos reais de uso do Claude Fable 5.
 
-[@AlicanKiraz0](https://x.com/AlicanKiraz0), [@coldopn](https://x.com/coldopn), [@deveshcodes_](https://x.com/deveshcodes_), [@intheworldofai](https://x.com/intheworldofai), [@jsnnsa](https://x.com/jsnnsa), [@ryanrhughes](https://x.com/ryanrhughes), [@JJEnglert](https://x.com/JJEnglert), [@ayushagarwal](https://x.com/ayushagarwal), [@ai_for_success](https://x.com/ai_for_success), [@kieradev](https://x.com/kieradev), [@vikvang1](https://x.com/vikvang1), [@ydamitcodes](https://x.com/ydamitcodes), [@ecomchasedimond](https://x.com/ecomchasedimond), [@quanghuynt14](https://x.com/quanghuynt14), [@scottstts](https://x.com/scottstts), [@tetumemo](https://x.com/tetumemo), [@AndrewCurran_](https://x.com/AndrewCurran_), [@manaltdan](https://x.com/manaltdan), [@naoyafujiwara](https://x.com/naoyafujiwara), [@AI_masaou](https://x.com/AI_masaou), [@Truunik](https://x.com/Truunik), [@Voxyz_ai](https://x.com/Voxyz_ai), [@aianimesyokunin](https://x.com/aianimesyokunin), [@bielzinn](https://x.com/bielzinn), [@meta_alchemist](https://x.com/meta_alchemist), [@oikon48](https://x.com/oikon48), [@IBuzovskyi](https://x.com/IBuzovskyi), [@btibor91](https://x.com/btibor91), [@ctgptlb](https://x.com/ctgptlb), [@grapeot](https://x.com/grapeot), [@op7418](https://x.com/op7418), [@swarms_corp](https://x.com/swarms_corp), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@HKrackDev](https://x.com/HKrackDev), [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@LechMazur](https://x.com/LechMazur), [@MTSlive](https://x.com/MTSlive), [@VaibhavSisinty](https://x.com/VaibhavSisinty), [@alliekmiller](https://x.com/alliekmiller), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@bcherny](https://x.com/bcherny), [@clairevo](https://x.com/clairevo), [@gabepereyra](https://x.com/gabepereyra), [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@mark_k](https://x.com/mark_k), [@mercor_ai](https://x.com/mercor_ai), [@nicbstme](https://x.com/nicbstme), [@timhwang](https://x.com/timhwang), [@xw33bttv](https://x.com/xw33bttv), [@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown), [@marclou](https://x.com/marclou), [@ProximalHQ](https://x.com/ProximalHQ), [@elliotarledge](https://x.com/elliotarledge), [@mikefutia](https://x.com/mikefutia), [@techhalla](https://x.com/techhalla), [@diblacksmith](https://x.com/diblacksmith), [@upstash](https://x.com/upstash), [@WolfBenchAI](https://x.com/WolfBenchAI), [@simonw](https://x.com/simonw), [@chetaslua](https://x.com/chetaslua), [@notjazii](https://x.com/notjazii), [@exploraX_](https://x.com/exploraX_), [@marmaduke091](https://x.com/marmaduke091), [@AI_Screening](https://x.com/AI_Screening), [@waveking1314](https://x.com/waveking1314), [@cherry_mx_reds](https://x.com/cherry_mx_reds), [@imjustnewatai](https://x.com/imjustnewatai), [@mesmerlord](https://x.com/mesmerlord), [@blueemi99](https://x.com/blueemi99), [@EMostaque](https://x.com/EMostaque), [@mindblown_ai](https://x.com/mindblown_ai), [@Chengzilhy](https://x.com/Chengzilhy), [@ishuagra02](https://x.com/ishuagra02), [@zAdrielsan](https://x.com/zAdrielsan), [@KanaWorks_AI](https://x.com/KanaWorks_AI), [@TurboNexic](https://x.com/TurboNexic), [@atomtanstudio](https://x.com/atomtanstudio), [@abhinavflac](https://x.com/abhinavflac), [@esrhengwu](https://x.com/esrhengwu), [@mickeysmith_jp](https://x.com/mickeysmith_jp), [@MozeTech](https://x.com/MozeTech), [@benchmark_lb900](https://x.com/benchmark_lb900), [@jesselaunz](https://x.com/jesselaunz), [@cocoloba_](https://x.com/cocoloba_), [@olddonkeyblog](https://x.com/olddonkeyblog), [@iowitz](https://x.com/iowitz), [@argofowl](https://x.com/argofowl), [@JaydenDavisNC](https://x.com/JaydenDavisNC), [@DAssetBuzz](https://x.com/DAssetBuzz), [@nemumusitocha](https://x.com/nemumusitocha), [@0xashtonx](https://x.com/0xashtonx), [@dropout_layer](https://x.com/dropout_layer), [@mathisbuilds](https://x.com/mathisbuilds), [@Saccc_c](https://x.com/Saccc_c), [@RobIW_dev](https://x.com/RobIW_dev), [@hungryturbo](https://x.com/hungryturbo), [@alannnfx](https://x.com/alannnfx), [@NFT_Chen](https://x.com/NFT_Chen), [@dpkostka](https://x.com/dpkostka), [@kiyoshi_shin](https://x.com/kiyoshi_shin), [@hanawo_neki](https://x.com/hanawo_neki), [@badboyfoxy](https://x.com/badboyfoxy), [@markbraincell](https://x.com/markbraincell), [@synthshareai](https://x.com/synthshareai), [@Layton_Gott](https://x.com/Layton_Gott), [@nroze22](https://x.com/nroze22), [@MinLiBuilds](https://x.com/MinLiBuilds), [@YanqingCheng](https://x.com/YanqingCheng), [@Kinzf2121](https://x.com/Kinzf2121), [@devteamdrew](https://x.com/devteamdrew), [@maciejkrupowies](https://x.com/maciejkrupowies), [@rohit3a](https://x.com/rohit3a), [@Noreply134882](https://x.com/Noreply134882), [@noclipepe](https://x.com/noclipepe), [@devswha](https://x.com/devswha), [@oalanicolas](https://x.com/oalanicolas), [@AndrewOnXYZ](https://x.com/AndrewOnXYZ), [@OnlyTerp](https://x.com/OnlyTerp), [@HashmathRzz](https://x.com/HashmathRzz), [@BoDy051](https://x.com/BoDy051), [@HelaliBillel](https://x.com/HelaliBillel), [@iancarscadden](https://x.com/iancarscadden), [@eviljoker88](https://x.com/eviljoker88), [@slimcat0101](https://x.com/slimcat0101), [@l_mejiaC](https://x.com/l_mejiaC), [@ziwenxu_](https://x.com/ziwenxu_), [@SPAC89](https://x.com/SPAC89), [@IgorGomezC](https://x.com/IgorGomezC), [@vikktorrrre](https://x.com/vikktorrrre), [@sdmat123](https://x.com/sdmat123), [@Mr_Salio](https://x.com/Mr_Salio), [@popat_kunj](https://x.com/popat_kunj), [@voltwake](https://x.com/voltwake), [@BtwIUseSystemd](https://x.com/BtwIUseSystemd), [@TOPSTR1X](https://x.com/TOPSTR1X), [@SEO](https://x.com/SEO), [@RayaneRachid_](https://x.com/RayaneRachid_), [@Josh67Joshua](https://x.com/Josh67Joshua), [@kdnbmb](https://x.com/kdnbmb), [@mszzz0011](https://x.com/mszzz0011), [@AISuperDomain](https://x.com/AISuperDomain), [@crowqnt](https://x.com/crowqnt), [@ZorroOfMorocco](https://x.com/ZorroOfMorocco), [@legit_api](https://x.com/legit_api), [@leo114119](https://x.com/leo114119), [@anxuanng](https://x.com/anxuanng), [@xiax0603](https://x.com/xiax0603), [@Octoberry](https://x.com/Octoberry), [@Mikadzyki_NFT](https://x.com/Mikadzyki_NFT), [@birdabo](https://x.com/birdabo), [@ChrisGPT](https://x.com/ChrisGPT), [@AdamHoltererer](https://x.com/AdamHoltererer), [@insanekrishnaa](https://x.com/insanekrishnaa), [@cleeeeeeeeement](https://x.com/cleeeeeeeeement), [@ZMinimalistYogi](https://x.com/ZMinimalistYogi), [@wenhaocha1](https://x.com/wenhaocha1), [@AM09_21](https://x.com/AM09_21), [@mt_moco](https://x.com/mt_moco), [@johntitorIII](https://x.com/johntitorIII), [@DavidayoAI](https://x.com/DavidayoAI), [@xodud_rkd](https://x.com/xodud_rkd), [@doof1789559](https://x.com/doof1789559), [@AnonymerNutze12](https://x.com/AnonymerNutze12), [@beistnormie](https://x.com/beistnormie), [@AnikaCodes](https://x.com/AnikaCodes)
+[@AlicanKiraz0](https://x.com/AlicanKiraz0), [@coldopn](https://x.com/coldopn), [@deveshcodes_](https://x.com/deveshcodes_), [@intheworldofai](https://x.com/intheworldofai), [@jsnnsa](https://x.com/jsnnsa), [@ryanrhughes](https://x.com/ryanrhughes), [@JJEnglert](https://x.com/JJEnglert), [@ayushagarwal](https://x.com/ayushagarwal), [@ai_for_success](https://x.com/ai_for_success), [@kieradev](https://x.com/kieradev), [@vikvang1](https://x.com/vikvang1), [@ydamitcodes](https://x.com/ydamitcodes), [@ecomchasedimond](https://x.com/ecomchasedimond), [@quanghuynt14](https://x.com/quanghuynt14), [@scottstts](https://x.com/scottstts), [@tetumemo](https://x.com/tetumemo), [@AndrewCurran_](https://x.com/AndrewCurran_), [@manaltdan](https://x.com/manaltdan), [@naoyafujiwara](https://x.com/naoyafujiwara), [@AI_masaou](https://x.com/AI_masaou), [@Truunik](https://x.com/Truunik), [@Voxyz_ai](https://x.com/Voxyz_ai), [@aianimesyokunin](https://x.com/aianimesyokunin), [@bielzinn](https://x.com/bielzinn), [@meta_alchemist](https://x.com/meta_alchemist), [@oikon48](https://x.com/oikon48), [@IBuzovskyi](https://x.com/IBuzovskyi), [@btibor91](https://x.com/btibor91), [@ctgptlb](https://x.com/ctgptlb), [@grapeot](https://x.com/grapeot), [@op7418](https://x.com/op7418), [@swarms_corp](https://x.com/swarms_corp), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@HKrackDev](https://x.com/HKrackDev), [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@LechMazur](https://x.com/LechMazur), [@MTSlive](https://x.com/MTSlive), [@VaibhavSisinty](https://x.com/VaibhavSisinty), [@alliekmiller](https://x.com/alliekmiller), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@bcherny](https://x.com/bcherny), [@clairevo](https://x.com/clairevo), [@gabepereyra](https://x.com/gabepereyra), [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@mark_k](https://x.com/mark_k), [@mercor_ai](https://x.com/mercor_ai), [@nicbstme](https://x.com/nicbstme), [@timhwang](https://x.com/timhwang), [@xw33bttv](https://x.com/xw33bttv), [@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown), [@marclou](https://x.com/marclou), [@ProximalHQ](https://x.com/ProximalHQ), [@elliotarledge](https://x.com/elliotarledge), [@mikefutia](https://x.com/mikefutia), [@techhalla](https://x.com/techhalla), [@diblacksmith](https://x.com/diblacksmith), [@upstash](https://x.com/upstash), [@WolfBenchAI](https://x.com/WolfBenchAI), [@simonw](https://x.com/simonw), [@chetaslua](https://x.com/chetaslua), [@notjazii](https://x.com/notjazii), [@exploraX_](https://x.com/exploraX_), [@marmaduke091](https://x.com/marmaduke091), [@AI_Screening](https://x.com/AI_Screening), [@waveking1314](https://x.com/waveking1314), [@cherry_mx_reds](https://x.com/cherry_mx_reds), [@imjustnewatai](https://x.com/imjustnewatai), [@mesmerlord](https://x.com/mesmerlord), [@blueemi99](https://x.com/blueemi99), [@EMostaque](https://x.com/EMostaque), [@mindblown_ai](https://x.com/mindblown_ai), [@Chengzilhy](https://x.com/Chengzilhy), [@ishuagra02](https://x.com/ishuagra02), [@zAdrielsan](https://x.com/zAdrielsan), [@KanaWorks_AI](https://x.com/KanaWorks_AI), [@TurboNexic](https://x.com/TurboNexic), [@atomtanstudio](https://x.com/atomtanstudio), [@abhinavflac](https://x.com/abhinavflac), [@esrhengwu](https://x.com/esrhengwu), [@mickeysmith_jp](https://x.com/mickeysmith_jp), [@MozeTech](https://x.com/MozeTech), [@benchmark_lb900](https://x.com/benchmark_lb900), [@jesselaunz](https://x.com/jesselaunz), [@cocoloba_](https://x.com/cocoloba_), [@olddonkeyblog](https://x.com/olddonkeyblog), [@iowitz](https://x.com/iowitz), [@argofowl](https://x.com/argofowl), [@JaydenDavisNC](https://x.com/JaydenDavisNC), [@DAssetBuzz](https://x.com/DAssetBuzz), [@nemumusitocha](https://x.com/nemumusitocha), [@0xashtonx](https://x.com/0xashtonx), [@dropout_layer](https://x.com/dropout_layer), [@mathisbuilds](https://x.com/mathisbuilds), [@Saccc_c](https://x.com/Saccc_c), [@RobIW_dev](https://x.com/RobIW_dev), [@hungryturbo](https://x.com/hungryturbo), [@alannnfx](https://x.com/alannnfx), [@NFT_Chen](https://x.com/NFT_Chen), [@dpkostka](https://x.com/dpkostka), [@kiyoshi_shin](https://x.com/kiyoshi_shin), [@hanawo_neki](https://x.com/hanawo_neki), [@badboyfoxy](https://x.com/badboyfoxy), [@markbraincell](https://x.com/markbraincell), [@synthshareai](https://x.com/synthshareai), [@Layton_Gott](https://x.com/Layton_Gott), [@nroze22](https://x.com/nroze22), [@MinLiBuilds](https://x.com/MinLiBuilds), [@YanqingCheng](https://x.com/YanqingCheng), [@Kinzf2121](https://x.com/Kinzf2121), [@devteamdrew](https://x.com/devteamdrew), [@maciejkrupowies](https://x.com/maciejkrupowies), [@rohit3a](https://x.com/rohit3a), [@Noreply134882](https://x.com/Noreply134882), [@noclipepe](https://x.com/noclipepe), [@devswha](https://x.com/devswha), [@oalanicolas](https://x.com/oalanicolas), [@AndrewOnXYZ](https://x.com/AndrewOnXYZ), [@OnlyTerp](https://x.com/OnlyTerp), [@HashmathRzz](https://x.com/HashmathRzz), [@BoDy051](https://x.com/BoDy051), [@HelaliBillel](https://x.com/HelaliBillel), [@iancarscadden](https://x.com/iancarscadden), [@eviljoker88](https://x.com/eviljoker88), [@slimcat0101](https://x.com/slimcat0101), [@l_mejiaC](https://x.com/l_mejiaC), [@ziwenxu_](https://x.com/ziwenxu_), [@SPAC89](https://x.com/SPAC89), [@IgorGomezC](https://x.com/IgorGomezC), [@vikktorrrre](https://x.com/vikktorrrre), [@sdmat123](https://x.com/sdmat123), [@Mr_Salio](https://x.com/Mr_Salio), [@popat_kunj](https://x.com/popat_kunj), [@voltwake](https://x.com/voltwake), [@BtwIUseSystemd](https://x.com/BtwIUseSystemd), [@TOPSTR1X](https://x.com/TOPSTR1X), [@SEO](https://x.com/SEO), [@RayaneRachid_](https://x.com/RayaneRachid_), [@Josh67Joshua](https://x.com/Josh67Joshua), [@kdnbmb](https://x.com/kdnbmb), [@mszzz0011](https://x.com/mszzz0011), [@AISuperDomain](https://x.com/AISuperDomain), [@crowqnt](https://x.com/crowqnt), [@ZorroOfMorocco](https://x.com/ZorroOfMorocco), [@legit_api](https://x.com/legit_api), [@leo114119](https://x.com/leo114119), [@anxuanng](https://x.com/anxuanng), [@xiax0603](https://x.com/xiax0603), [@Octoberry](https://x.com/Octoberry), [@Mikadzyki_NFT](https://x.com/Mikadzyki_NFT), [@birdabo](https://x.com/birdabo), [@ChrisGPT](https://x.com/ChrisGPT), [@AdamHoltererer](https://x.com/AdamHoltererer), [@insanekrishnaa](https://x.com/insanekrishnaa), [@cleeeeeeeeement](https://x.com/cleeeeeeeeement), [@ZMinimalistYogi](https://x.com/ZMinimalistYogi), [@wenhaocha1](https://x.com/wenhaocha1), [@AM09_21](https://x.com/AM09_21), [@mt_moco](https://x.com/mt_moco), [@johntitorIII](https://x.com/johntitorIII), [@DavidayoAI](https://x.com/DavidayoAI), [@xodud_rkd](https://x.com/xodud_rkd), [@doof1789559](https://x.com/doof1789559), [@AnonymerNutze12](https://x.com/AnonymerNutze12), [@beistnormie](https://x.com/beistnormie), [@hakmgpt](https://x.com/hakmgpt), [@camperaigg](https://x.com/camperaigg), [@lightreelai](https://x.com/lightreelai), [@0xMovez](https://x.com/0xMovez), [@shmidtqq](https://x.com/shmidtqq), [@flxrnc](https://x.com/flxrnc), [@seeconvm](https://x.com/seeconvm), [@BubbleBrain](https://x.com/BubbleBrain), [@xbquan](https://x.com/xbquan), [@pipeline_os](https://x.com/pipeline_os), [@fawnunwrap](https://x.com/fawnunwrap), [@pausevfx](https://x.com/pausevfx), [@AnikaCodes](https://x.com/AnikaCodes), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@cfenghub](https://x.com/cfenghub), [@shneural](https://x.com/shneural)
 
 *Não podemos garantir que todos os casos estejam atribuídos ao criador original. Se algo precisar ser corrigido, entre em contato conosco e atualizaremos.*
 
