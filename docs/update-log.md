@@ -1,5 +1,45 @@
 # Update log
 
+
+## 2026-11-05
+
+- Added 27 new source-backed cases (280–306); total 306 across 11 languages.
+- Reviewed 124 search candidates and retrieved one original creator. Consolidated 13 duplicate references, attached 3 supporting sources, and excluded 82 nonqualifying records.
+- Corrected Case 221 from a pagoda description to the actual motion-design reels, restored its missing second source video, and retained the original quoted prompt.
+- Added the Astra image-assisted control clip to Case 238; kept both rug-racing comparisons and the two Hunyuan comparison stills grouped.
+- Verified 60 new media objects and fully decoded 29 videos.
+
+| Case | Title | Source |
+|---|---|---|
+| 280 | Milky Way over an Alpine Lake | [Original](https://x.com/hakmgpt/status/2118178083983573492) |
+| 281 | Whale Breach with Procedural Water and Sound | [Original](https://x.com/camperaigg/status/2118069524306284556) |
+| 282 | Four-Model Zebra Motion Comparison | [Original](https://x.com/AI_Screening/status/2118014564457668955) |
+| 283 | Natural-Language Creator Discovery in Lightreel | [Original](https://x.com/lightreelai/status/2118010927199248705) |
+| 284 | A Flying Ship above a Sea of Clouds | [Original](https://x.com/devteamdrew/status/2118008142403649662) |
+| 285 | Mechanical Heart with an Animated Cutaway | [Original](https://x.com/camperaigg/status/2118002649929056373) |
+| 286 | Explorable Floating Voxel Pagoda Garden | [Original](https://x.com/legit_api/status/2117994730336252114) |
+| 287 | An Eight-Team Ocean Adventure Film | [Original](https://x.com/0xMovez/status/2117987052419428576) |
+| 288 | Interactive Hypercar Presentation | [Original](https://x.com/shmidtqq/status/2117977426990944736) |
+| 289 | Birth of a Life Tree | [Original](https://x.com/notjazii/status/2117972258090357164) |
+| 290 | Walking Castle with Working Internal Machinery | [Original](https://x.com/camperaigg/status/2117966825048997914) |
+| 291 | A Toast Character and a Mechanical Beetle | [Original](https://x.com/flxrnc/status/2117965294224232796) |
+| 292 | A Lighthouse Keeper in a Storm | [Original](https://x.com/seeconvm/status/2117965120760365494) |
+| 293 | A Sea Creature in a Coastal Town | [Original](https://x.com/BubbleBrain/status/2117963042621178000) |
+| 294 | Rug Racing across Three Models | [Original](https://x.com/noclipepe/status/2117914944410628430) |
+| 295 | A Truck Transforming into a Robot | [Original](https://x.com/camperaigg/status/2117914482752299311) |
+| 296 | Fable and Hunyuan Animation Frames | [Original](https://x.com/xbquan/status/2117899651365908855) |
+| 297 | An Animation about Sharing Light | [Original](https://x.com/abhinavflac/status/2117883591019708740) |
+| 298 | A Voxel Village between Mountains | [Original](https://x.com/abhinavflac/status/2117377130388656569) |
+| 299 | Four-Model Pelican and Elephant Composition | [Original](https://x.com/pipeline_os/status/2117719191478513700) |
+| 300 | Anime Sword Fight with Impact Frames | [Original](https://x.com/camperaigg/status/2117717189059026969) |
+| 301 | Four-Model Running Deer Comparison | [Original](https://x.com/fawnunwrap/status/2117702487755100543) |
+| 302 | A Robot Crossing a Flooded City | [Original](https://x.com/0xMovez/status/2117700681867903169) |
+| 303 | A Blender Sword and Its Presentation Film | [Original](https://x.com/camperaigg/status/2117694354685092255) |
+| 304 | Lantern Isle Pixel Village Animation | [Original](https://x.com/abhinavflac/status/2117693193429139965) |
+| 305 | Pause Gaming-Video Editing Demo | [Original](https://x.com/pausevfx/status/2117676887665447206) |
+| 306 | Pelican Cycling along a Seafront | [Original](https://x.com/pankajkumar_dev/status/2117301455665439210) |
+
+
 ## 2026-11-03 — Full collection update
 
 Reviewed all 449 source records without a batch cap. The collection retains 191 distinct community cases after consolidating 27 duplicate references and eight supporting posts; 223 posts contain no qualifying case. Together with the original 88 cases, every README now contains 279 cases.

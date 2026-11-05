@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03",
-  "case_count": 279,
-  "scope": "88 original Fable 5 cases plus191 source-backed community cases. Includes ten text-only workflow and evaluation reports; supporting posts and duplicate media do not add case numbers.",
+  "updated_at": "2026-11-05",
+  "case_count": 306,
+  "scope": "88 original Fable 5 cases plus 218 source-backed community cases. Includes ten text-only workflow and evaluation reports; supporting posts and duplicate media do not add case numbers.",
   "cases": [
     {
       "number": 1,
@@ -4948,22 +4948,23 @@
       "attribution_role": "creator_or_first_person_reporter"
     },
     {
-      "title": "Sakura-Pagoda Motion Samples",
+      "title": "Motion-Design Reels from the Same Prompt",
       "source_url": "https://x.com/mesmerlord/status/2105758042830549235",
       "author_handle": "@mesmerlord",
       "author_url": "https://x.com/mesmerlord",
       "date": "2026-10-01",
       "type": "Evaluation",
       "category": "evaluations-comparisons-and-limits",
-      "takeaway": "Compare visual focus and synchronization between same-prompt scene samples.",
-      "body_notes": "The author shares two early sakura-pagoda motion samples from the same prompt and comments on visual focus and beat synchronization. These observations describe the creator’s particular results.",
+      "takeaway": "Compare visual focus and beat synchronization across two same-prompt motion-design reels.",
+      "body_notes": "The author shares two early Fable 5.5 motion-design results from the same prompt and tentatively notes clearer focus and better beat synchronization than an Opus run. Both native source videos are preserved together.",
       "dedup_key": "https://x.com/mesmerlord/status/2105758042830549235",
-      "prompt_boundary": "No exact prompt reconstructed from output or truncated excerpt.",
+      "prompt_boundary": "Verbatim prompt quoted in the original post’s referenced comparison.",
       "source_media_urls": [
-        "https://video-s.twimg.com/amplify_video/2105757409528487936/vid/avc1/1280x720/SNU688a8kdT9x3np.mp4?tag=14"
+        "https://video-s.twimg.com/amplify_video/2105757409528487936/vid/avc1/1280x720/SNU688a8kdT9x3np.mp4?tag=14",
+        "https://video-s.twimg.com/amplify_video/2105757692773994497/vid/avc1/1280x720/7vCDXIzIYqVlxpMf.mp4?tag=14"
       ],
-      "source_media_count": 1,
-      "expected_public_visual_count": 1,
+      "source_media_count": 2,
+      "expected_public_visual_count": 2,
       "text_only": false,
       "number": 221,
       "source_id": "2105758042830549235",
@@ -4974,9 +4975,20 @@
           "native_media_id": "2105757409528487936",
           "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/c8fc402eeea381a9519146e4.jpg",
           "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/dc4c3e5875e829f8b568a67b.mp4"
+        },
+        {
+          "kind": "video",
+          "native_media_id": "2105757692773994497",
+          "source_url": "https://video-s.twimg.com/amplify_video/2105757692773994497/vid/avc1/1280x720/7vCDXIzIYqVlxpMf.mp4?tag=14",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f0da5945bc240b424bfebbd9.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/29b80ef5ba92b029630a1628.mp4"
         }
       ],
-      "attribution_role": "creator_or_first_person_reporter"
+      "attribution_role": "creator_or_first_person_reporter",
+      "exact_prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.",
+      "related_source_urls": [
+        "https://x.com/shneural/status/2103151003272962130"
+      ]
     },
     {
       "title": "Cleaner Scenery with Less Depth",
@@ -5471,10 +5483,11 @@
       "prompt_boundary": "No exact input is reconstructed; refer to the original post for the supplied context.",
       "source_media_urls": [
         "https://video-s.twimg.com/amplify_video/2117167031636393985/vid/avc1/1328x720/FzvPw55u1rFMVqaS.mp4?tag=29",
-        "https://video-s.twimg.com/amplify_video/2117222195000954880/vid/avc1/1338x720/fDFFJmx6Q3suxoTu.mp4?tag=29"
+        "https://video-s.twimg.com/amplify_video/2117222195000954880/vid/avc1/1338x720/fDFFJmx6Q3suxoTu.mp4?tag=29",
+        "https://video.twimg.com/amplify_video/2117707224566972416/vid/avc1/1280x720/WihZ_cTvlCk17dpV.mp4?tag=29"
       ],
-      "source_media_count": 2,
-      "expected_public_visual_count": 2,
+      "source_media_count": 3,
+      "expected_public_visual_count": 3,
       "text_only": false,
       "number": 238,
       "source_id": "2117169796290916732",
@@ -5499,7 +5512,22 @@
           "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fb66f964af405e36c6993f37.mp4"
         }
       ],
-      "author_role": "creator-or-evaluator"
+      "author_role": "creator-or-evaluator",
+      "additional_media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117707224566972416",
+          "source_url": "https://video.twimg.com/amplify_video/2117707224566972416/vid/avc1/1280x720/WihZ_cTvlCk17dpV.mp4?tag=29",
+          "support_source_url": "https://x.com/rubenssoto_ai/status/2117707344704352691",
+          "support_author_handle": "@rubenssoto_ai",
+          "support_author_url": "https://x.com/rubenssoto_ai",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/75f37c74099d5b9ba1ad0ddc.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/25b0cfcdb1fdda22ba6aa9d6.mp4"
+        }
+      ],
+      "related_source_urls": [
+        "https://x.com/rubenssoto_ai/status/2117707344704352691"
+      ]
     },
     {
       "title": "A Container-Port Simulation Revisited",
@@ -6709,6 +6737,982 @@
       "source_id": "2106546741000417781",
       "media": [],
       "attribution_role": "creator_or_first_person_reporter"
+    },
+    {
+      "number": 280,
+      "source_id": "2118178083983573492",
+      "source_url": "https://x.com/hakmgpt/status/2118178083983573492",
+      "author_handle": "@hakmgpt",
+      "author_url": "https://x.com/hakmgpt",
+      "date": "2026-11-05",
+      "title": "Milky Way over an Alpine Lake",
+      "takeaway": "Inspect a long camera sequence combining mountain reflections and a moving night sky.",
+      "body_notes": "The shared 92-second animation moves from an alpine lake into a bright Milky Way and back to the reflected sky. The publisher attributes the rendered scene to Fable 5.5.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/hakmgpt/status/2118178083983573492",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2118177793330606082",
+          "source_url": "https://video.twimg.com/amplify_video/2118177793330606082/vid/avc1/1280x720/z6D9MvzyLHf-qBEK.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/91432c6827d650eb28f2269b.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/5cb879d0a07a0f6e9fff5cf6.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118177793330606082/vid/avc1/1280x720/z6D9MvzyLHf-qBEK.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/91432c6827d650eb28f2269b.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/5cb879d0a07a0f6e9fff5cf6.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 281,
+      "source_id": "2118069524306284556",
+      "source_url": "https://x.com/camperaigg/status/2118069524306284556",
+      "author_handle": "@camperaigg",
+      "author_url": "https://x.com/camperaigg",
+      "date": "2026-11-04",
+      "title": "Whale Breach with Procedural Water and Sound",
+      "takeaway": "Combine underwater shots, a surface breach and synthesized audio in one animated sequence.",
+      "body_notes": "The creator reports 154 minutes for a 31-second film, including a procedural whale, fluid simulation, ocean shading and synthesized sound. Their notes describe inspecting enlarged frames and correcting the spray before rendering again.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/camperaigg/status/2118069524306284556",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2118068914957737984",
+          "source_url": "https://video.twimg.com/amplify_video/2118068914957737984/vid/avc1/1280x720/mkpT4GlHNbbz7laG.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1bcb86163b677ad0a4172d13.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/b98c309a3c226bd24386940f.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118068914957737984/vid/avc1/1280x720/mkpT4GlHNbbz7laG.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1bcb86163b677ad0a4172d13.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/b98c309a3c226bd24386940f.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 282,
+      "source_id": "2118014564457668955",
+      "source_url": "https://x.com/AI_Screening/status/2118014564457668955",
+      "author_handle": "@AI_Screening",
+      "author_url": "https://x.com/AI_Screening",
+      "date": "2026-11-04",
+      "title": "Four-Model Zebra Motion Comparison",
+      "takeaway": "Compare gait, anatomy and scene styling across the same animal-animation task.",
+      "body_notes": "The four stacked clips are labeled Gemini 4 Carbon, Fable 5.5, Opus 5.5 and Argon. Keeping the full composite together exposes differences in leg movement, body shape and background treatment.",
+      "type": "Evaluation",
+      "category": "evaluations-comparisons-and-limits",
+      "dedup_key": "https://x.com/AI_Screening/status/2118014564457668955",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2118014329526378496",
+          "source_url": "https://video.twimg.com/amplify_video/2118014329526378496/vid/avc1/720x1280/q9V42NVnXdzmxf4A.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/890d1b92800ee622275ec8d7.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/6fdcb38bf56493c314dba5b6.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118014329526378496/vid/avc1/720x1280/q9V42NVnXdzmxf4A.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/890d1b92800ee622275ec8d7.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/6fdcb38bf56493c314dba5b6.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 283,
+      "source_id": "2118010927199248705",
+      "source_url": "https://x.com/lightreelai/status/2118010927199248705",
+      "author_handle": "@lightreelai",
+      "author_url": "https://x.com/lightreelai",
+      "date": "2026-11-04",
+      "title": "Natural-Language Creator Discovery in Lightreel",
+      "takeaway": "Turn creator criteria into a search query with explicit follower and viewing thresholds.",
+      "body_notes": "Lightreel presents this creator-discovery demo under a Fable 5.5 label. The video enters a query for couples creators with fewer than 10,000 followers and a video above 100,000 views, then shows social-video search results.",
+      "type": "Demo",
+      "category": "integrations-and-tools",
+      "dedup_key": "https://x.com/lightreelai/status/2118010927199248705",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2118010646142783489",
+          "source_url": "https://video.twimg.com/amplify_video/2118010646142783489/vid/avc1/1280x720/o4-2lefWc47OSgNx.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1c6d9c1fb3c69b3aa2ee1976.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/5aef4b1766a560a35264c3ed.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118010646142783489/vid/avc1/1280x720/o4-2lefWc47OSgNx.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1c6d9c1fb3c69b3aa2ee1976.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/5aef4b1766a560a35264c3ed.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 284,
+      "source_id": "2118008142403649662",
+      "source_url": "https://x.com/devteamdrew/status/2118008142403649662",
+      "author_handle": "@devteamdrew",
+      "author_url": "https://x.com/devteamdrew",
+      "date": "2026-11-04",
+      "title": "A Flying Ship above a Sea of Clouds",
+      "takeaway": "Use a longer film to inspect shot continuity through changing light and weather.",
+      "body_notes": "The creator describes a roughly 100-second animation made with JavaScript and Python over 19 hours using multiple agent teams. The shared sequence follows a flying vessel through clouds, sunset and moonlight.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/devteamdrew/status/2118008142403649662",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117924904053911552",
+          "source_url": "https://video.twimg.com/amplify_video/2117924904053911552/vid/avc1/1280x720/Fos3E1cCWALVUbIZ.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a54746701db5f7f829071d2c.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/17ef07a780273abf9e9b6c92.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117924904053911552/vid/avc1/1280x720/Fos3E1cCWALVUbIZ.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a54746701db5f7f829071d2c.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/17ef07a780273abf9e9b6c92.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 285,
+      "source_id": "2118002649929056373",
+      "source_url": "https://x.com/camperaigg/status/2118002649929056373",
+      "author_handle": "@camperaigg",
+      "author_url": "https://x.com/camperaigg",
+      "date": "2026-11-04",
+      "title": "Mechanical Heart with an Animated Cutaway",
+      "takeaway": "Make a mechanism reveal its moving parts while its main motion continues.",
+      "body_notes": "The creator reports a 106-minute Blender task: a mechanical heart pumps golden oil while its shell opens to reveal pistons and a crankshaft. Their notes cover synthesized audio and tracking unwanted highlights to hidden lights.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/camperaigg/status/2118002649929056373",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2118002418516627456",
+          "source_url": "https://video.twimg.com/amplify_video/2118002418516627456/vid/avc1/1280x720/m0n7GwAwTgZuxy8O.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/4a862111878dc42939f8e5e4.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/157ebee3ce748cdc1e6b7970.mp4"
+        }
+      ],
+      "text_only": false,
+      "exact_prompt": "Make a mechanical heart and show its insides, use blender.",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118002418516627456/vid/avc1/1280x720/m0n7GwAwTgZuxy8O.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/4a862111878dc42939f8e5e4.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/157ebee3ce748cdc1e6b7970.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 286,
+      "source_id": "2117994730336252114",
+      "source_url": "https://x.com/legit_api/status/2117994730336252114",
+      "author_handle": "@legit_api",
+      "author_url": "https://x.com/legit_api",
+      "date": "2026-11-04",
+      "title": "Explorable Floating Voxel Pagoda Garden",
+      "takeaway": "Evaluate a generated environment by walking through its structures and water features.",
+      "body_notes": "An older Fable 5.5 checkpoint is credited with this voxel garden. The camera travels between a pagoda, floating islands, a bridge and waterfalls, showing the scene from ground-level and elevated viewpoints.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/legit_api/status/2117994730336252114",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117990612636934145",
+          "source_url": "https://video.twimg.com/amplify_video/2117990612636934145/vid/avc1/1280x720/1R9XHzFNxU1AI5fT.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/22e78c0beb2a6f509bc02739.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/cc4d15bf5103d7eb64f63e29.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117990612636934145/vid/avc1/1280x720/1R9XHzFNxU1AI5fT.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/22e78c0beb2a6f509bc02739.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/cc4d15bf5103d7eb64f63e29.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 287,
+      "source_id": "2117987052419428576",
+      "source_url": "https://x.com/0xMovez/status/2117987052419428576",
+      "author_handle": "@0xMovez",
+      "author_url": "https://x.com/0xMovez",
+      "date": "2026-11-04",
+      "title": "An Eight-Team Ocean Adventure Film",
+      "takeaway": "Inspect a multi-shot film for continuity between action, effects and synthesized sound.",
+      "body_notes": "The creator reports an 83-second Three.js film made by eight agent teams in under three hours, with 39 shots and synthesized sound. The footage follows an ocean adventure with spacecraft, marine creatures and breaking waves.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/0xMovez/status/2117987052419428576",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117986819476250624",
+          "source_url": "https://video.twimg.com/amplify_video/2117986819476250624/vid/avc1/1328x720/rFCBoVQQVdYHnrFq.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a307daab219d70fa5bed0c86.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a46543512fc30e5a33cb2fc3.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117986819476250624/vid/avc1/1328x720/rFCBoVQQVdYHnrFq.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a307daab219d70fa5bed0c86.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a46543512fc30e5a33cb2fc3.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 288,
+      "source_id": "2117977426990944736",
+      "source_url": "https://x.com/shmidtqq/status/2117977426990944736",
+      "author_handle": "@shmidtqq",
+      "author_url": "https://x.com/shmidtqq",
+      "date": "2026-11-04",
+      "title": "Interactive Hypercar Presentation",
+      "takeaway": "Combine close-up vehicle views with selectable camera and paint controls.",
+      "body_notes": "The creator presents a Three.js hypercar configurator as a single offline HTML file with code-generated geometry and materials. The recording shows the red vehicle, wheel and body close-ups, reflections and camera controls.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/shmidtqq/status/2117977426990944736",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117938884831064064",
+          "source_url": "https://video.twimg.com/amplify_video/2117938884831064064/vid/avc1/1280x720/idY3UINMe-htU94E.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a16368d4c8b7c9a3a5455607.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/4bd439d08b9f8a320a8851ac.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117938884831064064/vid/avc1/1280x720/idY3UINMe-htU94E.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/a16368d4c8b7c9a3a5455607.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/4bd439d08b9f8a320a8851ac.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 289,
+      "source_id": "2117972258090357164",
+      "source_url": "https://x.com/notjazii/status/2117972258090357164",
+      "author_handle": "@notjazii",
+      "author_url": "https://x.com/notjazii",
+      "date": "2026-11-04",
+      "title": "Birth of a Life Tree",
+      "takeaway": "Structure a short animation around a visible transformation from seed to mature tree.",
+      "body_notes": "The creator reports a roughly hour-long, single-prompt coding run. The 30-second sequence moves through a barren landscape, a seedling and a growing tree before revealing a green world beneath the clouds.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/notjazii/status/2117972258090357164",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117971251708956673",
+          "source_url": "https://video.twimg.com/amplify_video/2117971251708956673/vid/avc1/1330x720/hSJAIXwiKAEXO6g5.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f50b8e7c2a28df7d0d3cd903.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/29df8c398a2db37856c01b0e.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117971251708956673/vid/avc1/1330x720/hSJAIXwiKAEXO6g5.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f50b8e7c2a28df7d0d3cd903.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/29df8c398a2db37856c01b0e.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 290,
+      "source_id": "2117966825048997914",
+      "source_url": "https://x.com/camperaigg/status/2117966825048997914",
+      "author_handle": "@camperaigg",
+      "author_url": "https://x.com/camperaigg",
+      "date": "2026-11-04",
+      "title": "Walking Castle with Working Internal Machinery",
+      "takeaway": "Link a walking rig to visible mechanical motion and an opening hull.",
+      "body_notes": "The creator reports a 133-minute Blender workflow with a steam engine, gear trains, four walking legs and eight opening hull panels. Their notes describe correcting camera animation and reducing render time after identifying expensive grass geometry.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/camperaigg/status/2117966825048997914",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117965397920215040",
+          "source_url": "https://video.twimg.com/amplify_video/2117965397920215040/vid/avc1/1280x720/7dJh6cN5if-7dcDc.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/8d3b1d734d971e2dd757926c.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1e7e25e7d44993a14ab0405e.mp4"
+        }
+      ],
+      "text_only": false,
+      "exact_prompt": "Make me Howl's moving castle and also show its internal machinery.",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117965397920215040/vid/avc1/1280x720/7dJh6cN5if-7dcDc.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/8d3b1d734d971e2dd757926c.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1e7e25e7d44993a14ab0405e.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 291,
+      "source_id": "2117965294224232796",
+      "source_url": "https://x.com/flxrnc/status/2117965294224232796",
+      "author_handle": "@flxrnc",
+      "author_url": "https://x.com/flxrnc",
+      "date": "2026-11-04",
+      "title": "A Toast Character and a Mechanical Beetle",
+      "takeaway": "Inspect character staging and continuity across a compact animated encounter.",
+      "body_notes": "The shared 40-second film shows a square toast-like character meeting a blue mechanical beetle in a field at sunset. The source attributes the film to Fable 5.5 and links to its motion-design guide.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/flxrnc/status/2117965294224232796",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117963642456956929",
+          "source_url": "https://video.twimg.com/amplify_video/2117963642456956929/vid/avc1/1280x720/rpsghw5cD4zTVVOy.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/85b7ae776a5c29618d061465.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/d5e16bfd05f1c391cf32f848.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117963642456956929/vid/avc1/1280x720/rpsghw5cD4zTVVOy.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/85b7ae776a5c29618d061465.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/d5e16bfd05f1c391cf32f848.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 292,
+      "source_id": "2117965120760365494",
+      "source_url": "https://x.com/seeconvm/status/2117965120760365494",
+      "author_handle": "@seeconvm",
+      "author_url": "https://x.com/seeconvm",
+      "date": "2026-11-04",
+      "title": "A Lighthouse Keeper in a Storm",
+      "takeaway": "Build a short narrative around a location, a weather change and a clear payoff.",
+      "body_notes": "The creator describes a 60-second Three.js short with code-rendered frames, synthesized sound and an offline HTML file. The footage follows a small lighthouse keeper through rain and lightning before a dawn scene.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/seeconvm/status/2117965120760365494",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117950110143262720",
+          "source_url": "https://video.twimg.com/amplify_video/2117950110143262720/vid/avc1/1280x720/uAX2aTEfhU8b7irF.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/dfcab72e07d547d9dcb1dbc1.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/7ca3c1e23eac0ed20511211e.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117950110143262720/vid/avc1/1280x720/uAX2aTEfhU8b7irF.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/dfcab72e07d547d9dcb1dbc1.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/7ca3c1e23eac0ed20511211e.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 293,
+      "source_id": "2117963042621178000",
+      "source_url": "https://x.com/BubbleBrain/status/2117963042621178000",
+      "author_handle": "@BubbleBrain",
+      "author_url": "https://x.com/BubbleBrain",
+      "date": "2026-11-04",
+      "title": "A Sea Creature in a Coastal Town",
+      "takeaway": "Inspect a complete short for character movement, transitions and visual consistency.",
+      "body_notes": "The source shares a roughly one-minute Fable 5.5 animation featuring a green sea creature, a coastal town and floating bubbles. The video provides a concrete visual sample for evaluating this style of short film.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/BubbleBrain/status/2117963042621178000",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117961421593989120",
+          "source_url": "https://video.twimg.com/amplify_video/2117961421593989120/vid/avc1/1280x720/wRo84FOo230gtrTH.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/4442bdca5e6a7460f03af731.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/65db346493bdd9973bec3a4c.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117961421593989120/vid/avc1/1280x720/wRo84FOo230gtrTH.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/4442bdca5e6a7460f03af731.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/65db346493bdd9973bec3a4c.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 294,
+      "source_id": "2117914944410628430",
+      "source_url": "https://x.com/noclipepe/status/2117914944410628430",
+      "author_handle": "@noclipepe",
+      "author_url": "https://x.com/noclipepe",
+      "date": "2026-11-04",
+      "title": "Rug Racing across Three Models",
+      "takeaway": "Compare playable-scene completeness, motion and visual treatment on the same racing task.",
+      "body_notes": "The creator tests a childhood-rug racing game with Fable 5.5, Opus 5.5 and GPT-6 Astra. The latest three-panel recording and the earlier two-model comparison are kept together; scores shown in the footage are the creator’s own ratings.",
+      "type": "Evaluation",
+      "category": "evaluations-comparisons-and-limits",
+      "dedup_key": "https://x.com/noclipepe/status/2117914944410628430",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117914428892962817",
+          "source_url": "https://video.twimg.com/amplify_video/2117914428892962817/vid/avc1/1280x720/MhwZhcNahB3Lv2BY.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/24d8ea7644cbe19947c8c53a.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ffe3b88099594ba14f536b51.mp4"
+        },
+        {
+          "kind": "video",
+          "native_media_id": "2117728147135254528",
+          "source_url": "https://video.twimg.com/amplify_video/2117728147135254528/vid/avc1/720x720/iPR020rBM2Dc45R_.mp4?tag=29",
+          "support_source_url": "https://x.com/noclipepe/status/2117729666576302187",
+          "support_author_handle": "@noclipepe",
+          "support_author_url": "https://x.com/noclipepe",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f0340fc5579003245dfa99b1.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/e214760ff83ad9bfaf202484.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117914428892962817/vid/avc1/1280x720/MhwZhcNahB3Lv2BY.mp4?tag=29",
+        "https://video.twimg.com/amplify_video/2117728147135254528/vid/avc1/720x720/iPR020rBM2Dc45R_.mp4?tag=29"
+      ],
+      "source_media_count": 2,
+      "expected_public_visual_count": 2,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/24d8ea7644cbe19947c8c53a.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ffe3b88099594ba14f536b51.mp4",
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f0340fc5579003245dfa99b1.jpg"
+      ]
+    },
+    {
+      "number": 295,
+      "source_id": "2117914482752299311",
+      "source_url": "https://x.com/camperaigg/status/2117914482752299311",
+      "author_handle": "@camperaigg",
+      "author_url": "https://x.com/camperaigg",
+      "date": "2026-11-04",
+      "title": "A Truck Transforming into a Robot",
+      "takeaway": "Use a transformation sequence to inspect rigging, ground contact and synchronized sound.",
+      "body_notes": "The creator reports 107 minutes in Blender, including a 51-joint rig, a ground-contact solver, procedural rain and synthesized sound cues. The recording shows the truck unfold into a standing robot on wet pavement.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/camperaigg/status/2117914482752299311",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117914156758446080",
+          "source_url": "https://video.twimg.com/amplify_video/2117914156758446080/vid/avc1/1280x720/V7HDY7lZNLio5R9A.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ea8537c130cd5623959dc275.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/72ef538a8fb4b94f0e2d7e2c.mp4"
+        }
+      ],
+      "text_only": false,
+      "exact_prompt": "Make me a transformer truck with animations of its transforming.",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117914156758446080/vid/avc1/1280x720/V7HDY7lZNLio5R9A.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ea8537c130cd5623959dc275.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/72ef538a8fb4b94f0e2d7e2c.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 296,
+      "source_id": "2117899651365908855",
+      "source_url": "https://x.com/xbquan/status/2117899651365908855",
+      "author_handle": "@xbquan",
+      "author_url": "https://x.com/xbquan",
+      "date": "2026-11-04",
+      "title": "Fable and Hunyuan Animation Frames",
+      "takeaway": "Compare corresponding frames before drawing conclusions about a full animation.",
+      "body_notes": "The author shares two paired screenshots labeled Fable 5.5 and Hunyuan 4. Each pair places the character and environment results together; these stills support a visual comparison of the shown frames.",
+      "type": "Evaluation",
+      "category": "evaluations-comparisons-and-limits",
+      "dedup_key": "https://x.com/xbquan/status/2117899651365908855",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "image",
+          "native_media_id": "2117896110991933440",
+          "source_url": "https://pbs.twimg.com/media/HWRHSrbbAAAyCtW.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/e6c6551a29757e1eb7c31f36.jpg"
+        },
+        {
+          "kind": "image",
+          "native_media_id": "2117896134404530176",
+          "source_url": "https://pbs.twimg.com/media/HWRHUCpa4AAP1m6.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/864db255f6fd2807b689d7d7.jpg"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HWRHSrbbAAAyCtW.jpg",
+        "https://pbs.twimg.com/media/HWRHUCpa4AAP1m6.jpg"
+      ],
+      "source_media_count": 2,
+      "expected_public_visual_count": 2,
+      "media_type": "image",
+      "public_media_disposition": "r2-image",
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/e6c6551a29757e1eb7c31f36.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/864db255f6fd2807b689d7d7.jpg"
+      ]
+    },
+    {
+      "number": 297,
+      "source_id": "2117883591019708740",
+      "source_url": "https://x.com/abhinavflac/status/2117883591019708740",
+      "author_handle": "@abhinavflac",
+      "author_url": "https://x.com/abhinavflac",
+      "date": "2026-11-04",
+      "title": "An Animation about Sharing Light",
+      "takeaway": "Turn an abstract theme into a short narrative with a visible ending.",
+      "body_notes": "Asked to show what kindness means, the model is credited with an animation and sound made in code. A luminous figure passes its light to a child, then becomes brighter as the surrounding landscape fills with color.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/abhinavflac/status/2117883591019708740",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117882863135997952",
+          "source_url": "https://video.twimg.com/amplify_video/2117882863135997952/vid/avc1/720x1280/aGsb6Fsh-7nYmVYh.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/5bd15fc5c234b4b114765d6f.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/b888d1a62b4d27ae2fca8226.mp4"
+        }
+      ],
+      "text_only": false,
+      "exact_prompt": "Show me what kindness means to you",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117882863135997952/vid/avc1/720x1280/aGsb6Fsh-7nYmVYh.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/5bd15fc5c234b4b114765d6f.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/b888d1a62b4d27ae2fca8226.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 298,
+      "source_id": "2117377130388656569",
+      "source_url": "https://x.com/abhinavflac/status/2117377130388656569",
+      "author_handle": "@abhinavflac",
+      "author_url": "https://x.com/abhinavflac",
+      "date": "2026-11-02",
+      "title": "A Voxel Village between Mountains",
+      "takeaway": "Explore a generated village at several scales to inspect spatial coherence.",
+      "body_notes": "The original creator shares a living voxel village with houses, waterways and small inhabitants, viewed from the waterfront, overhead and within the surrounding mountains. A related Chinese post provides a detailed scene prompt.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/abhinavflac/status/2117377130388656569",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117374957605060608",
+          "source_url": "https://video-s.twimg.com/amplify_video/2117374957605060608/vid/avc1/1280x720/BKKiFeM1OC6Yy68n.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1e612faf20dd5f5de4ee171b.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ae5269b0eff86da4580064d7.mp4"
+        }
+      ],
+      "text_only": false,
+      "related_source_urls": [
+        "https://x.com/cfenghub/status/2117775332535148752"
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2117374957605060608/vid/avc1/1280x720/BKKiFeM1OC6Yy68n.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/1e612faf20dd5f5de4ee171b.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ae5269b0eff86da4580064d7.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 299,
+      "source_id": "2117719191478513700",
+      "source_url": "https://x.com/pipeline_os/status/2117719191478513700",
+      "author_handle": "@pipeline_os",
+      "author_url": "https://x.com/pipeline_os",
+      "date": "2026-11-03",
+      "title": "Four-Model Pelican and Elephant Composition",
+      "takeaway": "Compare how different models handle several interacting subjects in one animation.",
+      "body_notes": "The four-panel recording places a pelican, bicycle, crocodile and elephant task side by side for Gemini 4 Argon, Opus 5.5, Fable 5.5 and Kimi K3.1 Pro. The complete composite preserves each model’s subject placement and movement.",
+      "type": "Evaluation",
+      "category": "evaluations-comparisons-and-limits",
+      "dedup_key": "https://x.com/pipeline_os/status/2117719191478513700",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117717996424585216",
+          "source_url": "https://video.twimg.com/amplify_video/2117717996424585216/vid/avc1/720x720/xjejVEKmwyMBqWcA.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/15a45dc0efe3247f0821c8a2.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/9db78999efffeffa7ccaca0e.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117717996424585216/vid/avc1/720x720/xjejVEKmwyMBqWcA.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/15a45dc0efe3247f0821c8a2.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/9db78999efffeffa7ccaca0e.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 300,
+      "source_id": "2117717189059026969",
+      "source_url": "https://x.com/camperaigg/status/2117717189059026969",
+      "author_handle": "@camperaigg",
+      "author_url": "https://x.com/camperaigg",
+      "date": "2026-11-03",
+      "title": "Anime Sword Fight with Impact Frames",
+      "takeaway": "Synchronize character action, impact flashes, sound and deliberate silence.",
+      "body_notes": "The creator reports a 66-minute coding run for a 46-second stick-figure fight, with cloth-like capes, contrasting weapons and synthesized music and effects. Their notes describe correcting a reversed attack, visual trails and title placement.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/camperaigg/status/2117717189059026969",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117716857600012288",
+          "source_url": "https://video.twimg.com/amplify_video/2117716857600012288/vid/avc1/1280x720/vhjXYEKZvkWKa-5s.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/85b670f06d376211c60bf894.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/c36c188396aac371a64e31a4.mp4"
+        }
+      ],
+      "text_only": false,
+      "exact_prompt": "Make me a video of 2 stickman fighting, anime style.",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117716857600012288/vid/avc1/1280x720/vhjXYEKZvkWKa-5s.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/85b670f06d376211c60bf894.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/c36c188396aac371a64e31a4.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 301,
+      "source_id": "2117702487755100543",
+      "source_url": "https://x.com/fawnunwrap/status/2117702487755100543",
+      "author_handle": "@fawnunwrap",
+      "author_url": "https://x.com/fawnunwrap",
+      "date": "2026-11-03",
+      "title": "Four-Model Running Deer Comparison",
+      "takeaway": "Compare limb motion and animal shape with the full same-task composite visible.",
+      "body_notes": "FawnBench presents a running deer in four panels labeled a reported Fable 5.5 run, Gemini 4 Argon, GPT-6 Astra and Opus 5.5. The footage is a visual comparison rather than a measured numerical performance result.",
+      "type": "Evaluation",
+      "category": "evaluations-comparisons-and-limits",
+      "dedup_key": "https://x.com/fawnunwrap/status/2117702487755100543",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117702369165160449",
+          "source_url": "https://video.twimg.com/amplify_video/2117702369165160449/vid/avc1/720x900/1xm9IbKTNlaN72xT.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/eea598747047797148e19c4e.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/3add4d9e0752d0467cbe6065.mp4"
+        }
+      ],
+      "text_only": false,
+      "related_source_urls": [
+        "https://x.com/fawnunwrap/status/2117627438884909422"
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117702369165160449/vid/avc1/720x900/1xm9IbKTNlaN72xT.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/eea598747047797148e19c4e.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/3add4d9e0752d0467cbe6065.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 302,
+      "source_id": "2117700681867903169",
+      "source_url": "https://x.com/0xMovez/status/2117700681867903169",
+      "author_handle": "@0xMovez",
+      "author_url": "https://x.com/0xMovez",
+      "date": "2026-11-03",
+      "title": "A Robot Crossing a Flooded City",
+      "takeaway": "Inspect continuity between reflections, character motion and a changing camera view.",
+      "body_notes": "The creator reports a 42-second Three.js animation with code-rendered frames, synthesized sound and a single offline HTML render file. The footage follows a robot through a flooded, overgrown city toward a colorful open-water scene.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/0xMovez/status/2117700681867903169",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117700390321844224",
+          "source_url": "https://video.twimg.com/amplify_video/2117700390321844224/vid/avc1/1328x720/VdV4_3YFzHGvoDv6.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/247f768636339f49d149c787.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f39e1807d1e80422c31530c6.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117700390321844224/vid/avc1/1328x720/VdV4_3YFzHGvoDv6.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/247f768636339f49d149c787.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f39e1807d1e80422c31530c6.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 303,
+      "source_id": "2117694354685092255",
+      "source_url": "https://x.com/camperaigg/status/2117694354685092255",
+      "author_handle": "@camperaigg",
+      "author_url": "https://x.com/camperaigg",
+      "date": "2026-11-03",
+      "title": "A Blender Sword and Its Presentation Film",
+      "takeaway": "Separate procedural asset construction from the follow-up camera and sound pass.",
+      "body_notes": "The creator reports first generating a sword with one Python script, then asking for a video. The follow-up uses a continuous Blender camera move, forest lighting, a synthesized orchestral score and HyperFrames editing; the reported combined time is 65 minutes.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/camperaigg/status/2117694354685092255",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117694194752049152",
+          "source_url": "https://video.twimg.com/amplify_video/2117694194752049152/vid/avc1/1280x720/XthDS0A2rg5Ab2vL.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/525304dc7d4016ac33b3d4f8.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/3c767f2038ef7d3960c956ec.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117694194752049152/vid/avc1/1280x720/XthDS0A2rg5Ab2vL.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/525304dc7d4016ac33b3d4f8.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/3c767f2038ef7d3960c956ec.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 304,
+      "source_id": "2117693193429139965",
+      "source_url": "https://x.com/abhinavflac/status/2117693193429139965",
+      "author_handle": "@abhinavflac",
+      "author_url": "https://x.com/abhinavflac",
+      "date": "2026-11-03",
+      "title": "Lantern Isle Pixel Village Animation",
+      "takeaway": "Inspect local activity and day-to-night transitions in a dense animated environment.",
+      "body_notes": "The creator shares a code-drawn island village with inhabitants, boats, waterfalls, lanterns and music. The recording moves between close village activity, wider island views and a night sequence with glowing lanterns.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/abhinavflac/status/2117693193429139965",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117692875136016384",
+          "source_url": "https://video.twimg.com/amplify_video/2117692875136016384/vid/avc1/1280x720/YGIrdAQ3nC8CUNf8.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/b7d2e578739d25596db1164f.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/e91f1eabab743730dd815c98.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117692875136016384/vid/avc1/1280x720/YGIrdAQ3nC8CUNf8.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/b7d2e578739d25596db1164f.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/e91f1eabab743730dd815c98.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 305,
+      "source_id": "2117676887665447206",
+      "source_url": "https://x.com/pausevfx/status/2117676887665447206",
+      "author_handle": "@pausevfx",
+      "author_url": "https://x.com/pausevfx",
+      "date": "2026-11-03",
+      "title": "Pause Gaming-Video Editing Demo",
+      "takeaway": "Review an editing workflow from raw footage through captions to an editable timeline.",
+      "body_notes": "Pause presents this workflow under a Fable 5.5 video-editing label. Its demonstration selects gaming moments, reframes a facecam, adds captions and sound, and opens an editable sequence in Premiere.",
+      "type": "Demo",
+      "category": "integrations-and-tools",
+      "dedup_key": "https://x.com/pausevfx/status/2117676887665447206",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117676524245790721",
+          "source_url": "https://video.twimg.com/amplify_video/2117676524245790721/vid/avc1/1280x720/8hRio2a7Kds6fmEu.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ae2d32876804bf286f11dc6c.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f0faaeecdaa02683f81e67f6.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117676524245790721/vid/avc1/1280x720/8hRio2a7Kds6fmEu.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/ae2d32876804bf286f11dc6c.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/f0faaeecdaa02683f81e67f6.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "number": 306,
+      "source_id": "2117301455665439210",
+      "source_url": "https://x.com/pankajkumar_dev/status/2117301455665439210",
+      "author_handle": "@pankajkumar_dev",
+      "author_url": "https://x.com/pankajkumar_dev",
+      "date": "2026-11-02",
+      "title": "Pelican Cycling along a Seafront",
+      "takeaway": "Inspect fine geometry and animation from both close and wide camera views.",
+      "body_notes": "The creator shares a pelican riding a penny-farthing beside the sea. The recording inspects feathers, pedals and wheel geometry before returning to wider views of the paved waterfront.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/pankajkumar_dev/status/2117301455665439210",
+      "prompt_boundary": "Only verbatim prompt text explicitly stated in the source is reproduced. Prompts promised in replies are not reconstructed.",
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2117300969683959808",
+          "source_url": "https://video.twimg.com/amplify_video/2117300969683959808/vid/avc1/1274x720/lXI-dtKEJr3tqly_.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/8575912e8f20f48439aea683.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/66c3c44bcefa684522f95b96.mp4"
+        }
+      ],
+      "text_only": false,
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2117300969683959808/vid/avc1/1274x720/lXI-dtKEJr3tqly_.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/8575912e8f20f48439aea683.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/66c3c44bcefa684522f95b96.mp4",
+      "r2_media_urls": []
     }
   ]
 }
