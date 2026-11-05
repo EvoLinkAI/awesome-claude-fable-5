@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated_at": "2026-11-05",
   "case_count": 306,
-  "scope": "88 original Fable 5 cases plus 218 source-backed community cases. Includes ten text-only workflow and evaluation reports; supporting posts and duplicate media do not add case numbers.",
+  "scope": "306 source-backed Fable cases, including 24 text-only reports. Cases with relevant original media record their full public presentation.",
   "cases": [
     {
       "number": 1,
@@ -12,7 +12,23 @@
       "author_url": "https://x.com/AlicanKiraz0",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/AlicanKiraz0/status/2064487347605918180"
+      "dedup_key": "https://x.com/AlicanKiraz0/status/2064487347605918180",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKaITAUXEAAOCiC.png",
+          "source_post_url": "https://x.com/AlicanKiraz0/status/2064487347605918180",
+          "native_media_id": "2064487339280240640",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/8b1352e20cff54688c97f17c.png"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKaITAUXEAAOCiC.png"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 2,
@@ -22,7 +38,24 @@
       "author_url": "https://x.com/coldopn",
       "type": "Demo",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/coldopn/status/2064435234465087638"
+      "dedup_key": "https://x.com/coldopn/status/2064435234465087638",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064434249680232449/vid/avc1/1280x720/k0UtbvE3-oR116jV.mp4?tag=27",
+          "source_post_url": "https://x.com/coldopn/status/2064435234465087638",
+          "native_media_id": "2064434249680232449",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/14123609b06071f3b9527bee.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f4df4f42ce047201d9a096a6.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064434249680232449/vid/avc1/1280x720/k0UtbvE3-oR116jV.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 3,
@@ -32,7 +65,24 @@
       "author_url": "https://x.com/deveshcodes_",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/deveshcodes_/status/2064437742189379745"
+      "dedup_key": "https://x.com/deveshcodes_/status/2064437742189379745",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064437555161186304/vid/avc1/1308x720/YZphWU2EUNsqjiZk.mp4?tag=27",
+          "source_post_url": "https://x.com/deveshcodes_/status/2064437742189379745",
+          "native_media_id": "2064437555161186304",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9bd45e74c64ceb3639600805.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ce5f3ea8ba270f89d60523cc.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064437555161186304/vid/avc1/1308x720/YZphWU2EUNsqjiZk.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 4,
@@ -42,7 +92,29 @@
       "author_url": "https://x.com/intheworldofai",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/intheworldofai/status/2064421915347812672"
+      "dedup_key": "https://x.com/intheworldofai/status/2064421915347812672",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064421328984158208/vid/avc1/1280x720/5ArmAcAU_dXhceJA.mp4?tag=27",
+          "source_post_url": "https://x.com/intheworldofai/status/2064421915347812672",
+          "native_media_id": "2064421328984158208",
+          "native_type": "video",
+          "poster_provenance": {
+            "method": "frame-extracted-from-original-video",
+            "timestamp_seconds": 24.39,
+            "video_sha256": "a66f34402d04f708819fa5752be0a23b56610e46afa479a50ba4b98cfbc8d32c"
+          },
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a66f34402d04f708819fa575.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/81946293919c84d4cafff841.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064421328984158208/vid/avc1/1280x720/5ArmAcAU_dXhceJA.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 5,
@@ -52,7 +124,24 @@
       "author_url": "https://x.com/jsnnsa",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/jsnnsa/status/2064420561078693941"
+      "dedup_key": "https://x.com/jsnnsa/status/2064420561078693941",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064420491994320896/vid/avc1/1336x720/Gv1qJ6OEUO_nLB9o.mp4?tag=27",
+          "source_post_url": "https://x.com/jsnnsa/status/2064420561078693941",
+          "native_media_id": "2064420491994320896",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/86834f15f352ec8625cce187.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/b4077e43a1342d8567fa423f.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064420491994320896/vid/avc1/1336x720/Gv1qJ6OEUO_nLB9o.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 6,
@@ -62,7 +151,23 @@
       "author_url": "https://x.com/ryanrhughes",
       "type": "Demo",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/ryanrhughes/status/2064411147076534705"
+      "dedup_key": "https://x.com/ryanrhughes/status/2064411147076534705",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZA2J3WQAA3EXq.png",
+          "source_post_url": "https://x.com/ryanrhughes/status/2064411147076534705",
+          "native_media_id": "2064408778301128704",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c4f47540205a071b0144ad9d.png"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKZA2J3WQAA3EXq.png"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 7,
@@ -72,7 +177,12 @@
       "author_url": "https://x.com/JJEnglert",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/JJEnglert/status/2064469635190170105"
+      "dedup_key": "https://x.com/JJEnglert/status/2064469635190170105",
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "text_only": true
     },
     {
       "number": 8,
@@ -82,7 +192,12 @@
       "author_url": "https://x.com/ayushagarwal",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/ayushagarwal/status/2064422467557564862"
+      "dedup_key": "https://x.com/ayushagarwal/status/2064422467557564862",
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "text_only": true
     },
     {
       "number": 9,
@@ -92,7 +207,24 @@
       "author_url": "https://x.com/ai_for_success",
       "type": "Demo",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/ai_for_success/status/2064413182396108932"
+      "dedup_key": "https://x.com/ai_for_success/status/2064413182396108932",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064412807291146240/vid/avc1/1266x720/RBgQK3RXXG3cMJhY.mp4?tag=27",
+          "source_post_url": "https://x.com/ai_for_success/status/2064413182396108932",
+          "native_media_id": "2064412807291146240",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/27e8d23ba659611cef811031.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7cddd38e3fccbf0cd7ea773c.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064412807291146240/vid/avc1/1266x720/RBgQK3RXXG3cMJhY.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 10,
@@ -102,7 +234,24 @@
       "author_url": "https://x.com/kieradev",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/kieradev/status/2064482704763085202"
+      "dedup_key": "https://x.com/kieradev/status/2064482704763085202",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064480731972116480/vid/avc1/1256x720/v2tMKz7Z_s-bOYXv.mp4?tag=14",
+          "source_post_url": "https://x.com/kieradev/status/2064482704763085202",
+          "native_media_id": "2064480731972116480",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/51cf3c98b709a3c29bd5fd7c.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6e64887a30cba9b5c25ba262.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064480731972116480/vid/avc1/1256x720/v2tMKz7Z_s-bOYXv.mp4?tag=14"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 11,
@@ -112,7 +261,24 @@
       "author_url": "https://x.com/vikvang1",
       "type": "Demo",
       "date": "2026-06-10",
-      "dedup_key": "https://x.com/vikvang1/status/2064500731848319303"
+      "dedup_key": "https://x.com/vikvang1/status/2064500731848319303",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064498723871424512/vid/avc1/1194x720/daFeoSeaGy02LQvR.mp4?tag=27",
+          "source_post_url": "https://x.com/vikvang1/status/2064500731848319303",
+          "native_media_id": "2064498723871424512",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/73feec38228181b8d57d8300.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/1f6cd3bd68e1a14443c7734f.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064498723871424512/vid/avc1/1194x720/daFeoSeaGy02LQvR.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 12,
@@ -122,7 +288,24 @@
       "author_url": "https://x.com/ydamitcodes",
       "type": "Tutorial",
       "date": "2026-06-10",
-      "dedup_key": "https://x.com/ydamitcodes/status/2064536076518363353"
+      "dedup_key": "https://x.com/ydamitcodes/status/2064536076518363353",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064535921656238080/vid/avc1/1510x720/8OKIhTVXIadrVAcb.mp4?tag=27",
+          "source_post_url": "https://x.com/ydamitcodes/status/2064536076518363353",
+          "native_media_id": "2064535921656238080",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c977ed7e710678ea6dc0495d.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c0189f7f40d1040824902c11.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064535921656238080/vid/avc1/1510x720/8OKIhTVXIadrVAcb.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 13,
@@ -132,7 +315,23 @@
       "author_url": "https://x.com/ecomchasedimond",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/ecomchasedimond/status/2064454139225297091"
+      "dedup_key": "https://x.com/ecomchasedimond/status/2064454139225297091",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZp8z3aQAAqy5k.jpg",
+          "source_post_url": "https://x.com/ecomchasedimond/status/2064454139225297091",
+          "native_media_id": "2064453972631633920",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ea7d74eecf453ae6ab43c269.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKZp8z3aQAAqy5k.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 14,
@@ -142,7 +341,24 @@
       "author_url": "https://x.com/quanghuynt14",
       "type": "Evaluation",
       "date": "2026-06-10",
-      "dedup_key": "https://x.com/quanghuynt14/status/2064509430650065278"
+      "dedup_key": "https://x.com/quanghuynt14/status/2064509430650065278",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064509292510674944/vid/avc1/1280x720/-_0-QD-emEvjo8wG.mp4?tag=27",
+          "source_post_url": "https://x.com/quanghuynt14/status/2064509430650065278",
+          "native_media_id": "2064509292510674944",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/cd4ae25f7dcbb04ecbb2dea6.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/473227e429d59c59afdbd529.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064509292510674944/vid/avc1/1280x720/-_0-QD-emEvjo8wG.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 15,
@@ -152,7 +368,24 @@
       "author_url": "https://x.com/scottstts",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/scottstts/status/2064464351906673029"
+      "dedup_key": "https://x.com/scottstts/status/2064464351906673029",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064463397819752448/vid/avc1/1148x720/xYiQSHqoesW5kf-U.mp4?tag=27",
+          "source_post_url": "https://x.com/scottstts/status/2064464351906673029",
+          "native_media_id": "2064463397819752448",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/04c08937fcecea5183759ade.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6a14f69d92bfca4ace3f746c.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064463397819752448/vid/avc1/1148x720/xYiQSHqoesW5kf-U.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 16,
@@ -162,7 +395,24 @@
       "author_url": "https://x.com/tetumemo",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/tetumemo/status/2064477582930989357"
+      "dedup_key": "https://x.com/tetumemo/status/2064477582930989357",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064476889859993600/vid/avc1/1280x720/86xBnq9-ZHZ5MzBS.mp4?tag=27",
+          "source_post_url": "https://x.com/tetumemo/status/2064477582930989357",
+          "native_media_id": "2064476889859993600",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6da60b0762f926c4d4e7012d.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7b9655305fbcbec6ac3b0a9c.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064476889859993600/vid/avc1/1280x720/86xBnq9-ZHZ5MzBS.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 17,
@@ -172,7 +422,12 @@
       "author_url": "https://x.com/AndrewCurran_",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/AndrewCurran_/status/2064413892378546418"
+      "dedup_key": "https://x.com/AndrewCurran_/status/2064413892378546418",
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "text_only": true
     },
     {
       "number": 18,
@@ -182,7 +437,12 @@
       "author_url": "https://x.com/manaltdan",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/manaltdan/status/2064414129440608427"
+      "dedup_key": "https://x.com/manaltdan/status/2064414129440608427",
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "text_only": true
     },
     {
       "number": 19,
@@ -192,7 +452,12 @@
       "author_url": "https://x.com/naoyafujiwara",
       "type": "Demo",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/naoyafujiwara/status/2064470780373811637"
+      "dedup_key": "https://x.com/naoyafujiwara/status/2064470780373811637",
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "text_only": true
     },
     {
       "number": 20,
@@ -202,7 +467,35 @@
       "author_url": "https://x.com/AI_masaou",
       "type": "Demo",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/AI_masaou/status/2064448218038223206"
+      "dedup_key": "https://x.com/AI_masaou/status/2064448218038223206",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064397545754025984/vid/avc1/1280x720/DCtdHAscq4pqh7JW.mp4?tag=27",
+          "source_post_url": "https://x.com/ClaudeDevs/status/2064399512664526853",
+          "native_media_id": "2064397545754025984",
+          "native_type": "video",
+          "poster_provenance": {
+            "method": "frame-extracted-from-original-video",
+            "timestamp_seconds": 50.58,
+            "video_sha256": "bcf9dc92c525978c69b3c86913a061efa69333020d25ab8fa9dba6f8390ae38f"
+          },
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/bcf9dc92c525978c69b3c869.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9567dd41be289437a45f8800.jpg",
+          "quoted_source": true,
+          "source_author_url": "https://x.com/ClaudeDevs",
+          "source_author_handle": "@ClaudeDevs"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064397545754025984/vid/avc1/1280x720/DCtdHAscq4pqh7JW.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "related_source_urls": [
+        "https://x.com/ClaudeDevs/status/2064399512664526853"
+      ]
     },
     {
       "number": 21,
@@ -212,7 +505,12 @@
       "author_url": "https://x.com/JJEnglert",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/JJEnglert/status/2064420538798260388"
+      "dedup_key": "https://x.com/JJEnglert/status/2064420538798260388",
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "text_only": true
     },
     {
       "number": 22,
@@ -222,7 +520,12 @@
       "author_url": "https://x.com/Truunik",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/Truunik/status/2064399110384292077"
+      "dedup_key": "https://x.com/Truunik/status/2064399110384292077",
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "text_only": true
     },
     {
       "number": 23,
@@ -232,7 +535,23 @@
       "author_url": "https://x.com/Voxyz_ai",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/Voxyz_ai/status/2064441201084825921"
+      "dedup_key": "https://x.com/Voxyz_ai/status/2064441201084825921",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZclGgWcAAuqOv.png",
+          "source_post_url": "https://x.com/Voxyz_ai/status/2064441201084825921",
+          "native_media_id": "2064439271667167232",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/dca99f9390b1624b3dfd4b45.png"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKZclGgWcAAuqOv.png"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 24,
@@ -242,7 +561,12 @@
       "author_url": "https://x.com/aianimesyokunin",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/aianimesyokunin/status/2064409545620017531"
+      "dedup_key": "https://x.com/aianimesyokunin/status/2064409545620017531",
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "text_only": true
     },
     {
       "number": 25,
@@ -252,7 +576,23 @@
       "author_url": "https://x.com/bielzinn",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/bielzinn/status/2064451064594608567"
+      "dedup_key": "https://x.com/bielzinn/status/2064451064594608567",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZmyXjXgAEXifY.jpg",
+          "source_post_url": "https://x.com/bielzinn/status/2064451064594608567",
+          "native_media_id": "2064450494697799681",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f180cebef645f5ad8efdeb92.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKZmyXjXgAEXifY.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 26,
@@ -262,7 +602,23 @@
       "author_url": "https://x.com/meta_alchemist",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/meta_alchemist/status/2064431279383433646"
+      "dedup_key": "https://x.com/meta_alchemist/status/2064431279383433646",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZSlPVbIAADvSx.jpg",
+          "source_post_url": "https://x.com/meta_alchemist/status/2064431279383433646",
+          "native_media_id": "2064428278920978432",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/846e5ecb825853db17bd3564.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKZSlPVbIAADvSx.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 27,
@@ -272,7 +628,23 @@
       "author_url": "https://x.com/meta_alchemist",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/meta_alchemist/status/2064423360428490911"
+      "dedup_key": "https://x.com/meta_alchemist/status/2064423360428490911",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZMEN1acAA-1-5.png",
+          "source_post_url": "https://x.com/meta_alchemist/status/2064423360428490911",
+          "native_media_id": "2064421114512830464",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a4293d14cc7571bdcf8b1478.png"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKZMEN1acAA-1-5.png"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 28,
@@ -282,7 +654,29 @@
       "author_url": "https://x.com/oikon48",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/oikon48/status/2064402696124453157"
+      "dedup_key": "https://x.com/oikon48/status/2064402696124453157",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064397545754025984/vid/avc1/1280x720/DCtdHAscq4pqh7JW.mp4?tag=27",
+          "source_post_url": "https://x.com/oikon48/status/2064402696124453157",
+          "native_media_id": "2064397545754025984",
+          "native_type": "video",
+          "poster_provenance": {
+            "method": "frame-extracted-from-original-video",
+            "timestamp_seconds": 50.58,
+            "video_sha256": "bcf9dc92c525978c69b3c86913a061efa69333020d25ab8fa9dba6f8390ae38f"
+          },
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/bcf9dc92c525978c69b3c869.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9567dd41be289437a45f8800.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064397545754025984/vid/avc1/1280x720/DCtdHAscq4pqh7JW.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 29,
@@ -292,7 +686,24 @@
       "author_url": "https://x.com/IBuzovskyi",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/IBuzovskyi/status/2064427654942740608"
+      "dedup_key": "https://x.com/IBuzovskyi/status/2064427654942740608",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064427448641486848/vid/avc1/720x720/KDWVMn0HLf83sw2I.mp4?tag=27",
+          "source_post_url": "https://x.com/IBuzovskyi/status/2064427654942740608",
+          "native_media_id": "2064427448641486848",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/4a3b9936f91986268dfeb748.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d9a63a0c689f8e305289a9e6.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064427448641486848/vid/avc1/720x720/KDWVMn0HLf83sw2I.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 30,
@@ -302,7 +713,23 @@
       "author_url": "https://x.com/btibor91",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/btibor91/status/2064441061079134598"
+      "dedup_key": "https://x.com/btibor91/status/2064441061079134598",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZeNBhaAAE0rzU.jpg",
+          "source_post_url": "https://x.com/btibor91/status/2064441061079134598",
+          "native_media_id": "2064441057035812865",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d0d76497e4c8f77d3d081493.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKZeNBhaAAE0rzU.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 31,
@@ -312,7 +739,24 @@
       "author_url": "https://x.com/ctgptlb",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/ctgptlb/status/2064410460963934479"
+      "dedup_key": "https://x.com/ctgptlb/status/2064410460963934479",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064410253555531776/vid/avc1/1280x720/WtQigKWGqhy6Ha2A.mp4?tag=27",
+          "source_post_url": "https://x.com/ctgptlb/status/2064410460963934479",
+          "native_media_id": "2064410253555531776",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7620f9d5f1c29e9f6c3178e4.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0b89d6ace5df7c0f3ebe064e.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064410253555531776/vid/avc1/1280x720/WtQigKWGqhy6Ha2A.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 32,
@@ -322,7 +766,27 @@
       "author_url": "https://x.com/grapeot",
       "type": "Integration",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/grapeot/status/2064460026996219992"
+      "dedup_key": "https://x.com/grapeot/status/2064460026996219992",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://yage.ai/share/claude-advisor-tool-20260609.html#embedded-image-0",
+          "source_post_url": "https://x.com/grapeot/status/2064460026996219992",
+          "native_type": "article-embedded-image",
+          "context_caption": "linked-article-opus-advisor",
+          "article_url": "https://yage.ai/share/claude-advisor-tool-20260609.html",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a21858fed45b612b616e34ce.png"
+        }
+      ],
+      "source_media_urls": [
+        "https://yage.ai/share/claude-advisor-tool-20260609.html#embedded-image-0"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "related_source_urls": [
+        "https://yage.ai/share/claude-advisor-tool-20260609.html"
+      ]
     },
     {
       "number": 33,
@@ -332,7 +796,23 @@
       "author_url": "https://x.com/op7418",
       "type": "Integration",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/op7418/status/2064399444523782377"
+      "dedup_key": "https://x.com/op7418/status/2064399444523782377",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKY4V7jaEAAHmQi.jpg",
+          "source_post_url": "https://x.com/op7418/status/2064399444523782377",
+          "native_media_id": "2064399428610560000",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/2c2a9233f1949a99d9faef82.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKY4V7jaEAAHmQi.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 34,
@@ -342,7 +822,23 @@
       "author_url": "https://x.com/swarms_corp",
       "type": "Integration",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/swarms_corp/status/2064420238553186343"
+      "dedup_key": "https://x.com/swarms_corp/status/2064420238553186343",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZDajLW0AAmkZx.jpg",
+          "source_post_url": "https://x.com/swarms_corp/status/2064420238553186343",
+          "native_media_id": "2064411602594484224",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f5a8738199642ccb4108d9bb.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKZDajLW0AAmkZx.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 35,
@@ -352,7 +848,24 @@
       "author_url": "https://x.com/AlicanKiraz0",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/AlicanKiraz0/status/2064424400494186867"
+      "dedup_key": "https://x.com/AlicanKiraz0/status/2064424400494186867",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064422711368056833/vid/avc1/720x800/nrjHJSsUurgZPn3B.mp4?tag=27",
+          "source_post_url": "https://x.com/AlicanKiraz0/status/2064424400494186867",
+          "native_media_id": "2064422711368056833",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d25a9995414a9bb037269251.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/16f724918a63d35c0d552145.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064422711368056833/vid/avc1/720x800/nrjHJSsUurgZPn3B.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 36,
@@ -362,7 +875,23 @@
       "author_url": "https://x.com/ArtificialAnlys",
       "type": "Evaluation",
       "date": "2026-06-10",
-      "dedup_key": "https://x.com/ArtificialAnlys/status/2064500154959618084"
+      "dedup_key": "https://x.com/ArtificialAnlys/status/2064500154959618084",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKaRT3daAAEtXYe.jpg",
+          "source_post_url": "https://x.com/ArtificialAnlys/status/2064500154959618084",
+          "native_media_id": "2064497249686781953",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/dd1356eb4a23ba254bfbb669.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKaRT3daAAEtXYe.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 37,
@@ -372,7 +901,23 @@
       "author_url": "https://x.com/ArtificialAnlys",
       "type": "Evaluation",
       "date": "2026-06-10",
-      "dedup_key": "https://x.com/ArtificialAnlys/status/2064500150069030992"
+      "dedup_key": "https://x.com/ArtificialAnlys/status/2064500150069030992",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKaRKz5bcAA5X2_.jpg",
+          "source_post_url": "https://x.com/ArtificialAnlys/status/2064500150069030992",
+          "native_media_id": "2064497094111752192",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f9f3da0006bc0eb2c245281b.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKaRKz5bcAA5X2_.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 38,
@@ -382,7 +927,23 @@
       "author_url": "https://x.com/ArtificialAnlys",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/ArtificialAnlys/status/2064414308289937869"
+      "dedup_key": "https://x.com/ArtificialAnlys/status/2064414308289937869",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZDUKhbsAE9-sw.jpg",
+          "source_post_url": "https://x.com/ArtificialAnlys/status/2064414308289937869",
+          "native_media_id": "2064411492896976897",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/18572fdb3c0d8a57ba52e095.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKZDUKhbsAE9-sw.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 39,
@@ -392,7 +953,12 @@
       "author_url": "https://x.com/Conor_D_Dart",
       "type": "Integration",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/Conor_D_Dart/status/2064424882977243526"
+      "dedup_key": "https://x.com/Conor_D_Dart/status/2064424882977243526",
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "text_only": true
     },
     {
       "number": 40,
@@ -402,7 +968,24 @@
       "author_url": "https://x.com/HKrackDev",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/HKrackDev/status/2064435392649306546"
+      "dedup_key": "https://x.com/HKrackDev/status/2064435392649306546",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064417276150071296/vid/avc1/1280x720/23m7j94f5HBbg6BN.mp4?tag=27",
+          "source_post_url": "https://x.com/HKrackDev/status/2064435392649306546",
+          "native_media_id": "2064417276150071296",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/789680ca7655fca20b635442.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/691d0518cb50a6bebbb8b2b1.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064417276150071296/vid/avc1/1280x720/23m7j94f5HBbg6BN.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 41,
@@ -412,7 +995,32 @@
       "author_url": "https://x.com/Hi_Noguchi",
       "type": "Demo",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/Hi_Noguchi/status/2064419241068319079"
+      "dedup_key": "https://x.com/Hi_Noguchi/status/2064419241068319079",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZKXBWa0AA4wjK.jpg",
+          "source_post_url": "https://x.com/Hi_Noguchi/status/2064419241068319079",
+          "native_media_id": "2064419238555865088",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5feb645426dcf905eac2992d.jpg"
+        },
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZKXBqaQAA7oI-.jpg",
+          "source_post_url": "https://x.com/Hi_Noguchi/status/2064419241068319079",
+          "native_media_id": "2064419238639714304",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/933c469793e248f634cfad55.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKZKXBWa0AA4wjK.jpg",
+        "https://pbs.twimg.com/media/HKZKXBqaQAA7oI-.jpg"
+      ],
+      "source_media_count": 2,
+      "expected_public_visual_count": 2,
+      "text_only": false
     },
     {
       "number": 42,
@@ -422,7 +1030,23 @@
       "author_url": "https://x.com/LechMazur",
       "type": "Evaluation",
       "date": "2026-06-10",
-      "dedup_key": "https://x.com/LechMazur/status/2064503575577821458"
+      "dedup_key": "https://x.com/LechMazur/status/2064503575577821458",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKaUVHLWsAE9n63.jpg",
+          "source_post_url": "https://x.com/LechMazur/status/2064503575577821458",
+          "native_media_id": "2064500569620787201",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5849f936dc58518fd5d810ef.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKaUVHLWsAE9n63.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 43,
@@ -432,7 +1056,24 @@
       "author_url": "https://x.com/MTSlive",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/MTSlive/status/2064430633800319436"
+      "dedup_key": "https://x.com/MTSlive/status/2064430633800319436",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064430461309616128/vid/avc1/1280x720/t4MVJVvTVpVSvbrf.mp4?tag=14",
+          "source_post_url": "https://x.com/MTSlive/status/2064430633800319436",
+          "native_media_id": "2064430461309616128",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/45b71a2babb9da9a93f43220.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c25c02c52c5d4b6b24364401.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064430461309616128/vid/avc1/1280x720/t4MVJVvTVpVSvbrf.mp4?tag=14"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 44,
@@ -442,7 +1083,23 @@
       "author_url": "https://x.com/VaibhavSisinty",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/VaibhavSisinty/status/2064459064810361271"
+      "dedup_key": "https://x.com/VaibhavSisinty/status/2064459064810361271",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZulDtawAAwEzT.jpg",
+          "source_post_url": "https://x.com/VaibhavSisinty/status/2064459064810361271",
+          "native_media_id": "2064459062125969408",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e39fb67b74af346e8fbb67ea.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKZulDtawAAwEzT.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 45,
@@ -452,7 +1109,12 @@
       "author_url": "https://x.com/alliekmiller",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/alliekmiller/status/2064451731325415446"
+      "dedup_key": "https://x.com/alliekmiller/status/2064451731325415446",
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "text_only": true
     },
     {
       "number": 46,
@@ -462,7 +1124,29 @@
       "author_url": "https://x.com/atomic_chat_hq",
       "type": "Demo",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/atomic_chat_hq/status/2064488894398161377"
+      "dedup_key": "https://x.com/atomic_chat_hq/status/2064488894398161377",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064488777616130048/vid/avc1/1060x720/kFlw8Yrm_37sV7rS.mp4?tag=27",
+          "source_post_url": "https://x.com/atomic_chat_hq/status/2064488894398161377",
+          "native_media_id": "2064488777616130048",
+          "native_type": "video",
+          "poster_provenance": {
+            "method": "frame-extracted-from-original-video",
+            "timestamp_seconds": 9.82,
+            "video_sha256": "06387b798061869ccaeaf586574fa92c4a76c0ba98f45563989a2c66efc65f54"
+          },
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/06387b798061869ccaeaf586.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/df5cc72de1f70556de0d682b.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064488777616130048/vid/avc1/1060x720/kFlw8Yrm_37sV7rS.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 47,
@@ -472,7 +1156,12 @@
       "author_url": "https://x.com/bcherny",
       "type": "Demo",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/bcherny/status/2064431111154053187"
+      "dedup_key": "https://x.com/bcherny/status/2064431111154053187",
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "text_only": true
     },
     {
       "number": 48,
@@ -482,7 +1171,24 @@
       "author_url": "https://x.com/clairevo",
       "type": "Demo",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/clairevo/status/2064416978685874333"
+      "dedup_key": "https://x.com/clairevo/status/2064416978685874333",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064414625077305344/vid/avc1/1280x720/G8cd15jJur31RbV3.mp4?tag=27",
+          "source_post_url": "https://x.com/clairevo/status/2064416978685874333",
+          "native_media_id": "2064414625077305344",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/fdba0d6cb9ba0e1214113e65.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d2825453d0a742892a4fe529.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064414625077305344/vid/avc1/1280x720/G8cd15jJur31RbV3.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 49,
@@ -492,7 +1198,41 @@
       "author_url": "https://x.com/gabepereyra",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/gabepereyra/status/2064436570720284879"
+      "dedup_key": "https://x.com/gabepereyra/status/2064436570720284879",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZZhs1agAAe6RH.png",
+          "source_post_url": "https://x.com/gabepereyra/status/2064436570720284879",
+          "native_media_id": "2064435914701701120",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/bb874ef2647de32ccdb3edf9.png"
+        },
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZZhs9acAAGqCt.jpg",
+          "source_post_url": "https://x.com/gabepereyra/status/2064436570720284879",
+          "native_media_id": "2064435914735251456",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6a9c3856ebce1bd9cd3d062d.jpg"
+        },
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZZhs2bkAAEGM6.png",
+          "source_post_url": "https://x.com/gabepereyra/status/2064436570720284879",
+          "native_media_id": "2064435914705965056",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/96734bfca49d5b3fe6f83ed5.png"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKZZhs1agAAe6RH.png",
+        "https://pbs.twimg.com/media/HKZZhs9acAAGqCt.jpg",
+        "https://pbs.twimg.com/media/HKZZhs2bkAAEGM6.png"
+      ],
+      "source_media_count": 3,
+      "expected_public_visual_count": 3,
+      "text_only": false
     },
     {
       "number": 50,
@@ -502,7 +1242,41 @@
       "author_url": "https://x.com/iScienceLuvr",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/iScienceLuvr/status/2064411823445774554"
+      "dedup_key": "https://x.com/iScienceLuvr/status/2064411823445774554",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZBHtUa0AAmWQf.jpg",
+          "source_post_url": "https://x.com/iScienceLuvr/status/2064411823445774554",
+          "native_media_id": "2064409079876079616",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f599a548651eccbfce8b888d.jpg"
+        },
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZBLnXaUAAlFZZ.jpg",
+          "source_post_url": "https://x.com/iScienceLuvr/status/2064411823445774554",
+          "native_media_id": "2064409146997493760",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/69ebc490407b9d54c6de3707.jpg"
+        },
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZBPWca4AEuh58.jpg",
+          "source_post_url": "https://x.com/iScienceLuvr/status/2064411823445774554",
+          "native_media_id": "2064409211174576129",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/1a89ad2c2622cdbba994d70c.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKZBHtUa0AAmWQf.jpg",
+        "https://pbs.twimg.com/media/HKZBLnXaUAAlFZZ.jpg",
+        "https://pbs.twimg.com/media/HKZBPWca4AEuh58.jpg"
+      ],
+      "source_media_count": 3,
+      "expected_public_visual_count": 3,
+      "text_only": false
     },
     {
       "number": 51,
@@ -512,7 +1286,23 @@
       "author_url": "https://x.com/jerryjliu0",
       "type": "Evaluation",
       "date": "2026-06-10",
-      "dedup_key": "https://x.com/jerryjliu0/status/2064519456966205905"
+      "dedup_key": "https://x.com/jerryjliu0/status/2064519456966205905",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKakm0VbIAAwx3G.png",
+          "source_post_url": "https://x.com/jerryjliu0/status/2064519456966205905",
+          "native_media_id": "2064518465986437120",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ae01590f41e6954f27278848.png"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKakm0VbIAAwx3G.png"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 52,
@@ -522,7 +1312,23 @@
       "author_url": "https://x.com/jumperz",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/jumperz/status/2064402965461406044"
+      "dedup_key": "https://x.com/jumperz/status/2064402965461406044",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKY7jTNXAAA5qhr.png",
+          "source_post_url": "https://x.com/jumperz/status/2064402965461406044",
+          "native_media_id": "2064402956833718272",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/771df9c428ba5cc0a8fab5de.png"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKY7jTNXAAA5qhr.png"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 53,
@@ -532,7 +1338,12 @@
       "author_url": "https://x.com/karpathy",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/karpathy/status/2064409694761054332"
+      "dedup_key": "https://x.com/karpathy/status/2064409694761054332",
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "text_only": true
     },
     {
       "number": 54,
@@ -542,7 +1353,23 @@
       "author_url": "https://x.com/llama_index",
       "type": "Evaluation",
       "date": "2026-06-10",
-      "dedup_key": "https://x.com/llama_index/status/2064502330800615903"
+      "dedup_key": "https://x.com/llama_index/status/2064502330800615903",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKaV7eFXcAAKG2S.png",
+          "source_post_url": "https://x.com/llama_index/status/2064502330800615903",
+          "native_media_id": "2064502328116342784",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/2888842a85fbd5c7a4a22e24.png"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKaV7eFXcAAKG2S.png"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 55,
@@ -552,7 +1379,50 @@
       "author_url": "https://x.com/lucas_flatwhite",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/lucas_flatwhite/status/2064483645184979183"
+      "dedup_key": "https://x.com/lucas_flatwhite/status/2064483645184979183",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKaE7b4bEAEYEt1.png",
+          "source_post_url": "https://x.com/lucas_flatwhite/status/2064483645184979183",
+          "native_media_id": "2064483635827511297",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f44cba8e6f3d765ca5960923.png"
+        },
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKaE7b5bAAA3ESB.jpg",
+          "source_post_url": "https://x.com/lucas_flatwhite/status/2064483645184979183",
+          "native_media_id": "2064483635831701504",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/8f13714ca9f9e20711fdd898.jpg"
+        },
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKaE7cAbkAA99HI.jpg",
+          "source_post_url": "https://x.com/lucas_flatwhite/status/2064483645184979183",
+          "native_media_id": "2064483635861098496",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0d1f69a50478623f5e1d0248.jpg"
+        },
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKaE7b7agAAmWLi.jpg",
+          "source_post_url": "https://x.com/lucas_flatwhite/status/2064483645184979183",
+          "native_media_id": "2064483635840057344",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0cf2c270484f1e2aba514261.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKaE7b4bEAEYEt1.png",
+        "https://pbs.twimg.com/media/HKaE7b5bAAA3ESB.jpg",
+        "https://pbs.twimg.com/media/HKaE7cAbkAA99HI.jpg",
+        "https://pbs.twimg.com/media/HKaE7b7agAAmWLi.jpg"
+      ],
+      "source_media_count": 4,
+      "expected_public_visual_count": 4,
+      "text_only": false
     },
     {
       "number": 56,
@@ -562,7 +1432,23 @@
       "author_url": "https://x.com/mark_k",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/mark_k/status/2064401429234905279"
+      "dedup_key": "https://x.com/mark_k/status/2064401429234905279",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKY6KGQW8AA4DeD.jpg",
+          "source_post_url": "https://x.com/mark_k/status/2064401429234905279",
+          "native_media_id": "2064401424348278784",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/b548ec23f85e3eb1600e9214.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKY6KGQW8AA4DeD.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 57,
@@ -572,7 +1458,23 @@
       "author_url": "https://x.com/mercor_ai",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/mercor_ai/status/2064399133075796446"
+      "dedup_key": "https://x.com/mercor_ai/status/2064399133075796446",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKY16zybMAADBUi.jpg",
+          "source_post_url": "https://x.com/mercor_ai/status/2064399133075796446",
+          "native_media_id": "2064396763646341120",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/96120496893ca99f17d0c746.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKY16zybMAADBUi.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 58,
@@ -582,7 +1484,23 @@
       "author_url": "https://x.com/nicbstme",
       "type": "Tutorial",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/nicbstme/status/2064443782255554960"
+      "dedup_key": "https://x.com/nicbstme/status/2064443782255554960",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZgBB6aoAAi0yP.jpg",
+          "source_post_url": "https://x.com/nicbstme/status/2064443782255554960",
+          "native_media_id": "2064443050005536768",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/588cff83994406d2b5dd7cb9.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKZgBB6aoAAi0yP.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 59,
@@ -592,7 +1510,23 @@
       "author_url": "https://x.com/timhwang",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/timhwang/status/2064446028997423180"
+      "dedup_key": "https://x.com/timhwang/status/2064446028997423180",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZd5oFXAAAyE0x.png",
+          "source_post_url": "https://x.com/timhwang/status/2064446028997423180",
+          "native_media_id": "2064440723789774848",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9caae04d701510ca662873fe.png"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKZd5oFXAAAyE0x.png"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 60,
@@ -602,7 +1536,23 @@
       "author_url": "https://x.com/xw33bttv",
       "type": "Evaluation",
       "date": "2026-06-09",
-      "dedup_key": "https://x.com/xw33bttv/status/2064421048565789087"
+      "dedup_key": "https://x.com/xw33bttv/status/2064421048565789087",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKZJUTcbIAAFpA_.jpg",
+          "source_post_url": "https://x.com/xw33bttv/status/2064421048565789087",
+          "native_media_id": "2064418092361654272",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e9f75a2a76f55ee2b12b7aab.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKZJUTcbIAAFpA_.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 61,
@@ -612,7 +1562,24 @@
       "author_url": "https://x.com/aashatwt",
       "type": "Tutorial",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/aashatwt/status/2064973740354818074"
+      "dedup_key": "https://x.com/aashatwt/status/2064973740354818074",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064973676588711936/vid/avc1/1266x720/0PCZkAMvI4FUwtHM.mp4?tag=27",
+          "source_post_url": "https://x.com/aashatwt/status/2064973740354818074",
+          "native_media_id": "2064973676588711936",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/444a6e1898d3f63898e3e22f.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d5c9529aa9c1d59ae597d31d.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064973676588711936/vid/avc1/1266x720/0PCZkAMvI4FUwtHM.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 62,
@@ -622,7 +1589,29 @@
       "author_url": "https://x.com/ozansihay",
       "type": "Demo",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/ozansihay/status/2064973170780545535"
+      "dedup_key": "https://x.com/ozansihay/status/2064973170780545535",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064972852055388160/vid/avc1/1264x720/bvHJMhRmf_ETgeRS.mp4?tag=27",
+          "source_post_url": "https://x.com/ozansihay/status/2064973170780545535",
+          "native_media_id": "2064972852055388160",
+          "native_type": "video",
+          "poster_provenance": {
+            "method": "frame-extracted-from-original-video",
+            "timestamp_seconds": 13.65,
+            "video_sha256": "1e91c3bcff213437fdd442f616b749c8844277d5a58ecd4bde03b993ff2e43cf"
+          },
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/1e91c3bcff213437fdd442f6.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/538fc8ee9dd7e627bc73921a.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064972852055388160/vid/avc1/1264x720/bvHJMhRmf_ETgeRS.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 63,
@@ -632,7 +1621,24 @@
       "author_url": "https://x.com/noisyb0y1",
       "type": "Demo",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/noisyb0y1/status/2064970594118967756"
+      "dedup_key": "https://x.com/noisyb0y1/status/2064970594118967756",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064969728884371456/vid/avc1/1448x720/LdliSFtAXjuDhYhR.mp4?tag=27",
+          "source_post_url": "https://x.com/noisyb0y1/status/2064970594118967756",
+          "native_media_id": "2064969728884371456",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f238acf3f8804068085ff134.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/3d938264442a14676a86c4f3.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064969728884371456/vid/avc1/1448x720/LdliSFtAXjuDhYhR.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 64,
@@ -642,7 +1648,29 @@
       "author_url": "https://x.com/thebuggeddev",
       "type": "Demo",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/thebuggeddev/status/2064968106104275008"
+      "dedup_key": "https://x.com/thebuggeddev/status/2064968106104275008",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064967564661489664/vid/avc1/1196x720/LeCsrxwHC3QVcdim.mp4?tag=27",
+          "source_post_url": "https://x.com/thebuggeddev/status/2064968106104275008",
+          "native_media_id": "2064967564661489664",
+          "native_type": "video",
+          "poster_provenance": {
+            "method": "frame-extracted-from-original-video",
+            "timestamp_seconds": 16.16,
+            "video_sha256": "86a75412c6c443b3d0e62bf8275edde6ff7480ee7eeb0c500c568816746e970e"
+          },
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/86a75412c6c443b3d0e62bf8.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f11df06938c26759710a1981.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064967564661489664/vid/avc1/1196x720/LeCsrxwHC3QVcdim.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 65,
@@ -652,7 +1680,23 @@
       "author_url": "https://x.com/AiBattle_",
       "type": "Evaluation",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/AiBattle_/status/2064964335957348462"
+      "dedup_key": "https://x.com/AiBattle_/status/2064964335957348462",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKg6HY9XcAAEtfT.jpg",
+          "source_post_url": "https://x.com/AiBattle_/status/2064964335957348462",
+          "native_media_id": "2064964327782707200",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/996d95539a3b54fecbfdf404.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKg6HY9XcAAEtfT.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 66,
@@ -662,7 +1706,23 @@
       "author_url": "https://x.com/Pilgrim6938",
       "type": "Evaluation",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/Pilgrim6938/status/2064946766278210038"
+      "dedup_key": "https://x.com/Pilgrim6938/status/2064946766278210038",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKgqI4YacAEY53C.jpg",
+          "source_post_url": "https://x.com/Pilgrim6938/status/2064946766278210038",
+          "native_media_id": "2064946761211473921",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/cfb0c1ff3e8ebe66cfa35400.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKgqI4YacAEY53C.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 67,
@@ -672,7 +1732,24 @@
       "author_url": "https://x.com/pankajkumar_dev",
       "type": "Demo",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/pankajkumar_dev/status/2064941888990593416"
+      "dedup_key": "https://x.com/pankajkumar_dev/status/2064941888990593416",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064941000028807169/vid/avc1/1108x720/BRct3zuT3fb6oqSi.mp4?tag=27",
+          "source_post_url": "https://x.com/pankajkumar_dev/status/2064941888990593416",
+          "native_media_id": "2064941000028807169",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9ce65e5fee946b6940810e0d.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7c577d0766bbc3da8cddeb70.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064941000028807169/vid/avc1/1108x720/BRct3zuT3fb6oqSi.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 68,
@@ -682,7 +1759,23 @@
       "author_url": "https://x.com/oikon48",
       "type": "Integration",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/oikon48/status/2064937790010503347"
+      "dedup_key": "https://x.com/oikon48/status/2064937790010503347",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKgh48ba4AAfAgr.jpg",
+          "source_post_url": "https://x.com/oikon48/status/2064937790010503347",
+          "native_media_id": "2064937691326898176",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0ae9039401c658170e5081e8.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKgh48ba4AAfAgr.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 69,
@@ -692,7 +1785,24 @@
       "author_url": "https://x.com/anilbpai",
       "type": "Demo",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/anilbpai/status/2064927784833790091"
+      "dedup_key": "https://x.com/anilbpai/status/2064927784833790091",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064927439609020416/vid/avc1/1400x720/FAyFumAvejTmJ1_N.mp4?tag=27",
+          "source_post_url": "https://x.com/anilbpai/status/2064927784833790091",
+          "native_media_id": "2064927439609020416",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0e0dae71ad7b5ead331366fb.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/86dccb2b150cfb90fbd03de2.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064927439609020416/vid/avc1/1400x720/FAyFumAvejTmJ1_N.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 70,
@@ -702,7 +1812,29 @@
       "author_url": "https://x.com/VincentLogic",
       "type": "Demo",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/VincentLogic/status/2064921358359011684"
+      "dedup_key": "https://x.com/VincentLogic/status/2064921358359011684",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064920696745254912/vid/avc1/1280x720/uFeOKAAk5Oa45gOI.mp4?tag=27",
+          "source_post_url": "https://x.com/VincentLogic/status/2064921358359011684",
+          "native_media_id": "2064920696745254912",
+          "native_type": "video",
+          "poster_provenance": {
+            "method": "frame-extracted-from-original-video",
+            "timestamp_seconds": 27.97,
+            "video_sha256": "274fed4f3211ec8c0286226193da428525d3a345049c79db17609bec284f90ad"
+          },
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/274fed4f3211ec8c02862261.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5d7a58bcad6e2151517a8462.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064920696745254912/vid/avc1/1280x720/uFeOKAAk5Oa45gOI.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 71,
@@ -712,7 +1844,23 @@
       "author_url": "https://x.com/GratomicAi",
       "type": "Evaluation",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/GratomicAi/status/2064970797978911102"
+      "dedup_key": "https://x.com/GratomicAi/status/2064970797978911102",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKg_I3XWQAAkbje.jpg",
+          "source_post_url": "https://x.com/GratomicAi/status/2064970797978911102",
+          "native_media_id": "2064969850682753024",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/189c46cfd2798d6881941f98.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKg_I3XWQAAkbje.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 72,
@@ -722,7 +1870,24 @@
       "author_url": "https://x.com/charliejhills",
       "type": "Tutorial",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/charliejhills/status/2064957428211536212"
+      "dedup_key": "https://x.com/charliejhills/status/2064957428211536212",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/tweet_video/HKgzzyhbEAAVyaC.mp4",
+          "source_post_url": "https://x.com/charliejhills/status/2064957428211536212",
+          "native_media_id": "2064957393977675776",
+          "native_type": "animated_gif",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/959ebfa499d2bf75df5bec25.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/3bcfe8f1e2238b01d3c4d954.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/tweet_video/HKgzzyhbEAAVyaC.mp4"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 73,
@@ -732,7 +1897,23 @@
       "author_url": "https://x.com/outsource_",
       "type": "Integration",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/outsource_/status/2064954350187778366"
+      "dedup_key": "https://x.com/outsource_/status/2064954350187778366",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKgwzf_WYAApto6.jpg",
+          "source_post_url": "https://x.com/outsource_/status/2064954350187778366",
+          "native_media_id": "2064954090468040704",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e334a84db7b671eb6a1a3f54.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKgwzf_WYAApto6.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 74,
@@ -742,7 +1923,32 @@
       "author_url": "https://x.com/smtgpt",
       "type": "Tutorial",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/smtgpt/status/2064953210335588758"
+      "dedup_key": "https://x.com/smtgpt/status/2064953210335588758",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKgvWnJa4AAT9fY.jpg",
+          "source_post_url": "https://x.com/smtgpt/status/2064953210335588758",
+          "native_media_id": "2064952494661492736",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e337dca3bbada9167e20417c.jpg"
+        },
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKgvsbJaoAAM54h.jpg",
+          "source_post_url": "https://x.com/smtgpt/status/2064953210335588758",
+          "native_media_id": "2064952869397372928",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6289e626a4f324fc93086100.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKgvWnJa4AAT9fY.jpg",
+        "https://pbs.twimg.com/media/HKgvsbJaoAAM54h.jpg"
+      ],
+      "source_media_count": 2,
+      "expected_public_visual_count": 2,
+      "text_only": false
     },
     {
       "number": 75,
@@ -752,7 +1958,12 @@
       "author_url": "https://x.com/ClaudeDevs",
       "type": "Integration",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/ClaudeDevs/status/2064949876463645026"
+      "dedup_key": "https://x.com/ClaudeDevs/status/2064949876463645026",
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "text_only": true
     },
     {
       "number": 76,
@@ -762,7 +1973,29 @@
       "author_url": "https://x.com/ClaudeCodeLog",
       "type": "Integration",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/ClaudeCodeLog/status/2064948584907153576"
+      "dedup_key": "https://x.com/ClaudeCodeLog/status/2064948584907153576",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/ext_tw_video/2064948563143000065/pu/vid/avc1/1280x720/2Xbkb30osZAPk4yQ.mp4?tag=12",
+          "source_post_url": "https://x.com/ClaudeCodeLog/status/2064948584907153576",
+          "native_media_id": "2064948563143000065",
+          "native_type": "video",
+          "poster_provenance": {
+            "method": "frame-extracted-from-original-video",
+            "timestamp_seconds": 18.28,
+            "video_sha256": "e66551db2c85ef7f8c4a3f4e97745c07c00411217ca5e3497000f91c46ea2f51"
+          },
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e66551db2c85ef7f8c4a3f4e.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ae7cbd873deebd28d3ff05d7.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/ext_tw_video/2064948563143000065/pu/vid/avc1/1280x720/2Xbkb30osZAPk4yQ.mp4?tag=12"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 77,
@@ -772,7 +2005,14 @@
       "author_url": "https://x.com/0x3b33",
       "type": "Demo",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/0x3b33/status/2064948399300825439"
+      "dedup_key": "https://x.com/0x3b33/status/2064948399300825439",
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "text_only": true,
+      "takeaway": "Distinguish a reported app build from a publicly accessible demo.",
+      "body_notes": "The post reports building three web apps in 30 minutes, but supplies only localhost addresses on ports 3000, 3001 and 3002. These point to a local machine and do not provide publicly accessible apps or media."
     },
     {
       "number": 78,
@@ -782,7 +2022,24 @@
       "author_url": "https://x.com/rileybrown",
       "type": "Integration",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/rileybrown/status/2064931283403178354"
+      "dedup_key": "https://x.com/rileybrown/status/2064931283403178354",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064927609977176064/vid/avc1/1112x720/ToCJ2abiV2iyJbwb.mp4?tag=27",
+          "source_post_url": "https://x.com/rileybrown/status/2064931283403178354",
+          "native_media_id": "2064927609977176064",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/73ee02ae0f6703a8cfbe5a6c.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f30c1d169ce45b19beb493b7.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064927609977176064/vid/avc1/1112x720/ToCJ2abiV2iyJbwb.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 79,
@@ -792,7 +2049,23 @@
       "author_url": "https://x.com/ArtificialAnlys",
       "type": "Evaluation",
       "date": "2026-06-12",
-      "dedup_key": "https://x.com/ArtificialAnlys/status/2065328920514515037"
+      "dedup_key": "https://x.com/ArtificialAnlys/status/2065328920514515037",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKmDgMpakAAoCNq.jpg",
+          "source_post_url": "https://x.com/ArtificialAnlys/status/2065328920514515037",
+          "native_media_id": "2065326493300068352",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7b9ab8ba77c1e29f8ba4d270.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKmDgMpakAAoCNq.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 80,
@@ -802,7 +2075,24 @@
       "author_url": "https://x.com/marclou",
       "type": "Integration",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/marclou/status/2065029898243318093"
+      "dedup_key": "https://x.com/marclou/status/2065029898243318093",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2065029846326214656/vid/avc1/1224x720/1xPi4OuvyaA-cIHq.mp4?tag=14",
+          "source_post_url": "https://x.com/marclou/status/2065029898243318093",
+          "native_media_id": "2065029846326214656",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/2850773b9869c5521200f2e0.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6d2dd87d74ece01b277e1e12.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2065029846326214656/vid/avc1/1224x720/1xPi4OuvyaA-cIHq.mp4?tag=14"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 81,
@@ -812,7 +2102,23 @@
       "author_url": "https://x.com/ProximalHQ",
       "type": "Evaluation",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/ProximalHQ/status/2065184730279223410"
+      "dedup_key": "https://x.com/ProximalHQ/status/2065184730279223410",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKj-8xLbkAE_qC5.jpg",
+          "source_post_url": "https://x.com/ProximalHQ/status/2065184730279223410",
+          "native_media_id": "2065180749096259585",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/eb36bb1120ef55f9e38c516d.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKj-8xLbkAE_qC5.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 82,
@@ -822,7 +2128,23 @@
       "author_url": "https://x.com/elliotarledge",
       "type": "Evaluation",
       "date": "2026-06-11",
-      "dedup_key": "https://x.com/elliotarledge/status/2065109393142849932"
+      "dedup_key": "https://x.com/elliotarledge/status/2065109393142849932",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKi9tnSa4AIeGyA.jpg",
+          "source_post_url": "https://x.com/elliotarledge/status/2065109393142849932",
+          "native_media_id": "2065109020487376898",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6c6931ed511eb3e539d56bc3.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKi9tnSa4AIeGyA.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 83,
@@ -832,7 +2154,24 @@
       "author_url": "https://x.com/mikefutia",
       "type": "Integration",
       "date": "2026-06-12",
-      "dedup_key": "https://x.com/mikefutia/status/2065537778516205856"
+      "dedup_key": "https://x.com/mikefutia/status/2065537778516205856",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2065537708135686144/vid/avc1/1280x720/DNFNGmYsYrF524j3.mp4?tag=14",
+          "source_post_url": "https://x.com/mikefutia/status/2065537778516205856",
+          "native_media_id": "2065537708135686144",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5672cc8fd9d210042551f0ea.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/503c46a33c97f0db334ddc62.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2065537708135686144/vid/avc1/1280x720/DNFNGmYsYrF524j3.mp4?tag=14"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 84,
@@ -842,7 +2181,24 @@
       "author_url": "https://x.com/techhalla",
       "type": "Tutorial",
       "date": "2026-06-10",
-      "dedup_key": "https://x.com/techhalla/status/2064682080445898957"
+      "dedup_key": "https://x.com/techhalla/status/2064682080445898957",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064678122117607425/vid/avc1/1280x720/N1PDVlDzJ6Og6Brx.mp4?tag=27",
+          "source_post_url": "https://x.com/techhalla/status/2064682080445898957",
+          "native_media_id": "2064678122117607425",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e0a1b46659d7a8287cb2f9d5.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/cd1a2ad71e71db936bdcfd22.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064678122117607425/vid/avc1/1280x720/N1PDVlDzJ6Og6Brx.mp4?tag=27"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 85,
@@ -852,7 +2208,23 @@
       "author_url": "https://x.com/diblacksmith",
       "type": "Integration",
       "date": "2026-06-14",
-      "dedup_key": "https://x.com/diblacksmith/status/2066230084273344698"
+      "dedup_key": "https://x.com/diblacksmith/status/2066230084273344698",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKun1JdXUAAVNMD.jpg",
+          "source_post_url": "https://x.com/diblacksmith/status/2066230084273344698",
+          "native_media_id": "2065929385593491456",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7f0f46eb79e43d87a2006fd4.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKun1JdXUAAVNMD.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 86,
@@ -862,7 +2234,24 @@
       "author_url": "https://x.com/upstash",
       "type": "Integration",
       "date": "2026-06-10",
-      "dedup_key": "https://x.com/upstash/status/2064702195333820846"
+      "dedup_key": "https://x.com/upstash/status/2064702195333820846",
+      "media": [
+        {
+          "kind": "video",
+          "source_url": "https://video-s.twimg.com/amplify_video/2064701651097665536/vid/avc1/1280x720/7DwgSA2SV1tu1i3Y.mp4?tag=14",
+          "source_post_url": "https://x.com/upstash/status/2064702195333820846",
+          "native_media_id": "2064701651097665536",
+          "native_type": "video",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a5cf4fe5944c7aa2f703f4cb.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5b1f1422fe322bb7b66bdcc6.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://video-s.twimg.com/amplify_video/2064701651097665536/vid/avc1/1280x720/7DwgSA2SV1tu1i3Y.mp4?tag=14"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 87,
@@ -872,7 +2261,23 @@
       "author_url": "https://x.com/WolfBenchAI",
       "type": "Evaluation",
       "date": "2026-06-12",
-      "dedup_key": "https://x.com/WolfBenchAI/status/2065582716054376921"
+      "dedup_key": "https://x.com/WolfBenchAI/status/2065582716054376921",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKpsiB2a0AAurxc.jpg",
+          "source_post_url": "https://x.com/WolfBenchAI/status/2065582716054376921",
+          "native_media_id": "2065582710970830848",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/453639cc17719af4e94655e0.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKpsiB2a0AAurxc.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 88,
@@ -882,7 +2287,23 @@
       "author_url": "https://x.com/simonw",
       "type": "Integration",
       "date": "2026-06-13",
-      "dedup_key": "https://x.com/simonw/status/2065618703480414666"
+      "dedup_key": "https://x.com/simonw/status/2065618703480414666",
+      "media": [
+        {
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HKqNMe0aUAAnj9b.jpg",
+          "source_post_url": "https://x.com/simonw/status/2065618703480414666",
+          "native_media_id": "2065618624673632256",
+          "native_type": "photo",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7400c158cb93d9480a22bb46.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HKqNMe0aUAAnj9b.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false
     },
     {
       "number": 89,

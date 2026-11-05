@@ -442,6 +442,8 @@ curl --request POST \
 
 **Fable 5'i çok modelli bir Cursor iş akışında plan inceleme ve eleştiri adımı olarak kullanın; ardından uygulama ve revizyonu daha ucuz veya uzmanlaşmış modellere devredin.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/8b1352e20cff54688c97f17c.png" alt="Cursor Çok Aşamalı İş Akışı" width="760">
+
 Fable 5 ile GPT 5.5 arasındaki nihai puanlamaya bakarsak fark çok küçük. Naçizane kullanım önerim şu: Cursor gibi hibrit modelleri destekleyen IDE platformlarında aşamalı bir iş akışı kullanın.
 
 Aşama 1: Kod incelemesi ve proje denetiminin ilk aşaması için, bağlamı ısıtırken GPT 5.5 High, Minimax M3, Kimi K2.6 veya Composer 2.5 modellerinden birini kullanın.
@@ -463,6 +465,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Bir ürün ekran görüntüsünü ajanik kodlama aracına yapıştırın ve Fable 5'ten arayüzü çalışan işlevsellikle yeniden oluşturmasını isteyin.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/14123609b06071f3b9527bee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f4df4f42ce047201d9a096a6.jpg" alt="Bir Ekran Görüntüsünden GitHub&#x27;ı Yeniden Oluşturma" width="760"><br>▶ Videoyu izle</a>
+
 🚨 Anthropic Fable 5 az önce GITHUB'ı bir EKRAN GÖRÜNTÜSÜNDEN kopyaladı!!
 
 Yaptığım tek şey GitHub UI ekran görüntüsünü Kilo Code'a yapıştırmak ve gerçek işlevsellikle GitHub'ı yeniden oluşturmasını söylemekti.
@@ -480,6 +484,8 @@ Type: Demo | Date: 2026-06-09
 
 **Fable 5'e ayrıntılı bir yaratıcı kodlama promptu verin ve kendi kendine yeten bir Three.js fizik görselleştirmesi üretmesini isteyin.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9bd45e74c64ceb3639600805.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ce5f3ea8ba270f89d60523cc.jpg" alt="Tek Promptla Kara Delik Simülasyonu" width="760"><br>▶ Videoyu izle</a>
+
 @claudeai, Claude Fable 5 ile Three.js içinde gerçek zamanlı bir kara delik merceklenme simülasyonunu tek seferde yaptı.
 
 Yerçekimsel merceklenme, doppler etkisiyle parlaklaşan yığılma diski, foton küresi, kromatik sapma ve prosedürel yıldız alanı içeriyordu.
@@ -496,6 +502,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 4: [Tek Denemede macOS Tarzı Web OS](https://x.com/intheworldofai/status/2064421915347812672) (tarafından [@intheworldofai](https://x.com/intheworldofai))
 
 **Fable 5'ten eksiksiz tek dosyalık bir web OS isteyin; UI kabuğunu, uygulamaları, etkileşimleri, sesi ve gömülü oyun davranışını tek geçişte inşa etmesine izin verin.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a66f34402d04f708819fa575.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/81946293919c84d4cafff841.jpg" alt="Tek Denemede macOS Tarzı Web OS" width="760"><br>▶ Videoyu izle</a>
 
 🚨 Claude Fable 5 tek seferde tam macOS tarzı bir web OS inşa etti ve çoğu modelden daha ileri gitti.
 
@@ -524,6 +532,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 5: [Spawn 5.0'ı 1.687 Promptla İnşa Etme](https://x.com/jsnnsa/status/2064420561078693941) (tarafından [@jsnnsa](https://x.com/jsnnsa))
 
 **Fable 5'i birçok prompt boyunca uzun oturumlu bir mühendislik ortağı olarak kullanın; insan rolü mimariden çıktı kalitesini yargılamaya kayar.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/86834f15f352ec8625cce187.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/b4077e43a1342d8567fa423f.jpg" alt="Spawn 5.0&#x27;ı 1.687 Promptla İnşa Etme" width="760"><br>▶ Videoyu izle</a>
 
 claude fable 5 yayında.
 
@@ -554,6 +564,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 6: [Bulgularla Büyük Pull Request İncelemesi](https://x.com/ryanrhughes/status/2064411147076534705) (tarafından [@ryanrhughes](https://x.com/ryanrhughes))
 
 **Fable 5'i büyük bir pull request'e yönlendirin ve doğruluk, yanlış pozitifler, gerçek buglar ve cilalama sorunları açısından incelemesini isteyin.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c4f47540205a071b0144ad9d.png" alt="Bulgularla Büyük Pull Request İncelemesi" width="760">
 
 Fable 5'i tek bir PR'ı (74 dosya / +3.705 / -1.246) incelemek üzere serbest bıraktım; nasıl yapacağını görmek istedim. 34 dakika çalıştı, 5 saatlik oturumumun %42'sini tüketti, 16 "correctness" bulgusu üretti ve şunları buldu:
 
@@ -638,6 +650,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Fable 5'ten giriş mekaniği olarak parmak takibi kullanan bir tarayıcı oyunu yapmasını isteyin.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/27e8d23ba659611cef811031.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7cddd38e3fccbf0cd7ea773c.jpg" alt="Parmak Takipli Dino Runner" width="760"><br>▶ Videoyu izle</a>
+
 Fable 5'ten parmak takipli bir Dino runner oyunu yapmasını istedim.
 
 Parmak runner oyununu yaklaşık 11-12 dakikada tek seferde yaptı, yaklaşık 914K token tüketti ve her şeyi yalnızca 629 satır kodla uyguladı.
@@ -652,6 +666,8 @@ Type: Demo | Date: 2026-06-09
 ### Case 10: [İki Cümleyle Yarış Oyunu İnşası](https://x.com/kieradev/status/2064482704763085202) (tarafından [@kieradev](https://x.com/kieradev))
 
 **Fable 5'e çok kısa bir oyun promptu verin; haritaları, modları, müziği, UI'ı ve oyun varlıklarını tek çalıştırmada üretmesine izin verin.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/51cf3c98b709a3c29bd5fd7c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6e64887a30cba9b5c25ba262.jpg" alt="İki Cümleyle Yarış Oyunu İnşası" width="760"><br>▶ Videoyu izle</a>
 
 Claude Fable 5, Max 5x kullanımının %40'ı.
 
@@ -670,6 +686,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Fable 5'i bir terminal kodlama harness'i içinde çalıştırın ve kurulabilir bir Rust terminal oyunu yapmasını isteyin.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/73feec38228181b8d57d8300.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/1f6cd3bd68e1a14443c7734f.jpg" alt="Rust ile Kurulabilir Terminal Minecraft" width="760"><br>▶ Videoyu izle</a>
+
 Claude Fable 5'i Warp'ın harness'iyle bir saat çalıştırdım.
 
 Tamamen Rust ile yapılmış, doğrudan terminalinizde render alan bir Minecraft TUI sürümü yaptı.
@@ -686,6 +704,8 @@ Type: Demo | Date: 2026-06-10
 ### Case 12: [Zaman ve Maliyetle Minecraft Klonu](https://x.com/ydamitcodes/status/2064536076518363353) (tarafından [@ydamitcodes](https://x.com/ydamitcodes))
 
 **Tek promptla Fable 5'ten oynanabilir Minecraft tarzı bir klon isteyin; ardından zamanı, maliyeti, kod hacmini ve özellik kapsamını değerlendirin.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c977ed7e710678ea6dc0495d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c0189f7f40d1040824902c11.jpg" alt="Zaman ve Maliyetle Minecraft Klonu" width="760"><br>▶ Videoyu izle</a>
 
 @claudeai Fable 5 bana 37 dakikada bir Minecraft klonu yaptı.
 
@@ -708,6 +728,8 @@ Type: Tutorial | Date: 2026-06-10
 ### Case 13: [Tam Yeniden Üretilebilir E-ticaret E-postası Promptu](https://x.com/ecomchasedimond/status/2064454139225297091) (tarafından [@ecomchasedimond](https://x.com/ecomchasedimond))
 
 **Fable 5'e marka e-posta maketi için tam bir yaratıcı brief verin: kesin bölümler, ürün gereksinimleri, görsel yön ve kısıtlar dahil.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ea7d74eecf453ae6ab43c269.jpg" alt="Tam Yeniden Üretilebilir E-ticaret E-postası Promptu" width="760">
 
 Claude Fable 5 bunu tek promptla ve hiç düzenleme olmadan yaptı.
 
@@ -851,6 +873,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Fable 5'i mekanik simülasyon benchmarkında kullanın; fiziksel doğruluğu uygulamasını, doğrulamasını ve yinelemesini isteyin.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/cd4ae25f7dcbb04ecbb2dea6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/473227e429d59c59afdbd529.jpg" alt="Swiss Lever Saatçi Benchmarkı" width="760"><br>▶ Videoyu izle</a>
+
 Fable 5'e saatçi benchmarkını verdim: Three.js içinde tam bir Swiss lever mekanizması.
 
 Gerçek dişli oranları (18.000 bph), çalışan eşapman, nefes alan hairspring; ve kollar gerçek zamanı gösteriyor.
@@ -867,6 +891,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 15: [Three.js Friends Apartmanı Sahnesi](https://x.com/scottstts/status/2064464351906673029) (tarafından [@scottstts](https://x.com/scottstts))
 
 **Fable 5'e bir kat planını ve sahne referansını gezilebilir bir Three.js ortamına dönüştürmesini promptlayın.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/04c08937fcecea5183759ade.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6a14f69d92bfca4ace3f746c.jpg" alt="Three.js Friends Apartmanı Sahnesi" width="760"><br>▶ Videoyu izle</a>
 
 Vay canına!!!
 
@@ -886,6 +912,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 16: [Prompt ve URL ile Güneş Sistemi Simülasyonu](https://x.com/tetumemo/status/2064477582930989357) (tarafından [@tetumemo](https://x.com/tetumemo))
 
 **Fable 5'i fizik ilkelerinden bir astronomi simülasyonu inşa etmek için kullanın; simülasyon ve herkese açık çıktı hazır olana kadar yineleyin.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6da60b0762f926c4d4e7012d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7b9655305fbcbec6ac3b0a9c.jpg" alt="Prompt ve URL ile Güneş Sistemi Simülasyonu" width="760"><br>▶ Videoyu izle</a>
 
 Claude Fable 5 yoğun.
 
@@ -1011,6 +1039,10 @@ Type: Demo | Date: 2026-06-09
 ### Case 20: [Fable 5'in Claude Code İş Akışlarını Nasıl Değiştirdiği](https://x.com/AI_masaou/status/2064448218038223206) (tarafından [@AI_masaou](https://x.com/AI_masaou))
 
 **Fable 5'i her adımı mikro yönetmek yerine yön, bağlam, hedefler ve doğrulama kriterleri belirleyerek kullanın.**
+
+[Kaynak video · @ClaudeDevs](https://x.com/ClaudeDevs/status/2064399512664526853)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/bcf9dc92c525978c69b3c869.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9567dd41be289437a45f8800.jpg" alt="Fable 5&#x27;in Claude Code İş Akışlarını Nasıl Değiştirdiği" width="760"><br>▶ Videoyu izle</a>
 
 Claude Fable 5'ten sonra Claude Code ekibinin günlük işlerinde değişen şey ilginç.
 
@@ -1239,6 +1271,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Fable 5'in siteyi başlatması, sayfaların ekran görüntüsünü alması, UX denetimi yapması, rapor yazması ve güvenli küçük sorunları düzeltmesi için `/goal` kullanın.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/dca99f9390b1624b3dfd4b45.png" alt="Tam Site Tasarım Denetimi Goal Promptu" width="760">
+
 fable 5 ile birkaç saatten sonraki hızlı izlenimler:
 
 → büyük görevler istiyor. küçük işler ona düşük geliyor; iş ne kadar karmaşıksa o kadar yükleniyor
@@ -1318,6 +1352,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Fable 5'i küçük adım adım talimatlar yerine hedef odaklı promptlar, doğrulama döngüleri ve effort ayarlarıyla kullanın.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f180cebef645f5ad8efdeb92.jpg" alt="Fable 5 Kullanımı İçin Başlangıç Rehberi" width="760">
+
 Yeni başlayanlar için Claude: Fable 5 hakkında bilmeniz gerekenler.
 
 Anthropic kısa süre önce Claude Mythos 5 olarak da bilinen Claude Fable 5'i yayınladı ve benchmarklarda diğer AI modellerini geride bırakıyor.
@@ -1362,6 +1398,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 26: [Kopyala-Yapıştır Depo Denetimi Promptu](https://x.com/meta_alchemist/status/2064431279383433646) (tarafından [@meta_alchemist](https://x.com/meta_alchemist))
 
 **Depo denetimi promptunu Fable 5'e yapıştırın ve dosya destekli keşif, bulgular, strateji ve milestone görev planı isteyin.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/846e5ecb825853db17bd3564.jpg" alt="Kopyala-Yapıştır Depo Denetimi Promptu" width="760">
 
 Claude Fable 5'e eriştiniz mi?
 
@@ -1561,6 +1599,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Erişim penceresi avantajlıyken Fable 5 kullanımını denetim, mimari ve planlamaya harcayın; yürütme için daha ucuz modeller kullanın.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a4293d14cc7571bdcf8b1478.png" alt="Sınırlı Pencere Kullanım Stratejisi" width="760">
+
 Fable 5 konusunda heyecanlı Claude kullanıcıları için bir ipucu:
 
 Claude Fable 5 her alanda büyük farkla SOTA ve bunu seviyorum.
@@ -1583,6 +1623,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 28: [Claude Code'da Goals ve Workflows Kullanımı](https://x.com/oikon48/status/2064402696124453157) (tarafından [@oikon48](https://x.com/oikon48))
 
 **Fable 5'i uygulamadan önce düşünce ortağı olarak kullanın, ardından planı yürütmek ve doğrulamak için `/goal` ve workflows'u birleştirin.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/bcf9dc92c525978c69b3c869.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9567dd41be289437a45f8800.jpg" alt="Claude Code&#x27;da Goals ve Workflows Kullanımı" width="760"><br>▶ Videoyu izle</a>
 
 Claude Code ekibinden Thariq, Claude Fable 5 çıktıktan sonra işin yapılma biçiminin temelden değiştiğini açıklıyor.
 
@@ -1632,6 +1674,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Hermes'i `anthropic/claude-fable-5` kullanacak şekilde, karmaşık `/goal` çalışmaları ve cache'li uzun ufuklu görevler için yapılandırın.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/4a3b9936f91986268dfeb748.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d9a63a0c689f8e305289a9e6.jpg" alt="Hermes Ajan Entegrasyonu Kurulumu" width="760"><br>▶ Videoyu izle</a>
+
 HERMES AGENT ARTIK CLAUDE FABLE 5 ÜZERİNDE ÇALIŞIYOR, Anthropic'in ilk herkese açık Mythos sınıfı modeli.
 
 9 Haziran'da yayınlandı. Hermes'in en iyi yaptığı türde işler için üretildi: uzun ufuklu otonom görevler.
@@ -1673,6 +1717,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Fable 5'in ne zaman erişilebilir olduğunu, maliyetini ve hangi korumalı alanların başka modele fallback edebileceğini anlamak için bu örneği kullanın.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d0d76497e4c8f77d3d081493.jpg" alt="Yetenekler, Fiyatlandırma ve Abonelik Notları" width="760">
+
 Anthropic, bugüne kadarki en yetenekli modellerinin iki sürümü olan Claude Fable 5 ve Claude Mythos 5'i yayınladı.
 
 Fable 5 genel kullanım içindir.
@@ -1709,6 +1755,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 31: [Lansman, Erişim, Fiyatlandırma ve Güvenlik Özeti](https://x.com/ctgptlb/status/2064410460963934479) (tarafından [@ctgptlb](https://x.com/ctgptlb))
 
 **Erişim yolunu, API model adını, context window'u, caching stratejisini ve abonelik zamanlamasını seçmek için bu lansman özetini kullanın.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7620f9d5f1c29e9f6c3178e4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0b89d6ace5df7c0f3ebe064e.jpg" alt="Lansman, Erişim, Fiyatlandırma ve Güvenlik Özeti" width="760"><br>▶ Videoyu izle</a>
 
 Sonunda genel kullanıma açılan Mythos sınıfı model Claude Fable 5 hakkında bilmeniz gerekenlerin özeti.
 
@@ -1769,6 +1817,10 @@ Type: Tutorial | Date: 2026-06-09
 
 **Marjinal zeka maliyete değdiğinde, Fable 5'i daha ucuz model iş akışında danışman veya inceleyici olarak kullanın.**
 
+Bağlantılı makale: Opus danışmanı örnekleri; bunlar Fable kıyaslama sonuçları değildir. [yage.ai](https://yage.ai/share/claude-advisor-tool-20260609.html)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a21858fed45b612b616e34ce.png" alt="Danışman Tabanlı Maliyet Azaltma Stratejisi" width="760">
+
 Fable 5 pahalı, ama Anthropic maliyet düşürme yanıtını iki ay önce yayınladı.
 
 Bugün Anthropic, output token başına $50/milyon fiyatlı, Sonnet'ten üç kattan pahalı Claude Fable 5'i yayınladı. 22 Haziran'dan sonra abonelik kullanıcıları da kullanıma göre ödeme yapacak.
@@ -1809,6 +1861,8 @@ Type: Integration | Date: 2026-06-09
 ### Case 33: [Fiyatlandırma, Erişim ve Güvenlik Korkulukları](https://x.com/op7418/status/2064399444523782377) (tarafından [@op7418](https://x.com/op7418))
 
 **İş yüklerini planlamadan önce Fable 5 erişimini, API fiyatlandırmasını ve güvenlik fallback davranışını anlamak için bu örneği kullanın.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/2c2a9233f1949a99d9faef82.jpg" alt="Fiyatlandırma, Erişim ve Güvenlik Korkulukları" width="760">
 
 Anthropic'in Mythos modelinin bugün gerçekten yayınlanmasını beklemiyordum.
 
@@ -1851,6 +1905,8 @@ Type: Integration | Date: 2026-06-09
 
 **Swarms model adını `anthropic/claude-fable-5` olarak ayarlayın ve Fable 5'i Swarms framework'ü veya API üzerinden çalıştırın.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f5a8738199642ccb4108d9bb.jpg" alt="Tek Satırlık Swarms Entegrasyonu" width="760">
+
 Fable 5 ve Mythos artık Swarms üzerinde yayında 👾🦀
 
 Yayının ilk gününden itibaren her iki model de Swarms Python framework'ü ve Swarms API genelinde tamamen destekleniyor. Geliştiriciler migration, ek yapılandırma veya altyapı değişikliği olmadan hemen inşa etmeye başlayabilir.
@@ -1873,6 +1929,8 @@ Type: Integration | Date: 2026-06-09
 ### Case 35: [Fable 5 ve GPT-5.5 Maliyet ve Kalite Karşılaştırması](https://x.com/AlicanKiraz0/status/2064424400494186867) (tarafından [@AlicanKiraz0](https://x.com/AlicanKiraz0))
 
 **Çıktı kalitesini, çalışma süresini ve araç maliyetini değerlendirmek için Fable 5 ve GPT-5.5'i aynı kodlama görevinde karşılaştırın.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d25a9995414a9bb037269251.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/16f724918a63d35c0d552145.jpg" alt="Fable 5 ve GPT-5.5 Maliyet ve Kalite Karşılaştırması" width="760"><br>▶ Videoyu izle</a>
 
 Cursor Fable 5 Max vs Codex GPT 5.5 Very High.
 
@@ -1911,6 +1969,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Fable 5'i bilgi doğruluğu ve halüsinasyon davranışı açısından değerlendirmek için bu benchmark örneğini kullanın.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/dd1356eb4a23ba254bfbb669.jpg" alt="AA-Omniscience Benchmark Sonucu" width="760">
+
 Claude Fable 5, bilgi ve halüsinasyon benchmarkımız AA-Omniscience'ta bugüne kadarki en yüksek skoru alıyor.
 
 Bu skor, düşük halüsinasyonlardan çok lider doğrulukla (doğru cevaplanan yüzde soruları) geliyor.
@@ -1925,6 +1985,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 37: [Artificial Analysis Intelligence Index Sonucu](https://x.com/ArtificialAnlys/status/2064500150069030992) (tarafından [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
 **Fable 5'in genel zeka sıralamasını diğer frontier modellerle benchmark etmek için bu örneği kullanın.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f9f3da0006bc0eb2c245281b.jpg" alt="Artificial Analysis Intelligence Index Sonucu" width="760">
 
 Claude Fable 5, Artificial Analysis Intelligence Index'te #1 olarak çıktı ve Anthropic'i diğer tüm laboratuvarların en iyi modelinin neredeyse 5 puan önüne koydu.
 
@@ -1984,6 +2046,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 38: [GDPval-AA Ajanik Bilgi Çalışması Benchmarkı](https://x.com/ArtificialAnlys/status/2064414308289937869) (tarafından [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
 **Fable 5'i ajanik gerçek dünya bilgi çalışmasında değerlendirmek için bu örneği kullanın.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/18572fdb3c0d8a57ba52e095.jpg" alt="GDPval-AA Ajanik Bilgi Çalışması Benchmarkı" width="760">
 
 Anthropic, ajanik gerçek dünya bilgi çalışması benchmarkımız GDPval-AA'da #1 olan ilk herkese açık Mythos sınıfı model Claude Fable 5'i yayınladı.
 
@@ -2048,6 +2112,8 @@ Type: Integration | Date: 2026-06-09
 
 **Kalite kazancının daha yüksek maliyeti ve daha yavaş uzun ufuklu çalışmaları haklı çıkarıp çıkarmadığını belirlemek için bu karşılaştırmayı kullanın.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/789680ca7655fca20b635442.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/691d0518cb50a6bebbb8b2b1.jpg" alt="Maliyet ve Hız Karşılaştırması" width="760"><br>▶ Videoyu izle</a>
+
 @AnthropicAI'ın Fable 5'i gerçekten yükseltmeye değer mi?
 
 Yeni Mythos-family modeli Claude Opus 4.8'e karşı benchmarkladık ve veriler şaşırtıcı bir hikaye anlatıyor:
@@ -2068,6 +2134,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 41: [Claude Code Uygulamalı Notları](https://x.com/Hi_Noguchi/status/2064419241068319079) (tarafından [@Hi_Noguchi](https://x.com/Hi_Noguchi))
 
 **Araç kullanımı, kişilik ve kalan pürüzler dahil Fable 5'i Claude Code içinde değerlendirmek için bu örneği kullanın.**
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5feb645426dcf905eac2992d.jpg" alt="Claude Code Uygulamalı Notları" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/933c469793e248f634cfad55.jpg" alt="Claude Code Uygulamalı Notları" width="760"></td></tr></table>
 
 Claude Fable 5'i Claude Code 2.1.170 ile denedim.
 
@@ -2094,6 +2162,8 @@ Type: Demo | Date: 2026-06-09
 
 **Fable 5'in kısa kurgu yazım kalitesini ve refusal davranışını yargılamak için bu benchmark örneğini kullanın.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5849f936dc58518fd5d810ef.jpg" alt="Yaratıcı Yazarlık Benchmark Sonucu" width="760">
+
 Claude Fable 5 (high), kısa kurgu yazımında bir seviye yukarı.
 
 Short-Story Creative Writing Benchmark'ta Claude Opus 4.8 (xhigh) ve Claude Opus 4.7'yi (high) geçiyor; GPT-5.5'in (xhigh) arkasında ikinci sırada.
@@ -2110,6 +2180,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 43: [Çoklu Benchmark Lansman Özeti](https://x.com/MTSlive/status/2064430633800319436) (tarafından [@MTSlive](https://x.com/MTSlive))
 
 **Kodlama ajanları ve karmaşık görevler için en ilgili headline skorları anlamak üzere bu lansman benchmark özetini kullanın.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/45b71a2babb9da9a93f43220.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c25c02c52c5d4b6b24364401.jpg" alt="Çoklu Benchmark Lansman Özeti" width="760"><br>▶ Videoyu izle</a>
 
 DURUM AÇIKLANDI: Claude Fable 5 az önce çıktı.
 • Anthropic bugün Claude Fable 5'i yayınladı, "genel kullanım için güvenli hale getirilmiş Mythos sınıfı bir model"
@@ -2128,6 +2200,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 44: [GPT-5.5 ile Benchmark ve Fiyat Karşılaştırması](https://x.com/VaibhavSisinty/status/2064459064810361271) (tarafından [@VaibhavSisinty](https://x.com/VaibhavSisinty))
 
 **Fable 5'i GPT-5.5'e karşı fiyat ve benchmark kategorileri açısından değerlendirmek için bu karşılaştırmayı kullanın.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e39fb67b74af346e8fbb67ea.jpg" alt="GPT-5.5 ile Benchmark ve Fiyat Karşılaştırması" width="760">
 
 Anthropic'in yeni Mythos-class modeli OpenAI'ın en iyi modelinden 3x daha ucuz. Ve neredeyse her benchmarkta onu geçiyor. 🤯
 
@@ -2194,6 +2268,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Çıktı kalitesini, maliyeti ve hızı karşılaştırmak için aynı fizik simülasyonu promptlarını Fable 5 ve Opus 4.8'e karşı çalıştırın.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/06387b798061869ccaeaf586.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/df5cc72de1f70556de0d682b.jpg" alt="Fizik Simülasyonu Karşılaştırması" width="760"><br>▶ Videoyu izle</a>
+
 Yeni Fable 5, gerçek dünya fizik simülasyonlarında Opus 4.8'i geçiyor.
 
 İki modele aynı üç promptu verdik ve gerçek fizik içeren, kütüphanesiz, kendi kendine yeten HTML5 simülasyonları yapmalarını istedik:
@@ -2239,6 +2315,8 @@ Type: Demo | Date: 2026-06-09
 
 **Fable 5'i günlük sürücü yapmadan önce pratik güçlü ve zayıf yönleri anlamak için bu örneği kullanın.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/fdba0d6cb9ba0e1214113e65.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d2825453d0a742892a4fe529.jpg" alt="Çok Boyutlu Artılar ve Eksiler" width="760"><br>▶ Videoyu izle</a>
+
 Fable 5 (aka baby Mythos) az önce çıktı. İddia ettikleri kadar korkutucu mu (veya korkutucu derecede iyi mi)? Biraz erken testten sonra düşüncelerim:
 - smart smart smart (SWE bench'i ezdi)
 - ama her zaman hiper zekaya ihtiyacınız var mı?
@@ -2261,6 +2339,8 @@ Type: Demo | Date: 2026-06-09
 
 **S-1 taslak promptunu hukuki ajan kabiliyet testi olarak kullanın ve yapı, biçimlendirme ve uzunluğu karşılaştırın.**
 
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/bb874ef2647de32ccdb3edf9.png" alt="Hukuki S-1 Taslak Testi" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6a9c3856ebce1bd9cd3d062d.jpg" alt="Hukuki S-1 Taslak Testi" width="760"></td></tr><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/96734bfca49d5b3fe6f83ed5.png" alt="Hukuki S-1 Taslak Testi" width="760"></td></tr></table>
+
 Yeni bir modelde hukuki yetenekleri test etmek için her zaman çalıştırdığım ilk prompt: “Draft an S-1”.
 
 Modelin genel yeteneklerine hemen iyi bir his verir. S-1'in uzunluğundan, biçimlendirmesinden, yapısından ve yazımından yeni modelin genel ve hukuki performansta ne kadar büyük bir sıçrama yapacağını anlayabilirsiniz.
@@ -2281,6 +2361,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 50: [Sağlık Benchmark Ayrıntıları](https://x.com/iScienceLuvr/status/2064411823445774554) (tarafından [@iScienceLuvr](https://x.com/iScienceLuvr))
 
 **Fable 5'i sağlıkla ilgili görevlerde değerlendirmek ve eksik zor tıbbi eval'leri belirlemek için bu benchmark notunu kullanın.**
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f599a548651eccbfce8b888d.jpg" alt="Sağlık Benchmark Ayrıntıları" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/69ebc490407b9d54c6de3707.jpg" alt="Sağlık Benchmark Ayrıntıları" width="760"></td></tr><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/1a89ad2c2622cdbba994d70c.jpg" alt="Sağlık Benchmark Ayrıntıları" width="760"></td></tr></table>
 
 Anthropic'in sağlıkla ilgili eval'ler sağlamasını takdir ediyorum. Hızlıca üzerinden geçelim.
 
@@ -2311,6 +2393,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Fable 5'in belge ayrıştırma için uzman OCR sistemlerine kıyasla maliyet etkin olup olmadığını belirlemek için bu örneği kullanın.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ae01590f41e6954f27278848.png" alt="ParseBench Belge Ayrıştırma Değerlendirmesi" width="760">
+
 Claude Fable 5 belge ayrıştırmayı kendine düşük görüyor.
 
 Reasoning-intensive ve uzun ufuklu benchmarklarda kesinlikle ezip geçiyor: SWE-Bench Pro, FrontierCode, GDPval, RuneScape ve daha fazlası.
@@ -2333,6 +2417,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 52: [SWE-Bench Pro ve FrontierCode Karşılaştırması](https://x.com/jumperz/status/2064402965461406044) (tarafından [@jumperz](https://x.com/jumperz))
 
 **Fable 5'i migration'lar, karmaşık uygulamalar, otonom oturumlar, testler ve görsel doğrulama için değerlendirmek üzere bu benchmark örneğini kullanın.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/771df9c428ba5cc0a8fab5de.png" alt="SWE-Bench Pro ve FrontierCode Karşılaştırması" width="760">
 
 Fable 5 geldi ve ajanik kodlama benchmarkı SWE-Bench Pro'da GPT 5.5'i dürüstçe yok ediyor:
 
@@ -2394,6 +2480,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Belge sadakati ve biçimlendirme performansını yargılamak için bu ParseBench sonucunu kullanın.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/2888842a85fbd5c7a4a22e24.png" alt="ParseBench Sadakat ve Biçimlendirme Sonuçları" width="760">
+
 ParseBench'te Day 0 Anthropic Fable 5.
 
 Modelin belge anlama alanındaki ilerlemelerini test ettik.
@@ -2418,6 +2506,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 55: [Benchmarklar, Fiyatlandırma, Erişim ve Koruma Önlemleri](https://x.com/lucas_flatwhite/status/2064483645184979183) (tarafından [@lucas_flatwhite](https://x.com/lucas_flatwhite))
 
 **Bu örneği benchmarklar, fiyatlandırma, erişim, koruma önlemleri ve stratejik sonuçlar için geniş bir checklist olarak kullanın.**
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f44cba8e6f3d765ca5960923.png" alt="Benchmarklar, Fiyatlandırma, Erişim ve Koruma Önlemleri" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/8f13714ca9f9e20711fdd898.jpg" alt="Benchmarklar, Fiyatlandırma, Erişim ve Koruma Önlemleri" width="760"></td></tr><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0d1f69a50478623f5e1d0248.jpg" alt="Benchmarklar, Fiyatlandırma, Erişim ve Koruma Önlemleri" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0cf2c270484f1e2aba514261.jpg" alt="Benchmarklar, Fiyatlandırma, Erişim ve Koruma Önlemleri" width="760"></td></tr></table>
 
 Claude Fable 5 ve Mythos 5 yayınlandı. Anthropic'in şimdiye kadar yaptığı en güçlü modeller bunlar.
 
@@ -2478,6 +2568,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Fable 5'in kodlama, bilgisayar kullanımı ve güvenlik görevlerindeki resmi skorlarını anlamak için bu benchmark listesini kullanın.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/b548ec23f85e3eb1600e9214.jpg" alt="Resmi Benchmark Skor Listesi" width="760">
+
 Resmi Claude Fable 5 benchmarkları cidden etkileyici.
 
 Temel skorlar:
@@ -2505,6 +2597,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Fable 5'i APEX-SWE üzerinde, özellikle observability ve integration işi açısından değerlendirmek için bu örneği kullanın.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/96120496893ca99f17d0c746.jpg" alt="APEX-SWE Benchmark Metodolojisi" width="760">
+
 Claude Fable 5, APEX-SWE'de #1 oldu: genel Pass@1 %65,5. Opus 4.8'den yaklaşık 18pp yüksek skor alıyor. @claudeai Fable 5'i AI modellerinin gerçek yazılım mühendisliği işi yapıp yapamadığını ölçen APEX-SWE üzerinde test ettik. Fable 5 iki APEX-SWE kategorimizin başında:
 - Integration: %61,3
 - Observability: %69,7
@@ -2523,6 +2617,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 58: [ProofBench Formel Matematik Sonucu](https://x.com/nicbstme/status/2064443782255554960) (tarafından [@nicbstme](https://x.com/nicbstme))
 
 **Fable 5'i uzman theorem-proving sistemlerine karşı formel matematikte değerlendirmek için bu örneği kullanın.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/588cff83994406d2b5dd7cb9.jpg" alt="ProofBench Formel Matematik Sonucu" width="760">
 
 Claude Fable 5 ile ilgili büyüleyici bulduğum şey, büyük genelci modellerin dikey modelleri geçeceğini bir kez daha kanıtlaması.
 
@@ -2549,6 +2645,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 59: [VirtueBench Ön Analizi](https://x.com/timhwang/status/2064446028997423180) (tarafından [@timhwang](https://x.com/timhwang))
 
 **Fable 5'in erdem kategorileri genelindeki ahlaki akıl yürütme davranışını incelemek için bu örneği kullanın.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9caae04d701510ca662873fe.png" alt="VirtueBench Ön Analizi" width="760">
 
 Büyüleyici sonuçlar önümüzdeki günlerde ICMI tarafından daha ayrıntılı yayınlanacak, ama burada Fable 5'i VirtueBench'e karşı çalıştıran ön inceleme var.
 
@@ -2577,6 +2675,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Lansman zamanı güvenlik overfit riskini ve API testindeki boş yanıt davranışını anlamak için bu örneği kullanın.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e9f75a2a76f55ee2b12b7aab.jpg" alt="API Boş Yanıt Güvenlik Overfit Testi" width="760">
+
 Claude Fable 5 ağır sansürlü.
 
 Upstream API endpoint'i, görünüşe göre keyword'ler üzerinde classifier ilişkili olarak `empty_content` yanıtlarıyla çağrıları öldürüyor; yine de ücretlendiriyor.
@@ -2598,6 +2698,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Uzun istem hilelerinden hedef, bağlam, kısıt, araç ve doğrulama döngülerine geçmek için bu kılavuzu kullanın.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/444a6e1898d3f63898e3e22f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d5c9529aa9c1d59ae597d31d.jpg" alt="Fable İstem ve Doğrulama Kılavuzu" width="760"><br>▶ Videoyu izle</a>
+
 Fable 5 istemlerini uzun bir adım listesi yerine bağlam ve ortam tasarımı olarak ele alın. Gönderi; açık hedef, ilgili bağlam, kısıtlar, araç erişimi ve başarıyı doğrulama yönteminden oluşan pratik bir yaklaşımı özetliyor. Doğrulama, değerlendirme ve geri bildirimin modelin akıl yürütmesini ayrıntılı yönetmekten daha önemli olduğunu da savunuyor.
 
 Type: Tutorial | Date: 2026-06-11
@@ -2609,6 +2711,8 @@ Type: Tutorial | Date: 2026-06-11
 ### Case 62: [İstanbul Platform Oyunu Referans Yapımı](https://x.com/ozansihay/status/2064973170780545535) (yazan [@ozansihay](https://x.com/ozansihay))
 
 **Fable 5'in oynanabilir platform oyunu oluşturmasını sınamak için bir sprite sayfası ve tek dönüştürme talimatı kullanın.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/1e91c3bcff213437fdd442f6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/538fc8ee9dd7e627bc73921a.jpg" alt="İstanbul Platform Oyunu Referans Yapımı" width="760"><br>▶ Videoyu izle</a>
 
 İçerik üreticisi önce GPT Image 2 ile retro İstanbul platform oyunu için bir sprite sayfası üretti, ardından bu referans görseli Claude Fable 5 High'a vererek görseli oyuna dönüştürmesini istedi. Bildirdiğine göre sonuç tek geçişte elde edildi.
 
@@ -2622,6 +2726,8 @@ Type: Demo | Date: 2026-06-11
 
 **Bir iş akışını canlı bir 3D şehir panosu konseptine dönüştürmek için Fable 5'i kullanın.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f238acf3f8804068085ff134.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/3d938264442a14676a86c4f3.jpg" alt="İşletme İçin 3D Şehir Panosu" width="760"><br>▶ Videoyu izle</a>
+
 Gönderi; depoların, paketlemenin, dronların, siparişlerin, departmanların, müşterilerin ve yapay zekâ yardımcılarının canlı 3D şehre dönüştüğü tek istemlik iş görselleştirmesini anlatıyor. Çıktıyı müşteriye sunulan statik slaytlara alternatif olarak konumlandırıyor. Ekranda 42 teslimat, 12 dakikalık ortalama süre ve $651 gelir gibi operasyonel göstergeler yer alıyor.
 
 Type: Demo | Date: 2026-06-11
@@ -2633,6 +2739,8 @@ Type: Demo | Date: 2026-06-11
 ### Case 64: [Three.js Delik Oyununu Tek Seferde Oluşturma](https://x.com/thebuggeddev/status/2064968106104275008) (yazan [@thebuggeddev](https://x.com/thebuggeddev))
 
 **Three.js ile bir 3D tarayıcı oyunu prototipini tek seferde oluşturmak için Fable 5'i kullanın.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/86a75412c6c443b3d0e62bf8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f11df06938c26759710a1981.jpg" alt="Three.js Delik Oyununu Tek Seferde Oluşturma" width="760"><br>▶ Videoyu izle</a>
 
 İçerik üreticisi, Fable 5'in Three.js kullanarak HOLE IT tarzında tam bir 3D oyunu tek geçişte oluşturduğunu söylüyor. Bu, kısa bir istekten oynanabilir 3D etkileşim üretimini sınamak için küçük ama somut bir oyun oluşturma demosu.
 
@@ -2646,6 +2754,8 @@ Type: Demo | Date: 2026-06-11
 
 **Fable 5 xHigh ile GPT-5.5 xHigh'ın yazılım mühendisliği kıyaslamasındaki performansını karşılaştırmak için bu DeepSWE notunu kullanın.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/996d95539a3b54fecbfdf404.jpg" alt="DeepSWE Puan Karşılaştırması" width="760">
+
 Gönderi, Claude Fable 5 xHigh'ın DeepSWE'de %70 alarak GPT-5.5 xHigh ile aynı puana ulaştığını bildiriyor ve kaynak bağlamı olarak Theo'nun yakın tarihli videosunu gösteriyor. Daha güçlü sonuçlar çıkarmadan önce asıl videodan doğrulanması gereken bir kıyaslama ipucu olarak ele alın.
 
 Type: Evaluation | Date: 2026-06-11
@@ -2657,6 +2767,8 @@ Type: Evaluation | Date: 2026-06-11
 ### Case 66: [Depo Analizi Maliyet Karşılaştırması](https://x.com/Pilgrim6938/status/2064946766278210038) (yazan [@Pilgrim6938](https://x.com/Pilgrim6938))
 
 **Token fiyatını insanın yeniden çalışma maliyetiyle birlikte değerlendirmek için bu depo analizi karşılaştırmasını kullanın.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/cfb0c1ff3e8ebe66cfa35400.jpg" alt="Depo Analizi Maliyet Karşılaştırması" width="760">
 
 Gönderi Claude Fable 5, Opus 4.8, GPT-5.5 ve Gemini 3.1 Pro'yu aynı görevde karşılaştırıyor: yaklaşık 90.000 satırlık depoyu analiz etmek, önbellek geçersizleştirme sorununu bulmak ve tam düzeltme planı önermek. Yazar, geliştirici düzeltme süresi hesaba katıldığında token fiyatı ile gerçek görev maliyetinin ayrıştığını savunuyor. Fable 5'i karmaşık yeniden düzenleme, modüller arası geçiş ve uzun ajan zincirlerinde seçici kullanmayı öneriyor.
 
@@ -2670,6 +2782,8 @@ Type: Evaluation | Date: 2026-06-11
 
 **Fable 5'in çıktı kalitesini ve token tüketimini değerlendirmek için bu tek geçişlik oyun yapımını kullanın.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9ce65e5fee946b6940810e0d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7c577d0766bbc3da8cddeb70.jpg" alt="Super Mario Oyununun Token Maliyeti" width="760"><br>▶ Videoyu izle</a>
+
 İçerik üreticisi Claude Fable 5'ten Nintendo Super Mario tarzında bir oyun oluşturmasını istedi. Gönderiye göre görev yaklaşık 2 milyon token kullandı ve tek geçişte güçlü sonuç verdi; hem oyun oluşturma kalitesini hem maliyeti değerlendirmeye yarıyor.
 
 Type: Demo | Date: 2026-06-11
@@ -2681,6 +2795,8 @@ Type: Demo | Date: 2026-06-11
 ### Case 68: [Claude Code Model Geçiş Ayarı](https://x.com/oikon48/status/2064937790010503347) (yazan [@oikon48](https://x.com/oikon48))
 
 **Fable 5 mesajı işaretlendiğinde model değiştiren Claude Code ayarını anlamak için bu örneği inceleyin.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0ae9039401c658170e5081e8.jpg" alt="Claude Code Model Geçiş Ayarı" width="760">
 
 Gönderi, Claude Code `/config` içinde «Switch models when a message is flagged» adlı ayarı gösteriyor. Fable 5'in saldırı amaçlı siber güvenlik teknikleri, biyoloji/yaşam bilimleri deney yöntemleri, moleküler mekanizmalar veya modelin düşünme süreçlerini çıkarma istekleri gibi işaretlenen alanlarda Opus modeline geçebildiğini açıklıyor.
 
@@ -2694,6 +2810,8 @@ Type: Integration | Date: 2026-06-11
 
 **Bu demoyu, Fable 5 ile doğal dil üzerinden toplu taşıma simülatörü geliştirmeye kısa bir örnek olarak kullanın.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0e0dae71ad7b5ead331366fb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/86dccb2b150cfb90fbd03de2.jpg" alt="Namma Metro Simülatörünün Yapımı" width="760"><br>▶ Videoyu izle</a>
+
 İçerik üreticisi, Bengaluru Metrosu'nda yolculuk ederken Claude Fable 5'i kodlama ortağı olarak kullanıp Namma Metro simülatörü geliştirdiğini bildiriyor. Kısa gönderi görsel demoya bağlantı veriyor ve Fable 5'in belirli bir şehre dayalı simülasyon fikrinde kullanımını gösteriyor.
 
 Type: Demo | Date: 2026-06-11
@@ -2705,6 +2823,8 @@ Type: Demo | Date: 2026-06-11
 ### Case 70: [Tek İstemle Dusk Drive Oyunu](https://x.com/VincentLogic/status/2064921358359011684) (yazan [@VincentLogic](https://x.com/VincentLogic))
 
 **Fable 5'i insan düzenlemesi olmadan düşük poligonlu oyun prototiplemede değerlendirmek için bu tek istemlik sürüş oyunu örneğini kullanın.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/274fed4f3211ec8c02862261.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5d7a58bcad6e2151517a8462.jpg" alt="Tek İstemle Dusk Drive Oyunu" width="760"><br>▶ Videoyu izle</a>
 
 Gönderi, Claude Fable 5'in tek istemden Dusk Drive adlı eksiksiz sürüş oyunu oluşturmasını anlatıyor. Üretici düşük poligonlu görsel stili, kuzey ışıkları altında karda drift sahnesini ve fikirden oynanabilir sürüme kadar hiç insan düzenlemesi yapılmadığı iddiasını öne çıkarıyor.
 
@@ -2718,6 +2838,8 @@ Type: Demo | Date: 2026-06-11
 
 **Fable 5 Max'i çok adımlı otonom görevlerde karşılaştırmak için bu APEX-Agents sonucunu kullanın.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/189c46cfd2798d6881941f98.jpg" alt="APEX-Agents Pass@1 Sıralaması" width="760">
+
 Gönderiye göre Fable 5 Max, APEX-Agents sıralamasında %45 Pass@1 ile Gemini 3.5 Flash'ın arkasında, Opus'un önünde ikinci oldu. APEX-Agents, yapay zekânın karmaşık ve çok adımlı görevleri bağımsız yerine getirme becerisini ölçen bir kıyaslama olarak tanımlanıyor.
 
 Type: Evaluation | Date: 2026-06-11
@@ -2729,6 +2851,8 @@ Type: Evaluation | Date: 2026-06-11
 ### Case 72: [Claude Model Seçim Rehberi](https://x.com/charliejhills/status/2064957428211536212) (yazan [@charliejhills](https://x.com/charliejhills))
 
 **Fable 5'i en zor Claude Code işleri için ayırmak üzere bu model seçim rehberini kullanın.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/959ebfa499d2bf75df5bec25.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/3bcfe8f1e2238b01d3c4d954.jpg" alt="Claude Model Seçim Rehberi" width="760"><br>▶ Videoyu izle</a>
 
 Gönderi Haiku 4.5, Sonnet 4.6, Opus 4.8 ve Fable 5'i modelin harcadığı çaba ve limit kullanımı açısından karşılaştırıyor. Pratik önerisi, günlük işlerde Sonnet kullanmak, zor sorunlarda Opus'a geçmek ve planlama, geliştirme ve test derinliğinin önemli olduğu en zor Claude Code görevleri için Fable 5'i saklamak.
 
@@ -2742,6 +2866,8 @@ Type: Tutorial | Date: 2026-06-11
 
 **Günler boyunca geliştiren, test eden, oynayan ve temel işleyiş kontrolleri yapan müdahalesiz Fable 5 döngüsünü bu örnekle inceleyin.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e334a84db7b671eb6a1a3f54.jpg" alt="HermesWorld Otomatik Ajan Döngüsü" width="760">
+
 İçerik üreticisi, HermesWorld v2'yi tamamen otomatik döngüde Fable 5 kullanarak geliştirdiğini anlatıyor. Bildirdiğine göre ajan günlerce çalışıyor, özellikler geliştirip test ediyor, ortaya çıkan ürünü oynayarak deniyor ve tamamlamaya ilerlerken temel işleyiş kontrolleri yapıyor.
 
 Type: Integration | Date: 2026-06-11
@@ -2753,6 +2879,8 @@ Type: Integration | Date: 2026-06-11
 ### Case 74: [McKinsey Tarzı Rapor İstemi Testi](https://x.com/smtgpt/status/2064953210335588758) (yazan [@smtgpt](https://x.com/smtgpt))
 
 **Danışmanlık raporunun yapısını, grafiklerini, anlatımını ve risk analizini değerlendirmek için bu belge oluşturma istemini kullanın.**
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e337dca3bbada9167e20417c.jpg" alt="McKinsey Tarzı Rapor İstemi Testi" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6289e626a4f324fc93086100.jpg" alt="McKinsey Tarzı Rapor İstemi Testi" width="760"></td></tr></table>
 
 İçerik üreticisi Fable 5'ten, bir varlık sınıfı olarak Bitcoin ve blokzincir teknolojisi hakkında gerektiğinde grafik ve görseller içeren ayrıntılı McKinsey tarzı rapor istedi. Bildirilen çıktı; veri, grafik, yatırım tezi ve risk analizi içeren 19 sayfalık belgeydi. Değerlendirme yapıyı güçlü buluyor; görsellerin daha net, açıklamaların daha öz olabileceğini belirtiyor.
 
@@ -2778,6 +2906,8 @@ Type: Integration | Date: 2026-06-11
 
 **Fable 5 model adı ve bağlam eşleştirme sorunlarından kaçınmak için bu Claude Code değişiklik notunu kullanın.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e66551db2c85ef7f8c4a3f4e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ae7cbd873deebd28d3ff05d7.jpg" alt="Claude Code Model Eşleştirme Düzeltmesi" width="760"><br>▶ Videoyu izle</a>
+
 Claude Code 2.1.173, varsayılan 1M bağlam model eşleştirmeyi bozmasın diye Fable 5 model adlarından `[1m]` sonekini kaldıran bir düzeltme içeriyor. Aynı sürüm, Windows korumalı alanı bağımlılığına ilişkin hatalı uyarıyı bastırıyor ve grep yardım çıktısındaki kipleri netleştiriyor.
 
 Type: Integration | Date: 2026-06-11
@@ -2788,9 +2918,9 @@ Type: Integration | Date: 2026-06-11
 <a id="case-77"></a>
 ### Case 77: [Claude Code İçinde Üç Web Uygulaması](https://x.com/0x3b33/status/2064948399300825439) (yazan [@0x3b33](https://x.com/0x3b33))
 
-**Birden fazla üretilmiş web uygulaması üzerinden Claude Code içindeki Fable 5'i incelemek için bu başlangıç seviyesi kodlama demosunu kullanın.**
+**Uygulama geliştirme anlatısını herkese açık bir demodan ayırın.**
 
-İçerik üreticisi, kodlama geçmişi olmadan Claude Code ve Fable 5 ile 30 dakikada üç çalışan web uygulaması oluşturduğunu, bunları yerel 3000, 3001 ve 3002 portlarında açtığını söylüyor. Bunu kıyaslama değil, başlangıç seviyesine yönelik küçük bir iş akışı demosu olarak ele alın.
+Gönderi, 30 dakikada üç web uygulaması oluşturulduğunu söylüyor; ancak yalnızca 3000, 3001 ve 3002 bağlantı noktalarındaki localhost adreslerini veriyor. Bunlar yerel bir bilgisayarı gösterir ve herkese açık uygulama veya medya sunmaz.
 
 Type: Demo | Date: 2026-06-11
 
@@ -2801,6 +2931,8 @@ Type: Demo | Date: 2026-06-11
 ### Case 78: [Açık Kaynak Uygulama Oluşturucu Rilable](https://x.com/rileybrown/status/2064931283403178354) (yazan [@rileybrown](https://x.com/rileybrown))
 
 **Fable 5'in iOS, web uygulamaları, korumalı alanlar ve API token maliyetiyle ilişkisini bu açık kaynak oluşturucu üzerinden inceleyin.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/73ee02ae0f6703a8cfbe5a6c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f30c1d169ce45b19beb493b7.jpg" alt="Açık Kaynak Uygulama Oluşturucu Rilable" width="760"><br>▶ Videoyu izle</a>
 
 İçerik üreticisi, web ve iOS uygulamaları oluşturan Rilable adlı iOS uygulamasını açık kaynak yaptı. Gönderiye göre uygulama Fable 5 ile 10 istemde geliştirildi ve yaklaşık $210 API token maliyeti oluştu. Uygulama üretiminde Claude modelleri, korumalı alanlarda Daytona, veritabanında Convex, yapay zekâ özelliklerinde Vercel AI Gateway, iOS uygulamalarında ise Chorus ajanının iOS becerisi kullanılıyor.
 
@@ -2814,6 +2946,8 @@ Type: Integration | Date: 2026-06-11
 
 **Güncellenmiş Artificial Analysis endeksini kullanarak, geri dönüştürülmüş herkese açık GitHub düzeltmelerinden kaçınan daha zor ajanik kodlama görevlerinde Claude Fable 5'i karşılaştırın.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7b9ab8ba77c1e29f8ba4d270.jpg" alt="DeepSWE Kodlama Ajanı Endeksine Giriş" width="760">
+
 Artificial Analysis, Coding Agent Index'inde SWE-Bench Pro'yu Datacurve'ün DeepSWE'siyle değiştirdi. Gönderi, benchmark kirliliğini azaltmak için DeepSWE'nin herkese açık GitHub issue'larını veya pull request'leri uyarlamak yerine görevleri sıfırdan yazdığını söylüyor. Güncellenen sıralamada Fable 5 Max ile Claude Code 77 ile giriş yapıyor; 76'daki GPT-5.5 xhigh'lı Codex'in ve 73'teki Opus 4.8 Max'lı Claude Code'un önünde.
 
 Type: Evaluation | Date: 2026-06-12
@@ -2824,6 +2958,8 @@ Type: Evaluation | Date: 2026-06-12
 ### Case 80: [DataEmpire Web Analitiği Oyunu](https://x.com/marclou/status/2065029898243318093) (tarafından [@marclou](https://x.com/marclou))
 
 **Claude Fable 5'ten ziyaretçileri ve kilometre taşlarını oyun varlıklarına eşlemesini isteyerek ham site analitiğini yeniden oynanabilir bir oyuna dönüştürün.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/2850773b9869c5521200f2e0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6d2dd87d74ece01b277e1e12.jpg" alt="DataEmpire Web Analitiği Oyunu" width="760"><br>▶ Videoyu izle</a>
 
 Marc Lou, Claude Fable 5'in DataFast web analitiği API'sinin üzerine DataEmpire'ı kurduğunu söylüyor. Her ziyaretçi bir köylüye dönüşüyor, trafik büyümesi yerleşimi genişletiyor ve Age of Legends 1 milyon ziyaretçide açılıyor. Herkese açık demo, DataFast kullanıcılarının kendi site geçmişlerini oyun katmanı üzerinden yeniden oynamasına izin veriyor; bu da bunu statik bir oyun klibinden çok somut, API destekli bir ürünleştirme örneği haline getiriyor.
 
@@ -2836,6 +2972,8 @@ Type: Integration | Date: 2026-06-11
 
 **FrontierSWE'yi, Claude Fable 5'in yalnızca kısa bug-fix döngülerinde değil, çok uzun mühendislik görevlerinde de üretken kalabildiğine dair kanıt olarak kullanın.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/eb36bb1120ef55f9e38c516d.jpg" alt="FrontierSWE 20 Saatlik Görev Sinyali" width="760">
+
 ProximalHQ, Claude Fable 5'in FrontierSWE'de 1 numaraya yerleştiğini bildiriyor ve bunu benchmark'ı yayımladıklarından beri gördükleri en büyük kabiliyet sıçraması olarak nitelendiriyor. Notlarına göre Fable 5 birçok görevde yaklaşık 20 saat boyunca üretken kalabiliyor ve önceki modeller için fiilen erişilemez olan görevleri tam kapasiteyle ele alıyor.
 
 Type: Evaluation | Date: 2026-06-11
@@ -2846,6 +2984,8 @@ Type: Evaluation | Date: 2026-06-11
 ### Case 82: [KernelBench-Hard CUDA Rekorları](https://x.com/elliotarledge/status/2065109393142849932) (tarafından [@elliotarledge](https://x.com/elliotarledge))
 
 **Yalnızca mevcut kütüphanelerin sarmalayıcıları değil, düşük seviyeli optimizasyon gerektiğinde Claude Fable 5'i ileri seviye CUDA kernel üretimi için kullanın.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6c6931ed511eb3e539d56bc3.jpg" alt="KernelBench-Hard CUDA Rekorları" width="760">
 
 Elliot Arledge, RTX PRO 6000 üzerinde roofline dereceli KernelBench-Hard'da 13 frontier coding agent'ı 45'er dakika çalıştırdı. Claude Fable 5, top-k, sonic-MoE ve W4A16 int4 GEMM'de tüm zamanların rekorlarını kırdı, 6 problemin 5'inde zirveye çıktı ve yazar çalışmaları, liderlik tablosunu ve kodu yayımladı. Aynı thread, Fable 5'in gerçek bir tensor-core kernel denediği ancak tail-alignment edge case'i nedeniyle sıfır aldığı bir FP8 GEMM kaçırmasını da not ediyor.
 
@@ -2858,6 +2998,8 @@ Type: Evaluation | Date: 2026-06-11
 
 **Canlı bir rakip sayfasını Figma katmanlarına alın ve Claude Code'un Claude Fable 5 ile yapıyı, metinleri ve marka sistemini ekran görüntülerinden tahmin etmek yerine yeniden kurmasına izin verin.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5672cc8fd9d210042551f0ea.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/503c46a33c97f0db334ddc62.jpg" alt="Figma Capture Açılış Sayfası Klonu" width="760"><br>▶ Videoyu izle</a>
+
 Mike Futia, Figma'nın Chrome eklentisinin bir web sitesini düzenlenebilir katmanlara kopyaladığı, Claude Code'un bu katmanları Figma MCP üzerinden okuduğu, sayfayı kullanıcının marka sesiyle yeniden yazdığı ve GPT Image 2'nin markaya uygun fotoğraf ürettiği bir iş akışını anlatıyor. İddiaya göre uçtan uca sonuç yaklaşık 15 dakikada gönderime hazır bir landing page ve 16 görsel için kabaca 2 $ görüntü üretim API maliyeti.
 
 Type: Integration | Date: 2026-06-12
@@ -2868,6 +3010,8 @@ Type: Integration | Date: 2026-06-12
 ### Case 84: [İki Saatte GTA 2 Klonu](https://x.com/techhalla/status/2064682080445898957) (tarafından [@techhalla](https://x.com/techhalla))
 
 **Tüm yığını elle kodlamadan, ayrı varlık araçlarıyla birlikte Claude Fable 5 kod üretimini kullanarak oynanabilir bir 3D oyunu hızla oluşturun.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e0a1b46659d7a8287cb2f9d5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/cd1a2ad71e71db936bdcfd22.jpg" alt="İki Saatte GTA 2 Klonu" width="760"><br>▶ Videoyu izle</a>
 
 TechHalla, Claude Fable 5 High'ın yaklaşık iki saatte GTA 2 tarzı bir klon oluşturduğunu; üreticinin ise Tripo'da özel 3D modeller ürettiğini söylüyor. Gönderi prompt'ları içeren bir öğretici thread'e işaret ediyor; bu da onu salt bir benchmark teaser'ından ziyade çok araçlı oyun üretiminin kompakt bir örneği haline getiriyor.
 
@@ -2880,6 +3024,8 @@ Type: Tutorial | Date: 2026-06-10
 
 **Fable 5 destekli bir ajanın çok büyük servis log bağlamlarını işlemesine, mimariyi çıkarmasına ve ardından belirli arızalara daralmasına izin verin.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7f0f46eb79e43d87a2006fd4.jpg" alt="CloudWatch Log Triyaj Ajanı" width="760">
+
 diblacksmith, bir RLM ajanının tek çalıştırmada yaklaşık 80.000 satır CloudWatch logunu işlediğini, şimdiye kadar yalnızca yaklaşık 32 bin aktif token harcayarak 53 adıma ulaştığını bildiriyor. Ajanın loglardan sistem mimarisini çıkardığını ve AgentCore throttles ile Slack `user_not_found` hataları dahil ekibin gözden kaçırdığı sorunları işaretlediğini söylüyor.
 
 Type: Integration | Date: 2026-06-14
@@ -2890,6 +3036,8 @@ Type: Integration | Date: 2026-06-14
 ### Case 86: [Sandbox'larda Dünya Kupası Tahmincisi](https://x.com/upstash/status/2064702195333820846) (tarafından [@upstash](https://x.com/upstash))
 
 **Birden fazla frontier modeli izole sandbox'ların arkasına koyun ve herkese açık bir tahmin uygulaması için canlı haberleri, sakatlıkları ve sarı kart bağlamını araştırmalarına izin verin.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a5cf4fe5944c7aa2f703f4cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5b1f1422fe322bb7b66bdcc6.jpg" alt="Sandbox&#x27;larda Dünya Kupası Tahmincisi" width="760"><br>▶ Videoyu izle</a>
 
 Upstash, izole Upstash sandbox'ları içinde çalışan Claude Fable 5, GPT-5.5 ve Gemini ile bir Dünya Kupası tahmincisi kurduğunu söylüyor. Demo ve open-source yayın, Fable 5'i bağımsız bir sohbet demosundan ziyade çok modelli bir araştırma ve orkestrasyon yığınının içindeki modellerden biri olarak konumlandırıyor.
 
@@ -2902,6 +3050,8 @@ Type: Integration | Date: 2026-06-10
 
 **Claude Fable 5 üzerinde uzun otonom çalışmaları fiyatlarken ret davranışını gerçek bir benchmark değişkeni olarak ele alın.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/453639cc17719af4e94655e0.jpg" alt="WolfBench Ret Maliyeti Vakası" width="760">
+
 WolfBenchAI, Claude Fable 5 değerlendirmesinin $11,081.12 tuttuğunu, bunun bu seride şimdiye kadarki en pahalı benchmark çalışması olduğunu ve tekrar eden retlerin faydalı görev tamamlamasını düşürmesi nedeniyle yine de zirveye çıkamadığını söylüyor. Bu, ajan değerlendirmeleri veya diğer yüksek otonomi iş yükleri için bütçe yapan ekipler adına somut bir sınır vakası.
 
 Type: Evaluation | Date: 2026-06-12
@@ -2912,6 +3062,8 @@ Type: Evaluation | Date: 2026-06-12
 ### Case 88: [API Erişim Kesinti İzleyicisi](https://x.com/simonw/status/2065618703480414666) (tarafından [@simonw](https://x.com/simonw))
 
 **İş akışınız fazla uyarı vermeden rate-limit uygulanabilecek veya geri çekilebilecek bir frontier modele sürekli erişime bağlıysa kullanılabilirliği bir script ile izleyin.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7400c158cb93d9480a22bb46.jpg" alt="API Erişim Kesinti İzleyicisi" width="760">
 
 Simon Willison, erişimin ne kadar süreceğini görmek için `claude-fable-5` API'sine her dakika ping attığını ve kendi tarafında yanıt vermeyi bıraktığı tam noktayı raporladığını söylüyor. Gönderi uygulama ayrıntısı bakımından zayıf, ancak erişim sürekliliğinin varsayılacak bir şey değil, kullanıcıların ölçmek zorunda kaldığı operasyonel bir sınırlama haline geldiğine dair somut kanıt sunuyor.
 

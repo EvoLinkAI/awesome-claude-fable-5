@@ -445,6 +445,8 @@ curl --request POST \
 
 **Usa Fable 5 como paso de revision de plan y critica dentro de un flujo de trabajo de Cursor con varios modelos, y luego devuelve la implementacion y la revision a modelos mas baratos o especializados.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/8b1352e20cff54688c97f17c.png" alt="Flujo de trabajo multietapa en Cursor" width="760">
+
 Si miramos la puntuacion final entre Fable 5 y GPT 5.5, la brecha es muy pequena. Mi humilde recomendacion de uso es esta: en plataformas IDE como Cursor que admiten modelos hibridos, usa un flujo de trabajo por etapas.
 
 Fase 1: para revision de codigo y la primera fase de inspeccion del proyecto, mientras se calienta el contexto, usa uno de GPT 5.5 High, Minimax M3, Kimi K2.6 o Composer 2.5.
@@ -466,6 +468,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Pega una captura de pantalla de producto en una herramienta de codificacion agentica y pide a Fable 5 que recree la interfaz con funcionalidad real.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/14123609b06071f3b9527bee.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f4df4f42ce047201d9a096a6.jpg" alt="Recrear GitHub a partir de una captura de pantalla" width="760"><br>▶ Ver vídeo</a>
+
 🚨 Anthropic Fable 5 acaba de replicar GITHUB a partir de una CAPTURA DE PANTALLA!!
 
 Todo lo que hice fue pegar una captura de la UI de GitHub en Kilo Code y decirle que recreara GitHub con funcionalidad real.
@@ -483,6 +487,8 @@ Type: Demo | Date: 2026-06-09
 
 **Dale a Fable 5 un prompt detallado de creative coding y pidele que produzca una visualizacion fisica autocontenida en Three.js.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9bd45e74c64ceb3639600805.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ce5f3ea8ba270f89d60523cc.jpg" alt="Simulacion de agujero negro con un solo prompt" width="760"><br>▶ Ver vídeo</a>
+
 @claudeai hizo de una sola vez una simulacion en tiempo real de lente gravitacional de un agujero negro en Three.js con Claude Fable 5.
 
 Incluia lente gravitacional, un disco de acrecion con realce Doppler, esfera de fotones, aberracion cromatica y campo de estrellas procedural.
@@ -499,6 +505,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 4: [Web OS estilo macOS en un solo intento](https://x.com/intheworldofai/status/2064421915347812672) (por [@intheworldofai](https://x.com/intheworldofai))
 
 **Pide a Fable 5 un sistema operativo web completo en un solo archivo y deja que construya el shell de UI, apps, interacciones, audio y comportamiento de juego embebido en una pasada.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a66f34402d04f708819fa575.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/81946293919c84d4cafff841.jpg" alt="Web OS estilo macOS en un solo intento" width="760"><br>▶ Ver vídeo</a>
 
 🚨 Claude Fable 5 acaba de construir un Web OS completo estilo macOS de una sola vez y fue mas lejos que la mayoria de los modelos.
 
@@ -527,6 +535,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 5: [Construir Spawn 5.0 con 1.687 prompts](https://x.com/jsnnsa/status/2064420561078693941) (por [@jsnnsa](https://x.com/jsnnsa))
 
 **Usa Fable 5 como socio de ingenieria en sesiones largas a traves de muchos prompts, con el humano pasando de arquitectura a juzgar la calidad de la salida.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/86834f15f352ec8625cce187.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/b4077e43a1342d8567fa423f.jpg" alt="Construir Spawn 5.0 con 1.687 prompts" width="760"><br>▶ Ver vídeo</a>
 
 claude fable 5 esta en vivo.
 
@@ -557,6 +567,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 6: [Revision de una pull request grande con hallazgos](https://x.com/ryanrhughes/status/2064411147076534705) (por [@ryanrhughes](https://x.com/ryanrhughes))
 
 **Apunta Fable 5 a una pull request grande y pidele que revise correccion, falsos positivos, errores reales y problemas de pulido.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c4f47540205a071b0144ad9d.png" alt="Revision de una pull request grande con hallazgos" width="760">
 
 Solte a Fable 5 revisando una sola PR (74 archivos / +3.705 / -1.246) para ver como lo haria. Corrio durante 34 min, consumio 42% de mi sesion de 5 h, produjo 16 hallazgos de "correccion" y encontro:
 
@@ -641,6 +653,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Pide a Fable 5 que construya un juego de navegador que use seguimiento de dedos como mecanica de entrada.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/27e8d23ba659611cef811031.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7cddd38e3fccbf0cd7ea773c.jpg" alt="Dino Runner con seguimiento de dedos" width="760"><br>▶ Ver vídeo</a>
+
 Pedi a Fable 5 que construyera un juego Dino runner con seguimiento de dedos.
 
 Hizo el juego finger runner de una sola vez en unos 11 a 12 minutos, consumio alrededor de 914K tokens e implemento todo en apenas 629 lineas de codigo.
@@ -655,6 +669,8 @@ Type: Demo | Date: 2026-06-09
 ### Case 10: [Juego de carreras construido con dos frases](https://x.com/kieradev/status/2064482704763085202) (por [@kieradev](https://x.com/kieradev))
 
 **Dale a Fable 5 un prompt de juego muy corto y deja que genere mapas, modos, musica, UI y assets del juego en una sola ejecucion.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/51cf3c98b709a3c29bd5fd7c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6e64887a30cba9b5c25ba262.jpg" alt="Juego de carreras construido con dos frases" width="760"><br>▶ Ver vídeo</a>
 
 Claude Fable 5, 40% del uso de Max 5x.
 
@@ -673,6 +689,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Ejecuta Fable 5 mediante un harness de codificacion en terminal y pidele que construya un juego de terminal instalable en Rust.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/73feec38228181b8d57d8300.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/1f6cd3bd68e1a14443c7734f.jpg" alt="Minecraft de terminal instalable en Rust" width="760"><br>▶ Ver vídeo</a>
+
 Deje cocinar a Claude Fable 5 con el harness de Warp durante una hora.
 
 Hizo una version TUI de Minecraft que renderiza directamente en tu terminal, construida completamente en Rust.
@@ -689,6 +707,8 @@ Type: Demo | Date: 2026-06-10
 ### Case 12: [Clon de Minecraft con tiempo y costo](https://x.com/ydamitcodes/status/2064536076518363353) (por [@ydamitcodes](https://x.com/ydamitcodes))
 
 **Usa un prompt para pedir a Fable 5 un clon jugable estilo Minecraft, luego evalua tiempo, costo, volumen de codigo y cobertura de funciones.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c977ed7e710678ea6dc0495d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c0189f7f40d1040824902c11.jpg" alt="Clon de Minecraft con tiempo y costo" width="760"><br>▶ Ver vídeo</a>
 
 @claudeai Fable 5 me construyo un clon de Minecraft en 37 minutos.
 
@@ -711,6 +731,8 @@ Type: Tutorial | Date: 2026-06-10
 ### Case 13: [Prompt completo y reproducible para email ecommerce](https://x.com/ecomchasedimond/status/2064454139225297091) (por [@ecomchasedimond](https://x.com/ecomchasedimond))
 
 **Dale a Fable 5 un brief creativo completo para un mockup de email de marca, incluyendo secciones exactas, requisitos de producto, direccion visual y restricciones.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ea7d74eecf453ae6ab43c269.jpg" alt="Prompt completo y reproducible para email ecommerce" width="760">
 
 Claude Fable 5 hizo esto con un solo prompt y sin ediciones.
 
@@ -854,6 +876,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Usa Fable 5 en un benchmark de simulacion mecanica y pidele que implemente, verifique e itere sobre la correccion fisica.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/cd4ae25f7dcbb04ecbb2dea6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/473227e429d59c59afdbd529.jpg" alt="Benchmark de relojero con escape suizo" width="760"><br>▶ Ver vídeo</a>
+
 Asi que le di a Fable 5 el benchmark del relojero: un movimiento completo de escape suizo en Three.js.
 
 Relaciones de engranajes reales (18.000 bph), escape funcional, espiral que respira, y las manecillas dan la hora real.
@@ -870,6 +894,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 15: [Escena del apartamento de Friends en Three.js](https://x.com/scottstts/status/2064464351906673029) (por [@scottstts](https://x.com/scottstts))
 
 **Pide a Fable 5 que convierta un plano y una referencia de escena en un entorno navegable de Three.js.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/04c08937fcecea5183759ade.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6a14f69d92bfca4ace3f746c.jpg" alt="Escena del apartamento de Friends en Three.js" width="760"><br>▶ Ver vídeo</a>
 
 Holy Crap!!!
 
@@ -889,6 +915,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 16: [Simulacion del sistema solar con prompt y URL](https://x.com/tetumemo/status/2064477582930989357) (por [@tetumemo](https://x.com/tetumemo))
 
 **Usa Fable 5 para construir una simulacion astronomica a partir de principios fisicos, iterando hasta que la simulacion y la salida publica esten listas.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6da60b0762f926c4d4e7012d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7b9655305fbcbec6ac3b0a9c.jpg" alt="Simulacion del sistema solar con prompt y URL" width="760"><br>▶ Ver vídeo</a>
 
 Claude Fable 5 es intenso.
 
@@ -1014,6 +1042,10 @@ Type: Demo | Date: 2026-06-09
 ### Case 20: [Como Fable 5 cambia los flujos de Claude Code](https://x.com/AI_masaou/status/2064448218038223206) (por [@AI_masaou](https://x.com/AI_masaou))
 
 **Usa Fable 5 estableciendo direccion, contexto, objetivos y criterios de verificacion en lugar de microgestionar cada paso.**
+
+[Vídeo original · @ClaudeDevs](https://x.com/ClaudeDevs/status/2064399512664526853)
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/bcf9dc92c525978c69b3c869.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9567dd41be289437a45f8800.jpg" alt="Como Fable 5 cambia los flujos de Claude Code" width="760"><br>▶ Ver vídeo</a>
 
 Lo que cambio en el trabajo diario del equipo de Claude Code despues de Claude Fable 5 es interesante.
 
@@ -1243,6 +1275,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Usa `/goal` para hacer que Fable 5 arranque un sitio, capture paginas, audite UX, escriba un informe y arregle pequenos problemas seguros.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/dca99f9390b1624b3dfd4b45.png" alt="Prompt de objetivo para auditoria de diseno de sitio completo" width="760">
+
 impresiones rapidas despues de unas horas con fable 5:
 
 → quiere tareas grandes. lo pequeno le queda por debajo; cuanto mas complejo es el trabajo, mas fuerte empuja
@@ -1322,6 +1356,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Usa Fable 5 con prompts orientados a objetivos, bucles de verificacion y configuraciones de esfuerzo en lugar de pequenas instrucciones paso a paso.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f180cebef645f5ad8efdeb92.jpg" alt="Guia para principiantes sobre el uso de Fable 5" width="760">
+
 Claude para principiantes: lo que necesitas saber sobre Fable 5.
 
 Anthropic lanzo recientemente Claude Fable 5, tambien conocido como Claude Mythos 5, y esta dejando atras a otros modelos de IA en benchmarks.
@@ -1366,6 +1402,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 26: [Prompt copiable para auditoria de repositorios](https://x.com/meta_alchemist/status/2064431279383433646) (por [@meta_alchemist](https://x.com/meta_alchemist))
 
 **Pega el prompt de auditoria de repositorio en Fable 5 y pide descubrimiento respaldado por archivos, hallazgos, estrategia y un plan de tareas por hitos.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/846e5ecb825853db17bd3564.jpg" alt="Prompt copiable para auditoria de repositorios" width="760">
 
 ¿Ya tienes acceso a Claude Fable 5?
 
@@ -1565,6 +1603,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Gasta el uso de Fable 5 en auditoria, arquitectura y planificacion mientras la ventana de acceso sea favorable, luego usa modelos mas baratos para ejecutar.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a4293d14cc7571bdcf8b1478.png" alt="Estrategia de uso con ventana limitada" width="760">
+
 Un consejo para usuarios de Claude entusiasmados con Fable 5:
 
 Claude Fable 5 es SOTA de punta a punta, con un margen amplio, y me encanta eso.
@@ -1587,6 +1627,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 28: [Uso de Goals y Workflows en Claude Code](https://x.com/oikon48/status/2064402696124453157) (por [@oikon48](https://x.com/oikon48))
 
 **Usa Fable 5 como socio de pensamiento antes de la implementacion, luego combina `/goal` y workflows para ejecutar y verificar el plan.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/bcf9dc92c525978c69b3c869.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9567dd41be289437a45f8800.jpg" alt="Uso de Goals y Workflows en Claude Code" width="760"><br>▶ Ver vídeo</a>
 
 Thariq, del equipo de Claude Code, explica que despues de la salida de Claude Fable 5, la forma de trabajar cambio fundamentalmente.
 
@@ -1636,6 +1678,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Configura Hermes para usar `anthropic/claude-fable-5` en ejecuciones complejas de `/goal` y tareas cacheadas de horizonte largo.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/4a3b9936f91986268dfeb748.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d9a63a0c689f8e305289a9e6.jpg" alt="Configuracion de integracion del agente Hermes" width="760"><br>▶ Ver vídeo</a>
+
 HERMES AGENT AHORA CORRE EN CLAUDE FABLE 5, el primer modelo publico de clase Mythos de Anthropic.
 
 Lanzado el 9 de junio. Construido para el tipo de trabajo que Hermes hace mejor: tareas autonomas de horizonte largo.
@@ -1677,6 +1721,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Usa este caso para entender cuando Fable 5 esta disponible, cuanto cuesta y que dominios protegidos pueden caer de vuelta a otro modelo.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d0d76497e4c8f77d3d081493.jpg" alt="Capacidades, precios y notas de suscripcion" width="760">
+
 Anthropic lanzo Claude Fable 5 y Claude Mythos 5, dos versiones de su modelo mas capaz hasta ahora.
 
 Fable 5 es para uso general.
@@ -1713,6 +1759,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 31: [Resumen de lanzamiento, acceso, precios y seguridad](https://x.com/ctgptlb/status/2064410460963934479) (por [@ctgptlb](https://x.com/ctgptlb))
 
 **Usa este resumen de lanzamiento para elegir ruta de acceso, nombre de modelo API, ventana de contexto, estrategia de cache y timing de suscripcion.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7620f9d5f1c29e9f6c3178e4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0b89d6ace5df7c0f3ebe064e.jpg" alt="Resumen de lanzamiento, acceso, precios y seguridad" width="760"><br>▶ Ver vídeo</a>
 
 Resumen de lo que deberias saber sobre Claude Fable 5, el modelo de clase Mythos que por fin esta generalmente disponible.
 
@@ -1773,6 +1821,10 @@ Type: Tutorial | Date: 2026-06-09
 
 **Usa Fable 5 como advisor o revisor en un flujo de trabajo con modelos mas baratos cuando la inteligencia marginal valga el costo.**
 
+Artículo enlazado: ejemplos con Opus como asesor; no son resultados de Fable. [yage.ai](https://yage.ai/share/claude-advisor-tool-20260609.html)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a21858fed45b612b616e34ce.png" alt="Estrategia de reduccion de costos basada en advisor" width="760">
+
 Fable 5 es caro, pero Anthropic publico la respuesta para ahorrar costos hace dos meses.
 
 Hoy Anthropic lanzo Claude Fable 5, con precio de $50 por millon de tokens de salida, mas de tres veces Sonnet. Despues del 22 de junio, los usuarios de suscripcion tambien pagaran por uso.
@@ -1813,6 +1865,8 @@ Type: Integration | Date: 2026-06-09
 ### Case 33: [Precios, acceso y barreras de seguridad](https://x.com/op7418/status/2064399444523782377) (por [@op7418](https://x.com/op7418))
 
 **Usa este caso para entender el acceso a Fable 5, precios de API y comportamiento de fallback de seguridad antes de planificar cargas de trabajo.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/2c2a9233f1949a99d9faef82.jpg" alt="Precios, acceso y barreras de seguridad" width="760">
 
 No esperaba que el modelo Mythos de Anthropic realmente se lanzara hoy.
 
@@ -1855,6 +1909,8 @@ Type: Integration | Date: 2026-06-09
 
 **Define el nombre de modelo de Swarms como `anthropic/claude-fable-5` y ejecuta Fable 5 mediante el framework o API de Swarms.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f5a8738199642ccb4108d9bb.jpg" alt="Integracion de Swarms en una linea" width="760">
+
 Fable 5 y Mythos ya estan en vivo en Swarms 👾🦀
 
 Desde el primer dia del lanzamiento, ambos modelos estan totalmente soportados en el framework Python de Swarms y la API de Swarms. Los desarrolladores pueden empezar a construir de inmediato sin migraciones, configuracion adicional ni cambios de infraestructura.
@@ -1877,6 +1933,8 @@ Type: Integration | Date: 2026-06-09
 ### Case 35: [Comparacion de costo y calidad entre Fable 5 y GPT-5.5](https://x.com/AlicanKiraz0/status/2064424400494186867) (por [@AlicanKiraz0](https://x.com/AlicanKiraz0))
 
 **Compara Fable 5 y GPT-5.5 en la misma tarea de codificacion para juzgar calidad de salida, tiempo de ejecucion y costo de herramientas.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d25a9995414a9bb037269251.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/16f724918a63d35c0d552145.jpg" alt="Comparacion de costo y calidad entre Fable 5 y GPT-5.5" width="760"><br>▶ Ver vídeo</a>
 
 Cursor Fable 5 Max vs Codex GPT 5.5 Very High.
 
@@ -1915,6 +1973,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Usa este caso de benchmark para evaluar a Fable 5 en precision de conocimiento y comportamiento de alucinacion.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/dd1356eb4a23ba254bfbb669.jpg" alt="Resultado del benchmark AA-Omniscience" width="760">
+
 Claude Fable 5 logra la puntuacion mas alta hasta la fecha en nuestro benchmark de conocimiento y alucinacion, AA-Omniscience.
 
 Esta puntuacion esta impulsada por precision lider (porcentaje de preguntas correctas), no por bajas alucinaciones.
@@ -1929,6 +1989,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 37: [Resultado del Intelligence Index de Artificial Analysis](https://x.com/ArtificialAnlys/status/2064500150069030992) (por [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
 **Usa este caso para comparar el ranking de inteligencia general de Fable 5 contra otros modelos frontier.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f9f3da0006bc0eb2c245281b.jpg" alt="Resultado del Intelligence Index de Artificial Analysis" width="760">
 
 Claude Fable 5 lanzo en el puesto #1 del Artificial Analysis Intelligence Index, poniendo a Anthropic casi 5 puntos por delante del mejor modelo de cualquier otro laboratorio.
 
@@ -1988,6 +2050,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 38: [Benchmark GDPval-AA de trabajo de conocimiento agentico](https://x.com/ArtificialAnlys/status/2064414308289937869) (por [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
 **Usa este caso para evaluar a Fable 5 en trabajo de conocimiento real y agentico.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/18572fdb3c0d8a57ba52e095.jpg" alt="Benchmark GDPval-AA de trabajo de conocimiento agentico" width="760">
 
 Anthropic ha lanzado Claude Fable 5, el primer modelo de clase Mythos disponible publicamente, que ocupa el puesto #1 en nuestro benchmark de trabajo de conocimiento real agentico, GDPval-AA.
 
@@ -2052,6 +2116,8 @@ Type: Integration | Date: 2026-06-09
 
 **Usa esta comparacion para decidir si la mejora de calidad justifica mayor costo y ejecuciones de horizonte largo mas lentas.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/789680ca7655fca20b635442.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/691d0518cb50a6bebbb8b2b1.jpg" alt="Comparacion de costo y velocidad" width="760"><br>▶ Ver vídeo</a>
+
 ¿Realmente vale la pena el upgrade a Fable 5 de @AnthropicAI?
 
 Benchmarkeamos el nuevo modelo de la familia Mythos contra Claude Opus 4.8, y los datos cuentan una historia sorprendente:
@@ -2072,6 +2138,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 41: [Notas practicas de Claude Code](https://x.com/Hi_Noguchi/status/2064419241068319079) (por [@Hi_Noguchi](https://x.com/Hi_Noguchi))
 
 **Usa este caso para evaluar a Fable 5 dentro de Claude Code, incluyendo uso de herramientas, personalidad y asperezas restantes.**
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5feb645426dcf905eac2992d.jpg" alt="Notas practicas de Claude Code" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/933c469793e248f634cfad55.jpg" alt="Notas practicas de Claude Code" width="760"></td></tr></table>
 
 Probe Claude Fable 5 con Claude Code 2.1.170.
 
@@ -2098,6 +2166,8 @@ Type: Demo | Date: 2026-06-09
 
 **Usa este benchmark para juzgar la calidad de escritura de ficcion corta y el comportamiento de rechazo de Fable 5.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5849f936dc58518fd5d810ef.jpg" alt="Resultado del benchmark de escritura creativa" width="760">
+
 Claude Fable 5 (high) es un paso adelante en escritura de ficcion corta.
 
 En el Short-Story Creative Writing Benchmark, supera a Claude Opus 4.8 (xhigh) y Claude Opus 4.7 (high), y queda segundo detras de GPT-5.5 (xhigh).
@@ -2114,6 +2184,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 43: [Resumen de lanzamiento con multiples benchmarks](https://x.com/MTSlive/status/2064430633800319436) (por [@MTSlive](https://x.com/MTSlive))
 
 **Usa este resumen de benchmarks de lanzamiento para entender las puntuaciones principales mas relevantes para agentes de codigo y tareas complejas.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/45b71a2babb9da9a93f43220.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/c25c02c52c5d4b6b24364401.jpg" alt="Resumen de lanzamiento con multiples benchmarks" width="760"><br>▶ Ver vídeo</a>
 
 SITUACION EXPLICADA: Claude Fable 5 acaba de salir.
 • Anthropic lanzo Claude Fable 5 hoy, "un modelo de clase Mythos hecho seguro para uso general"
@@ -2132,6 +2204,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 44: [Comparacion de benchmarks y precios con GPT-5.5](https://x.com/VaibhavSisinty/status/2064459064810361271) (por [@VaibhavSisinty](https://x.com/VaibhavSisinty))
 
 **Usa esta comparacion para evaluar Fable 5 frente a GPT-5.5 en precio y categorias de benchmark.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e39fb67b74af346e8fbb67ea.jpg" alt="Comparacion de benchmarks y precios con GPT-5.5" width="760">
 
 El nuevo modelo de clase Mythos de Anthropic es 3x mas barato que el mejor modelo de OpenAI. Y lo supera en casi todos los benchmarks. 🤯
 
@@ -2198,6 +2272,8 @@ Type: Tutorial | Date: 2026-06-09
 
 **Ejecuta prompts identicos de simulacion fisica contra Fable 5 y Opus 4.8 para comparar calidad de salida, costo y velocidad.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/06387b798061869ccaeaf586.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/df5cc72de1f70556de0d682b.jpg" alt="Comparacion de simulacion fisica" width="760"><br>▶ Ver vídeo</a>
+
 El nuevo Fable 5 supera a Opus 4.8 en simulaciones fisicas del mundo real.
 
 Dimos a ambos modelos los mismos tres prompts y les pedimos construir simulaciones HTML5 autocontenidas con fisica real y sin librerias:
@@ -2243,6 +2319,8 @@ Type: Demo | Date: 2026-06-09
 
 **Usa este caso para entender fortalezas y debilidades practicas antes de convertir a Fable 5 en daily driver.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/fdba0d6cb9ba0e1214113e65.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d2825453d0a742892a4fe529.jpg" alt="Pros y contras multidimensionales" width="760"><br>▶ Ver vídeo</a>
+
 Fable 5 (tambien conocido como baby Mythos) acaba de salir. ¿Es tan aterrador (o aterradoramente bueno) como dicen? Mis pensamientos despues de algunas pruebas tempranas:
 - inteligente inteligente inteligente (aplasto SWE bench)
 - pero ¿siempre necesitas hiperinteligencia?
@@ -2265,6 +2343,8 @@ Type: Demo | Date: 2026-06-09
 
 **Usa un prompt de redaccion S-1 como prueba de capacidad de agente legal y compara estructura, formato y longitud.**
 
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/bb874ef2647de32ccdb3edf9.png" alt="Prueba de redaccion legal S-1" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6a9c3856ebce1bd9cd3d062d.jpg" alt="Prueba de redaccion legal S-1" width="760"></td></tr><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/96734bfca49d5b3fe6f83ed5.png" alt="Prueba de redaccion legal S-1" width="760"></td></tr></table>
+
 El primer prompt que siempre ejecuto en un modelo nuevo para probar capacidades legales es: “Draft an S-1”.
 
 Da inmediatamente una buena idea de las capacidades generales del modelo. Puedes saber por la longitud del S-1, formato, estructura y escritura cuan grande probablemente sea el salto en rendimiento general y legal del nuevo modelo.
@@ -2285,6 +2365,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 50: [Detalles de benchmark de salud](https://x.com/iScienceLuvr/status/2064411823445774554) (por [@iScienceLuvr](https://x.com/iScienceLuvr))
 
 **Usa esta nota de benchmark para evaluar Fable 5 en tareas relacionadas con salud e identificar evaluaciones medicas duras faltantes.**
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f599a548651eccbfce8b888d.jpg" alt="Detalles de benchmark de salud" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/69ebc490407b9d54c6de3707.jpg" alt="Detalles de benchmark de salud" width="760"></td></tr><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/1a89ad2c2622cdbba994d70c.jpg" alt="Detalles de benchmark de salud" width="760"></td></tr></table>
 
 Aprecio que Anthropic proporcione evals relacionadas con salud. Repasemoslas rapidamente.
 
@@ -2315,6 +2397,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Usa este caso para decidir si Fable 5 es rentable para parseo documental frente a sistemas OCR especializados.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ae01590f41e6954f27278848.png" alt="Evaluacion de parseo documental ParseBench" width="760">
+
 Claude Fable 5 piensa que el parseo documental esta por debajo de el.
 
 Esta aplastando en benchmarks intensivos en razonamiento y de horizonte largo: SWE-Bench Pro, FrontierCode, GDPval, RuneScape y mas.
@@ -2337,6 +2421,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 52: [Comparacion de SWE-Bench Pro y FrontierCode](https://x.com/jumperz/status/2064402965461406044) (por [@jumperz](https://x.com/jumperz))
 
 **Usa este caso de benchmark para evaluar Fable 5 en migraciones, implementaciones complejas, sesiones autonomas, tests y verificacion visual.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/771df9c428ba5cc0a8fab5de.png" alt="Comparacion de SWE-Bench Pro y FrontierCode" width="760">
 
 Fable 5 ya esta aqui y sinceramente destruye a GPT 5.5 en SWE-Bench Pro, el benchmark de codificacion agentica:
 
@@ -2398,6 +2484,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Usa este resultado de ParseBench para juzgar fidelidad documental y rendimiento de formato.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/2888842a85fbd5c7a4a22e24.png" alt="Resultados de fidelidad y formato en ParseBench" width="760">
+
 Dia 0 de Anthropic Fable 5 en ParseBench.
 
 Probamos los avances del modelo en entendimiento documental.
@@ -2422,6 +2510,8 @@ Type: Evaluation | Date: 2026-06-10
 ### Case 55: [Benchmarks, precios, acceso y salvaguardas](https://x.com/lucas_flatwhite/status/2064483645184979183) (por [@lucas_flatwhite](https://x.com/lucas_flatwhite))
 
 **Usa este caso como checklist amplia de benchmarks, precios, acceso, salvaguardas e implicaciones estrategicas.**
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f44cba8e6f3d765ca5960923.png" alt="Benchmarks, precios, acceso y salvaguardas" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/8f13714ca9f9e20711fdd898.jpg" alt="Benchmarks, precios, acceso y salvaguardas" width="760"></td></tr><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0d1f69a50478623f5e1d0248.jpg" alt="Benchmarks, precios, acceso y salvaguardas" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0cf2c270484f1e2aba514261.jpg" alt="Benchmarks, precios, acceso y salvaguardas" width="760"></td></tr></table>
 
 Claude Fable 5 y Mythos 5 se han lanzado. Son los modelos mas poderosos que Anthropic ha hecho hasta ahora.
 
@@ -2482,6 +2572,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Usa esta lista de benchmarks para entender las puntuaciones oficiales de Fable 5 en codificacion, uso de computador y tareas de seguridad.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/b548ec23f85e3eb1600e9214.jpg" alt="Lista oficial de puntuaciones de benchmark" width="760">
+
 Los benchmarks oficiales de Claude Fable 5 son seriamente impresionantes.
 
 Puntuaciones clave:
@@ -2509,6 +2601,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Usa este caso para evaluar Fable 5 en APEX-SWE, especialmente observabilidad e integracion.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/96120496893ca99f17d0c746.jpg" alt="Metodologia del benchmark APEX-SWE" width="760">
+
 Claude Fable 5 toma el #1 en APEX-SWE: 65.5% Pass@1 general. Puntua ~18pp mas alto que Opus 4.8. Probamos @claudeai Fable 5 en APEX-SWE, que mide si los modelos de IA pueden hacer trabajo real de ingenieria de software. Fable 5 lidera nuestras dos categorias APEX-SWE:
 - Integracion: 61.3%
 - Observabilidad: 69.7%
@@ -2527,6 +2621,8 @@ Type: Evaluation | Date: 2026-06-09
 ### Case 58: [Resultado de matematicas formales en ProofBench](https://x.com/nicbstme/status/2064443782255554960) (por [@nicbstme](https://x.com/nicbstme))
 
 **Usa este caso para evaluar Fable 5 en matematicas formales contra sistemas especializados de demostracion de teoremas.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/588cff83994406d2b5dd7cb9.jpg" alt="Resultado de matematicas formales en ProofBench" width="760">
 
 Lo que encuentro fascinante con Claude Fable 5 es que prueba una vez mas que los grandes modelos generalistas superaran a los verticales.
 
@@ -2553,6 +2649,8 @@ Type: Tutorial | Date: 2026-06-09
 ### Case 59: [Analisis preliminar de VirtueBench](https://x.com/timhwang/status/2064446028997423180) (por [@timhwang](https://x.com/timhwang))
 
 **Usa este caso para inspeccionar el comportamiento de razonamiento moral de Fable 5 a traves de categorias de virtud.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9caae04d701510ca662873fe.png" alt="Analisis preliminar de VirtueBench" width="760">
 
 Resultados fascinantes se publicaran con mayor detalle por ICMI en los proximos dias, pero aqui hay una revision preliminar que ejecuta Fable 5 contra VirtueBench.
 
@@ -2581,6 +2679,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Usa este caso para entender el riesgo de sobreajuste de seguridad en lanzamiento y el comportamiento de respuesta vacia en pruebas API.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e9f75a2a76f55ee2b12b7aab.jpg" alt="Prueba de sobreajuste de seguridad con respuestas vacias en API" width="760">
+
 Claude Fable 5 esta fuertemente censurado.
 
 El endpoint API upstream esta matando llamadas con respuestas `empty_content`, aparentemente relacionadas con clasificador sobre palabras clave, mientras todavia cobra por ellas.
@@ -2603,6 +2703,8 @@ Type: Evaluation | Date: 2026-06-09
 
 **Utiliza esta guía para sustituir los trucos de prompts largos por objetivos, contexto, restricciones, herramientas y ciclos de verificación.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/444a6e1898d3f63898e3e22f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/d5c9529aa9c1d59ae597d31d.jpg" alt="Guía para verificar prompts de Fable" width="760"><br>▶ Ver vídeo</a>
+
 Plantea los prompts para Fable 5 como el diseño del contexto y del entorno, en lugar de una larga lista de instrucciones paso a paso. La publicación resume un patrón práctico: aportar un objetivo claro, contexto relevante, restricciones, acceso a herramientas y una forma de verificar el éxito. También sostiene que la verificación, la evaluación y la retroalimentación importan más que controlar al detalle el razonamiento del modelo.
 
 Type: Tutorial | Date: 2026-06-11
@@ -2613,6 +2715,8 @@ Type: Tutorial | Date: 2026-06-11
 ### Case 62: [Un juego de plataformas de Estambul desde una referencia](https://x.com/ozansihay/status/2064973170780545535) (by [@ozansihay](https://x.com/ozansihay))
 
 **Prueba Fable 5 con una hoja de sprites de referencia y una instrucción para convertirla en un juego de plataformas jugable.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/1e91c3bcff213437fdd442f6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/538fc8ee9dd7e627bc73921a.jpg" alt="Un juego de plataformas de Estambul desde una referencia" width="760"><br>▶ Ver vídeo</a>
 
 El creador generó primero con GPT Image 2 una hoja de sprites para un juego de plataformas retro ambientado en Estambul. Después entregó esa imagen a Claude Fable 5 High y le pidió convertirla en un juego. Según su relato, el resultado se produjo en una sola pasada.
 
@@ -2625,6 +2729,8 @@ Type: Demo | Date: 2026-06-11
 
 **Utiliza Fable 5 para transformar un proceso empresarial en un concepto de panel con una ciudad 3D animada.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f238acf3f8804068085ff134.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/3d938264442a14676a86c4f3.jpg" alt="Un panel empresarial como ciudad 3D" width="760"><br>▶ Ver vídeo</a>
+
 La publicación describe una visualización empresarial creada con un solo prompt, donde almacenes, empaquetado, drones, pedidos, departamentos, clientes y asistentes de IA forman una ciudad 3D animada. La presenta como una alternativa a las diapositivas estáticas para clientes, con cifras operativas en pantalla como 42 entregas, un tiempo medio de 12 minutos y $651 de ingresos.
 
 Type: Demo | Date: 2026-06-11
@@ -2635,6 +2741,8 @@ Type: Demo | Date: 2026-06-11
 ### Case 64: [Un juego de agujeros en Three.js en una pasada](https://x.com/thebuggeddev/status/2064968106104275008) (by [@thebuggeddev](https://x.com/thebuggeddev))
 
 **Utiliza Fable 5 para crear en una sola pasada un prototipo de juego 3D para navegador con Three.js.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/86a75412c6c443b3d0e62bf8.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f11df06938c26759710a1981.jpg" alt="Un juego de agujeros en Three.js en una pasada" width="760"><br>▶ Ver vídeo</a>
 
 El creador afirma que Fable 5 construyó en una pasada un juego 3D completo al estilo HOLE IT con Three.js. Esta demostración breve pero concreta permite comprobar si el modelo puede generar una interacción 3D jugable a partir de una petición concisa.
 
@@ -2647,6 +2755,8 @@ Type: Demo | Date: 2026-06-11
 
 **Utiliza esta nota sobre DeepSWE para comparar Fable 5 xHigh con GPT-5.5 xHigh en ingeniería de software.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/996d95539a3b54fecbfdf404.jpg" alt="Comparación de resultados en DeepSWE" width="760">
+
 La publicación informa de que Claude Fable 5 xHigh obtuvo un 70% en DeepSWE, igualando a GPT-5.5 xHigh, y remite a un vídeo reciente de Theo como contexto de la fuente. Trátala como una pista sobre un resultado que debe contrastarse con el vídeo original antes de formular conclusiones más firmes.
 
 Type: Evaluation | Date: 2026-06-11
@@ -2657,6 +2767,8 @@ Type: Evaluation | Date: 2026-06-11
 ### Case 66: [Comparar el coste de analizar un repositorio](https://x.com/Pilgrim6938/status/2064946766278210038) (by [@Pilgrim6938](https://x.com/Pilgrim6938))
 
 **Utiliza esta comparación de análisis de repositorios para valorar el precio de los tokens frente al coste de las correcciones humanas.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/cfb0c1ff3e8ebe66cfa35400.jpg" alt="Comparar el coste de analizar un repositorio" width="760">
 
 La publicación compara Claude Fable 5, Opus 4.8, GPT-5.5 y Gemini 3.1 Pro en la misma tarea: analizar un repositorio de unas 90,000 líneas, localizar un problema de invalidación de caché y proponer un plan completo de corrección. El autor sostiene que el precio bruto de los tokens y el coste real divergen al incluir el tiempo de corrección de los desarrolladores. Recomienda reservar Fable 5 para refactorizaciones complejas, migraciones entre módulos y largas cadenas de trabajo de agentes.
 
@@ -2669,6 +2781,8 @@ Type: Evaluation | Date: 2026-06-11
 
 **Utiliza esta creación de un juego en una pasada para estimar la calidad del resultado y el consumo de tokens de Fable 5.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/9ce65e5fee946b6940810e0d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7c577d0766bbc3da8cddeb70.jpg" alt="Consumo de tokens de un juego Super Mario" width="760"><br>▶ Ver vídeo</a>
+
 El creador pidió a Claude Fable 5 construir un juego al estilo Super Mario de Nintendo. La publicación indica que la tarea consumió unos 2 millones de tokens y produjo un buen resultado en una pasada, por lo que aporta información sobre la calidad del juego y su consumo.
 
 Type: Demo | Date: 2026-06-11
@@ -2679,6 +2793,8 @@ Type: Demo | Date: 2026-06-11
 ### Case 68: [El ajuste de cambio de modelo en Claude Code](https://x.com/oikon48/status/2064937790010503347) (by [@oikon48](https://x.com/oikon48))
 
 **Conoce el ajuste de Claude Code que cambia de modelo cuando se marca un mensaje dirigido a Fable 5.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0ae9039401c658170e5081e8.jpg" alt="El ajuste de cambio de modelo en Claude Code" width="760">
 
 La publicación identifica un ajuste de Claude Code en `/config` llamado "Switch models when a message is flagged." Describe cómo Fable 5 puede recurrir a un modelo Opus en ámbitos marcados, como técnicas de ciberseguridad ofensiva, métodos experimentales de biología y ciencias de la vida, mecanismos moleculares o solicitudes de extracción del razonamiento del modelo.
 
@@ -2691,6 +2807,8 @@ Type: Integration | Date: 2026-06-11
 
 **Utiliza esta demostración como ejemplo breve de creación de un simulador de transporte público mediante vibe coding con Fable 5.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/0e0dae71ad7b5ead331366fb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/86dccb2b150cfb90fbd03de2.jpg" alt="Crear un simulador de Namma Metro" width="760"><br>▶ Ver vídeo</a>
+
 El creador cuenta que construyó un simulador de Namma Metro durante un trayecto en el metro de Bengaluru, con Claude Fable 5 como compañero de programación. La publicación es breve, pero enlaza una demostración visual y muestra el uso de Fable 5 en una idea de simulación vinculada a un lugar concreto.
 
 Type: Demo | Date: 2026-06-11
@@ -2701,6 +2819,8 @@ Type: Demo | Date: 2026-06-11
 ### Case 70: [Dusk Drive con un solo prompt](https://x.com/VincentLogic/status/2064921358359011684) (by [@VincentLogic](https://x.com/VincentLogic))
 
 **Evalúa Fable 5 en la creación de un prototipo de conducción low-poly sin retoques humanos mediante este caso de un solo prompt.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/274fed4f3211ec8c02862261.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5d7a58bcad6e2151517a8462.jpg" alt="Dusk Drive con un solo prompt" width="760"><br>▶ Ver vídeo</a>
 
 La publicación describe cómo Claude Fable 5 creó el juego de conducción completo Dusk Drive a partir de un prompt. El creador destaca su estilo low-poly, una escena de derrapes sobre nieve bajo auroras y su afirmación de que no hubo ninguna edición humana entre la idea y la versión jugable.
 
@@ -2713,6 +2833,8 @@ Type: Demo | Date: 2026-06-11
 
 **Utiliza este resultado de APEX-Agents para comparar Fable 5 Max en tareas autónomas de varios pasos.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/189c46cfd2798d6881941f98.jpg" alt="Clasificación APEX-Agents por Pass@1" width="760">
+
 Según la publicación, Fable 5 Max ocupó el segundo puesto de APEX-Agents con un 45% de Pass@1, por detrás de Gemini 3.5 Flash y por delante de Opus. Presenta APEX-Agents como una prueba de la capacidad de la IA para realizar de manera independiente tareas complejas de varios pasos.
 
 Type: Evaluation | Date: 2026-06-11
@@ -2723,6 +2845,8 @@ Type: Evaluation | Date: 2026-06-11
 ### Case 72: [Guía para elegir modelos Claude](https://x.com/charliejhills/status/2064957428211536212) (by [@charliejhills](https://x.com/charliejhills))
 
 **Utiliza esta guía de selección para reservar Fable 5 a los trabajos más difíciles de Claude Code.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/959ebfa499d2bf75df5bec25.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/3bcfe8f1e2238b01d3c4d954.jpg" alt="Guía para elegir modelos Claude" width="760"><br>▶ Ver vídeo</a>
 
 La publicación compara Haiku 4.5, Sonnet 4.6, Opus 4.8 y Fable 5 según el esfuerzo del modelo y el consumo de límites. Su consejo práctico es utilizar Sonnet a diario, pasar a Opus para los problemas más difíciles y guardar Fable 5 para las tareas de Claude Code que exigen mayor profundidad de planificación, implementación y pruebas.
 
@@ -2735,6 +2859,8 @@ Type: Tutorial | Date: 2026-06-11
 
 **Estudia un ciclo de Fable 5 que construye, prueba, juega y ejecuta pruebas de humo durante días sin intervención.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e334a84db7b671eb6a1a3f54.jpg" alt="El ciclo automatizado de agentes de HermesWorld" width="760">
+
 El creador describe la construcción de HermesWorld v2 con Fable 5 mediante un ciclo completamente automatizado. Según su relato, el agente trabaja durante días, desarrolla funciones, las prueba, juega con el resultado y ejecuta pruebas de humo de todo el sistema mientras avanza hacia su finalización.
 
 Type: Integration | Date: 2026-06-11
@@ -2745,6 +2871,8 @@ Type: Integration | Date: 2026-06-11
 ### Case 74: [Probar un informe al estilo McKinsey](https://x.com/smtgpt/status/2064953210335588758) (by [@smtgpt](https://x.com/smtgpt))
 
 **Utiliza este prompt documental para evaluar la estructura de un informe de consultoría, los gráficos, la narrativa y el análisis de riesgos.**
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e337dca3bbada9167e20417c.jpg" alt="Probar un informe al estilo McKinsey" width="760"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6289e626a4f324fc93086100.jpg" alt="Probar un informe al estilo McKinsey" width="760"></td></tr></table>
 
 El creador pidió a Fable 5 un informe detallado al estilo McKinsey sobre Bitcoin como clase de activo y la tecnología blockchain, con gráficos y elementos visuales cuando fueran necesarios. El resultado comunicado fue un documento de 19 páginas con datos, gráficos, una tesis de inversión y un análisis de riesgos. La crítica destacó su buena estructura, aunque señaló margen para mejorar la claridad visual y ajustar las explicaciones.
 
@@ -2768,6 +2896,8 @@ Type: Integration | Date: 2026-06-11
 
 **Utiliza esta nota de cambios de Claude Code para evitar problemas con los nombres de Fable 5 y la identificación del contexto.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e66551db2c85ef7f8c4a3f4e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/ae7cbd873deebd28d3ff05d7.jpg" alt="Corregir la identificación de modelos en Claude Code" width="760"><br>▶ Ver vídeo</a>
+
 Claude Code 2.1.173 incluye una corrección que elimina el sufijo `[1m]` de los nombres de Fable 5 para que el contexto 1M predeterminado no interfiera en la identificación del modelo. La misma versión suprime una advertencia errónea sobre dependencias del entorno aislado de Windows y aclara los modos de salida de la ayuda de grep.
 
 Type: Integration | Date: 2026-06-11
@@ -2777,9 +2907,9 @@ Type: Integration | Date: 2026-06-11
 <a id="case-77"></a>
 ### Case 77: [Tres aplicaciones web en Claude Code](https://x.com/0x3b33/status/2064948399300825439) (by [@0x3b33](https://x.com/0x3b33))
 
-**Examina Fable 5 dentro de Claude Code mediante varias aplicaciones web generadas en esta demostración para principiantes.**
+**Distingue un informe sobre aplicaciones creadas de una demostración pública accesible.**
 
-El creador afirma que, sin experiencia en programación, utilizó Claude Code con Fable 5 para construir tres aplicaciones web funcionales en 30 minutos, expuestas localmente en los puertos 3000, 3001 y 3002. Trátalo como una demostración breve de un flujo para principiantes y no como un benchmark.
+La publicación afirma haber creado tres aplicaciones web en 30 minutos, pero solo proporciona direcciones localhost en los puertos 3000, 3001 y 3002. Estas apuntan a una máquina local y no ofrecen aplicaciones ni medios accesibles públicamente.
 
 Type: Demo | Date: 2026-06-11
 
@@ -2789,6 +2919,8 @@ Type: Demo | Date: 2026-06-11
 ### Case 78: [Rilable, un creador de aplicaciones de código abierto](https://x.com/rileybrown/status/2064931283403178354) (by [@rileybrown](https://x.com/rileybrown))
 
 **Estudia Fable 5 en aplicaciones iOS y web, entornos aislados y costes de tokens API mediante este creador de aplicaciones abierto.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/73ee02ae0f6703a8cfbe5a6c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/f30c1d169ce45b19beb493b7.jpg" alt="Rilable, un creador de aplicaciones de código abierto" width="760"><br>▶ Ver vídeo</a>
 
 El creador publicó el código de Rilable, una aplicación iOS que construye aplicaciones web y para iOS. Según la publicación, se desarrolló con Fable 5 en 10 prompts y costó unos $210 en tokens API. Utiliza modelos Claude para generar aplicaciones, Daytona para los entornos aislados, Convex como base de datos, Vercel AI Gateway para las funciones de IA y una habilidad iOS del agente Chorus para las aplicaciones iOS.
 
@@ -2801,6 +2933,8 @@ Type: Integration | Date: 2026-06-11
 
 **Usa el indice renovado de Artificial Analysis para comparar Fable 5 en tareas de codificacion agentica mas dificiles que evitan reciclar arreglos publicos de GitHub.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7b9ab8ba77c1e29f8ba4d270.jpg" alt="Debut en el indice de agentes de codigo DeepSWE" width="760">
+
 Artificial Analysis sustituyo SWE-Bench Pro por DeepSWE de Datacurve en su indice de agentes de codigo. La publicacion dice que DeepSWE redacta las tareas desde cero en lugar de adaptar issues o pull requests publicos de GitHub, lo que reduce la contaminacion del benchmark. En la clasificacion actualizada, Claude Code con Fable 5 Max debuta con 77, por delante de Codex con GPT-5.5 xhigh con 76 y Claude Code con Opus 4.8 Max con 73.
 
 Type: Evaluation | Date: 2026-06-12
@@ -2811,6 +2945,8 @@ Type: Evaluation | Date: 2026-06-12
 ### Case 80: [DataEmpire: juego de analitica web](https://x.com/marclou/status/2065029898243318093) (por [@marclou](https://x.com/marclou))
 
 **Convierte analiticas web sin procesar en un juego rejugable pidiendo a Fable 5 que mapee visitantes e hitos a entidades del juego.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/2850773b9869c5521200f2e0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6d2dd87d74ece01b277e1e12.jpg" alt="DataEmpire: juego de analitica web" width="760"><br>▶ Ver vídeo</a>
 
 Marc Lou dice que Claude Fable 5 construyo DataEmpire sobre su API de analitica web DataFast. Cada visitante se convierte en un aldeano, el crecimiento del trafico expande el asentamiento y la Era de las Leyendas se desbloquea al llegar a 1 millon de visitantes. La demo publica permite a los usuarios de DataFast reproducir la historia de su propio sitio a traves de la capa de juego, lo que la convierte en un ejemplo concreto de productizacion apoyada en una API y no en un clip estatico de videojuego.
 
@@ -2823,6 +2959,8 @@ Type: Integration | Date: 2026-06-11
 
 **Usa FrontierSWE como evidencia de que Fable 5 puede seguir siendo productivo en tareas de ingenieria muy largas, no solo en bucles cortos de correccion de bugs.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/eb36bb1120ef55f9e38c516d.jpg" alt="Senal de tareas de 20 horas en FrontierSWE" width="760">
+
 ProximalHQ informa que Claude Fable 5 ocupa el puesto numero 1 en FrontierSWE y lo describe como el mayor salto de capacidad que han visto desde que lanzaron el benchmark. Su nota dice que Fable 5 puede trabajar de forma productiva durante casi 20 horas en muchas tareas y que satura por completo tareas que estaban practicamente fuera del alcance de modelos anteriores.
 
 Type: Evaluation | Date: 2026-06-11
@@ -2833,6 +2971,8 @@ Type: Evaluation | Date: 2026-06-11
 ### Case 82: [Records CUDA en KernelBench-Hard](https://x.com/elliotarledge/status/2065109393142849932) (por [@elliotarledge](https://x.com/elliotarledge))
 
 **Usa Fable 5 para generar kernels CUDA avanzados cuando necesitas optimizacion de bajo nivel, no solo envoltorios sobre bibliotecas existentes.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/6c6931ed511eb3e539d56bc3.jpg" alt="Records CUDA en KernelBench-Hard" width="760">
 
 Elliot Arledge ejecuto 13 agentes de codificacion frontier durante 45 minutos cada uno en KernelBench-Hard, evaluados con roofline en una RTX PRO 6000. Claude Fable 5 establecio records historicos en top-k, sonic-MoE y W4A16 int4 GEMM, lidero 5 de 6 problemas y el autor publico las ejecuciones, la clasificacion y el codigo. El mismo hilo tambien senala un fallo en FP8 GEMM en el que Fable 5 intento un kernel real con tensor cores pero obtuvo cero puntos por un caso limite de alineacion en la cola.
 
@@ -2845,6 +2985,8 @@ Type: Evaluation | Date: 2026-06-11
 
 **Captura una pagina real de un competidor en capas de Figma y deja que Claude Code con Fable 5 reconstruya la estructura, el copy y el sistema de marca en lugar de adivinar desde capturas.**
 
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5672cc8fd9d210042551f0ea.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/503c46a33c97f0db334ddc62.jpg" alt="Clon de landing page con Figma Capture" width="760"><br>▶ Ver vídeo</a>
+
 Mike Futia describe un flujo de trabajo en el que la extension de Chrome de Figma copia un sitio web en capas editables, Claude Code lee esas capas mediante el MCP de Figma, reescribe la pagina con la voz de marca del usuario y GPT Image 2 genera la fotografia alineada con la marca. El resultado de extremo a extremo que afirma conseguir es una landing page lista para publicar en unos 15 minutos con aproximadamente 2 dolares en costos de API de generacion de imagen para 16 imagenes.
 
 Type: Integration | Date: 2026-06-12
@@ -2855,6 +2997,8 @@ Type: Integration | Date: 2026-06-12
 ### Case 84: [Clon de GTA 2 en dos horas](https://x.com/techhalla/status/2064682080445898957) (por [@techhalla](https://x.com/techhalla))
 
 **Combina la generacion de codigo de Fable 5 con herramientas separadas para assets y construye rapidamente un juego 3D jugable sin programar a mano toda la pila.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/e0a1b46659d7a8287cb2f9d5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/cd1a2ad71e71db936bdcfd22.jpg" alt="Clon de GTA 2 en dos horas" width="760"><br>▶ Ver vídeo</a>
 
 TechHalla dice que Claude Fable 5 High construyo un clon estilo GTA 2 en unas dos horas mientras el creador generaba modelos 3D personalizados en Tripo. La publicacion apunta a un hilo tutorial con prompts, lo que lo convierte en un ejemplo compacto de produccion de juegos con multiples herramientas y no en un simple teaser de benchmark.
 
@@ -2867,6 +3011,8 @@ Type: Tutorial | Date: 2026-06-10
 
 **Deja que un agente impulsado por Fable 5 procese contextos enormes de logs de servicios, infiera la arquitectura y luego acote fallos concretos.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7f0f46eb79e43d87a2006fd4.jpg" alt="Agente de triage de logs de CloudWatch" width="760">
+
 diblacksmith informa de un agente RLM que proceso aproximadamente 80.000 lineas de logs de CloudWatch en una sola ejecucion, alcanzo 53 pasos y hasta ahora gasto solo unos 32k tokens activos. Dice que el agente infirio la arquitectura del sistema a partir de los logs y detecto problemas que el equipo habia pasado por alto, incluidos throttles de AgentCore y fallos de Slack `user_not_found`.
 
 Type: Integration | Date: 2026-06-14
@@ -2877,6 +3023,8 @@ Type: Integration | Date: 2026-06-14
 ### Case 86: [Predictor de la Copa del Mundo en sandboxes](https://x.com/upstash/status/2064702195333820846) (por [@upstash](https://x.com/upstash))
 
 **Coloca varios modelos frontier detras de sandboxes aislados y deja que investiguen noticias en vivo, lesiones y tarjetas amarillas para una app publica de prediccion.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/a5cf4fe5944c7aa2f703f4cb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/5b1f1422fe322bb7b66bdcc6.jpg" alt="Predictor de la Copa del Mundo en sandboxes" width="760"><br>▶ Ver vídeo</a>
 
 Upstash dice que construyo un predictor de la Copa del Mundo con Claude Fable 5, GPT-5.5 y Gemini, ejecutandose dentro de sandboxes aislados de Upstash. La demo y la publicacion open source posicionan a Fable 5 como un modelo dentro de una pila multimodelo de investigacion y orquestacion, no como una demo de chat aislada.
 
@@ -2889,6 +3037,8 @@ Type: Integration | Date: 2026-06-10
 
 **Trata el comportamiento de rechazo como una variable real de benchmark al presupuestar ejecuciones autonomas largas con Fable 5.**
 
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/453639cc17719af4e94655e0.jpg" alt="Caso de costo por rechazos en WolfBench" width="760">
+
 WolfBenchAI dice que su evaluacion de Claude Fable 5 costo 11.081,12 dolares, la ejecucion de benchmark mas cara de esa suite hasta ahora, y aun asi no lidero la clasificacion porque los rechazos repetidos redujeron la finalizacion util de tareas. Este es un caso concreto de limitacion para equipos que presupuestan evaluaciones de agentes u otras cargas de trabajo de alta autonomia.
 
 Type: Evaluation | Date: 2026-06-12
@@ -2899,6 +3049,8 @@ Type: Evaluation | Date: 2026-06-12
 ### Case 88: [Monitor de corte de acceso API](https://x.com/simonw/status/2065618703480414666) (por [@simonw](https://x.com/simonw))
 
 **Supervisa la disponibilidad con un script si tu flujo depende del acceso continuo a un modelo frontier que puede sufrir limitaciones o retirarse sin mucho aviso.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable5/7400c158cb93d9480a22bb46.jpg" alt="Monitor de corte de acceso API" width="760">
 
 Simon Willison dice que hizo ping a la API `claude-fable-5` cada minuto para ver cuanto tiempo duraria el acceso e informo del punto exacto en el que dejo de responderle. La publicacion tiene pocos detalles de aplicacion, pero es evidencia concreta de que la continuidad de acceso en si misma se convirtio en una limitacion operativa que los usuarios tuvieron que medir en lugar de dar por sentada.
 
