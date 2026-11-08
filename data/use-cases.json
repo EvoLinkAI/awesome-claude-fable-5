@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05",
-  "case_count": 306,
-  "scope": "306 source-backed Fable cases, including 24 text-only reports. Cases with relevant original media record their full public presentation.",
+  "updated_at": "2026-11-08",
+  "case_count": 329,
+  "scope": "88 original Fable 5 cases and 241 source-backed community cases. Supporting posts and duplicate media do not add case numbers.",
   "cases": [
     {
       "number": 1,
@@ -6905,10 +6905,11 @@
       "source_media_urls": [
         "https://video-s.twimg.com/amplify_video/2117167031636393985/vid/avc1/1328x720/FzvPw55u1rFMVqaS.mp4?tag=29",
         "https://video-s.twimg.com/amplify_video/2117222195000954880/vid/avc1/1338x720/fDFFJmx6Q3suxoTu.mp4?tag=29",
-        "https://video.twimg.com/amplify_video/2117707224566972416/vid/avc1/1280x720/WihZ_cTvlCk17dpV.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2117707224566972416/vid/avc1/1280x720/WihZ_cTvlCk17dpV.mp4?tag=29",
+        "https://video.twimg.com/amplify_video/2118286868001505281/vid/avc1/720x1280/g0L3AYMCQwe3cBKA.mp4?tag=14"
       ],
-      "source_media_count": 3,
-      "expected_public_visual_count": 3,
+      "source_media_count": 4,
+      "expected_public_visual_count": 4,
       "text_only": false,
       "number": 238,
       "source_id": "2117169796290916732",
@@ -6944,10 +6945,23 @@
           "support_author_url": "https://x.com/rubenssoto_ai",
           "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/75f37c74099d5b9ba1ad0ddc.jpg",
           "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/25b0cfcdb1fdda22ba6aa9d6.mp4"
+        },
+        {
+          "native_media_id": "2118286868001505281",
+          "source_post_url": "https://x.com/FramiaPro/status/2118287430751260694",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2118286868001505281/vid/avc1/720x1280/g0L3AYMCQwe3cBKA.mp4?tag=14",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/1b28bd1dc2673319974e26bb.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/71788809537be865cc5d7f51.mp4",
+          "support_source_url": "https://x.com/FramiaPro/status/2118287430751260694",
+          "support_author_handle": "@FramiaPro",
+          "support_author_url": "https://x.com/FramiaPro"
         }
       ],
       "related_source_urls": [
-        "https://x.com/rubenssoto_ai/status/2117707344704352691"
+        "https://x.com/rubenssoto_ai/status/2117707344704352691",
+        "https://x.com/FramiaPro/status/2118287430751260694"
       ]
     },
     {
@@ -9134,6 +9148,904 @@
       "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/8575912e8f20f48439aea683.jpg",
       "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/66c3c44bcefa684522f95b96.mp4",
       "r2_media_urls": []
+    },
+    {
+      "number": 307,
+      "source_id": "2118246310981910811",
+      "source_url": "https://x.com/camperaigg/status/2118246310981910811",
+      "dedup_key": "https://x.com/camperaigg/status/2118246310981910811",
+      "author_handle": "@camperaigg",
+      "author_url": "https://x.com/camperaigg",
+      "date": "2026-11-05",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "title": "Jupiter Fly-Through in One Take",
+      "takeaway": "Hide transitions between simulation regions inside motivated changes in light.",
+      "body_notes": "Camperaigg reports that a single Claude Code brief produced a 46-second flight through Jupiter. The creator describes simulated cloud filaments, transitions masked by darkness or flashes, and a synthesized Python score.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2118245299173076992",
+          "source_post_url": "https://x.com/camperaigg/status/2118246310981910811",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2118245299173076992/vid/avc1/1280x720/HxSunUdiqGSBc9mu.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/a798149fc001efc1b975e204.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/58a20ee3fa71781622b8897a.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118245299173076992/vid/avc1/1280x720/HxSunUdiqGSBc9mu.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/a798149fc001efc1b975e204.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/58a20ee3fa71781622b8897a.mp4"
+    },
+    {
+      "number": 308,
+      "source_id": "2118313633381745064",
+      "source_url": "https://x.com/marfinxx/status/2118313633381745064",
+      "dedup_key": "https://x.com/marfinxx/status/2118313633381745064",
+      "author_handle": "@marfinxx",
+      "author_url": "https://x.com/marfinxx",
+      "date": "2026-11-05",
+      "type": "Tutorial",
+      "category": "agents-and-long-running-automation",
+      "title": "Adversarial Code Review in a Claude Code Harness",
+      "takeaway": "Give the reviewing agent a separate role and require a signed test receipt before committing.",
+      "body_notes": "Marfin describes a Claude Code architecture with an isolated Git worktree, a machine-readable task contract, tool checks, and a Fable 5.5 reviewer that probes diffs for races and edge cases. The article provides sample configuration, prompts, and hooks for the workflow.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2118275166333493249",
+          "source_post_url": "https://x.com/marfinxx/status/2118313633381745064",
+          "native_type": "photo",
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HWWgCmnW4AEyZou.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/62e0a231bb29b701a331b7e0.jpg"
+        },
+        {
+          "native_media_id": "2118273394860814337",
+          "source_post_url": "https://x.com/marfinxx/status/2118313633381745064",
+          "native_type": "photo",
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HWWebfXW8AEqYSg.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/3888b1f9db713d3b8be5fcf6.jpg"
+        },
+        {
+          "native_media_id": "2118273604810862592",
+          "source_post_url": "https://x.com/marfinxx/status/2118313633381745064",
+          "native_type": "photo",
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HWWentfWcAA-e3z.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/b5ccc0e785e50b4f260343aa.jpg"
+        },
+        {
+          "native_media_id": "2118273698381668352",
+          "source_post_url": "https://x.com/marfinxx/status/2118313633381745064",
+          "native_type": "photo",
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HWWetKEXoAAfOwU.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/69053b5221a4a3896691b239.jpg"
+        },
+        {
+          "native_media_id": "2118273787951005696",
+          "source_post_url": "https://x.com/marfinxx/status/2118313633381745064",
+          "native_type": "photo",
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HWWeyXvXQAAeigU.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/d132b1486a11eee088ec4b48.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HWWgCmnW4AEyZou.jpg",
+        "https://pbs.twimg.com/media/HWWebfXW8AEqYSg.jpg",
+        "https://pbs.twimg.com/media/HWWentfWcAA-e3z.jpg",
+        "https://pbs.twimg.com/media/HWWetKEXoAAfOwU.jpg",
+        "https://pbs.twimg.com/media/HWWeyXvXQAAeigU.jpg"
+      ],
+      "source_media_count": 5,
+      "expected_public_visual_count": 5,
+      "text_only": false,
+      "media_type": "image",
+      "public_media_disposition": "r2-image",
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/62e0a231bb29b701a331b7e0.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/3888b1f9db713d3b8be5fcf6.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/b5ccc0e785e50b4f260343aa.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/69053b5221a4a3896691b239.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/d132b1486a11eee088ec4b48.jpg"
+      ],
+      "article_url": "https://x.com/marfinxx/article/2118313633381745064"
+    },
+    {
+      "number": 309,
+      "source_id": "2118314922375331927",
+      "source_url": "https://x.com/flxrnc/status/2118314922375331927",
+      "dedup_key": "https://x.com/flxrnc/status/2118314922375331927",
+      "author_handle": "@flxrnc",
+      "author_url": "https://x.com/flxrnc",
+      "date": "2026-11-05",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "title": "Ryumon as a Three.js Anime Short",
+      "takeaway": "Divide a code-rendered short into shot, animation, and sound work.",
+      "body_notes": "The creator shares an 88-second Three.js short and describes seven agent teams, 39 shots, 2,112 code-rendered frames, and synthesized sound in a single HTML file.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2118288087834890240",
+          "source_post_url": "https://x.com/flxrnc/status/2118314922375331927",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2118288087834890240/vid/avc1/1328x720/DNJvqn50HW5GXx_v.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/665c00ab433daca60f6fa344.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/b4465e8ea0d1e59a702ece4a.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118288087834890240/vid/avc1/1328x720/DNJvqn50HW5GXx_v.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/665c00ab433daca60f6fa344.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/b4465e8ea0d1e59a702ece4a.mp4",
+      "prompt_source_url": "https://x.com/flxrnc/status/2118314927681089619"
+    },
+    {
+      "number": 310,
+      "source_id": "2118317021935071339",
+      "source_url": "https://x.com/camperaigg/status/2118317021935071339",
+      "dedup_key": "https://x.com/camperaigg/status/2118317021935071339",
+      "author_handle": "@camperaigg",
+      "author_url": "https://x.com/camperaigg",
+      "date": "2026-11-05",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "title": "Rowboat in a Lightning Storm",
+      "takeaway": "Tie wave timing and sound delays to the camera's path.",
+      "body_notes": "Camperaigg reports a 35-second unbroken take from a one-prompt Claude Code run. The workflow schedules large swells to story beats, delays thunder by distance, and fixes the rowing rig and the boat's position in the simulation.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2118316390855966720",
+          "source_post_url": "https://x.com/camperaigg/status/2118317021935071339",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2118316390855966720/vid/avc1/1280x720/qs6tISOlu71gqGxP.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/8fd382dc1d7f48481aa98a61.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/c717f78c1c94d6aa87a5b2cd.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118316390855966720/vid/avc1/1280x720/qs6tISOlu71gqGxP.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/8fd382dc1d7f48481aa98a61.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/c717f78c1c94d6aa87a5b2cd.mp4"
+    },
+    {
+      "number": 311,
+      "source_id": "2118319936594465120",
+      "source_url": "https://x.com/seeconvm/status/2118319936594465120",
+      "dedup_key": "https://x.com/seeconvm/status/2118319936594465120",
+      "author_handle": "@seeconvm",
+      "author_url": "https://x.com/seeconvm",
+      "date": "2026-11-05",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "title": "Frozen Rain in an Offline Anime Short",
+      "takeaway": "Use a single offline HTML player for timed shots and synthesized sound.",
+      "body_notes": "The creator shares a 50-second Three.js animation that freezes raindrops midair. The linked project provides its original prompt, code, and offline player.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2118302968361492480",
+          "source_post_url": "https://x.com/seeconvm/status/2118319936594465120",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2118302968361492480/vid/avc1/1280x720/C8eoC-61t7h0Rm1W.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/f2ae8ab78b2917d38d2f10b4.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/fc822df698c69770cbe394ad.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118302968361492480/vid/avc1/1280x720/C8eoC-61t7h0Rm1W.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/f2ae8ab78b2917d38d2f10b4.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/fc822df698c69770cbe394ad.mp4",
+      "prompt_source_url": "https://x.com/seeconvm/status/2118319944714567938"
+    },
+    {
+      "number": 312,
+      "source_id": "2118328801352466895",
+      "source_url": "https://x.com/anstapnever/status/2118328801352466895",
+      "dedup_key": "https://x.com/anstapnever/status/2118328801352466895",
+      "author_handle": "@anstapnever",
+      "author_url": "https://x.com/anstapnever",
+      "date": "2026-11-05",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "title": "Scripted Anime with Blender and Python",
+      "takeaway": "Build a shot pipeline for scripted inking, coloring, and orchestral sound.",
+      "body_notes": "The creator shares a roughly 90-second anime film and reports parallel agent work across 44 shots. Blender and Python draw and color the frames, with a synthesized orchestral soundtrack.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2118328505947811840",
+          "source_post_url": "https://x.com/anstapnever/status/2118328801352466895",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2118328505947811840/vid/avc1/1280x720/OBR6a_YN1DYIxJ59.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/b26fae93537f4e6c2a54bddb.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/f8af6522676fd735dd4e2aa1.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118328505947811840/vid/avc1/1280x720/OBR6a_YN1DYIxJ59.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/b26fae93537f4e6c2a54bddb.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/f8af6522676fd735dd4e2aa1.mp4",
+      "prompt_source_url": "https://x.com/anstapnever/status/2118328806109053193"
+    },
+    {
+      "number": 313,
+      "source_id": "2118363287738073343",
+      "source_url": "https://x.com/zodchiii/status/2118363287738073343",
+      "dedup_key": "https://x.com/zodchiii/status/2118363287738073343",
+      "author_handle": "@zodchiii",
+      "author_url": "https://x.com/zodchiii",
+      "date": "2026-11-05",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "title": "Beacon Lighthouse Animation in Three.js",
+      "takeaway": "Package a multi-shot film as a single offline HTML file.",
+      "body_notes": "The video shows Beacon, a lighthouse story with a spherical robot and toy-like characters. The creator describes eight parallel agent teams, 39 shots, and a synthesized score and effects.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2118362406783184896",
+          "source_post_url": "https://x.com/zodchiii/status/2118363287738073343",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2118362406783184896/vid/avc1/1328x720/n5Qx72AGySUBOlP7.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/d7d094bd606dd0e6b0bff2eb.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/e25ff2a28c6efdc45bfc7b80.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118362406783184896/vid/avc1/1328x720/n5Qx72AGySUBOlP7.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/d7d094bd606dd0e6b0bff2eb.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/e25ff2a28c6efdc45bfc7b80.mp4"
+    },
+    {
+      "number": 314,
+      "source_id": "2118387876387766683",
+      "source_url": "https://x.com/devteamdrew/status/2118387876387766683",
+      "dedup_key": "https://x.com/devteamdrew/status/2118387876387766683",
+      "author_handle": "@devteamdrew",
+      "author_url": "https://x.com/devteamdrew",
+      "date": "2026-11-06",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "title": "A Code-Rendered Opening Sequence",
+      "takeaway": "Use a short opening sequence to evaluate a single-pass animation brief.",
+      "body_notes": "The creator shares a roughly 18-second opening sequence and reports that designing, building, and rendering the scene from one request took a little over two hours.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2118367404094869504",
+          "source_post_url": "https://x.com/devteamdrew/status/2118387876387766683",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2118367404094869504/vid/avc1/1280x720/utztp4LIFLNk_cUp.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/5a3125a1f165bfa82e97725e.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/e53b379fe4b176845ce10601.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118367404094869504/vid/avc1/1280x720/utztp4LIFLNk_cUp.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/5a3125a1f165bfa82e97725e.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/e53b379fe4b176845ce10601.mp4"
+    },
+    {
+      "number": 315,
+      "source_id": "2118410521363845534",
+      "source_url": "https://x.com/camperaigg/status/2118410521363845534",
+      "dedup_key": "https://x.com/camperaigg/status/2118410521363845534",
+      "author_handle": "@camperaigg",
+      "author_url": "https://x.com/camperaigg",
+      "date": "2026-11-06",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "title": "Rebuilding a Six-Frame Axe GIF in Blender",
+      "takeaway": "Inspect reconstruction from the side and ask for a rig and material walkthrough.",
+      "body_notes": "Camperaigg reports reconstructing a six-frame axe swing, then asking to inspect the Blender model. A side view exposed thin axe heads. The revised clip shows clay, wireframe, materials, and the rig before a camera orbit.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2118380995049328640",
+          "source_post_url": "https://x.com/camperaigg/status/2118410521363845534",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2118380995049328640/vid/avc1/1280x720/G4eMTggUnjwTczEx.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/dcadf8c7bac0f9630177dc48.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/99b2188373ec5287c16e40ec.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118380995049328640/vid/avc1/1280x720/G4eMTggUnjwTczEx.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/dcadf8c7bac0f9630177dc48.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/99b2188373ec5287c16e40ec.mp4",
+      "exact_prompt": "it doesn't look very 3D, show me the actual Blender model"
+    },
+    {
+      "number": 316,
+      "source_id": "2118415577299460432",
+      "source_url": "https://x.com/0xRhinoX/status/2118415577299460432",
+      "dedup_key": "https://x.com/0xRhinoX/status/2118415577299460432",
+      "author_handle": "@0xRhinoX",
+      "author_url": "https://x.com/0xRhinoX",
+      "date": "2026-11-06",
+      "type": "Evaluation",
+      "category": "evaluations-comparisons-and-limits",
+      "title": "Interactive Rainbow Jelly across Two Models",
+      "takeaway": "Use the same interactive brief to compare how models handle unrequested behavior.",
+      "body_notes": "The creator asked Fable 5.5 and Gemini 4 Carbon for jelly that can be cut, nailed, and torched. The Fable version regenerated after damage. The creator reports $48.50 and 45 minutes for Fable, and $4.30 and 32 minutes for Carbon.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2118366550528778241",
+          "source_post_url": "https://x.com/0xRhinoX/status/2118415577299460432",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2118366550528778241/vid/avc1/720x732/x2li7tDp1_-JhpqE.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/4da95e15a1c4094b8f5b99d2.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/21235525e597105d4afa1c53.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118366550528778241/vid/avc1/720x732/x2li7tDp1_-JhpqE.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/4da95e15a1c4094b8f5b99d2.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/21235525e597105d4afa1c53.mp4"
+    },
+    {
+      "number": 317,
+      "source_id": "2118451983359311957",
+      "source_url": "https://x.com/noisyb0y1/status/2118451983359311957",
+      "dedup_key": "https://x.com/noisyb0y1/status/2118451983359311957",
+      "author_handle": "@noisyb0y1",
+      "author_url": "https://x.com/noisyb0y1",
+      "date": "2026-11-06",
+      "type": "Demo",
+      "category": "games-and-interactive-demos",
+      "title": "A Single-File Dragon Flight Game",
+      "takeaway": "Keep a 3D prototype in one HTML file for quick playtesting by link.",
+      "body_notes": "The creator shares a dragon flight game with free camera movement, a code-generated ocean and sky, and warships that fire at the player. The delivered version followed a second request.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2118451649270190080",
+          "source_post_url": "https://x.com/noisyb0y1/status/2118451983359311957",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2118451649270190080/vid/avc1/1280x720/D7hvRGGYJ6aCeTrr.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/aa879655bb8f199adf91400d.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/0c57717bb7e652039107134f.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118451649270190080/vid/avc1/1280x720/D7hvRGGYJ6aCeTrr.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/aa879655bb8f199adf91400d.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/0c57717bb7e652039107134f.mp4"
+    },
+    {
+      "number": 318,
+      "source_id": "2118673822459281765",
+      "source_url": "https://x.com/camperaigg/status/2118673822459281765",
+      "dedup_key": "https://x.com/camperaigg/status/2118673822459281765",
+      "author_handle": "@camperaigg",
+      "author_url": "https://x.com/camperaigg",
+      "date": "2026-11-06",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "title": "Basketball Drop with a Custom Blender Solver",
+      "takeaway": "Check rebound height and deformation, then inspect the simulation in Blender.",
+      "body_notes": "Camperaigg reports a pressurized-shell simulation for a 1.80 m drop, with a 1.32 m rebound. A follow-up request produced a Blender viewport walkthrough and a transition into the rendered arena.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2118673670969389056",
+          "source_post_url": "https://x.com/camperaigg/status/2118673822459281765",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2118673670969389056/vid/avc1/1280x720/U57ciHEbDhhnooRo.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/d7dc23722d696a126e5328b9.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/8e3cc422e63adc926c69807a.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118673670969389056/vid/avc1/1280x720/U57ciHEbDhhnooRo.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/d7dc23722d696a126e5328b9.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/8e3cc422e63adc926c69807a.mp4",
+      "exact_prompt": "shows off in a blender first and then transition into the arena"
+    },
+    {
+      "number": 319,
+      "source_id": "2118700618915397795",
+      "source_url": "https://x.com/anstapnever/status/2118700618915397795",
+      "dedup_key": "https://x.com/anstapnever/status/2118700618915397795",
+      "author_handle": "@anstapnever",
+      "author_url": "https://x.com/anstapnever",
+      "date": "2026-11-06",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "title": "Frame Checks for a Scripted Anime Film",
+      "takeaway": "Add clipping checks before the final render of a scripted film.",
+      "body_notes": "The creator shares a 92-second Blender and Python film. The post describes parallel agent work across 43 shots, scripted inking and coloring, frame-by-frame clipping checks, and a synthesized soundtrack.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2118699406379843584",
+          "source_post_url": "https://x.com/anstapnever/status/2118700618915397795",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2118699406379843584/vid/avc1/1280x720/xTOiaktxpfjF8a9f.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/8115bc37506ed9a23d6962fd.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/7c6bb5894aae3564edf04c09.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118699406379843584/vid/avc1/1280x720/xTOiaktxpfjF8a9f.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/8115bc37506ed9a23d6962fd.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/7c6bb5894aae3564edf04c09.mp4",
+      "prompt_source_url": "https://x.com/anstapnever/status/2118700623004848474"
+    },
+    {
+      "number": 320,
+      "source_id": "2118728540976009336",
+      "source_url": "https://x.com/camperaigg/status/2118728540976009336",
+      "dedup_key": "https://x.com/camperaigg/status/2118728540976009336",
+      "author_handle": "@camperaigg",
+      "author_url": "https://x.com/camperaigg",
+      "date": "2026-11-06",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "title": "A Match Strike at 44× Slow Motion",
+      "takeaway": "Use one clock for the simulation, rendered footage, and sound.",
+      "body_notes": "Camperaigg reports a Three.js match strike with a GPU combustion simulation, a macro lens, and synthesized sound. The agent reviewed its own footage and reran the fire simulation when the flame shape looked wrong.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2118728297026912256",
+          "source_post_url": "https://x.com/camperaigg/status/2118728540976009336",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2118728297026912256/vid/avc1/1280x720/YcFmRliFLq8iuBAQ.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/d97aaaec008adcc4387e72f9.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/3854b7f696993575e841539a.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118728297026912256/vid/avc1/1280x720/YcFmRliFLq8iuBAQ.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/d97aaaec008adcc4387e72f9.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/3854b7f696993575e841539a.mp4"
+    },
+    {
+      "number": 321,
+      "source_id": "2118780483232317912",
+      "source_url": "https://x.com/dummerspast39/status/2118780483232317912",
+      "dedup_key": "https://x.com/dummerspast39/status/2118780483232317912",
+      "author_handle": "@dummerspast39",
+      "author_url": "https://x.com/dummerspast39",
+      "date": "2026-11-07",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "title": "Redrawing a Reference Image as SVG",
+      "takeaway": "Inspect vector paths and compare the redraw with its visual reference.",
+      "body_notes": "The creator supplied reference images, shared a screenshot of the SVG result, and reports reviewing its construction with GPT-6.1 Sol. The source does not publish the SVG paths.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2118780477641211904",
+          "source_post_url": "https://x.com/dummerspast39/status/2118780483232317912",
+          "native_type": "photo",
+          "kind": "image",
+          "source_url": "https://pbs.twimg.com/media/HWdrnl7WQAAydW4.jpg?name=orig",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/873e762879e0c6ab5ea80151.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HWdrnl7WQAAydW4.jpg?name=orig"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "image",
+      "public_media_disposition": "r2-image",
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/873e762879e0c6ab5ea80151.jpg"
+      ]
+    },
+    {
+      "number": 322,
+      "source_id": "2118789381662429475",
+      "source_url": "https://x.com/0xRhinoX/status/2118789381662429475",
+      "dedup_key": "https://x.com/0xRhinoX/status/2118789381662429475",
+      "author_handle": "@0xRhinoX",
+      "author_url": "https://x.com/0xRhinoX",
+      "date": "2026-11-07",
+      "type": "Evaluation",
+      "category": "evaluations-comparisons-and-limits",
+      "title": "A Mario-Style Brief across Two Models",
+      "takeaway": "Compare level fidelity and original design under the same brief.",
+      "body_notes": "In the creator's test, Gemini 4 Carbon recreated a Mario level while Fable built a game about repairing a water tower. The creator reports $0.90 and 3 minutes for Carbon, and $34 and 29 minutes for Fable.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2118789062194520064",
+          "source_post_url": "https://x.com/0xRhinoX/status/2118789381662429475",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2118789062194520064/vid/avc1/720x810/oqShVnHFhS882MSY.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/970bec8434d4db16547549bd.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/9d964836dcc72ce880bbfbf1.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118789062194520064/vid/avc1/720x810/oqShVnHFhS882MSY.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/970bec8434d4db16547549bd.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/9d964836dcc72ce880bbfbf1.mp4"
+    },
+    {
+      "number": 323,
+      "source_id": "2118807627714990485",
+      "source_url": "https://x.com/JaydenDavisNC/status/2118807627714990485",
+      "dedup_key": "https://x.com/JaydenDavisNC/status/2118807627714990485",
+      "author_handle": "@JaydenDavisNC",
+      "author_url": "https://x.com/JaydenDavisNC",
+      "date": "2026-11-07",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "title": "A Three-Dimensional Voxel Pagoda",
+      "takeaway": "Inspect a voxel building from several camera angles to assess depth and silhouette.",
+      "body_notes": "The creator shares a short recording of a three-dimensional voxel pagoda. The video provides a visual result for inspecting the stepped roofs and overall composition.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2118806304189820928",
+          "source_post_url": "https://x.com/JaydenDavisNC/status/2118807627714990485",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2118806304189820928/vid/avc1/1280x720/zJ4GH_WQsy9kI9c2.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/f05509505248bbbd310f5738.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/0e0dfb05333faf5a4fc0bdec.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118806304189820928/vid/avc1/1280x720/zJ4GH_WQsy9kI9c2.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/f05509505248bbbd310f5738.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/0e0dfb05333faf5a4fc0bdec.mp4"
+    },
+    {
+      "number": 324,
+      "source_id": "2119006297513435548",
+      "source_url": "https://x.com/camperaigg/status/2119006297513435548",
+      "dedup_key": "https://x.com/camperaigg/status/2119006297513435548",
+      "author_handle": "@camperaigg",
+      "author_url": "https://x.com/camperaigg",
+      "date": "2026-11-07",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "title": "Smoke from a Burning Letter in Three.js",
+      "takeaway": "Backlight simulated smoke and check the pressure solver at full resolution.",
+      "body_notes": "Camperaigg shares a 30-second shot of a burning letter and describes GPU particle smoke, a sweeping light beam, and synthesized sound. The creator answered four questions and reports that the agent fixed a numerical failure in the pressure solver.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2119006152793202688",
+          "source_post_url": "https://x.com/camperaigg/status/2119006297513435548",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2119006152793202688/vid/avc1/1280x720/NdqTOsBdEblR97sS.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/0997278c25cd9c88aed47498.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/48d0b034652b734f6e387d8e.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2119006152793202688/vid/avc1/1280x720/NdqTOsBdEblR97sS.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/0997278c25cd9c88aed47498.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/48d0b034652b734f6e387d8e.mp4"
+    },
+    {
+      "number": 325,
+      "source_id": "2119052253982306393",
+      "source_url": "https://x.com/camperaigg/status/2119052253982306393",
+      "dedup_key": "https://x.com/camperaigg/status/2119052253982306393",
+      "author_handle": "@camperaigg",
+      "author_url": "https://x.com/camperaigg",
+      "date": "2026-11-07",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "title": "Riding a Lightning Bolt to the Ground",
+      "takeaway": "Use the evolving simulation to drive both camera and sound.",
+      "body_notes": "Camperaigg reports a 28-second Three.js and Taichi shot. The camera follows the bolt's leading edge, the sound follows its steps, and a frame scan caught a strobe that the agent corrected before delivery.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2119016604457717761",
+          "source_post_url": "https://x.com/camperaigg/status/2119052253982306393",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2119016604457717761/vid/avc1/1280x720/qUC654hFkSXGom_h.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/97c61bf20843530b450005e0.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/d6ee461c4cdf38ce8f5759a1.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2119016604457717761/vid/avc1/1280x720/qUC654hFkSXGom_h.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/97c61bf20843530b450005e0.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/d6ee461c4cdf38ce8f5759a1.mp4"
+    },
+    {
+      "number": 326,
+      "source_id": "2119052317227987018",
+      "source_url": "https://x.com/seeconvm/status/2119052317227987018",
+      "dedup_key": "https://x.com/seeconvm/status/2119052317227987018",
+      "author_handle": "@seeconvm",
+      "author_url": "https://x.com/seeconvm",
+      "date": "2026-11-07",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "title": "A Giant Robot Catches a Meteor",
+      "takeaway": "Assign shot ownership and art direction before rendering a code-driven film.",
+      "body_notes": "The creator shares an 82-second mecha short and describes six parallel teams, 36 shots, and 1,968 code-rendered frames. The creator publishes the prompt and project code in a reply.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2118987638866591744",
+          "source_post_url": "https://x.com/seeconvm/status/2119052317227987018",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2118987638866591744/vid/avc1/1280x720/GT3yarPOmIxhb5Am.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/a509847ad05762e472a7096c.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/10c500daeecb0af61a05553e.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2118987638866591744/vid/avc1/1280x720/GT3yarPOmIxhb5Am.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/a509847ad05762e472a7096c.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/10c500daeecb0af61a05553e.mp4",
+      "prompt_source_url": "https://x.com/seeconvm/status/2119052321795551415"
+    },
+    {
+      "number": 327,
+      "source_id": "2119053573526901001",
+      "source_url": "https://x.com/AIMind_Ai/status/2119053573526901001",
+      "dedup_key": "https://x.com/AIMind_Ai/status/2119053573526901001",
+      "author_handle": "@AIMind_Ai",
+      "author_url": "https://x.com/AIMind_Ai",
+      "date": "2026-11-07",
+      "type": "Evaluation",
+      "category": "evaluations-comparisons-and-limits",
+      "title": "Pixel-Art Shop Windows under the Same Brief",
+      "takeaway": "Compare the unedited effects before tuning the stronger or weaker details.",
+      "body_notes": "The creator asked Fable 5.5 and Opus 5.5 for a 3D pixel-art Christmas shop window. Opus added decorative elements, while the creator reduced Fable's snowflakes so the scene was visible. The source records the side-by-side result.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2119053367003467776",
+          "source_post_url": "https://x.com/AIMind_Ai/status/2119053573526901001",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2119053367003467776/vid/avc1/720x900/Bz3Bf8AM5HTDRyjP.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/ab064042073f1266b2f1caf1.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/c953d5e5c0e87fecdac9dcc7.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2119053367003467776/vid/avc1/720x900/Bz3Bf8AM5HTDRyjP.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/ab064042073f1266b2f1caf1.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/c953d5e5c0e87fecdac9dcc7.mp4"
+    },
+    {
+      "number": 328,
+      "source_id": "2119082173387137034",
+      "source_url": "https://x.com/anstapnever/status/2119082173387137034",
+      "dedup_key": "https://x.com/anstapnever/status/2119082173387137034",
+      "author_handle": "@anstapnever",
+      "author_url": "https://x.com/anstapnever",
+      "date": "2026-11-07",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "title": "A Bronze Giant in an Animated Town",
+      "takeaway": "Assign environment, character, effects, and sound work to parallel teams.",
+      "body_notes": "The creator shares a 77-second browser-rendered anime short and describes five teams, 31 shots, and frame checks for clipping. The film features a town, a bronze giant, and a synchronized orchestral score.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2119081022860226560",
+          "source_post_url": "https://x.com/anstapnever/status/2119082173387137034",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2119081022860226560/vid/avc1/1280x720/TByUb3En8aiArVwQ.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/34679b2782af94de4f0ad237.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/8ff966cd65fa2c2c5dd253e6.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2119081022860226560/vid/avc1/1280x720/TByUb3En8aiArVwQ.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/34679b2782af94de4f0ad237.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/8ff966cd65fa2c2c5dd253e6.mp4",
+      "prompt_source_url": "https://x.com/anstapnever/status/2119136411693777365"
+    },
+    {
+      "number": 329,
+      "source_id": "2119097552943612410",
+      "source_url": "https://x.com/camperaigg/status/2119097552943612410",
+      "dedup_key": "https://x.com/camperaigg/status/2119097552943612410",
+      "author_handle": "@camperaigg",
+      "author_url": "https://x.com/camperaigg",
+      "date": "2026-11-08",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "title": "Blue Ink Diffusion in a Glass Flask",
+      "takeaway": "Use particle-density checks to debug a fluid simulation before rendering.",
+      "body_notes": "Camperaigg reports a single Claude Code brief for a 30-second Three.js clip. The workflow simulates ink flow, ray-traces the flask, changes playback speed within one shot, and checks the simulation for banding and lost ink.",
+      "prompt_boundary": "Exact prompt text is linked at the original creator source when available.",
+      "media": [
+        {
+          "native_media_id": "2119074301991378944",
+          "source_post_url": "https://x.com/camperaigg/status/2119097552943612410",
+          "native_type": "video",
+          "kind": "video",
+          "source_url": "https://video.twimg.com/amplify_video/2119074301991378944/vid/avc1/1280x720/pvwGmr9I2s8LSXJR.mp4?tag=29",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/ba7b4db94891d5a26a959423.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/d6f3277ec1b19c7d45044e18.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2119074301991378944/vid/avc1/1280x720/pvwGmr9I2s8LSXJR.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "text_only": false,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "r2_media_urls": [],
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/ba7b4db94891d5a26a959423.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/d6f3277ec1b19c7d45044e18.mp4"
     }
   ]
 }
