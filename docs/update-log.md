@@ -1,6 +1,37 @@
 # Update log
 
+## 2026-11-08
 
+- Added 23 cases (307–329), for 329 total across eleven languages.
+- Reviewed 267 collected posts from November 5 through November 8 at 12:19 Beijing time.
+- Added 27 original visuals for the new cases and a credited Framia comparison clip to Case 238.
+- Linked the full Russian notes for Cases 7, 19, 21, 22, 24, 45 from their original anchors to keep the complete Russian index rendered on GitHub.
+
+| Case | Title | Source |
+|---|---|---|
+| 307 | Jupiter Fly-Through in One Take | [Original](https://x.com/camperaigg/status/2118246310981910811) |
+| 308 | Adversarial Code Review in a Claude Code Harness | [Original](https://x.com/marfinxx/status/2118313633381745064) |
+| 309 | Ryumon as a Three.js Anime Short | [Original](https://x.com/flxrnc/status/2118314922375331927) |
+| 310 | Rowboat in a Lightning Storm | [Original](https://x.com/camperaigg/status/2118317021935071339) |
+| 311 | Frozen Rain in an Offline Anime Short | [Original](https://x.com/seeconvm/status/2118319936594465120) |
+| 312 | Scripted Anime with Blender and Python | [Original](https://x.com/anstapnever/status/2118328801352466895) |
+| 313 | Beacon Lighthouse Animation in Three.js | [Original](https://x.com/zodchiii/status/2118363287738073343) |
+| 314 | A Code-Rendered Opening Sequence | [Original](https://x.com/devteamdrew/status/2118387876387766683) |
+| 315 | Rebuilding a Six-Frame Axe GIF in Blender | [Original](https://x.com/camperaigg/status/2118410521363845534) |
+| 316 | Interactive Rainbow Jelly across Two Models | [Original](https://x.com/0xRhinoX/status/2118415577299460432) |
+| 317 | A Single-File Dragon Flight Game | [Original](https://x.com/noisyb0y1/status/2118451983359311957) |
+| 318 | Basketball Drop with a Custom Blender Solver | [Original](https://x.com/camperaigg/status/2118673822459281765) |
+| 319 | Frame Checks for a Scripted Anime Film | [Original](https://x.com/anstapnever/status/2118700618915397795) |
+| 320 | A Match Strike at 44× Slow Motion | [Original](https://x.com/camperaigg/status/2118728540976009336) |
+| 321 | Redrawing a Reference Image as SVG | [Original](https://x.com/dummerspast39/status/2118780483232317912) |
+| 322 | A Mario-Style Brief across Two Models | [Original](https://x.com/0xRhinoX/status/2118789381662429475) |
+| 323 | A Three-Dimensional Voxel Pagoda | [Original](https://x.com/JaydenDavisNC/status/2118807627714990485) |
+| 324 | Smoke from a Burning Letter in Three.js | [Original](https://x.com/camperaigg/status/2119006297513435548) |
+| 325 | Riding a Lightning Bolt to the Ground | [Original](https://x.com/camperaigg/status/2119052253982306393) |
+| 326 | A Giant Robot Catches a Meteor | [Original](https://x.com/seeconvm/status/2119052317227987018) |
+| 327 | Pixel-Art Shop Windows under the Same Brief | [Original](https://x.com/AIMind_Ai/status/2119053573526901001) |
+| 328 | A Bronze Giant in an Animated Town | [Original](https://x.com/anstapnever/status/2119082173387137034) |
+| 329 | Blue Ink Diffusion in a Glass Flask | [Original](https://x.com/camperaigg/status/2119097552943612410) |
 
 ## 2026-11-05 — Original-media restoration
 

@@ -37,7 +37,7 @@
 <a id="-overview"></a>
 ## 📊 概覽
 
-- **88 個原有 Fable 5 案例，加上 218 個社群案例，共 306 個案例。**
+- **88 個原有 Fable 5 案例，加上 241 個社群案例，共 329 個案例。**
 - 覆蓋程式代理、長時間自動化、遊戲、視覺設計、3D 模擬、知識工作、教學、API 整合、基準測試、定價與發布限制。
 - 每個案例都包含原始來源、創作者署名、精簡重點、證據類型與發布日期。
 - 使用此 repo 尋找實用工作流程、比較強項與限制、發現可重現提示詞，並追蹤整合範例。
@@ -436,6 +436,29 @@ curl --request POST \
 | [Lantern Isle 像素村莊動畫](#case-304) | Demo |
 | [Pause 遊戲影片剪輯示範](#case-305) | Demo |
 | [海濱騎車的鵜鶘](#case-306) | Demo |
+| [一鏡到底穿越木星](#case-307) | Demo |
+| [在 Claude Code 執行框架中做對抗式程式碼審查](#case-308) | Tutorial |
+| [以 Three.js 製作《Ryumon》動畫短片](#case-309) | Demo |
+| [雷雨中的划艇](#case-310) | Demo |
+| [讓雨滴停在離線動畫短片中](#case-311) | Demo |
+| [用 Blender 和 Python 製作腳本動畫](#case-312) | Demo |
+| [以 Three.js 製作燈塔動畫《Beacon》](#case-313) | Demo |
+| [以程式渲染片頭](#case-314) | Demo |
+| [在 Blender 重建六格揮斧 GIF](#case-315) | Demo |
+| [兩個模型製作的互動彩虹果凍](#case-316) | Evaluation |
+| [單一檔案的飛龍遊戲](#case-317) | Demo |
+| [用 Blender 自訂求解器模擬籃球落地](#case-318) | Demo |
+| [腳本動畫的逐格檢查](#case-319) | Demo |
+| [以 44 倍慢動作劃火柴](#case-320) | Demo |
+| [將參考圖重繪為 SVG](#case-321) | Demo |
+| [兩個模型實作相同的瑪利歐風格需求](#case-322) | Evaluation |
+| [立體體素寶塔](#case-323) | Demo |
+| [用 Three.js 模擬信紙燃燒時的煙霧](#case-324) | Demo |
+| [跟著閃電落到地面](#case-325) | Demo |
+| [巨型機器人接住隕石](#case-326) | Demo |
+| [相同需求下的像素風聖誕櫥窗](#case-327) | Evaluation |
+| [動畫小鎮中的青銅巨人](#case-328) | Demo |
+| [玻璃燒瓶中的藍墨水擴散](#case-329) | Demo |
 
 <a id="coding-and-code-generation"></a>
 ## 💻 程式設計與程式碼生成
@@ -5060,6 +5083,12 @@ Type: Evaluation | Date: 2026-11-02
 
 <table><tr><td valign="top"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/1719bb6df936cf88ea6c137a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/a97bd6e101d45bc7e1c5f7a8.jpg" alt="以程式生成的苔蘚機器人影片" width="760"></a></td><td valign="top"><p>另一則貼文展示了單獨報告的 Opus 5.5 對照執行。</p><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/fb66f964af405e36c6993f37.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5/fable-5-5/full-2026-11-03/679a823fdecdc62be6ab781a.jpg" alt="以程式生成的苔蘚機器人影片" width="760"></a></td><td valign="top"><p>GPT-6 Astra Max</p><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/25b0cfcdb1fdda22ba6aa9d6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-05/75f37c74099d5b9ba1ad0ddc.jpg" alt="GPT-6 Astra Max" width="760"></a></td></tr></table>
 
+[Framia 對照 · @FramiaPro](https://x.com/FramiaPro/status/2118287430751260694)
+
+Framia 將一段署名 Chetaslua 的 Fable 作品與自家的 Opus 5.5 動態圖像並排展示。貼文呈現了畫面比較，未提供共用的創作需求或受控的評測設計。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/71788809537be865cc5d7f51.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/1b28bd1dc2673319974e26bb.jpg" alt="Framia 對照" width="760"><br>▶ 播放影片</a>
+
 Type: Demo | Date: 2026-11-02
 
 ---
@@ -5960,12 +5989,337 @@ Type: Demo | Date: 2026-11-02
 
 ---
 
+<a id="case-307"></a>
+### Case 307: [一鏡到底穿越木星](https://x.com/camperaigg/status/2118246310981910811) (作者 [@camperaigg](https://x.com/camperaigg))
+
+**運用符合畫面邏輯的光線變化，掩飾不同模擬區域之間的切換。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/58a20ee3fa71781622b8897a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/a798149fc001efc1b975e204.jpg" alt="一鏡到底穿越木星" width="760"><br>▶ 播放影片</a>
+
+Camperaigg 表示，他只向 Claude Code 提出一次需求，就得到 46 秒的木星穿越動畫。他介紹了模擬產生的絲狀雲、利用黑暗或閃光掩飾的轉場，以及用 Python 合成的配樂。
+
+Type: Demo | Date: 2026-11-05
+
+---
+
+<a id="case-308"></a>
+### Case 308: [在 Claude Code 執行框架中做對抗式程式碼審查](https://x.com/marfinxx/status/2118313633381745064) (作者 [@marfinxx](https://x.com/marfinxx))
+
+**讓審查代理程式獨立負責驗證，並要求提交前產生經簽署的測試憑證。**
+
+<table><tr><td><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/62e0a231bb29b701a331b7e0.jpg" alt="在 Claude Code 執行框架中做對抗式程式碼審查 · 1" width="760"></td><td><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/3888b1f9db713d3b8be5fcf6.jpg" alt="在 Claude Code 執行框架中做對抗式程式碼審查 · 2" width="760"></td></tr><tr><td><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/b5ccc0e785e50b4f260343aa.jpg" alt="在 Claude Code 執行框架中做對抗式程式碼審查 · 3" width="760"></td><td><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/69053b5221a4a3896691b239.jpg" alt="在 Claude Code 執行框架中做對抗式程式碼審查 · 4" width="760"></td></tr><tr><td><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/d132b1486a11eee088ec4b48.jpg" alt="在 Claude Code 執行框架中做對抗式程式碼審查 · 5" width="760"></td></tr></table>
+
+Marfin 介紹一套 Claude Code 架構，包含隔離的 Git 工作樹、機器可讀的任務契約、工具檢查，以及負責在差異中尋找競態條件和邊界問題的 Fable 5.5 審查代理程式。文章提供範例設定、提示詞與掛鉤。
+
+[完整教學](https://x.com/marfinxx/article/2118313633381745064)
+
+Type: Tutorial | Date: 2026-11-05
+
+---
+
+<a id="case-309"></a>
+### Case 309: [以 Three.js 製作《Ryumon》動畫短片](https://x.com/flxrnc/status/2118314922375331927) (作者 [@flxrnc](https://x.com/flxrnc))
+
+**將程式渲染的短片拆分為分鏡、動畫和聲音工作。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/b4465e8ea0d1e59a702ece4a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/665c00ab433daca60f6fa344.jpg" alt="以 Three.js 製作《Ryumon》動畫短片" width="760"><br>▶ 播放影片</a>
+
+創作者發布了一部 88 秒的 Three.js 短片，並介紹七組代理程式、39 個鏡頭、2,112 格以程式渲染的畫面及合成音效，全部封裝在一個 HTML 檔案內。
+
+[原始提示詞與程式碼](https://x.com/flxrnc/status/2118314927681089619)
+
+Type: Demo | Date: 2026-11-05
+
+---
+
+<a id="case-310"></a>
+### Case 310: [雷雨中的划艇](https://x.com/camperaigg/status/2118317021935071339) (作者 [@camperaigg](https://x.com/camperaigg))
+
+**讓海浪的時機與聲音的延遲隨攝影機路徑而變化。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/c717f78c1c94d6aa87a5b2cd.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/8fd382dc1d7f48481aa98a61.jpg" alt="雷雨中的划艇" width="760"><br>▶ 播放影片</a>
+
+Camperaigg 表示，他以一條提示詞在 Claude Code 製作了 35 秒的一鏡到底影片。流程依劇情節點安排大浪，依距離延遲雷聲，並修正划槳綁定和船在模擬中的位置。
+
+Type: Demo | Date: 2026-11-05
+
+---
+
+<a id="case-311"></a>
+### Case 311: [讓雨滴停在離線動畫短片中](https://x.com/seeconvm/status/2118319936594465120) (作者 [@seeconvm](https://x.com/seeconvm))
+
+**用單一離線 HTML 播放器呈現依時間編排的鏡頭與合成音效。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/fc822df698c69770cbe394ad.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/f2ae8ab78b2917d38d2f10b4.jpg" alt="讓雨滴停在離線動畫短片中" width="760"><br>▶ 播放影片</a>
+
+創作者分享了一部 50 秒的 Three.js 動畫，讓雨滴停在半空中。專案連結提供原始提示詞、程式碼與離線播放器。
+
+[原始提示詞與程式碼](https://x.com/seeconvm/status/2118319944714567938)
+
+Type: Demo | Date: 2026-11-05
+
+---
+
+<a id="case-312"></a>
+### Case 312: [用 Blender 和 Python 製作腳本動畫](https://x.com/anstapnever/status/2118328801352466895) (作者 [@anstapnever](https://x.com/anstapnever))
+
+**建立分鏡製作流程，以腳本描線與上色，並搭配合成管弦樂。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/f8af6522676fd735dd4e2aa1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/b26fae93537f4e6c2a54bddb.jpg" alt="用 Blender 和 Python 製作腳本動畫" width="760"><br>▶ 播放影片</a>
+
+創作者分享了一部約 90 秒的動畫，表示多組代理程式平行處理了 44 個鏡頭。畫格由 Blender 和 Python 繪製與上色，並搭配合成管弦樂配樂。
+
+[原始提示詞與程式碼](https://x.com/anstapnever/status/2118328806109053193)
+
+Type: Demo | Date: 2026-11-05
+
+---
+
+<a id="case-313"></a>
+### Case 313: [以 Three.js 製作燈塔動畫《Beacon》](https://x.com/zodchiii/status/2118363287738073343) (作者 [@zodchiii](https://x.com/zodchiii))
+
+**將包含多個鏡頭的短片封裝為單一離線 HTML 檔案。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/e25ff2a28c6efdc45bfc7b80.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/d7d094bd606dd0e6b0bff2eb.jpg" alt="以 Three.js 製作燈塔動畫《Beacon》" width="760"><br>▶ 播放影片</a>
+
+影片呈現了《Beacon》，故事包含燈塔、球形機器人與玩具般的角色。創作者介紹了八組平行工作的代理程式、39 個鏡頭，以及合成的配樂與音效。
+
+Type: Demo | Date: 2026-11-05
+
+---
+
+<a id="case-314"></a>
+### Case 314: [以程式渲染片頭](https://x.com/devteamdrew/status/2118387876387766683) (作者 [@devteamdrew](https://x.com/devteamdrew))
+
+**用一段短片頭檢驗一次性動畫需求的成果。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/e53b379fe4b176845ce10601.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/5a3125a1f165bfa82e97725e.jpg" alt="以程式渲染片頭" width="760"><br>▶ 播放影片</a>
+
+創作者分享了一段約 18 秒的片頭，表示從單一需求出發設計、建置並渲染場景，花了兩個多小時。
+
+Type: Demo | Date: 2026-11-06
+
+---
+
+<a id="case-315"></a>
+### Case 315: [在 Blender 重建六格揮斧 GIF](https://x.com/camperaigg/status/2118410521363845534) (作者 [@camperaigg](https://x.com/camperaigg))
+
+**從側面檢查重建效果，並要求查看骨架綁定與材質。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/99b2188373ec5287c16e40ec.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/dcadf8c7bac0f9630177dc48.jpg" alt="在 Blender 重建六格揮斧 GIF" width="760"><br>▶ 播放影片</a>
+
+Camperaigg 表示，他重建了六格揮斧動作，接著要求檢視 Blender 模型。側視圖顯示斧頭過薄。修訂影片先展示灰模、線框、材質與骨架綁定，最後讓攝影機環繞模型。
+
+後續提示詞
+
+```
+it doesn't look very 3D, show me the actual Blender model
+```
+
+Type: Demo | Date: 2026-11-06
+
+---
+
+<a id="case-316"></a>
+### Case 316: [兩個模型製作的互動彩虹果凍](https://x.com/0xRhinoX/status/2118415577299460432) (作者 [@0xRhinoX](https://x.com/0xRhinoX))
+
+**用相同的互動需求，比較模型如何處理未明確要求的行為。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/21235525e597105d4afa1c53.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/4da95e15a1c4094b8f5b99d2.jpg" alt="兩個模型製作的互動彩虹果凍" width="760"><br>▶ 播放影片</a>
+
+創作者請 Fable 5.5 和 Gemini 4 Carbon 製作能切開、釘住和用火燒的果凍。Fable 版本受損後會自行復原。創作者記錄 Fable 花費 48.50 美元、耗時 45 分鐘，Carbon 花費 4.30 美元、耗時 32 分鐘。
+
+Type: Evaluation | Date: 2026-11-06
+
+---
+
+<a id="case-317"></a>
+### Case 317: [單一檔案的飛龍遊戲](https://x.com/noisyb0y1/status/2118451983359311957) (作者 [@noisyb0y1](https://x.com/noisyb0y1))
+
+**把 3D 原型放進一個 HTML 檔案，透過連結快速邀請試玩。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/0c57717bb7e652039107134f.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/aa879655bb8f199adf91400d.jpg" alt="單一檔案的飛龍遊戲" width="760"><br>▶ 播放影片</a>
+
+創作者分享了一款飛龍遊戲。攝影機可以自由移動，海洋和天空由程式生成，軍艦會向玩家開火。交付的版本是在第二次提出需求後完成的。
+
+Type: Demo | Date: 2026-11-06
+
+---
+
+<a id="case-318"></a>
+### Case 318: [用 Blender 自訂求解器模擬籃球落地](https://x.com/camperaigg/status/2118673822459281765) (作者 [@camperaigg](https://x.com/camperaigg))
+
+**先核對回彈高度與變形，再到 Blender 中檢視模擬。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/8e3cc422e63adc926c69807a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/d7dc23722d696a126e5328b9.jpg" alt="用 Blender 自訂求解器模擬籃球落地" width="760"><br>▶ 播放影片</a>
+
+Camperaigg 表示，他以加壓薄殼模擬籃球從 1.80 公尺處落下，回彈高度為 1.32 公尺。後續需求產生了 Blender 視埠內的操作展示，畫面接著轉入渲染完成的球場。
+
+後續提示詞
+
+```
+shows off in a blender first and then transition into the arena
+```
+
+Type: Demo | Date: 2026-11-06
+
+---
+
+<a id="case-319"></a>
+### Case 319: [腳本動畫的逐格檢查](https://x.com/anstapnever/status/2118700618915397795) (作者 [@anstapnever](https://x.com/anstapnever))
+
+**在腳本動畫最終渲染前加入逐格穿模檢查。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/7c6bb5894aae3564edf04c09.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/8115bc37506ed9a23d6962fd.jpg" alt="腳本動畫的逐格檢查" width="760"><br>▶ 播放影片</a>
+
+創作者分享了一部以 Blender 和 Python 製作的 92 秒短片。貼文介紹了多組代理程式平行製作 43 個鏡頭、以腳本描線與上色、逐格檢查穿模，以及配樂合成的流程。
+
+[原始提示詞與程式碼](https://x.com/anstapnever/status/2118700623004848474)
+
+Type: Demo | Date: 2026-11-06
+
+---
+
+<a id="case-320"></a>
+### Case 320: [以 44 倍慢動作劃火柴](https://x.com/camperaigg/status/2118728540976009336) (作者 [@camperaigg](https://x.com/camperaigg))
+
+**讓模擬、渲染畫面與音效使用同一條時間軸。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/3854b7f696993575e841539a.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/d97aaaec008adcc4387e72f9.jpg" alt="以 44 倍慢動作劃火柴" width="760"><br>▶ 播放影片</a>
+
+Camperaigg 介紹了一個 Three.js 劃火柴場景，其中以 GPU 模擬燃燒、使用微距鏡頭，並搭配合成音效。代理程式回看影片後發現火焰形狀不自然，因此重新執行了燃燒模擬。
+
+Type: Demo | Date: 2026-11-06
+
+---
+
+<a id="case-321"></a>
+### Case 321: [將參考圖重繪為 SVG](https://x.com/dummerspast39/status/2118780483232317912) (作者 [@dummerspast39](https://x.com/dummerspast39))
+
+**檢查向量路徑，並對照參考圖檢驗重繪結果。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/873e762879e0c6ab5ea80151.jpg" alt="將參考圖重繪為 SVG" width="760">
+
+創作者提供參考圖、發布 SVG 成品的截圖，並表示曾用 GPT-6.1 Sol 檢查繪製方式。來源沒有公開 SVG 路徑。
+
+Type: Demo | Date: 2026-11-07
+
+---
+
+<a id="case-322"></a>
+### Case 322: [兩個模型實作相同的瑪利歐風格需求](https://x.com/0xRhinoX/status/2118789381662429475) (作者 [@0xRhinoX](https://x.com/0xRhinoX))
+
+**在相同需求下比較關卡還原度與原創設計。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/9d964836dcc72ce880bbfbf1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/970bec8434d4db16547549bd.jpg" alt="兩個模型實作相同的瑪利歐風格需求" width="760"><br>▶ 播放影片</a>
+
+在創作者的測試中，Gemini 4 Carbon 重現了一個瑪利歐關卡，Fable 則做出一款修理水塔的遊戲。創作者記錄 Carbon 花費 0.90 美元、耗時 3 分鐘，Fable 花費 34 美元、耗時 29 分鐘。
+
+Type: Evaluation | Date: 2026-11-07
+
+---
+
+<a id="case-323"></a>
+### Case 323: [立體體素寶塔](https://x.com/JaydenDavisNC/status/2118807627714990485) (作者 [@JaydenDavisNC](https://x.com/JaydenDavisNC))
+
+**從不同攝影角度查看體素建築，檢查立體層次和輪廓。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/0e0dfb05333faf5a4fc0bdec.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/f05509505248bbbd310f5738.jpg" alt="立體體素寶塔" width="760"><br>▶ 播放影片</a>
+
+創作者分享了一段立體體素寶塔的短片，可用來觀察層層疊起的屋簷與整體構圖。
+
+Type: Demo | Date: 2026-11-07
+
+---
+
+<a id="case-324"></a>
+### Case 324: [用 Three.js 模擬信紙燃燒時的煙霧](https://x.com/camperaigg/status/2119006297513435548) (作者 [@camperaigg](https://x.com/camperaigg))
+
+**以逆光呈現模擬煙霧，並在完整解析度下檢查壓力求解器。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/48d0b034652b734f6e387d8e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/0997278c25cd9c88aed47498.jpg" alt="用 Three.js 模擬信紙燃燒時的煙霧" width="760"><br>▶ 播放影片</a>
+
+Camperaigg 分享了 30 秒的信紙燃燒畫面，並介紹以 GPU 模擬的粒子煙霧、掃過畫面的光束和合成音效。創作者回答了四個問題，並表示代理程式修復了壓力求解器的數值錯誤。
+
+Type: Demo | Date: 2026-11-07
+
+---
+
+<a id="case-325"></a>
+### Case 325: [跟著閃電落到地面](https://x.com/camperaigg/status/2119052253982306393) (作者 [@camperaigg](https://x.com/camperaigg))
+
+**讓持續變化的模擬同時驅動畫面與聲音。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/d6ee461c4cdf38ce8f5759a1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/97c61bf20843530b450005e0.jpg" alt="跟著閃電落到地面" width="760"><br>▶ 播放影片</a>
+
+Camperaigg 介紹了一段以 Three.js 和 Taichi 製作的 28 秒影片。攝影機跟隨閃電先導前端，音效配合放電進程。逐格掃描發現了頻閃，代理程式在交付前修正了問題。
+
+Type: Demo | Date: 2026-11-07
+
+---
+
+<a id="case-326"></a>
+### Case 326: [巨型機器人接住隕石](https://x.com/seeconvm/status/2119052317227987018) (作者 [@seeconvm](https://x.com/seeconvm))
+
+**在渲染程式生成的短片之前，先決定各鏡頭的負責人與美術方向。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/10c500daeecb0af61a05553e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/a509847ad05762e472a7096c.jpg" alt="巨型機器人接住隕石" width="760"><br>▶ 播放影片</a>
+
+創作者分享了一部 82 秒的機甲短片，介紹了六組平行團隊、36 個鏡頭及 1,968 格以程式渲染的畫面，並在回覆中公開提示詞和專案程式碼。
+
+[原始提示詞與程式碼](https://x.com/seeconvm/status/2119052321795551415)
+
+Type: Demo | Date: 2026-11-07
+
+---
+
+<a id="case-327"></a>
+### Case 327: [相同需求下的像素風聖誕櫥窗](https://x.com/AIMind_Ai/status/2119053573526901001) (作者 [@AIMind_Ai](https://x.com/AIMind_Ai))
+
+**先比較未修改的效果，再決定要調整哪些細節。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/c953d5e5c0e87fecdac9dcc7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/ab064042073f1266b2f1caf1.jpg" alt="相同需求下的像素風聖誕櫥窗" width="760"><br>▶ 播放影片</a>
+
+創作者請 Fable 5.5 和 Opus 5.5 製作 3D 像素風聖誕櫥窗。Opus 加入了裝飾元素，創作者則縮小 Fable 畫面中的雪花，讓場景清楚可見。原貼文記錄了並排比較的結果。
+
+Type: Evaluation | Date: 2026-11-07
+
+---
+
+<a id="case-328"></a>
+### Case 328: [動畫小鎮中的青銅巨人](https://x.com/anstapnever/status/2119082173387137034) (作者 [@anstapnever](https://x.com/anstapnever))
+
+**將場景、角色、特效和聲音交給不同團隊平行製作。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/8ff966cd65fa2c2c5dd253e6.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/34679b2782af94de4f0ad237.jpg" alt="動畫小鎮中的青銅巨人" width="760"><br>▶ 播放影片</a>
+
+創作者分享了一部在瀏覽器中渲染的 77 秒動畫短片，介紹了五組團隊、31 個鏡頭與逐格穿模檢查。片中有一座小鎮、一名青銅巨人，以及與畫面同步的管弦樂配樂。
+
+[原始提示詞與程式碼](https://x.com/anstapnever/status/2119136411693777365)
+
+Type: Demo | Date: 2026-11-07
+
+---
+
+<a id="case-329"></a>
+### Case 329: [玻璃燒瓶中的藍墨水擴散](https://x.com/camperaigg/status/2119097552943612410) (作者 [@camperaigg](https://x.com/camperaigg))
+
+**渲染前檢查粒子密度，找出流體模擬的問題。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/d6f3277ec1b19c7d45044e18.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-claude-fable-5-5-use-cases/update-2026-11-08/ba7b4db94891d5a26a959423.jpg" alt="玻璃燒瓶中的藍墨水擴散" width="760"><br>▶ 播放影片</a>
+
+Camperaigg 表示，他向 Claude Code 提出一次需求，就完成 30 秒的 Three.js 短片。工作流程包含模擬墨水流動、對燒瓶進行光線追蹤、在同一個鏡頭中改變播放速度，以及檢查條帶瑕疵和墨水流失。
+
+Type: Demo | Date: 2026-11-08
+
+---
+
 <a id="acknowledge"></a>
 ## 🙏 致謝
 
 這個 repository 的靈感來自那些公開分享真實 Claude Fable 5 使用案例的創作者、開發者、基準測試團隊與社群。
 
-[@AlicanKiraz0](https://x.com/AlicanKiraz0), [@coldopn](https://x.com/coldopn), [@deveshcodes_](https://x.com/deveshcodes_), [@intheworldofai](https://x.com/intheworldofai), [@jsnnsa](https://x.com/jsnnsa), [@ryanrhughes](https://x.com/ryanrhughes), [@JJEnglert](https://x.com/JJEnglert), [@ayushagarwal](https://x.com/ayushagarwal), [@ai_for_success](https://x.com/ai_for_success), [@kieradev](https://x.com/kieradev), [@vikvang1](https://x.com/vikvang1), [@ydamitcodes](https://x.com/ydamitcodes), [@ecomchasedimond](https://x.com/ecomchasedimond), [@quanghuynt14](https://x.com/quanghuynt14), [@scottstts](https://x.com/scottstts), [@tetumemo](https://x.com/tetumemo), [@AndrewCurran_](https://x.com/AndrewCurran_), [@manaltdan](https://x.com/manaltdan), [@naoyafujiwara](https://x.com/naoyafujiwara), [@AI_masaou](https://x.com/AI_masaou), [@Truunik](https://x.com/Truunik), [@Voxyz_ai](https://x.com/Voxyz_ai), [@aianimesyokunin](https://x.com/aianimesyokunin), [@bielzinn](https://x.com/bielzinn), [@meta_alchemist](https://x.com/meta_alchemist), [@oikon48](https://x.com/oikon48), [@IBuzovskyi](https://x.com/IBuzovskyi), [@btibor91](https://x.com/btibor91), [@ctgptlb](https://x.com/ctgptlb), [@grapeot](https://x.com/grapeot), [@op7418](https://x.com/op7418), [@swarms_corp](https://x.com/swarms_corp), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@HKrackDev](https://x.com/HKrackDev), [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@LechMazur](https://x.com/LechMazur), [@MTSlive](https://x.com/MTSlive), [@VaibhavSisinty](https://x.com/VaibhavSisinty), [@alliekmiller](https://x.com/alliekmiller), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@bcherny](https://x.com/bcherny), [@clairevo](https://x.com/clairevo), [@gabepereyra](https://x.com/gabepereyra), [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@mark_k](https://x.com/mark_k), [@mercor_ai](https://x.com/mercor_ai), [@nicbstme](https://x.com/nicbstme), [@timhwang](https://x.com/timhwang), [@xw33bttv](https://x.com/xw33bttv), [@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown), [@marclou](https://x.com/marclou), [@ProximalHQ](https://x.com/ProximalHQ), [@elliotarledge](https://x.com/elliotarledge), [@mikefutia](https://x.com/mikefutia), [@techhalla](https://x.com/techhalla), [@diblacksmith](https://x.com/diblacksmith), [@upstash](https://x.com/upstash), [@WolfBenchAI](https://x.com/WolfBenchAI), [@simonw](https://x.com/simonw), [@chetaslua](https://x.com/chetaslua), [@notjazii](https://x.com/notjazii), [@exploraX_](https://x.com/exploraX_), [@marmaduke091](https://x.com/marmaduke091), [@AI_Screening](https://x.com/AI_Screening), [@waveking1314](https://x.com/waveking1314), [@cherry_mx_reds](https://x.com/cherry_mx_reds), [@imjustnewatai](https://x.com/imjustnewatai), [@mesmerlord](https://x.com/mesmerlord), [@blueemi99](https://x.com/blueemi99), [@EMostaque](https://x.com/EMostaque), [@mindblown_ai](https://x.com/mindblown_ai), [@Chengzilhy](https://x.com/Chengzilhy), [@ishuagra02](https://x.com/ishuagra02), [@zAdrielsan](https://x.com/zAdrielsan), [@KanaWorks_AI](https://x.com/KanaWorks_AI), [@TurboNexic](https://x.com/TurboNexic), [@atomtanstudio](https://x.com/atomtanstudio), [@abhinavflac](https://x.com/abhinavflac), [@esrhengwu](https://x.com/esrhengwu), [@mickeysmith_jp](https://x.com/mickeysmith_jp), [@MozeTech](https://x.com/MozeTech), [@benchmark_lb900](https://x.com/benchmark_lb900), [@jesselaunz](https://x.com/jesselaunz), [@cocoloba_](https://x.com/cocoloba_), [@olddonkeyblog](https://x.com/olddonkeyblog), [@iowitz](https://x.com/iowitz), [@argofowl](https://x.com/argofowl), [@JaydenDavisNC](https://x.com/JaydenDavisNC), [@DAssetBuzz](https://x.com/DAssetBuzz), [@nemumusitocha](https://x.com/nemumusitocha), [@0xashtonx](https://x.com/0xashtonx), [@dropout_layer](https://x.com/dropout_layer), [@mathisbuilds](https://x.com/mathisbuilds), [@Saccc_c](https://x.com/Saccc_c), [@RobIW_dev](https://x.com/RobIW_dev), [@hungryturbo](https://x.com/hungryturbo), [@alannnfx](https://x.com/alannnfx), [@NFT_Chen](https://x.com/NFT_Chen), [@dpkostka](https://x.com/dpkostka), [@kiyoshi_shin](https://x.com/kiyoshi_shin), [@hanawo_neki](https://x.com/hanawo_neki), [@badboyfoxy](https://x.com/badboyfoxy), [@markbraincell](https://x.com/markbraincell), [@synthshareai](https://x.com/synthshareai), [@Layton_Gott](https://x.com/Layton_Gott), [@nroze22](https://x.com/nroze22), [@MinLiBuilds](https://x.com/MinLiBuilds), [@YanqingCheng](https://x.com/YanqingCheng), [@Kinzf2121](https://x.com/Kinzf2121), [@devteamdrew](https://x.com/devteamdrew), [@maciejkrupowies](https://x.com/maciejkrupowies), [@rohit3a](https://x.com/rohit3a), [@Noreply134882](https://x.com/Noreply134882), [@noclipepe](https://x.com/noclipepe), [@devswha](https://x.com/devswha), [@oalanicolas](https://x.com/oalanicolas), [@AndrewOnXYZ](https://x.com/AndrewOnXYZ), [@OnlyTerp](https://x.com/OnlyTerp), [@HashmathRzz](https://x.com/HashmathRzz), [@BoDy051](https://x.com/BoDy051), [@HelaliBillel](https://x.com/HelaliBillel), [@iancarscadden](https://x.com/iancarscadden), [@eviljoker88](https://x.com/eviljoker88), [@slimcat0101](https://x.com/slimcat0101), [@l_mejiaC](https://x.com/l_mejiaC), [@ziwenxu_](https://x.com/ziwenxu_), [@SPAC89](https://x.com/SPAC89), [@IgorGomezC](https://x.com/IgorGomezC), [@vikktorrrre](https://x.com/vikktorrrre), [@sdmat123](https://x.com/sdmat123), [@Mr_Salio](https://x.com/Mr_Salio), [@popat_kunj](https://x.com/popat_kunj), [@voltwake](https://x.com/voltwake), [@BtwIUseSystemd](https://x.com/BtwIUseSystemd), [@TOPSTR1X](https://x.com/TOPSTR1X), [@SEO](https://x.com/SEO), [@RayaneRachid_](https://x.com/RayaneRachid_), [@Josh67Joshua](https://x.com/Josh67Joshua), [@kdnbmb](https://x.com/kdnbmb), [@mszzz0011](https://x.com/mszzz0011), [@AISuperDomain](https://x.com/AISuperDomain), [@crowqnt](https://x.com/crowqnt), [@ZorroOfMorocco](https://x.com/ZorroOfMorocco), [@legit_api](https://x.com/legit_api), [@leo114119](https://x.com/leo114119), [@anxuanng](https://x.com/anxuanng), [@xiax0603](https://x.com/xiax0603), [@Octoberry](https://x.com/Octoberry), [@Mikadzyki_NFT](https://x.com/Mikadzyki_NFT), [@birdabo](https://x.com/birdabo), [@ChrisGPT](https://x.com/ChrisGPT), [@AdamHoltererer](https://x.com/AdamHoltererer), [@insanekrishnaa](https://x.com/insanekrishnaa), [@cleeeeeeeeement](https://x.com/cleeeeeeeeement), [@ZMinimalistYogi](https://x.com/ZMinimalistYogi), [@wenhaocha1](https://x.com/wenhaocha1), [@AM09_21](https://x.com/AM09_21), [@mt_moco](https://x.com/mt_moco), [@johntitorIII](https://x.com/johntitorIII), [@DavidayoAI](https://x.com/DavidayoAI), [@xodud_rkd](https://x.com/xodud_rkd), [@doof1789559](https://x.com/doof1789559), [@AnonymerNutze12](https://x.com/AnonymerNutze12), [@beistnormie](https://x.com/beistnormie), [@hakmgpt](https://x.com/hakmgpt), [@camperaigg](https://x.com/camperaigg), [@lightreelai](https://x.com/lightreelai), [@0xMovez](https://x.com/0xMovez), [@shmidtqq](https://x.com/shmidtqq), [@flxrnc](https://x.com/flxrnc), [@seeconvm](https://x.com/seeconvm), [@BubbleBrain](https://x.com/BubbleBrain), [@xbquan](https://x.com/xbquan), [@pipeline_os](https://x.com/pipeline_os), [@fawnunwrap](https://x.com/fawnunwrap), [@pausevfx](https://x.com/pausevfx), [@AnikaCodes](https://x.com/AnikaCodes), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@cfenghub](https://x.com/cfenghub), [@shneural](https://x.com/shneural)
+[@AlicanKiraz0](https://x.com/AlicanKiraz0), [@coldopn](https://x.com/coldopn), [@deveshcodes_](https://x.com/deveshcodes_), [@intheworldofai](https://x.com/intheworldofai), [@jsnnsa](https://x.com/jsnnsa), [@ryanrhughes](https://x.com/ryanrhughes), [@JJEnglert](https://x.com/JJEnglert), [@ayushagarwal](https://x.com/ayushagarwal), [@ai_for_success](https://x.com/ai_for_success), [@kieradev](https://x.com/kieradev), [@vikvang1](https://x.com/vikvang1), [@ydamitcodes](https://x.com/ydamitcodes), [@ecomchasedimond](https://x.com/ecomchasedimond), [@quanghuynt14](https://x.com/quanghuynt14), [@scottstts](https://x.com/scottstts), [@tetumemo](https://x.com/tetumemo), [@AndrewCurran_](https://x.com/AndrewCurran_), [@manaltdan](https://x.com/manaltdan), [@naoyafujiwara](https://x.com/naoyafujiwara), [@AI_masaou](https://x.com/AI_masaou), [@Truunik](https://x.com/Truunik), [@Voxyz_ai](https://x.com/Voxyz_ai), [@aianimesyokunin](https://x.com/aianimesyokunin), [@bielzinn](https://x.com/bielzinn), [@meta_alchemist](https://x.com/meta_alchemist), [@oikon48](https://x.com/oikon48), [@IBuzovskyi](https://x.com/IBuzovskyi), [@btibor91](https://x.com/btibor91), [@ctgptlb](https://x.com/ctgptlb), [@grapeot](https://x.com/grapeot), [@op7418](https://x.com/op7418), [@swarms_corp](https://x.com/swarms_corp), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@HKrackDev](https://x.com/HKrackDev), [@Hi_Noguchi](https://x.com/Hi_Noguchi), [@LechMazur](https://x.com/LechMazur), [@MTSlive](https://x.com/MTSlive), [@VaibhavSisinty](https://x.com/VaibhavSisinty), [@alliekmiller](https://x.com/alliekmiller), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@bcherny](https://x.com/bcherny), [@clairevo](https://x.com/clairevo), [@gabepereyra](https://x.com/gabepereyra), [@iScienceLuvr](https://x.com/iScienceLuvr), [@jerryjliu0](https://x.com/jerryjliu0), [@jumperz](https://x.com/jumperz), [@karpathy](https://x.com/karpathy), [@llama_index](https://x.com/llama_index), [@lucas_flatwhite](https://x.com/lucas_flatwhite), [@mark_k](https://x.com/mark_k), [@mercor_ai](https://x.com/mercor_ai), [@nicbstme](https://x.com/nicbstme), [@timhwang](https://x.com/timhwang), [@xw33bttv](https://x.com/xw33bttv), [@aashatwt](https://x.com/aashatwt), [@ozansihay](https://x.com/ozansihay), [@noisyb0y1](https://x.com/noisyb0y1), [@thebuggeddev](https://x.com/thebuggeddev), [@AiBattle_](https://x.com/AiBattle_), [@Pilgrim6938](https://x.com/Pilgrim6938), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@anilbpai](https://x.com/anilbpai), [@VincentLogic](https://x.com/VincentLogic), [@GratomicAi](https://x.com/GratomicAi), [@charliejhills](https://x.com/charliejhills), [@outsource_](https://x.com/outsource_), [@smtgpt](https://x.com/smtgpt), [@ClaudeDevs](https://x.com/ClaudeDevs), [@ClaudeCodeLog](https://x.com/ClaudeCodeLog), [@0x3b33](https://x.com/0x3b33), [@rileybrown](https://x.com/rileybrown), [@marclou](https://x.com/marclou), [@ProximalHQ](https://x.com/ProximalHQ), [@elliotarledge](https://x.com/elliotarledge), [@mikefutia](https://x.com/mikefutia), [@techhalla](https://x.com/techhalla), [@diblacksmith](https://x.com/diblacksmith), [@upstash](https://x.com/upstash), [@WolfBenchAI](https://x.com/WolfBenchAI), [@simonw](https://x.com/simonw), [@chetaslua](https://x.com/chetaslua), [@notjazii](https://x.com/notjazii), [@exploraX_](https://x.com/exploraX_), [@marmaduke091](https://x.com/marmaduke091), [@AI_Screening](https://x.com/AI_Screening), [@waveking1314](https://x.com/waveking1314), [@cherry_mx_reds](https://x.com/cherry_mx_reds), [@imjustnewatai](https://x.com/imjustnewatai), [@mesmerlord](https://x.com/mesmerlord), [@blueemi99](https://x.com/blueemi99), [@EMostaque](https://x.com/EMostaque), [@mindblown_ai](https://x.com/mindblown_ai), [@Chengzilhy](https://x.com/Chengzilhy), [@ishuagra02](https://x.com/ishuagra02), [@zAdrielsan](https://x.com/zAdrielsan), [@KanaWorks_AI](https://x.com/KanaWorks_AI), [@TurboNexic](https://x.com/TurboNexic), [@atomtanstudio](https://x.com/atomtanstudio), [@abhinavflac](https://x.com/abhinavflac), [@esrhengwu](https://x.com/esrhengwu), [@mickeysmith_jp](https://x.com/mickeysmith_jp), [@MozeTech](https://x.com/MozeTech), [@benchmark_lb900](https://x.com/benchmark_lb900), [@jesselaunz](https://x.com/jesselaunz), [@cocoloba_](https://x.com/cocoloba_), [@olddonkeyblog](https://x.com/olddonkeyblog), [@iowitz](https://x.com/iowitz), [@argofowl](https://x.com/argofowl), [@JaydenDavisNC](https://x.com/JaydenDavisNC), [@DAssetBuzz](https://x.com/DAssetBuzz), [@nemumusitocha](https://x.com/nemumusitocha), [@0xashtonx](https://x.com/0xashtonx), [@dropout_layer](https://x.com/dropout_layer), [@mathisbuilds](https://x.com/mathisbuilds), [@Saccc_c](https://x.com/Saccc_c), [@RobIW_dev](https://x.com/RobIW_dev), [@hungryturbo](https://x.com/hungryturbo), [@alannnfx](https://x.com/alannnfx), [@NFT_Chen](https://x.com/NFT_Chen), [@dpkostka](https://x.com/dpkostka), [@kiyoshi_shin](https://x.com/kiyoshi_shin), [@hanawo_neki](https://x.com/hanawo_neki), [@badboyfoxy](https://x.com/badboyfoxy), [@markbraincell](https://x.com/markbraincell), [@synthshareai](https://x.com/synthshareai), [@Layton_Gott](https://x.com/Layton_Gott), [@nroze22](https://x.com/nroze22), [@MinLiBuilds](https://x.com/MinLiBuilds), [@YanqingCheng](https://x.com/YanqingCheng), [@Kinzf2121](https://x.com/Kinzf2121), [@devteamdrew](https://x.com/devteamdrew), [@maciejkrupowies](https://x.com/maciejkrupowies), [@rohit3a](https://x.com/rohit3a), [@Noreply134882](https://x.com/Noreply134882), [@noclipepe](https://x.com/noclipepe), [@devswha](https://x.com/devswha), [@oalanicolas](https://x.com/oalanicolas), [@AndrewOnXYZ](https://x.com/AndrewOnXYZ), [@OnlyTerp](https://x.com/OnlyTerp), [@HashmathRzz](https://x.com/HashmathRzz), [@BoDy051](https://x.com/BoDy051), [@HelaliBillel](https://x.com/HelaliBillel), [@iancarscadden](https://x.com/iancarscadden), [@eviljoker88](https://x.com/eviljoker88), [@slimcat0101](https://x.com/slimcat0101), [@l_mejiaC](https://x.com/l_mejiaC), [@ziwenxu_](https://x.com/ziwenxu_), [@SPAC89](https://x.com/SPAC89), [@IgorGomezC](https://x.com/IgorGomezC), [@vikktorrrre](https://x.com/vikktorrrre), [@sdmat123](https://x.com/sdmat123), [@Mr_Salio](https://x.com/Mr_Salio), [@popat_kunj](https://x.com/popat_kunj), [@voltwake](https://x.com/voltwake), [@BtwIUseSystemd](https://x.com/BtwIUseSystemd), [@TOPSTR1X](https://x.com/TOPSTR1X), [@SEO](https://x.com/SEO), [@RayaneRachid_](https://x.com/RayaneRachid_), [@Josh67Joshua](https://x.com/Josh67Joshua), [@kdnbmb](https://x.com/kdnbmb), [@mszzz0011](https://x.com/mszzz0011), [@AISuperDomain](https://x.com/AISuperDomain), [@crowqnt](https://x.com/crowqnt), [@ZorroOfMorocco](https://x.com/ZorroOfMorocco), [@legit_api](https://x.com/legit_api), [@leo114119](https://x.com/leo114119), [@anxuanng](https://x.com/anxuanng), [@xiax0603](https://x.com/xiax0603), [@Octoberry](https://x.com/Octoberry), [@Mikadzyki_NFT](https://x.com/Mikadzyki_NFT), [@birdabo](https://x.com/birdabo), [@ChrisGPT](https://x.com/ChrisGPT), [@AdamHoltererer](https://x.com/AdamHoltererer), [@insanekrishnaa](https://x.com/insanekrishnaa), [@cleeeeeeeeement](https://x.com/cleeeeeeeeement), [@ZMinimalistYogi](https://x.com/ZMinimalistYogi), [@wenhaocha1](https://x.com/wenhaocha1), [@AM09_21](https://x.com/AM09_21), [@mt_moco](https://x.com/mt_moco), [@johntitorIII](https://x.com/johntitorIII), [@DavidayoAI](https://x.com/DavidayoAI), [@xodud_rkd](https://x.com/xodud_rkd), [@doof1789559](https://x.com/doof1789559), [@AnonymerNutze12](https://x.com/AnonymerNutze12), [@beistnormie](https://x.com/beistnormie), [@hakmgpt](https://x.com/hakmgpt), [@camperaigg](https://x.com/camperaigg), [@lightreelai](https://x.com/lightreelai), [@0xMovez](https://x.com/0xMovez), [@shmidtqq](https://x.com/shmidtqq), [@flxrnc](https://x.com/flxrnc), [@seeconvm](https://x.com/seeconvm), [@BubbleBrain](https://x.com/BubbleBrain), [@xbquan](https://x.com/xbquan), [@pipeline_os](https://x.com/pipeline_os), [@fawnunwrap](https://x.com/fawnunwrap), [@pausevfx](https://x.com/pausevfx), [@marfinxx](https://x.com/marfinxx), [@anstapnever](https://x.com/anstapnever), [@zodchiii](https://x.com/zodchiii), [@0xRhinoX](https://x.com/0xRhinoX), [@dummerspast39](https://x.com/dummerspast39), [@AIMind_Ai](https://x.com/AIMind_Ai), [@AnikaCodes](https://x.com/AnikaCodes), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@cfenghub](https://x.com/cfenghub), [@shneural](https://x.com/shneural), [@FramiaPro](https://x.com/FramiaPro)
 
 *我們無法保證每個案例都歸屬於最原始的創作者。如果有任何需要修正的地方，請聯絡我們，我們會更新。*
 
