@@ -1,3 +1,11 @@
+# Claude Fable 5.2 활용 사례
+
+**[Fable 5.2 사례 139개 보기](docs/fable-5-2/README_ko.md)**
+
+11월 10일 수집한 워크플로, 데모, 비교, 벤치마크, 통합 및 실제 사용상 한계를 원문 링크와 함께 정리했습니다.
+
+## 이전 Fable 사례
+
 <div align="center">
 
 <a href="https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5"><img src="images/fable-5-5-use-cases.png" alt="Awesome Fable 5.5 Use Cases" width="760" height="304"></a>

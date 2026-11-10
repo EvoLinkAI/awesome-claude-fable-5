@@ -1,3 +1,11 @@
+# Claude Fable 5.2 の活用事例
+
+**[Fable 5.2 の 139 件の事例を見る](docs/fable-5-2/README_ja.md)**
+
+11 月 10 日に収集したワークフロー、デモ、比較、ベンチマーク、連携、実用上の制約を出典付きで掲載しています。
+
+## Fable の過去事例
+
 <div align="center">
 
 <a href="https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5"><img src="images/fable-5-5-use-cases.png" alt="Awesome Fable 5.5 Use Cases" width="760" height="304"></a>

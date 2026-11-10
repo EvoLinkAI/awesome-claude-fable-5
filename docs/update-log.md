@@ -1,5 +1,11 @@
 # Update log
 
+## 2026-11-10 — Claude Fable 5.2
+
+- Added [139 Fable 5.2 cases](fable-5-2/README.md) (Cases 330–468) across eleven languages.
+- Kept Cases 1–329 at their existing README anchors. The [Fable 5.2 case index](../data/fable-5-2-use-cases.json) records sources and media for the new catalog.
+- Source scope is the supplied 300-post X snapshot and 21 Hacker News threads, with primary originals followed where applicable.
+
 ## 2026-11-08
 
 - Added 23 cases (307–329), for 329 total across eleven languages.

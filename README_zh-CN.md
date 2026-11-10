@@ -1,3 +1,11 @@
+# Claude Fable 5.2 使用案例
+
+**[浏览 139 个 Fable 5.2 案例](docs/fable-5-2/README_zh-CN.md)**
+
+汇集 11 月 10 日收集的工作流、演示、对比、评测、集成和使用限制，并附原始来源。
+
+## Fable 历史案例
+
 <div align="center">
 
 <a href="https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5"><img src="images/fable-5-5-use-cases.png" alt="Awesome Fable 5.5 Use Cases" width="760" height="304"></a>

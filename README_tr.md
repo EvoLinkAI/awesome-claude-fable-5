@@ -1,3 +1,11 @@
+# Claude Fable 5.2 Kullanım Örnekleri
+
+**[139 Fable 5.2 örneğini inceleyin](docs/fable-5-2/README_tr.md)**
+
+10 Kasım derlemesinden kaynak bağlantılarıyla iş akışları, demolar, karşılaştırmalar, değerlendirmeler, entegrasyonlar ve kullanım sınırları.
+
+## Önceki Fable Örnekleri
+
 <div align="center">
 
 <a href="https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5"><img src="images/fable-5-5-use-cases.png" alt="Awesome Fable 5.5 Use Cases" width="760" height="304"></a>

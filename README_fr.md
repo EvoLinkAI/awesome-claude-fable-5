@@ -1,3 +1,11 @@
+# Cas d’utilisation de Claude Fable 5.2
+
+**[Parcourir 139 cas de Fable 5.2](docs/fable-5-2/README_fr.md)**
+
+Flux de travail, démonstrations, comparaisons, évaluations, intégrations et limites pratiques recensés le 10 novembre, avec leurs sources.
+
+## Cas précédents de Fable
+
 <div align="center">
 
 <a href="https://evolink.ai/claude-fable-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5"><img src="images/fable-5-5-use-cases.png" alt="Awesome Fable 5.5 Use Cases" width="760" height="304"></a>
