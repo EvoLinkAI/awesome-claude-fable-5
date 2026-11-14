@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README_zh-CN.md) · [繁體中文](README_zh-TW.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Español](README_es.md) · [Português](README_pt.md) · [Deutsch](README_de.md) · [Français](README_fr.md) · [Türkçe](README_tr.md) · [Русский](README_ru.md)
 
-收錄 11 月 10 日蒐集的工作流程、展示、比較、評測、整合與使用限制，並附原始來源。
+收錄 11 月 10 日和 11 月 13–14 日蒐集的工作流程、展示、比較、評測、整合與使用限制，並附原始來源。
 
 [Anthropic 發布公告](https://www.anthropic.com/claude-fable-and-mythos-5-2) · [歷史案例庫](../../README_zh-TW.md)
 
@@ -149,6 +149,27 @@
 | 466 | [三個模型製作貓鼠遊戲](#case-466) | Evaluation |
 | 467 | [AIBenchy 的 High 推理強度成本與得分](#case-467) | Benchmark |
 | 468 | [調整 Fable 5.2 的代理程式配置](#case-468) | Tutorial |
+| 469 | [動畫角色預覽應用程式](#case-469) | Demo |
+| 470 | [測試無工具生成的 QR 碼](#case-470) | Evaluation |
+| 471 | [用 Tripo 製作 Unity 殭屍遊戲](#case-471) | Demo |
+| 472 | [用 MS Paint 繪製雪中街景](#case-472) | Demo |
+| 473 | [Wojak-Bench 中未接上的插頭](#case-473) | Limit |
+| 474 | [為節奏遊戲創作鋼琴曲](#case-474) | Evaluation |
+| 475 | [重新設計 Picnic 的代幣取回流程](#case-475) | Demo |
+| 476 | [把生成的片段剪成動畫片頭](#case-476) | Tutorial |
+| 477 | [用三種工具製作角色動畫](#case-477) | Demo |
+| 478 | [用 Blender 指令碼算圖製作城市預告片](#case-478) | Demo |
+| 479 | [用 JavaScript 繪製夜景](#case-479) | Demo |
+| 480 | [將 CAD 模型轉換為工程圖](#case-480) | Demo |
+| 481 | [完成 Plotly 資料分析測試的 43 道題](#case-481) | Benchmark |
+| 482 | [在網頁中重現 SGI Indy 工作站](#case-482) | Demo |
+| 483 | [用 GitHub 議題和 Git 工作樹協作](#case-483) | Integration |
+| 484 | [用背景執行程序查核引用](#case-484) | Integration |
+| 485 | [排查往返貨運定價模型](#case-485) | Limit |
+| 486 | [讓 Edge0 推論環境支援 Mac](#case-486) | Integration |
+| 487 | [審查高密度電路板佈局](#case-487) | Limit |
+| 488 | [追查付費牆後的報紙出處](#case-488) | Limit |
+| 489 | [用 Fable 規劃並審查 Opus 的變更](#case-489) | Tutorial |
 
 <a id="fable-5-2-cases"></a>
 ## 使用案例
@@ -2076,7 +2097,288 @@ Type: Tutorial | Date: 2026-11-10
 
 ---
 
+<a id="case-469"></a>
+### Case 469: [動畫角色預覽應用程式](https://x.com/seiiiiiiiiiiru/status/2121390458572333253) (作者 [@seiiiiiiiiiiru](https://x.com/seiiiiiiiiiiru))
+
+**請 Fable 把重複的素材檢查做成可操作的介面。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/ce514e99465c257220ee9bf7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/776670eda35fbabbf1c63663.jpg" alt="Case 469 · 1" width="760"><br>▶ 播放影片</a>
+
+創作者表示，他們請 Fable 5.2 擔任顧問，模型把原先效率較低的流程做成應用程式。錄影展示了 3D 角色的動作預設、背景設定，以及 GLB 和透明 PNG 的匯出選項。
+
+Type: Demo | Date: 2026-11-13
+
+---
+
+<a id="case-470"></a>
+### Case 470: [測試無工具生成的 QR 碼](https://x.com/AdamHoltererer/status/2121376853474578625) (作者 [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**先解碼生成的 QR 碼，再判斷測試是否成功。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/d3833f006038158569c9816d.png" alt="Case 470 · 1" width="760">
+
+Adam Holter 將這項 QR 碼展示歸功於 Fable 5.2、Astra 和 Sol，並表示生成時未使用工具。我們在本機掃描附件，確認 QR 碼編入的文字是 MADE WITHOUT TOOLS。
+
+Type: Evaluation | Date: 2026-11-13
+
+---
+
+<a id="case-471"></a>
+### Case 471: [用 Tripo 製作 Unity 殭屍遊戲](https://x.com/fe_yukichi/status/2121375714192814554) (作者 [@fe_yukichi](https://x.com/fe_yukichi))
+
+**利用共用的素材製作流程打造一組可操作角色。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/055f505803b769bb8b24a54e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/0fa0715e64f91ab69725599e.jpg" alt="Case 471 · 1" width="760"><br>▶ 播放影片</a>
+
+創作者公開與 Tripo 的合作，並表示他們使用 Tripo Agentic Canvas，為一款借助 Fable 5.2 製作的 Unity 遊戲生成了 8 名玩家角色和 16 種殭屍。影片展示角色選擇與遊戲過程，作者也提供了桌面瀏覽器版本。
+
+[相關資料 1](https://tsukiyo-zombie.pages.dev/)
+
+Type: Demo | Date: 2026-11-13
+
+---
+
+<a id="case-472"></a>
+### Case 472: [用 MS Paint 繪製雪中街景](https://www.reddit.com/r/ClaudeAI/comments/1xvghd1/fable_52_painting_in_ms_paint/) (作者 [u/wollymonjac](https://www.reddit.com/user/wollymonjac/))
+
+**透過螢幕錄影評估模型長時間直接操控滑鼠的表現。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/10ad84001f4c682c5343846c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/e7af823e10ef2135adec2154.jpg" alt="Case 472 · 1" width="760"><br>▶ 播放影片</a>
+
+Reddit 上的創作者表示，Fable 5.2 用滑鼠在 MS Paint 中畫出一幅雪中街景，耗時約兩個半小時。附帶的 X 轉發貼文提供同一場景的錄影。
+
+[相關資料 1](https://x.com/i/status/2121373793599869213)
+
+Type: Demo | Date: 2026-11-13
+
+---
+
+<a id="case-473"></a>
+### Case 473: [Wojak-Bench 中未接上的插頭](https://x.com/lukaspet/status/2121371593943466167) (作者 [@lukaspet](https://x.com/lukaspet))
+
+**逐一對照參考圖，檢查生成的 3D 組件各處是否連接正確。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/e509db79b2e79fcc2d6beda1.jpg" alt="Case 473 · 1" width="760">
+
+作者表示，Fable 5.2 在這項 Wojak-Bench 任務中沒有把電源線接到插座。原帖圖片將 3D 成品照片和參考圖並排呈現。
+
+Type: Limit | Date: 2026-11-13
+
+---
+
+<a id="case-474"></a>
+### Case 474: [為節奏遊戲創作鋼琴曲](https://x.com/DJ_HYSNS/status/2121367353237942287) (作者 [@DJ_HYSNS](https://x.com/DJ_HYSNS))
+
+**請模型作曲時，檢查作品能否演奏，以及模型能否控制製作環節。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/d016f48687e0c8e6cf810812.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/9faa77e2e9ba2ec99be995a7.jpg" alt="Case 474 · 1" width="760"><br>▶ 播放影片</a>
+
+作者先請模型創作節奏遊戲配樂，後來表示模型在選擇 VST 音色及混音時遇到困難，於是改做鋼琴獨奏。影片展示生成的鋼琴捲簾。作者認為，曲子的難度超出了原先設定的人類可演奏範圍。
+
+Type: Evaluation | Date: 2026-11-13
+
+---
+
+<a id="case-475"></a>
+### Case 475: [重新設計 Picnic 的代幣取回流程](https://x.com/joaoavf/status/2121366491321057717) (作者 [@joaoavf](https://x.com/joaoavf))
+
+**透過介面原型比較取回不受支援的代幣時會遇到的不同狀態。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/551612796f4150a43b190ee3.jpg" alt="Case 475 · 1" width="760">
+
+作者表示，給 Fable 5.2 一兩輪提示後，就得到取回 Picnic 不支援的代幣的新設計。附件展示擬議流程中的多個畫面。
+
+Type: Demo | Date: 2026-11-13
+
+---
+
+<a id="case-476"></a>
+### Case 476: [把生成的片段剪成動畫片頭](https://x.com/aimikoda/status/2121362621274177726) (作者 [@aimikoda](https://x.com/aimikoda))
+
+**把片段、配樂和明確的節拍剪輯要求交給 Fable。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/e3ab28061669d84818042ee0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/cb65344e413d2bd340406d59.jpg" alt="Case 476 · 1" width="760"><br>▶ 播放影片</a>
+
+創作者將 MiniMax H3 生成的素材和 Suno v6 的配樂交給 Fable 5.2 Medium 剪輯。公開成品包含動態像素風角色與轉場，並附上原始的 Fable 剪輯提示詞。
+
+原始提示詞
+
+```
+Using these clips and the song, create a highly polished, professional anime opening / music video (MV) edit, perfectly synchronized with the music's beats and rhythm.
+Incorporate dynamic kinetic typography, creative transitions, stylish visual effects, speed ramps, match cuts and impactful beat-synced editing.
+Design pixel-art versions of the characters and animate them dancing to the music. Get creative with different visual styles, motion graphics and playful sequences while maintaining a cohesive anime opening aesthetic.
+Carefully review all the footage and select only the best moments. Trim and rearrange the clips to match the song's energy, pacing and emotional progression. Avoid any frames with incorrect anatomy, awkward poses, visual glitches or animation errors.
+Make the final result feel like a professionally directed, high-budget anime opening with exceptional timing, seamless transitions, strong visual storytelling and meticulous attention to detail.
+```
+
+Type: Tutorial | Date: 2026-11-13
+
+---
+
+<a id="case-477"></a>
+### Case 477: [用三種工具製作角色動畫](https://x.com/ingi_erlingsson/status/2121361947446677797) (作者 [@ingi_erlingsson](https://x.com/ingi_erlingsson))
+
+**對照來源 GIF 和經過 Fable、ComfyUI 處理後的動畫。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/69a3410b7b2dcdb14ee6c5d1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/391924750cd0641254cb114f.jpg" alt="Case 477 · 1" width="760"><br>▶ 播放影片</a>
+
+作者將 GPT Image 2.6 生成的 GIF 列為輸入，之後依序使用 Fable 5.2 和 ComfyUI。附件影片展示視角旋轉時不斷變化的角色頭像。
+
+Type: Demo | Date: 2026-11-13
+
+---
+
+<a id="case-478"></a>
+### Case 478: [用 Blender 指令碼算圖製作城市預告片](https://x.com/hanghuang_/status/2121361932456427644) (作者 [@hanghuang_](https://x.com/hanghuang_))
+
+**將城市預告片拆成場景、角色、車輛和算圖任務。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/0e5170c057eecd328b178fe3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/d10c5d322edba010282a60d0.jpg" alt="Case 478 · 1" width="760"><br>▶ 播放影片</a>
+
+創作者表示，Fable 5.2 規劃了一部遊戲風格的預告片，並為城市、角色和汽車撰寫 Blender 程式碼。創作者說最後使用 7 張租用的 GPU 算出 4K 畫面。發布的影片展示了成品鏡頭。
+
+Type: Demo | Date: 2026-11-13
+
+---
+
+<a id="case-479"></a>
+### Case 479: [用 JavaScript 繪製夜景](https://x.com/kloss_xyz/status/2121356668311384487) (作者 [@kloss_xyz](https://x.com/kloss_xyz))
+
+**評估程式碼生成的插畫時，對照多張完成圖。**
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/6e9d554b17822715f07d3be8.jpg" alt="Case 479 · 1" width="450"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/f57db49bb8213cc6ca4bcafe.jpg" alt="Case 479 · 2" width="450"></td></tr><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/2933b30de09501dbbb7e1505.jpg" alt="Case 479 · 3" width="450"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/490e5952694322b7963be8e2.jpg" alt="Case 479 · 4" width="450"></td></tr></table>
+
+作者表示，發布的 4 張插畫是由 Fable 5.2 用 JavaScript 繪製。附件展示了不同的風格化夜景，可用來比較。
+
+Type: Demo | Date: 2026-11-13
+
+---
+
+<a id="case-480"></a>
+### Case 480: [將 CAD 模型轉換為工程圖](https://x.com/MecAgent/status/2121352868490100787) (作者 [@MecAgent](https://x.com/MecAgent))
+
+**對照原始 CAD 模型檢查視圖、尺寸和標註。**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/5ce59334e405a279e1008bf0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/780dc65cb1b04f7a75e27ace.jpg" alt="Case 480 · 1" width="760"><br>▶ 播放影片</a>
+
+MecAgent 的展示呈現了帶有多視圖和標註的工程圖，並表示轉換由 Fable 5.2 完成。影片展示生成的圖面，尺寸精度仍需對照 CAD 檔案檢查。
+
+Type: Demo | Date: 2026-11-13
+
+---
+
+<a id="case-481"></a>
+### Case 481: [完成 Plotly 資料分析測試的 43 道題](https://plotly.com/blog/gemini-4-hydrogen-plotly-data-analytics-bench/) (作者 [Plotly](https://plotly.com/))
+
+**在同一套分析測試環境下比較準確率與單次執行成本。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/50882a17db12bede9165a92d.webp" alt="Case 481 · 1" width="760">
+
+Plotly 的報告指出，Fable 5.2 是答對全部 43 道題的 4 個模型之一，其中也完成了全部 5 道隱藏模式題。發表者提醒，每個模型只執行一次屬於單次抽樣。圖表展示這項評測的成本與準確率。
+
+[相關資料 1](https://news.ycombinator.com/item?id=50485733)
+
+Type: Benchmark | Date: 2026-11-12
+
+---
+
+<a id="case-482"></a>
+### Case 482: [在網頁中重現 SGI Indy 工作站](https://news.ycombinator.com/item?id=50476597) (作者 [@gdubs](https://news.ycombinator.com/user?id=gdubs))
+
+**透過互動式重現探索如何把實體工作站做成網站。**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/74b80686867b920881164246.jpg" alt="Case 482 · 1" width="760">
+
+Gregory Wieber 表示，他借助 Fable 5.2 將自己的網站改造成 1990 年代的 Silicon Graphics Indy。公開展示包含可登入的 3D 工作站、3D 檔案系統和 Soft Break 遊戲。
+
+[相關資料 1](https://gregorywieber.com/indy/)
+
+Type: Demo | Date: 2026-11-13
+
+---
+
+<a id="case-483"></a>
+### Case 483: [用 GitHub 議題和 Git 工作樹協作](https://news.ycombinator.com/item?id=50493545) (作者 [@nickalaso](https://news.ycombinator.com/user?id=nickalaso))
+
+**用議題指派任務，用工作樹和提取請求隔離變更。**
+
+作者表示，他們用 Fable 5.2 擔任總協調者，用 Opus 擔任下層協調者，再以自訂 MCP 伺服器啟動來自多家供應商的執行代理。他們用 GitHub 議題追蹤工作，並用 Git 工作樹和提取請求避免變更衝突。
+
+Type: Integration | Date: 2026-11-14
+
+---
+
+<a id="case-484"></a>
+### Case 484: [用背景執行程序查核引用](https://x.com/tukiyomiiori/status/2121368478364192930) (作者 [@tukiyomiiori](https://x.com/tukiyomiiori))
+
+**將查核引用交給執行代理，並觀察主工作階段何時恢復。**
+
+作者表示，他們請 Fable 5.2 使用子代理和背景指令碼查核引用的論文。他們觀察到，背景工作執行時 Claude Code 的主工作階段會暫停，子代理或指令碼停止後會喚醒主工作階段。
+
+Type: Integration | Date: 2026-11-13
+
+---
+
+<a id="case-485"></a>
+### Case 485: [排查往返貨運定價模型](https://x.com/allTheYud/status/2121360145921998877) (作者 [@allTheYud](https://x.com/allTheYud))
+
+**檢查模型是否將邊際成本正確分配到返程。**
+
+作者在雙向貨運模擬中發現，儘管貨船必須返航，Fable 5.2 仍將來回的燃油成本計入其中一程，另一程則只計算邊際成本。作者表示，這類錯誤需要反覆除錯。
+
+Type: Limit | Date: 2026-11-13
+
+---
+
+<a id="case-486"></a>
+### Case 486: [讓 Edge0 推論環境支援 Mac](https://news.ycombinator.com/item?id=50482710) (作者 [@kjjohnsen](https://news.ycombinator.com/user?id=kjjohnsen))
+
+**請模型調整平台相容性，再到目標裝置上測試推論。**
+
+在 Edge0-145B 的討論中，一位留言者表示，他們請 Fable 5.2 提供 Mac 相容版本，並做了少量調整。據其自述，在 M5 Max 上使用 NVFP4 時，推論速度約為每秒 50 個 token。
+
+[相關資料 1](https://news.ycombinator.com/item?id=50475713)
+
+Type: Integration | Date: 2026-11-13
+
+---
+
+<a id="case-487"></a>
+### Case 487: [審查高密度電路板佈局](https://news.ycombinator.com/item?id=50478759) (作者 [@0_____0](https://news.ycombinator.com/user?id=0_____0))
+
+**根據電路板的效能要求檢查元件選型與擺放。**
+
+一位 Hacker News 留言者嘗試用 Fable 5.2 為多塊電路板擺放元件和佈線。據其自述，一塊高密度板的佈局起初看來頗有希望，但要達到要求，仍需大幅調整元件位置並手動重畫大部分電路原理圖。
+
+Type: Limit | Date: 2026-11-13
+
+---
+
+<a id="case-488"></a>
+### Case 488: [追查付費牆後的報紙出處](https://news.ycombinator.com/item?id=50478191) (作者 [@mmahemoff](https://news.ycombinator.com/user?id=mmahemoff))
+
+**查到原文前，把推測的歸屬視為待查證的線索。**
+
+一位 Hacker News 留言者從語言學郵件清單追查到《達拉斯晨報》於 1985 年刊登的一篇報導。據其自述，Fable 5.2 無法存取全文，只提出一位可能的記者和報導背景，相關歸屬仍待原文查證。
+
+[相關資料 1](https://listserv.linguistlist.org/pipermail/ads-l/2003-September/033575.html)
+
+Type: Limit | Date: 2026-11-13
+
+---
+
+<a id="case-489"></a>
+### Case 489: [用 Fable 規劃並審查 Opus 的變更](https://news.ycombinator.com/item?id=50477200) (作者 [@DeepOntology](https://news.ycombinator.com/user?id=DeepOntology))
+
+**核准書面計畫，切分實作工作，再以 CI 和預備環境驗證變更。**
+
+作者分享了他們據稱曾用於大型程式碼庫的流程。Fable 5.2 負責規劃，Opus 5.5 子代理負責實作與審查，CI 維護測試涵蓋率，由人工依核驗清單在預備環境中確認。
+
+Type: Tutorial | Date: 2026-11-13
+
+---
+
 <a id="acknowledge"></a>
 ## 作者致謝
 
-[Ruslan Ianberdin](https://news.ycombinator.com/user?id=ianberdin), [Lex](https://notesbylex.com/), [@Anthropic](https://www.anthropic.com/), [@Angaisb_](https://x.com/Angaisb_), [@higgsfield_ai](https://x.com/higgsfield_ai), [@ericmaskfr](https://x.com/ericmaskfr), [@kloss_xyz](https://x.com/kloss_xyz), [@WesRoth](https://x.com/WesRoth), [@Mr_Salio](https://x.com/Mr_Salio), [@argofowl](https://x.com/argofowl), [@QQTeng](https://x.com/QQTeng), [@banteg](https://x.com/banteg), [@Avenoxai](https://x.com/Avenoxai), [@ScaleAILabs](https://x.com/ScaleAILabs), [@0xRhinoX](https://x.com/0xRhinoX), [@anstapnever](https://x.com/anstapnever), [@ivanainai](https://x.com/ivanainai), [@Luckyballa](https://x.com/Luckyballa), [@0xKense1](https://x.com/0xKense1), [@alexalbert__](https://x.com/alexalbert__), [@The_Alex](https://x.com/The_Alex), [@sparklabhq](https://x.com/sparklabhq), [@atomicagent_io](https://x.com/atomicagent_io), [@eidzoku](https://x.com/eidzoku), [@emollick](https://x.com/emollick), [@seiiiiiiiiiiru](https://x.com/seiiiiiiiiiiru), [@Rasmic](https://x.com/Rasmic), [@daradoescode](https://x.com/daradoescode), [@imjustnewatai](https://x.com/imjustnewatai), [@aollivier82](https://x.com/aollivier82), [@ivanfioravanti](https://x.com/ivanfioravanti), [@aidigest_](https://x.com/aidigest_), [@AdamHoltererer](https://x.com/AdamHoltererer), [@kunchenguid](https://x.com/kunchenguid), [@felixrieseberg](https://x.com/felixrieseberg), [@theo](https://x.com/theo), [@loktar00](https://x.com/loktar00), [@hiyouwhatsapp](https://x.com/hiyouwhatsapp), [@Tim_Hua_](https://x.com/Tim_Hua_), [@noclipepe](https://x.com/noclipepe), [@karolina_dubiel](https://x.com/karolina_dubiel), [@aziz4ai](https://x.com/aziz4ai), [@bobyau](https://x.com/bobyau), [@deedydas](https://x.com/deedydas), [@ashebytes](https://x.com/ashebytes), [@saimagnate](https://x.com/saimagnate), [@Izkimar](https://x.com/Izkimar), [@dom_scholz](https://x.com/dom_scholz), [@AndrewPrifer](https://x.com/AndrewPrifer), [@lambdacalcc](https://x.com/lambdacalcc), [@_sholtodouglas](https://x.com/_sholtodouglas), [@ziwenxu_](https://x.com/ziwenxu_), [@AI_masaou](https://x.com/AI_masaou), [@AmirMushich](https://x.com/AmirMushich), [@kevin_t_ngo](https://x.com/kevin_t_ngo), [@KHvostikk](https://x.com/KHvostikk), [@GrilliotTodd](https://x.com/GrilliotTodd), [@arena](https://x.com/arena), [@muku_sns](https://x.com/muku_sns), [@Khazix0918](https://x.com/Khazix0918), [@konstantinsaifo](https://x.com/konstantinsaifo), [@dwarkesh_sp](https://x.com/dwarkesh_sp), [@Masimo_Blue](https://x.com/Masimo_Blue), [@mgrczyk](https://x.com/mgrczyk), [@Da7_Tech](https://x.com/Da7_Tech), [@kickingkeys](https://x.com/kickingkeys), [@rileybrown](https://x.com/rileybrown), [@techartist_](https://x.com/techartist_), [@seveibar](https://x.com/seveibar), [@chetanankola](https://x.com/chetanankola), [@vib3coded](https://x.com/vib3coded), [@suna_gaku](https://x.com/suna_gaku), [@MaxXWilliamson](https://x.com/MaxXWilliamson), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@Leviwoyun](https://x.com/Leviwoyun), [@MrTacticalX](https://x.com/MrTacticalX), [@gosrum](https://x.com/gosrum), [@SemiAnalysis_](https://x.com/SemiAnalysis_), [@morganlinton](https://x.com/morganlinton), [@LexnLin](https://x.com/LexnLin), [@xikhar](https://x.com/xikhar), [@elliotarledge](https://x.com/elliotarledge), [@rpnickson](https://x.com/rpnickson), [@bijanbowen](https://x.com/bijanbowen), [@pleometric](https://x.com/pleometric), [@DeryaTR_](https://x.com/DeryaTR_), [@cmonkey](https://x.com/cmonkey), [@chetaslua](https://x.com/chetaslua), [@davelee](https://x.com/davelee), [@oaranda](https://x.com/oaranda), [@petergostev](https://x.com/petergostev), [Vercel](https://vercel.com/), [@TuxSH](https://news.ycombinator.com/user?id=TuxSH), [@jjcm](https://news.ycombinator.com/user?id=jjcm), [Discovered Materials](https://discoveredmaterials.com/), [Artificial Analysis](https://artificialanalysis.ai/), [@popkkksidhd](https://news.ycombinator.com/user?id=popkkksidhd), [@ariwilson](https://news.ycombinator.com/user?id=ariwilson), [@nzach](https://news.ycombinator.com/user?id=nzach), [Senko Rašić](https://senko.net/), [@GMoromisato](https://news.ycombinator.com/user?id=GMoromisato), [@github](https://x.com/github), [@MiaAI_lab](https://x.com/MiaAI_lab), [@sameQCU](https://x.com/sameQCU), [@marouane53](https://x.com/marouane53), [@doodlestein](https://x.com/doodlestein), [@nikitamalyavin](https://news.ycombinator.com/user?id=nikitamalyavin), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@user43928](https://news.ycombinator.com/user?id=user43928), [@simonw](https://news.ycombinator.com/user?id=simonw), [AIBenchy](https://aibenchy.com/)
+[Ruslan Ianberdin](https://news.ycombinator.com/user?id=ianberdin), [Lex](https://notesbylex.com/), [@Anthropic](https://www.anthropic.com/), [@Angaisb_](https://x.com/Angaisb_), [@higgsfield_ai](https://x.com/higgsfield_ai), [@ericmaskfr](https://x.com/ericmaskfr), [@kloss_xyz](https://x.com/kloss_xyz), [@WesRoth](https://x.com/WesRoth), [@Mr_Salio](https://x.com/Mr_Salio), [@argofowl](https://x.com/argofowl), [@QQTeng](https://x.com/QQTeng), [@banteg](https://x.com/banteg), [@Avenoxai](https://x.com/Avenoxai), [@ScaleAILabs](https://x.com/ScaleAILabs), [@0xRhinoX](https://x.com/0xRhinoX), [@anstapnever](https://x.com/anstapnever), [@ivanainai](https://x.com/ivanainai), [@Luckyballa](https://x.com/Luckyballa), [@0xKense1](https://x.com/0xKense1), [@alexalbert__](https://x.com/alexalbert__), [@The_Alex](https://x.com/The_Alex), [@sparklabhq](https://x.com/sparklabhq), [@atomicagent_io](https://x.com/atomicagent_io), [@eidzoku](https://x.com/eidzoku), [@emollick](https://x.com/emollick), [@seiiiiiiiiiiru](https://x.com/seiiiiiiiiiiru), [@Rasmic](https://x.com/Rasmic), [@daradoescode](https://x.com/daradoescode), [@imjustnewatai](https://x.com/imjustnewatai), [@aollivier82](https://x.com/aollivier82), [@ivanfioravanti](https://x.com/ivanfioravanti), [@aidigest_](https://x.com/aidigest_), [@AdamHoltererer](https://x.com/AdamHoltererer), [@kunchenguid](https://x.com/kunchenguid), [@felixrieseberg](https://x.com/felixrieseberg), [@theo](https://x.com/theo), [@loktar00](https://x.com/loktar00), [@hiyouwhatsapp](https://x.com/hiyouwhatsapp), [@Tim_Hua_](https://x.com/Tim_Hua_), [@noclipepe](https://x.com/noclipepe), [@karolina_dubiel](https://x.com/karolina_dubiel), [@aziz4ai](https://x.com/aziz4ai), [@bobyau](https://x.com/bobyau), [@deedydas](https://x.com/deedydas), [@ashebytes](https://x.com/ashebytes), [@saimagnate](https://x.com/saimagnate), [@Izkimar](https://x.com/Izkimar), [@dom_scholz](https://x.com/dom_scholz), [@AndrewPrifer](https://x.com/AndrewPrifer), [@lambdacalcc](https://x.com/lambdacalcc), [@_sholtodouglas](https://x.com/_sholtodouglas), [@ziwenxu_](https://x.com/ziwenxu_), [@AI_masaou](https://x.com/AI_masaou), [@AmirMushich](https://x.com/AmirMushich), [@kevin_t_ngo](https://x.com/kevin_t_ngo), [@KHvostikk](https://x.com/KHvostikk), [@GrilliotTodd](https://x.com/GrilliotTodd), [@arena](https://x.com/arena), [@muku_sns](https://x.com/muku_sns), [@Khazix0918](https://x.com/Khazix0918), [@konstantinsaifo](https://x.com/konstantinsaifo), [@dwarkesh_sp](https://x.com/dwarkesh_sp), [@Masimo_Blue](https://x.com/Masimo_Blue), [@mgrczyk](https://x.com/mgrczyk), [@Da7_Tech](https://x.com/Da7_Tech), [@kickingkeys](https://x.com/kickingkeys), [@rileybrown](https://x.com/rileybrown), [@techartist_](https://x.com/techartist_), [@seveibar](https://x.com/seveibar), [@chetanankola](https://x.com/chetanankola), [@vib3coded](https://x.com/vib3coded), [@suna_gaku](https://x.com/suna_gaku), [@MaxXWilliamson](https://x.com/MaxXWilliamson), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@Leviwoyun](https://x.com/Leviwoyun), [@MrTacticalX](https://x.com/MrTacticalX), [@gosrum](https://x.com/gosrum), [@SemiAnalysis_](https://x.com/SemiAnalysis_), [@morganlinton](https://x.com/morganlinton), [@LexnLin](https://x.com/LexnLin), [@xikhar](https://x.com/xikhar), [@elliotarledge](https://x.com/elliotarledge), [@rpnickson](https://x.com/rpnickson), [@bijanbowen](https://x.com/bijanbowen), [@pleometric](https://x.com/pleometric), [@DeryaTR_](https://x.com/DeryaTR_), [@cmonkey](https://x.com/cmonkey), [@chetaslua](https://x.com/chetaslua), [@davelee](https://x.com/davelee), [@oaranda](https://x.com/oaranda), [@petergostev](https://x.com/petergostev), [Vercel](https://vercel.com/), [@TuxSH](https://news.ycombinator.com/user?id=TuxSH), [@jjcm](https://news.ycombinator.com/user?id=jjcm), [Discovered Materials](https://discoveredmaterials.com/), [Artificial Analysis](https://artificialanalysis.ai/), [@popkkksidhd](https://news.ycombinator.com/user?id=popkkksidhd), [@ariwilson](https://news.ycombinator.com/user?id=ariwilson), [@nzach](https://news.ycombinator.com/user?id=nzach), [Senko Rašić](https://senko.net/), [@GMoromisato](https://news.ycombinator.com/user?id=GMoromisato), [@github](https://x.com/github), [@MiaAI_lab](https://x.com/MiaAI_lab), [@sameQCU](https://x.com/sameQCU), [@marouane53](https://x.com/marouane53), [@doodlestein](https://x.com/doodlestein), [@nikitamalyavin](https://news.ycombinator.com/user?id=nikitamalyavin), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@user43928](https://news.ycombinator.com/user?id=user43928), [@simonw](https://news.ycombinator.com/user?id=simonw), [AIBenchy](https://aibenchy.com/), [@fe_yukichi](https://x.com/fe_yukichi), [u/wollymonjac](https://www.reddit.com/user/wollymonjac/), [@lukaspet](https://x.com/lukaspet), [@DJ_HYSNS](https://x.com/DJ_HYSNS), [@joaoavf](https://x.com/joaoavf), [@aimikoda](https://x.com/aimikoda), [@ingi_erlingsson](https://x.com/ingi_erlingsson), [@hanghuang_](https://x.com/hanghuang_), [@MecAgent](https://x.com/MecAgent), [Plotly](https://plotly.com/), [@gdubs](https://news.ycombinator.com/user?id=gdubs), [@nickalaso](https://news.ycombinator.com/user?id=nickalaso), [@tukiyomiiori](https://x.com/tukiyomiiori), [@allTheYud](https://x.com/allTheYud), [@kjjohnsen](https://news.ycombinator.com/user?id=kjjohnsen), [@0_____0](https://news.ycombinator.com/user?id=0_____0), [@mmahemoff](https://news.ycombinator.com/user?id=mmahemoff), [@DeepOntology](https://news.ycombinator.com/user?id=DeepOntology)

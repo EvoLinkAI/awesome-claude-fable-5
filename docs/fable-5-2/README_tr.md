@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README_zh-CN.md) · [繁體中文](README_zh-TW.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Español](README_es.md) · [Português](README_pt.md) · [Deutsch](README_de.md) · [Français](README_fr.md) · [Türkçe](README_tr.md) · [Русский](README_ru.md)
 
-10 Kasım derlemesinden kaynak bağlantılarıyla iş akışları, demolar, karşılaştırmalar, değerlendirmeler, entegrasyonlar ve kullanım sınırları.
+10 Kasım ve 13–14 Kasım derlemelerindeki iş akışları, demolar, karşılaştırmalar, kıyaslama testleri, entegrasyonlar ve kullanımda karşılaşılan sınırlar, kaynak bağlantılarıyla birlikte.
 
 [Anthropic duyurusu](https://www.anthropic.com/claude-fable-and-mythos-5-2) · [Önceki örnek koleksiyonu](../../README_tr.md)
 
@@ -149,6 +149,27 @@
 | 466 | [Üç modelle fare ve kedi oyunu](#case-466) | Evaluation |
 | 467 | [High düzeyinde AIBenchy maliyet ve puan karşılaştırması](#case-467) | Benchmark |
 | 468 | [Fable 5.2 Ajan Ortamını Ayarlamak](#case-468) | Tutorial |
+| 469 | [Animasyonlu Karakterleri Önizleme Uygulaması](#case-469) | Demo |
+| 470 | [Araç Kullanmadan Üretilen QR Kodunu Test Etme](#case-470) | Evaluation |
+| 471 | [Tripo ile Unity’de Zombi Oyunu](#case-471) | Demo |
+| 472 | [MS Paint’te Karlı Bir Sokak Çizme](#case-472) | Demo |
+| 473 | [Wojak-Bench’te Eksik Kalan Priz Bağlantısı](#case-473) | Limit |
+| 474 | [Ritim Oyunu İçin Piyano Düzenlemesi](#case-474) | Evaluation |
+| 475 | [Picnic’in Token Kurtarma Akışını Yeniden Tasarlama](#case-475) | Demo |
+| 476 | [Üretilen Kliplerle Anime Açılışı Kurgulama](#case-476) | Tutorial |
+| 477 | [Üç Araçla Karakter Animasyonu](#case-477) | Demo |
+| 478 | [Blender Betikleriyle Şehir Fragmanı Oluşturma](#case-478) | Demo |
+| 479 | [JavaScript ile Gece Manzaraları Çizme](#case-479) | Demo |
+| 480 | [CAD Modellerini Teknik Resimlere Dönüştürme](#case-480) | Demo |
+| 481 | [Plotly’nin Veri Analizi Sınavında 43 Görev](#case-481) | Benchmark |
+| 482 | [SGI Indy’yi Web Sitesi Olarak Yeniden Canlandırma](#case-482) | Demo |
+| 483 | [İş Kayıtları ve Git Çalışma Ağaçlarıyla Ajan Koordinasyonu](#case-483) | Integration |
+| 484 | [Atıfları Arka Planda Çalışan Ajanlarla Kontrol Etme](#case-484) | Integration |
+| 485 | [Gidiş Dönüş Navlun Fiyatı Modelinde Hata Ayıklama](#case-485) | Limit |
+| 486 | [Edge0 Çıkarım Kurulumunu Mac’e Uyarlama](#case-486) | Integration |
+| 487 | [Yüksek Bileşen Yoğunluklu Devre Kartı Yerleşimlerini İnceleme](#case-487) | Limit |
+| 488 | [Ücretli Gazete Arşivinde Bir Atfın İzini Sürme](#case-488) | Limit |
+| 489 | [Fable ile Planlama ve Opus Değişikliklerini İnceleme](#case-489) | Tutorial |
 
 <a id="fable-5-2-cases"></a>
 ## Kullanım Örnekleri
@@ -2076,7 +2097,288 @@ Type: Tutorial | Date: 2026-11-10
 
 ---
 
+<a id="case-469"></a>
+### Case 469: [Animasyonlu Karakterleri Önizleme Uygulaması](https://x.com/seiiiiiiiiiiru/status/2121390458572333253) (üreten [@seiiiiiiiiiiru](https://x.com/seiiiiiiiiiiru))
+
+**Tekrarlanan 3B varlık kontrollerini bir arayüze dönüştürmesini Fable’dan isteyin.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/ce514e99465c257220ee9bf7.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/776670eda35fbabbf1c63663.jpg" alt="Case 469 · 1" width="760"><br>▶ Videoyu oynat</a>
+
+İçerik üreticisi, Fable 5.2’yi danışman olarak sürece kattığını ve modelin verimsiz bir iş akışını uygulamaya dönüştürdüğünü söylüyor. Kayıtta bir 3B karakter için hazır hareketler, arka plan ayarları ve GLB ile şeffaf arka planlı PNG dışa aktarma seçenekleri görülüyor.
+
+Type: Demo | Date: 2026-11-13
+
+---
+
+<a id="case-470"></a>
+### Case 470: [Araç Kullanmadan Üretilen QR Kodunu Test Etme](https://x.com/AdamHoltererer/status/2121376853474578625) (üreten [@AdamHoltererer](https://x.com/AdamHoltererer))
+
+**Denemeyi başarılı saymadan önce üretilen QR kodunu okutun.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/d3833f006038158569c9816d.png" alt="Case 470 · 1" width="760">
+
+Adam Holter, QR kodu gösterimini Fable 5.2, Astra ve Sol’a atfediyor ve araç kullanılmadığını belirtiyor. Ekli görseli yerelde taradığımızda QR kodunun MADE WITHOUT TOOLS metnini içerdiği doğrulandı.
+
+Type: Evaluation | Date: 2026-11-13
+
+---
+
+<a id="case-471"></a>
+### Case 471: [Tripo ile Unity’de Zombi Oyunu](https://x.com/fe_yukichi/status/2121375714192814554) (üreten [@fe_yukichi](https://x.com/fe_yukichi))
+
+**Oynanabilir karakterler hazırlamak için ortak bir varlık üretim süreci kullanın.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/055f505803b769bb8b24a54e.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/0fa0715e64f91ab69725599e.jpg" alt="Case 471 · 1" width="760"><br>▶ Videoyu oynat</a>
+
+İçerik üreticisi, Tripo ile iş birliği yaptığını belirtiyor ve Fable 5.2 ile geliştirdiği Unity oyunu için Tripo Agentic Canvas kullanarak sekiz oynanabilir karakter ve on altı zombi çeşidi ürettiğini söylüyor. Videoda karakter seçimi ve oynanış görülüyor. Üretici, masaüstü tarayıcıda çalışan bir sürüm de paylaşmış.
+
+[İlgili kaynaklar 1](https://tsukiyo-zombie.pages.dev/)
+
+Type: Demo | Date: 2026-11-13
+
+---
+
+<a id="case-472"></a>
+### Case 472: [MS Paint’te Karlı Bir Sokak Çizme](https://www.reddit.com/r/ClaudeAI/comments/1xvghd1/fable_52_painting_in_ms_paint/) (üreten [u/wollymonjac](https://www.reddit.com/user/wollymonjac/))
+
+**Uzun bir görevde farenin doğrudan kontrolünü ekran kaydı üzerinden değerlendirin.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/10ad84001f4c682c5343846c.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/e7af823e10ef2135adec2154.jpg" alt="Case 472 · 1" width="760"><br>▶ Videoyu oynat</a>
+
+Reddit’teki paylaşımın sahibi, Fable 5.2’nin fareyi kullanarak MS Paint’te yaklaşık iki buçuk saatte karlı bir sokak çizdiğini söylüyor. Bağlantısı verilen X paylaşımı aynı sahnenin çizim kaydını içeriyor.
+
+[İlgili kaynaklar 1](https://x.com/i/status/2121373793599869213)
+
+Type: Demo | Date: 2026-11-13
+
+---
+
+<a id="case-473"></a>
+### Case 473: [Wojak-Bench’te Eksik Kalan Priz Bağlantısı](https://x.com/lukaspet/status/2121371593943466167) (üreten [@lukaspet](https://x.com/lukaspet))
+
+**Üretilen 3B montajdaki her bağlantıyı referansla karşılaştırın.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/e509db79b2e79fcc2d6beda1.jpg" alt="Case 473 · 1" width="760">
+
+Yazar, bu Wojak-Bench görevinde Fable 5.2’nin kabloyu prize bağlayamadığını bildiriyor. Kaynak görselde 3B sonucun fotoğrafı ve referans çizimi yan yana gösteriliyor.
+
+Type: Limit | Date: 2026-11-13
+
+---
+
+<a id="case-474"></a>
+### Case 474: [Ritim Oyunu İçin Piyano Düzenlemesi](https://x.com/DJ_HYSNS/status/2121367353237942287) (üreten [@DJ_HYSNS](https://x.com/DJ_HYSNS))
+
+**Modelden beste isterken parçanın çalınabilirliğini ve ses prodüksiyonundaki kontrolleri inceleyin.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/d016f48687e0c8e6cf810812.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/9faa77e2e9ba2ec99be995a7.jpg" alt="Case 474 · 1" width="760"><br>▶ Videoyu oynat</a>
+
+Yazar ritim oyunu için müzik istedi. Modele VST sesleri seçtirmekte ve miks yaptırmakta zorlandığını belirterek solo piyanoya geçti. Videoda ortaya çıkan piyano rulosu görülüyor. Yazara göre parça, bir insanın çalabileceği sınırlar içinde kalma şartını aştı.
+
+Type: Evaluation | Date: 2026-11-13
+
+---
+
+<a id="case-475"></a>
+### Case 475: [Picnic’in Token Kurtarma Akışını Yeniden Tasarlama](https://x.com/joaoavf/status/2121366491321057717) (üreten [@joaoavf](https://x.com/joaoavf))
+
+**Desteklenmeyen token’ları kurtarma sürecinin farklı adımlarını arayüz taslaklarında karşılaştırın.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/551612796f4150a43b190ee3.jpg" alt="Case 475 · 1" width="760">
+
+Yazar, Picnic’in desteklemediği token’ları kurtarma sürecini Fable 5.2’ye verdiği bir ya da iki istemle yeniden tasarladığını söylüyor. Ekli görsel, önerilen akıştan birkaç ekran gösteriyor.
+
+Type: Demo | Date: 2026-11-13
+
+---
+
+<a id="case-476"></a>
+### Case 476: [Üretilen Kliplerle Anime Açılışı Kurgulama](https://x.com/aimikoda/status/2121362621274177726) (üreten [@aimikoda](https://x.com/aimikoda))
+
+**Fable’a klipleri, müziği ve kesmeleri ritme oturtmak için açık talimatları verin.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/e3ab28061669d84818042ee0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/cb65344e413d2bd340406d59.jpg" alt="Case 476 · 1" width="760"><br>▶ Videoyu oynat</a>
+
+İçerik üreticisi, MiniMax H3 görüntülerini ve Suno v6 müziğini Fable 5.2 Medium ile kurguladı. Paylaşılan videoda hareketli piksel karakterler ve geçişler yer alıyor. Fable’a verilen özgün kurgu istemi de örneğe ekli.
+
+Orijinal istem
+
+```
+Using these clips and the song, create a highly polished, professional anime opening / music video (MV) edit, perfectly synchronized with the music's beats and rhythm.
+Incorporate dynamic kinetic typography, creative transitions, stylish visual effects, speed ramps, match cuts and impactful beat-synced editing.
+Design pixel-art versions of the characters and animate them dancing to the music. Get creative with different visual styles, motion graphics and playful sequences while maintaining a cohesive anime opening aesthetic.
+Carefully review all the footage and select only the best moments. Trim and rearrange the clips to match the song's energy, pacing and emotional progression. Avoid any frames with incorrect anatomy, awkward poses, visual glitches or animation errors.
+Make the final result feel like a professionally directed, high-budget anime opening with exceptional timing, seamless transitions, strong visual storytelling and meticulous attention to detail.
+```
+
+Type: Tutorial | Date: 2026-11-13
+
+---
+
+<a id="case-477"></a>
+### Case 477: [Üç Araçla Karakter Animasyonu](https://x.com/ingi_erlingsson/status/2121361947446677797) (üreten [@ingi_erlingsson](https://x.com/ingi_erlingsson))
+
+**Kaynak GIF’i Fable ve ComfyUI adımlarından sonraki animasyonla karşılaştırın.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/69a3410b7b2dcdb14ee6c5d1.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/391924750cd0641254cb114f.jpg" alt="Case 477 · 1" width="760"><br>▶ Videoyu oynat</a>
+
+Yazar, girdi olarak GPT Image 2.6 ile hazırlanan bir GIF kullandığını, ardından Fable 5.2 ve ComfyUI’ye geçtiğini belirtiyor. Ekli klipte değişen karakter yüzü, dönen bir kamera açısıyla gösteriliyor.
+
+Type: Demo | Date: 2026-11-13
+
+---
+
+<a id="case-478"></a>
+### Case 478: [Blender Betikleriyle Şehir Fragmanı Oluşturma](https://x.com/hanghuang_/status/2121361932456427644) (üreten [@hanghuang_](https://x.com/hanghuang_))
+
+**Şehir fragmanının yapımını sahne, karakter, araç ve işleme görevlerine ayırın.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/0e5170c057eecd328b178fe3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/d10c5d322edba010282a60d0.jpg" alt="Case 478 · 1" width="760"><br>▶ Videoyu oynat</a>
+
+İçerik üreticisi, Fable 5.2’nin oyun tarzında bir fragman planladığını ve şehir, karakter ve otomobil için Blender kodu yazdığını söylüyor. Üreticiye göre 4K sonuç yedi kiralık GPU ile işlendi. Paylaşılan videoda tamamlanan sahneler görülüyor.
+
+Type: Demo | Date: 2026-11-13
+
+---
+
+<a id="case-479"></a>
+### Case 479: [JavaScript ile Gece Manzaraları Çizme](https://x.com/kloss_xyz/status/2121356668311384487) (üreten [@kloss_xyz](https://x.com/kloss_xyz))
+
+**Kodla oluşturulan çizimleri değerlendirirken bitmiş birkaç örneği bir arada inceleyin.**
+
+<table><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/6e9d554b17822715f07d3be8.jpg" alt="Case 479 · 1" width="450"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/f57db49bb8213cc6ca4bcafe.jpg" alt="Case 479 · 2" width="450"></td></tr><tr><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/2933b30de09501dbbb7e1505.jpg" alt="Case 479 · 3" width="450"></td><td valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/490e5952694322b7963be8e2.jpg" alt="Case 479 · 4" width="450"></td></tr></table>
+
+Yazar, paylaştığı dört çizimi Fable 5.2’nin JavaScript ile oluşturduğunu belirtiyor. Eklerde karşılaştırılabilecek stilize gece manzaraları görülüyor.
+
+Type: Demo | Date: 2026-11-13
+
+---
+
+<a id="case-480"></a>
+### Case 480: [CAD Modellerini Teknik Resimlere Dönüştürme](https://x.com/MecAgent/status/2121352868490100787) (üreten [@MecAgent](https://x.com/MecAgent))
+
+**Görünüşleri, ölçüleri ve açıklamaları kaynak CAD modeliyle karşılaştırın.**
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/5ce59334e405a279e1008bf0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/780dc65cb1b04f7a75e27ace.jpg" alt="Case 480 · 1" width="760"><br>▶ Videoyu oynat</a>
+
+MecAgent, kendi gösteriminde birden fazla görünüş ve açıklama içeren teknik resim paftalarını yayımlıyor ve dönüşümü Fable 5.2’ye atfediyor. Klipte ortaya çıkan çizimler görülüyor. Ölçülerin doğruluğu için CAD dosyalarıyla karşılaştırma gerekir.
+
+Type: Demo | Date: 2026-11-13
+
+---
+
+<a id="case-481"></a>
+### Case 481: [Plotly’nin Veri Analizi Sınavında 43 Görev](https://plotly.com/blog/gemini-4-hydrogen-plotly-data-analytics-bench/) (üreten [Plotly](https://plotly.com/))
+
+**Doğruluğu ve çalıştırma maliyetini aynı analiz testi ortamında karşılaştırın.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/50882a17db12bede9165a92d.webp" alt="Case 481 · 1" width="760">
+
+Plotly’nin raporuna göre Fable 5.2, gizli örüntüleri bulmaya yönelik beş soru dâhil 43 sorunun tamamını geçen dört modelden biri. Yayımlayan ekip, model başına tek çalıştırmanın yalnızca tek örnek sağladığını belirtiyor. Grafik, testteki doğruluğu ve maliyeti gösteriyor.
+
+[İlgili kaynaklar 1](https://news.ycombinator.com/item?id=50485733)
+
+Type: Benchmark | Date: 2026-11-12
+
+---
+
+<a id="case-482"></a>
+### Case 482: [SGI Indy’yi Web Sitesi Olarak Yeniden Canlandırma](https://news.ycombinator.com/item?id=50476597) (üreten [@gdubs](https://news.ycombinator.com/user?id=gdubs))
+
+**Fiziksel bir iş istasyonunun web sitesine nasıl taşınabileceğini etkileşimli bir örnekle inceleyin.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/74b80686867b920881164246.jpg" alt="Case 482 · 1" width="760">
+
+Gregory Wieber, sitesini 1990’lardan kalma bir Silicon Graphics Indy olarak yeniden tasarlamada Fable 5.2’nin rolünü belirtiyor. Yayımlanan demoda oturum açma ekranı, 3B dosya sistemi ve Soft Break oyunu bulunan üç boyutlu bir iş istasyonu var.
+
+[İlgili kaynaklar 1](https://gregorywieber.com/indy/)
+
+Type: Demo | Date: 2026-11-13
+
+---
+
+<a id="case-483"></a>
+### Case 483: [İş Kayıtları ve Git Çalışma Ağaçlarıyla Ajan Koordinasyonu](https://news.ycombinator.com/item?id=50493545) (üreten [@nickalaso](https://news.ycombinator.com/user?id=nickalaso))
+
+**Görevleri GitHub iş kayıtlarıyla dağıtın, değişiklikleri çalışma ağaçları ve çekme istekleriyle ayırın.**
+
+Yazar, Fable 5.2’yi ana koordinatör, Opus’u alt koordinatör olarak kullandığını ve birden fazla sağlayıcının ajanlarını özel bir MCP sunucusu üzerinden başlattığını söylüyor. İşleri GitHub Issues ile takip ediyor ve değişikliklerin çakışmasını önlemek için Git çalışma ağaçları ile çekme isteklerinden yararlanıyor.
+
+Type: Integration | Date: 2026-11-14
+
+---
+
+<a id="case-484"></a>
+### Case 484: [Atıfları Arka Planda Çalışan Ajanlarla Kontrol Etme](https://x.com/tukiyomiiori/status/2121368478364192930) (üreten [@tukiyomiiori](https://x.com/tukiyomiiori))
+
+**Atıf kontrollerini devredin ve ana oturumun ne zaman devam ettiğini gözlemleyin.**
+
+Yazar, Fable 5.2’den atıf yapılan makaleleri alt ajanlar ve arka plan betikleriyle kontrol etmesini istediğini bildiriyor. Claude Code oturumunun bu işler sürerken beklemeye geçtiğini, ajanlar veya betikler durduğunda ise yeniden devreye girdiğini gözlemlemiş.
+
+Type: Integration | Date: 2026-11-13
+
+---
+
+<a id="case-485"></a>
+### Case 485: [Gidiş Dönüş Navlun Fiyatı Modelinde Hata Ayıklama](https://x.com/allTheYud/status/2121360145921998877) (üreten [@allTheYud](https://x.com/allTheYud))
+
+**Modelin dönüş ayağına marjinal maliyetleri doğru yükleyip yüklemediğini kontrol edin.**
+
+Yazar, iki yönlü taşıma simülasyonunda Fable 5.2’nin her iki yönün yakıt giderini tek ayağa, yalnızca marjinal giderleri ise diğer ayağa yüklediğini söylüyor. Simülasyonda geminin zaten geri dönmesi gerekiyordu. Yazar, bu tür hatalar için tekrar tekrar hata ayıklamak zorunda kalmış.
+
+Type: Limit | Date: 2026-11-13
+
+---
+
+<a id="case-486"></a>
+### Case 486: [Edge0 Çıkarım Kurulumunu Mac’e Uyarlama](https://news.ycombinator.com/item?id=50482710) (üreten [@kjjohnsen](https://news.ycombinator.com/user?id=kjjohnsen))
+
+**Platforma uygun değişiklikleri isteyin ve çıkarımı hedef makinede test edin.**
+
+Edge0-145B tartışmasındaki bir kullanıcı, Fable 5.2’den Mac uyumlu bir sürüm istediğini ve birkaç düzeltme yaptığını söylüyor. Kendi M5 Max ve NVFP4 kurulumunda saniyede yaklaşık 50 token elde ettiğini bildiriyor.
+
+[İlgili kaynaklar 1](https://news.ycombinator.com/item?id=50475713)
+
+Type: Integration | Date: 2026-11-13
+
+---
+
+<a id="case-487"></a>
+### Case 487: [Yüksek Bileşen Yoğunluklu Devre Kartı Yerleşimlerini İnceleme](https://news.ycombinator.com/item?id=50478759) (üreten [@0_____0](https://news.ycombinator.com/user?id=0_____0))
+
+**Yerleşimi ve bileşen seçimini kartın performans gereksinimleriyle karşılaştırın.**
+
+Bir Hacker News kullanıcısı, birkaç kartın bileşen yerleşimi ve hat çizimi için Fable 5.2’yi denedi. Yoğun bir yerleşimin ilk bakışta iyi göründüğünü, kendi gereksinimlerini karşılamak için bileşenleri önemli ölçüde yeniden yerleştirmesi ve şemanın büyük kısmını elle çizmesi gerektiğini söylüyor.
+
+Type: Limit | Date: 2026-11-13
+
+---
+
+<a id="case-488"></a>
+### Case 488: [Ücretli Gazete Arşivinde Bir Atfın İzini Sürme](https://news.ycombinator.com/item?id=50478191) (üreten [@mmahemoff](https://news.ycombinator.com/user?id=mmahemoff))
+
+**Özgün metne bakana kadar atıf önerisini geçici kabul edin.**
+
+Bir Hacker News kullanıcısı, bir dilbilim e-posta listesinde atıf yapılan 1985 tarihli Dallas Morning News makalesine ulaştı. Kullanıcı, Fable 5.2’nin makalenin tamamını açamadığını ve olası bir muhabir ile bağlam önerdiğini belirtiyor. Atfı doğrulamak için özgün metin hâlâ gerekli.
+
+[İlgili kaynaklar 1](https://listserv.linguistlist.org/pipermail/ads-l/2003-September/033575.html)
+
+Type: Limit | Date: 2026-11-13
+
+---
+
+<a id="case-489"></a>
+### Case 489: [Fable ile Planlama ve Opus Değişikliklerini İnceleme](https://news.ycombinator.com/item?id=50477200) (üreten [@DeepOntology](https://news.ycombinator.com/user?id=DeepOntology))
+
+**Yazılı bir planı onaylayın, uygulamayı iş kollarına ayırın ve değişiklikleri CI ile ön üretim ortamında doğrulayın.**
+
+Yazar, büyük kod tabanlarında uyguladığını söylediği bir iş akışını paylaşıyor. Planı Fable 5.2 hazırlıyor, değişiklikleri Opus 5.5 alt ajanları uygulayıp inceliyor, CI test kapsamını denetliyor ve ön üretim kontrol listesi elle doğrulamaya rehberlik ediyor.
+
+Type: Tutorial | Date: 2026-11-13
+
+---
+
 <a id="acknowledge"></a>
 ## Katkıda bulunanlar
 
-[Ruslan Ianberdin](https://news.ycombinator.com/user?id=ianberdin), [Lex](https://notesbylex.com/), [@Anthropic](https://www.anthropic.com/), [@Angaisb_](https://x.com/Angaisb_), [@higgsfield_ai](https://x.com/higgsfield_ai), [@ericmaskfr](https://x.com/ericmaskfr), [@kloss_xyz](https://x.com/kloss_xyz), [@WesRoth](https://x.com/WesRoth), [@Mr_Salio](https://x.com/Mr_Salio), [@argofowl](https://x.com/argofowl), [@QQTeng](https://x.com/QQTeng), [@banteg](https://x.com/banteg), [@Avenoxai](https://x.com/Avenoxai), [@ScaleAILabs](https://x.com/ScaleAILabs), [@0xRhinoX](https://x.com/0xRhinoX), [@anstapnever](https://x.com/anstapnever), [@ivanainai](https://x.com/ivanainai), [@Luckyballa](https://x.com/Luckyballa), [@0xKense1](https://x.com/0xKense1), [@alexalbert__](https://x.com/alexalbert__), [@The_Alex](https://x.com/The_Alex), [@sparklabhq](https://x.com/sparklabhq), [@atomicagent_io](https://x.com/atomicagent_io), [@eidzoku](https://x.com/eidzoku), [@emollick](https://x.com/emollick), [@seiiiiiiiiiiru](https://x.com/seiiiiiiiiiiru), [@Rasmic](https://x.com/Rasmic), [@daradoescode](https://x.com/daradoescode), [@imjustnewatai](https://x.com/imjustnewatai), [@aollivier82](https://x.com/aollivier82), [@ivanfioravanti](https://x.com/ivanfioravanti), [@aidigest_](https://x.com/aidigest_), [@AdamHoltererer](https://x.com/AdamHoltererer), [@kunchenguid](https://x.com/kunchenguid), [@felixrieseberg](https://x.com/felixrieseberg), [@theo](https://x.com/theo), [@loktar00](https://x.com/loktar00), [@hiyouwhatsapp](https://x.com/hiyouwhatsapp), [@Tim_Hua_](https://x.com/Tim_Hua_), [@noclipepe](https://x.com/noclipepe), [@karolina_dubiel](https://x.com/karolina_dubiel), [@aziz4ai](https://x.com/aziz4ai), [@bobyau](https://x.com/bobyau), [@deedydas](https://x.com/deedydas), [@ashebytes](https://x.com/ashebytes), [@saimagnate](https://x.com/saimagnate), [@Izkimar](https://x.com/Izkimar), [@dom_scholz](https://x.com/dom_scholz), [@AndrewPrifer](https://x.com/AndrewPrifer), [@lambdacalcc](https://x.com/lambdacalcc), [@_sholtodouglas](https://x.com/_sholtodouglas), [@ziwenxu_](https://x.com/ziwenxu_), [@AI_masaou](https://x.com/AI_masaou), [@AmirMushich](https://x.com/AmirMushich), [@kevin_t_ngo](https://x.com/kevin_t_ngo), [@KHvostikk](https://x.com/KHvostikk), [@GrilliotTodd](https://x.com/GrilliotTodd), [@arena](https://x.com/arena), [@muku_sns](https://x.com/muku_sns), [@Khazix0918](https://x.com/Khazix0918), [@konstantinsaifo](https://x.com/konstantinsaifo), [@dwarkesh_sp](https://x.com/dwarkesh_sp), [@Masimo_Blue](https://x.com/Masimo_Blue), [@mgrczyk](https://x.com/mgrczyk), [@Da7_Tech](https://x.com/Da7_Tech), [@kickingkeys](https://x.com/kickingkeys), [@rileybrown](https://x.com/rileybrown), [@techartist_](https://x.com/techartist_), [@seveibar](https://x.com/seveibar), [@chetanankola](https://x.com/chetanankola), [@vib3coded](https://x.com/vib3coded), [@suna_gaku](https://x.com/suna_gaku), [@MaxXWilliamson](https://x.com/MaxXWilliamson), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@Leviwoyun](https://x.com/Leviwoyun), [@MrTacticalX](https://x.com/MrTacticalX), [@gosrum](https://x.com/gosrum), [@SemiAnalysis_](https://x.com/SemiAnalysis_), [@morganlinton](https://x.com/morganlinton), [@LexnLin](https://x.com/LexnLin), [@xikhar](https://x.com/xikhar), [@elliotarledge](https://x.com/elliotarledge), [@rpnickson](https://x.com/rpnickson), [@bijanbowen](https://x.com/bijanbowen), [@pleometric](https://x.com/pleometric), [@DeryaTR_](https://x.com/DeryaTR_), [@cmonkey](https://x.com/cmonkey), [@chetaslua](https://x.com/chetaslua), [@davelee](https://x.com/davelee), [@oaranda](https://x.com/oaranda), [@petergostev](https://x.com/petergostev), [Vercel](https://vercel.com/), [@TuxSH](https://news.ycombinator.com/user?id=TuxSH), [@jjcm](https://news.ycombinator.com/user?id=jjcm), [Discovered Materials](https://discoveredmaterials.com/), [Artificial Analysis](https://artificialanalysis.ai/), [@popkkksidhd](https://news.ycombinator.com/user?id=popkkksidhd), [@ariwilson](https://news.ycombinator.com/user?id=ariwilson), [@nzach](https://news.ycombinator.com/user?id=nzach), [Senko Rašić](https://senko.net/), [@GMoromisato](https://news.ycombinator.com/user?id=GMoromisato), [@github](https://x.com/github), [@MiaAI_lab](https://x.com/MiaAI_lab), [@sameQCU](https://x.com/sameQCU), [@marouane53](https://x.com/marouane53), [@doodlestein](https://x.com/doodlestein), [@nikitamalyavin](https://news.ycombinator.com/user?id=nikitamalyavin), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@user43928](https://news.ycombinator.com/user?id=user43928), [@simonw](https://news.ycombinator.com/user?id=simonw), [AIBenchy](https://aibenchy.com/)
+[Ruslan Ianberdin](https://news.ycombinator.com/user?id=ianberdin), [Lex](https://notesbylex.com/), [@Anthropic](https://www.anthropic.com/), [@Angaisb_](https://x.com/Angaisb_), [@higgsfield_ai](https://x.com/higgsfield_ai), [@ericmaskfr](https://x.com/ericmaskfr), [@kloss_xyz](https://x.com/kloss_xyz), [@WesRoth](https://x.com/WesRoth), [@Mr_Salio](https://x.com/Mr_Salio), [@argofowl](https://x.com/argofowl), [@QQTeng](https://x.com/QQTeng), [@banteg](https://x.com/banteg), [@Avenoxai](https://x.com/Avenoxai), [@ScaleAILabs](https://x.com/ScaleAILabs), [@0xRhinoX](https://x.com/0xRhinoX), [@anstapnever](https://x.com/anstapnever), [@ivanainai](https://x.com/ivanainai), [@Luckyballa](https://x.com/Luckyballa), [@0xKense1](https://x.com/0xKense1), [@alexalbert__](https://x.com/alexalbert__), [@The_Alex](https://x.com/The_Alex), [@sparklabhq](https://x.com/sparklabhq), [@atomicagent_io](https://x.com/atomicagent_io), [@eidzoku](https://x.com/eidzoku), [@emollick](https://x.com/emollick), [@seiiiiiiiiiiru](https://x.com/seiiiiiiiiiiru), [@Rasmic](https://x.com/Rasmic), [@daradoescode](https://x.com/daradoescode), [@imjustnewatai](https://x.com/imjustnewatai), [@aollivier82](https://x.com/aollivier82), [@ivanfioravanti](https://x.com/ivanfioravanti), [@aidigest_](https://x.com/aidigest_), [@AdamHoltererer](https://x.com/AdamHoltererer), [@kunchenguid](https://x.com/kunchenguid), [@felixrieseberg](https://x.com/felixrieseberg), [@theo](https://x.com/theo), [@loktar00](https://x.com/loktar00), [@hiyouwhatsapp](https://x.com/hiyouwhatsapp), [@Tim_Hua_](https://x.com/Tim_Hua_), [@noclipepe](https://x.com/noclipepe), [@karolina_dubiel](https://x.com/karolina_dubiel), [@aziz4ai](https://x.com/aziz4ai), [@bobyau](https://x.com/bobyau), [@deedydas](https://x.com/deedydas), [@ashebytes](https://x.com/ashebytes), [@saimagnate](https://x.com/saimagnate), [@Izkimar](https://x.com/Izkimar), [@dom_scholz](https://x.com/dom_scholz), [@AndrewPrifer](https://x.com/AndrewPrifer), [@lambdacalcc](https://x.com/lambdacalcc), [@_sholtodouglas](https://x.com/_sholtodouglas), [@ziwenxu_](https://x.com/ziwenxu_), [@AI_masaou](https://x.com/AI_masaou), [@AmirMushich](https://x.com/AmirMushich), [@kevin_t_ngo](https://x.com/kevin_t_ngo), [@KHvostikk](https://x.com/KHvostikk), [@GrilliotTodd](https://x.com/GrilliotTodd), [@arena](https://x.com/arena), [@muku_sns](https://x.com/muku_sns), [@Khazix0918](https://x.com/Khazix0918), [@konstantinsaifo](https://x.com/konstantinsaifo), [@dwarkesh_sp](https://x.com/dwarkesh_sp), [@Masimo_Blue](https://x.com/Masimo_Blue), [@mgrczyk](https://x.com/mgrczyk), [@Da7_Tech](https://x.com/Da7_Tech), [@kickingkeys](https://x.com/kickingkeys), [@rileybrown](https://x.com/rileybrown), [@techartist_](https://x.com/techartist_), [@seveibar](https://x.com/seveibar), [@chetanankola](https://x.com/chetanankola), [@vib3coded](https://x.com/vib3coded), [@suna_gaku](https://x.com/suna_gaku), [@MaxXWilliamson](https://x.com/MaxXWilliamson), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@Leviwoyun](https://x.com/Leviwoyun), [@MrTacticalX](https://x.com/MrTacticalX), [@gosrum](https://x.com/gosrum), [@SemiAnalysis_](https://x.com/SemiAnalysis_), [@morganlinton](https://x.com/morganlinton), [@LexnLin](https://x.com/LexnLin), [@xikhar](https://x.com/xikhar), [@elliotarledge](https://x.com/elliotarledge), [@rpnickson](https://x.com/rpnickson), [@bijanbowen](https://x.com/bijanbowen), [@pleometric](https://x.com/pleometric), [@DeryaTR_](https://x.com/DeryaTR_), [@cmonkey](https://x.com/cmonkey), [@chetaslua](https://x.com/chetaslua), [@davelee](https://x.com/davelee), [@oaranda](https://x.com/oaranda), [@petergostev](https://x.com/petergostev), [Vercel](https://vercel.com/), [@TuxSH](https://news.ycombinator.com/user?id=TuxSH), [@jjcm](https://news.ycombinator.com/user?id=jjcm), [Discovered Materials](https://discoveredmaterials.com/), [Artificial Analysis](https://artificialanalysis.ai/), [@popkkksidhd](https://news.ycombinator.com/user?id=popkkksidhd), [@ariwilson](https://news.ycombinator.com/user?id=ariwilson), [@nzach](https://news.ycombinator.com/user?id=nzach), [Senko Rašić](https://senko.net/), [@GMoromisato](https://news.ycombinator.com/user?id=GMoromisato), [@github](https://x.com/github), [@MiaAI_lab](https://x.com/MiaAI_lab), [@sameQCU](https://x.com/sameQCU), [@marouane53](https://x.com/marouane53), [@doodlestein](https://x.com/doodlestein), [@nikitamalyavin](https://news.ycombinator.com/user?id=nikitamalyavin), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@user43928](https://news.ycombinator.com/user?id=user43928), [@simonw](https://news.ycombinator.com/user?id=simonw), [AIBenchy](https://aibenchy.com/), [@fe_yukichi](https://x.com/fe_yukichi), [u/wollymonjac](https://www.reddit.com/user/wollymonjac/), [@lukaspet](https://x.com/lukaspet), [@DJ_HYSNS](https://x.com/DJ_HYSNS), [@joaoavf](https://x.com/joaoavf), [@aimikoda](https://x.com/aimikoda), [@ingi_erlingsson](https://x.com/ingi_erlingsson), [@hanghuang_](https://x.com/hanghuang_), [@MecAgent](https://x.com/MecAgent), [Plotly](https://plotly.com/), [@gdubs](https://news.ycombinator.com/user?id=gdubs), [@nickalaso](https://news.ycombinator.com/user?id=nickalaso), [@tukiyomiiori](https://x.com/tukiyomiiori), [@allTheYud](https://x.com/allTheYud), [@kjjohnsen](https://news.ycombinator.com/user?id=kjjohnsen), [@0_____0](https://news.ycombinator.com/user?id=0_____0), [@mmahemoff](https://news.ycombinator.com/user?id=mmahemoff), [@DeepOntology](https://news.ycombinator.com/user?id=DeepOntology)

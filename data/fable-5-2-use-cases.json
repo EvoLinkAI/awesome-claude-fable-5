@@ -2,9 +2,9 @@
   "schema_version": 1,
   "model": "Claude Fable 5.2",
   "first_case": 330,
-  "last_case": 468,
-  "case_count": 139,
-  "updated_at": "2026-11-10",
+  "last_case": 489,
+  "case_count": 160,
+  "updated_at": "2026-11-14",
   "cases": [
     {
       "type": "Benchmark",
@@ -5451,6 +5451,748 @@
       "public_media_disposition": "source-text",
       "r2_media_urls": [],
       "number": 468
+    },
+    {
+      "source_id": "2121390458572333253",
+      "source_url": "https://x.com/seiiiiiiiiiiru/status/2121390458572333253",
+      "author_handle": "@seiiiiiiiiiiru",
+      "author_url": "https://x.com/seiiiiiiiiiiru",
+      "date": "2026-11-13",
+      "title": "An App for Previewing Animated Characters",
+      "takeaway": "Ask Fable to turn repetitive asset checks into an interface.",
+      "body_notes": "The creator says they brought Fable 5.2 in as an adviser and it turned an inefficient workflow into an app. The recording shows motion presets, background controls, and GLB and transparent PNG export controls for a 3D character.",
+      "type": "Demo",
+      "category": "integrations-and-tools",
+      "dedup_key": "https://x.com/seiiiiiiiiiiru/status/2121390458572333253",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": false,
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2121389751051894784",
+          "source_url": "https://video.twimg.com/amplify_video/2121389751051894784/vid/avc1/1436x720/tg7K1XcYUyhOv4qA.mp4?tag=29",
+          "source_post_url": "https://x.com/i/status/2121390458572333253",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/776670eda35fbabbf1c63663.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/ce514e99465c257220ee9bf7.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2121389751051894784/vid/avc1/1436x720/tg7K1XcYUyhOv4qA.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "supporting_links": [],
+      "r2_media_urls": [],
+      "number": 469,
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/776670eda35fbabbf1c63663.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/ce514e99465c257220ee9bf7.mp4"
+    },
+    {
+      "source_id": "2121376853474578625",
+      "source_url": "https://x.com/AdamHoltererer/status/2121376853474578625",
+      "author_handle": "@AdamHoltererer",
+      "author_url": "https://x.com/AdamHoltererer",
+      "date": "2026-11-13",
+      "title": "Testing a Tool-Free QR Code",
+      "takeaway": "Decode the produced QR image before counting the attempt as a success.",
+      "body_notes": "Adam Holter attributes the QR demonstration to Fable 5.2, Astra, and Sol and reports that no tools were used. A local scan of the attached image confirmed that it encodes MADE WITHOUT TOOLS. The scan confirms the payload.",
+      "type": "Evaluation",
+      "category": "evaluations-comparisons-and-limits",
+      "dedup_key": "https://x.com/AdamHoltererer/status/2121376853474578625",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": false,
+      "media": [
+        {
+          "kind": "image",
+          "native_media_id": "2121376779474493440",
+          "source_url": "https://pbs.twimg.com/media/HXCk8P9W4AAet3v.png",
+          "source_post_url": "https://x.com/i/status/2121376853474578625",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/d3833f006038158569c9816d.png"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HXCk8P9W4AAet3v.png"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "image",
+      "public_media_disposition": "r2-image",
+      "supporting_links": [],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/d3833f006038158569c9816d.png"
+      ],
+      "number": 470
+    },
+    {
+      "source_id": "2121375714192814554",
+      "source_url": "https://x.com/fe_yukichi/status/2121375714192814554",
+      "author_handle": "@fe_yukichi",
+      "author_url": "https://x.com/fe_yukichi",
+      "date": "2026-11-13",
+      "title": "A Unity Zombie Game with Tripo",
+      "takeaway": "Use a shared asset pipeline to build a roster of playable characters.",
+      "body_notes": "In a disclosed Tripo partnership, the creator says they used Tripo Agentic Canvas to produce eight player characters and sixteen zombie variants for a Unity game made with Fable 5.2. The video shows character selection and gameplay, and the creator provides a desktop browser build.",
+      "type": "Demo",
+      "category": "games-and-interactive-demos",
+      "dedup_key": "https://x.com/fe_yukichi/status/2121375714192814554",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": false,
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2121373876806680576",
+          "source_url": "https://video.twimg.com/amplify_video/2121373876806680576/vid/avc1/1286x720/AwkKZFOl00F8pNlu.mp4?tag=29",
+          "source_post_url": "https://x.com/i/status/2121375714192814554",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/0fa0715e64f91ab69725599e.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/055f505803b769bb8b24a54e.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2121373876806680576/vid/avc1/1286x720/AwkKZFOl00F8pNlu.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "supporting_links": [
+        "https://tsukiyo-zombie.pages.dev/"
+      ],
+      "r2_media_urls": [],
+      "number": 471,
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/0fa0715e64f91ab69725599e.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/055f505803b769bb8b24a54e.mp4"
+    },
+    {
+      "source_id": "2121373793599869213",
+      "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1xvghd1/fable_52_painting_in_ms_paint/",
+      "author_handle": "u/wollymonjac",
+      "author_url": "https://www.reddit.com/user/wollymonjac/",
+      "date": "2026-11-13",
+      "title": "Painting a Snowy Street in MS Paint",
+      "takeaway": "Use a screen recording to evaluate direct mouse control over a long task.",
+      "body_notes": "The Reddit creator says Fable 5.2 painted a snowy street in MS Paint with the mouse in about two and a half hours. The linked X repost supplies a recording of the same scene.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://www.reddit.com/r/ClaudeAI/comments/1xvghd1/fable_52_painting_in_ms_paint/",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": false,
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2121368482818215936",
+          "source_url": "https://video.twimg.com/amplify_video/2121368482818215936/vid/avc1/1116x720/-F13eOPS_gkAopai.mp4?tag=29",
+          "source_post_url": "https://x.com/i/status/2121373793599869213",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/e7af823e10ef2135adec2154.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/10ad84001f4c682c5343846c.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2121368482818215936/vid/avc1/1116x720/-F13eOPS_gkAopai.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "supporting_links": [
+        "https://x.com/i/status/2121373793599869213"
+      ],
+      "r2_media_urls": [],
+      "number": 472,
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/e7af823e10ef2135adec2154.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/10ad84001f4c682c5343846c.mp4"
+    },
+    {
+      "source_id": "2121371593943466167",
+      "source_url": "https://x.com/lukaspet/status/2121371593943466167",
+      "author_handle": "@lukaspet",
+      "author_url": "https://x.com/lukaspet",
+      "date": "2026-11-13",
+      "title": "A Missed Outlet Connection in Wojak-Bench",
+      "takeaway": "Check whether a generated 3D assembly matches the reference at each connection.",
+      "body_notes": "The author reports that Fable 5.2 failed to connect the cord to the outlet in this Wojak-Bench task. The source image places a photographed 3D result next to the reference drawing.",
+      "type": "Limit",
+      "category": "evaluations-comparisons-and-limits",
+      "dedup_key": "https://x.com/lukaspet/status/2121371593943466167",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": false,
+      "media": [
+        {
+          "kind": "image",
+          "native_media_id": "2121371504600604672",
+          "source_url": "https://pbs.twimg.com/media/HXCgJNha4AADbOh.jpg",
+          "source_post_url": "https://x.com/i/status/2121371593943466167",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/e509db79b2e79fcc2d6beda1.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HXCgJNha4AADbOh.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "image",
+      "public_media_disposition": "r2-image",
+      "supporting_links": [],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/e509db79b2e79fcc2d6beda1.jpg"
+      ],
+      "number": 473
+    },
+    {
+      "source_id": "2121367353237942287",
+      "source_url": "https://x.com/DJ_HYSNS/status/2121367353237942287",
+      "author_handle": "@DJ_HYSNS",
+      "author_url": "https://x.com/DJ_HYSNS",
+      "date": "2026-11-13",
+      "title": "A Piano Arrangement for a Rhythm Game",
+      "takeaway": "Check playability and production controls when asking a model to compose.",
+      "body_notes": "The author asked for rhythm-game music and switched to solo piano after reporting difficulty getting the model to select VST sounds and mix. The clip shows the resulting piano roll. The author says the piece exceeded the requested human playability constraint.",
+      "type": "Evaluation",
+      "category": "evaluations-comparisons-and-limits",
+      "dedup_key": "https://x.com/DJ_HYSNS/status/2121367353237942287",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": false,
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2121365473237618688",
+          "source_url": "https://video.twimg.com/amplify_video/2121365473237618688/vid/avc1/640x360/kCzz27Gkfc94ZDSs.mp4?tag=14",
+          "source_post_url": "https://x.com/i/status/2121367353237942287",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/9faa77e2e9ba2ec99be995a7.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/d016f48687e0c8e6cf810812.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2121365473237618688/vid/avc1/640x360/kCzz27Gkfc94ZDSs.mp4?tag=14"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "supporting_links": [],
+      "r2_media_urls": [],
+      "number": 474,
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/9faa77e2e9ba2ec99be995a7.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/d016f48687e0c8e6cf810812.mp4"
+    },
+    {
+      "source_id": "2121366491321057717",
+      "source_url": "https://x.com/joaoavf/status/2121366491321057717",
+      "author_handle": "@joaoavf",
+      "author_url": "https://x.com/joaoavf",
+      "date": "2026-11-13",
+      "title": "Redesigning Picnic’s Token Recovery Flow",
+      "takeaway": "Use interface mockups to compare states in an unsupported-token recovery flow.",
+      "body_notes": "The author says one or two Fable 5.2 prompts produced a redesign for recovering tokens that Picnic does not support. The attached image shows multiple screens in the proposed flow.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/joaoavf/status/2121366491321057717",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": false,
+      "media": [
+        {
+          "kind": "image",
+          "native_media_id": "2121366260654972928",
+          "source_url": "https://pbs.twimg.com/media/HXCbX-TWoAAAIPH.jpg",
+          "source_post_url": "https://x.com/i/status/2121366491321057717",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/551612796f4150a43b190ee3.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HXCbX-TWoAAAIPH.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "image",
+      "public_media_disposition": "r2-image",
+      "supporting_links": [],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/551612796f4150a43b190ee3.jpg"
+      ],
+      "number": 475
+    },
+    {
+      "source_id": "2121362621274177726",
+      "source_url": "https://x.com/aimikoda/status/2121362621274177726",
+      "author_handle": "@aimikoda",
+      "author_url": "https://x.com/aimikoda",
+      "date": "2026-11-13",
+      "title": "Editing an Anime Opening from Generated Clips",
+      "takeaway": "Give Fable the clips, the soundtrack, and explicit instructions for cuts on the beat.",
+      "body_notes": "The creator combined MiniMax H3 footage and a Suno v6 track with Fable 5.2 Medium for the edit. The posted result includes animated pixel-art characters and transitions. The original Fable editing prompt accompanies the example.",
+      "type": "Tutorial",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/aimikoda/status/2121362621274177726",
+      "prompts": [
+        "Using these clips and the song, create a highly polished, professional anime opening / music video (MV) edit, perfectly synchronized with the music's beats and rhythm.\nIncorporate dynamic kinetic typography, creative transitions, stylish visual effects, speed ramps, match cuts and impactful beat-synced editing.\nDesign pixel-art versions of the characters and animate them dancing to the music. Get creative with different visual styles, motion graphics and playful sequences while maintaining a cohesive anime opening aesthetic.\nCarefully review all the footage and select only the best moments. Trim and rearrange the clips to match the song's energy, pacing and emotional progression. Avoid any frames with incorrect anatomy, awkward poses, visual glitches or animation errors.\nMake the final result feel like a professionally directed, high-budget anime opening with exceptional timing, seamless transitions, strong visual storytelling and meticulous attention to detail."
+      ],
+      "prompt_boundary": "public-exact",
+      "text_only": false,
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2121362055395434496",
+          "source_url": "https://video.twimg.com/amplify_video/2121362055395434496/vid/avc1/1280x720/J4qffV4q8UrIurNb.mp4?tag=29",
+          "source_post_url": "https://x.com/i/status/2121362621274177726",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/cb65344e413d2bd340406d59.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/e3ab28061669d84818042ee0.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2121362055395434496/vid/avc1/1280x720/J4qffV4q8UrIurNb.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "supporting_links": [],
+      "r2_media_urls": [],
+      "number": 476,
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/cb65344e413d2bd340406d59.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/e3ab28061669d84818042ee0.mp4"
+    },
+    {
+      "source_id": "2121361947446677797",
+      "source_url": "https://x.com/ingi_erlingsson/status/2121361947446677797",
+      "author_handle": "@ingi_erlingsson",
+      "author_url": "https://x.com/ingi_erlingsson",
+      "date": "2026-11-13",
+      "title": "A Character Animation Across Three Tools",
+      "takeaway": "Compare the source GIF with the animation after the Fable and ComfyUI steps.",
+      "body_notes": "The author lists a GPT Image 2.6 GIF as the input, followed by Fable 5.2 and ComfyUI. The attached clip shows a changing character head with a rotating view.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/ingi_erlingsson/status/2121361947446677797",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": false,
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2121361296088014848",
+          "source_url": "https://video.twimg.com/amplify_video/2121361296088014848/vid/avc1/720x720/Xp9tatdAPe_bzRqh.mp4?tag=29",
+          "source_post_url": "https://x.com/i/status/2121361947446677797",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/391924750cd0641254cb114f.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/69a3410b7b2dcdb14ee6c5d1.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2121361296088014848/vid/avc1/720x720/Xp9tatdAPe_bzRqh.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "supporting_links": [],
+      "r2_media_urls": [],
+      "number": 477,
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/391924750cd0641254cb114f.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/69a3410b7b2dcdb14ee6c5d1.mp4"
+    },
+    {
+      "source_id": "2121361932456427644",
+      "source_url": "https://x.com/hanghuang_/status/2121361932456427644",
+      "author_handle": "@hanghuang_",
+      "author_url": "https://x.com/hanghuang_",
+      "date": "2026-11-13",
+      "title": "Rendering a City Trailer with Blender Scripts",
+      "takeaway": "Break a city trailer into scene, character, vehicle, and render work.",
+      "body_notes": "The creator reports that Fable 5.2 planned a game-style trailer and wrote Blender code for a city, a character, and a car. The creator says seven rented GPUs rendered the 4K result. The posted video shows the finished shots.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/hanghuang_/status/2121361932456427644",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": false,
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2121346792159879168",
+          "source_url": "https://video.twimg.com/amplify_video/2121346792159879168/vid/avc1/1280x720/6P-ua5vEwhmus2hE.mp4?tag=29",
+          "source_post_url": "https://x.com/i/status/2121361932456427644",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/d10c5d322edba010282a60d0.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/0e5170c057eecd328b178fe3.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2121346792159879168/vid/avc1/1280x720/6P-ua5vEwhmus2hE.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "supporting_links": [],
+      "r2_media_urls": [],
+      "number": 478,
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/d10c5d322edba010282a60d0.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/0e5170c057eecd328b178fe3.mp4"
+    },
+    {
+      "source_id": "2121356668311384487",
+      "source_url": "https://x.com/kloss_xyz/status/2121356668311384487",
+      "author_handle": "@kloss_xyz",
+      "author_url": "https://x.com/kloss_xyz",
+      "date": "2026-11-13",
+      "title": "Drawing Night Scenes with JavaScript",
+      "takeaway": "Review several finished frames when evaluating code-generated illustration.",
+      "body_notes": "The author credits Fable 5.2 with drawing four posted illustrations in JavaScript. The attachments show stylized night scenes and provide the visual outputs for comparison.",
+      "type": "Demo",
+      "category": "visual-design-video-and-3d",
+      "dedup_key": "https://x.com/kloss_xyz/status/2121356668311384487",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": false,
+      "media": [
+        {
+          "kind": "image",
+          "native_media_id": "2121356663148171264",
+          "source_url": "https://pbs.twimg.com/media/HXCSpUza0AARoD4.jpg",
+          "source_post_url": "https://x.com/i/status/2121356668311384487",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/6e9d554b17822715f07d3be8.jpg"
+        },
+        {
+          "kind": "image",
+          "native_media_id": "2121356663131361281",
+          "source_url": "https://pbs.twimg.com/media/HXCSpUvaUAEe-UK.jpg",
+          "source_post_url": "https://x.com/i/status/2121356668311384487",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/f57db49bb8213cc6ca4bcafe.jpg"
+        },
+        {
+          "kind": "image",
+          "native_media_id": "2121356663127265280",
+          "source_url": "https://pbs.twimg.com/media/HXCSpUub0AAgkrB.jpg",
+          "source_post_url": "https://x.com/i/status/2121356668311384487",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/2933b30de09501dbbb7e1505.jpg"
+        },
+        {
+          "kind": "image",
+          "native_media_id": "2121356663139831808",
+          "source_url": "https://pbs.twimg.com/media/HXCSpUxbkAArPC7.jpg",
+          "source_post_url": "https://x.com/i/status/2121356668311384487",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/490e5952694322b7963be8e2.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HXCSpUza0AARoD4.jpg",
+        "https://pbs.twimg.com/media/HXCSpUvaUAEe-UK.jpg",
+        "https://pbs.twimg.com/media/HXCSpUub0AAgkrB.jpg",
+        "https://pbs.twimg.com/media/HXCSpUxbkAArPC7.jpg"
+      ],
+      "source_media_count": 4,
+      "expected_public_visual_count": 4,
+      "media_type": "image",
+      "public_media_disposition": "r2-image",
+      "supporting_links": [],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/6e9d554b17822715f07d3be8.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/f57db49bb8213cc6ca4bcafe.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/2933b30de09501dbbb7e1505.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/490e5952694322b7963be8e2.jpg"
+      ],
+      "number": 479
+    },
+    {
+      "source_id": "2121352868490100787",
+      "source_url": "https://x.com/MecAgent/status/2121352868490100787",
+      "author_handle": "@MecAgent",
+      "author_url": "https://x.com/MecAgent",
+      "date": "2026-11-13",
+      "title": "Turning CAD Models into Engineering Drawings",
+      "takeaway": "Inspect views, dimensions, and annotations against the original CAD model.",
+      "body_notes": "MecAgent’s own demo shows engineering drawing sheets with multiple views and annotations and credits the conversion to Fable 5.2. The clip shows the drawing outputs. Dimensional accuracy would need to be checked against the CAD files.",
+      "type": "Demo",
+      "category": "integrations-and-tools",
+      "dedup_key": "https://x.com/MecAgent/status/2121352868490100787",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": false,
+      "media": [
+        {
+          "kind": "video",
+          "native_media_id": "2121352681512210432",
+          "source_url": "https://video.twimg.com/amplify_video/2121352681512210432/vid/avc1/1280x720/L9W9AoJ0IVBZqlCF.mp4?tag=29",
+          "source_post_url": "https://x.com/i/status/2121352868490100787",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/780dc65cb1b04f7a75e27ace.jpg",
+          "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/5ce59334e405a279e1008bf0.mp4"
+        }
+      ],
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2121352681512210432/vid/avc1/1280x720/L9W9AoJ0IVBZqlCF.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "video",
+      "public_media_disposition": "r2-video",
+      "supporting_links": [],
+      "r2_media_urls": [],
+      "number": 480,
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/780dc65cb1b04f7a75e27ace.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/5ce59334e405a279e1008bf0.mp4"
+    },
+    {
+      "source_id": "50485733",
+      "source_url": "https://plotly.com/blog/gemini-4-hydrogen-plotly-data-analytics-bench/",
+      "author_handle": "Plotly",
+      "author_url": "https://plotly.com/",
+      "date": "2026-11-12",
+      "title": "Scoring 43 Tasks on Plotly’s Analytics Exam",
+      "takeaway": "Compare accuracy and run cost under the same analytics test harness.",
+      "body_notes": "Plotly’s report places Fable 5.2 among four models that passed all 43 questions, including all five hidden-pattern tasks. The publisher cautions that one run per model is a single sample. The chart reports the benchmark’s cost and accuracy.",
+      "type": "Benchmark",
+      "category": "evaluations-comparisons-and-limits",
+      "dedup_key": "https://plotly.com/blog/gemini-4-hydrogen-plotly-data-analytics-bench/",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": false,
+      "media": [
+        {
+          "kind": "image",
+          "native_media_id": "45-official",
+          "source_url": "https://plotly.com/cms/img/8xJG4uTor7Pof4zj_gemini-4-hydrogen-frontier.png?auto=compress&fm=webp",
+          "source_post_url": "https://plotly.com/blog/gemini-4-hydrogen-plotly-data-analytics-bench/",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/50882a17db12bede9165a92d.webp"
+        }
+      ],
+      "source_media_urls": [
+        "https://plotly.com/cms/img/8xJG4uTor7Pof4zj_gemini-4-hydrogen-frontier.png?auto=compress&fm=webp"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "image",
+      "public_media_disposition": "r2-image",
+      "supporting_links": [
+        "https://news.ycombinator.com/item?id=50485733"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/50882a17db12bede9165a92d.webp"
+      ],
+      "number": 481
+    },
+    {
+      "source_id": "50476597",
+      "source_url": "https://news.ycombinator.com/item?id=50476597",
+      "author_handle": "@gdubs",
+      "author_url": "https://news.ycombinator.com/user?id=gdubs",
+      "date": "2026-11-13",
+      "title": "Recreating an SGI Indy as a Website",
+      "takeaway": "Use an interactive reconstruction to explore how a physical workstation can become a website.",
+      "body_notes": "Gregory Wieber credits Fable 5.2 with reworking his site as a 1990s Silicon Graphics Indy. The published demo presents a 3D workstation with a login, a 3D file system, and the Soft Break game.",
+      "type": "Demo",
+      "category": "games-and-interactive-demos",
+      "dedup_key": "https://news.ycombinator.com/item?id=50476597",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": false,
+      "media": [
+        {
+          "kind": "image",
+          "native_media_id": "55-official",
+          "source_url": "https://gregorywieber.com/indy/assets/og.jpg",
+          "source_post_url": "https://gregorywieber.com/indy/",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/74b80686867b920881164246.jpg"
+        }
+      ],
+      "source_media_urls": [
+        "https://gregorywieber.com/indy/assets/og.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "media_type": "image",
+      "public_media_disposition": "r2-image",
+      "supporting_links": [
+        "https://gregorywieber.com/indy/"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/fable-5-2/2026-11-14/74b80686867b920881164246.jpg"
+      ],
+      "number": 482
+    },
+    {
+      "source_id": "50493545",
+      "source_url": "https://news.ycombinator.com/item?id=50493545",
+      "author_handle": "@nickalaso",
+      "author_url": "https://news.ycombinator.com/user?id=nickalaso",
+      "date": "2026-11-14",
+      "title": "Coordinating Agents with Issues and Worktrees",
+      "takeaway": "Use issues for assignment and worktrees and pull requests to isolate changes.",
+      "body_notes": "The author reports using Fable 5.2 as the lead coordinator, Opus as sub-coordinators, and a custom MCP server to start workers from several providers. They use GitHub issues to track work and worktrees and pull requests to avoid collisions.",
+      "type": "Integration",
+      "category": "integrations-and-tools",
+      "dedup_key": "https://news.ycombinator.com/item?id=50493545",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": true,
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "media_type": "none",
+      "public_media_disposition": "none",
+      "supporting_links": [],
+      "r2_media_urls": [],
+      "number": 483
+    },
+    {
+      "source_id": "2121368478364192930",
+      "source_url": "https://x.com/tukiyomiiori/status/2121368478364192930",
+      "author_handle": "@tukiyomiiori",
+      "author_url": "https://x.com/tukiyomiiori",
+      "date": "2026-11-13",
+      "title": "Checking Citations with Background Workers",
+      "takeaway": "Delegate citation checks and inspect when the main session resumes.",
+      "body_notes": "The author reports asking Fable 5.2 to check cited papers using subagents and background scripts. They observed the Claude Code session yielding while work ran and being woken when the workers or scripts stopped.",
+      "type": "Integration",
+      "category": "integrations-and-tools",
+      "dedup_key": "https://x.com/tukiyomiiori/status/2121368478364192930",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": true,
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "media_type": "none",
+      "public_media_disposition": "none",
+      "supporting_links": [],
+      "r2_media_urls": [],
+      "number": 484
+    },
+    {
+      "source_id": "2121360145921998877",
+      "source_url": "https://x.com/allTheYud/status/2121360145921998877",
+      "author_handle": "@allTheYud",
+      "author_url": "https://x.com/allTheYud",
+      "date": "2026-11-13",
+      "title": "Debugging a Round-Trip Freight Price Model",
+      "takeaway": "Check whether a model assigns marginal costs correctly on the return leg.",
+      "body_notes": "In a two-way freight simulation, the author reports that Fable 5.2 charged one leg for fuel in both directions while treating the other as marginal, even though the vessel had to return. The author needed repeated debugging to address this kind of mistake.",
+      "type": "Limit",
+      "category": "evaluations-comparisons-and-limits",
+      "dedup_key": "https://x.com/allTheYud/status/2121360145921998877",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": true,
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "media_type": "none",
+      "public_media_disposition": "none",
+      "supporting_links": [],
+      "r2_media_urls": [],
+      "number": 485
+    },
+    {
+      "source_id": "50482710",
+      "source_url": "https://news.ycombinator.com/item?id=50482710",
+      "author_handle": "@kjjohnsen",
+      "author_url": "https://news.ycombinator.com/user?id=kjjohnsen",
+      "date": "2026-11-13",
+      "title": "Adapting an Edge0 Inference Setup for Mac",
+      "takeaway": "Ask for platform changes, then test inference on the target machine.",
+      "body_notes": "In an Edge0-145B discussion, a commenter says they asked Fable 5.2 for a Mac-compatible version and made a few tweaks. They report about 50 tokens per second on an M5 Max with NVFP4 in their own setup.",
+      "type": "Integration",
+      "category": "coding-and-code-generation",
+      "dedup_key": "https://news.ycombinator.com/item?id=50482710",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": true,
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "media_type": "none",
+      "public_media_disposition": "none",
+      "supporting_links": [
+        "https://news.ycombinator.com/item?id=50475713"
+      ],
+      "r2_media_urls": [],
+      "number": 486
+    },
+    {
+      "source_id": "50478759",
+      "source_url": "https://news.ycombinator.com/item?id=50478759",
+      "author_handle": "@0_____0",
+      "author_url": "https://news.ycombinator.com/user?id=0_____0",
+      "date": "2026-11-13",
+      "title": "Reviewing Dense Circuit Board Layouts",
+      "takeaway": "Check placement and component choices against board performance requirements.",
+      "body_notes": "A Hacker News commenter tried Fable 5.2 on placement and routing for several boards. They report that a dense layout looked promising at first, but meeting their requirements called for major placement changes and manually redrawing most of the schematic.",
+      "type": "Limit",
+      "category": "evaluations-comparisons-and-limits",
+      "dedup_key": "https://news.ycombinator.com/item?id=50478759",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": true,
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "media_type": "none",
+      "public_media_disposition": "none",
+      "supporting_links": [],
+      "r2_media_urls": [],
+      "number": 487
+    },
+    {
+      "source_id": "50478191",
+      "source_url": "https://news.ycombinator.com/item?id=50478191",
+      "author_handle": "@mmahemoff",
+      "author_url": "https://news.ycombinator.com/user?id=mmahemoff",
+      "date": "2026-11-13",
+      "title": "Tracing a Citation Behind a Newspaper Paywall",
+      "takeaway": "Keep a proposed attribution provisional until the original text can be checked.",
+      "body_notes": "A Hacker News commenter traced an attribution to a 1985 Dallas Morning News story cited by a linguistics mailing list. They say Fable 5.2 could not open the full article and suggested a possible reporter and context. The attribution still awaits the original text.",
+      "type": "Limit",
+      "category": "evaluations-comparisons-and-limits",
+      "dedup_key": "https://news.ycombinator.com/item?id=50478191",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": true,
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "media_type": "none",
+      "public_media_disposition": "none",
+      "supporting_links": [
+        "https://listserv.linguistlist.org/pipermail/ads-l/2003-September/033575.html"
+      ],
+      "r2_media_urls": [],
+      "number": 488
+    },
+    {
+      "source_id": "50477200",
+      "source_url": "https://news.ycombinator.com/item?id=50477200",
+      "author_handle": "@DeepOntology",
+      "author_url": "https://news.ycombinator.com/user?id=DeepOntology",
+      "date": "2026-11-13",
+      "title": "Planning with Fable and Reviewing Opus Changes",
+      "takeaway": "Approve a written plan, divide implementation into lanes, and verify changes in CI and staging.",
+      "body_notes": "The author shares a workflow they say they used on large codebases. Fable 5.2 plans, Opus 5.5 subagents implement and review, CI guards test coverage, and a staging checklist guides manual verification.",
+      "type": "Tutorial",
+      "category": "coding-and-code-generation",
+      "dedup_key": "https://news.ycombinator.com/item?id=50477200",
+      "prompts": [],
+      "prompt_boundary": "no-exact-public-prompt",
+      "text_only": true,
+      "media": [],
+      "source_media_urls": [],
+      "source_media_count": 0,
+      "expected_public_visual_count": 0,
+      "media_type": "none",
+      "public_media_disposition": "none",
+      "supporting_links": [],
+      "r2_media_urls": [],
+      "number": 489
     }
   ]
 }

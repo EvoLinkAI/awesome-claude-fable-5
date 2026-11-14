@@ -1,8 +1,8 @@
 # Claude Fable 5.2 Kullanım Örnekleri
 
-**[139 Fable 5.2 örneğini inceleyin](docs/fable-5-2/README_tr.md)**
+**[160 Fable 5.2 örneğini inceleyin](docs/fable-5-2/README_tr.md)**
 
-10 Kasım derlemesinden kaynak bağlantılarıyla iş akışları, demolar, karşılaştırmalar, değerlendirmeler, entegrasyonlar ve kullanım sınırları.
+10 Kasım ve 13–14 Kasım derlemelerindeki iş akışları, demolar, karşılaştırmalar, kıyaslama testleri, entegrasyonlar ve kullanımda karşılaşılan sınırlar, kaynak bağlantılarıyla birlikte.
 
 ## Önceki Fable Örnekleri
 

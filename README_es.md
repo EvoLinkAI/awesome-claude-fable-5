@@ -1,8 +1,8 @@
 # Casos de uso de Claude Fable 5.2
 
-**[Explora 139 casos de Fable 5.2](docs/fable-5-2/README_es.md)**
+**[Explora 160 casos de Fable 5.2](docs/fable-5-2/README_es.md)**
 
-Flujos de trabajo, demos, comparaciones, evaluaciones, integraciones y límites prácticos recopilados el 10 de noviembre, con enlaces a las fuentes.
+Flujos de trabajo, demostraciones, comparaciones, evaluaciones, integraciones y límites prácticos de las recopilaciones del 10 y del 13–14 de noviembre, con enlaces a las fuentes.
 
 ## Casos anteriores de Fable
 

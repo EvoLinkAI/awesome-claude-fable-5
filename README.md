@@ -1,8 +1,8 @@
 # Claude Fable 5.2 Use Cases
 
-**[Browse 139 Fable 5.2 cases](docs/fable-5-2/README.md)**
+**[Browse 160 Fable 5.2 cases](docs/fable-5-2/README.md)**
 
-Source-linked workflows, demos, comparisons, benchmarks, integrations, and practical limitations from the November 10 collection.
+Source-linked workflows, demos, comparisons, benchmarks, integrations, and practical limitations from the November 10 and November 13–14 collections.
 
 ## Earlier Fable Cases
 
